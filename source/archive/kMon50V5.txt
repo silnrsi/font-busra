@@ -1,0 +1,134 @@
+﻿kMon50V7 Khmer Busra
+
+Italics shift R=-200 B=-230 ALL char (except doubles). Italics angle -16. Decompose and deselect shared codes 2b,3b,ad,af,b5,b7,2c1. merge, slant, shift, reverse, extremes, tt, discard master
+'Busra Bunong' has asc 2400 and desc -830. 
+'Busra high' has asc 2900 and desc -1750.
+For V: -450, +2230/2000
+To do: another version of ie-rightarm to go with coeng-lo
+
+27.12.19 Version 8 has all characters for Vietnamese added: 0128,0129,0168,0169,1ea0-1ef9 and some of the chars from 00c0-00fd modified. Bold was done in Jan 2020.
+
+11.4.19 OT: modified the phonetic attachments for 40, 50, 60 and 80.
+9.4.19 GR: Lowered 17D0 after high consonants.
+8.4.19 OT: Lowered 17D0 over vowels and diacritics above 17cc in Busra bold and diacritics above 17cc in regular.
+5.4.19 Propagated the changes in VOLT to 40, 50, 60, 80, Yeaklom (summarized again) now called '*E8.vtp':
+1. remove 17a2 from base_triisapshift - reversed this again 12.4.
+2. add the following line to PHSOM lookup: uni1795 uni17D2179F uni200C uni17CA uni17B6 uni17C6 -> uni17C6.ms.psom
+3. add 'Conjunct Form After Ro <cfar>' feature.
+4. add lookup: belowcoeng-after-ro: place before coeng-to-ro, add to cfar
+5. add lookup: coeng_after_coeng-ro: place last, after Center_after_17C0_2. add to blwm
+6. modify Remove-200D, make sure it is in blwf and abvs
+7. add lookup remove-200CD-RS, place in abvs
+8. add lookup reg-shift-200D, place in abvs
+9. Order of lookups: reg-shift-triisap2, reg-shift-200D, Remove-200D, remove-200CD-RS
+
+
+4.4.19 Removed QA from base_triisapshift in OT, because in the text of the intro to Chuon Nath it is said that it should stay above. Also changed in GR and AAT.
+Shifting Busra italics glyphs ALL (apart from the 6 doubles) 200 to the left.
+In Busra and Busra bold: Adjusted width of 17e0-e9, U+19e0-19ff to be the same in bold as in regular; for 19e0-ff some changes in both fonts to make them more consistent.
+3.4.19 KhmerNew.gdl For Graphite: aligned zwj/zwnj behavior with OT & AAt, including permitting them after register shifters directly preceding vowels, now permit coengs after coeng-ro. AAT: permit zwnj in psom.
+2.4.19 Busrax: modifed OT rules: belowcoeng-after-ro, Remove-200D, added remove-200CD-RS and reg-shift-200D, the latter 2 both in abvs.
+29.3.19 Busrax: OT: Added "Conjunct Form After Ro <cfar>" feature based on email from Oliver Berten in didimimik 07/06/18. Added the new lookup belowcoeng-after-ro to that feature and the new positioning lookup to blwm. WORKS!
+Added "uni1795 uni17D2179F uni200C uni17CA uni17B6 uni17C6 -> uni17C6.ms.psom" to PHSOM-triisap-am lookup.
+
+28.3.19 Created Khmer Yeaklom based on xBusra regular: based on email by Eric Pawley from 22.3.19: 
+	space width set to 512,
+	changed uni17d4.alt2 to have with sp the same width and position as uni17d4
+	reduced right margin on uni17c7 from 226 to 113
+	OT/VOLT: Removed stylistic set 18 from both khmr and latn (probably a mistake that it is located here!), and moved Tampuan-17D0 and CS5_17C6 to the new feature 'default processing'. Saved project separately for Yeaklom only.
+	Graphite: left as it was.
+Martin: Under font features PT askes for a 'Font language' where does that come from, the OT or the Graphite. If from Graphite, how is that defined?
+
+22.11.15 noticed that all glyphs with multiple codepoints had been italicised twice in the italics fonts. Repaired 50i/bi, changed version to 7.101
+
+Two strange things: In Graide the following displays correctly in italics: ក្ស្ម, in Worldpad it does not, in PT in italics the lower glyph gets cut of, but seems to be placed right, but in regular it is not cut off.
+
+15.11.15: created "Khmer Busra XR" with a space that has the width 1000 instead of 1455, for trial in xrefs with RAPUMA typesetting of NT.
+
+13.5.15: created separate 'Khmer Busra And' font for use with Android 4.x. In this font the colon ':' has been replaced with the Khmer sign 17C8 because Android 4.x does not permit 17C8 following 17DD. This slightly impacts Scripture references, but possibly positively. It might affect some Roman text negatively. This font has only OT tables.
+
+08-14
+activated kern_punctuation (again? no idea why it was off) - but does not work with current usp10
+deleted uni17BB.low from below_multiple for Bunong font, because Indesign 5 does not handle anchor attachments.
+
+07-14
+modified uni17D2178B to have a sharper corner top left, both regular and bold
+modified uni17D21792 to be like in the other fonts: middle and end both closed
+
+12.10.13 Bold: changed ba-a lig (wider) 
+increased size of loop in all coengs that have one
+10-10-13 Bold: changed period and 17d1
+
+20.4.13
+BOLD: Copied vtp from '50' and change all positionings.
+BOLD: Enlarged existing loop in coeng-chha and added another.
+BOLD: Changed ba-a ligs
+
+31.1.13
+BOLD: enlarged little hole in ngo and sra-y, to/la, all loops on down-strokes
+
+---------------
+17bb moved
+narrowed 17D217AB/C
+moved uni17C6.a to go over 17C7
+17d1 made as wide as Ka and lifted 40
+
+
+kMon50V5 Khmer Busra
+
+In a 'strict' font version 17BB+17D0(Samyuk) should probably be forbidden.
+
+FLglpyhBuilder:
+yes, I think so, if you set <advance> within the glyph defn
+so <glyph name="fredcombined"><base name="afred"><attach name="freda" at="U" with="_U"/></base><advance x="423"/></glyph>
+but I can't remember if FLGlyphBuilder supports that
+
+10-11-12
+Increased descender by 40.
+changed position of coeng mo to line up with the left corner of the right stem of Ka.
+added narrow-gap-base positioning for coeng under 1781 178C 1791 and new group uni17A7_et_al
+added uni178C to Base_centered_above75, removed from Centered_above lookup, removed 1793
+removed lift_marks_after_triisap from features
+modified coeng-ro.lowwide/lowwide2s
+Made loop of coeng-mo bigger
+Reduced height of 17BB.low to increase gap above
+Modified uni17BD.low
+A number of small modifications on some glyphs, e.g. 17CF, D21785 d21786 d21798.
+Changed ro/vo coeng attachment by -20.
+Changed Do.
+above-marks-centered: removed 17ca
+
+
+16-6-11
+renamed look-up 'regshift-coeng-post' to 'coeng-post-narrow-C6-C9', added support for uni17BB before 17C6 to correct positioning
+
+11-05-11 
+modified lookup 'ligatures': drop coengs by 100 after ba-a
+added look-up Coeng-ro_To_below-vowel to move 17BC/17BD after 'coeng-ro - To'
+(font 99 changed to drop 17BB-BD by default)
+
+10-12-22 created E7 on request from A Carson
+muusikatoan-robat-200C:
+modified to C5 only: lookups <regshift_m> <uni17B6-17C5> | 
+modified to C5 only: <regshift_m> uni200C <uni17B6-17C5> | 
+no need to create a positioning. There is only overlap with CF and only little.
+Ro+Muus+200C+a+om does now not look good.
+
+
+10-12-22
+Changed position of Muus. over narrow cons and over ligatures of right-spacing coengs + B6-C5 to be over the stem of the coeng.
+
+
+2010-11-3
+Modified spacing for '?'
+
+
+Italics:
+Transform slant 16
+Reverse all contours
+Nodes at extremes
+To TrueType curves
+Autohinting
+
+Names to italics
+Italic angle -16

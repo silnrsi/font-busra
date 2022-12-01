@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17DD.narrow" format="2">
+  <anchor x="-225" y="1950" name="U"/>
+  <anchor x="-225" y="1440" name="_U"/>
+  <outline>
+    <contour>
+      <point x="0" y="1601" type="curve"/>
+      <point x="-11" y="1890"/>
+      <point x="-180" y="2040"/>
+      <point x="-416" y="2040" type="curve"/>
+      <point x="-581" y="2040"/>
+      <point x="-743" y="1920"/>
+      <point x="-743" y="1740" type="curve"/>
+      <point x="-743" y="1657"/>
+      <point x="-698" y="1590"/>
+      <point x="-593" y="1590" type="curve"/>
+      <point x="-506" y="1590"/>
+      <point x="-446" y="1642"/>
+      <point x="-446" y="1713" type="curve"/>
+      <point x="-446" y="1740"/>
+      <point x="-465" y="1781"/>
+      <point x="-499" y="1811" type="curve"/>
+      <point x="-476" y="1856"/>
+      <point x="-435" y="1890"/>
+      <point x="-371" y="1890" type="curve"/>
+      <point x="-195" y="1890"/>
+      <point x="-64" y="1751"/>
+    </contour>
+  </outline>
+</glyph>

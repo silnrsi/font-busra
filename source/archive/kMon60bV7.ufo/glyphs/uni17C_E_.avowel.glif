@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17CE.avowel" format="2">
+  <anchor x="-225" y="2527" name="U"/>
+  <anchor x="-225" y="2040" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-529" y="2100" type="line"/>
+      <point x="-529" y="2250" type="line"/>
+      <point x="-379" y="2250" type="line"/>
+      <point x="-379" y="2456" type="line"/>
+      <point x="-529" y="2456" type="line"/>
+      <point x="-529" y="2606" type="line"/>
+      <point x="-754" y="2606" type="line"/>
+      <point x="-754" y="2456" type="line"/>
+      <point x="-904" y="2456" type="line"/>
+      <point x="-904" y="2250" type="line"/>
+      <point x="-754" y="2250" type="line"/>
+      <point x="-754" y="2100" type="line"/>
+    </contour>
+  </outline>
+</glyph>

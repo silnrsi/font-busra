@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17C6.x" format="2">
+  <anchor x="-225" y="1440" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-1575" y="2185" type="curve" smooth="yes"/>
+      <point x="-1575" y="2062"/>
+      <point x="-1474" y="1960"/>
+      <point x="-1350" y="1960" type="curve" smooth="yes"/>
+      <point x="-1226" y="1960"/>
+      <point x="-1125" y="2062"/>
+      <point x="-1125" y="2185" type="curve" smooth="yes"/>
+      <point x="-1125" y="2309"/>
+      <point x="-1226" y="2410"/>
+      <point x="-1350" y="2410" type="curve" smooth="yes"/>
+      <point x="-1474" y="2410"/>
+      <point x="-1575" y="2309"/>
+    </contour>
+    <contour>
+      <point x="-1445" y="2185" type="curve" smooth="yes"/>
+      <point x="-1445" y="2242"/>
+      <point x="-1406" y="2280"/>
+      <point x="-1350" y="2280" type="curve" smooth="yes"/>
+      <point x="-1294" y="2280"/>
+      <point x="-1255" y="2242"/>
+      <point x="-1255" y="2185" type="curve" smooth="yes"/>
+      <point x="-1255" y="2129"/>
+      <point x="-1294" y="2090"/>
+      <point x="-1350" y="2090" type="curve" smooth="yes"/>
+      <point x="-1406" y="2090"/>
+      <point x="-1445" y="2129"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>note</key>
+  <string>for above 17ca.althigh-PHSOM. Now repurposed to go over lowered 17CA after coeng-sa - sra-a.</string>
+  </dict>
+  </lib>
+</glyph>

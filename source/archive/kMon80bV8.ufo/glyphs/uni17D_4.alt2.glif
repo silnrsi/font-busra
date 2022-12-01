@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17D4.alt2" format="2">
+  <advance width="1606"/>
+  <outline>
+    <contour>
+      <point x="731" y="0" type="line"/>
+      <point x="1106" y="0" type="line"/>
+      <point x="1106" y="1440" type="line"/>
+      <point x="731" y="1440" type="line"/>
+      <point x="731" y="1354"/>
+      <point x="645" y="1129"/>
+      <point x="544" y="1129" type="curve"/>
+      <point x="491" y="1129"/>
+      <point x="472" y="1174"/>
+      <point x="472" y="1200" type="curve"/>
+      <point x="547" y="1222"/>
+      <point x="615" y="1271"/>
+      <point x="615" y="1350" type="curve"/>
+      <point x="615" y="1425"/>
+      <point x="547" y="1496"/>
+      <point x="412" y="1496" type="curve"/>
+      <point x="281" y="1496"/>
+      <point x="150" y="1414"/>
+      <point x="150" y="1237" type="curve"/>
+      <point x="150" y="1106"/>
+      <point x="285" y="971"/>
+      <point x="484" y="971" type="curve"/>
+      <point x="570" y="971"/>
+      <point x="664" y="1009"/>
+      <point x="731" y="1069" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

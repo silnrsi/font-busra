@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17C6.a" format="2">
+  <anchor x="-225" y="2115" name="U"/>
+  <anchor x="-225" y="1440" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-788" y="1885" type="curve" smooth="yes"/>
+      <point x="-788" y="1754"/>
+      <point x="-671" y="1660"/>
+      <point x="-525" y="1660" type="curve"/>
+      <point x="-379" y="1660"/>
+      <point x="-263" y="1754"/>
+      <point x="-263" y="1885" type="curve"/>
+      <point x="-263" y="2016"/>
+      <point x="-379" y="2110"/>
+      <point x="-525" y="2110" type="curve"/>
+      <point x="-671" y="2110"/>
+      <point x="-788" y="2016"/>
+    </contour>
+    <contour>
+      <point x="-581" y="1885" type="curve" smooth="yes"/>
+      <point x="-581" y="1930"/>
+      <point x="-555" y="1960"/>
+      <point x="-525" y="1960" type="curve"/>
+      <point x="-495" y="1960"/>
+      <point x="-469" y="1930"/>
+      <point x="-469" y="1885" type="curve"/>
+      <point x="-469" y="1840"/>
+      <point x="-495" y="1810"/>
+      <point x="-525" y="1810" type="curve"/>
+      <point x="-555" y="1810"/>
+      <point x="-581" y="1840"/>
+    </contour>
+  </outline>
+</glyph>

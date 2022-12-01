@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17DD.ms.high2" format="2">
+  <outline>
+    <contour>
+      <point x="-225" y="2110" type="curve"/>
+      <point x="-236" y="2399"/>
+      <point x="-405" y="2624"/>
+      <point x="-754" y="2624" type="curve"/>
+      <point x="-956" y="2624"/>
+      <point x="-1155" y="2504"/>
+      <point x="-1155" y="2324" type="curve"/>
+      <point x="-1155" y="2242"/>
+      <point x="-1110" y="2174"/>
+      <point x="-1005" y="2174" type="curve"/>
+      <point x="-919" y="2174"/>
+      <point x="-859" y="2227"/>
+      <point x="-859" y="2298" type="curve"/>
+      <point x="-859" y="2324"/>
+      <point x="-878" y="2365"/>
+      <point x="-911" y="2395" type="curve"/>
+      <point x="-878" y="2440"/>
+      <point x="-810" y="2474"/>
+      <point x="-709" y="2474" type="curve"/>
+      <point x="-495" y="2474"/>
+      <point x="-304" y="2253"/>
+    </contour>
+  </outline>
+</glyph>

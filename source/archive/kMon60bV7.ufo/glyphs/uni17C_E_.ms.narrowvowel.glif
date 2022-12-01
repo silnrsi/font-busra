@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17CE.ms.narrowvowel" format="2">
+  <outline>
+    <contour>
+      <point x="-328" y="2180" type="line"/>
+      <point x="-328" y="2330" type="line"/>
+      <point x="-178" y="2330" type="line"/>
+      <point x="-178" y="2536" type="line"/>
+      <point x="-328" y="2536" type="line"/>
+      <point x="-328" y="2686" type="line"/>
+      <point x="-553" y="2686" type="line"/>
+      <point x="-553" y="2536" type="line"/>
+      <point x="-703" y="2536" type="line"/>
+      <point x="-703" y="2330" type="line"/>
+      <point x="-553" y="2330" type="line"/>
+      <point x="-553" y="2180" type="line"/>
+    </contour>
+  </outline>
+</glyph>

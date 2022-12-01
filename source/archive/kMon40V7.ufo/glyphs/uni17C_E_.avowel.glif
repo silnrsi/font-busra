@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17CE.avowel" format="2">
+  <anchor x="-225" y="2527" name="U"/>
+  <anchor x="-225" y="2040" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-850" y="2240" type="line"/>
+      <point x="-700" y="2240" type="line"/>
+      <point x="-700" y="2090" type="line"/>
+      <point x="-570" y="2090" type="line"/>
+      <point x="-570" y="2240" type="line"/>
+      <point x="-420" y="2240" type="line"/>
+      <point x="-420" y="2370" type="line"/>
+      <point x="-570" y="2370" type="line"/>
+      <point x="-570" y="2520" type="line"/>
+      <point x="-700" y="2520" type="line"/>
+      <point x="-700" y="2370" type="line"/>
+      <point x="-850" y="2370" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>note</key>
+  <string>Over above-vowels. The attachment needs fixing!</string>
+  </dict>
+  </lib>
+</glyph>

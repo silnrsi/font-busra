@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17D1" format="2">
+  <unicode hex="17D1"/>
+  <anchor x="-188" y="1757" name="U"/>
+  <anchor x="-713" y="1440" name="_um"/>
+  <anchor x="-713" y="1757" name="um"/>
+  <outline>
+    <contour>
+      <point x="-1238" y="1590" type="line"/>
+      <point x="-188" y="1590" type="line"/>
+      <point x="-188" y="1777" type="line"/>
+      <point x="-1238" y="1777" type="line"/>
+    </contour>
+  </outline>
+</glyph>

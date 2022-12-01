@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17C6.ms.high" format="2">
+  <outline>
+    <contour>
+      <point x="-934" y="2105" type="curve" smooth="yes"/>
+      <point x="-934" y="1974"/>
+      <point x="-817" y="1880"/>
+      <point x="-671" y="1880" type="curve"/>
+      <point x="-525" y="1880"/>
+      <point x="-409" y="1974"/>
+      <point x="-409" y="2105" type="curve"/>
+      <point x="-409" y="2237"/>
+      <point x="-525" y="2330"/>
+      <point x="-671" y="2330" type="curve"/>
+      <point x="-817" y="2330"/>
+      <point x="-934" y="2237"/>
+    </contour>
+    <contour>
+      <point x="-727" y="2105" type="curve" smooth="yes"/>
+      <point x="-727" y="2150"/>
+      <point x="-701" y="2180"/>
+      <point x="-671" y="2180" type="curve"/>
+      <point x="-641" y="2180"/>
+      <point x="-615" y="2150"/>
+      <point x="-615" y="2105" type="curve"/>
+      <point x="-615" y="2060"/>
+      <point x="-641" y="2030"/>
+      <point x="-671" y="2030" type="curve"/>
+      <point x="-701" y="2030"/>
+      <point x="-727" y="2060"/>
+    </contour>
+  </outline>
+</glyph>

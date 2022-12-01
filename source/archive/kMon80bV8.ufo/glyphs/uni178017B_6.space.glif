@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni178017B6.space" format="2">
+  <advance width="2250"/>
+  <anchor x="1312" y="0" name="L"/>
+  <anchor x="2062" y="0" name="L2"/>
+  <anchor x="1312" y="1440" name="U"/>
+  <anchor x="2062" y="1440" name="U2"/>
+  <anchor x="787" y="0" name="lm"/>
+  <anchor x="787" y="1440" name="um"/>
+  <anchor x="1555" y="1440" name="um2"/>
+  <outline>
+    <contour>
+      <point x="1252" y="1178" type="line"/>
+      <point x="1324" y="1247"/>
+      <point x="1410" y="1290"/>
+      <point x="1545" y="1290" type="curve"/>
+      <point x="1664" y="1290"/>
+      <point x="1762" y="1197"/>
+      <point x="1762" y="1128" type="curve"/>
+      <point x="1762" y="0" type="line"/>
+      <point x="2062" y="0" type="line"/>
+      <point x="2062" y="1166" type="line"/>
+      <point x="2062" y="1264"/>
+      <point x="1817" y="1440"/>
+      <point x="1555" y="1440" type="curve"/>
+      <point x="1375" y="1440"/>
+      <point x="1237" y="1328"/>
+      <point x="1174" y="1260" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

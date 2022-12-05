@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -95,6 +95,7 @@
     <string>Y</string>
     <string>Yacute</string>
     <string>Ydieresis</string>
+    <string>Ygrave</string>
     <string>Z</string>
     <string>Zcaron</string>
     <string>a</string>
@@ -281,10 +282,14 @@
     <string>uni0111</string>
     <string>uni0114</string>
     <string>uni0115</string>
+    <string>uni0128</string>
+    <string>uni0129</string>
     <string>uni012C</string>
     <string>uni012D</string>
     <string>uni014E</string>
     <string>uni014F</string>
+    <string>uni0168</string>
+    <string>uni0169</string>
     <string>uni016C</string>
     <string>uni016D</string>
     <string>uni0180</string>
@@ -966,6 +971,94 @@
     <string>uni19FD</string>
     <string>uni19FE</string>
     <string>uni19FF</string>
+    <string>uni1EA0</string>
+    <string>uni1EA1</string>
+    <string>uni1EA2</string>
+    <string>uni1EA3</string>
+    <string>uni1EA4</string>
+    <string>uni1EA5</string>
+    <string>uni1EA6</string>
+    <string>uni1EA7</string>
+    <string>uni1EA8</string>
+    <string>uni1EA9</string>
+    <string>uni1EAA</string>
+    <string>uni1EAB</string>
+    <string>uni1EAC</string>
+    <string>uni1EAD</string>
+    <string>uni1EAE</string>
+    <string>uni1EAF</string>
+    <string>uni1EB0</string>
+    <string>uni1EB1</string>
+    <string>uni1EB2</string>
+    <string>uni1EB3</string>
+    <string>uni1EB4</string>
+    <string>uni1EB5</string>
+    <string>uni1EB6</string>
+    <string>uni1EB7</string>
+    <string>uni1EB8</string>
+    <string>uni1EB9</string>
+    <string>uni1EBA</string>
+    <string>uni1EBB</string>
+    <string>uni1EBC</string>
+    <string>uni1EBD</string>
+    <string>uni1EBE</string>
+    <string>uni1EBF</string>
+    <string>uni1EC0</string>
+    <string>uni1EC1</string>
+    <string>uni1EC2</string>
+    <string>uni1EC3</string>
+    <string>uni1EC4</string>
+    <string>uni1EC5</string>
+    <string>uni1EC6</string>
+    <string>uni1EC7</string>
+    <string>uni1EC8</string>
+    <string>uni1EC9</string>
+    <string>uni1ECA</string>
+    <string>uni1ECB</string>
+    <string>uni1ECC</string>
+    <string>uni1ECD</string>
+    <string>uni1ECE</string>
+    <string>uni1ECF</string>
+    <string>uni1ED0</string>
+    <string>uni1ED1</string>
+    <string>uni1ED2</string>
+    <string>uni1ED3</string>
+    <string>uni1ED4</string>
+    <string>uni1ED5</string>
+    <string>uni1ED6</string>
+    <string>uni1ED7</string>
+    <string>uni1ED8</string>
+    <string>uni1ED9</string>
+    <string>uni1EDA</string>
+    <string>uni1EDB</string>
+    <string>uni1EDC</string>
+    <string>uni1EDD</string>
+    <string>uni1EDE</string>
+    <string>uni1EDF</string>
+    <string>uni1EE0</string>
+    <string>uni1EE1</string>
+    <string>uni1EE2</string>
+    <string>uni1EE3</string>
+    <string>uni1EE4</string>
+    <string>uni1EE5</string>
+    <string>uni1EE6</string>
+    <string>uni1EE7</string>
+    <string>uni1EE8</string>
+    <string>uni1EE9</string>
+    <string>uni1EEA</string>
+    <string>uni1EEB</string>
+    <string>uni1EEC</string>
+    <string>uni1EED</string>
+    <string>uni1EEE</string>
+    <string>uni1EEF</string>
+    <string>uni1EF0</string>
+    <string>uni1EF1</string>
+    <string>uni1EF4</string>
+    <string>uni1EF5</string>
+    <string>uni1EF6</string>
+    <string>uni1EF7</string>
+    <string>uni1EF8</string>
+    <string>uni1EF9</string>
     <string>uni2002</string>
     <string>uni2002.showinv</string>
     <string>uni2003</string>
@@ -994,7 +1087,11 @@
     <string>uni200C.showinv</string>
     <string>uni200D</string>
     <string>uni200D.showinv</string>
+    <string>uni2011</string>
+    <string>uni2012</string>
+    <string>uni2015</string>
     <string>uni207F</string>
+    <string>uni20AB</string>
     <string>uni22C4</string>
     <string>uni22C5</string>
     <string>uni2308</string>
@@ -1019,6 +1116,7 @@
     <string>yacute</string>
     <string>ydieresis</string>
     <string>yen</string>
+    <string>ygrave</string>
     <string>z</string>
     <string>zcaron</string>
     <string>zero</string>

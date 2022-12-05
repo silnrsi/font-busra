@@ -42,10 +42,4 @@
       <point x="449" y="1251"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>For a potential (!) font without ligatures (e.g. to circumvent </string>
-  </dict>
-  </lib>
 </glyph>

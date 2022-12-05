@@ -174,10 +174,4 @@
       <point x="911" y="1211"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>check width of all horizontals. The check widths of ligatures and widths in 60 font.</string>
-  </dict>
-  </lib>
 </glyph>

@@ -2,6 +2,7 @@
 <glyph name="Delta" format="2">
   <advance width="1306"/>
   <unicode hex="2206"/>
+  <guideline x="1115" y="0" angle="113.749"/>
   <outline>
     <contour>
       <point x="1045" y="161" type="line"/>
@@ -14,5 +15,4 @@
       <point x="10" y="0" type="line"/>
     </contour>
   </outline>
-  <guideline angle="113.749" x="1115" y="-0"/>
 </glyph>

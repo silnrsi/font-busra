@@ -45,10 +45,4 @@
       <point x="-3010" y="615" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>Holds some outlines to get the right values for xMin etc after adding Mac glyphs</string>
-  </dict>
-  </lib>
 </glyph>

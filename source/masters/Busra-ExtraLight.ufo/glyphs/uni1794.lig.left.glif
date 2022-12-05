@@ -90,10 +90,4 @@
       <point x="1094" y="1258"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>For a potential (!) font without ligatures (e.g. to circumvent rendering problems)</string>
-  </dict>
-  </lib>
 </glyph>

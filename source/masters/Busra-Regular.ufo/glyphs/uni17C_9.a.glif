@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17C9.a" format="2">
+  <guideline x="-973" y="0" angle="90"/>
+  <guideline x="-433" y="0" angle="90"/>
   <outline>
     <contour>
       <point x="-1053" y="1862" type="curve" smooth="yes"/>
@@ -48,6 +50,4 @@
       <point x="-671" y="1926"/>
     </contour>
   </outline>
-  <guideline angle="90" x="-973" y="0"/>
-  <guideline angle="90" x="-433" y="0"/>
 </glyph>

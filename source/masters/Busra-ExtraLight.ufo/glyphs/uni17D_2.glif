@@ -20,10 +20,4 @@
       <point x="-950" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <real>225+150+300=675-65=610</real>
-  </dict>
-  </lib>
 </glyph>

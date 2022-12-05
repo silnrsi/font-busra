@@ -30,10 +30,4 @@
       <point x="-600" y="2150"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>for future use</string>
-  </dict>
-  </lib>
 </glyph>

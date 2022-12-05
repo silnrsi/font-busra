@@ -2,10 +2,10 @@
 <glyph name="uni19EE" format="2">
   <advance width="2625"/>
   <unicode hex="19EE"/>
+  <guideline x="1275" y="0" angle="90"/>
   <outline>
     <component base="uni17E1" yOffset="637"/>
     <component base="uni17E4" xOffset="1350" yOffset="637"/>
     <component base="uni17D4" xOffset="-35" yOffset="-1200"/>
   </outline>
-  <guideline angle="90" x="1275" y="0"/>
 </glyph>

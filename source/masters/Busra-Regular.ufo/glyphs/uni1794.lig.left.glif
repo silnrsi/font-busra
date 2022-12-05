@@ -59,10 +59,4 @@
       <point x="1231" y="912" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>For a potential (!) font without ligatures (e.g. to circumvent rendering problems)</string>
-  </dict>
-  </lib>
 </glyph>

@@ -58,10 +58,4 @@
       <point x="483" y="-1358" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>with other coeng</string>
-  </dict>
-  </lib>
 </glyph>

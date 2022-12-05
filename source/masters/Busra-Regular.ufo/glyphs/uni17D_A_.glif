@@ -2,6 +2,7 @@
 <glyph name="uni17DA" format="2">
   <advance width="3795"/>
   <unicode hex="17DA"/>
+  <guideline x="0" y="1702" angle="344.656"/>
   <outline>
     <contour>
       <point x="1384" y="888" type="curve" smooth="yes"/>
@@ -138,5 +139,4 @@
       <point x="1384" y="581"/>
     </contour>
   </outline>
-  <guideline angle="344.656" x="0" y="1702"/>
 </glyph>

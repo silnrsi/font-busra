@@ -8,10 +8,4 @@
       <point x="110" y="1788" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>zero-width-space</string>
-  </dict>
-  </lib>
 </glyph>

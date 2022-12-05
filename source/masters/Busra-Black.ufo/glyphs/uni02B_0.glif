@@ -26,10 +26,4 @@
       <point x="196" y="1819" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <real>70% of the normal size</real>
-  </dict>
-  </lib>
 </glyph>

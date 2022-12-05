@@ -2,6 +2,10 @@
 <glyph name="chi" format="2">
   <advance width="1303"/>
   <unicode hex="03C7"/>
+  <guideline x="435" y="0" angle="54.3898"/>
+  <guideline x="695" y="0" angle="54.3898"/>
+  <guideline x="940" y="0" angle="127.947"/>
+  <guideline x="1051" y="0" angle="127.947"/>
   <outline>
     <contour>
       <point x="1034" y="-206" type="line"/>
@@ -43,8 +47,4 @@
       <point x="1055" y="-239" type="curve"/>
     </contour>
   </outline>
-  <guideline angle="54.3898" x="435" y="0"/>
-  <guideline angle="54.3898" x="695" y="0"/>
-  <guideline angle="127.947" x="940" y="0"/>
-  <guideline angle="127.947" x="1051" y="0"/>
 </glyph>

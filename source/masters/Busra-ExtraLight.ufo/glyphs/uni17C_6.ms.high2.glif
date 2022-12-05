@@ -31,10 +31,4 @@
       <point x="-770" y="2279"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>over regshift</string>
-  </dict>
-  </lib>
 </glyph>

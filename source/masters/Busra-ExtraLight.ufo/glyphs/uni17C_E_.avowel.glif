@@ -18,10 +18,4 @@
       <point x="-850" y="2370" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>Over above-vowels. The attachment needs fixing!</string>
-  </dict>
-  </lib>
 </glyph>

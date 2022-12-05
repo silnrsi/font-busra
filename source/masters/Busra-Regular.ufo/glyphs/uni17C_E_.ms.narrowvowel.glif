@@ -16,10 +16,4 @@
       <point x="-721" y="2414" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>in combination with vowels</string>
-  </dict>
-  </lib>
 </glyph>

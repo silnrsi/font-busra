@@ -45,10 +45,4 @@
       <point x="177" y="1840"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>Not been used for a while. Now, in version 7/5.3 repurposed to go over Reahmuk for Tampuan.</string>
-  </dict>
-  </lib>
 </glyph>

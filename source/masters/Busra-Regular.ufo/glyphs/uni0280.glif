@@ -2,6 +2,8 @@
 <glyph name="uni0280" format="2">
   <advance width="1214"/>
   <unicode hex="0280"/>
+  <guideline x="865" y="0" angle="125.443"/>
+  <guideline x="1076" y="0" angle="125.443"/>
   <outline>
     <contour>
       <point x="214" y="158" type="line"/>
@@ -49,6 +51,4 @@
       <point x="399" y="504" type="line"/>
     </contour>
   </outline>
-  <guideline angle="125.443" x="865" y="0"/>
-  <guideline angle="125.443" x="1076" y="0"/>
 </glyph>

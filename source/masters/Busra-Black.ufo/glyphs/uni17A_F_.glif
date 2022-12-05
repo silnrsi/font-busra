@@ -2,6 +2,7 @@
 <glyph name="uni17AF" format="2">
   <advance width="1575"/>
   <unicode hex="17AF"/>
+  <guideline x="0" y="2107" angle="0"/>
   <anchor x="1425" y="0" name="L"/>
   <anchor x="1425" y="1665" name="U"/>
   <outline>
@@ -86,5 +87,4 @@
       <point x="1050" y="1159" type="curve"/>
     </contour>
   </outline>
-  <guideline angle="0" x="0" y="2107"/>
 </glyph>

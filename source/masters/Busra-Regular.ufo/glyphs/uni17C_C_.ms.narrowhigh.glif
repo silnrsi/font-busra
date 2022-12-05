@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CC.ms.narrowhigh" format="2">
+  <guideline x="-778" y="0" angle="90"/>
   <outline>
     <contour>
       <point x="-524" y="1880" type="curve"/>
@@ -41,5 +42,4 @@
       <point x="-549" y="1935"/>
     </contour>
   </outline>
-  <guideline angle="90" x="-778" y="0"/>
 </glyph>

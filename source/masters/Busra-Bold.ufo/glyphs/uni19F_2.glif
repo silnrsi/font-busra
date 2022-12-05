@@ -2,9 +2,9 @@
 <glyph name="uni19F2" format="2">
   <advance width="1837"/>
   <unicode hex="19F2"/>
+  <guideline x="937" y="0" angle="90"/>
   <outline>
     <component base="uni17E2" yOffset="-1200"/>
     <component base="uni17D4" xOffset="-463" yOffset="637"/>
   </outline>
-  <guideline angle="90" x="937" y="0"/>
 </glyph>

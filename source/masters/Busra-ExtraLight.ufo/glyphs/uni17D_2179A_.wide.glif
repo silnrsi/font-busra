@@ -52,10 +52,4 @@
       <point x="300" y="922" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>for wide front</string>
-  </dict>
-  </lib>
 </glyph>

@@ -42,10 +42,4 @@
       <point x="-383" y="2191"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>was -60/389</string>
-  </dict>
-  </lib>
 </glyph>

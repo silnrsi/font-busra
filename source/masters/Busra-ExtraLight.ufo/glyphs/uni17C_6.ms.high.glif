@@ -31,10 +31,4 @@
       <point x="-770" y="2049"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>over high cons</string>
-  </dict>
-  </lib>
 </glyph>

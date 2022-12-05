@@ -45,10 +45,4 @@
       <point x="318" y="1950"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>Reserved for positioning when preceding 17c7</string>
-  </dict>
-  </lib>
 </glyph>

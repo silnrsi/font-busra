@@ -2,6 +2,10 @@
 <glyph name="uni0264" format="2">
   <advance width="964"/>
   <unicode hex="0264"/>
+  <guideline x="285" y="0" angle="63.3068"/>
+  <guideline x="191" y="0" angle="63.3068"/>
+  <guideline x="869" y="0" angle="116.225"/>
+  <guideline x="674" y="0" angle="116.225"/>
   <outline>
     <contour>
       <point x="227" y="992" type="curve"/>
@@ -60,8 +64,4 @@
       <point x="447" y="326"/>
     </contour>
   </outline>
-  <guideline angle="63.3068" x="285" y="0"/>
-  <guideline angle="63.3068" x="191" y="0"/>
-  <guideline angle="116.225" x="869" y="0"/>
-  <guideline angle="116.225" x="674" y="0"/>
 </glyph>

@@ -45,10 +45,4 @@
       <point x="-666" y="2329"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>Needed for sitting above muusikatoan when with 200C</string>
-  </dict>
-  </lib>
 </glyph>

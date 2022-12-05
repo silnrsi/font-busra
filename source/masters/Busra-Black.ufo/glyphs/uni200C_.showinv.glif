@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni200C.showinv" format="2">
+  <guideline x="0" y="2412" angle="0"/>
+  <guideline x="0" y="-1219" angle="0"/>
   <outline>
     <contour>
       <point x="0" y="1788" type="line"/>
@@ -344,12 +346,4 @@
       <point x="116" y="-665" type="line"/>
     </contour>
   </outline>
-  <guideline angle="0" x="0" y="2412"/>
-  <guideline angle="0" x="0" y="-1219"/>
-  <lib>
-  <dict>
-  <key>note</key>
-  <string>zer-width-non-joiner</string>
-  </dict>
-  </lib>
 </glyph>

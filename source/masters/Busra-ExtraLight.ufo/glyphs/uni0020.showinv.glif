@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0020.showinv" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="0" y="-75" type="line"/>
+      <point x="1200" y="-75" type="line"/>
+      <point x="1200" y="187" type="line"/>
+      <point x="1125" y="187" type="line"/>
+      <point x="1125" y="0" type="line"/>
+      <point x="75" y="0" type="line"/>
+      <point x="75" y="187" type="line"/>
+      <point x="0" y="187" type="line"/>
+    </contour>
+  </outline>
+</glyph>

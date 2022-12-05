@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni200B" format="2">
+  <unicode hex="200B"/>
+  <lib>
+  <dict>
+  <key>note</key>
+  <string>zero-width-space</string>
+  </dict>
+  </lib>
+</glyph>

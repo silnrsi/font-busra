@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni200B.aattmpt" format="2">
+  <anchor x="-245" y="0" name="L"/>
+  <anchor x="-245" y="1440" name="U"/>
+  <anchor x="-703" y="1440" name="um"/>
+  <outline>
+    <contour>
+      <point x="-445" y="41" type="line"/>
+      <point x="-460" y="41" type="line"/>
+      <point x="-460" y="29" type="line"/>
+      <point x="-445" y="29" type="line"/>
+    </contour>
+  </outline>
+</glyph>

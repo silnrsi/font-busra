@@ -2,11 +2,11 @@
 
 # This normalization will also run check and fix routines
 psfnormalize -p checkfix=fix source/masters/Busra-Regular.ufo
-psfnormalize -p checkfix=fix source/masters/Busra-ExtraLight.ufo
+#psfnormalize -p checkfix=fix source/masters/Busra-ExtraLight.ufo
 psfnormalize -p checkfix=fix source/masters/Busra-Bold.ufo
-psfnormalize -p checkfix=fix source/masters/Busra-Black.ufo
+#psfnormalize -p checkfix=fix source/masters/Busra-Black.ufo
 
 # Following sync will copy psnames and glyphorder updates to all fonts
-psfsyncmasters --complex source/BusraUpright.designspace 
+psfsyncmasters --complex source/BusraUprightRB.designspace 
 
 # psfmakewoffmetadata -n Busra -i "org.sil.fonts" -o source/Busra-WOFF-metadata.xml source/masters/Busra-Regular.ufo

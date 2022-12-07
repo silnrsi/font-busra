@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17C6.narrow" format="2">
+  <anchor x="-369" y="1440" name="_um"/>
+  <anchor x="-369" y="1993" name="um"/>
+  <anchor x="-245" y="2043" name="U"/>
+  <outline>
+    <contour>
+      <point x="-616" y="1817" type="curve" smooth="yes"/>
+      <point x="-616" y="1692"/>
+      <point x="-505" y="1590"/>
+      <point x="-369" y="1590" type="curve" smooth="yes"/>
+      <point x="-233" y="1590"/>
+      <point x="-122" y="1692"/>
+      <point x="-122" y="1817" type="curve" smooth="yes"/>
+      <point x="-122" y="1942"/>
+      <point x="-233" y="2043"/>
+      <point x="-369" y="2043" type="curve" smooth="yes"/>
+      <point x="-505" y="2043"/>
+      <point x="-616" y="1942"/>
+    </contour>
+    <contour>
+      <point x="-448" y="1817" type="curve" smooth="yes"/>
+      <point x="-448" y="1857"/>
+      <point x="-412" y="1890"/>
+      <point x="-369" y="1890" type="curve" smooth="yes"/>
+      <point x="-326" y="1890"/>
+      <point x="-290" y="1857"/>
+      <point x="-290" y="1817" type="curve" smooth="yes"/>
+      <point x="-290" y="1776"/>
+      <point x="-326" y="1743"/>
+      <point x="-369" y="1743" type="curve" smooth="yes"/>
+      <point x="-412" y="1743"/>
+      <point x="-448" y="1776"/>
+    </contour>
+  </outline>
+</glyph>

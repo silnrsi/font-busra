@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17D1.ms.high" format="2">
+  <outline>
+    <contour>
+      <point x="-1152" y="1880" type="line"/>
+      <point x="-266" y="1880" type="line"/>
+      <point x="-266" y="2050" type="line"/>
+      <point x="-1152" y="2050" type="line"/>
+    </contour>
+  </outline>
+</glyph>

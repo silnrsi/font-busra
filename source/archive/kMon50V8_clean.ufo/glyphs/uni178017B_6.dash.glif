@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni178017B6.dash" format="2">
+  <advance width="2204"/>
+  <anchor x="1231" y="1440" name="U"/>
+  <anchor x="1231" y="0" name="L"/>
+  <anchor x="1959" y="1440" name="U2"/>
+  <anchor x="1959" y="0" name="L2"/>
+  <anchor x="763" y="1440" name="um"/>
+  <anchor x="1546" y="1440" name="um2"/>
+  <anchor x="763" y="0" name="lm"/>
+  <outline>
+    <contour>
+      <point x="1220" y="1233" type="line"/>
+      <point x="1264" y="1270"/>
+      <point x="1396" y="1328"/>
+      <point x="1546" y="1328" type="curve" smooth="yes"/>
+      <point x="1693" y="1328"/>
+      <point x="1771" y="1208"/>
+      <point x="1771" y="1145" type="curve" smooth="yes"/>
+      <point x="1771" y="0" type="line"/>
+      <point x="1959" y="0" type="line"/>
+      <point x="1959" y="1163" type="line" smooth="yes"/>
+      <point x="1959" y="1264"/>
+      <point x="1782" y="1440"/>
+      <point x="1546" y="1440" type="curve" smooth="yes"/>
+      <point x="1371" y="1440"/>
+      <point x="1212" y="1360"/>
+      <point x="1155" y="1304" type="curve"/>
+    </contour>
+    <contour>
+      <point x="389" y="700" type="line"/>
+      <point x="389" y="563" type="line"/>
+      <point x="1137" y="563" type="line"/>
+      <point x="1137" y="700" type="line"/>
+    </contour>
+  </outline>
+</glyph>

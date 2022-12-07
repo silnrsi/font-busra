@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17CE" format="2">
+  <unicode hex="17CE"/>
+  <anchor x="-245" y="1920" name="U"/>
+  <anchor x="-719" y="1440" name="_um"/>
+  <anchor x="-719" y="1970" name="um"/>
+  <outline>
+    <contour>
+      <point x="-950" y="1728" type="line"/>
+      <point x="-803" y="1728" type="line"/>
+      <point x="-803" y="1590" type="line"/>
+      <point x="-635" y="1590" type="line"/>
+      <point x="-635" y="1728" type="line"/>
+      <point x="-488" y="1728" type="line"/>
+      <point x="-488" y="1883" type="line"/>
+      <point x="-635" y="1883" type="line"/>
+      <point x="-635" y="2020" type="line"/>
+      <point x="-803" y="2020" type="line"/>
+      <point x="-803" y="1883" type="line"/>
+      <point x="-950" y="1883" type="line"/>
+    </contour>
+  </outline>
+</glyph>

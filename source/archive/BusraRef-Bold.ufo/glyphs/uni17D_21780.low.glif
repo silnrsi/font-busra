@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17D21780.low" format="2">
+  <anchor x="-188" y="-1238" name="L"/>
+  <anchor x="-188" y="-713" name="_L"/>
+  <anchor x="-639" y="-713" name="_lm"/>
+  <anchor x="-639" y="-1238" name="lm"/>
+  <outline>
+    <contour>
+      <point x="-807" y="-1238" type="line"/>
+      <point x="-807" y="-994" type="line"/>
+      <point x="-807" y="-949"/>
+      <point x="-699" y="-919"/>
+      <point x="-639" y="-919" type="curve"/>
+      <point x="-579" y="-919"/>
+      <point x="-470" y="-949"/>
+      <point x="-470" y="-994" type="curve"/>
+      <point x="-470" y="-1238" type="line"/>
+      <point x="-188" y="-1238" type="line"/>
+      <point x="-188" y="-983" type="line"/>
+      <point x="-188" y="-878"/>
+      <point x="-414" y="-788"/>
+      <point x="-639" y="-788" type="curve"/>
+      <point x="-864" y="-788"/>
+      <point x="-1089" y="-878"/>
+      <point x="-1089" y="-983" type="curve"/>
+      <point x="-1089" y="-1238" type="line"/>
+    </contour>
+  </outline>
+</glyph>

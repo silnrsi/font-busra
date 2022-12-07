@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17D0.a" format="2">
+  <guideline x="450" y="0" angle="90"/>
+  <anchor x="522" y="2336" name="U"/>
+  <anchor x="337" y="2336" name="um"/>
+  <outline>
+    <contour>
+      <point x="445" y="2034" type="curve" smooth="yes"/>
+      <point x="445" y="2112"/>
+      <point x="347" y="2139"/>
+      <point x="257" y="2139" type="curve"/>
+      <point x="104" y="2139"/>
+      <point x="32" y="2067"/>
+      <point x="32" y="1981" type="curve"/>
+      <point x="32" y="1842"/>
+      <point x="160" y="1670"/>
+      <point x="407" y="1670" type="curve"/>
+      <point x="666" y="1670"/>
+      <point x="895" y="1812"/>
+      <point x="895" y="2094" type="curve"/>
+      <point x="895" y="2146"/>
+      <point x="880" y="2221"/>
+      <point x="827" y="2281" type="curve"/>
+      <point x="779" y="2337"/>
+      <point x="704" y="2364"/>
+      <point x="602" y="2364" type="curve" smooth="yes"/>
+      <point x="527" y="2364"/>
+      <point x="479" y="2341"/>
+      <point x="479" y="2285" type="curve"/>
+      <point x="479" y="2232"/>
+      <point x="509" y="2214"/>
+      <point x="580" y="2168" type="curve"/>
+      <point x="614" y="2146"/>
+      <point x="632" y="2109"/>
+      <point x="632" y="2060" type="curve" smooth="yes"/>
+      <point x="632" y="1992"/>
+      <point x="614" y="1936"/>
+      <point x="576" y="1899" type="curve"/>
+      <point x="524" y="1842"/>
+      <point x="471" y="1820"/>
+      <point x="415" y="1820" type="curve" smooth="yes"/>
+      <point x="362" y="1820"/>
+      <point x="329" y="1865"/>
+      <point x="329" y="1914" type="curve"/>
+      <point x="377" y="1929"/>
+      <point x="445" y="1977"/>
+    </contour>
+  </outline>
+</glyph>

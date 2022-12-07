@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="KrungSpecial" format="2">
+  <advance width="409"/>
+  <outline>
+    <contour>
+      <point x="221" y="1222" type="curve" smooth="yes"/>
+      <point x="221" y="1151"/>
+      <point x="281" y="1020"/>
+      <point x="390" y="911" type="curve"/>
+      <point x="386" y="911" type="line"/>
+      <point x="394" y="900"/>
+      <point x="435" y="892"/>
+      <point x="476" y="892" type="curve"/>
+      <point x="540" y="892"/>
+      <point x="585" y="907"/>
+      <point x="585" y="926" type="curve"/>
+      <point x="577" y="949"/>
+      <point x="577" y="949"/>
+      <point x="566" y="967" type="curve"/>
+      <point x="547" y="997"/>
+      <point x="510" y="1065"/>
+      <point x="510" y="1185" type="curve"/>
+      <point x="510" y="1234" type="line"/>
+      <point x="487" y="1234" type="line"/>
+      <point x="544" y="1245"/>
+      <point x="615" y="1279"/>
+      <point x="615" y="1331" type="curve"/>
+      <point x="615" y="1395"/>
+      <point x="562" y="1436"/>
+      <point x="450" y="1436" type="curve"/>
+      <point x="296" y="1436"/>
+      <point x="221" y="1376"/>
+    </contour>
+    <contour>
+      <point x="-2843" y="635" type="line"/>
+      <point x="-2863" y="635" type="line"/>
+      <point x="-2863" y="615" type="line"/>
+      <point x="-2843" y="615" type="line"/>
+    </contour>
+    <contour>
+      <point x="683" y="3217" type="line"/>
+      <point x="663" y="3217" type="line"/>
+      <point x="663" y="3197" type="line"/>
+      <point x="683" y="3197" type="line"/>
+    </contour>
+  </outline>
+</glyph>

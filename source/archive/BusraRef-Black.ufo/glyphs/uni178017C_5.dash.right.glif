@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni178017C5.dash.right" format="2">
+  <advance width="2250"/>
+  <anchor x="1200" y="0" name="L"/>
+  <anchor x="1200" y="1440" name="U"/>
+  <outline>
+    <component base="hyphen.demo"/>
+    <component base="uni17C5.rightpart" xOffset="1500"/>
+  </outline>
+</glyph>

@@ -2,7 +2,7 @@
 <glyph name="uni1791" format="2">
   <advance width="1280"/>
   <unicode hex="1791"/>
-  <guideline x="649" y="0" angle="90"/>
+  <guideline x="649"/>
   <anchor x="1131" y="0" name="L"/>
   <anchor x="1131" y="1440" name="U"/>
   <anchor x="645" y="0" name="lm"/>

@@ -2,8 +2,8 @@
 <glyph name="uni179F" format="2">
   <advance width="1928"/>
   <unicode hex="179F"/>
-  <guideline x="1683" y="0" angle="90"/>
-  <guideline x="295" y="0" angle="90"/>
+  <guideline x="1683"/>
+  <guideline x="295"/>
   <anchor x="1683" y="0" name="L"/>
   <anchor x="1683" y="1440" name="U"/>
   <anchor x="989" y="0" name="lm"/>

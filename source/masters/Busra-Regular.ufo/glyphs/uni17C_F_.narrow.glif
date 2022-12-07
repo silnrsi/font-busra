@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CF.narrow" format="2">
-  <guideline x="-778" y="0" angle="90"/>
+  <guideline x="-778"/>
   <anchor x="-245" y="2228" name="U"/>
   <anchor x="-394" y="1440" name="_um"/>
   <anchor x="-394" y="2178" name="um"/>

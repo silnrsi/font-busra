@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D217A1.alt" format="2">
-  <guideline x="0" y="-148" angle="0"/>
-  <guideline x="0" y="-1225" angle="0"/>
-  <guideline x="-739" y="0" angle="90"/>
+  <guideline y="-148"/>
+  <guideline y="-1225"/>
+  <guideline x="-739"/>
   <anchor x="-245" y="-1225" name="L"/>
   <anchor x="-245" y="0" name="_L"/>
   <anchor x="-739" y="0" name="_lm"/>

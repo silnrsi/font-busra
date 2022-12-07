@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D217A2" format="2">
-  <guideline x="-610" y="0" angle="90"/>
+  <guideline x="-610"/>
   <anchor x="-245" y="-710" name="L"/>
   <anchor x="-245" y="0" name="_L"/>
   <anchor x="-582" y="0" name="_lm"/>

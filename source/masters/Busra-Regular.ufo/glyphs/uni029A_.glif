@@ -2,9 +2,9 @@
 <glyph name="uni029A" format="2">
   <advance width="947"/>
   <unicode hex="029A"/>
-  <guideline x="0" y="992" angle="0"/>
-  <guideline x="0" y="496" angle="0"/>
-  <guideline x="0" y="-23" angle="0"/>
+  <guideline y="992"/>
+  <guideline y="496"/>
+  <guideline y="-23"/>
   <outline>
     <contour>
       <point x="865" y="524" type="curve" smooth="yes"/>

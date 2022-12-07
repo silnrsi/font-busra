@@ -9,17 +9,17 @@
       <point x="-513" y="-1305" type="curve"/>
       <point x="-584" y="-1316"/>
       <point x="-620" y="-1334"/>
-      <point x="-620" y="-1405" type="curve"/>
+      <point x="-620" y="-1405" type="curve" smooth="yes"/>
       <point x="-620" y="-1444"/>
       <point x="-591" y="-1484"/>
       <point x="-527" y="-1491" type="curve"/>
-      <point x="-527" y="-1665" type="line"/>
+      <point x="-527" y="-1665" type="line" smooth="yes"/>
       <point x="-527" y="-1711"/>
       <point x="-534" y="-1738"/>
       <point x="-566" y="-1750" type="curve"/>
       <point x="-393" y="-1750"/>
       <point x="-339" y="-1743"/>
-      <point x="-339" y="-1658" type="curve"/>
+      <point x="-339" y="-1658" type="curve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>

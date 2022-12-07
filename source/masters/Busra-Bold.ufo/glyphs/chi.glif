@@ -8,7 +8,6 @@
   <guideline x="1051" y="0" angle="127.947"/>
   <outline>
     <contour>
-      <point x="1034" y="-206" type="line"/>
       <point x="755" y="237" type="line"/>
       <point x="1186" y="982" type="line"/>
       <point x="898" y="982" type="line"/>

@@ -70,10 +70,10 @@
       <point x="-535" y="2320" type="curve" smooth="yes"/>
       <point x="-559" y="2320"/>
       <point x="-580" y="2341"/>
-      <point x="-580" y="2369" type="curve"/>
+      <point x="-580" y="2369" type="curve" smooth="yes"/>
       <point x="-580" y="2426"/>
       <point x="-523" y="2452"/>
-      <point x="-463" y="2452" type="curve"/>
+      <point x="-463" y="2452" type="curve" smooth="yes"/>
       <point x="-360" y="2452"/>
       <point x="-281" y="2348"/>
       <point x="-223" y="2269" type="curve"/>

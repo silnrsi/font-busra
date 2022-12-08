@@ -12,11 +12,8 @@
       <point x="57" y="2031"/>
       <point x="90" y="2166"/>
       <point x="90" y="2272" type="curve" smooth="yes"/>
-      <point x="90" y="2349"/>
-      <point x="66" y="2413"/>
-      <point x="30" y="2454" type="curve" smooth="yes"/>
-      <point x="4" y="2484"/>
-      <point x="-36" y="2500"/>
+      <point x="90" y="2384"/>
+      <point x="42" y="2500"/>
       <point x="-85" y="2500" type="curve" smooth="yes"/>
       <point x="-119" y="2500"/>
       <point x="-170" y="2477"/>

@@ -6,7 +6,7 @@
   <anchor x="-715" y="-710" name="lm"/>
   <outline>
     <contour>
-      <point x="-1181" y="-525" type="line"/>
+      <point x="-1181" y="-525" type="line" smooth="yes"/>
       <point x="-1181" y="-625"/>
       <point x="-1101" y="-710"/>
       <point x="-905" y="-710" type="curve" smooth="yes"/>

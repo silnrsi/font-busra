@@ -8,19 +8,19 @@
       <point x="-385" y="2279" type="curve"/>
       <point x="-382" y="2276"/>
       <point x="-382" y="2257"/>
-      <point x="-382" y="2250" type="curve"/>
+      <point x="-382" y="2250" type="curve" smooth="yes"/>
       <point x="-382" y="2174"/>
       <point x="-431" y="2134"/>
-      <point x="-431" y="2121" type="curve"/>
+      <point x="-431" y="2121" type="curve" smooth="yes"/>
       <point x="-431" y="2114"/>
       <point x="-420" y="2110"/>
-      <point x="-385" y="2110" type="curve"/>
+      <point x="-385" y="2110" type="curve" smooth="yes"/>
       <point x="-303" y="2110"/>
       <point x="-227" y="2221"/>
-      <point x="-227" y="2370" type="curve"/>
+      <point x="-227" y="2370" type="curve" smooth="yes"/>
       <point x="-227" y="2433"/>
       <point x="-284" y="2487"/>
-      <point x="-359" y="2487" type="curve"/>
+      <point x="-359" y="2487" type="curve" smooth="yes"/>
       <point x="-446" y="2487"/>
       <point x="-493" y="2446"/>
     </contour>

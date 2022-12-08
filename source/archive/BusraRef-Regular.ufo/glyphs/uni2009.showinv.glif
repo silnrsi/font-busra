@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2009.showinv" format="2">
   <advance width="256"/>
-  <guideline x="0" y="134" angle="0"/>
-  <guideline x="0" y="295" angle="0"/>
+  <guideline y="134"/>
+  <guideline y="295"/>
   <outline>
     <contour>
       <point x="0" y="-39" type="line"/>

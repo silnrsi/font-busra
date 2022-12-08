@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D21788" format="2">
   <advance width="728"/>
-  <guideline x="-1181" y="0" angle="90"/>
+  <guideline x="-1181"/>
   <anchor x="483" y="-710" name="L"/>
   <anchor x="483" y="1440" name="U"/>
   <anchor x="389" y="1440" name="um"/>
   <outline>
     <contour>
-      <point x="295" y="-515" type="line"/>
+      <point x="295" y="-515" type="line" smooth="yes"/>
       <point x="295" y="-564"/>
       <point x="220" y="-598"/>
       <point x="121" y="-598" type="curve" smooth="yes"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni200D.showinv" format="2">
-  <guideline x="0" y="-1219" angle="0"/>
+  <guideline y="-1219"/>
   <outline>
     <contour>
       <point x="-684" y="1972" type="curve" smooth="yes"/>

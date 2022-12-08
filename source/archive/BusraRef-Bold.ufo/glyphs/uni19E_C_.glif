@@ -2,7 +2,7 @@
 <glyph name="uni19EC" format="2">
   <advance width="3075"/>
   <unicode hex="19EC"/>
-  <guideline x="1462" y="0" angle="90"/>
+  <guideline x="1462"/>
   <outline>
     <component base="uni17E1" yOffset="637"/>
     <component base="uni17E2" xOffset="1237" yOffset="637"/>

@@ -32,8 +32,6 @@
   <string>C_cedilla.glif</string>
   <key>D</key>
   <string>D_.glif</string>
-  <key>Delta</key>
-  <string>D_elta.glif</string>
   <key>E</key>
   <string>E_.glif</string>
   <key>Eacute</key>
@@ -90,8 +88,6 @@
   <string>O_dieresis.glif</string>
   <key>Ograve</key>
   <string>O_grave.glif</string>
-  <key>Omega</key>
-  <string>O_mega.glif</string>
   <key>Oslash</key>
   <string>O_slash.glif</string>
   <key>Otilde</key>
@@ -330,8 +326,6 @@
   <string>macron.glif</string>
   <key>minus</key>
   <string>minus.glif</string>
-  <key>mu</key>
-  <string>mu.glif</string>
   <key>multiply</key>
   <string>multiply.glif</string>
   <key>n</key>
@@ -362,8 +356,6 @@
   <string>onehalf.glif</string>
   <key>onequarter</key>
   <string>onequarter.glif</string>
-  <key>onesuperior</key>
-  <string>onesuperior.glif</string>
   <key>ordfeminine</key>
   <string>ordfeminine.glif</string>
   <key>ordmasculine</key>
@@ -458,16 +450,12 @@
   <string>three.glif</string>
   <key>threequarters</key>
   <string>threequarters.glif</string>
-  <key>threesuperior</key>
-  <string>threesuperior.glif</string>
   <key>tilde</key>
   <string>tilde.glif</string>
   <key>trademark</key>
   <string>trademark.glif</string>
   <key>two</key>
   <string>two.glif</string>
-  <key>twosuperior</key>
-  <string>twosuperior.glif</string>
   <key>u</key>
   <string>u.glif</string>
   <key>uacute</key>

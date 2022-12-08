@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D2178D.low" format="2">
   <advance width="728"/>
-  <guideline x="0" y="-1026" angle="0"/>
-  <guideline x="0" y="-1112" angle="0"/>
-  <guideline x="-118" y="0" angle="90"/>
-  <guideline x="1512" y="0" angle="90"/>
+  <guideline y="-1026"/>
+  <guideline y="-1112"/>
+  <guideline x="-118"/>
+  <guideline x="1512"/>
   <anchor x="483" y="-1225" name="L"/>
   <anchor x="483" y="1440" name="U"/>
   <anchor x="389" y="1440" name="um"/>
   <outline>
     <contour>
-      <point x="295" y="-1017" type="line"/>
+      <point x="295" y="-1017" type="line" smooth="yes"/>
       <point x="295" y="-1071"/>
       <point x="206" y="-1113"/>
       <point x="142" y="-1113" type="curve" smooth="yes"/>
@@ -46,7 +46,7 @@
       <point x="-605" y="-1087"/>
       <point x="-644" y="-1030"/>
       <point x="-738" y="-1027" type="curve"/>
-      <point x="-738" y="-1026" type="line"/>
+      <point x="-738" y="-1026" type="line" smooth="yes"/>
       <point x="-738" y="-982"/>
       <point x="-710" y="-909"/>
       <point x="-686" y="-909" type="curve" smooth="yes"/>

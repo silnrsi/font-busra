@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17C6.a" format="2">
-  <guideline x="-973" y="0" angle="90"/>
-  <guideline x="-433" y="0" angle="90"/>
+  <guideline x="-973"/>
+  <guideline x="-433"/>
   <anchor x="-659" y="1440" name="_um"/>
   <anchor x="-659" y="1943" name="um"/>
   <anchor x="-659" y="2043" name="um.1"/>

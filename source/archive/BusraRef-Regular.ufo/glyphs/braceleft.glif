@@ -2,8 +2,8 @@
 <glyph name="braceleft" format="2">
   <advance width="704"/>
   <unicode hex="007B"/>
-  <guideline x="0" y="1714" angle="0"/>
-  <guideline x="665" y="0" angle="90"/>
+  <guideline y="1714"/>
+  <guideline x="665"/>
   <outline>
     <contour>
       <point x="665" y="1753" type="line"/>

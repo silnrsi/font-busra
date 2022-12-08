@@ -2,7 +2,7 @@
 <glyph name="uni1EC3" format="2">
   <advance width="977"/>
   <unicode hex="1EC3"/>
-  <guideline x="494" y="0" angle="90"/>
+  <guideline x="494"/>
   <outline>
     <contour>
       <point x="501" y="-23" type="curve" smooth="yes"/>

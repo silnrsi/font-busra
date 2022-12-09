@@ -2,7 +2,6 @@
 <glyph name="macron" format="2">
   <advance width="738"/>
   <unicode hex="00AF"/>
-  <unicode hex="02C9"/>
   <outline>
     <contour>
       <point x="23" y="1364" type="line"/>

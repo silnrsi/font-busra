@@ -2,7 +2,6 @@
 <glyph name="semicolon" format="2">
   <advance width="850"/>
   <unicode hex="003B"/>
-  <unicode hex="037E"/>
   <outline>
     <contour>
       <point x="200" y="90" type="curve" smooth="yes"/>

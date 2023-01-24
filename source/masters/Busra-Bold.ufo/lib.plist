@@ -54,7 +54,7 @@
     <string>Atilde</string>
     <string>B</string>
     <string>C</string>
-    <string>CR</string>
+    <string>nonmarkingreturn</string>
     <string>Ccedilla</string>
     <string>D</string>
     <string>Delta</string>
@@ -412,34 +412,34 @@
     <string>uni02B8</string>
     <string>uni02BC</string>
     <string>uni02C0</string>
-    <string>uni02C7</string>
+    <string>caron</string>
     <string>uni02C8</string>
     <string>uni02CC</string>
     <string>uni02D0</string>
     <string>uni02D1</string>
-    <string>uni02D8</string>
-    <string>uni02D9</string>
-    <string>uni02DA</string>
-    <string>uni02DB</string>
-    <string>uni02DD</string>
+    <string>breve</string>
+    <string>dotaccent</string>
+    <string>ring</string>
+    <string>ogonek</string>
+    <string>hungarumlaut</string>
     <string>uni02E0</string>
     <string>uni02E1</string>
     <string>uni02E4</string>
-    <string>uni0300</string>
-    <string>uni0301</string>
-    <string>uni0302</string>
+    <string>gravecomb</string>
+    <string>acutecomb</string>
+    <string>circumflexcomb</string>
     <string>uni03020306</string>
-    <string>uni0303</string>
+    <string>tildecomb</string>
     <string>uni0304</string>
     <string>uni0305</string>
     <string>uni0306</string>
     <string>uni0306.high</string>
     <string>uni0307</string>
-    <string>uni0308</string>
+    <string>dieresiscomb</string>
     <string>uni0309</string>
-    <string>uni030A</string>
+    <string>ringcomb</string>
     <string>uni030B</string>
-    <string>uni030C</string>
+    <string>caroncomb</string>
     <string>uni0318</string>
     <string>uni0319</string>
     <string>uni031A</string>
@@ -453,7 +453,7 @@
     <string>uni0324</string>
     <string>uni0325</string>
     <string>uni0326</string>
-    <string>uni0327</string>
+    <string>cedillacomb</string>
     <string>uni0328</string>
     <string>uni0329</string>
     <string>uni032A</string>
@@ -1071,37 +1071,37 @@
     <string>uni1EF7</string>
     <string>uni1EF8</string>
     <string>uni1EF9</string>
-    <string>uni2002</string>
+    <string>enspace</string>
     <string>uni2002.showinv</string>
-    <string>uni2003</string>
+    <string>emspace</string>
     <string>uni2003.showinv</string>
-    <string>uni2004</string>
+    <string>threeperemspace</string>
     <string>uni2004.showinv</string>
-    <string>uni2005</string>
+    <string>fourperemspace</string>
     <string>uni2005.showinv</string>
-    <string>uni2006</string>
+    <string>sixperemspace</string>
     <string>uni2006.showinv</string>
-    <string>uni2007</string>
+    <string>figurespace</string>
     <string>uni2007.showinv</string>
-    <string>uni2008</string>
+    <string>punctuationspace</string>
     <string>uni2008.showinv</string>
-    <string>uni2009</string>
+    <string>thinspace</string>
     <string>uni2009.showinv</string>
-    <string>uni200A</string>
+    <string>hairspace</string>
     <string>uni200A.showinv</string>
-    <string>uni200B</string>
+    <string>zerowidthspace</string>
     <string>uni200B.aaattmpt</string>
     <string>uni200B.aattmpt</string>
     <string>uni200B.narrowattmpt</string>
     <string>uni200B.narrowattmptlow</string>
     <string>uni200B.showinv</string>
-    <string>uni200C</string>
+    <string>zerowidthnonjoiner</string>
     <string>uni200C.showinv</string>
-    <string>uni200D</string>
+    <string>zerowidthjoiner</string>
     <string>uni200D.showinv</string>
-    <string>uni2011</string>
-    <string>uni2012</string>
-    <string>uni2015</string>
+    <string>nonbreakinghyphen</string>
+    <string>figuredash</string>
+    <string>horizontalbar</string>
     <string>uni207F</string>
     <string>uni20AB</string>
     <string>uni22C4</string>
@@ -1109,7 +1109,7 @@
     <string>uni2308</string>
     <string>uni2309</string>
     <string>uni23D0</string>
-    <string>uni25CC</string>
+    <string>dottedcircle</string>
     <string>uni25CC.demo</string>
     <string>uniEF00</string>
     <string>uniEF01</string>

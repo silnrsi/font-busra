@@ -26,7 +26,8 @@ name.
 | C6C2    | c6n\_2   | nikahit base on second ligature component for centred positions |
 | \_D2    | \_coengx | coengs attaching to coengs |
 | D2      | coengx   | coengs coengs attach to |
-| def     | default  | default spacing attachment - not sure why it's needed |
+| \_def   | \_default | Above diacritics in Latin and Khmer |
+| def     | default  | above diacritics bases for latin and Khmer |
 | def1    | default\_1 | default attachment to first ligature component |
 | def2    | default\_2 | default attachment to second ligature component |
 | \_H     | \_high2  | diacritics for high attachment |

@@ -2,6 +2,8 @@
 <glyph name="icircumflex" format="2">
   <advance width="627"/>
   <unicode hex="00EE"/>
+  <anchor x="520" y="0" name="PB"/>
+  <anchor x="460" y="200" name="def"/>
   <outline>
     <contour>
       <point x="172" y="1470" type="line"/>

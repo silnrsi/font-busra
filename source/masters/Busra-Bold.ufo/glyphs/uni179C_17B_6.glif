@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni179C17B6" format="2">
   <advance width="1538"/>
-  <anchor x="1350" y="0" name="L2"/>
-  <anchor x="600" y="1793" name="U"/>
-  <anchor x="1350" y="1440" name="U2"/>
-  <anchor x="337" y="0" name="lm"/>
-  <anchor x="450" y="1793" name="um"/>
-  <anchor x="838" y="1650" name="um2"/>
+  <anchor x="768" y="0" name="C61"/>
+  <anchor x="1496" y="0" name="C62"/>
+  <anchor x="808" y="0" name="C6C1"/>
+  <anchor x="20" y="0" name="C6C2"/>
+  <anchor x="969" y="0" name="L1"/>
+  <anchor x="1476" y="0" name="L2"/>
+  <anchor x="788" y="1000" name="NA1"/>
+  <anchor x="788" y="1000" name="NA2"/>
+  <anchor x="788" y="0" name="NBB1"/>
+  <anchor x="0" y="0" name="NBB2"/>
+  <anchor x="375" y="0" name="NC1"/>
+  <anchor x="899" y="0" name="NC2"/>
+  <anchor x="768" y="1000" name="U1"/>
+  <anchor x="1496" y="1000" name="U2"/>
+  <anchor x="788" y="1000" name="UR1"/>
+  <anchor x="20" y="1000" name="UR2"/>
+  <anchor x="788" y="0" name="def1"/>
+  <anchor x="1538" y="0" name="def2"/>
   <outline>
     <contour>
       <point x="600" y="109" type="curve"/>

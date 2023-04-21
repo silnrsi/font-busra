@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CA.narrow" format="2">
   <guideline x="-863"/>
-  <anchor x="-188" y="1835" name="U"/>
-  <anchor x="-188" y="1440" name="_U"/>
-  <anchor x="-431" y="1835" name="um"/>
+  <anchor x="0" y="80" name="A0"/>
+  <anchor x="-700" y="0" name="_H"/>
+  <anchor x="350" y="1000" name="_U"/>
+  <anchor x="20" y="1000" name="_UR"/>
+  <anchor x="0" y="0" name="_def"/>
   <outline>
     <contour>
       <point x="-431" y="1530" type="curve"/>

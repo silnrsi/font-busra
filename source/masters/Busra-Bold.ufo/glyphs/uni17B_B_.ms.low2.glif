@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17BB.ms.low2" format="2">
-  <anchor x="-188" y="-1238" name="_L"/>
+  <anchor x="0" y="0" name="_B1"/>
+  <anchor x="-20" y="0" name="_L"/>
   <outline>
     <contour>
       <point x="-588" y="-1725" type="line" smooth="yes"/>

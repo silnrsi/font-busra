@@ -2,10 +2,7 @@
 <glyph name="uni17AF" format="2">
   <advance width="1538"/>
   <unicode hex="17AF"/>
-  <anchor x="1350" y="0" name="L"/>
-  <anchor x="1350" y="1740" name="U"/>
-  <anchor x="825" y="0" name="lm"/>
-  <anchor x="825" y="1740" name="um"/>
+  <anchor x="825" y="0" name="def"/>
   <outline>
     <contour>
       <point x="300" y="82" type="line" smooth="yes"/>

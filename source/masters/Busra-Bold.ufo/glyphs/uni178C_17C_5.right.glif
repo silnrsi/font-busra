@@ -2,13 +2,14 @@
 <glyph name="uni178C17C5.right" format="2">
   <advance width="2175"/>
   <guideline y="1197"/>
-  <anchor x="1237" y="0" name="L"/>
-  <anchor x="1987" y="0" name="L2"/>
-  <anchor x="1237" y="1440" name="U"/>
-  <anchor x="1987" y="1922" name="U2"/>
-  <anchor x="712" y="0" name="lm"/>
-  <anchor x="712" y="1440" name="um"/>
-  <anchor x="1462" y="1922" name="um2"/>
+  <anchor x="1425" y="0" name="C61"/>
+  <anchor x="2175" y="0" name="C62"/>
+  <anchor x="1405" y="0" name="L1"/>
+  <anchor x="2155" y="0" name="L2"/>
+  <anchor x="1425" y="1000" name="U1"/>
+  <anchor x="1425" y="1000" name="U2"/>
+  <anchor x="1473" y="1000" name="UR1"/>
+  <anchor x="20" y="1000" name="UR2"/>
   <outline>
     <contour>
       <point x="937" y="487" type="line"/>

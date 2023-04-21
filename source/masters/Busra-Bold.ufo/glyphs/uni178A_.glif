@@ -2,10 +2,7 @@
 <glyph name="uni178A" format="2">
   <advance width="1500"/>
   <unicode hex="178A"/>
-  <anchor x="1312" y="0" name="L"/>
-  <anchor x="1312" y="1740" name="U"/>
-  <anchor x="787" y="0" name="lm"/>
-  <anchor x="787" y="1740" name="um"/>
+  <anchor x="787" y="0" name="def"/>
   <outline>
     <contour>
       <point x="562" y="934" type="line"/>

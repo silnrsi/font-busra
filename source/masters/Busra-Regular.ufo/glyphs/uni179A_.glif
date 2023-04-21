@@ -2,9 +2,8 @@
 <glyph name="uni179A" format="2">
   <advance width="768"/>
   <unicode hex="179A"/>
-  <anchor x="523" y="1440" name="U"/>
-  <anchor x="372" y="0" name="lm"/>
-  <anchor x="399" y="1440" name="um"/>
+  <anchor x="260" y="0" name="H"/>
+  <anchor x="400" y="0" name="N"/>
   <outline>
     <contour>
       <point x="523" y="980" type="line" smooth="yes"/>

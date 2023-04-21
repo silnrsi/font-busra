@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17B1.alt" format="2">
   <advance width="1358"/>
-  <anchor x="1192" y="-230" name="L"/>
-  <anchor x="1192" y="1979" name="U"/>
-  <anchor x="704" y="-230" name="lm"/>
-  <anchor x="704" y="1979" name="om"/>
+  <anchor x="1437" y="-190" name="NG"/>
   <outline>
     <contour>
       <point x="425" y="322" type="curve"/>

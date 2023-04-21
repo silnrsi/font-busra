@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni179A.spc" format="2">
   <advance width="918"/>
-  <anchor x="673" y="1440" name="U2"/>
-  <anchor x="523" y="0" name="lm"/>
-  <anchor x="549" y="1440" name="um"/>
   <outline>
     <contour>
       <point x="673" y="980" type="line" smooth="yes"/>

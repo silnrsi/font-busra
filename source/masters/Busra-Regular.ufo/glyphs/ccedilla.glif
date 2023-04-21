@@ -2,6 +2,8 @@
 <glyph name="ccedilla" format="2">
   <advance width="950"/>
   <unicode hex="00E7"/>
+  <anchor x="520" y="-200" name="PB"/>
+  <anchor x="560" y="0" name="def"/>
   <outline>
     <contour>
       <point x="890" y="366" type="curve"/>

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D21790" format="2">
   <guideline x="-779"/>
-  <anchor x="-245" y="-598" name="L"/>
-  <anchor x="-245" y="0" name="_L"/>
-  <anchor x="-779" y="0" name="_lm"/>
-  <anchor x="-779" y="-598" name="lm"/>
+  <anchor x="0" y="40" name="B2"/>
+  <anchor x="0" y="60" name="D2"/>
+  <anchor x="-20" y="0" name="_L"/>
+  <anchor x="-760" y="0" name="_N"/>
+  <anchor x="-750" y="0" name="_NC"/>
+  <anchor x="0" y="0" name="_NG"/>
+  <anchor x="0" y="1000" name="_U"/>
   <outline>
     <contour>
       <point x="-882" y="-489" type="curve" smooth="yes"/>

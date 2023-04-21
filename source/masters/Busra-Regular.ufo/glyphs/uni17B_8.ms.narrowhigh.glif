@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17B8.ms.narrowhigh" format="2">
+  <anchor x="0" y="700" name="A0"/>
+  <anchor x="0" y="0" name="_A0"/>
+  <anchor x="0" y="0" name="_B6"/>
   <outline>
     <contour>
       <point x="-12" y="1916" type="curve" smooth="yes"/>

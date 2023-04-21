@@ -2,6 +2,8 @@
 <glyph name="thorn" format="2">
   <advance width="1089"/>
   <unicode hex="00FE"/>
+  <anchor x="520" y="-200" name="PB"/>
+  <anchor x="580" y="200" name="def"/>
   <outline>
     <contour>
       <point x="179" y="-183" type="line"/>

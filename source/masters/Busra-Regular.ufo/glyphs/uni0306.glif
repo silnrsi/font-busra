@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0306" format="2">
   <unicode hex="0306"/>
+  <anchor x="0" y="200" name="PA"/>
+  <anchor x="0" y="0" name="_PA"/>
+  <anchor x="0" y="0" name="_def"/>
+  <anchor x="0" y="200" name="def"/>
   <outline>
     <contour>
       <point x="-277" y="1478" type="line"/>

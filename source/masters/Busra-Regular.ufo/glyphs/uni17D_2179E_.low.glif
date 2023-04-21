@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D2179E.low" format="2">
   <advance width="728"/>
-  <anchor x="483" y="-1225" name="L"/>
-  <anchor x="483" y="1440" name="U"/>
-  <anchor x="389" y="1440" name="um"/>
+  <anchor x="750" y="-530" name="B1"/>
+  <anchor x="400" y="-300" name="B2"/>
+  <anchor x="380" y="-300" name="L"/>
+  <anchor x="728" y="0" name="def"/>
   <outline>
     <contour>
       <point x="295" y="176" type="curve"/>

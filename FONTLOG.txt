@@ -112,8 +112,8 @@ Acknowledgements
 ----------------
 
 N: Diethelm Kanjahn
-E: fonts@sil.org
-W: https://scripts.sil.org/
+E: https://software.sil.org/about/contact/
+W: https://software.sil.org/wstech/
 D: Designer and font engineer
 
 For more information please visit The Mondulkiri Font Family page on SIL
@@ -121,4 +121,4 @@ International's
 Computers and Writing systems website:
 https://scripts.sil.org/Mondulkiri
 
-Support through the website: https://scripts.sil.org/Support
+Support through the website: https://software.sil.org/about/contact/

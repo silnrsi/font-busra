@@ -90,7 +90,7 @@ ChangeLog
 
 09 November 2010 (Diethelm Kanjahn) Mondulkiri Font Family version 5.300
 - First version released under the SIL Open Font License
-- First version released on http://scripts.sil.org
+- First version released on https://scripts.sil.org
 - Added fonts: Ratanakiri, all italic typefaces
 - Renamed fonts: Busra and Oureang
 - Major OpenType code revisions
@@ -113,12 +113,12 @@ Acknowledgements
 
 N: Diethelm Kanjahn
 E: fonts@sil.org
-W: http://scripts.sil.org/
+W: https://scripts.sil.org/
 D: Designer and font engineer
 
 For more information please visit The Mondulkiri Font Family page on SIL
 International's
 Computers and Writing systems website:
-http://scripts.sil.org/Mondulkiri
+https://scripts.sil.org/Mondulkiri
 
-Support through the website: http://scripts.sil.org/Support
+Support through the website: https://scripts.sil.org/Support

@@ -1,9 +1,9 @@
-Copyright (c) 2003-2022 SIL International (http://www.sil.org/)
+Copyright (c) 2003-2022 SIL International (https://www.sil.org/)
 with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
 
 This Font Software is licensed under the SIL Open Font License, 
 Version 1.1. This license is copied below, and is also available with 
-an FAQ at: http://scripts.sil.org/OFL
+an FAQ at: https://scripts.sil.org/OFL
 
 
 ----------------------------------------------------

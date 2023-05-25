@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>_L.ear</key>
+  <string>_L_.ear.glif</string>
+  <key>_R.ear</key>
+  <string>_R_.ear.glif</string>
+  <key>_bulgeArch</key>
+  <string>_bulgeA_rch.glif</string>
+  <key>_instroke</key>
+  <string>_instroke.glif</string>
+  <key>_m</key>
+  <string>_m.glif</string>
+  <key>_mArch</key>
+  <string>_mA_rch.glif</string>
+  <key>_outstroke</key>
+  <string>_outstroke.glif</string>
+  <key>uni1780.alt</key>
+  <string>uni1780.alt.glif</string>
+  <key>uni178017B6.alt</key>
+  <string>uni178017B_6.alt.glif</string>
+  <key>uni1784</key>
+  <string>uni1784.glif</string>
+  <key>uni178517B6</key>
+  <string>uni178517B_6.glif</string>
+  <key>uni178517C5.right</key>
+  <string>uni178517C_5.right.glif</string>
+  <key>uni178717B6</key>
+  <string>uni178717B_6.glif</string>
+  <key>uni1788</key>
+  <string>uni1788.glif</string>
+  <key>uni178817B6</key>
+  <string>uni178817B_6.glif</string>
+  <key>uni1789</key>
+  <string>uni1789.glif</string>
+  <key>uni178A</key>
+  <string>uni178A_.glif</string>
+  <key>uni178A17B6</key>
+  <string>uni178A_17B_6.glif</string>
+  <key>uni178F17B6</key>
+  <string>uni178F_17B_6.glif</string>
+</dict>
+</plist>

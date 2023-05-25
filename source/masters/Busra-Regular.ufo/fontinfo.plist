@@ -76,7 +76,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/01/24 17:37:23</string>
+  <string>2023/05/25 11:28:41</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -88,13 +88,13 @@
   <key>openTypeNameDesigner</key>
   <string>D. Kanjahn</string>
   <key>openTypeNameDesignerURL</key>
-  <string>https://software.sil.org/wstech/</string>
+  <string>http://scripts.sil.org/</string>
   <key>openTypeNameLicense</key>
   <string>Copyright (c) 2003-2022 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------
@@ -136,11 +136,11 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>openTypeNameLicenseURL</key>
-  <string>https://scripts.sil.org/OFL</string>
+  <string>http://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>https://software.sil.org/wstech/</string>
+  <string>http://scripts.sil.org</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Busra</string>
   <key>openTypeNamePreferredSubfamilyName</key>
@@ -223,7 +223,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2VendorID</key>
   <string>SIL </string>
   <key>openTypeOS2WeightClass</key>
-  <integer>188</integer>
+  <integer>400</integer>
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
@@ -234,7 +234,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <array>
     <integer>-33</integer>
     <integer>0</integer>
-    <integer>969</integer>
+    <integer>970</integer>
     <integer>992</integer>
     <integer>1437</integer>
     <integer>1471</integer>

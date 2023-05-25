@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_squireltail" format="2">
+  <advance width="1268"/>
+  <outline>
+    <contour>
+      <point x="232" y="715" type="line"/>
+      <point x="420" y="715" type="line"/>
+      <point x="420" y="1049" type="line"/>
+      <point x="299" y="1059"/>
+      <point x="239" y="1129"/>
+      <point x="239" y="1191" type="curve" smooth="yes"/>
+      <point x="239" y="1243"/>
+      <point x="282" y="1290"/>
+      <point x="368" y="1290" type="curve" smooth="yes"/>
+      <point x="522" y="1290"/>
+      <point x="645" y="1103"/>
+      <point x="858" y="1103" type="curve" smooth="yes"/>
+      <point x="1022" y="1103"/>
+      <point x="1147" y="1218"/>
+      <point x="1147" y="1388" type="curve" smooth="yes"/>
+      <point x="1147" y="1617"/>
+      <point x="958" y="1742"/>
+      <point x="835" y="1742" type="curve" smooth="yes"/>
+      <point x="776" y="1742"/>
+      <point x="732" y="1713"/>
+      <point x="732" y="1653" type="curve" smooth="yes"/>
+      <point x="732" y="1510"/>
+      <point x="997" y="1557"/>
+      <point x="997" y="1381" type="curve" smooth="yes"/>
+      <point x="997" y="1312"/>
+      <point x="946" y="1253"/>
+      <point x="865" y="1253" type="curve" smooth="yes"/>
+      <point x="687" y="1253"/>
+      <point x="587" y="1440"/>
+      <point x="348" y="1440" type="curve" smooth="yes"/>
+      <point x="204" y="1440"/>
+      <point x="100" y="1329"/>
+      <point x="100" y="1216" type="curve" smooth="yes"/>
+      <point x="100" y="1146"/>
+      <point x="139" y="1075"/>
+      <point x="232" y="1029" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

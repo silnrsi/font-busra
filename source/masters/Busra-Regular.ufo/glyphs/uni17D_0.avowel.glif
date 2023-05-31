@@ -5,10 +5,7 @@
   <anchor x="0" y="0" name="A2"/>
   <anchor x="0" y="400" name="_A0"/>
   <anchor x="0" y="20" name="_A1"/>
-  <anchor x="0" y="0" name="_B6"/>
-  <anchor x="-120" y="0" name="_H"/>
   <anchor x="-40" y="1060" name="_U"/>
-  <anchor x="0" y="0" name="_def"/>
   <outline>
     <contour>
       <point x="-243" y="2524" type="curve" smooth="yes"/>

@@ -3,7 +3,6 @@
   <guideline x="-863"/>
   <anchor x="0" y="80" name="A0"/>
   <anchor x="-700" y="0" name="_H"/>
-  <anchor x="350" y="1000" name="_U"/>
   <anchor x="20" y="1000" name="_UR"/>
   <anchor x="0" y="0" name="_def"/>
   <outline>

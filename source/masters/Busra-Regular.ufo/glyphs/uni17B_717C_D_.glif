@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17B717CD" format="2">
   <anchor x="0" y="650" name="A0"/>
-  <anchor x="0" y="0" name="_B6"/>
   <anchor x="-700" y="0" name="_H"/>
-  <anchor x="-80" y="1060" name="_U"/>
   <outline>
     <contour>
       <point x="-194" y="1862" type="curve" smooth="yes"/>

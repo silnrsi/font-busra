@@ -2,7 +2,6 @@
 <glyph name="uni17D21788" format="2">
   <advance width="750"/>
   <anchor x="750" y="-700" name="D2"/>
-  <anchor x="728" y="0" name="def"/>
   <outline>
     <contour>
       <point x="-1238" y="-630" type="line"/>

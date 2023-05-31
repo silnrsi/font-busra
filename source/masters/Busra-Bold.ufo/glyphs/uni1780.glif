@@ -2,7 +2,6 @@
 <glyph name="uni1780" format="2">
   <advance width="1500"/>
   <unicode hex="1780"/>
-  <anchor x="0" y="0" name="D2"/>
   <anchor x="787" y="0" name="def"/>
   <outline>
     <contour>

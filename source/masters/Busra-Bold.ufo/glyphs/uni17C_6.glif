@@ -5,10 +5,9 @@
   <guideline x="-413"/>
   <guideline x="-713"/>
   <anchor x="0" y="250" name="A0"/>
-  <anchor x="-798" y="0" name="_B6"/>
+  <anchor x="-798" y="0" name="_B6C6"/>
   <anchor x="0" y="0" name="_C6"/>
   <anchor x="-700" y="0" name="_H"/>
-  <anchor x="-730" y="1000" name="_U"/>
   <anchor x="0" y="0" name="_def"/>
   <outline>
     <contour>

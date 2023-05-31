@@ -2,7 +2,6 @@
 <glyph name="uni17B7.ms.high" format="2">
   <anchor x="0" y="550" name="A0"/>
   <anchor x="0" y="0" name="_A0"/>
-  <anchor x="0" y="0" name="_B6"/>
   <outline>
     <contour>
       <point x="-841" y="1962" type="curve" smooth="yes"/>

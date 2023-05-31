@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D2178E" format="2">
   <anchor x="0" y="0" name="B2"/>
-  <anchor x="0" y="0" name="D2"/>
   <anchor x="-260" y="0" name="_L"/>
   <anchor x="-938" y="0" name="_N"/>
   <anchor x="-938" y="0" name="_NC"/>
   <anchor x="0" y="0" name="_NG"/>
-  <anchor x="0" y="1000" name="_U"/>
   <anchor x="-938" y="0" name="_def"/>
   <outline>
     <contour>

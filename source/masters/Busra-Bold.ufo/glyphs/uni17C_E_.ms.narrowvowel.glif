@@ -5,7 +5,6 @@
   <anchor x="0" y="0" name="A2"/>
   <anchor x="0" y="480" name="_A0"/>
   <anchor x="0" y="0" name="_A1"/>
-  <anchor x="0" y="0" name="_H"/>
   <outline>
     <contour>
       <point x="-319" y="2370" type="line"/>

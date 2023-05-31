@@ -2,12 +2,10 @@
 <glyph name="uni17D21793" format="2">
   <guideline x="-653"/>
   <anchor x="0" y="0" name="B2"/>
-  <anchor x="0" y="0" name="D2"/>
   <anchor x="-20" y="0" name="_L"/>
   <anchor x="-730" y="0" name="_N"/>
   <anchor x="-730" y="0" name="_NC"/>
   <anchor x="0" y="0" name="_NG"/>
-  <anchor x="0" y="1000" name="_U"/>
   <outline>
     <contour>
       <point x="-1182" y="-387" type="curve" smooth="yes"/>

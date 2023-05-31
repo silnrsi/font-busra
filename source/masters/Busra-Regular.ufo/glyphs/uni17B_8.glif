@@ -2,9 +2,7 @@
 <glyph name="uni17B8" format="2">
   <unicode hex="17B8"/>
   <anchor x="0" y="400" name="A0"/>
-  <anchor x="0" y="0" name="_B6"/>
   <anchor x="-700" y="0" name="_H"/>
-  <anchor x="-80" y="1060" name="_U"/>
   <outline>
     <contour>
       <point x="-838" y="1679" type="curve" smooth="yes"/>

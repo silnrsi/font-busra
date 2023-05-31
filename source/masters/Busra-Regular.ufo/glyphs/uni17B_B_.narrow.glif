@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17BB.narrow" format="2">
-  <anchor x="0" y="0" name="_B2"/>
   <anchor x="201" y="0" name="_L"/>
   <anchor x="0" y="0" name="_NBB"/>
-  <anchor x="0" y="0" name="_def"/>
   <outline>
     <contour>
       <point x="-245" y="-229" type="line"/>

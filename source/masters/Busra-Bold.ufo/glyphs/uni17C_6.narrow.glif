@@ -5,8 +5,6 @@
   <anchor x="0" y="0" name="_C6"/>
   <anchor x="20" y="0" name="_C6C"/>
   <anchor x="-700" y="0" name="_H"/>
-  <anchor x="-280" y="1000" name="_U"/>
-  <anchor x="0" y="0" name="_def"/>
   <outline>
     <contour>
       <point x="-431" y="1815" type="curve" smooth="yes"/>

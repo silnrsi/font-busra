@@ -2,7 +2,6 @@
 <glyph name="uni179A" format="2">
   <advance width="788"/>
   <unicode hex="179A"/>
-  <anchor x="260" y="0" name="H"/>
   <anchor x="400" y="0" name="N"/>
   <outline>
     <contour>

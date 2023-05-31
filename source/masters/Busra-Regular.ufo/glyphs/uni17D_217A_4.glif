@@ -9,7 +9,6 @@
   <anchor x="-880" y="0" name="_N"/>
   <anchor x="-920" y="0" name="_NC"/>
   <anchor x="-180" y="0" name="_NG"/>
-  <anchor x="0" y="1000" name="_U"/>
   <outline>
     <contour>
       <point x="-1349" y="-486" type="line"/>

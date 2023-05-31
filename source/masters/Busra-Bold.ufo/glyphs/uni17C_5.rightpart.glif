@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17C5.rightpart" format="2">
   <advance width="750"/>
-  <anchor x="728" y="0" name="B61"/>
-  <anchor x="0" y="0" name="B62"/>
-  <anchor x="400" y="180" name="D0"/>
-  <anchor x="0" y="1000" name="U"/>
   <outline>
     <contour>
       <point x="-248" y="1178" type="line"/>

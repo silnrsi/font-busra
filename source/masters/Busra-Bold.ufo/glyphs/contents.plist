@@ -1746,6 +1746,10 @@
   <string>uni1E_F_8.glif</string>
   <key>uni1EF9</key>
   <string>uni1E_F_9.glif</string>
+  <key>uni2004</key>
+  <string>uni2004.glif</string>
+  <key>uni200B</key>
+  <string>uni200B_.glif</string>
   <key>uni200B.aaattmpt</key>
   <string>uni200B_.aaattmpt.glif</string>
   <key>uni200B.aattmpt</key>
@@ -1754,6 +1758,10 @@
   <string>uni200B_.narrowattmpt.glif</string>
   <key>uni200B.narrowattmptlow</key>
   <string>uni200B_.narrowattmptlow.glif</string>
+  <key>uni200C</key>
+  <string>uni200C_.glif</string>
+  <key>uni200D</key>
+  <string>uni200D_.glif</string>
   <key>uni20AB</key>
   <string>uni20A_B_.glif</string>
   <key>uni2308</key>

@@ -8,54 +8,9 @@
   <anchor x="399" y="1440" name="um"/>
   <anchor x="793" y="1440" name="um2"/>
   <outline>
-    <contour>
-      <point x="523" y="980" type="line" smooth="yes"/>
-      <point x="523" y="1024"/>
-      <point x="458" y="1054"/>
-      <point x="380" y="1091" type="curve" smooth="yes"/>
-      <point x="332" y="1114"/>
-      <point x="286" y="1138"/>
-      <point x="286" y="1193" type="curve" smooth="yes"/>
-      <point x="286" y="1222"/>
-      <point x="319" y="1328"/>
-      <point x="663" y="1328" type="curve" smooth="yes"/>
-      <point x="938" y="1328"/>
-      <point x="1063" y="1208"/>
-      <point x="1063" y="1145" type="curve" smooth="yes"/>
-      <point x="1063" y="0" type="line"/>
-      <point x="1251" y="0" type="line"/>
-      <point x="1251" y="1163" type="line" smooth="yes"/>
-      <point x="1251" y="1264"/>
-      <point x="1006" y="1440"/>
-      <point x="681" y="1440" type="curve" smooth="yes"/>
-      <point x="322" y="1440"/>
-      <point x="163" y="1326"/>
-      <point x="163" y="1189" type="curve" smooth="yes"/>
-      <point x="163" y="1118"/>
-      <point x="184" y="1063"/>
-      <point x="267" y="1016" type="curve"/>
-      <point x="299" y="1002"/>
-      <point x="335" y="980"/>
-      <point x="335" y="923" type="curve" smooth="yes"/>
-      <point x="335" y="451" type="line"/>
-      <point x="208" y="444"/>
-      <point x="108" y="376"/>
-      <point x="108" y="248" type="curve" smooth="yes"/>
-      <point x="108" y="169"/>
-      <point x="186" y="31"/>
-      <point x="352" y="0" type="curve"/>
-      <point x="417" y="0"/>
-      <point x="498" y="16"/>
-      <point x="523" y="79" type="curve"/>
-    </contour>
-    <contour>
-      <point x="230" y="257" type="curve" smooth="yes"/>
-      <point x="230" y="307"/>
-      <point x="287" y="338"/>
-      <point x="335" y="345" type="curve"/>
-      <point x="335" y="137" type="line"/>
-      <point x="284" y="159"/>
-      <point x="230" y="196"/>
-    </contour>
+    <component base="_stemLg" xOffset="963"/>
+    <component base="_bulgeArch" xOffset="63"/>
+    <component base="_stemloop" xScale="-1" xOffset="623"/>
+    <component base="_stemSm" xOffset="235" yOffset="480"/>
   </outline>
 </glyph>

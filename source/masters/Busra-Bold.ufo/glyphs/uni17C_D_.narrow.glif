@@ -4,43 +4,6 @@
   <anchor x="-371" y="1440" name="_um"/>
   <anchor x="-371" y="2349" name="um"/>
   <outline>
-    <contour>
-      <point x="-371" y="1590" type="curve" smooth="yes"/>
-      <point x="-165" y="1590"/>
-      <point x="-49" y="1695"/>
-      <point x="-49" y="1774" type="curve" smooth="yes"/>
-      <point x="-49" y="1804"/>
-      <point x="-90" y="1856"/>
-      <point x="-165" y="1856" type="curve" smooth="yes"/>
-      <point x="-221" y="1856"/>
-      <point x="-251" y="1837"/>
-      <point x="-278" y="1804" type="curve"/>
-      <point x="-289" y="1785"/>
-      <point x="-311" y="1766"/>
-      <point x="-360" y="1766" type="curve" smooth="yes"/>
-      <point x="-401" y="1766"/>
-      <point x="-428" y="1804"/>
-      <point x="-428" y="1849" type="curve" smooth="yes"/>
-      <point x="-428" y="1897"/>
-      <point x="-379" y="1946"/>
-      <point x="-300" y="1957" type="curve"/>
-      <point x="-105" y="1972"/>
-      <point x="56" y="2044"/>
-      <point x="56" y="2220" type="curve" smooth="yes"/>
-      <point x="56" y="2299"/>
-      <point x="-45" y="2404"/>
-      <point x="-263" y="2415" type="curve"/>
-      <point x="-214" y="2374"/>
-      <point x="-180" y="2321"/>
-      <point x="-180" y="2250" type="curve" smooth="yes"/>
-      <point x="-180" y="2171"/>
-      <point x="-248" y="2126"/>
-      <point x="-379" y="2114" type="curve" smooth="yes"/>
-      <point x="-578" y="2096"/>
-      <point x="-668" y="1965"/>
-      <point x="-668" y="1826" type="curve" smooth="yes"/>
-      <point x="-668" y="1695"/>
-      <point x="-555" y="1590"/>
-    </contour>
+    <component base="uni17CD" xOffset="342"/>
   </outline>
 </glyph>

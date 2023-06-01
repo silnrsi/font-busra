@@ -9,22 +9,16 @@
   <anchor x="1950" y="1440" name="um"/>
   <anchor x="2662" y="1440" name="um2"/>
   <outline>
-    <component base="_L.ear" xOffset="1343"/>
-    <component base="_curveShort.extra" xOffset="837"/>
-    <component base="_curveShort.extra" xOffset="1512"/>
-    <component base="_stemMd" xOffset="837" yOffset="329"/>
-    <component base="_stemSm" xOffset="2187" yOffset="376"/>
-    <component base="_curveShort.extra" yScale="-1" xOffset="162" yOffset="1440"/>
-    <component base="_stemSm" xOffset="1512" yOffset="376"/>
+    <component base="_L.ear" xOffset="1193"/>
+    <component base="_curveShort.extra" xOffset="1362"/>
+    <component base="_stemMd" xOffset="762" yOffset="329"/>
+    <component base="_stemSm" xOffset="2037" yOffset="376"/>
     <component base="_stemMd" xOffset="162" yOffset="469"/>
-    <component base="_stemloop" xOffset="200"/>
-    <component base="_bulgeArch" xOffset="2018"/>
-    <component base="_stemLg" xOffset="2937"/>
+    <component base="_stemloop" xOffset="200" yOffset="20"/>
+    <component base="_bulgeArch" xOffset="1868"/>
+    <component base="_stemLg" xOffset="2787"/>
+    <component base="_curveNarrowforBold" yScale="-1" xOffset="125" yOffset="1440"/>
+    <component base="_curveNarrowforBold" xOffset="725"/>
+    <component base="_stemMd" xOffset="1362" yOffset="199"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>

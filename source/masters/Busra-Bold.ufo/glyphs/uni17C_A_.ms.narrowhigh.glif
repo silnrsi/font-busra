@@ -1,49 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CA.ms.narrowhigh" format="2">
+  <anchor x="-188" y="1889" name="U"/>
+  <anchor x="-188" y="1440" name="_U"/>
+  <anchor x="-713" y="1889" name="um"/>
   <outline>
-    <contour>
-      <point x="-431" y="1880" type="curve"/>
-      <point x="-401" y="1921"/>
-      <point x="-349" y="1966"/>
-      <point x="-270" y="1966" type="curve" smooth="yes"/>
-      <point x="-212" y="1966"/>
-      <point x="-176" y="1906"/>
-      <point x="-113" y="1906" type="curve" smooth="yes"/>
-      <point x="-45" y="1906"/>
-      <point x="-4" y="1936"/>
-      <point x="0" y="2041" type="curve"/>
-      <point x="-15" y="2034"/>
-      <point x="-26" y="2030"/>
-      <point x="-38" y="2030" type="curve" smooth="yes"/>
-      <point x="-75" y="2030"/>
-      <point x="-120" y="2078"/>
-      <point x="-150" y="2104" type="curve" smooth="yes"/>
-      <point x="-182" y="2132"/>
-      <point x="-214" y="2140"/>
-      <point x="-259" y="2140" type="curve" smooth="yes"/>
-      <point x="-316" y="2140"/>
-      <point x="-383" y="2108"/>
-      <point x="-431" y="2036" type="curve"/>
-      <point x="-480" y="2108"/>
-      <point x="-547" y="2140"/>
-      <point x="-603" y="2140" type="curve" smooth="yes"/>
-      <point x="-648" y="2140"/>
-      <point x="-681" y="2132"/>
-      <point x="-713" y="2104" type="curve" smooth="yes"/>
-      <point x="-743" y="2078"/>
-      <point x="-788" y="2030"/>
-      <point x="-825" y="2030" type="curve" smooth="yes"/>
-      <point x="-836" y="2030"/>
-      <point x="-848" y="2034"/>
-      <point x="-863" y="2041" type="curve"/>
-      <point x="-859" y="1936"/>
-      <point x="-818" y="1906"/>
-      <point x="-750" y="1906" type="curve" smooth="yes"/>
-      <point x="-686" y="1906"/>
-      <point x="-651" y="1966"/>
-      <point x="-593" y="1966" type="curve" smooth="yes"/>
-      <point x="-514" y="1966"/>
-      <point x="-461" y="1921"/>
-    </contour>
+    <component base="uni17CA.narrow" xOffset="-1" yOffset="350"/>
   </outline>
 </glyph>

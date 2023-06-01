@@ -9,7 +9,7 @@
   <anchor x="763" y="1743" name="um"/>
   <anchor x="1572" y="1440" name="um2"/>
   <outline>
-    <component base="_squireltail" xOffset="63"/>
+    <component base="_squirreltail" xOffset="63"/>
     <component base="_w" xOffset="195"/>
     <component base="_stemSm" xOffset="195" yOffset="381"/>
     <component base="_deepArch2" xOffset="913"/>

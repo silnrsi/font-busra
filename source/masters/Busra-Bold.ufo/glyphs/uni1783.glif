@@ -13,7 +13,7 @@
     <component base="_curveShort.extra" xOffset="200"/>
     <component base="_curveShort.extra" xOffset="875"/>
     <component base="_stemMd" xOffset="200" yOffset="249"/>
-    <component base="_stemSm" xOffset="875" yOffset="376"/>
-    <component base="_stemSm" xOffset="1550" yOffset="376"/>
+    <component base="_stemMd" xOffset="875" yOffset="209"/>
+    <component base="_stemMd" xOffset="1550" yOffset="209"/>
   </outline>
 </glyph>

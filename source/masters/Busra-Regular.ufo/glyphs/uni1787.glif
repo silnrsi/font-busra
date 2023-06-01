@@ -7,7 +7,7 @@
   <anchor x="763" y="0" name="lm"/>
   <anchor x="763" y="1743" name="um"/>
   <outline>
-    <component base="_squireltail" xOffset="63"/>
+    <component base="_squirreltail" xOffset="63"/>
     <component base="_w" xOffset="195"/>
     <component base="_stemSm" xOffset="943" yOffset="443"/>
     <component base="_stemSm" xOffset="195" yOffset="381"/>

@@ -8,20 +8,14 @@
   <anchor x="1889" y="1440" name="um"/>
   <outline>
     <component base="_L.ear" xOffset="1222"/>
-    <component base="_curveShort.extra" xOffset="795"/>
     <component base="_curveShort.extra" xOffset="1395"/>
-    <component base="_stemMd" xOffset="795" yOffset="329"/>
-    <component base="_stemSm" xOffset="1995" yOffset="376"/>
-    <component base="_curveShort.extra" yScale="-1" xOffset="195" yOffset="1440"/>
-    <component base="_stemSm" xOffset="1395" yOffset="376"/>
+    <component base="_stemMd" xOffset="1395" yOffset="199"/>
     <component base="_stemMd" xOffset="195" yOffset="469"/>
     <component base="_L.ear" xOffset="1822"/>
     <component base="_stemloop" xOffset="195"/>
+    <component base="_curveNarrowforBold" yScale="-1" xOffset="195" yOffset="1440"/>
+    <component base="_curveNarrowforBold" xOffset="795"/>
+    <component base="_stemMd" xOffset="795" yOffset="329"/>
+    <component base="_stemMd" xOffset="1995" yOffset="199"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>

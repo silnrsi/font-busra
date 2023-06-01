@@ -14,9 +14,9 @@
     <component base="_curveShort.extra" xOffset="235"/>
     <component base="_curveShort.extra" xOffset="835"/>
     <component base="_stemMd" xOffset="235" yOffset="249"/>
-    <component base="_stemSm" xOffset="835" yOffset="376"/>
     <component base="_stemSm" xOffset="1435" yOffset="376"/>
     <component base="_stemLg" xOffset="2163"/>
     <component base="_bulgeArch" xOffset="1263"/>
+    <component base="_stemMd" xOffset="835" yOffset="209"/>
   </outline>
 </glyph>

@@ -13,6 +13,6 @@
     <component base="_stemMd" xOffset="912"/>
     <component base="_stemloop" xOffset="200"/>
     <component base="_mArch"/>
-    <component base="_stemMd" xOffset="1662"/>
+    <component base="_stemLg" xOffset="1661"/>
   </outline>
 </glyph>

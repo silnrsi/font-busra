@@ -9,7 +9,7 @@
   <outline>
     <component base="_stemloop" xScale="-1" yScale="-1" xOffset="1411" yOffset="980"/>
     <component base="_smoke" xOffset="73"/>
-    <component base="_stemMd" xOffset="200" yOffset="241"/>
+    <component base="_stemMd" xOffset="200" yOffset="294"/>
     <component base="_stemloop" xScale="-1" xOffset="662" yOffset="23"/>
     <component base="_diagonal" xOffset="439"/>
   </outline>

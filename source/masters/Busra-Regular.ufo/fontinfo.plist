@@ -148,7 +148,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Busra Regular: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 8.700</string>
+  <string>Version 8.700 alpha</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>

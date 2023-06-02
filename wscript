@@ -5,22 +5,21 @@
 DOCDIR = ["documentation", "web"]
 
 # set the font name and description
-APPNAME = 'Busra'
-FAMILY = APPNAME
+APPNAME = 'BusraTestA'
+sourcefontfamily = "Busra"
 DESC_SHORT = "Font family for the Khmer script"
 
 TESTDIR = ["tests"]
 
 # Get version and authorship information from Regular UFO (canonical metadata); must be first function call:
-getufoinfo('source/masters/' + FAMILY  + '-Regular.ufo')
-# BUILDLABEL = 'beta1'
+getufoinfo('source/masters/' + sourcefontfamily  + '-Regular.ufo')
 
 # Set up the FTML tests
 # ftmlTest('tools/ftml-smith.xsl')
 
 # cmds = [cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])]
 
-designspace('source/' + FAMILY + 'UprightRB.designspace',
+designspace('source/' + sourcefontfamily + 'UprightRB.designspace',
     target = "${DS:FILENAME_BASE}.ttf",
 #    target = process("${DS:FILENAME_BASE}.ttf", *cmds),
     params = "--decomposeComponents --removeOverlap",

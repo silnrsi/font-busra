@@ -1026,6 +1026,7 @@
     <string>sidebearingright</string>
     <string>.notdef</string>
     <string>.null</string>
+    <string>nonmarkingreturn</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>

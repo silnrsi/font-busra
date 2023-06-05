@@ -6,6 +6,6 @@
   <anchor x="-674" y="2013" name="um"/>
   <outline>
     <component base="uni17B7"/>
-    <component base="uni17C6" xScale="0.77378" yScale="0.77378" xOffset="304" yOffset="472"/>
+    <component base="uni17C6" xScale="0.77378" yScale="0.77378" xOffset="310" yOffset="496"/>
   </outline>
 </glyph>

@@ -9,7 +9,7 @@
   <outline>
     <component base="_instroke" xOffset="-25" yOffset="-544"/>
     <component base="_w" xOffset="200"/>
-    <component base="_stemSm" xOffset="950" yOffset="418"/>
+    <component base="_stemSm" xOffset="950" yOffset="399"/>
     <contour>
       <point x="1050" y="855" type="line"/>
       <point x="1350" y="855" type="line"/>

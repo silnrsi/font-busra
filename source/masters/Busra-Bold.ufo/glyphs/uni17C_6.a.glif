@@ -2,6 +2,7 @@
 <glyph name="uni17C6.a" format="2">
   <anchor x="-638" y="1440" name="_um"/>
   <anchor x="-638" y="2003" name="um"/>
+  <anchor x="-639" y="2068" name="um.1"/>
   <outline>
     <component base="uni17C6" xOffset="75"/>
   </outline>

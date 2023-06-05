@@ -140,6 +140,8 @@
   <string>_R_.ear.glif</string>
   <key>_R.earLarge</key>
   <string>_R_.earL_arge.glif</string>
+  <key>_ballInstroke</key>
+  <string>_ballI_nstroke.glif</string>
   <key>_bulgeArch</key>
   <string>_bulgeA_rch.glif</string>
   <key>_curve</key>
@@ -158,8 +160,12 @@
   <string>_diagonal.glif</string>
   <key>_diagonalSharp</key>
   <string>_diagonalS_harp.glif</string>
+  <key>_dottedCircle</key>
+  <string>_dottedC_ircle.glif</string>
   <key>_eyelash</key>
   <string>_eyelash.glif</string>
+  <key>_eyelash2</key>
+  <string>_eyelash2.glif</string>
   <key>_horizontal</key>
   <string>_horizontal.glif</string>
   <key>_instroke</key>
@@ -180,6 +186,8 @@
   <string>_stemM_d.glif</string>
   <key>_stemSm</key>
   <string>_stemS_m.glif</string>
+  <key>_stemSub</key>
+  <string>_stemS_ub.glif</string>
   <key>_stemloop</key>
   <string>_stemloop.glif</string>
   <key>_swash</key>
@@ -192,6 +200,8 @@
   <string>_w.glif</string>
   <key>_wNarrow</key>
   <string>_wN_arrow.glif</string>
+  <key>_wWideforReg</key>
+  <string>_wW_ideforR_eg.glif</string>
   <key>a</key>
   <string>a.glif</string>
   <key>aacute</key>

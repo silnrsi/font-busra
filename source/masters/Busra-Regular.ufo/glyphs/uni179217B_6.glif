@@ -12,7 +12,7 @@
   <outline>
     <component base="_w" xOffset="195"/>
     <component base="_stemloop" xScale="-1" yScale="-1" xOffset="1331" yOffset="975"/>
-    <component base="_stemMd" xOffset="195" yOffset="241"/>
+    <component base="_stemMd" xOffset="195" yOffset="231"/>
     <component base="_mArch" xOffset="63"/>
     <component base="_stemLg" xOffset="1671"/>
   </outline>

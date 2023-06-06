@@ -3,7 +3,7 @@
   <advance width="2925"/>
   <unicode hex="17C0"/>
   <outline>
-    <component base="dottedcircle" xOffset="875" yOffset="-40"/>
+    <component base="dottedcircle" xOffset="755" yOffset="-40"/>
     <component base="uni17C1"/>
     <component base="uni17C0.rightpart1" xOffset="2175"/>
   </outline>

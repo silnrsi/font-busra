@@ -6,6 +6,6 @@
     <component base="_stemLg" xOffset="2337"/>
     <component base="_topArch" xOffset="1710"/>
     <component base="uni17C1"/>
-    <component base="dottedcircle" xOffset="750" yOffset="-40"/>
+    <component base="dottedcircle" xOffset="700" yOffset="-40"/>
   </outline>
 </glyph>

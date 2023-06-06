@@ -12,8 +12,9 @@
   <outline>
     <component base="_deepArch2" xOffset="874"/>
     <component base="_w" xOffset="162"/>
-    <component base="_stemSm" xOffset="162" yOffset="402"/>
+    <component base="_stemMd" xOffset="162" yOffset="195"/>
     <contour>
+      <point x="551" y="1506" type="curve" smooth="yes"/>
       <point x="372" y="1506"/>
       <point x="264" y="1381"/>
       <point x="264" y="1248" type="curve" smooth="yes"/>
@@ -50,7 +51,6 @@
       <point x="750" y="1354" type="curve" smooth="yes"/>
       <point x="750" y="1440"/>
       <point x="660" y="1506"/>
-      <point x="551" y="1506" type="curve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>

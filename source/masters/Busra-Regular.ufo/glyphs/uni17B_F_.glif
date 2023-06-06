@@ -4,7 +4,7 @@
   <unicode hex="17BF"/>
   <outline>
     <component base="uni17C1"/>
-    <component base="dottedcircle" xOffset="826"/>
+    <component base="dottedcircle" xOffset="656"/>
     <component base="uni17BF.rightpart1" xOffset="1948"/>
   </outline>
 </glyph>

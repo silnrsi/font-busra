@@ -7,6 +7,7 @@
     <component base="_w" xOffset="235"/>
     <component base="_instroke" xOffset="8" yOffset="-544"/>
     <component base="_stemSm" xOffset="983" yOffset="418"/>
+    <component base="_stemSm" xOffset="235" yOffset="204"/>
     <contour>
       <point x="755" y="896" type="curve" smooth="yes"/>
       <point x="982" y="896"/>
@@ -64,4 +65,10 @@
       <point x="534" y="896"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

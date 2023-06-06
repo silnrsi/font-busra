@@ -7,6 +7,6 @@
     <component base="_squirreltail" xOffset="63"/>
     <component base="_w" xOffset="195"/>
     <component base="_stemSm" xOffset="943" yOffset="443"/>
-    <component base="_stemSm" xOffset="195" yOffset="381"/>
+    <component base="_stemMd" xOffset="195" yOffset="132"/>
   </outline>
 </glyph>

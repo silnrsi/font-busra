@@ -3,19 +3,38 @@
   <advance width="2175"/>
   <unicode hex="1799"/>
   <outline>
-    <component base="_curveShort.extra" xOffset="912"/>
-    <component base="_curve" xOffset="162"/>
     <component base="_stemloop" yScale="-1" xOffset="200" yOffset="1440"/>
     <component base="_L.ear" xOffset="743"/>
     <component base="_L.ear" xOffset="1418"/>
+    <component base="_curveShort.extra" xOffset="912"/>
     <component base="_stemSm" xOffset="162" yOffset="321"/>
-    <component base="_stemMd" xOffset="912" yOffset="206"/>
     <component base="_stemMd" xOffset="1587" yOffset="206"/>
+    <component base="_stemMd" xOffset="912" yOffset="206"/>
+    <contour>
+      <point x="787" y="0" type="curve" smooth="yes"/>
+      <point x="1050" y="0"/>
+      <point x="1312" y="71"/>
+      <point x="1312" y="211" type="curve" smooth="yes"/>
+      <point x="1312" y="446" type="line"/>
+      <point x="1012" y="446" type="line"/>
+      <point x="1012" y="237" type="line" smooth="yes"/>
+      <point x="1012" y="162"/>
+      <point x="900" y="131"/>
+      <point x="787" y="131" type="curve" smooth="yes"/>
+      <point x="675" y="131"/>
+      <point x="562" y="162"/>
+      <point x="562" y="237" type="curve" smooth="yes"/>
+      <point x="562" y="446" type="line"/>
+      <point x="262" y="446" type="line"/>
+      <point x="262" y="211" type="line" smooth="yes"/>
+      <point x="262" y="71"/>
+      <point x="525" y="0"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

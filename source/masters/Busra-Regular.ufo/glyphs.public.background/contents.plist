@@ -112,6 +112,8 @@
   <string>uni1797.glif</string>
   <key>uni1799</key>
   <string>uni1799.glif</string>
+  <key>uni179917B6</key>
+  <string>uni179917B_6.glif</string>
   <key>uni179B</key>
   <string>uni179B_.glif</string>
   <key>uni179C</key>
@@ -154,6 +156,8 @@
   <string>uni17B_1.alt.glif</string>
   <key>uni17B1.alt2</key>
   <string>uni17B_1.alt2.glif</string>
+  <key>uni17B2</key>
+  <string>uni17B_2.glif</string>
   <key>uni17B3</key>
   <string>uni17B_3.glif</string>
   <key>uni17B3.alt</key>
@@ -166,12 +170,24 @@
   <string>uni17B_7.ms.high.glif</string>
   <key>uni17B7.ms.high2</key>
   <string>uni17B_7.ms.high2.glif</string>
+  <key>uni17B7.ms.narrowhigh</key>
+  <string>uni17B_7.ms.narrowhigh.glif</string>
+  <key>uni17B7.ms.narrowhigh2</key>
+  <string>uni17B_7.ms.narrowhigh2.glif</string>
+  <key>uni17B7.narrow</key>
+  <string>uni17B_7.narrow.glif</string>
   <key>uni17B717CD</key>
   <string>uni17B_717C_D_.glif</string>
   <key>uni17B717CD.ms.high</key>
   <string>uni17B_717C_D_.ms.high.glif</string>
   <key>uni17B717CD.ms.high2</key>
   <string>uni17B_717C_D_.ms.high2.glif</string>
+  <key>uni17B717CD.ms.narrowhigh</key>
+  <string>uni17B_717C_D_.ms.narrowhigh.glif</string>
+  <key>uni17B717CD.ms.narrowhigh2</key>
+  <string>uni17B_717C_D_.ms.narrowhigh2.glif</string>
+  <key>uni17B717CD.narrow</key>
+  <string>uni17B_717C_D_.narrow.glif</string>
   <key>uni17B8</key>
   <string>uni17B_8.glif</string>
   <key>uni17B8.ms.high</key>
@@ -184,6 +200,12 @@
   <string>uni17B_9.ms.high.glif</string>
   <key>uni17B9.ms.high2</key>
   <string>uni17B_9.ms.high2.glif</string>
+  <key>uni17B9.ms.narrowhigh</key>
+  <string>uni17B_9.ms.narrowhigh.glif</string>
+  <key>uni17B9.ms.narrowhigh2</key>
+  <string>uni17B_9.ms.narrowhigh2.glif</string>
+  <key>uni17B9.narrow</key>
+  <string>uni17B_9.narrow.glif</string>
   <key>uni17BA</key>
   <string>uni17B_A_.glif</string>
   <key>uni17BA.ms.high</key>
@@ -196,6 +218,14 @@
   <string>uni17B_B_.low.glif</string>
   <key>uni17BB.low.narrow</key>
   <string>uni17B_B_.low.narrow.glif</string>
+  <key>uni17BC</key>
+  <string>uni17B_C_.glif</string>
+  <key>uni17BC.low</key>
+  <string>uni17B_C_.low.glif</string>
+  <key>uni17BC.narrow</key>
+  <string>uni17B_C_.narrow.glif</string>
+  <key>uni17BD</key>
+  <string>uni17B_D_.glif</string>
   <key>uni17BE</key>
   <string>uni17B_E_.glif</string>
   <key>uni17BF</key>
@@ -296,5 +326,25 @@
   <string>uni17D_217A_1.low.glif</string>
   <key>uni17D217A117B6.low</key>
   <string>uni17D_217A_117B_6.low.glif</string>
+  <key>uni17D217A7</key>
+  <string>uni17D_217A_7.glif</string>
+  <key>uni17D217A8</key>
+  <string>uni17D_217A_8.glif</string>
+  <key>uni17D217AA</key>
+  <string>uni17D_217A_A_.glif</string>
+  <key>uni17D217B1</key>
+  <string>uni17D_217B_1.glif</string>
+  <key>uni17D217B3</key>
+  <string>uni17D_217B_3.glif</string>
+  <key>uni17D3.ms.high</key>
+  <string>uni17D_3.ms.high.glif</string>
+  <key>uni17D3.ms.high2</key>
+  <string>uni17D_3.ms.high2.glif</string>
+  <key>uni17D3.ms.narrowhigh</key>
+  <string>uni17D_3.ms.narrowhigh.glif</string>
+  <key>uni17D3.ms.narrowhigh2</key>
+  <string>uni17D_3.ms.narrowhigh2.glif</string>
+  <key>uni17D4</key>
+  <string>uni17D_4.glif</string>
 </dict>
 </plist>

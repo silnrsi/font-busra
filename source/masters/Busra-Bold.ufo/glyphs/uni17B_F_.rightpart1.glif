@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17BF.rightpart1" format="2">
   <advance width="750"/>
-  <anchor x="562" y="-598" name="L"/>
-  <anchor x="558" y="2490" name="U"/>
+  <anchor x="0" y="980" name="H"/>
   <outline>
     <component base="uni17BA" xOffset="604" yOffset="220"/>
     <component base="uni17C0.rightpart1"/>

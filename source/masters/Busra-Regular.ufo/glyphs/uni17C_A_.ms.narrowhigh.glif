@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CA.ms.narrowhigh" format="2">
-  <anchor x="-148" y="1889" name="U"/>
-  <anchor x="-148" y="1440" name="_U"/>
-  <anchor x="-653" y="1889" name="um"/>
+  <anchor x="0" y="300" name="A0"/>
+  <anchor x="20" y="1000" name="_UR"/>
+  <anchor x="0" y="0" name="_def"/>
   <outline>
     <component base="uni17CA.narrow" yOffset="290"/>
   </outline>

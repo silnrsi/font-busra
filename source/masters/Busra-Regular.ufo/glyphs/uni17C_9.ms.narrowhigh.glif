@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17C9.ms.narrowhigh" format="2">
+  <anchor x="0" y="450" name="A0"/>
+  <anchor x="0" y="250" name="A1"/>
+  <anchor x="0" y="0" name="A2"/>
+  <anchor x="20" y="1000" name="_UR"/>
+  <anchor x="0" y="0" name="_def"/>
   <outline>
     <contour>
       <point x="-683" y="2152" type="curve" smooth="yes"/>

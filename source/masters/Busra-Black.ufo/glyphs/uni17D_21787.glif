@@ -2,9 +2,11 @@
 <glyph name="uni17D21787" format="2">
   <guideline x="0" y="-713" angle="0"/>
   <guideline x="-1125" y="0" angle="90"/>
-  <anchor x="-150" y="-713" name="L"/>
-  <anchor x="-150" y="0" name="_L"/>
-  <anchor x="-638" y="0" name="_M"/>
+  <anchor x="0" y="0" name="B2"/>
+  <anchor x="-20" y="0" name="_L"/>
+  <anchor x="-639" y="0" name="_N"/>
+  <anchor x="-639" y="0" name="_NC"/>
+  <anchor x="0" y="0" name="_NG"/>
   <outline>
     <contour>
       <point x="-743" y="-347" type="curve"/>

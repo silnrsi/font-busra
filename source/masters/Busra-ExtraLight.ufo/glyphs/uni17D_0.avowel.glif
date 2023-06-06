@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D0.avowel" format="2">
-  <anchor x="-225" y="2550" name="U"/>
-  <anchor x="-225" y="2025" name="_U"/>
+  <anchor x="0" y="850" name="A0"/>
+  <anchor x="0" y="490" name="A1"/>
+  <anchor x="0" y="0" name="A2"/>
+  <anchor x="0" y="400" name="_A0"/>
+  <anchor x="0" y="20" name="_A1"/>
+  <anchor x="-40" y="1060" name="_U"/>
   <outline>
     <contour>
       <point x="-383" y="2247" type="curve"/>

@@ -2,10 +2,7 @@
 <glyph name="uni1784" format="2">
   <advance width="1516"/>
   <unicode hex="1784"/>
-  <anchor x="1271" y="0" name="L"/>
-  <anchor x="1265" y="1743" name="U"/>
-  <anchor x="803" y="0" name="lm"/>
-  <anchor x="803" y="1743" name="um"/>
+  <anchor x="825" y="0" name="def"/>
   <outline>
     <component base="_w" xOffset="235"/>
     <component base="_instroke" xOffset="8" yOffset="-544"/>

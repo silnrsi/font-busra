@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17BF.rightpart1" format="2">
   <advance width="675"/>
-  <anchor x="450" y="-600" name="L"/>
-  <anchor x="-94" y="2377" name="MA"/>
-  <anchor x="450" y="2377" name="U"/>
+  <anchor x="0" y="980" name="H"/>
   <outline>
     <contour>
       <point x="-248" y="1906" type="curve" smooth="yes"/>

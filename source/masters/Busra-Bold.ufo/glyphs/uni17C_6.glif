@@ -4,9 +4,11 @@
   <guideline x="-1013"/>
   <guideline x="-413"/>
   <guideline x="-713"/>
-  <anchor x="-188" y="2020" name="U"/>
-  <anchor x="-713" y="1440" name="_um"/>
-  <anchor x="-713" y="2020" name="um"/>
+  <anchor x="0" y="250" name="A0"/>
+  <anchor x="-798" y="0" name="_B6C6"/>
+  <anchor x="0" y="0" name="_C6"/>
+  <anchor x="-700" y="0" name="_H"/>
+  <anchor x="0" y="0" name="_def"/>
   <outline>
     <contour>
       <point x="-1002" y="1815" type="curve" smooth="yes"/>

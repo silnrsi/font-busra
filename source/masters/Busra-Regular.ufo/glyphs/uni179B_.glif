@@ -2,10 +2,6 @@
 <glyph name="uni179B" format="2">
   <advance width="1928"/>
   <unicode hex="179B"/>
-  <anchor x="1683" y="0" name="L"/>
-  <anchor x="1683" y="1440" name="U"/>
-  <anchor x="989" y="0" name="lm"/>
-  <anchor x="1289" y="1440" name="um"/>
   <outline>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="195" yOffset="1440"/>
     <component base="_stemloop" xOffset="195"/>

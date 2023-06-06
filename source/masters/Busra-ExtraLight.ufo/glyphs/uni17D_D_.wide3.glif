@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17DD.wide3" format="2">
   <advance width="700"/>
-  <anchor x="975" y="0" name="_LL"/>
   <outline>
     <contour>
       <point x="-930" y="2150" type="curve" smooth="yes"/>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1781.pronounlig" format="2">
   <advance width="1425"/>
-  <anchor x="1312" y="2040" name="U"/>
   <outline>
     <component base="uni1781"/>
     <contour>

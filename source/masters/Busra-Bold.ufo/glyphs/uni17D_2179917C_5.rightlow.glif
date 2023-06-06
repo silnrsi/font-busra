@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D2179917C5.rightlow" format="2">
   <advance width="1500"/>
-  <anchor x="562" y="-1238" name="L"/>
-  <anchor x="1312" y="0" name="L2"/>
-  <anchor x="1312" y="1922" name="U"/>
-  <anchor x="753" y="1922" name="um"/>
-  <anchor x="753" y="1922" name="um2"/>
+  <anchor x="0" y="0" name="C6_1"/>
+  <anchor x="728" y="20" name="C6_2"/>
+  <anchor x="1476" y="20" name="C6_3"/>
+  <anchor x="-20" y="0" name="L_1"/>
+  <anchor x="730" y="20" name="L_2"/>
+  <anchor x="1680" y="-20" name="L_3"/>
+  <anchor x="0" y="1000" name="UR_1"/>
+  <anchor x="748" y="1000" name="UR_2"/>
+  <anchor x="1436" y="1000" name="UR_3"/>
+  <anchor x="0" y="1000" name="U_1"/>
+  <anchor x="748" y="1000" name="U_2"/>
+  <anchor x="708" y="1000" name="U_3"/>
   <outline>
     <contour>
       <point x="1312" y="1166" type="line" smooth="yes"/>

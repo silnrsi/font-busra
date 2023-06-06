@@ -2,6 +2,8 @@
 <glyph name="eth" format="2">
   <advance width="1071"/>
   <unicode hex="00F0"/>
+  <anchor x="520" y="0" name="PB"/>
+  <anchor x="580" y="200" name="def"/>
   <outline>
     <contour>
       <point x="337" y="1119" type="line"/>

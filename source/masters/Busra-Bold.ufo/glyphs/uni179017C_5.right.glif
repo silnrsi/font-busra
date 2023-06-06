@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni179017C5.right" format="2">
   <advance width="2250"/>
-  <anchor x="1312" y="0" name="L"/>
-  <anchor x="2062" y="0" name="L2"/>
-  <anchor x="1312" y="1740" name="U"/>
-  <anchor x="2062" y="1922" name="U2"/>
-  <anchor x="787" y="0" name="lm"/>
-  <anchor x="787" y="1743" name="um"/>
-  <anchor x="1537" y="1922" name="um2"/>
+  <anchor x="1500" y="0" name="C6_1"/>
+  <anchor x="2250" y="20" name="C6_2"/>
+  <anchor x="1480" y="0" name="L_1"/>
+  <anchor x="2230" y="20" name="L_2"/>
+  <anchor x="1500" y="1000" name="UR_1"/>
+  <anchor x="20" y="1000" name="UR_2"/>
+  <anchor x="1500" y="1000" name="U_1"/>
+  <anchor x="1520" y="1000" name="U_2"/>
   <outline>
     <component base="uni179017B6"/>
     <component base="_R.ear" xOffset="1593"/>

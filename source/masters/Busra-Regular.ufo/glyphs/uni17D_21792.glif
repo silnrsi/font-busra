@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D21792" format="2">
-  <anchor x="-245" y="-710" name="L"/>
-  <anchor x="-245" y="0" name="_L"/>
-  <anchor x="-639" y="0" name="_lm"/>
-  <anchor x="-639" y="-710" name="lm"/>
+  <anchor x="0" y="0" name="B2"/>
+  <anchor x="-20" y="0" name="_L"/>
+  <anchor x="-639" y="0" name="_N"/>
+  <anchor x="-639" y="0" name="_NC"/>
+  <anchor x="0" y="0" name="_NG"/>
   <outline>
     <contour>
       <point x="-698" y="-361" type="line"/>

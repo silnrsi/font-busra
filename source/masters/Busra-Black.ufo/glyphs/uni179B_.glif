@@ -2,8 +2,6 @@
 <glyph name="uni179B" format="2">
   <advance width="1950"/>
   <unicode hex="179B"/>
-  <anchor x="1800" y="0" name="L"/>
-  <anchor x="1800" y="1440" name="U"/>
   <outline>
     <contour>
       <point x="825" y="206" type="line"/>

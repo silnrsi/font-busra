@@ -4,8 +4,10 @@
   <guideline x="0" y="-1238" angle="0"/>
   <guideline x="0" y="-769" angle="0"/>
   <guideline x="-150" y="0" angle="90"/>
-  <anchor x="-150" y="-1238" name="L"/>
-  <anchor x="-150" y="-713" name="_L"/>
+  <anchor x="0" y="-525" name="B2"/>
+  <anchor x="0" y="0" name="_B1"/>
+  <anchor x="0" y="0" name="_B2"/>
+  <anchor x="-20" y="0" name="_L"/>
   <outline>
     <contour>
       <point x="-915" y="-891" type="curve"/>

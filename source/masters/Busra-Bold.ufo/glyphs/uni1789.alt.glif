@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1789.alt" format="2">
   <advance width="2138"/>
-  <anchor x="1950" y="0" name="L"/>
-  <anchor x="1950" y="1440" name="U"/>
-  <anchor x="1083" y="0" name="lm"/>
-  <anchor x="1481" y="1440" name="um"/>
   <outline>
     <component base="_topArch" xOffset="923"/>
     <component base="_m" xOffset="160"/>

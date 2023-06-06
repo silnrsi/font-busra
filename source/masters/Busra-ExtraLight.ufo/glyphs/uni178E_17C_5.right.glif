@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni178E17C5.right" format="2">
   <advance width="3150"/>
-  <anchor x="2252" y="0" name="L"/>
-  <anchor x="2252" y="1440" name="U"/>
+  <anchor x="20" y="0" name="C6C_1"/>
+  <anchor x="20" y="0" name="C6C_2"/>
+  <anchor x="2570" y="0" name="NBB_1"/>
+  <anchor x="-20" y="0" name="NBB_2"/>
+  <anchor x="1309" y="0" name="NC_1"/>
+  <anchor x="2661" y="0" name="NC_2"/>
+  <anchor x="2550" y="0" name="def_1"/>
+  <anchor x="3300" y="0" name="def_2"/>
   <outline>
     <contour>
       <point x="1500" y="214" type="line" smooth="yes"/>

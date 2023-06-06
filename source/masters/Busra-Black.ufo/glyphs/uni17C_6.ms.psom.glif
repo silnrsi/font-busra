@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17C6.ms.psom" format="2">
   <advance width="3074"/>
-  <anchor x="1190" y="0" name="L"/>
-  <anchor x="1190" y="1652" name="U"/>
   <outline>
     <contour>
       <point x="562" y="0" type="line" smooth="yes"/>

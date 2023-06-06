@@ -2,9 +2,6 @@
 <glyph name="uni17C4" format="2">
   <advance width="2775"/>
   <unicode hex="17C4"/>
-  <anchor x="2512" y="0" name="L"/>
-  <anchor x="1387" y="1440" name="MA"/>
-  <anchor x="2475" y="1440" name="U"/>
   <outline>
     <contour>
       <point x="1830" y="1234" type="line"/>

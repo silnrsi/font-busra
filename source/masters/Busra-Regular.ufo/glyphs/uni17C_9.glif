@@ -2,9 +2,10 @@
 <glyph name="uni17C9" format="2">
   <unicode hex="17C9"/>
   <guideline x="-719"/>
-  <anchor x="-245" y="1992" name="U"/>
-  <anchor x="-719" y="1440" name="_um"/>
-  <anchor x="-719" y="1992" name="um"/>
+  <anchor x="0" y="250" name="A0"/>
+  <anchor x="-700" y="0" name="_H"/>
+  <anchor x="20" y="1000" name="_UR"/>
+  <anchor x="0" y="0" name="_def"/>
   <outline>
     <contour>
       <point x="-1093" y="1887" type="curve" smooth="yes"/>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17BD" format="2">
   <unicode hex="17BD"/>
-  <anchor x="-245" y="0" name="_L"/>
   <outline>
     <contour>
       <point x="-845" y="-257" type="curve" smooth="yes"/>

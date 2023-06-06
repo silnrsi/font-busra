@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17B7.ms.high" format="2">
+  <anchor x="0" y="550" name="A0"/>
+  <anchor x="0" y="0" name="_A0"/>
   <outline>
     <component base="uni17B7" yOffset="290"/>
   </outline>

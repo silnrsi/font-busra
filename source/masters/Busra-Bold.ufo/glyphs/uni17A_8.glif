@@ -2,10 +2,8 @@
 <glyph name="uni17A8" format="2">
   <advance width="1425"/>
   <unicode hex="17A8"/>
-  <anchor x="1275" y="-188" name="L"/>
-  <anchor x="1275" y="1747" name="U"/>
-  <anchor x="750" y="-188" name="lm"/>
-  <anchor x="769" y="1747" name="um"/>
+  <anchor x="1437" y="-190" name="NG"/>
+  <anchor x="730" y="0" name="def"/>
   <outline>
     <component base="uni17A7"/>
     <component base="uni17CA" xOffset="1470" yOffset="-165"/>

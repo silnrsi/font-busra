@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1781.pronounlig" format="2">
   <advance width="1315"/>
-  <anchor x="1125" y="2115" name="U"/>
   <outline>
     <contour>
       <point x="427" y="1855" type="curve" smooth="yes"/>

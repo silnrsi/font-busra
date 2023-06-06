@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CD.ms.narrowhigh2" format="2">
+  <anchor x="0" y="900" name="A1"/>
+  <anchor x="0" y="0" name="A2"/>
+  <anchor x="0" y="0" name="_A1"/>
+  <anchor x="0" y="0" name="_B6"/>
+  <anchor x="350" y="1000" name="_U"/>
   <outline>
     <component base="uni17CD" xOffset="342" yOffset="521"/>
   </outline>

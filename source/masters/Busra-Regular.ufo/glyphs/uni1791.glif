@@ -3,10 +3,8 @@
   <advance width="1280"/>
   <unicode hex="1791"/>
   <guideline x="649"/>
-  <anchor x="1131" y="0" name="L"/>
-  <anchor x="1131" y="1440" name="U"/>
-  <anchor x="645" y="0" name="lm"/>
-  <anchor x="645" y="1440" name="um"/>
+  <anchor x="1400" y="0" name="NG"/>
+  <anchor x="650" y="0" name="def"/>
   <outline>
     <contour>
       <point x="587" y="-1" type="curve" smooth="yes"/>

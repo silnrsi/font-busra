@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CE.a" format="2">
-  <anchor x="-150" y="2002" name="U"/>
-  <anchor x="-150" y="1440" name="_U"/>
   <outline>
     <contour>
       <point x="-1050" y="1762" type="line"/>

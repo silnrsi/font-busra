@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17BA.ms.narrowhigh" format="2">
-  <anchor x="-225" y="2437" name="U"/>
-  <anchor x="-225" y="1440" name="_U"/>
+  <anchor x="0" y="700" name="A0"/>
+  <anchor x="0" y="0" name="_A0"/>
   <outline>
     <contour>
       <point x="-416" y="1967" type="curve" smooth="yes"/>

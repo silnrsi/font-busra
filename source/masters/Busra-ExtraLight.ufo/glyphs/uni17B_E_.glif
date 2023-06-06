@@ -2,9 +2,6 @@
 <glyph name="uni17BE" format="2">
   <advance width="2100"/>
   <unicode hex="17BE"/>
-  <anchor x="1837" y="0" name="L"/>
-  <anchor x="1444" y="1972" name="MA"/>
-  <anchor x="1834" y="1972" name="U"/>
   <outline>
     <contour>
       <point x="1327" y="1676" type="curve" smooth="yes"/>

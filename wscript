@@ -23,9 +23,13 @@ designspace('source/' + sourcefontfamily + 'UprightRB.designspace',
     target = "${DS:FILENAME_BASE}.ttf",
 #    target = process("${DS:FILENAME_BASE}.ttf", *cmds),
     params = "--decomposeComponents --removeOverlap",
+    opentype = fea('source/${DS:FILENAME_BASE}.fea',
+        master = 'source/Busra.feax',
+        params = '-m source/${DS:FILENAME_BASE}.map'),
 #    woff = woff('web/${DS:FILENAME_BASE}.woff',
 #        metadata=f'../source/{FAMILY}-WOFF-metadata.xml',
 #        cmd='psfwoffit -m ${SRC[1]} --woff ${TGT} --woff2 ${TGT}2 ${SRC[0]}'
 #        ),
+    script = 'khmr',
     pdf = fret(params='-oi')
 )

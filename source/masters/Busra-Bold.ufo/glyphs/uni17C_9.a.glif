@@ -2,6 +2,8 @@
 <glyph name="uni17C9.a" format="2">
   <guideline x="-938"/>
   <guideline x="-488"/>
+  <anchor x="-708" y="1000" name="_UR"/>
+  <anchor x="-728" y="0" name="_def"/>
   <outline>
     <contour>
       <point x="-708" y="1860" type="curve" smooth="yes"/>

@@ -2,10 +2,6 @@
 <glyph name="uni179F" format="2">
   <advance width="1950"/>
   <unicode hex="179F"/>
-  <anchor x="1762" y="0" name="L"/>
-  <anchor x="1762" y="1440" name="U"/>
-  <anchor x="1021" y="0" name="lm"/>
-  <anchor x="1312" y="1440" name="um"/>
   <outline>
     <component base="_L.ear" xOffset="293"/>
     <component base="_stemloop" xOffset="200"/>

@@ -2,8 +2,6 @@
 <glyph name="uni17C5" format="2">
   <advance width="3000"/>
   <unicode hex="17C5"/>
-  <anchor x="2850" y="0" name="L"/>
-  <anchor x="2887" y="1852" name="U"/>
   <outline>
     <contour>
       <point x="1954" y="1324" type="curve"/>

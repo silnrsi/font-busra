@@ -2,6 +2,9 @@
 <glyph name="uni0323" format="2">
   <advance width="2"/>
   <unicode hex="0323"/>
+  <anchor x="0" y="-180" name="PHB"/>
+  <anchor x="0" y="0" name="_PB"/>
+  <anchor x="0" y="0" name="_PHB"/>
   <outline>
     <contour>
       <point x="-648" y="-266" type="curve" smooth="yes"/>

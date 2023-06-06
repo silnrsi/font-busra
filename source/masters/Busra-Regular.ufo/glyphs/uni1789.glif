@@ -2,9 +2,6 @@
 <glyph name="uni1789" format="2">
   <advance width="2116"/>
   <unicode hex="1789"/>
-  <anchor x="1871" y="-598" name="L"/>
-  <anchor x="1871" y="1440" name="U"/>
-  <anchor x="1457" y="1440" name="um"/>
   <outline>
     <component base="uni1789.alt"/>
     <contour>

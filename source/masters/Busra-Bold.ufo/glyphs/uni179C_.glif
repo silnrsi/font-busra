@@ -2,9 +2,7 @@
 <glyph name="uni179C" format="2">
   <advance width="788"/>
   <unicode hex="179C"/>
-  <anchor x="600" y="1793" name="U"/>
-  <anchor x="337" y="0" name="lm"/>
-  <anchor x="450" y="1793" name="um"/>
+  <anchor x="400" y="0" name="N"/>
   <outline>
     <component base="_stemloop" xScale="-1" xOffset="662" yOffset="22"/>
     <component base="_stemSm" xOffset="200" yOffset="408"/>

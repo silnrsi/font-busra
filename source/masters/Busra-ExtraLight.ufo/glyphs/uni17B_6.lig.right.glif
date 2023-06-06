@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17B6.lig.right" format="2">
   <advance width="700"/>
-  <anchor x="-142" y="-151" name="L"/>
-  <anchor x="-142" y="1440" name="U"/>
   <outline>
     <contour>
       <point x="-318" y="1258" type="curve"/>

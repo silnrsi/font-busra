@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17C0.rightpart1" format="2">
   <advance width="728"/>
-  <anchor x="483" y="-598" name="L"/>
-  <anchor x="483" y="1793" name="U"/>
   <outline>
     <component base="_R.earLarge" xOffset="22"/>
     <component base="_curve" xOffset="-553" yOffset="-598"/>

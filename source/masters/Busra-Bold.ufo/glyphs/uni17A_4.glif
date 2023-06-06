@@ -2,10 +2,6 @@
 <glyph name="uni17A4" format="2">
   <advance width="2213"/>
   <unicode hex="17A4"/>
-  <anchor x="2025" y="0" name="L"/>
-  <anchor x="2025" y="1440" name="U"/>
-  <anchor x="1162" y="0" name="lm"/>
-  <anchor x="1162" y="1440" name="um"/>
   <outline>
     <component base="uni17A217B6"/>
   </outline>

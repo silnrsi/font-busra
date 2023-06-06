@@ -3,10 +3,7 @@
   <advance width="1425"/>
   <guideline y="2100"/>
   <guideline x="1230"/>
-  <anchor x="1275" y="-188" name="L"/>
-  <anchor x="1275" y="2100" name="U"/>
-  <anchor x="750" y="-188" name="lm"/>
-  <anchor x="750" y="2100" name="um"/>
+  <anchor x="1437" y="-190" name="NG"/>
   <outline>
     <component base="uni17A7"/>
     <contour>

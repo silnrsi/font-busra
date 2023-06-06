@@ -2,6 +2,8 @@
 <glyph name="atilde" format="2">
   <advance width="1095"/>
   <unicode hex="00E3"/>
+  <anchor x="520" y="0" name="PB"/>
+  <anchor x="540" y="200" name="def"/>
   <outline>
     <contour>
       <point x="754" y="322" type="line"/>

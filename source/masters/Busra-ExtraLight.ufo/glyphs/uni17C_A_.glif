@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CA" format="2">
   <unicode hex="17CA"/>
-  <anchor x="-225" y="1815" name="U"/>
-  <anchor x="-675" y="1440" name="_MA"/>
-  <anchor x="-225" y="1440" name="_U"/>
+  <anchor x="0" y="80" name="A0"/>
+  <anchor x="-700" y="0" name="_H"/>
+  <anchor x="20" y="1000" name="_UR"/>
+  <anchor x="0" y="0" name="_def"/>
   <outline>
     <contour>
       <point x="-926" y="1840" type="curve" smooth="yes"/>

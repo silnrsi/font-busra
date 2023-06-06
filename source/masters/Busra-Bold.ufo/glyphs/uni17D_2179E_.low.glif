@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D2179E.low" format="2">
   <advance width="750"/>
-  <anchor x="562" y="-1238" name="L"/>
-  <anchor x="562" y="1440" name="U"/>
-  <anchor x="389" y="1440" name="um"/>
+  <anchor x="750" y="-530" name="B1"/>
   <outline>
     <component base="uni17D21794.low"/>
     <component base="_eyelash2" xOffset="-25"/>

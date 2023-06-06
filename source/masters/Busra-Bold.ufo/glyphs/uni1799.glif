@@ -2,10 +2,6 @@
 <glyph name="uni1799" format="2">
   <advance width="2175"/>
   <unicode hex="1799"/>
-  <anchor x="1987" y="0" name="L"/>
-  <anchor x="1987" y="1440" name="U"/>
-  <anchor x="1125" y="0" name="lm"/>
-  <anchor x="1500" y="1440" name="um"/>
   <outline>
     <component base="_curveShort.extra" xOffset="912"/>
     <component base="_curve" xOffset="162"/>

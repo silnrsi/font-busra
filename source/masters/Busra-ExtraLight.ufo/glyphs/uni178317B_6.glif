@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni178317B6" format="2">
   <advance width="2590"/>
-  <anchor x="1687" y="0" name="L"/>
-  <anchor x="1312" y="1440" name="MA"/>
-  <anchor x="1687" y="1440" name="U"/>
+  <anchor x="2175" y="0" name="C6_1"/>
+  <anchor x="2888" y="20" name="C6_2"/>
+  <anchor x="2118" y="0" name="L_1"/>
+  <anchor x="2868" y="20" name="L_2"/>
+  <anchor x="2201" y="1000" name="UR_1"/>
+  <anchor x="20" y="1000" name="UR_2"/>
+  <anchor x="2175" y="1000" name="U_1"/>
+  <anchor x="2195" y="1000" name="U_2"/>
   <outline>
     <contour>
       <point x="1540" y="195" type="line"/>

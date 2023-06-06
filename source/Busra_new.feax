@@ -22,6 +22,7 @@
 @above_vowels_high_narrow2 = [uni17B8.ms.narrowhigh uni17B9.ms.narrowhigh uni17BA.ms.narrowhigh uni17CF.ms.narrowhigh uni17D0 uni17D0.ms.high];
 @above_vowels_narrow = [uni17B7.narrow uni17B717CD.narrow uni17B8.narrow uni17B9.narrow uni17BA.narrow];
 @above_vowels_narrow2 = [uni17B8.narrow uni17B9.narrow uni17BA.narrow uni17CF.narrow uni17D0];
+@any_coeng = [uni17D21780 uni17D21781 uni17D21782 uni17D21783 uni17D21784 uni17D21785 uni17D21786 uni17D21787 uni17D21788 uni17D21789 uni17D2178A uni17D2178B uni17D2178C uni17D2178D uni17D2178E uni17D2178F uni17D21790 uni17D21791 uni17D21792 uni17D21793 uni17D21794 uni17D21795 uni17D21796 uni17D21797 uni17D21798 uni17D21799 uni17D2179A uni17D2179B uni17D2179C uni17D2179D uni17D2179E uni17D2179F uni17D217A0 uni17D217A1];
 @base_cons = [uni1780 uni1781 uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789 uni178A uni178B uni178C uni178D uni178E uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179B uni179C uni179D uni179E uni179F uni17A0 uni17A1 uni17A2 uni17A3 uni17A4 uni17A5 uni17A6 uni17A7 uni17A8 uni17A9 uni17AA uni17AB uni17AC uni17AD uni17AE uni17AF uni17B0 uni17B1 uni17B1.alt uni17B2 uni17B3 uni17B3.alt];
 @base_high1 = [uni1784 uni1787 uni178A uni1790 uni1795 uni17A5 uni17A8 uni17AF];
 @base_high2 = [uni178B uni17A6];
@@ -38,6 +39,7 @@
 @base_no_NA_no_low = [uni1780 uni1781 uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789 uni178A uni178B uni178C uni178D uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179B uni179C uni179D uni179E uni179F uni17A0 uni17A2 uni17A3 uni17A4 uni17A5 uni17A7 uni17A8 uni17A9 uni17AA uni17AF uni17B0 uni17B1 uni17B2 uni17B3];
 @base_no_lig = [uni1781 uni1784 uni1787 uni178A uni178C uni178E uni1790 uni1791 uni1793 uni1795 uni17A0 uni17A3 uni17A4 uni17A5 uni17A6 uni17A7 uni17A8 uni17A9 uni17AA uni17AB uni17AC uni17AD uni17AE uni17AF uni17B0 uni17B1 uni17B2 uni17B3];
 @base_not_low = [uni1780 uni1781 uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789.alt uni178A uni178B uni178C uni178D uni178E uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179B uni179C uni179D uni179E uni179F uni17A0 uni17A2 uni17A3 uni17A4 uni17A5 uni17A7 uni17A8 uni17A9 uni17AA uni17AF uni17B1 uni17B2 uni17B3];
+@base_strong = [uni1780 uni17D21780 uni1781 uni17D21781 uni1782 uni17D21782 uni1783 uni17D21783 uni1785 uni17D21785 uni1786 uni17D21786 uni1787 uni17D21787 uni1788 uni17D21788 uni178A uni17D2178A uni178D uni17D2178D uni178F uni17D2178F uni1790 uni17D21790 uni1791 uni17D21791 uni1792 uni17D21792 uni1795 uni17D21795 uni1796 uni17D21796 uni1797 uni17D21797 uni179E uni17D2179E uni17A0 uni17D217A0 uni17A2 uni17D217A2];
 @base_triisap_shift = [uni179E uni17D2179E uni179F uni17D2179F uni17A0 uni17A2 zerowidthjoiner];
 @base_triisap_shift2 = [uni179E uni17D2179E uni179F uni17A0 uni17A2 zerowidthjoiner];
 @base_wide = [uni1783 uni1788 uni1789 uni1789.alt uni178D uni178E uni1799 uni179B uni179F uni17A0 uni17A1 uni17A6];
@@ -220,30 +222,50 @@ lookup above_form {
 # 2.2 Downshift muusikatoan following 1784 1789, 1793-4, 1798-D, ZWJ. Need to add 178E, 17A1?
 # Also don't downshift if there is a strong in the cluster (e.g. strong base + weak coeng)
 # ZWJ is not supported now. Also check for ZWNJ.
+lookup shifter_error_p1 {
+    sub uni17C9 by dottedcircle uni17C9;
+    sub uni17C9.a by dottedcircle uni17C9;
+    sub uni17CA by dottedcircle uni17CA;
+} shifter_error_p1;
+
+lookup shifter_error_p2 {
+    sub uni17C9 zerowidthjoiner by uni17C9;
+} shifter_error_p2;
+
+lookup reg_shift_muusikatoan2_action {
+    sub uni17C9 by uni17BB;
+    sub uni17C9.a by uni17BB;
+} reg_shift_muusikatoan2_action;
+
+@all17C9 = [uni17C9 uni17C9.a];
 lookup reg_shift_muusikatoan2 {
-    sub @base_muusikatoan_shift uni17C9' @above_symbol_RS_shift by uni17BB;
-    sub @base_muusikatoan_shift uni17C9.a' @above_symbol_RS_shift by uni17BB;
-    sub @base_muusikatoan_shift uni17C9' @coeng_no_ro @above_symbol_RS_shift by uni17BB;
-    sub @base_muusikatoan_shift uni17C9.a' @coeng_no_ro @above_symbol_RS_shift by uni17BB;
-    sub @base_muusikatoan_shift uni17C9' @coeng_no_ro @coeng_no_ro @above_symbol_RS_shift by uni17BB;
-    sub @base_muusikatoan_shift uni17C9.a' @coeng_no_ro @coeng_no_ro @above_symbol_RS_shift by uni17BB;
-    sub @base_muusikatoan_shift uni17C9' uni17B6 uni17C6 by uni17BB;
-    sub @base_muusikatoan_shift uni17C9.a' uni17B6 uni17C6 by uni17BB;
-    sub @base_muusikatoan_shift uni17C9' @coeng_no_ro uni17B6 uni17C6 by uni17BB;
-    sub @base_muusikatoan_shift uni17C9.a' @coeng_no_ro uni17B6 uni17C6 by uni17BB;
-    sub @base_muusikatoan_shift uni17C9' @coeng_no_ro @coeng_no_ro uni17B6 uni17C6 by uni17BB;
-    sub @base_muusikatoan_shift uni17C9.a' @coeng_no_ro @coeng_no_ro uni17B6 uni17C6 by uni17BB;
+    sub @all17C9' lookup shifter_error_p1 @any_coeng;
+    sub @all17C9' lookup reg_shift_muusikatoan2_action @above_symbol_RS_shift;
+    sub @all17C9' lookup reg_shift_muusikatoan2_action uni17B6 uni17C6;
+    sub @base_strong @all17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
+    sub @base_strong @base_muusikatoan_shift @all17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
+    sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift @all17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
 } reg_shift_muusikatoan2;
 
 # 2.3 Downshift triisap following 179E-F 17A0 17A2 ZWJ
 # This needs quite a bit of work
+lookup reg_shift_triisap2_action {
+    sub uni17CA by uni17BB;
+} reg_shift_triisap2_action;
+
 lookup reg_shift_triisap2 {
-    sub @base_triisap_shift uni17CA' @above_symbol_RS_shift by uni17BB;
-    sub @base_triisap_shift uni17CA' @coeng_no_ro @above_symbol_RS_shift by uni17BB;
-    sub @base_triisap_shift uni17CA' @coeng_no_ro @coeng_no_ro @above_symbol_RS_shift by uni17BB;
-    sub @base_triisap_shift2 uni17CA' uni17B6 uni17C6 by uni17BB;
-    sub @base_triisap_shift2 uni17CA' @coeng_no_ro uni17B6 uni17C6 by uni17BB;
-    sub @base_triisap_shift2 uni17CA' @coeng_no_ro @coeng_no_ro uni17B6 uni17C6 by uni17BB;
+    sub uni17CA' lookup shifter_error_p1 @any_coeng;
+    sub @base_strong uni17CA' lookup reg_shift_triisap2_action @above_symbol_RS_shift;
+    sub @base_strong uni17CA' lookup reg_shift_triisap2_action uni17B6 uni17C6;
+    sub @base_strong @base_muusikatoan_shift uni17CA' lookup reg_shift_triisap2_action @above_symbol_RS_shift;
+    sub @base_strong @base_muusikatoan_shift uni17CA' lookup reg_shift_triisap2_action uni17B6 uni17C6;
+    sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift uni17CA' lookup reg_shift_triisap2_action @above_symbol_RS_shift;
+    sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift uni17CA' lookup reg_shift_triisap2_action uni17B6 uni17C6;
+    ignore sub @base_strong uni17CA';
+    ignore sub @base_strong @base_muusikatoan_shift uni17CA';
+    ignore sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift uni17CA';
+    ignore sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift  @base_muusikatoan_shift uni17CA';
+    sub @base_muusikatoan_shift uni17CA' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
 } reg_shift_triisap2;
 
 # 2.4 ZWJ push down, but we don't support this.
@@ -265,13 +287,9 @@ lookup Remove_200D {
 
 # 2.6 Remove redundant ZWJ and ZWNJ. Strict add errors
 lookup remove_200CD_RS {
-    sub zerowidthnonjoiner uni17C9 by uni17C9;
-    sub zerowidthnonjoiner uni17CA by uni17CA;
-    sub zerowidthnonjoiner uni17CA.lower by uni17CA.lower;
-    sub zerowidthjoiner uni17B7 by uni17B7;
-    sub zerowidthjoiner uni17B8 by uni17B8;
-    sub zerowidthjoiner uni17B9 by uni17B9;
-    sub zerowidthjoiner uni17BA by uni17BA;
+    sub uni17C9 zerowidthnonjoiner by uni17C9;
+    sub uni17C9.a zerowidthnonjoiner by uni17C9.a;
+    sub uni17CA zerowidthnonjoiner by uni17CA;
 } remove_200CD_RS;
 
 # 4. Contextual variant marks
@@ -2158,8 +2176,8 @@ feature abvs {
     lookup Muusikatoan_a;
     lookup reg_shift_muusikatoan2;
     lookup reg_shift_triisap2;
-    lookup reg_shift_200D;
-    lookup Remove_200D;
+#    lookup reg_shift_200D;
+#    lookup Remove_200D;
     lookup remove_200CD_RS;
     lookup coeng_post_narrow_C6_C9;
     lookup above_marks_narrow;
@@ -2188,9 +2206,9 @@ feature blwf {
     script khmr;
     language dflt;
     lookup coeng_below;
-    lookup reg_shift_muusikatoan2;
-    lookup reg_shift_triisap2;
-    lookup Remove_200D;
+#    lookup reg_shift_muusikatoan2;
+#    lookup reg_shift_triisap2;
+#    lookup Remove_200D;
 } blwf;
 
 feature blwm {

@@ -11,6 +11,7 @@ DESC_SHORT = "Font family for the Khmer script"
 
 TESTDIR = ["tests"]
 
+opts = preprocess_args({'opt': '--new'})
 # Get version and authorship information from Regular UFO (canonical metadata); must be first function call:
 getufoinfo('source/masters/' + sourcefontfamily  + '-Regular.ufo')
 
@@ -24,7 +25,7 @@ designspace('source/' + sourcefontfamily + 'UprightRB.designspace',
 #    target = process("${DS:FILENAME_BASE}.ttf", *cmds),
     params = "--decomposeComponents --removeOverlap",
     opentype = fea('source/${DS:FILENAME_BASE}.fea',
-        master = 'source/Busra.feax',
+        master = 'source/Busra_new.feax' if '--new' in opts else 'source/Busra.feax',
         params = '-m source/${DS:FILENAME_BASE}.map'),
 #    woff = woff('web/${DS:FILENAME_BASE}.woff',
 #        metadata=f'../source/{FAMILY}-WOFF-metadata.xml',

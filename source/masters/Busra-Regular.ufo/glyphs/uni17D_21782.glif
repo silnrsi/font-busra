@@ -6,37 +6,7 @@
   <anchor x="-639" y="0" name="_NC"/>
   <anchor x="0" y="0" name="_NG"/>
   <outline>
-    <contour>
-      <point x="-1033" y="-710" type="line"/>
-      <point x="-865" y="-710" type="line"/>
-      <point x="-838" y="-623"/>
-      <point x="-797" y="-552"/>
-      <point x="-728" y="-545" type="curve" smooth="yes"/>
-      <point x="-691" y="-541"/>
-      <point x="-645" y="-517"/>
-      <point x="-645" y="-472" type="curve" smooth="yes"/>
-      <point x="-645" y="-443"/>
-      <point x="-661" y="-415"/>
-      <point x="-714" y="-415" type="curve" smooth="yes"/>
-      <point x="-777" y="-415"/>
-      <point x="-830" y="-464"/>
-      <point x="-865" y="-513" type="curve"/>
-      <point x="-865" y="-350" type="line" smooth="yes"/>
-      <point x="-865" y="-293"/>
-      <point x="-725" y="-262"/>
-      <point x="-639" y="-262" type="curve" smooth="yes"/>
-      <point x="-553" y="-262"/>
-      <point x="-413" y="-293"/>
-      <point x="-413" y="-350" type="curve" smooth="yes"/>
-      <point x="-413" y="-710" type="line"/>
-      <point x="-245" y="-710" type="line"/>
-      <point x="-245" y="-336" type="line" smooth="yes"/>
-      <point x="-245" y="-236"/>
-      <point x="-443" y="-150"/>
-      <point x="-639" y="-150" type="curve" smooth="yes"/>
-      <point x="-835" y="-150"/>
-      <point x="-1033" y="-236"/>
-      <point x="-1033" y="-336" type="curve" smooth="yes"/>
-    </contour>
+    <component base="uni17D21780"/>
+    <component base="_outstroke" xScale="0.77378" yScale="0.77378" xOffset="-1007" yOffset="-710"/>
   </outline>
 </glyph>

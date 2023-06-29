@@ -13,4 +13,10 @@
     <component base="uni178917B6.alt"/>
     <component base="_R.ear" xOffset="2163"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

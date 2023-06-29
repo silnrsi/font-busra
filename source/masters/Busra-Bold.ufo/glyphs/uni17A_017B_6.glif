@@ -14,4 +14,10 @@
     <component base="_topArch" xOffset="1485"/>
     <component base="_stemLg" xOffset="2112"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

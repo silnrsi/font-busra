@@ -170,6 +170,8 @@
   <string>_horizontal.glif</string>
   <key>_instroke</key>
   <string>_instroke.glif</string>
+  <key>_loopInstroke</key>
+  <string>_loopI_nstroke.glif</string>
   <key>_m</key>
   <string>_m.glif</string>
   <key>_mArch</key>
@@ -190,6 +192,22 @@
   <string>_stemS_ub.glif</string>
   <key>_stemloop</key>
   <string>_stemloop.glif</string>
+  <key>_subL.ear</key>
+  <string>_subL_.ear.glif</string>
+  <key>_subarch</key>
+  <string>_subarch.glif</string>
+  <key>_subcurve</key>
+  <string>_subcurve.glif</string>
+  <key>_subdiagonal</key>
+  <string>_subdiagonal.glif</string>
+  <key>_subm</key>
+  <string>_subm.glif</string>
+  <key>_substemMed</key>
+  <string>_substemM_ed.glif</string>
+  <key>_substemSm</key>
+  <string>_substemS_m.glif</string>
+  <key>_substemTiny</key>
+  <string>_substemT_iny.glif</string>
   <key>_swash</key>
   <string>_swash.glif</string>
   <key>_topArch</key>

@@ -3,3 +3,12 @@ _ballInstroke
 _wWideforReg
 _eyelash2
 _dottedCircle
+_loopInstroke
+_subarch
+_subcurve
+_subdiagonal
+_subL.ear
+_subm
+_substemMed
+_substemSm
+_substemTiny

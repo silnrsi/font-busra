@@ -11,16 +11,18 @@
     <component base="_loopInstroke" yScale="-1" xOffset="-642" yOffset="-858"/>
     <component base="_loopInstroke" yScale="-1" xOffset="-1140" yOffset="-858"/>
     <contour>
-      <point x="-977" y="-416" type="line"/>
-      <point x="-977" y="-512" type="line"/>
-      <point x="-179" y="-512" type="line"/>
-      <point x="-179" y="-416" type="line"/>
+      <point x="-977" y="-405" type="line"/>
+      <point x="-977" y="-529" type="line"/>
+      <point x="-179" y="-529" type="line"/>
+      <point x="-179" y="-405" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CCCCP</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

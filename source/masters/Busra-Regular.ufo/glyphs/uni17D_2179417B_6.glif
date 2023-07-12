@@ -19,5 +19,6 @@
     <component base="_wWideforReg" xOffset="-633" yOffset="-716"/>
     <component base="_bulgeArch" xOffset="23"/>
     <component base="_stemLg" xOffset="923"/>
+    <component base="_substemTiny" xOffset="-633" yOffset="-1"/>
   </outline>
 </glyph>

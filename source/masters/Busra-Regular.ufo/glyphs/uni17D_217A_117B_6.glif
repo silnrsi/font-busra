@@ -19,5 +19,6 @@
     <component base="_ballInstroke" xOffset="-615" yOffset="2"/>
     <component base="_bulgeArch" xOffset="23"/>
     <component base="_stemLg" xOffset="923"/>
+    <component base="_substemSm" xOffset="-553" yOffset="-50"/>
   </outline>
 </glyph>

@@ -100,6 +100,8 @@
   <string>uni17A_217B_6.glif</string>
   <key>uni17A5</key>
   <string>uni17A_5.glif</string>
+  <key>uni17A6</key>
+  <string>uni17A_6.glif</string>
   <key>uni17A7</key>
   <string>uni17A_7.glif</string>
   <key>uni17A8</key>
@@ -230,6 +232,8 @@
   <string>uni17C_6.ms.narrowhigh.glif</string>
   <key>uni17C6.ms.narrowhigh2</key>
   <string>uni17C_6.ms.narrowhigh2.glif</string>
+  <key>uni17C6.ms.psom</key>
+  <string>uni17C_6.ms.psom.glif</string>
   <key>uni17C6.narrow</key>
   <string>uni17C_6.narrow.glif</string>
   <key>uni17C6.x</key>
@@ -336,6 +340,12 @@
   <string>uni17D_21785.low.glif</string>
   <key>uni17D21786</key>
   <string>uni17D_21786.glif</string>
+  <key>uni17D21786.low</key>
+  <string>uni17D_21786.low.glif</string>
+  <key>uni17D21787</key>
+  <string>uni17D_21787.glif</string>
+  <key>uni17D21787.low</key>
+  <string>uni17D_21787.low.glif</string>
   <key>uni17D21788</key>
   <string>uni17D_21788.glif</string>
   <key>uni17D21788.alt</key>
@@ -364,8 +374,22 @@
   <string>uni17D_21789.glif</string>
   <key>uni17D21789.alt1</key>
   <string>uni17D_21789.alt1.glif</string>
+  <key>uni17D21789.alt2</key>
+  <string>uni17D_21789.alt2.glif</string>
   <key>uni17D21789.low</key>
   <string>uni17D_21789.low.glif</string>
+  <key>uni17D2178A</key>
+  <string>uni17D_2178A_.glif</string>
+  <key>uni17D2178A.low</key>
+  <string>uni17D_2178A_.low.glif</string>
+  <key>uni17D2178B</key>
+  <string>uni17D_2178B_.glif</string>
+  <key>uni17D2178B.low</key>
+  <string>uni17D_2178B_.low.glif</string>
+  <key>uni17D2178C</key>
+  <string>uni17D_2178C_.glif</string>
+  <key>uni17D2178C.low</key>
+  <string>uni17D_2178C_.low.glif</string>
   <key>uni17D2178D</key>
   <string>uni17D_2178D_.glif</string>
   <key>uni17D2178D.low</key>
@@ -382,14 +406,64 @@
   <string>uni17D_2178E_.glif</string>
   <key>uni17D2178E.low</key>
   <string>uni17D_2178E_.low.glif</string>
+  <key>uni17D2178F</key>
+  <string>uni17D_2178F_.glif</string>
+  <key>uni17D2178F.low</key>
+  <string>uni17D_2178F_.low.glif</string>
+  <key>uni17D21790.low</key>
+  <string>uni17D_21790.low.glif</string>
+  <key>uni17D21791</key>
+  <string>uni17D_21791.glif</string>
+  <key>uni17D21791.low</key>
+  <string>uni17D_21791.low.glif</string>
+  <key>uni17D21792</key>
+  <string>uni17D_21792.glif</string>
+  <key>uni17D21792.low</key>
+  <string>uni17D_21792.low.glif</string>
+  <key>uni17D21793</key>
+  <string>uni17D_21793.glif</string>
+  <key>uni17D21793.low</key>
+  <string>uni17D_21793.low.glif</string>
   <key>uni17D21794</key>
   <string>uni17D_21794.glif</string>
   <key>uni17D21794.low</key>
   <string>uni17D_21794.low.glif</string>
+  <key>uni17D21795.low</key>
+  <string>uni17D_21795.low.glif</string>
   <key>uni17D21796</key>
   <string>uni17D_21796.glif</string>
   <key>uni17D21796.low</key>
   <string>uni17D_21796.low.glif</string>
+  <key>uni17D21797</key>
+  <string>uni17D_21797.glif</string>
+  <key>uni17D21797.low</key>
+  <string>uni17D_21797.low.glif</string>
+  <key>uni17D21798</key>
+  <string>uni17D_21798.glif</string>
+  <key>uni17D21798.low</key>
+  <string>uni17D_21798.low.glif</string>
+  <key>uni17D21799</key>
+  <string>uni17D_21799.glif</string>
+  <key>uni17D21799.low</key>
+  <string>uni17D_21799.low.glif</string>
+  <key>uni17D2179917B6</key>
+  <string>uni17D_2179917B_6.glif</string>
+  <key>uni17D2179917B6.low</key>
+  <string>uni17D_2179917B_6.low.glif</string>
+  <key>uni17D2179917C5.right</key>
+  <string>uni17D_2179917C_5.right.glif</string>
+  <key>uni17D2179917C5.rightlow</key>
+  <string>uni17D_2179917C_5.rightlow.glif</string>
+  <key>uni17D2179A</key>
+  <string>uni17D_2179A_.glif</string>
+  <key>uni17D2179A.low</key>
+  <string>uni17D_2179A_.low.glif</string>
+  <key>uni17D2179A.lowwide</key>
+  <string>uni17D_2179A_.lowwide.glif</string>
+  <key>uni17D2179A.lowwide2</key>
+  <string>uni17D_2179A_.lowwide2.glif</string>
+  <key>uni17D2179A.wide</key>
+  <string>uni17D_2179A_.wide.glif</string>
   <key>uni17D2179B</key>
   <string>uni17D_2179B_.glif</string>
   <key>uni17D2179B.low</key>
@@ -406,20 +480,60 @@
   <string>uni17D_2179E_.glif</string>
   <key>uni17D2179E.low</key>
   <string>uni17D_2179E_.low.glif</string>
+  <key>uni17D2179F</key>
+  <string>uni17D_2179F_.glif</string>
+  <key>uni17D2179F.low</key>
+  <string>uni17D_2179F_.low.glif</string>
+  <key>uni17D2179F17B6</key>
+  <string>uni17D_2179F_17B_6.glif</string>
+  <key>uni17D2179F17B6.low</key>
+  <string>uni17D_2179F_17B_6.low.glif</string>
+  <key>uni17D2179F17C5.right</key>
+  <string>uni17D_2179F_17C_5.right.glif</string>
+  <key>uni17D2179F17C5.rightlow</key>
+  <string>uni17D_2179F_17C_5.rightlow.glif</string>
+  <key>uni17D217A0</key>
+  <string>uni17D_217A_0.glif</string>
+  <key>uni17D217A0.low</key>
+  <string>uni17D_217A_0.low.glif</string>
+  <key>uni17D217A0.low.alt</key>
+  <string>uni17D_217A_0.low.alt.glif</string>
   <key>uni17D217A1.alt</key>
   <string>uni17D_217A_1.alt.glif</string>
   <key>uni17D217A1.low</key>
   <string>uni17D_217A_1.low.glif</string>
   <key>uni17D217A117B6.low</key>
   <string>uni17D_217A_117B_6.low.glif</string>
+  <key>uni17D217A2.alt</key>
+  <string>uni17D_217A_2.alt.glif</string>
+  <key>uni17D217A2.low</key>
+  <string>uni17D_217A_2.low.glif</string>
+  <key>uni17D217A2.low.alt</key>
+  <string>uni17D_217A_2.low.alt.glif</string>
   <key>uni17D217A4</key>
   <string>uni17D_217A_4.glif</string>
+  <key>uni17D217A5</key>
+  <string>uni17D_217A_5.glif</string>
   <key>uni17D217A7</key>
   <string>uni17D_217A_7.glif</string>
   <key>uni17D217A8</key>
   <string>uni17D_217A_8.glif</string>
+  <key>uni17D217A9</key>
+  <string>uni17D_217A_9.glif</string>
   <key>uni17D217AA</key>
   <string>uni17D_217A_A_.glif</string>
+  <key>uni17D217AB</key>
+  <string>uni17D_217A_B_.glif</string>
+  <key>uni17D217AC</key>
+  <string>uni17D_217A_C_.glif</string>
+  <key>uni17D217AD</key>
+  <string>uni17D_217A_D_.glif</string>
+  <key>uni17D217AE</key>
+  <string>uni17D_217A_E_.glif</string>
+  <key>uni17D217AF</key>
+  <string>uni17D_217A_F_.glif</string>
+  <key>uni17D217B0</key>
+  <string>uni17D_217B_0.glif</string>
   <key>uni17D217B1</key>
   <string>uni17D_217B_1.glif</string>
   <key>uni17D217B3</key>

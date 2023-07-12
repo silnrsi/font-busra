@@ -198,6 +198,8 @@
   <string>_subarch.glif</string>
   <key>_subcurve</key>
   <string>_subcurve.glif</string>
+  <key>_subcurveMed</key>
+  <string>_subcurveM_ed.glif</string>
   <key>_subdiagonal</key>
   <string>_subdiagonal.glif</string>
   <key>_subm</key>

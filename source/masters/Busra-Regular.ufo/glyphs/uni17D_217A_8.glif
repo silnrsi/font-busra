@@ -10,6 +10,6 @@
   <anchor x="0" y="0" name="_NG"/>
   <outline>
     <component base="uni17D217A7" yOffset="-230"/>
-    <component base="uni17CA.narrow" yScale="0.74677" xOffset="-250" yOffset="-1520"/>
+    <component base="uni17CA.narrow" yScale="0.9068" xOffset="-250" yOffset="-1790"/>
   </outline>
 </glyph>

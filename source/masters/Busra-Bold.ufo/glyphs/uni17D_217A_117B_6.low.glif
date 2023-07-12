@@ -16,7 +16,7 @@
   <outline>
     <component base="_w" xOffset="-588" yOffset="-1240"/>
     <component base="_stemSub" xOffset="162" yOffset="-100"/>
-    <component base="_ballInstroke" xOffset="-640" yOffset="-636"/>
+    <component base="_ballInstroke" xOffset="-651" yOffset="-636"/>
     <component base="_bulgeArch" xOffset="-7"/>
     <component base="_stemLg" xOffset="912"/>
     <component base="_stemSm" xOffset="162" yOffset="-880"/>

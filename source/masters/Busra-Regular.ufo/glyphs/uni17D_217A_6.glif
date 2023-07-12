@@ -9,6 +9,8 @@
   <anchor x="-1030" y="0" name="_NC"/>
   <anchor x="-240" y="0" name="_NG"/>
   <outline>
+    <component base="uni17D2178A" xOffset="-393" yOffset="-100"/>
+    <component base="_R.earLarge" xScale="0.9" yScale="0.9" xOffset="-659" yOffset="-1685"/>
     <contour>
       <point x="-1211" y="-421" type="line" smooth="yes"/>
       <point x="-1211" y="-380"/>
@@ -145,4 +147,10 @@
       <point x="-1128" y="-618"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCPPPP</string>
+    </dict>
+  </lib>
 </glyph>

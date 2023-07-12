@@ -31,17 +31,5 @@
       <point x="296" y="1436"/>
       <point x="221" y="1376"/>
     </contour>
-    <contour>
-      <point x="-2843" y="635" type="line"/>
-      <point x="-2863" y="635" type="line"/>
-      <point x="-2863" y="615" type="line"/>
-      <point x="-2843" y="615" type="line"/>
-    </contour>
-    <contour>
-      <point x="683" y="3217" type="line"/>
-      <point x="663" y="3217" type="line"/>
-      <point x="663" y="3197" type="line"/>
-      <point x="683" y="3197" type="line"/>
-    </contour>
   </outline>
 </glyph>

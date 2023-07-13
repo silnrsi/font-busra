@@ -7,7 +7,7 @@
     <component base="_stemloop" xOffset="195"/>
     <component base="_stemLg" xOffset="1995"/>
     <component base="_stemMd" xOffset="795" yOffset="313"/>
-    <component base="_stemSm" xOffset="195" yOffset="672"/>
+    <component base="_stemSm" xOffset="195" yOffset="612"/>
     <component base="_wNarrow" xOffset="795"/>
     <component base="_stemMd" xOffset="1395" yOffset="313"/>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="195" yOffset="1440"/>

@@ -9,8 +9,8 @@
     <component base="_R.earLarge" xOffset="1302"/>
     <component base="_stemSub" xOffset="1475" yOffset="-157"/>
     <component base="_curve" yScale="-1" xOffset="195" yOffset="1440"/>
-    <component base="_substemMed" xOffset="195" yOffset="1196"/>
     <component base="_subcurve" xOffset="1013" yOffset="-209"/>
     <component base="_curveShort" xScale="-1" yScale="-1" xOffset="1351" yOffset="-150"/>
+    <component base="_stemSm" xOffset="195" yOffset="609"/>
   </outline>
 </glyph>

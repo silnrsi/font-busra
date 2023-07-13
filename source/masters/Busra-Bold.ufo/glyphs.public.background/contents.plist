@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>KrungSpecial</key>
+  <string>K_rungS_pecial.glif</string>
   <key>_L.ear</key>
   <string>_L_.ear.glif</string>
   <key>_R.ear</key>
@@ -514,6 +516,8 @@
   <string>uni17D_217A_4.glif</string>
   <key>uni17D217A5</key>
   <string>uni17D_217A_5.glif</string>
+  <key>uni17D217A6</key>
+  <string>uni17D_217A_6.glif</string>
   <key>uni17D217A7</key>
   <string>uni17D_217A_7.glif</string>
   <key>uni17D217A8</key>
@@ -540,9 +544,21 @@
   <string>uni17D_217B_3.glif</string>
   <key>uni17D3</key>
   <string>uni17D_3.glif</string>
+  <key>uni17D7</key>
+  <string>uni17D_7.glif</string>
+  <key>uni17D8</key>
+  <string>uni17D_8.glif</string>
   <key>uni17DB</key>
   <string>uni17D_B_.glif</string>
   <key>uni17DC</key>
   <string>uni17D_C_.glif</string>
+  <key>uni17E2</key>
+  <string>uni17E_2.glif</string>
+  <key>uni17E4</key>
+  <string>uni17E_4.glif</string>
+  <key>uni17E5</key>
+  <string>uni17E_5.glif</string>
+  <key>uni17E7</key>
+  <string>uni17E_7.glif</string>
 </dict>
 </plist>

@@ -13,10 +13,4 @@
     <component base="uni17A017B6"/>
     <component base="_R.ear" xOffset="2040"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

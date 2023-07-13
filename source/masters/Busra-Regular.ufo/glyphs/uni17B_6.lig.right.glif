@@ -4,16 +4,22 @@
   <outline>
     <component base="_stemLg" xOffset="195"/>
     <contour>
-      <point x="0" y="1309" type="line"/>
-      <point x="194" y="1309"/>
-      <point x="295" y="1202"/>
-      <point x="295" y="1145" type="curve" smooth="yes"/>
-      <point x="295" y="0" type="line"/>
-      <point x="483" y="0" type="line"/>
-      <point x="483" y="1163" type="line" smooth="yes"/>
-      <point x="483" y="1258"/>
-      <point x="285" y="1438"/>
-      <point x="0" y="1438" type="curve"/>
+      <point x="0" y="1427" type="curve"/>
+      <point x="0" y="1306" type="line"/>
+      <point x="22" y="1309"/>
+      <point x="44" y="1311"/>
+      <point x="65" y="1311" type="curve" smooth="yes"/>
+      <point x="186" y="1311"/>
+      <point x="294" y="1258"/>
+      <point x="294" y="1125" type="curve" smooth="yes"/>
+      <point x="294" y="950" type="line"/>
+      <point x="482" y="950" type="line"/>
+      <point x="482" y="1143" type="line" smooth="yes"/>
+      <point x="482" y="1361"/>
+      <point x="304" y="1438"/>
+      <point x="122" y="1438" type="curve" smooth="yes"/>
+      <point x="81" y="1438"/>
+      <point x="40" y="1434"/>
     </contour>
   </outline>
   <lib>

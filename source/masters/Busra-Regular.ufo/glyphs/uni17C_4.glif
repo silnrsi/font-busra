@@ -3,9 +3,8 @@
   <advance width="2916"/>
   <unicode hex="17C4"/>
   <outline>
-    <component base="_stemLg" xOffset="2383"/>
-    <component base="_topArch" xOffset="1767"/>
     <component base="uni17C1"/>
     <component base="dottedcircle" xOffset="640" yOffset="60"/>
+    <component base="uni178017B6.space" xOffset="712"/>
   </outline>
 </glyph>

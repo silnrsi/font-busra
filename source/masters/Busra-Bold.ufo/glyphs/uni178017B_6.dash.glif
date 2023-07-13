@@ -10,8 +10,7 @@
   <anchor x="1500" y="1000" name="U_1"/>
   <anchor x="1520" y="1000" name="U_2"/>
   <outline>
-    <component base="_stemLg" xOffset="1662"/>
-    <component base="_topArch" xOffset="1035"/>
     <component base="_horizontal" xOffset="311"/>
+    <component base="uni178017B6.space"/>
   </outline>
 </glyph>

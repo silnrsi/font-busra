@@ -13,6 +13,7 @@
   <anchor x="0" y="1000" name="U_1"/>
   <anchor x="748" y="1000" name="U_2"/>
   <anchor x="708" y="1000" name="U_3"/>
+  <anchor x="1007" y="1236" name="zxc1"/>
   <outline>
     <component base="_subcurveMed" xOffset="-553" yOffset="-598"/>
     <component base="_stemLg" xOffset="195" yOffset="-79"/>

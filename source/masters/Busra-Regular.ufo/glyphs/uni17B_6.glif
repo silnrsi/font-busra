@@ -5,6 +5,8 @@
   <anchor x="0" y="0" name="B6"/>
   <anchor x="0" y="0" name="B6C6"/>
   <anchor x="728" y="0" name="D0"/>
+  <anchor x="-360" y="1222" name="_zxc2"/>
+  <anchor x="281" y="1236" name="zxc1"/>
   <outline>
     <component base="_topArch" xOffset="-421"/>
     <component base="_stemLg" xOffset="195"/>

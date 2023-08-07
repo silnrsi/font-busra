@@ -9,6 +9,7 @@
   <anchor x="20" y="1000" name="UR_2"/>
   <anchor x="1538" y="1000" name="U_1"/>
   <anchor x="1558" y="1000" name="U_2"/>
+  <anchor x="1814" y="1236" name="zxc1"/>
   <outline>
     <component base="_curve" yScale="-1" xOffset="235" yOffset="1124"/>
     <component base="_stemMd" xOffset="983"/>

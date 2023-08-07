@@ -10,7 +10,13 @@
   <anchor x="1500" y="1000" name="U_1"/>
   <anchor x="1520" y="1000" name="U_2"/>
   <outline>
-    <component base="_R.ear" xOffset="1563"/>
     <component base="uni178017B6.dash"/>
+    <component base="_R.ear" xOffset="1548"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

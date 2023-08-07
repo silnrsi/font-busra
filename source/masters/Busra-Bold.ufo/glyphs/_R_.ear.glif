@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_R.ear" format="2">
   <advance width="620"/>
+  <anchor x="226" y="1236" name="_zxc1"/>
   <outline>
     <contour>
       <point x="208" y="1355" type="curve"/>

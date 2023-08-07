@@ -4,6 +4,7 @@
   <unicode hex="1791"/>
   <anchor x="1400" y="0" name="NG"/>
   <anchor x="650" y="0" name="def"/>
+  <anchor x="1090" y="1202" name="zxc2"/>
   <outline>
     <contour>
       <point x="650" y="0" type="curve" smooth="yes"/>

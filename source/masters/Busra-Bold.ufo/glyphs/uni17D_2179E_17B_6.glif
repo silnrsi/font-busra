@@ -13,6 +13,7 @@
   <anchor x="0" y="1000" name="U_1"/>
   <anchor x="748" y="1000" name="U_2"/>
   <anchor x="708" y="1000" name="U_3"/>
+  <anchor x="1068" y="1236" name="zxc1"/>
   <outline>
     <component base="uni17D2179417B6"/>
     <component base="_eyelash2" xOffset="-25"/>

@@ -13,6 +13,7 @@
   <anchor x="0" y="1000" name="U_1"/>
   <anchor x="748" y="1000" name="U_2"/>
   <anchor x="708" y="1000" name="U_3"/>
+  <anchor x="1008" y="1236" name="zxc1"/>
   <outline>
     <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="-675" yOffset="-861"/>
     <component base="_substemSm" xOffset="-721" yOffset="-12"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17B6.lig.right" format="2">
   <advance width="750"/>
+  <anchor x="323" y="1236" name="zxc1"/>
   <outline>
     <component base="_stemLg" xOffset="162"/>
     <contour>

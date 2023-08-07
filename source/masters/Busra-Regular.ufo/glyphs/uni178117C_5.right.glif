@@ -2,7 +2,7 @@
 <glyph name="uni178117C5.right" format="2">
   <advance width="2086"/>
   <anchor x="1453" y="0" name="C6_1"/>
-  <anchor x="2175" y="20" name="C6_2"/>
+  <anchor x="2193" y="20" name="C6_2"/>
   <anchor x="1405" y="0" name="L_1"/>
   <anchor x="2155" y="20" name="L_2"/>
   <anchor x="1453" y="1000" name="UR_1"/>
@@ -10,9 +10,13 @@
   <anchor x="1453" y="1000" name="U_1"/>
   <anchor x="1473" y="1000" name="U_2"/>
   <outline>
-    <component base="uni1781"/>
-    <component base="_stemLg" xOffset="1553"/>
-    <component base="_topArch" xOffset="937"/>
+    <component base="uni178117B6"/>
     <component base="_R.ear" xOffset="1419"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
 </glyph>

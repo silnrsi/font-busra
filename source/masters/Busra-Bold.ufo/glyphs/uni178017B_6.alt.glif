@@ -9,6 +9,7 @@
   <anchor x="20" y="1000" name="UR_2"/>
   <anchor x="1725" y="1000" name="U_1"/>
   <anchor x="2720" y="1000" name="U_2"/>
+  <anchor x="2246" y="1236" name="zxc1"/>
   <outline>
     <component base="_stemloop" xOffset="200"/>
     <component base="_stemMd" xOffset="762"/>

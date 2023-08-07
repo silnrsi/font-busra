@@ -2,7 +2,13 @@
 <glyph name="uni17C5.lig.right" format="2">
   <advance width="728"/>
   <outline>
-    <component base="_R.ear" xOffset="47"/>
     <component base="uni17B6.lig.right"/>
+    <component base="_R.ear" xOffset="55"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

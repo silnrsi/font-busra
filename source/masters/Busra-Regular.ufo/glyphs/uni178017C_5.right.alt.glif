@@ -8,9 +8,15 @@
   <anchor x="1750" y="1000" name="UR_1"/>
   <anchor x="20" y="1000" name="UR_2"/>
   <anchor x="1725" y="1000" name="U_1"/>
-  <anchor x="1745" y="1000" name="U_2"/>
+  <anchor x="2720" y="1000" name="U_2"/>
   <outline>
     <component base="uni178017B6.alt"/>
-    <component base="_R.ear" xOffset="1940"/>
+    <component base="_R.ear" xOffset="1938"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

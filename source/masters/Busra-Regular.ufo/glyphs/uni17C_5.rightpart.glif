@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17C5.rightpart" format="2">
   <advance width="728"/>
+  <anchor x="0" y="0" name="B6"/>
+  <anchor x="0" y="0" name="B6C6"/>
+  <anchor x="728" y="0" name="D0"/>
+  <anchor x="-360" y="1222" name="_zxc2"/>
   <outline>
-    <component base="uni178017B6.space" xOffset="-1477"/>
-    <component base="_R.ear" xOffset="47"/>
+    <component base="uni17B6"/>
+    <component base="_R.ear" xOffset="55"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

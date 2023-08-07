@@ -3,6 +3,7 @@
   <advance width="1500"/>
   <unicode hex="1796"/>
   <anchor x="787" y="0" name="def"/>
+  <anchor x="1190" y="1202" name="zxc2"/>
   <outline>
     <component base="_m" xOffset="160"/>
     <component base="_stemloop" xOffset="200" yOffset="20"/>

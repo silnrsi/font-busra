@@ -7,10 +7,16 @@
   <anchor x="-20" y="0" name="NBB_2"/>
   <anchor x="1309" y="0" name="NC_1"/>
   <anchor x="2661" y="0" name="NC_2"/>
-  <anchor x="2550" y="0" name="def_1"/>
+  <anchor x="2650" y="0" name="def_1"/>
   <anchor x="3300" y="0" name="def_2"/>
   <outline>
     <component base="uni178E17B6"/>
-    <component base="_R.ear" xOffset="2627"/>
+    <component base="_R.ear" xOffset="2628"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

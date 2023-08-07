@@ -11,6 +11,6 @@
   <anchor x="1520" y="1000" name="U_2"/>
   <outline>
     <component base="dottedcircle" xOffset="120"/>
-    <component base="uni178017B6.space"/>
+    <component base="uni17B6" xOffset="1476"/>
   </outline>
 </glyph>

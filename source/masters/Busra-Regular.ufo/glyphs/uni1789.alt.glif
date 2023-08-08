@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1789.alt" format="2">
   <advance width="2116"/>
-  <anchor x="1756" y="1222" name="zxc2"/>
   <outline>
     <component base="_m" xOffset="193"/>
     <component base="_stemloop" xOffset="195"/>

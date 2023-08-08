@@ -5,7 +5,6 @@
   <guideline x="649"/>
   <anchor x="1400" y="0" name="NG"/>
   <anchor x="650" y="0" name="def"/>
-  <anchor x="920" y="1222" name="zxc2"/>
   <outline>
     <contour>
       <point x="587" y="-1" type="curve" smooth="yes"/>

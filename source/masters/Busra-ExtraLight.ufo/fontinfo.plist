@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1440</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2003-2022 SIL International</string>
+  <string>Copyright (c) 2003-2023 SIL International</string>
   <key>descender</key>
   <integer>-1240</integer>
   <key>familyName</key>
@@ -100,7 +100,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2003-2022 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
+  <string>Copyright (c) 2003-2023 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.

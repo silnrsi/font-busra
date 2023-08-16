@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1440</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2003-2022 SIL International</string>
+  <string>Copyright (c) 2003-2023 SIL International</string>
   <key>descender</key>
   <integer>-1240</integer>
   <key>familyName</key>
@@ -88,9 +88,9 @@
   <key>openTypeNameDesigner</key>
   <string>D. Kanjahn</string>
   <key>openTypeNameDesignerURL</key>
-  <string>http://scripts.sil.org/</string>
+  <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2003-2022 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
+  <string>Copyright (c) 2003-2023 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -136,11 +136,11 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>openTypeNameLicenseURL</key>
-  <string>http://scripts.sil.org/OFL</string>
+  <string>https://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>http://scripts.sil.org</string>
+  <string>https://software.sil.org/wstech/</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Busra</string>
   <key>openTypeNamePreferredSubfamilyName</key>

@@ -613,6 +613,7 @@
     <string>_stemLg</string>
     <string>_stemMd</string>
     <string>_stemSm</string>
+    <string>_stemSub</string>
     <string>_stemloop</string>
     <string>_curve</string>
     <string>_curveNarrowforBold</string>
@@ -625,6 +626,8 @@
     <string>_topArch</string>
     <string>_topArchshort</string>
     <string>_instroke</string>
+    <string>_ballInstroke</string>
+    <string>_loopInstroke</string>
     <string>_outstroke</string>
     <string>_squirreltail</string>
     <string>_smoke</string>
@@ -635,11 +638,22 @@
     <string>_m</string>
     <string>_w</string>
     <string>_wNarrow</string>
+    <string>_wWideforReg</string>
     <string>_diagonal</string>
     <string>_diagonalSharp</string>
+    <string>_subarch</string>
+    <string>_subcurve</string>
+    <string>_subdiagonal</string>
+    <string>_subL.ear</string>
+    <string>_subm</string>
+    <string>_substemMed</string>
+    <string>_substemSm</string>
+    <string>_substemTiny</string>
     <string>_eyelash</string>
+    <string>_eyelash2</string>
     <string>_horizontal</string>
     <string>_2</string>
+    <string>_dottedCircle</string>
     <string>space</string>
     <string>exclam</string>
     <string>quotedbl</string>

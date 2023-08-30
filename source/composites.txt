@@ -1,11 +1,8 @@
-nbspace = space | 00A0
 bulletoperator = periodcentered | 2219
 hyphentwo = hyphen | 2010
 nonbreakinghyphen = hyphen | 2011
 softhyphen = hyphen | 00AD
 divisionslash = slash | 2215
-emquad = emspace | 2001
-enquad = enspace | 2000
 
 uni178017C5.dash.right = uni178017B6.dash + _R.ear@zxc1
 uni178017C5.right = uni178017B6 + _R.ear@zxc1

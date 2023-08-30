@@ -529,6 +529,7 @@ _bulgeArch,_bulgeArch,2021,2021
 _deepArch,_deepArch,2022,2022
 _deepArch2,_deepArch2,2022.1,2022.1
 _mArch,_mArch,2023,2023
+_mArch2,_mArch2,2023.1,2023.1
 _topArch,_topArch,2024,2024
 _topArchshort,_topArchshort,2025,2025
 _instroke,_instroke,2030,2030
@@ -537,6 +538,7 @@ _loopInstroke,_loopInstroke,2032,2032
 _outstroke,_outstroke,2040,2040
 _squirreltail,_squirreltail,2045,2045
 _smoke,_smoke,2047,2047
+_smoke2,_smoke2,2047.1,2047.1
 _swash,_swash,2050,2050
 _L.ear,_L.ear,2061,2061
 _R.ear,_R.ear,2062,2062
@@ -549,6 +551,7 @@ _diagonal,_diagonal,2080,2080
 _diagonalSharp,_diagonalSharp,2081,2081
 _subarch,_subarch,2091,2091
 _subcurve,_subcurve,2092,2092
+_subcurveMed,_subcurveMed,2092.5,2092.5
 _subdiagonal,_subdiagonal,2093,2093
 _subL.ear,_subL.ear,2094,2094
 _subm,_subm,2095,2095
@@ -559,7 +562,6 @@ _eyelash,_eyelash,2100,2100
 _eyelash2,_eyelash2,2101,2101
 _horizontal,_horizontal,2200,2200
 _2,_2,2210,2210
-_dottedCircle,_dottedCircle,2300,2300
 space,space,10003,3
 exclam,exclam,10004,4
 quotedbl,quotedbl,10005,5

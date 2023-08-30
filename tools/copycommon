@@ -25,6 +25,7 @@ repos=(
 # Caution: do not use wildcards unless you are very sure that the 
 #    list of matching files is the same for every every repo!
 files=(
+    source/composites.txt
     source/glyph_data.csv
     tools/copycommon
 )

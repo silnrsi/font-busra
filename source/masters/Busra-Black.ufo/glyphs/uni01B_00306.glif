@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01B00306" format="2">
-  <advance width="1288"/>
+  <advance width="1149"/>
   <outline>
     <component base="uni01B0"/>
     <contour>
-      <point x="723" y="1520" type="line"/>
-      <point x="723" y="1426"/>
-      <point x="643" y="1370"/>
-      <point x="553" y="1370" type="curve" smooth="yes"/>
-      <point x="463" y="1370"/>
-      <point x="383" y="1426"/>
-      <point x="383" y="1520" type="curve"/>
-      <point x="233" y="1520" type="line"/>
-      <point x="233" y="1302"/>
-      <point x="428" y="1220"/>
-      <point x="553" y="1220" type="curve" smooth="yes"/>
-      <point x="678" y="1220"/>
-      <point x="873" y="1302"/>
-      <point x="873" y="1520" type="curve"/>
+      <point x="758" y="1538" type="line"/>
+      <point x="737" y="1483"/>
+      <point x="643" y="1352"/>
+      <point x="521" y="1352" type="curve"/>
+      <point x="399" y="1352"/>
+      <point x="305" y="1483"/>
+      <point x="284" y="1538" type="curve"/>
+      <point x="171" y="1538" type="line"/>
+      <point x="191" y="1435"/>
+      <point x="292" y="1190"/>
+      <point x="521" y="1190" type="curve"/>
+      <point x="751" y="1190"/>
+      <point x="847" y="1435"/>
+      <point x="867" y="1538" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
 </glyph>

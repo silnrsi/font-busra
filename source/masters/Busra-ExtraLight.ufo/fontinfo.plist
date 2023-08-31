@@ -15,78 +15,68 @@
   <key>guidelines</key>
   <array>
     <dict>
-      <key>angle</key>
-      <integer>0</integer>
       <key>name</key>
       <string>m</string>
-      <key>x</key>
-      <integer>0</integer>
       <key>y</key>
       <integer>250</integer>
     </dict>
     <dict>
-      <key>angle</key>
-      <integer>0</integer>
       <key>name</key>
       <string>f1</string>
-      <key>x</key>
-      <integer>0</integer>
       <key>y</key>
-      <integer>-713</integer>
+      <integer>-790</integer>
     </dict>
     <dict>
-      <key>angle</key>
-      <integer>0</integer>
       <key>name</key>
       <string>f2</string>
-      <key>x</key>
-      <integer>0</integer>
       <key>y</key>
       <integer>-150</integer>
     </dict>
     <dict>
-      <key>angle</key>
-      <integer>0</integer>
       <key>name</key>
       <string>f3</string>
-      <key>x</key>
-      <integer>0</integer>
       <key>y</key>
-      <integer>-788</integer>
+      <integer>-175</integer>
     </dict>
     <dict>
-      <key>angle</key>
-      <integer>0</integer>
       <key>name</key>
       <string>f4</string>
-      <key>x</key>
-      <integer>0</integer>
       <key>y</key>
-      <integer>-1238</integer>
+      <integer>-710</integer>
     </dict>
     <dict>
-      <key>angle</key>
-      <integer>90</integer>
       <key>name</key>
       <string>f5</string>
-      <key>x</key>
-      <integer>-225</integer>
       <key>y</key>
-      <integer>0</integer>
+      <integer>-574</integer>
     </dict>
     <dict>
-      <key>angle</key>
-      <integer>90</integer>
       <key>name</key>
       <string>f6</string>
-      <key>x</key>
-      <integer>-500</integer>
       <key>y</key>
-      <integer>0</integer>
+      <integer>-1113</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f7</string>
+      <key>y</key>
+      <integer>-1225</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f8</string>
+      <key>y</key>
+      <integer>1870</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f9</string>
+      <key>x</key>
+      <integer>-245</integer>
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/06/06 09:23:50</string>
+  <string>2023/08/31 10:57:32</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -104,7 +94,7 @@
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
 
 -----------------------------------------------------------
@@ -156,9 +146,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>ExtraLight</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Busra ExtraLight: 2022</string>
+  <string>SIL International: Busra ExtraLight: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 8.700</string>
+  <string>Version 8.700 alpha</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -244,7 +234,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <array>
     <integer>-33</integer>
     <integer>0</integer>
-    <integer>969</integer>
+    <integer>970</integer>
     <integer>992</integer>
     <integer>1437</integer>
     <integer>1471</integer>
@@ -261,8 +251,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>Busra-ExtraLight</string>
   <key>postscriptOtherBlues</key>
   <array>
-    <integer>1790</integer>
-    <integer>1810</integer>
     <integer>-800</integer>
     <integer>-780</integer>
     <integer>-730</integer>
@@ -271,6 +259,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>-125</integer>
     <integer>1730</integer>
     <integer>1750</integer>
+    <integer>1790</integer>
+    <integer>1810</integer>
   </array>
   <key>postscriptStemSnapH</key>
   <array>

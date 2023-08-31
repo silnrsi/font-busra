@@ -1,24 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="icircumflex" format="2">
-  <advance width="431"/>
+  <advance width="627"/>
   <unicode hex="00EE"/>
   <anchor x="520" y="0" name="PB"/>
   <anchor x="460" y="200" name="def"/>
   <outline>
     <contour>
-      <point x="116" y="1474" type="line"/>
-      <point x="0" y="1121" type="line"/>
-      <point x="34" y="1121" type="line"/>
-      <point x="217" y="1346" type="line"/>
-      <point x="394" y="1121" type="line"/>
-      <point x="431" y="1121" type="line"/>
-      <point x="319" y="1474" type="line"/>
+      <point x="172" y="1470" type="line"/>
+      <point x="-55" y="1089" type="line"/>
+      <point x="50" y="1089" type="line"/>
+      <point x="299" y="1290" type="line"/>
+      <point x="548" y="1089" type="line"/>
+      <point x="657" y="1089" type="line"/>
+      <point x="425" y="1470" type="line"/>
     </contour>
     <contour>
-      <point x="127" y="1039" type="line"/>
-      <point x="127" y="0" type="line"/>
-      <point x="304" y="0" type="line"/>
-      <point x="304" y="1039" type="line"/>
+      <point x="186" y="238" type="line"/>
+      <point x="186" y="121"/>
+      <point x="165" y="75"/>
+      <point x="40" y="75" type="curve"/>
+      <point x="40" y="0" type="line"/>
+      <point x="587" y="0" type="line"/>
+      <point x="587" y="75" type="line"/>
+      <point x="463" y="75"/>
+      <point x="437" y="121"/>
+      <point x="437" y="238" type="curve"/>
+      <point x="437" y="1004" type="line"/>
+      <point x="334" y="1004" type="line"/>
+      <point x="24" y="863" type="line"/>
+      <point x="52" y="790" type="line"/>
+      <point x="108" y="807"/>
+      <point x="153" y="819"/>
+      <point x="165" y="819" type="curve"/>
+      <point x="186" y="819"/>
+      <point x="186" y="778"/>
+      <point x="186" y="683" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,49 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ntilde" format="2">
-  <advance width="1417"/>
+  <advance width="1645"/>
   <unicode hex="00D1"/>
   <outline>
     <contour>
-      <point x="150" y="1440" type="line"/>
-      <point x="150" y="0" type="line"/>
-      <point x="345" y="0" type="line"/>
-      <point x="345" y="1144" type="line"/>
-      <point x="352" y="1144" type="line"/>
-      <point x="1031" y="0" type="line"/>
-      <point x="1267" y="0" type="line"/>
-      <point x="1267" y="1440" type="line"/>
-      <point x="1072" y="1440" type="line"/>
-      <point x="1072" y="300" type="line"/>
-      <point x="1061" y="300" type="line"/>
-      <point x="390" y="1440" type="line"/>
+      <point x="273" y="242" type="line"/>
+      <point x="273" y="108"/>
+      <point x="218" y="75"/>
+      <point x="76" y="75" type="curve"/>
+      <point x="76" y="0" type="line"/>
+      <point x="644" y="0" type="line"/>
+      <point x="644" y="75" type="line"/>
+      <point x="498" y="75"/>
+      <point x="448" y="108"/>
+      <point x="448" y="242" type="curve"/>
+      <point x="448" y="1031" type="line"/>
+      <point x="1293" y="-32" type="line"/>
+      <point x="1409" y="-32" type="line"/>
+      <point x="1409" y="1196" type="line"/>
+      <point x="1409" y="1329"/>
+      <point x="1459" y="1362"/>
+      <point x="1605" y="1362" type="curve"/>
+      <point x="1605" y="1437" type="line"/>
+      <point x="1033" y="1437" type="line"/>
+      <point x="1033" y="1362" type="line"/>
+      <point x="1179" y="1362"/>
+      <point x="1234" y="1329"/>
+      <point x="1234" y="1196" type="curve"/>
+      <point x="1234" y="481" type="line"/>
+      <point x="458" y="1437" type="line"/>
+      <point x="40" y="1437" type="line"/>
+      <point x="40" y="1362" type="line"/>
+      <point x="167" y="1362"/>
+      <point x="273" y="1290"/>
+      <point x="273" y="1185" type="curve"/>
     </contour>
     <contour>
-      <point x="412" y="1511" type="line"/>
-      <point x="424" y="1571"/>
-      <point x="446" y="1624"/>
-      <point x="521" y="1624" type="curve" smooth="yes"/>
-      <point x="566" y="1624"/>
-      <point x="622" y="1605"/>
-      <point x="682" y="1567" type="curve" smooth="yes"/>
-      <point x="742" y="1530"/>
-      <point x="806" y="1511"/>
-      <point x="877" y="1511" type="curve" smooth="yes"/>
-      <point x="1035" y="1511"/>
-      <point x="1087" y="1624"/>
-      <point x="1087" y="1755" type="curve"/>
-      <point x="1057" y="1755" type="line"/>
-      <point x="1046" y="1695"/>
-      <point x="1024" y="1646"/>
-      <point x="949" y="1646" type="curve" smooth="yes"/>
-      <point x="904" y="1646"/>
-      <point x="847" y="1661"/>
-      <point x="787" y="1699" type="curve" smooth="yes"/>
-      <point x="727" y="1736"/>
-      <point x="664" y="1755"/>
-      <point x="592" y="1755" type="curve" smooth="yes"/>
-      <point x="435" y="1755"/>
-      <point x="379" y="1646"/>
-      <point x="379" y="1511" type="curve"/>
+      <point x="565" y="1500" type="line"/>
+      <point x="576" y="1558"/>
+      <point x="620" y="1605"/>
+      <point x="662" y="1605" type="curve"/>
+      <point x="695" y="1605"/>
+      <point x="722" y="1591"/>
+      <point x="777" y="1557" type="curve" smooth="yes"/>
+      <point x="839" y="1518"/>
+      <point x="888" y="1500"/>
+      <point x="968" y="1500" type="curve"/>
+      <point x="1150" y="1500"/>
+      <point x="1225" y="1627"/>
+      <point x="1225" y="1775" type="curve"/>
+      <point x="1120" y="1775" type="line"/>
+      <point x="1109" y="1718"/>
+      <point x="1062" y="1670"/>
+      <point x="1020" y="1670" type="curve"/>
+      <point x="987" y="1670"/>
+      <point x="960" y="1684"/>
+      <point x="905" y="1718" type="curve" smooth="yes"/>
+      <point x="843" y="1757"/>
+      <point x="794" y="1775"/>
+      <point x="714" y="1775" type="curve"/>
+      <point x="532" y="1775"/>
+      <point x="457" y="1653"/>
+      <point x="457" y="1500" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
 </glyph>

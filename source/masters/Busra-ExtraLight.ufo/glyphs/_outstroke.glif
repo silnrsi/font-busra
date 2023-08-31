@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_outstroke" format="2">
+  <advance width="533"/>
+  <outline>
+    <contour>
+      <point x="183" y="0" type="line"/>
+      <point x="229" y="168"/>
+      <point x="285" y="247"/>
+      <point x="386" y="247" type="curve" smooth="yes"/>
+      <point x="453" y="247"/>
+      <point x="489" y="292"/>
+      <point x="489" y="336" type="curve" smooth="yes"/>
+      <point x="489" y="377"/>
+      <point x="458" y="416"/>
+      <point x="389" y="416" type="curve" smooth="yes"/>
+      <point x="269" y="416"/>
+      <point x="157" y="254"/>
+      <point x="96" y="108" type="curve"/>
+      <point x="101" y="34" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

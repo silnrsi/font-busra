@@ -6,20 +6,26 @@
   <anchor x="0" y="0" name="_def"/>
   <outline>
     <contour>
-      <point x="-223" y="1478" type="line"/>
-      <point x="-245" y="1422"/>
-      <point x="-350" y="1287"/>
-      <point x="-500" y="1287" type="curve" smooth="yes"/>
-      <point x="-649" y="1287"/>
-      <point x="-755" y="1422"/>
-      <point x="-777" y="1478" type="curve"/>
-      <point x="-815" y="1478" type="line"/>
-      <point x="-796" y="1384"/>
-      <point x="-705" y="1160"/>
-      <point x="-500" y="1160" type="curve" smooth="yes"/>
-      <point x="-294" y="1160"/>
-      <point x="-208" y="1384"/>
-      <point x="-189" y="1478" type="curve"/>
+      <point x="-277" y="1478" type="line"/>
+      <point x="-299" y="1422"/>
+      <point x="-404" y="1287"/>
+      <point x="-554" y="1287" type="curve" smooth="yes"/>
+      <point x="-703" y="1287"/>
+      <point x="-809" y="1422"/>
+      <point x="-831" y="1478" type="curve"/>
+      <point x="-869" y="1478" type="line"/>
+      <point x="-850" y="1384"/>
+      <point x="-759" y="1160"/>
+      <point x="-554" y="1160" type="curve" smooth="yes"/>
+      <point x="-348" y="1160"/>
+      <point x="-262" y="1384"/>
+      <point x="-243" y="1478" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
 </glyph>

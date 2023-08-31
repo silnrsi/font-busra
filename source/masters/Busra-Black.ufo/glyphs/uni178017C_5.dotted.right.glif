@@ -10,7 +10,6 @@
   <anchor x="1500" y="1000" name="U_1"/>
   <anchor x="1520" y="1000" name="U_2"/>
   <outline>
-    <component base="uni17C5.rightpart" xOffset="1500"/>
-    <component base="uni25CC.demo"/>
+    <component base="uni178017B6.dotted"/>
   </outline>
 </glyph>

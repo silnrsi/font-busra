@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni179A17B6" format="2">
-  <advance width="1600"/>
+  <advance width="1538"/>
   <anchor x="808" y="0" name="C6C_1"/>
   <anchor x="20" y="0" name="C6C_2"/>
   <anchor x="808" y="0" name="NBB_1"/>
@@ -9,55 +9,11 @@
   <anchor x="899" y="0" name="NC_2"/>
   <anchor x="788" y="0" name="def_1"/>
   <anchor x="1538" y="0" name="def_2"/>
+  <anchor x="1110" y="1236" name="zxc1"/>
   <outline>
-    <contour>
-      <point x="700" y="915" type="line" smooth="yes"/>
-      <point x="700" y="967"/>
-      <point x="502" y="1024"/>
-      <point x="400" y="1091" type="curve"/>
-      <point x="386" y="1103"/>
-      <point x="380" y="1115"/>
-      <point x="380" y="1125" type="curve" smooth="yes"/>
-      <point x="380" y="1183"/>
-      <point x="570" y="1215"/>
-      <point x="719" y="1215" type="curve" smooth="yes"/>
-      <point x="873" y="1215"/>
-      <point x="1075" y="1144"/>
-      <point x="1075" y="1069" type="curve" smooth="yes"/>
-      <point x="1075" y="0" type="line"/>
-      <point x="1450" y="0" type="line"/>
-      <point x="1450" y="1129" type="line" smooth="yes"/>
-      <point x="1450" y="1226"/>
-      <point x="1210" y="1440"/>
-      <point x="700" y="1440" type="curve"/>
-      <point x="442" y="1432"/>
-      <point x="149" y="1331"/>
-      <point x="149" y="1177" type="curve" smooth="yes"/>
-      <point x="149" y="1121"/>
-      <point x="164" y="1076"/>
-      <point x="284" y="1009" type="curve"/>
-      <point x="307" y="997"/>
-      <point x="325" y="971"/>
-      <point x="325" y="915" type="curve" smooth="yes"/>
-      <point x="325" y="457" type="line"/>
-      <point x="194" y="431"/>
-      <point x="119" y="364"/>
-      <point x="119" y="259" type="curve" smooth="yes"/>
-      <point x="119" y="180"/>
-      <point x="190" y="41"/>
-      <point x="400" y="0" type="curve"/>
-      <point x="517" y="0"/>
-      <point x="663" y="19"/>
-      <point x="700" y="105" type="curve"/>
-    </contour>
-    <contour>
-      <point x="243" y="277" type="curve" smooth="yes"/>
-      <point x="243" y="319"/>
-      <point x="295" y="356"/>
-      <point x="325" y="356" type="curve"/>
-      <point x="325" y="180" type="line"/>
-      <point x="292" y="191"/>
-      <point x="243" y="221"/>
-    </contour>
+    <component base="_stemLg" xOffset="950"/>
+    <component base="_bulgeArch" xOffset="31"/>
+    <component base="_stemloop" xScale="-1" xOffset="662" yOffset="23"/>
+    <component base="_stemSm" xOffset="200" yOffset="440"/>
   </outline>
 </glyph>

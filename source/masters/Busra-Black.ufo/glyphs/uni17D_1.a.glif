@@ -2,10 +2,10 @@
 <glyph name="uni17D1.a" format="2">
   <outline>
     <contour>
-      <point x="-1088" y="1660" type="line"/>
-      <point x="-188" y="1660" type="line"/>
-      <point x="-188" y="1847" type="line"/>
-      <point x="-1088" y="1847" type="line"/>
+      <point x="-863" y="1590" type="line"/>
+      <point x="-225" y="1590" type="line"/>
+      <point x="-225" y="1777" type="line"/>
+      <point x="-863" y="1777" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -7,10 +7,10 @@
   <anchor x="0" y="1000" name="_U"/>
   <outline>
     <contour>
-      <point x="-675" y="1880" type="line"/>
-      <point x="0" y="1880" type="line"/>
-      <point x="0" y="2030" type="line"/>
-      <point x="-675" y="2030" type="line"/>
+      <point x="-696" y="1880" type="line"/>
+      <point x="-74" y="1880" type="line"/>
+      <point x="-74" y="2050" type="line"/>
+      <point x="-696" y="2050" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -5,40 +5,8 @@
   <anchor x="0" y="0" name="_B2"/>
   <anchor x="-20" y="0" name="_L"/>
   <outline>
-    <contour>
-      <point x="-1013" y="-990" type="curve"/>
-      <point x="-1013" y="-1136" type="line"/>
-      <point x="-998" y="-1211"/>
-      <point x="-919" y="-1238"/>
-      <point x="-799" y="-1238" type="curve"/>
-      <point x="-743" y="-1238" type="line"/>
-      <point x="-649" y="-1230"/>
-      <point x="-593" y="-1204"/>
-      <point x="-593" y="-1133" type="curve" smooth="yes"/>
-      <point x="-593" y="-1080"/>
-      <point x="-649" y="-1039"/>
-      <point x="-713" y="-1031" type="curve"/>
-      <point x="-713" y="-975" type="line"/>
-      <point x="-679" y="-1000"/>
-      <point x="-604" y="-1050"/>
-      <point x="-581" y="-1050" type="curve"/>
-      <point x="-559" y="-1050"/>
-      <point x="-484" y="-1000"/>
-      <point x="-450" y="-975" type="curve"/>
-      <point x="-450" y="-1238" type="line"/>
-      <point x="-150" y="-1238" type="line"/>
-      <point x="-150" y="-990" type="line"/>
-      <point x="-150" y="-926"/>
-      <point x="-251" y="-788"/>
-      <point x="-398" y="-788" type="curve"/>
-      <point x="-458" y="-788"/>
-      <point x="-488" y="-799"/>
-      <point x="-581" y="-878" type="curve"/>
-      <point x="-675" y="-799"/>
-      <point x="-709" y="-788"/>
-      <point x="-769" y="-788" type="curve"/>
-      <point x="-919" y="-788"/>
-      <point x="-1013" y="-926"/>
-    </contour>
+    <component base="_subm" xOffset="-1139" yOffset="-619"/>
+    <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="-626" yOffset="-1385"/>
+    <component base="_substemSm" xOffset="-588" yOffset="-745"/>
   </outline>
 </glyph>

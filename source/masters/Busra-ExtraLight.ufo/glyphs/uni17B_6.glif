@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17B6" format="2">
-  <advance width="675"/>
+  <advance width="728"/>
   <unicode hex="17B6"/>
   <anchor x="0" y="0" name="B6"/>
   <anchor x="0" y="0" name="B6C6"/>
   <anchor x="728" y="0" name="D0"/>
+  <anchor x="281" y="1236" name="zxc1"/>
   <outline>
-    <contour>
-      <point x="-338" y="1316" type="curve"/>
-      <point x="-270" y="1234" type="line"/>
-      <point x="-229" y="1275"/>
-      <point x="-23" y="1328"/>
-      <point x="56" y="1328" type="curve" smooth="yes"/>
-      <point x="214" y="1328"/>
-      <point x="300" y="1200"/>
-      <point x="300" y="1144" type="curve" smooth="yes"/>
-      <point x="300" y="0" type="line"/>
-      <point x="450" y="0" type="line"/>
-      <point x="450" y="1162" type="line" smooth="yes"/>
-      <point x="450" y="1260"/>
-      <point x="281" y="1440"/>
-      <point x="56" y="1440" type="curve" smooth="yes"/>
-      <point x="-75" y="1440"/>
-      <point x="-281" y="1372"/>
-    </contour>
+    <component base="_topArch" xOffset="-421"/>
+    <component base="_stemLg" xOffset="195"/>
   </outline>
 </glyph>

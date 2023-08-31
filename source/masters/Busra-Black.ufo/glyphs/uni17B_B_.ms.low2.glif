@@ -2,25 +2,6 @@
 <glyph name="uni17BB.ms.low2" format="2">
   <anchor x="-20" y="0" name="_L"/>
   <outline>
-    <contour>
-      <point x="-488" y="-1725" type="line"/>
-      <point x="-488" y="-1778"/>
-      <point x="-499" y="-1808"/>
-      <point x="-544" y="-1819" type="curve"/>
-      <point x="-450" y="-1819" type="line"/>
-      <point x="-195" y="-1819"/>
-      <point x="-150" y="-1804"/>
-      <point x="-150" y="-1710" type="curve"/>
-      <point x="-150" y="-1489" type="line"/>
-      <point x="-158" y="-1410"/>
-      <point x="-281" y="-1388"/>
-      <point x="-431" y="-1388" type="curve"/>
-      <point x="-563" y="-1388"/>
-      <point x="-619" y="-1429"/>
-      <point x="-619" y="-1504" type="curve"/>
-      <point x="-619" y="-1556"/>
-      <point x="-581" y="-1609"/>
-      <point x="-488" y="-1609" type="curve"/>
-    </contour>
+    <component base="uni17BB.low.narrow" xOffset="-101" yOffset="-582"/>
   </outline>
 </glyph>

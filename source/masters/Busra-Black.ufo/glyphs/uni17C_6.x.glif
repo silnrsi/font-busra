@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17C6.x" format="2">
   <outline>
-    <contour>
-      <point x="-1762" y="2281" type="curve" smooth="yes"/>
-      <point x="-1762" y="2116"/>
-      <point x="-1627" y="2000"/>
-      <point x="-1462" y="2000" type="curve" smooth="yes"/>
-      <point x="-1297" y="2000"/>
-      <point x="-1162" y="2116"/>
-      <point x="-1162" y="2281" type="curve" smooth="yes"/>
-      <point x="-1162" y="2446"/>
-      <point x="-1297" y="2562"/>
-      <point x="-1462" y="2562" type="curve" smooth="yes"/>
-      <point x="-1627" y="2562"/>
-      <point x="-1762" y="2446"/>
-    </contour>
-    <contour>
-      <point x="-1519" y="2281" type="curve" smooth="yes"/>
-      <point x="-1519" y="2313"/>
-      <point x="-1492" y="2337"/>
-      <point x="-1462" y="2337" type="curve" smooth="yes"/>
-      <point x="-1432" y="2337"/>
-      <point x="-1406" y="2313"/>
-      <point x="-1406" y="2281" type="curve" smooth="yes"/>
-      <point x="-1406" y="2249"/>
-      <point x="-1432" y="2225"/>
-      <point x="-1462" y="2225" type="curve" smooth="yes"/>
-      <point x="-1492" y="2225"/>
-      <point x="-1519" y="2247"/>
-    </contour>
+    <component base="uni17C6" xOffset="-751" yOffset="430"/>
   </outline>
 </glyph>

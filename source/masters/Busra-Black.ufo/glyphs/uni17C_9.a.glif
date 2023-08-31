@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17C9.a" format="2">
-  <guideline x="-900" y="0" angle="90"/>
-  <guideline x="-525" y="0" angle="90"/>
+  <guideline x="-938"/>
+  <guideline x="-488"/>
   <anchor x="-708" y="1000" name="_UR"/>
   <anchor x="-728" y="0" name="_def"/>
   <outline>
     <contour>
-      <point x="-668" y="1860" type="curve" smooth="yes"/>
-      <point x="-668" y="1789"/>
-      <point x="-581" y="1755"/>
-      <point x="-551" y="1751" type="curve"/>
-      <point x="-533" y="1751"/>
-      <point x="-533" y="1732"/>
-      <point x="-533" y="1717" type="curve" smooth="yes"/>
-      <point x="-533" y="1646"/>
-      <point x="-585" y="1620"/>
-      <point x="-585" y="1601" type="curve" smooth="yes"/>
-      <point x="-585" y="1594"/>
-      <point x="-574" y="1590"/>
-      <point x="-555" y="1590" type="curve" smooth="yes"/>
-      <point x="-454" y="1590"/>
-      <point x="-330" y="1695"/>
-      <point x="-330" y="1856" type="curve" smooth="yes"/>
-      <point x="-330" y="1927"/>
-      <point x="-383" y="1984"/>
-      <point x="-503" y="1984" type="curve" smooth="yes"/>
-      <point x="-623" y="1984"/>
-      <point x="-668" y="1931"/>
+      <point x="-708" y="1860" type="curve" smooth="yes"/>
+      <point x="-708" y="1789"/>
+      <point x="-621" y="1755"/>
+      <point x="-591" y="1751" type="curve"/>
+      <point x="-573" y="1751"/>
+      <point x="-573" y="1732"/>
+      <point x="-573" y="1717" type="curve" smooth="yes"/>
+      <point x="-573" y="1646"/>
+      <point x="-625" y="1620"/>
+      <point x="-625" y="1601" type="curve" smooth="yes"/>
+      <point x="-625" y="1594"/>
+      <point x="-614" y="1590"/>
+      <point x="-595" y="1590" type="curve" smooth="yes"/>
+      <point x="-494" y="1590"/>
+      <point x="-370" y="1695"/>
+      <point x="-370" y="1856" type="curve" smooth="yes"/>
+      <point x="-370" y="1927"/>
+      <point x="-423" y="1984"/>
+      <point x="-543" y="1984" type="curve" smooth="yes"/>
+      <point x="-663" y="1984"/>
+      <point x="-708" y="1931"/>
     </contour>
     <contour>
       <point x="-1083" y="1860" type="curve" smooth="yes"/>

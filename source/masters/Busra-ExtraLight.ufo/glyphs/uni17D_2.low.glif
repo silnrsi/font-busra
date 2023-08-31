@@ -2,18 +2,18 @@
 <glyph name="uni17D2.low" format="2">
   <outline>
     <contour>
-      <point x="-740" y="-1070" type="line"/>
-      <point x="-740" y="-1240" type="line"/>
-      <point x="-610" y="-1240" type="line"/>
-      <point x="-610" y="-1070" type="line"/>
-      <point x="-400" y="-1070" type="line"/>
-      <point x="-400" y="-940" type="line"/>
-      <point x="-610" y="-940" type="line"/>
-      <point x="-610" y="-770" type="line"/>
-      <point x="-740" y="-770" type="line"/>
-      <point x="-740" y="-940" type="line"/>
-      <point x="-950" y="-940" type="line"/>
-      <point x="-950" y="-1070" type="line"/>
+      <point x="-670" y="-1215" type="line"/>
+      <point x="-670" y="-1401" type="line"/>
+      <point x="-482" y="-1401" type="line"/>
+      <point x="-482" y="-1215" type="line"/>
+      <point x="-294" y="-1215" type="line"/>
+      <point x="-294" y="-1027" type="line"/>
+      <point x="-482" y="-1027" type="line"/>
+      <point x="-482" y="-860" type="line"/>
+      <point x="-670" y="-860" type="line"/>
+      <point x="-670" y="-1027" type="line"/>
+      <point x="-857" y="-1027" type="line"/>
+      <point x="-857" y="-1215" type="line"/>
     </contour>
   </outline>
 </glyph>

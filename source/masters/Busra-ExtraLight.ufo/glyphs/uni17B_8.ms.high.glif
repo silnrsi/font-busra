@@ -3,6 +3,6 @@
   <anchor x="0" y="700" name="A0"/>
   <anchor x="0" y="0" name="_A0"/>
   <outline>
-    <component base="uni17B8" yOffset="290"/>
+    <component base="uni17B8" yOffset="291"/>
   </outline>
 </glyph>

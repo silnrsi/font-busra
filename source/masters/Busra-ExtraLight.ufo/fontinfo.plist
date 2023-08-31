@@ -76,7 +76,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/08/31 10:57:32</string>
+  <string>2023/08/31 17:08:38</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -223,7 +223,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2VendorID</key>
   <string>SIL </string>
   <key>openTypeOS2WeightClass</key>
-  <integer>150</integer>
+  <integer>200</integer>
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>

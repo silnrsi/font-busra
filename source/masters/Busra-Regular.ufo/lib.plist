@@ -993,16 +993,6 @@
     <string>zcaron</string>
     <string>Euro</string>
     <string>uni20AB</string>
-    <string>uni00CA0306</string>
-    <string>uni00D40306</string>
-    <string>uni00EA0306</string>
-    <string>uni00F40306</string>
-    <string>uni01A00306</string>
-    <string>uni01A10306</string>
-    <string>uni01AF0306</string>
-    <string>uni01B00306</string>
-    <string>uni03020306</string>
-    <string>uni0306.high</string>
     <string>gravecomb</string>
     <string>acutecomb</string>
     <string>circumflexcomb</string>
@@ -1017,6 +1007,16 @@
     <string>uni031B</string>
     <string>uni0323</string>
     <string>cedillacomb</string>
+    <string>uni03020306</string>
+    <string>uni0306.high</string>
+    <string>uni00CA0306</string>
+    <string>uni00D40306</string>
+    <string>uni00EA0306</string>
+    <string>uni00F40306</string>
+    <string>uni01A00306</string>
+    <string>uni01A10306</string>
+    <string>uni01AF0306</string>
+    <string>uni01B00306</string>
     <string>onesuperior</string>
     <string>twosuperior</string>
     <string>threesuperior</string>

@@ -26,7 +26,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3214</string>
+  <string>3151</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/uni1780/_curve/_curveShort.extra/_topArch/_stemMd/_stemLg/_stemSm/_R.ear/_horizontal/_stemloop/_smoke/uni1780.alt/uni178017B6/_mArch/_stemMd/uni178017B6.alt/uni178017B6.dash/uni178017B6.dotted/_topArch/uni1789.alt/uni178117B6/uni178017B6.space/uni178017C5.dash.right/uni178017C5.dotted.right/uni178017C5.right/uni178017C5.right.alt/uni178017C5.space.right/uni1781/uni1781.pronounlig/_topArch/_deepArch/uni178117B6/_R.ear/_outstroke/uni178117C5.right/uni1780/uni1782/_mArch/uni178017B6/uni178217B6/uni178217C5.right/_R.ear/_instroke/_L.ear/_stemSm/_curveShort.extra/_curveShort/_instroke/uni1783/_curveShort.extra/uni178317B6/_bulgeArch/_R.ear/uni178317C5.right/uni1784/_stemloop/_w/uni178417B6/_deepArch/_deepArch2/uni178417C5.right/_stemloop/uni1785/_smoke/uni1780/uni178517B6/uni178517C5.right/_stemMd/_stemloop/uni1786/_diagonal/uni178617B6/uni178617C5.right/uni1787/uni178717B6/_deepArch2/uni178717C5.right/_stemloop/_stemloop/uni1788/_curve/_curveShort/_curveShort.extra/uni178817B6/uni178817C5.right/uni1789/_w/_m/uni1789.alt/uni178917B6/_topArch/uni178917B6.alt/uni178917C5.right/uni178917C5.rightalt/space/uni17D0/space/uni178A/uni178A17B6/uni178A17C5.right/uni178A17CF/uni178B/_R.earLarge/_topArchshort/uni178B17B6/_topArchshort/uni178B17C5.right/uni178C/uni178C17B6/uni178C17C5.right/_diagonal/_diagonalSharp/_stemloop/uni178D/uni178D17B6/uni178D17C5.right/_w/_wNarrow/uni178E/uni178E17B6/uni178E17C5.right/_stemloop/uni178F/_stemloop/uni178F17B6/uni178F17C5.right/uni1790/uni179017B6/uni179017C5.right/uni1791/uni179117B6/uni179117C5.right/uni1792/uni179217B6/uni179217C5.right/uni1793/uni179317B6/uni179317C5.right/uni1794/uni1794.lig.left/uni179417B6/uni179417C5.right/uni1795/uni179517B6/uni179517C5.right/uni1796/uni179617B6/uni179617C5.right/uni1797/uni179717B6/uni179717C5.right/uni1798/uni179817B6/uni179817C5.right/uni1799/uni179917B6/uni179917C5.right/uni179A/uni179A.spc/uni179A17B6/uni179A17C5.right/uni179B/uni179B17B6/uni179B17C5.right/uni179C/uni179C.spc/uni179C17B6/uni179C17C5.right/uni179D/uni179D17B6/uni179D17C5.right/uni1794/uni179E/_eyelash/uni179E17B6/uni179E17C5.right/_L.ear/uni179F/uni179F17B6/uni179F17C5.right/uni17A0/uni17A017B6/uni17A017C5.right/uni17A1/uni17A117B6/uni17A117C5.right/uni17A2/uni17A217B6/uni17A217C5.right/uni17A3/uni17A4/uni17A5/uni17A6/uni1781/_2/uni17A7/uni17A8/uni17A9/uni17AA/uni17AB/uni17AC/uni17AD/uni17AE/uni17AF/uni17B0/uni17B1/uni17B1.alt/uni17B1.alt2/uni17B2/uni17B3/uni17B3.alt/uni17B4/uni17B5/space/uni17B6/uni17B6.lig.right</string>
@@ -62,7 +62,7 @@
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
-  <string>SIL International: Busra Regular: 2023</string>
+  <string>SIL International: Busra ExtraLight: 2023</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>

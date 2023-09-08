@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenleft" format="2">
-  <advance width="996"/>
-  <unicode hex="0028"/>
   <outline>
     <contour>
       <point x="479" y="736" type="curve" smooth="yes"/>
@@ -36,10 +34,4 @@
       <point x="479" y="522"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

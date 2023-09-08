@@ -108,6 +108,8 @@
   <string>a.glif</string>
   <key>ampersand</key>
   <string>ampersand.glif</string>
+  <key>at</key>
+  <string>at.glif</string>
   <key>b</key>
   <string>b.glif</string>
   <key>c</key>
@@ -150,6 +152,10 @@
   <string>one.glif</string>
   <key>p</key>
   <string>p.glif</string>
+  <key>parenleft</key>
+  <string>parenleft.glif</string>
+  <key>parenright</key>
+  <string>parenright.glif</string>
   <key>q</key>
   <string>q.glif</string>
   <key>question</key>

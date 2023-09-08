@@ -6,16 +6,16 @@
   <anchor x="0" y="0" name="_def"/>
   <outline>
     <contour>
-      <point x="-845" y="1364" type="line"/>
-      <point x="-845" y="1231" type="line"/>
-      <point x="-155" y="1231" type="line"/>
-      <point x="-155" y="1364" type="line"/>
+      <point x="-967" y="1589" type="line"/>
+      <point x="-967" y="1456" type="line"/>
+      <point x="-277" y="1456" type="line"/>
+      <point x="-277" y="1589" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

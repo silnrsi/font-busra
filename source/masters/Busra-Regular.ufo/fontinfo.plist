@@ -48,7 +48,7 @@
       <key>name</key>
       <string>f5</string>
       <key>y</key>
-      <integer>-574</integer>
+      <integer>-570</integer>
     </dict>
     <dict>
       <key>name</key>
@@ -76,7 +76,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/09/08 10:04:24</string>
+  <string>2023/09/08 16:30:04</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>

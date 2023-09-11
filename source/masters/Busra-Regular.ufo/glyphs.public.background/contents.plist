@@ -34,6 +34,8 @@
   <string>N_.glif</string>
   <key>O</key>
   <string>O_.glif</string>
+  <key>OE</key>
+  <string>O_E_.glif</string>
   <key>P</key>
   <string>P_.glif</string>
   <key>Q</key>
@@ -124,6 +126,8 @@
   <string>eacute.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
+  <key>eth</key>
+  <string>eth.glif</string>
   <key>f</key>
   <string>f.glif</string>
   <key>five</key>
@@ -132,6 +136,8 @@
   <string>four.glif</string>
   <key>g</key>
   <string>g.glif</string>
+  <key>germandbls</key>
+  <string>germandbls.glif</string>
   <key>h</key>
   <string>h.glif</string>
   <key>i</key>

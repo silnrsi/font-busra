@@ -12,6 +12,8 @@
   <string>D_.glif</string>
   <key>E</key>
   <string>E_.glif</string>
+  <key>Euro</key>
+  <string>E_uro.glif</string>
   <key>F</key>
   <string>F_.glif</string>
   <key>G</key>
@@ -132,6 +134,8 @@
   <string>f.glif</string>
   <key>five</key>
   <string>five.glif</string>
+  <key>florin</key>
+  <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
   <key>g</key>
@@ -142,6 +146,8 @@
   <string>h.glif</string>
   <key>i</key>
   <string>i.glif</string>
+  <key>integral</key>
+  <string>integral.glif</string>
   <key>j</key>
   <string>j.glif</string>
   <key>k</key>
@@ -154,6 +160,8 @@
   <string>n.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
+  <key>numbersign</key>
+  <string>numbersign.glif</string>
   <key>o</key>
   <string>o.glif</string>
   <key>one</key>
@@ -164,6 +172,8 @@
   <string>parenleft.glif</string>
   <key>parenright</key>
   <string>parenright.glif</string>
+  <key>partialdiff</key>
+  <string>partialdiff.glif</string>
   <key>q</key>
   <string>q.glif</string>
   <key>question</key>
@@ -176,6 +186,8 @@
   <string>seven.glif</string>
   <key>six</key>
   <string>six.glif</string>
+  <key>sterling</key>
+  <string>sterling.glif</string>
   <key>t</key>
   <string>t.glif</string>
   <key>three</key>

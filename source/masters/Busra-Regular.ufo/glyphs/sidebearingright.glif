@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sidebearingright" format="2">
-  <advance width="1225"/>
+  <advance width="600"/>
   <unicode hex="F131"/>
   <outline>
-    <component base="underscore"/>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="-600" type="line"/>
+      <point x="80" y="-600" type="line"/>
+      <point x="80" y="-80" type="line"/>
+      <point x="600" y="-80" type="line"/>
+      <point x="600" y="0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.65,0.48,0.2,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

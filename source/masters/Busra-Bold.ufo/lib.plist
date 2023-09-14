@@ -56,6 +56,7 @@
     <string>/uni178017C5.right.alt</string>
     <string>/uni179117B6</string>
     <string>/uni17B6/uni178017B6.dash/uni178017B6.dotted/uni178017B6.space/uni1781/uni178117B6/uni1789.alt/uni178917B6.alt/uni178C/uni178C17B6/uni178E/uni178E17B6/uni1791/uni179117B6/uni1793/uni179317B6/uni1796/uni179617B6/uni17A0/uni17A017B6/uni17C4/uni17C5.rightpart</string>
+    <string>254%/perthousand</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

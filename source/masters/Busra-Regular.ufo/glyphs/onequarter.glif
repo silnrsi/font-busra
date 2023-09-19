@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onequarter" format="2">
-  <advance width="1736"/>
+  <advance width="1700"/>
   <unicode hex="00BC"/>
   <outline>
-    <component base="one" xScale="0.65" yScale="0.55" xOffset="70" yOffset="680"/>
+    <component base="one" xScale="0.65" yScale="0.5" xOffset="-43" yOffset="825"/>
+    <component base="four" xScale="0.65" yScale="0.5" xOffset="850"/>
     <contour>
-      <point x="1411" y="1471" type="line"/>
-      <point x="1280" y="1471" type="line"/>
-      <point x="251" y="-52" type="line"/>
-      <point x="382" y="-52" type="line"/>
-    </contour>
-    <contour>
-      <point x="1137" y="318" type="line"/>
-      <point x="1413" y="645" type="line"/>
-      <point x="1413" y="66" type="line"/>
-      <point x="1302" y="47" type="line"/>
-      <point x="1302" y="0" type="line"/>
-      <point x="1639" y="0" type="line"/>
-      <point x="1639" y="47" type="line"/>
-      <point x="1535" y="66" type="line"/>
-      <point x="1535" y="798" type="line"/>
-      <point x="1413" y="798" type="line"/>
-      <point x="1012" y="322" type="line"/>
-      <point x="1012" y="248" type="line"/>
-      <point x="1642" y="248" type="line"/>
-      <point x="1642" y="318" type="line"/>
+      <point x="1425" y="1700" type="line"/>
+      <point x="1294" y="1700" type="line"/>
+      <point x="265" y="-50" type="line"/>
+      <point x="396" y="-50" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CPP</string>
+      <string>CCP</string>
       <key>public.markColor</key>
       <string>0.85,0.26,0.06,1</string>
     </dict>

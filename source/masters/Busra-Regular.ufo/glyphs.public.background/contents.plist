@@ -120,6 +120,8 @@
   <string>c.glif</string>
   <key>d</key>
   <string>d.glif</string>
+  <key>dollar</key>
+  <string>dollar.glif</string>
   <key>dottedcircle</key>
   <string>dottedcircle.glif</string>
   <key>e</key>
@@ -768,6 +770,8 @@
   <string>uni17E_8.glif</string>
   <key>uni17E9</key>
   <string>uni17E_9.glif</string>
+  <key>uni20AB</key>
+  <string>uni20A_B_.glif</string>
   <key>v</key>
   <string>v.glif</string>
   <key>w</key>
@@ -776,6 +780,8 @@
   <string>x.glif</string>
   <key>y</key>
   <string>y.glif</string>
+  <key>yen</key>
+  <string>yen.glif</string>
   <key>z</key>
   <string>z.glif</string>
   <key>zero</key>

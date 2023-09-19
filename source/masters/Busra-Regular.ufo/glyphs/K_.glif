@@ -27,12 +27,12 @@
       <point x="458" y="1530" type="line"/>
       <point x="628" y="1565" type="line"/>
       <point x="628" y="1650" type="line"/>
-      <point x="115" y="1650" type="line"/>
-      <point x="115" y="1565" type="line"/>
-      <point x="265" y="1530" type="line"/>
-      <point x="265" y="120" type="line"/>
-      <point x="115" y="85" type="line"/>
-      <point x="115" y="0" type="line"/>
+      <point x="110" y="1650" type="line"/>
+      <point x="110" y="1565" type="line"/>
+      <point x="260" y="1530" type="line"/>
+      <point x="260" y="120" type="line"/>
+      <point x="110" y="85" type="line"/>
+      <point x="110" y="0" type="line"/>
       <point x="628" y="0" type="line"/>
       <point x="628" y="85" type="line"/>
       <point x="458" y="120" type="line"/>

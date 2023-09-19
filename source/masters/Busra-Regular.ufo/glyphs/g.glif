@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="g" format="2">
-  <advance width="1314"/>
+  <advance width="1340"/>
   <unicode hex="0067"/>
   <anchor x="520" y="-200" name="PB"/>
   <anchor x="560" y="0" name="def"/>
@@ -76,22 +76,22 @@
       <point x="768" y="508"/>
     </contour>
     <contour>
-      <point x="1219" y="1102" type="curve" smooth="yes"/>
-      <point x="1289" y="1102"/>
-      <point x="1340" y="1143"/>
-      <point x="1340" y="1247" type="curve" smooth="yes"/>
-      <point x="1340" y="1315"/>
-      <point x="1283" y="1375"/>
-      <point x="1185" y="1375" type="curve" smooth="yes"/>
-      <point x="1073" y="1375"/>
+      <point x="1219" y="1120" type="curve" smooth="yes"/>
+      <point x="1285" y="1120"/>
+      <point x="1331" y="1153"/>
+      <point x="1331" y="1243" type="curve" smooth="yes"/>
+      <point x="1331" y="1311"/>
+      <point x="1283" y="1366"/>
+      <point x="1185" y="1366" type="curve" smooth="yes"/>
+      <point x="1073" y="1366"/>
       <point x="939" y="1304"/>
       <point x="826" y="1159" type="curve"/>
-      <point x="899" y="1106" type="line"/>
-      <point x="955" y="1184"/>
-      <point x="1075" y="1237"/>
-      <point x="1109" y="1244" type="curve"/>
-      <point x="1099" y="1178"/>
-      <point x="1152" y="1102"/>
+      <point x="897" y="1116" type="line"/>
+      <point x="953" y="1194"/>
+      <point x="1086" y="1249"/>
+      <point x="1120" y="1256" type="curve"/>
+      <point x="1102" y="1190"/>
+      <point x="1148" y="1120"/>
     </contour>
   </outline>
   <lib>

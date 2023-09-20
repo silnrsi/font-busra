@@ -1,0 +1,48 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[size="18pt"]
+
+%%%%% GROUPS
+
+% Latin groups
+\patterngroup[name="latincaps"]{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
+\patterngroup[name="latinlc"]{abcdefghijklmnopqrstuvwxyz}
+\patterngroup[name="latinext"]{ıßÆæŒœØøÐðÞþﬁﬂ}
+\patterngroup[name="latincombcaps"]{ÄÅÀÃÂÁÇÉÊËÈÍÎÏÌÑÖÕÓÔÒŠÜÚÛÙŸÝŽ}
+\patterngroup[name="latincomblc"]{áàâäãåçéèêëíìîïñóòôöõšúùûüÿýž}
+
+% Math
+\patterngroup[name="numerals"]{1234567890}
+\patterngroup[name="supnumsfracs"]{⁄¹²³⁴½¼¾}
+\patterngroup[name="math"]{+−÷×±<>≤≥=≠≈∞#\%‰°√}
+
+% General
+\patterngroup[name="closingpunct"]{.,:;!?…}
+\patterngroup[name="openingpunct"]{¿¡}
+\patterngroup[name="centers"]{-–—÷‐‑­‒―•·‧∙¬~}
+\patterngroup[name="openingquotes"]{"'“‘`}
+\patterngroup[name="closingquotes"]{"'”’‚„`}
+\patterngroup[name="symbolsshared"]{&*-/•·}
+\patterngroup[name="special"]{@_\\}
+\patterngroup[name="barspairs"]{\\/|¦\{\}[]()‹›«»}
+\patterngroup[name="sym"]{µ∂∑∏π∫Ω∆ƒ$¢£¥¤€¶§&@◊†‡©®*^™ªº_␣}
+
+
+%%%%% TESTS
+
+\subsection{KHMER WITH PUNCTUATION}
+\pattern[chars="@",reps="group_closingpunct",format="list"]{រិណា@ ចំណុះ@ រកាកណ្ដាល@ រោគ@}
+\pattern[chars="@",reps="group_openingpunct",format="list"]{@កកកាក @រកាកណ្ដាល @ដិតដាម @រោគ}
+
+\subsection{KHMER WITH QUOTES}
+\pattern[chars="@",reps="group_openingquotes",format="list"]{@កកកាក @រកាកណ្ដាល @ដិតដាម @រោគ}
+\pattern[chars="@",reps="group_closingquotes",format="list"]{រិណា@ ចំណុះ@ រកាកណ្ដាល@ រោគ@}
+
+\subsection{KHMER WITH SYMBOLS}
+\pattern[chars="@",reps="group_symbolsshared",format="list"]{រេស@ឆ្នំា ឆាម@ក្រក្ដី កន់@រីក}
+\pattern[chars="#",reps="group_special",format="list"]{រេស#ឆ្នំា ឆាម#ក្រក្ដី កន់#រីក}
+
+\subsection{KHMER WITH DASHES}
+\pattern[chars="@",reps="group_centers",format="list"]{រេស@ឆ្នំា ឆាម@ក្រក្ដី កន់@រីក}
+
+\end{document}

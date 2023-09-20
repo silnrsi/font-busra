@@ -4,18 +4,33 @@
   <unicode hex="00BC"/>
   <outline>
     <component base="one" xScale="0.65" yScale="0.5" xOffset="-43" yOffset="825"/>
-    <component base="four" xScale="0.65" yScale="0.5" xOffset="850"/>
     <contour>
-      <point x="1425" y="1700" type="line"/>
-      <point x="1294" y="1700" type="line"/>
-      <point x="265" y="-50" type="line"/>
-      <point x="396" y="-50" type="line"/>
+      <point x="1445" y="1700" type="line"/>
+      <point x="1314" y="1700" type="line"/>
+      <point x="285" y="-50" type="line"/>
+      <point x="416" y="-50" type="line"/>
+    </contour>
+    <contour>
+      <point x="1053" y="355" type="line"/>
+      <point x="1362" y="685" type="line"/>
+      <point x="1362" y="60" type="line"/>
+      <point x="1251" y="43" type="line"/>
+      <point x="1251" y="0" type="line"/>
+      <point x="1595" y="0" type="line"/>
+      <point x="1595" y="43" type="line"/>
+      <point x="1491" y="60" type="line"/>
+      <point x="1491" y="820" type="line"/>
+      <point x="1362" y="820" type="line"/>
+      <point x="942" y="370" type="line"/>
+      <point x="942" y="285" type="line"/>
+      <point x="1597" y="285" type="line"/>
+      <point x="1597" y="355" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCP</string>
+      <string>CPP</string>
       <key>public.markColor</key>
       <string>0.85,0.26,0.06,1</string>
     </dict>

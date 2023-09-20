@@ -2,6 +2,7 @@
 <glyph name="one" format="2">
   <advance width="1250"/>
   <unicode hex="0031"/>
+  <guideline x="472" y="1539" angle="219.2437"/>
   <outline>
     <contour>
       <point x="567" y="1418" type="line"/>

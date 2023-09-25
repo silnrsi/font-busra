@@ -2,6 +2,7 @@
 <glyph name="T" format="2">
   <advance width="1390"/>
   <unicode hex="0054"/>
+  <guideline x="511" y="103" angle="191.6336"/>
   <outline>
     <contour>
       <point x="794" y="120" type="line"/>

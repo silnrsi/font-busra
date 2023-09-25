@@ -30,19 +30,17 @@
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>abcdefghijklmnopqrstuvwxyz</string>
-    <string>AVBCDEFGHIJjfKLMNOPQRSOTUVWXYZ
-AVNMKRUVWXYZ</string>
+    <string>ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string>/gravecomb/space/acutecomb/space/circumflexcomb/space/tildecomb/space/dieresiscomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/uni0307/space/uni0309/space/uni031B/space/uni0323/space/uni03020306/space/uni0306.high/space/cedillacomb</string>
-    <string>/Euro £S$35/uni20AB ¥_/space/space/space</string>
-    <string>Velcro/trademark/space ªº¹²³/foursuperior 
-Johnson²</string>
+    <string>/Euro £S$35¤/uni20AB ¥_/space/space/space</string>
     <string>-8+8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8/approxequal 8÷8/figuredash 8/space 8/minus 8×8-88/notequal 8/infinity 8±</string>
-    <string>,.:;</string>
     <string>&amp;?2</string>
     <string>2/backslash |¦d//b
 ///fraction |½|¾|¼|85
 2¼/space 3½</string>
-    <string>/uni179617B6/uni179A17B6/uni179B/_stemLg/uni179F17B6/uni179F17C5.right/uni17A7 !</string>
+    <string>©®¹²³/foursuperior ½¼¾</string>
+    <string>"'/quotedblleft/quotedblright/quoteleft/quoteright/quotesinglbase/quotedblbase</string>
+    <string>T/trademark ¹²³/foursuperior/Delta/lozenge</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

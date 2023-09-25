@@ -2,16 +2,18 @@
 <glyph name="lozenge" format="2">
   <advance width="997"/>
   <unicode hex="25CA"/>
+  <guideline x="612" y="1080" angle="117.4494"/>
+  <guideline x="385" y="1080" angle="62.5506"/>
   <outline>
     <contour>
-      <point x="821" y="720" type="line"/>
-      <point x="499" y="99" type="line"/>
-      <point x="177" y="720" type="line"/>
-      <point x="499" y="1340" type="line"/>
+      <point x="800" y="720" type="line"/>
+      <point x="499" y="141" type="line"/>
+      <point x="198" y="720" type="line"/>
+      <point x="499" y="1299" type="line"/>
     </contour>
     <contour>
-      <point x="930" y="720" type="line"/>
-      <point x="556" y="1440" type="line"/>
+      <point x="931" y="720" type="line"/>
+      <point x="557" y="1440" type="line"/>
       <point x="441" y="1440" type="line"/>
       <point x="67" y="720" type="line"/>
       <point x="441" y="0" type="line"/>

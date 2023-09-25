@@ -5,8 +5,8 @@
   <outline>
     <contour>
       <point x="1658" y="947" type="line"/>
-      <point x="626" y="947" type="line"/>
-      <point x="626" y="831" type="line"/>
+      <point x="1126" y="947" type="line"/>
+      <point x="1126" y="831" type="line"/>
       <point x="1658" y="831" type="line"/>
       <point x="1693" y="671" type="line"/>
       <point x="1788" y="671" type="line"/>
@@ -46,6 +46,12 @@
       <point x="0" y="0" type="line"/>
       <point x="457" y="0" type="line"/>
       <point x="457" y="85" type="line"/>
+    </contour>
+    <contour>
+      <point x="533" y="668" type="line"/>
+      <point x="474" y="548" type="line"/>
+      <point x="1139" y="548" type="line"/>
+      <point x="1139" y="668" type="line"/>
     </contour>
   </outline>
   <lib>

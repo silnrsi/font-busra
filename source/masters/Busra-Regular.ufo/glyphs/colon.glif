@@ -1,36 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colon" format="2">
-  <advance width="589"/>
+  <advance width="651"/>
   <unicode hex="003A"/>
   <outline>
-    <contour>
-      <point x="140" y="862" type="curve" smooth="yes"/>
-      <point x="140" y="790"/>
-      <point x="198" y="732"/>
-      <point x="270" y="732" type="curve" smooth="yes"/>
-      <point x="342" y="732"/>
-      <point x="400" y="790"/>
-      <point x="400" y="862" type="curve" smooth="yes"/>
-      <point x="400" y="934"/>
-      <point x="342" y="992"/>
-      <point x="270" y="992" type="curve" smooth="yes"/>
-      <point x="198" y="992"/>
-      <point x="140" y="934"/>
-    </contour>
-    <contour>
-      <point x="140" y="120" type="curve" smooth="yes"/>
-      <point x="140" y="48"/>
-      <point x="198" y="-10"/>
-      <point x="270" y="-10" type="curve" smooth="yes"/>
-      <point x="342" y="-10"/>
-      <point x="400" y="48"/>
-      <point x="400" y="120" type="curve" smooth="yes"/>
-      <point x="400" y="192"/>
-      <point x="342" y="250"/>
-      <point x="270" y="250" type="curve" smooth="yes"/>
-      <point x="198" y="250"/>
-      <point x="140" y="192"/>
-    </contour>
+    <component base="period"/>
+    <component base="period" yOffset="740"/>
   </outline>
   <lib>
     <dict>

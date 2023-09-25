@@ -1,66 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="trademark" format="2">
-  <advance width="2186"/>
+  <advance width="2038"/>
   <unicode hex="2122"/>
   <outline>
-    <contour>
-      <point x="465" y="739" type="line"/>
-      <point x="465" y="1470" type="line"/>
-      <point x="309" y="1470" type="line"/>
-      <point x="309" y="739" type="line"/>
-      <point x="224" y="722" type="line"/>
-      <point x="224" y="679" type="line"/>
-      <point x="550" y="679" type="line"/>
-      <point x="550" y="722" type="line"/>
-    </contour>
-    <contour>
-      <point x="729" y="1526" type="line"/>
-      <point x="49" y="1526" type="line"/>
-      <point x="49" y="1351" type="line"/>
-      <point x="97" y="1351" type="line"/>
-      <point x="114" y="1446" type="line"/>
-      <point x="664" y="1446" type="line"/>
-      <point x="682" y="1351" type="line"/>
-      <point x="729" y="1351" type="line"/>
-    </contour>
-    <contour>
-      <point x="1590" y="739" type="line"/>
-      <point x="1505" y="722" type="line"/>
-      <point x="1505" y="679" type="line"/>
-      <point x="1821" y="679" type="line"/>
-      <point x="1821" y="722" type="line"/>
-      <point x="1746" y="739" type="line"/>
-      <point x="1746" y="1466" type="line"/>
-      <point x="1821" y="1484" type="line"/>
-      <point x="1821" y="1526" type="line"/>
-      <point x="1590" y="1526" type="line"/>
-    </contour>
-    <contour>
-      <point x="859" y="1526" type="line"/>
-      <point x="1238" y="679" type="line"/>
-      <point x="1316" y="679" type="line"/>
-      <point x="1352" y="760" type="line"/>
-      <point x="1009" y="1526" type="line"/>
-    </contour>
-    <contour>
-      <point x="1587" y="1526" type="line"/>
-      <point x="1255" y="679" type="line"/>
-      <point x="1346" y="679" type="line"/>
-      <point x="1635" y="1419" type="line"/>
-      <point x="1620" y="1526" type="line"/>
-    </contour>
-    <contour>
-      <point x="927" y="739" type="line"/>
-      <point x="927" y="1526" type="line"/>
-      <point x="771" y="1526" type="line"/>
-      <point x="771" y="1484" type="line"/>
-      <point x="846" y="1466" type="line"/>
-      <point x="846" y="739" type="line"/>
-      <point x="771" y="722" type="line"/>
-      <point x="771" y="679" type="line"/>
-      <point x="1012" y="679" type="line"/>
-      <point x="1012" y="722" type="line"/>
-    </contour>
+    <component base="T" xScale="0.65" yScale="0.55" yOffset="885"/>
+    <component base="M" xScale="0.65" yScale="0.55" xOffset="806" yOffset="885"/>
   </outline>
   <lib>
     <dict>

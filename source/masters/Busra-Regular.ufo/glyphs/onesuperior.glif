@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onesuperior" format="2">
-  <advance width="655"/>
+  <advance width="816"/>
   <unicode hex="00B9"/>
   <outline>
-    <contour>
-      <point x="291" y="1657" type="line"/>
-      <point x="291" y="980" type="line"/>
-      <point x="119" y="950" type="line"/>
-      <point x="119" y="885" type="line"/>
-      <point x="612" y="885" type="line"/>
-      <point x="612" y="950" type="line"/>
-      <point x="440" y="972" type="line"/>
-      <point x="440" y="1793" type="line"/>
-      <point x="322" y="1793" type="line"/>
-      <point x="126" y="1633" type="line"/>
-      <point x="126" y="1568" type="line"/>
-    </contour>
+    <component base="one" xScale="0.65" yScale="0.55" xOffset="-10" yOffset="885"/>
   </outline>
   <lib>
     <dict>

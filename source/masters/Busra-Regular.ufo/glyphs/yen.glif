@@ -1,26 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yen" format="2">
-  <advance width="1509"/>
+  <advance width="1250"/>
   <unicode hex="00A5"/>
+  <guideline x="943" y="1195" angle="62.5874"/>
   <outline>
-    <component base="Y"/>
     <contour>
-      <point x="268" y="687" type="line"/>
-      <point x="268" y="577" type="line"/>
-      <point x="1201" y="577" type="line"/>
-      <point x="1201" y="687" type="line"/>
+      <point x="167" y="747" type="line"/>
+      <point x="167" y="637" type="line"/>
+      <point x="1085" y="637" type="line"/>
+      <point x="1085" y="747" type="line"/>
     </contour>
     <contour>
-      <point x="268" y="467" type="line"/>
-      <point x="268" y="357" type="line"/>
-      <point x="1201" y="357" type="line"/>
-      <point x="1201" y="467" type="line"/>
+      <point x="167" y="467" type="line"/>
+      <point x="167" y="357" type="line"/>
+      <point x="1085" y="357" type="line"/>
+      <point x="1085" y="467" type="line"/>
+    </contour>
+    <contour>
+      <point x="971" y="1530" type="line"/>
+      <point x="544" y="707" type="line"/>
+      <point x="687" y="702" type="line"/>
+      <point x="1114" y="1525" type="line"/>
+      <point x="1264" y="1565" type="line"/>
+      <point x="1264" y="1650" type="line"/>
+      <point x="801" y="1650" type="line"/>
+      <point x="801" y="1565" type="line"/>
+    </contour>
+    <contour>
+      <point x="348" y="1530" type="line"/>
+      <point x="518" y="1565" type="line"/>
+      <point x="518" y="1650" type="line"/>
+      <point x="-15" y="1650" type="line"/>
+      <point x="-15" y="1565" type="line"/>
+      <point x="135" y="1525" type="line"/>
+      <point x="569" y="696" type="line"/>
+      <point x="696" y="859" type="line"/>
+    </contour>
+    <contour>
+      <point x="725" y="120" type="line"/>
+      <point x="725" y="821" type="line"/>
+      <point x="527" y="821" type="line"/>
+      <point x="527" y="120" type="line"/>
+      <point x="357" y="85" type="line"/>
+      <point x="357" y="0" type="line"/>
+      <point x="895" y="0" type="line"/>
+      <point x="895" y="85" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CPP</string>
       <key>public.markColor</key>
       <string>0.97,1,0,1</string>
     </dict>

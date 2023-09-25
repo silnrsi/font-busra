@@ -2,6 +2,7 @@
 <glyph name="uni031B" format="2">
   <unicode hex="031B"/>
   <anchor x="0" y="0" name="PA"/>
+  <anchor x="-430" y="1011" name="_LH"/>
   <anchor x="0" y="0" name="_PA"/>
   <anchor x="0" y="0" name="_def"/>
   <outline>

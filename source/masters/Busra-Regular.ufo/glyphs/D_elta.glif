@@ -3,7 +3,7 @@
   <advance width="1370"/>
   <unicode hex="2206"/>
   <guideline x="468" y="830" angle="247.5765"/>
-  <guideline x="836" y="830" angle="112.4235"/>
+  <guideline x="823" y="830" angle="112.4235"/>
   <outline>
     <contour>
       <point x="1370" y="0" type="line"/>
@@ -12,8 +12,8 @@
     </contour>
     <contour>
       <point x="173" y="116" type="line"/>
-      <point x="652" y="1276" type="line"/>
-      <point x="1131" y="116" type="line"/>
+      <point x="646" y="1260" type="line"/>
+      <point x="1118" y="116" type="line"/>
     </contour>
   </outline>
   <lib>

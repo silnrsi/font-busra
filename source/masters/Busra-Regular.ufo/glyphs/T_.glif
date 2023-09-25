@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="T" format="2">
-  <advance width="1391"/>
+  <advance width="1390"/>
   <unicode hex="0054"/>
   <outline>
     <contour>
-      <point x="795" y="120" type="line"/>
-      <point x="795" y="1581" type="line"/>
+      <point x="794" y="120" type="line"/>
+      <point x="794" y="1581" type="line"/>
       <point x="596" y="1581" type="line"/>
       <point x="596" y="120" type="line"/>
       <point x="426" y="85" type="line"/>
       <point x="426" y="0" type="line"/>
-      <point x="965" y="0" type="line"/>
-      <point x="965" y="85" type="line"/>
+      <point x="964" y="0" type="line"/>
+      <point x="964" y="85" type="line"/>
     </contour>
     <contour>
-      <point x="1311" y="1650" type="line"/>
+      <point x="1310" y="1650" type="line"/>
       <point x="80" y="1650" type="line"/>
       <point x="80" y="1344" type="line"/>
       <point x="175" y="1344" type="line"/>
       <point x="210" y="1534" type="line"/>
-      <point x="1181" y="1534" type="line"/>
-      <point x="1216" y="1344" type="line"/>
-      <point x="1311" y="1344" type="line"/>
+      <point x="1180" y="1534" type="line"/>
+      <point x="1215" y="1344" type="line"/>
+      <point x="1310" y="1344" type="line"/>
     </contour>
   </outline>
   <lib>

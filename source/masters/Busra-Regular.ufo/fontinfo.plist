@@ -15,10 +15,14 @@
   <key>guidelines</key>
   <array>
     <dict>
+      <key>angle</key>
+      <integer>0</integer>
       <key>name</key>
       <string>m</string>
+      <key>x</key>
+      <integer>630</integer>
       <key>y</key>
-      <integer>250</integer>
+      <integer>-790</integer>
     </dict>
     <dict>
       <key>name</key>
@@ -27,14 +31,22 @@
       <integer>-790</integer>
     </dict>
     <dict>
+      <key>angle</key>
+      <integer>0</integer>
       <key>name</key>
       <string>f2</string>
+      <key>x</key>
+      <integer>479</integer>
       <key>y</key>
-      <integer>-150</integer>
+      <integer>-529</integer>
     </dict>
     <dict>
+      <key>angle</key>
+      <integer>90</integer>
       <key>name</key>
       <string>f3</string>
+      <key>x</key>
+      <integer>0</integer>
       <key>y</key>
       <integer>-175</integer>
     </dict>
@@ -69,14 +81,18 @@
       <integer>1870</integer>
     </dict>
     <dict>
+      <key>angle</key>
+      <integer>0</integer>
       <key>name</key>
       <string>f9</string>
       <key>x</key>
       <integer>-245</integer>
+      <key>y</key>
+      <integer>0</integer>
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/09/20 10:02:34</string>
+  <string>2023/09/25 15:58:57</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>

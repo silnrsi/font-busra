@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="foursuperior" format="2">
-  <advance width="944"/>
+  <advance width="816"/>
   <unicode hex="2074"/>
   <outline>
-    <contour>
-      <point x="226" y="1256" type="line"/>
-      <point x="582" y="1639" type="line"/>
-      <point x="582" y="975" type="line"/>
-      <point x="455" y="949" type="line"/>
-      <point x="455" y="885" type="line"/>
-      <point x="851" y="885" type="line"/>
-      <point x="851" y="949" type="line"/>
-      <point x="731" y="975" type="line"/>
-      <point x="731" y="1793" type="line"/>
-      <point x="561" y="1783" type="line"/>
-      <point x="100" y="1292" type="line"/>
-      <point x="90" y="1181" type="line"/>
-      <point x="854" y="1181" type="line"/>
-      <point x="854" y="1256" type="line"/>
-    </contour>
+    <component base="four" xScale="0.65" yScale="0.55" xOffset="5" yOffset="885"/>
   </outline>
   <lib>
     <dict>

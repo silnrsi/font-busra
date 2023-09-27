@@ -1,67 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="trademark" format="2">
-  <advance width="2038"/>
+  <advance width="1849"/>
   <unicode hex="2122"/>
-  <guideline x="1136" y="622" angle="348.3664"/>
+  <guideline x="1444" y="622" angle="348.3664"/>
   <outline>
-    <contour>
-      <point x="516" y="963" type="line"/>
-      <point x="516" y="1748" type="line"/>
-      <point x="387" y="1748" type="line"/>
-      <point x="387" y="963" type="line"/>
-      <point x="277" y="940" type="line"/>
-      <point x="277" y="885" type="line"/>
-      <point x="627" y="885" type="line"/>
-      <point x="627" y="940" type="line"/>
-    </contour>
-    <contour>
-      <point x="852" y="1793" type="line"/>
-      <point x="52" y="1793" type="line"/>
-      <point x="52" y="1617" type="line"/>
-      <point x="107" y="1617" type="line"/>
-      <point x="130" y="1722" type="line"/>
-      <point x="774" y="1722" type="line"/>
-      <point x="797" y="1617" type="line"/>
-      <point x="852" y="1617" type="line"/>
-    </contour>
-    <contour>
-      <point x="1762" y="963" type="line"/>
-      <point x="1652" y="940" type="line"/>
-      <point x="1652" y="885" type="line"/>
-      <point x="1988" y="885" type="line"/>
-      <point x="1988" y="940" type="line"/>
-      <point x="1891" y="963" type="line"/>
-      <point x="1891" y="1715" type="line"/>
-      <point x="1988" y="1738" type="line"/>
-      <point x="1988" y="1793" type="line"/>
-      <point x="1762" y="1793" type="line"/>
-    </contour>
-    <contour>
-      <point x="969" y="1793" type="line"/>
-      <point x="1367" y="885" type="line"/>
-      <point x="1403" y="885" type="line"/>
-      <point x="1458" y="978" type="line"/>
-      <point x="1099" y="1793" type="line"/>
-    </contour>
-    <contour>
-      <point x="1765" y="1793" type="line"/>
-      <point x="1370" y="885" type="line"/>
-      <point x="1459" y="885" type="line"/>
-      <point x="1802" y="1675" type="line"/>
-      <point x="1795" y="1793" type="line"/>
-    </contour>
-    <contour>
-      <point x="1065" y="963" type="line"/>
-      <point x="1065" y="1793" type="line"/>
-      <point x="885" y="1793" type="line"/>
-      <point x="885" y="1738" type="line"/>
-      <point x="982" y="1715" type="line"/>
-      <point x="982" y="963" type="line"/>
-      <point x="885" y="940" type="line"/>
-      <point x="885" y="885" type="line"/>
-      <point x="1169" y="885" type="line"/>
-      <point x="1169" y="940" type="line"/>
-    </contour>
+    <component base="T" xScale="0.55" yScale="0.55" xOffset="56" yOffset="890"/>
+    <component base="M" xScale="0.55" yScale="0.55" xOffset="749" yOffset="890"/>
   </outline>
   <lib>
     <dict>

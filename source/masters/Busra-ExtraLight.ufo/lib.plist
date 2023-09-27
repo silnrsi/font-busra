@@ -36,13 +36,13 @@
     <string>/gravecomb/space/acutecomb/space/circumflexcomb/space/tildecomb/space/dieresiscomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/uni0307/space/uni0309/space/uni031B/space/uni0323/space/uni03020306/space/uni0306.high/space/cedillacomb</string>
     <string>/Euro £S$35¤/uni20AB ¥_/space/space/space</string>
     <string>-8+8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8/approxequal 8÷8/figuredash 8/space 8/minus 8×8-88/notequal 8/infinity 8±</string>
-    <string>&amp;?2</string>
+    <string>&amp;S?!/space |1|2|3|4|5|6|7|8|9|0|/space/space</string>
     <string>2/backslash |¦d//b
 ///fraction |½|¾|¼|85
 2¼/space 3½</string>
-    <string>©®¹²³/foursuperior ½¼¾</string>
+    <string>©®/trademark ªº¹²³/foursuperior/space ½¼¾</string>
     <string>"'/quotedblleft/quotedblright/quoteleft/quoteright/quotesinglbase/quotedblbase</string>
-    <string>T/trademark ¹²³/foursuperior/Delta/lozenge</string>
+    <string>?¿</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

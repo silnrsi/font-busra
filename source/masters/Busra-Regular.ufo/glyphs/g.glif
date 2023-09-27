@@ -87,11 +87,12 @@
       <point x="939" y="1304"/>
       <point x="826" y="1159" type="curve"/>
       <point x="897" y="1116" type="line"/>
-      <point x="953" y="1194"/>
-      <point x="1086" y="1249"/>
-      <point x="1120" y="1256" type="curve"/>
-      <point x="1102" y="1190"/>
-      <point x="1148" y="1120"/>
+      <point x="965" y="1210"/>
+      <point x="1146" y="1271"/>
+      <point x="1127" y="1254" type="curve"/>
+      <point x="1153" y="1311" type="line"/>
+      <point x="1077" y="1237"/>
+      <point x="1127" y="1120"/>
     </contour>
   </outline>
   <lib>

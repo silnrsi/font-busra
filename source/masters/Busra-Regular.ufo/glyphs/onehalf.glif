@@ -3,54 +3,12 @@
   <advance width="1875"/>
   <unicode hex="00BD"/>
   <outline>
-    <component base="one" xScale="0.65" yScale="0.5" xOffset="-17" yOffset="825"/>
-    <contour>
-      <point x="1560" y="1720" type="line"/>
-      <point x="1407" y="1720" type="line"/>
-      <point x="258" y="-70" type="line"/>
-      <point x="411" y="-70" type="line"/>
-    </contour>
-    <contour>
-      <point x="1418" y="763" type="curve" smooth="yes"/>
-      <point x="1546" y="763"/>
-      <point x="1608" y="705"/>
-      <point x="1608" y="629" type="curve" smooth="yes"/>
-      <point x="1608" y="477"/>
-      <point x="1334" y="215"/>
-      <point x="1155" y="86" type="curve"/>
-      <point x="1155" y="0" type="line"/>
-      <point x="1765" y="0" type="line"/>
-      <point x="1765" y="189" type="line"/>
-      <point x="1710" y="189" type="line"/>
-      <point x="1687" y="94" type="line"/>
-      <point x="1308" y="94" type="line"/>
-      <point x="1308" y="101" type="line"/>
-      <point x="1431" y="197"/>
-      <point x="1740" y="428"/>
-      <point x="1740" y="643" type="curve" smooth="yes"/>
-      <point x="1740" y="726"/>
-      <point x="1665" y="830"/>
-      <point x="1443" y="830" type="curve" smooth="yes"/>
-      <point x="1222" y="830"/>
-      <point x="1141" y="757"/>
-      <point x="1141" y="688" type="curve" smooth="yes"/>
-      <point x="1141" y="635"/>
-      <point x="1187" y="601"/>
-      <point x="1239" y="601" type="curve" smooth="yes"/>
-      <point x="1292" y="601"/>
-      <point x="1328" y="631"/>
-      <point x="1328" y="668" type="curve" smooth="yes"/>
-      <point x="1328" y="696"/>
-      <point x="1292" y="728"/>
-      <point x="1249" y="726" type="curve"/>
-      <point x="1267" y="744"/>
-      <point x="1327" y="763"/>
-    </contour>
+    <component base="one" xScale="0.55" yScale="0.55" xOffset="33" yOffset="885"/>
+    <component base="two" xScale="0.55" yScale="0.55" xOffset="1100"/>
+    <component base="fraction" xOffset="212"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CPP</string>
       <key>public.markColor</key>
       <string>0.85,0.26,0.06,1</string>
     </dict>

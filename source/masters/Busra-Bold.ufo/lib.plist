@@ -31,16 +31,16 @@
   <array>
     <string>abcdefghijklmnopqrstuvwxyz</string>
     <string>ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
-    <string>/gravecomb/space/acutecomb/space/circumflexcomb/space/tildecomb/space lol/space/dieresiscomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/uni0307/space/uni0309/space/space/uni031B/space/space/uni0323/space/uni03020306/space/uni0306.high o/space/cedillacomb</string>
-    <string>/Euro £S$35¤/uni20AB ¥_/space/space/space</string>
+    <string>/space/gravecomb/space/acutecomb/space/circumflexcomb/space/tildecomb/space/dieresiscomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/uni0307/space/uni0309/space/space/uni031B/space/space/uni0323/space/uni03020306/space/uni0306.high o/space/cedillacomb Cc</string>
     <string>-8+8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8/approxequal 8÷8/figuredash 8/space 8/minus 8×8-88/notequal 8/infinity 8±</string>
-    <string>&amp;S?!/space |1|2|3|4|5|6|7|8|9|0|/space/space</string>
+    <string>&amp;?!/space |0|1|2|3|4|5|6|7|8|9|</string>
     <string>2/backslash |¦d//b
-///fraction |½|¾|¼|85
+/backslash///fraction |½|¾|¼|85
 2¼/space 3½</string>
     <string>©®/trademark ªº¹²³/foursuperior/space ½¼¾</string>
     <string>"'/quotedblleft/quotedblright/quoteleft/quoteright/quotesinglbase/quotedblbase</string>
-    <string>?¿</string>
+    <string>AÆD/uni0110 ÐO/uni01A0 Ø/OE PÞU/uni01AF aæd/uni0111 ðoe/space i/dotlessi/uni01A1 ø/oe bpþßu/uni01B0</string>
+    <string>/uni01A0/space/uni031B/space/uni01AF U/uni01A1/uni01B0/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

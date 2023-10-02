@@ -2,7 +2,8 @@
 <glyph name="ringcomb" format="2">
   <advance width="2"/>
   <unicode hex="030A"/>
-  <anchor x="-621" y="1350" name="_LU"/>
+  <anchor x="-621" y="1834" name="LU"/>
+  <anchor x="-621" y="1349" name="_LU"/>
   <outline>
     <contour>
       <point x="-853" y="1591" type="curve" smooth="yes"/>

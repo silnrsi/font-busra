@@ -3,6 +3,8 @@
   <advance width="1250"/>
   <unicode hex="0034"/>
   <guideline x="634" y="970" angle="234.5125"/>
+  <anchor x="615" y="-110" name="LL"/>
+  <anchor x="615" y="1745" name="LU"/>
   <outline>
     <contour>
       <point x="173" y="612" type="line"/>

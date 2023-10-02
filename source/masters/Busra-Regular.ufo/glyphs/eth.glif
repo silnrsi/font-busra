@@ -2,18 +2,20 @@
 <glyph name="eth" format="2">
   <advance width="1246"/>
   <unicode hex="00F0"/>
+  <anchor x="621" y="-110" name="LL"/>
+  <anchor x="621" y="1880" name="LU"/>
   <anchor x="520" y="0" name="PB"/>
   <anchor x="580" y="200" name="def"/>
   <outline>
     <contour>
       <point x="383" y="1649" type="line"/>
-      <point x="685" y="1537"/>
+      <point x="680" y="1542"/>
       <point x="923" y="1426"/>
       <point x="923" y="618" type="curve"/>
       <point x="1122" y="618" type="line"/>
       <point x="1122" y="1452"/>
-      <point x="839" y="1671"/>
-      <point x="488" y="1801" type="curve"/>
+      <point x="854" y="1671"/>
+      <point x="503" y="1801" type="curve"/>
       <point x="253" y="1724" type="line"/>
       <point x="253" y="1649" type="line"/>
     </contour>
@@ -46,10 +48,10 @@
       <point x="839" y="90"/>
     </contour>
     <contour>
-      <point x="393" y="1448" type="line"/>
-      <point x="393" y="1338" type="line"/>
-      <point x="1017" y="1609" type="line"/>
-      <point x="1017" y="1719" type="line"/>
+      <point x="397" y="1458" type="line"/>
+      <point x="436" y="1355" type="line"/>
+      <point x="1069" y="1604" type="line"/>
+      <point x="1030" y="1707" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb" format="2">
   <unicode hex="0308"/>
+  <anchor x="-624" y="1704" name="LU"/>
   <anchor x="-624" y="1350" name="_LU"/>
   <outline>
     <contour>

@@ -2,6 +2,8 @@
 <glyph name="Eth" format="2">
   <advance width="1557"/>
   <unicode hex="00D0"/>
+  <anchor x="744" y="-110" name="LL"/>
+  <anchor x="744" y="1745" name="LU"/>
   <outline>
     <component base="D"/>
     <contour>

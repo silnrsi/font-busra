@@ -2,6 +2,8 @@
 <glyph name="e" format="2">
   <advance width="1201"/>
   <unicode hex="0065"/>
+  <anchor x="591" y="-110" name="LL"/>
+  <anchor x="591" y="1350" name="LU"/>
   <anchor x="520" y="0" name="PB"/>
   <anchor x="560" y="0" name="def"/>
   <outline>

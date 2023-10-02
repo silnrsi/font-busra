@@ -2,6 +2,8 @@
 <glyph name="W" format="2">
   <advance width="2396"/>
   <unicode hex="0057"/>
+  <anchor x="1138" y="-110" name="LL"/>
+  <anchor x="1138" y="1745" name="LU"/>
   <outline>
     <contour>
       <point x="351" y="1530" type="line"/>

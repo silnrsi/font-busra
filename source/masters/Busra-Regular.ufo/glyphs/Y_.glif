@@ -2,11 +2,13 @@
 <glyph name="Y" format="2">
   <advance width="1449"/>
   <unicode hex="0059"/>
+  <anchor x="720" y="-110" name="LL"/>
+  <anchor x="720" y="1745" name="LU"/>
   <outline>
     <contour>
       <point x="1156" y="1530" type="line"/>
       <point x="652" y="595" type="line"/>
-      <point x="797" y="596" type="line"/>
+      <point x="797" y="595" type="line"/>
       <point x="1299" y="1525" type="line"/>
       <point x="1449" y="1565" type="line"/>
       <point x="1449" y="1650" type="line"/>

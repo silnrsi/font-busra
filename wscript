@@ -9,7 +9,7 @@ APPNAME = 'BusraTestA'
 sourcefontfamily = "Busra"
 DESC_SHORT = "Font family for the Khmer script"
 
-TESTDIR = ["tests"]
+TESTDIR = ["tests", "../font-busra-private/tests"]
 
 opts = preprocess_args({'opt': '--new'})
 # Get version and authorship information from Regular UFO (canonical metadata); must be first function call:

@@ -2,8 +2,8 @@
 <glyph name="Thorn" format="2">
   <advance width="1402"/>
   <unicode hex="00DE"/>
-  <anchor x="674" y="-110" name="LL"/>
-  <anchor x="674" y="1745" name="LU"/>
+  <anchor x="737" y="-110" name="LL"/>
+  <anchor x="738" y="1745" name="LU"/>
   <outline>
     <contour>
       <point x="458" y="1530" type="line"/>

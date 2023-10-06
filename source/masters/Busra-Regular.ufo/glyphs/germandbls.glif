@@ -2,8 +2,8 @@
 <glyph name="germandbls" format="2">
   <advance width="1415"/>
   <unicode hex="00DF"/>
-  <anchor x="747" y="-110" name="LL"/>
-  <anchor x="701" y="1880" name="LU"/>
+  <anchor x="763" y="-110" name="LL"/>
+  <anchor x="697" y="1880" name="LU"/>
   <outline>
     <contour>
       <point x="875" y="90" type="curve" smooth="yes"/>

@@ -2,8 +2,9 @@
 <glyph name="a" format="2">
   <advance width="1293"/>
   <unicode hex="0061"/>
-  <anchor x="591" y="-110" name="LL"/>
-  <anchor x="591" y="1350" name="LU"/>
+  <guideline x="348" y="326" angle="270.3734"/>
+  <anchor x="590" y="-110" name="LL"/>
+  <anchor x="590" y="1350" name="LU"/>
   <anchor x="520" y="0" name="PBxxxx"/>
   <anchor x="530" y="0" name="def"/>
   <outline>

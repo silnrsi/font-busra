@@ -64,19 +64,17 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>f6</string>
-      <key>y</key>
-      <integer>-1113</integer>
-    </dict>
-    <dict>
-      <key>name</key>
       <string>f7</string>
       <key>y</key>
       <integer>-1225</integer>
     </dict>
     <dict>
+      <key>angle</key>
+      <integer>0</integer>
       <key>name</key>
       <string>f8</string>
+      <key>x</key>
+      <integer>56</integer>
       <key>y</key>
       <integer>1870</integer>
     </dict>
@@ -92,7 +90,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/10/04 16:55:39</string>
+  <string>2023/10/06 11:18:59</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>

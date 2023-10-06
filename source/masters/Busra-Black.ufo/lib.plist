@@ -48,7 +48,8 @@ heart./space rolled/space back,/space</string>
     <string>$£¥¤</string>
     <string>oo(nn)non[no]@/space dhnn{no}no/space</string>
     <string>May/space 23,/space 1933</string>
-    <string>A-/endash a/emdash x/minus ±/uni178017B6.dash/uni178017C5.dash.right/hyphentwo/nonbreakinghyphen ­/horizontalbar</string>
+    <string>-/endash/emdash/hyphentwo/nonbreakinghyphen ­/figuredash/horizontalbar/minus</string>
+    <string>01234/space/circumflexcomb 578/six.001 69</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

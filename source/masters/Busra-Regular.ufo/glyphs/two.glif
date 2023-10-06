@@ -2,8 +2,10 @@
 <glyph name="two" format="2">
   <advance width="1250"/>
   <unicode hex="0032"/>
-  <anchor x="605" y="-110" name="LL"/>
-  <anchor x="605" y="1745" name="LU"/>
+  <guideline x="343" y="1105" angle="270"/>
+  <guideline x="813" y="1145" angle="90"/>
+  <anchor x="599" y="-110" name="LL"/>
+  <anchor x="599" y="1745" name="LU"/>
   <outline>
     <contour>
       <point x="560" y="1550" type="curve" smooth="yes"/>

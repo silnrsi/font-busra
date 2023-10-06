@@ -2,8 +2,10 @@
 <glyph name="five" format="2">
   <advance width="1250"/>
   <unicode hex="0035"/>
-  <anchor x="615" y="-110" name="LL"/>
-  <anchor x="615" y="1745" name="LU"/>
+  <guideline x="873" y="1145" angle="90"/>
+  <guideline x="363" y="1105" angle="270"/>
+  <anchor x="632" y="-110" name="LL"/>
+  <anchor x="632" y="1745" name="LU"/>
   <outline>
     <contour>
       <point x="572" y="-20" type="curve" smooth="yes"/>

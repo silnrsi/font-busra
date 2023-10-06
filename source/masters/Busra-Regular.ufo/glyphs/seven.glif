@@ -2,8 +2,9 @@
 <glyph name="seven" format="2">
   <advance width="1250"/>
   <unicode hex="0037"/>
-  <anchor x="620" y="-110" name="LL"/>
-  <anchor x="620" y="1745" name="LU"/>
+  <guideline x="948" y="1145" angle="90"/>
+  <anchor x="589" y="-110" name="LL"/>
+  <anchor x="589" y="1745" name="LU"/>
   <outline>
     <contour>
       <point x="553" y="0" type="line"/>

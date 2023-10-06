@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="six.001" format="2">
   <advance width="1250"/>
-  <anchor x="675" y="-110" name="LL"/>
-  <anchor x="675" y="1745" name="LU"/>
+  <guideline x="903" y="1145" angle="90"/>
+  <guideline x="363" y="1105" angle="270"/>
+  <anchor x="633" y="-110" name="LL"/>
+  <anchor x="633" y="1745" name="LU"/>
   <outline>
     <contour>
       <point x="335" y="738" type="curve" smooth="yes"/>

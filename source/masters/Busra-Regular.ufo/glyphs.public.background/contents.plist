@@ -110,6 +110,8 @@
   <string>_wW_ideforR_eg.glif</string>
   <key>a</key>
   <string>a.glif</string>
+  <key>acutecomb</key>
+  <string>acutecomb.glif</string>
   <key>ampersand</key>
   <string>ampersand.glif</string>
   <key>asterisk</key>
@@ -148,6 +150,8 @@
   <string>g.glif</string>
   <key>germandbls</key>
   <string>germandbls.glif</string>
+  <key>gravecomb</key>
+  <string>gravecomb.glif</string>
   <key>h</key>
   <string>h.glif</string>
   <key>i</key>

@@ -454,6 +454,8 @@
   <string>hungarumlaut.glif</string>
   <key>hyphen</key>
   <string>hyphen.glif</string>
+  <key>hyphenationpoint</key>
+  <string>hyphenationpoint.glif</string>
   <key>hyphentwo</key>
   <string>hyphentwo.glif</string>
   <key>i</key>
@@ -716,6 +718,10 @@
   <string>uni01B_0.glif</string>
   <key>uni01B00306</key>
   <string>uni01B_00306.glif</string>
+  <key>uni03020300</key>
+  <string>uni03020300.glif</string>
+  <key>uni03020301</key>
+  <string>uni03020301.glif</string>
   <key>uni03020306</key>
   <string>uni03020306.glif</string>
   <key>uni0304</key>
@@ -728,10 +734,6 @@
   <string>uni0307.glif</string>
   <key>uni0309</key>
   <string>uni0309.glif</string>
-  <key>uni03090300</key>
-  <string>uni03090300.glif</string>
-  <key>uni03090301</key>
-  <string>uni03090301.glif</string>
   <key>uni031B</key>
   <string>uni031B_.glif</string>
   <key>uni0323</key>

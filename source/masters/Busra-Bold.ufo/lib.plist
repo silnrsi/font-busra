@@ -31,7 +31,7 @@
   <array>
     <string>abcdefghijklmhnobpdqrstuvwxyz</string>
     <string>ABCDEFGHIJKLMNOBPDQRSTUVWXYZ</string>
-    <string>éel/space/space/gravecomb/space/acutecomb/space/circumflexcomb/space/space/uni03090300/space/uni03090301/space/tildecomb/space/dieresiscomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/uni0307/space/uni0309/space/space/uni031B/space/space/uni0323/space/uni03020306/space/uni0306.high o/space/cedillacomb Cc</string>
+    <string>éel/space/space/gravecomb/space/acutecomb/space/circumflexcomb/space/space/uni03020300/space/uni03020301/space/tildecomb/space/dieresiscomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/uni0307/space/uni0309/space/space/uni031B/space/space/uni0323/space/uni03020306/space/uni0306.high o/space/cedillacomb Cc</string>
     <string>-8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8=/approxequal 8÷8/endash/figuredash 8/space 8+8/minus 8×8-88/notequal 8/infinity 8±/space/space/space</string>
     <string>&amp;?!/space |0|1|2|3|4|5|6/six.001 |7|8|9|</string>
     <string>2/backslash |¦d//b
@@ -48,7 +48,6 @@ heart./space rolled/space back,/space</string>
     <string>May/space 23,/space 1933</string>
     <string>-/endash/emdash/hyphentwo/nonbreakinghyphen ­/figuredash/horizontalbar/minus</string>
     <string>01234578/six.001 69</string>
-    <string>/acutecomb/space/space/space/space/uni03090301</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -1002,6 +1001,8 @@ heart./space rolled/space back,/space</string>
     <string>cedillacomb</string>
     <string>uni03020306</string>
     <string>uni0306.high</string>
+    <string>uni03060300</string>
+    <string>uni03060301</string>
     <string>uni00CA0306</string>
     <string>uni00D40306</string>
     <string>uni00EA0306</string>

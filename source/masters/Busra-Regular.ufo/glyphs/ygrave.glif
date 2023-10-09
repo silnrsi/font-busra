@@ -1,60 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ygrave" format="2">
-  <advance width="1085"/>
+  <advance width="1350"/>
   <unicode hex="1EF3"/>
+  <anchor x="915" y="-350" name="LL"/>
+  <anchor x="754" y="1698" name="LU"/>
+  <anchor x="520" y="-200" name="PB"/>
+  <anchor x="502" y="0" name="def"/>
   <outline>
-    <contour>
-      <point x="516" y="48" type="line"/>
-      <point x="457" y="-101" type="line"/>
-      <point x="426" y="-168"/>
-      <point x="389" y="-273"/>
-      <point x="318" y="-273" type="curve" smooth="yes"/>
-      <point x="247" y="-273"/>
-      <point x="258" y="-235"/>
-      <point x="176" y="-235" type="curve" smooth="yes"/>
-      <point x="98" y="-235"/>
-      <point x="71" y="-281"/>
-      <point x="71" y="-345" type="curve" smooth="yes"/>
-      <point x="71" y="-401"/>
-      <point x="135" y="-449"/>
-      <point x="210" y="-449" type="curve" smooth="yes"/>
-      <point x="322" y="-449"/>
-      <point x="445" y="-345"/>
-      <point x="509" y="-191" type="curve" smooth="yes"/>
-      <point x="902" y="763" type="line" smooth="yes"/>
-      <point x="952" y="885"/>
-      <point x="969" y="932"/>
-      <point x="1052" y="932" type="curve"/>
-      <point x="1052" y="969" type="line"/>
-      <point x="738" y="969" type="line"/>
-      <point x="738" y="932" type="line"/>
-      <point x="804" y="932"/>
-      <point x="834" y="915"/>
-      <point x="834" y="871" type="curve" smooth="yes"/>
-      <point x="834" y="846"/>
-      <point x="823" y="812"/>
-      <point x="805" y="767" type="curve" smooth="yes"/>
-      <point x="607" y="273" type="line"/>
-      <point x="416" y="670" type="line" smooth="yes"/>
-      <point x="382" y="741"/>
-      <point x="341" y="809"/>
-      <point x="341" y="857" type="curve" smooth="yes"/>
-      <point x="341" y="894"/>
-      <point x="352" y="932"/>
-      <point x="445" y="932" type="curve"/>
-      <point x="445" y="969" type="line"/>
-      <point x="0" y="969" type="line"/>
-      <point x="0" y="932" type="line"/>
-      <point x="67" y="932"/>
-      <point x="135" y="857"/>
-      <point x="217" y="682" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="282" y="1471" type="line"/>
-      <point x="601" y="1096" type="line"/>
-      <point x="661" y="1096" type="line"/>
-      <point x="548" y="1471" type="line"/>
-    </contour>
+    <component base="y"/>
+    <component base="gravecomb" xOffset="1374"/>
   </outline>
   <lib>
     <dict>

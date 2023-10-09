@@ -1,68 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EAC" format="2">
-  <advance width="1587"/>
+  <advance width="1514"/>
   <unicode hex="1EAC"/>
+  <anchor x="734" y="-397" name="LL"/>
+  <anchor x="734" y="2096" name="LU"/>
+  <anchor x="1355" y="-180" name="PHB"/>
+  <anchor x="1355" y="0" name="_PB"/>
+  <anchor x="1355" y="0" name="_PHB"/>
   <outline>
-    <contour>
-      <point x="753" y="1471" type="line"/>
-      <point x="217" y="225" type="line" smooth="yes"/>
-      <point x="168" y="112"/>
-      <point x="116" y="37"/>
-      <point x="11" y="37" type="curve"/>
-      <point x="11" y="0" type="line"/>
-      <point x="472" y="0" type="line"/>
-      <point x="472" y="37" type="line"/>
-      <point x="346" y="37"/>
-      <point x="305" y="76"/>
-      <point x="305" y="133" type="curve" smooth="yes"/>
-      <point x="305" y="160"/>
-      <point x="315" y="192"/>
-      <point x="329" y="225" type="curve" smooth="yes"/>
-      <point x="438" y="479" type="line"/>
-      <point x="1000" y="479" type="line"/>
-      <point x="1108" y="225" type="line" smooth="yes"/>
-      <point x="1124" y="188"/>
-      <point x="1132" y="156"/>
-      <point x="1132" y="130" type="curve" smooth="yes"/>
-      <point x="1132" y="68"/>
-      <point x="1085" y="37"/>
-      <point x="977" y="37" type="curve"/>
-      <point x="977" y="0" type="line"/>
-      <point x="1568" y="0" type="line"/>
-      <point x="1568" y="37" type="line"/>
-      <point x="1430" y="37"/>
-      <point x="1384" y="94"/>
-      <point x="1329" y="225" type="curve"/>
-      <point x="805" y="1471" type="line"/>
-    </contour>
-    <contour>
-      <point x="722" y="1138" type="line"/>
-      <point x="958" y="561" type="line"/>
-      <point x="472" y="561" type="line"/>
-    </contour>
-    <contour>
-      <point x="632" y="-312" type="curve" smooth="yes"/>
-      <point x="632" y="-368"/>
-      <point x="688" y="-424"/>
-      <point x="744" y="-424" type="curve" smooth="yes"/>
-      <point x="800" y="-424"/>
-      <point x="856" y="-368"/>
-      <point x="856" y="-312" type="curve" smooth="yes"/>
-      <point x="856" y="-256"/>
-      <point x="800" y="-200"/>
-      <point x="744" y="-200" type="curve" smooth="yes"/>
-      <point x="688" y="-200"/>
-      <point x="632" y="-256"/>
-    </contour>
-    <contour>
-      <point x="682" y="1778" type="line"/>
-      <point x="472" y="1501" type="line"/>
-      <point x="505" y="1501" type="line"/>
-      <point x="782" y="1651" type="line"/>
-      <point x="1059" y="1501" type="line"/>
-      <point x="1096" y="1501" type="line"/>
-      <point x="884" y="1778" type="line"/>
-    </contour>
+    <component base="A"/>
+    <component base="circumflexcomb" xOffset="1360" yOffset="395"/>
+    <component base="uni0323" xOffset="1355"/>
   </outline>
   <lib>
     <dict>

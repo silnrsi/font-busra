@@ -3,7 +3,7 @@
   <advance width="563"/>
   <unicode hex="2027"/>
   <outline>
-    <component base="periodcentered"/>
+    <component base="period" xOffset="-7" yOffset="563"/>
   </outline>
   <lib>
     <dict>

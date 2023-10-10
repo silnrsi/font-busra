@@ -8,14 +8,13 @@
   <anchor x="1385" y="415" name="_PA"/>
   <anchor x="1385" y="443" name="_def"/>
   <outline>
-    <component base="O"/>
-    <component base="uni031B" xOffset="1530" yOffset="380"/>
+    <component base="uni01A0"/>
     <component base="uni0309" xOffset="1385" yOffset="425"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.18,0.16,0.78,1</string>
     </dict>
   </lib>
 </glyph>

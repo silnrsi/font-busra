@@ -7,14 +7,13 @@
   <anchor x="0" y="0" name="PB"/>
   <anchor x="0" y="0" name="def"/>
   <outline>
-    <component base="u"/>
-    <component base="uni031B" xOffset="1506"/>
+    <component base="uni01B0"/>
     <component base="gravecomb" xOffset="1321"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.18,0.16,0.78,1</string>
     </dict>
   </lib>
 </glyph>

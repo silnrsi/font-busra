@@ -26,7 +26,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3151</string>
+  <string>3221</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -68,7 +68,7 @@ heart./space rolled/space back,/space</string>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
-  <string/>
+  <string>Light</string>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
   <integer>150</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
@@ -1001,10 +1001,10 @@ heart./space rolled/space back,/space</string>
     <string>uni031B</string>
     <string>uni0323</string>
     <string>cedillacomb</string>
+    <string>uni03020300</string>
+    <string>uni03020301</string>
     <string>uni03020306</string>
     <string>uni0306.high</string>
-    <string>uni03060300</string>
-    <string>uni03060301</string>
     <string>uni00CA0306</string>
     <string>uni00D40306</string>
     <string>uni00EA0306</string>

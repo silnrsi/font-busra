@@ -2,6 +2,8 @@
 <glyph name="uni01A1" format="2">
   <advance width="1126"/>
   <unicode hex="01A1"/>
+  <anchor x="764" y="-110" name="LL"/>
+  <anchor x="764" y="1775" name="LU"/>
   <anchor x="0" y="0" name="PB"/>
   <anchor x="0" y="0" name="def"/>
   <outline>

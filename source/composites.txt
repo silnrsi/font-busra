@@ -3,6 +3,7 @@ hyphentwo = hyphen | 2010
 nonbreakinghyphen = hyphen | 2011
 softhyphen = hyphen | 00AD
 divisionslash = slash | 2215
+hyphenationpoint = periodcentered | 2027
 
 uni178017C5.dash.right = uni178017B6.dash + _R.ear@zxc1
 uni178017C5.right = uni178017B6 + _R.ear@zxc1
@@ -175,8 +176,8 @@ uni1EB9 = e + uni0323@LL | 1EB9
 egrave = e + gravecomb@LU | 00E8
 uni1EBB = e + uni0309@LU | 1EBB
 uni1EBD = e + tildecomb@LU | 1EBD
-fi = f + idotless | FB01
-fl = f + l | FB02
+fi = f & i | FB01
+fl = f & l | FB02
 iacute = i + acutecomb@LU | 00ED
 icircumflex = i + circumflexcomb@LU | 00EE
 idieresis = i + dieresiscomb@LU | 00EF
@@ -230,6 +231,3 @@ uni01A00306 = uni01A0 + uni0306@LU
 uni01A10306 = uni01A1 + uni0306@LU
 uni01AF0306 = uni01AF + uni0306@LU
 uni01B00306 = uni01B0 + uni0306@LU
-
-hyphenationpoint = periodcentered | 2027
-hyphentwo = hyphen | 2010

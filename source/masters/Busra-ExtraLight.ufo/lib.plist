@@ -26,14 +26,14 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3221</string>
+  <string>3151</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>abcdefghijklmhnobpdqrstuvwxyz</string>
+    <string>abcdefghijklmhnopqrstuvwxyz</string>
     <string>ABCDEFGHIJKLMNOBPDQRSTUVWXYZ</string>
-    <string>éel/space/space/gravecomb/space/acutecomb/space/circumflexcomb/space/space/uni03020300/space/uni03020301/space/tildecomb/space/dieresiscomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/uni0307/space/uni0309/space/space/uni031B/space/space/uni0323/space/uni03020306/space/uni0306.high o/space/cedillacomb Cc</string>
+    <string>/gravecomb/space/acutecomb/space/circumflexcomb/space/uni03020300/space/uni03020301/space/tildecomb/space/dieresiscomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/uni0307/space/uni0309/space/space/uni031B/space/space/uni0323/space/uni03020306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni03020309/space/uni03060300/space/uni03060301/space/uni03060303/space/uni03060309/space/space</string>
     <string>-8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8=/approxequal 8÷8/endash/figuredash 8/space 8+8/minus 8×8-88/notequal 8/infinity 8±/space/space/space</string>
     <string>&amp;?!/space |0|1|2|3|4|5|6/six.001 |7|8|9|</string>
     <string>2/backslash |¦d//b
@@ -68,7 +68,7 @@ heart./space rolled/space back,/space</string>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
-  <string>Light</string>
+  <string/>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
   <integer>150</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>

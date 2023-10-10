@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb" format="2">
   <unicode hex="0301"/>
+  <anchor x="-620" y="1698" name="LU"/>
+  <anchor x="-620" y="1350" name="_LU"/>
   <outline>
     <contour>
       <point x="-177" y="1470" type="line"/>

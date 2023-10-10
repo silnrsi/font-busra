@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0306.high" format="2">
+  <anchor x="-620" y="1698" name="LU"/>
+  <anchor x="-620" y="1350" name="_LU"/>
   <outline>
     <contour>
       <point x="-503" y="1783" type="line"/>

@@ -150,8 +150,6 @@
   <string>g.glif</string>
   <key>germandbls</key>
   <string>germandbls.glif</string>
-  <key>gravecomb</key>
-  <string>gravecomb.glif</string>
   <key>h</key>
   <string>h.glif</string>
   <key>i</key>
@@ -218,6 +216,10 @@
   <string>u.glif</string>
   <key>uni00B5</key>
   <string>uni00B_5.glif</string>
+  <key>uni03020301</key>
+  <string>uni03020301.glif</string>
+  <key>uni0309</key>
+  <string>uni0309.glif</string>
   <key>uni1780</key>
   <string>uni1780.glif</string>
   <key>uni1780.alt</key>

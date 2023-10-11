@@ -2,7 +2,7 @@
 <glyph name="uni1EA0" format="2">
   <advance width="1514"/>
   <unicode hex="1EA0"/>
-  <anchor x="734" y="-397" name="LL"/>
+  <anchor x="734" y="-447" name="LL"/>
   <anchor x="734" y="1745" name="LU"/>
   <anchor x="1355" y="-180" name="PHB"/>
   <anchor x="1355" y="0" name="_PB"/>
@@ -14,7 +14,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

@@ -33,9 +33,8 @@
   <array>
     <string>abcdefghijklmhnopqrstuvwxyz</string>
     <string>ABCDEFGHIJKLMNOBPDQRSTUVWXYZ</string>
-    <string>/gravecomb/space/acutecomb/space/circumflexcomb/space/uni03020300/space/uni03020301/space/tildecomb/space/dieresiscomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/uni0307/space/uni0309/space/space/uni031B/space/space/uni0323/space/uni03020306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni03020309/space/uni03060300/space/uni03060301/space/uni03060303/space/uni03060309/space/space</string>
+    <string>/gravecomb/space/acutecomb/space/tildecomb/space/acutecomb/space/dieresiscomb/space/uni03020300/space/uni03020301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni0309/space/space/uni031B/space/space/uni0323/space/uni03020306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni03020309/space/uni03060300/space/uni03060301/space/uni03060303/space/uni03060309/space</string>
     <string>-8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8=/approxequal 8÷8/endash/figuredash 8/space 8+8/minus 8×8-88/notequal 8/infinity 8±/space/space/space</string>
-    <string>&amp;?!/space |0|1|2|3|4|5|6/six.001 |7|8|9|</string>
     <string>2/backslash |¦d//b
 /backslash///fraction |½|¾|¼|85
 2¼/space 3½
@@ -47,10 +46,9 @@ heart./space rolled/space back,/space</string>
     <string>/uni01A0/space/uni031B/space/uni01AF U/uni01A1/uni01B0/space</string>
     <string>$£¥¤</string>
     <string>oo(nn)non[no]@/space dhnn{no}no/space</string>
-    <string>May/space 23,/space 1933</string>
-    <string>-/endash/emdash/hyphentwo/nonbreakinghyphen ­/figuredash/horizontalbar/minus</string>
     <string>01234578/six.001 69</string>
-    <string>Çç</string>
+    <string>/uni17CD.ms.narrowhigh</string>
+    <string>/uni03020300/uni1ED2</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

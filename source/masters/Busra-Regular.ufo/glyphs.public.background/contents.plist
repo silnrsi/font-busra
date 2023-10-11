@@ -122,6 +122,8 @@
   <string>b.glif</string>
   <key>c</key>
   <string>c.glif</string>
+  <key>circumflexcomb</key>
+  <string>circumflexcomb.glif</string>
   <key>d</key>
   <string>d.glif</string>
   <key>dollar</key>
@@ -210,6 +212,8 @@
   <string>three.glif</string>
   <key>tilde</key>
   <string>tilde.glif</string>
+  <key>tildecomb</key>
+  <string>tildecomb.glif</string>
   <key>two</key>
   <string>two.glif</string>
   <key>u</key>

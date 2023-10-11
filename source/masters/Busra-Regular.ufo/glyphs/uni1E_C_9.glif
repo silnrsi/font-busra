@@ -2,21 +2,21 @@
 <glyph name="uni1EC9" format="2">
   <advance width="723"/>
   <unicode hex="1EC9"/>
-  <anchor x="371" y="-110" name="LL"/>
-  <anchor x="387" y="2283" name="LU"/>
-  <anchor x="992" y="469" name="PA"/>
-  <anchor x="520" y="0" name="PB"/>
-  <anchor x="992" y="459" name="_PA"/>
-  <anchor x="992" y="487" name="_def"/>
-  <anchor x="460" y="200" name="def"/>
+  <anchor x="369" y="-110" name="LL"/>
+  <anchor x="385" y="1814" name="LU"/>
+  <anchor x="990" y="0" name="PA"/>
+  <anchor x="0" y="0" name="PB"/>
+  <anchor x="990" y="-10" name="_PA"/>
+  <anchor x="990" y="18" name="_def"/>
+  <anchor x="0" y="0" name="def"/>
   <outline>
-    <component base="i"/>
-    <component base="uni0309" xOffset="992" yOffset="469"/>
+    <component base="dotlessi"/>
+    <component base="uni0309" xOffset="990"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

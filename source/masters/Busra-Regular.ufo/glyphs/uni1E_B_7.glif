@@ -14,8 +14,8 @@
   <anchor x="530" y="0" name="def"/>
   <outline>
     <component base="a"/>
-    <component base="uni0306" xOffset="1210"/>
     <component base="uni0323" xOffset="1211"/>
+    <component base="uni0306" xOffset="1212"/>
   </outline>
   <lib>
     <dict>

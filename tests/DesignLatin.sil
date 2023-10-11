@@ -10,6 +10,8 @@
 \patterngroup[name="latinext"]{ıßÆæŒœØøÐðÞþﬁﬂ}
 \patterngroup[name="latincombcaps"]{ÄÅÀÃÂÁÇÉÊËÈÍÎÏÌÑÖÕÓÔÒŠÜÚÛÙŸÝŽ}
 \patterngroup[name="latincomblc"]{áàâäãåçéèêëíìîïñóòôöõšúùûüÿýž}
+\patterngroup[name="latinextracaps"]{ẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼẾỀỂỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪỬỮỰỲỴỶỸ}
+\patterngroup[name="latinextralc"]{ạảấầẩẫậắằẳẵặẹẻẽếềểễệỉịọỏốồổỗộớờởỡợụủứừửữựỳỵỷỹ}
 
 % Math
 \patterngroup[name="numerals"]{1234567890}
@@ -51,17 +53,31 @@
 \pattern[chars="@",reps="group_punctuation",format="list"]{HO@OH@no@on@ space after@ next}
 \proof[size="18pt"]{n-n–n—n‐n‑n­n‒n―n•n·n‧n∙n¬n~n_n␣n}
 \proof[size="18pt"]{n n n n n n n n n n n n nn}
-\proof[size="18pt"]{hg\\hg/hg|hg¦hg\{hg\}o[hg]o(hg)o‹hg›o«hg»o}
-\proof[size="18pt"]{hg"hg'hg“hg”hg‘hg’hg‚hg„hg`hg}
+\proof[size="18pt"]{hq\\hq/hq|hq¦hq\{hq\}o[hq]o(hq)o‹hq›o«hq»o}
+\proof[size="18pt"]{hq"hq'hq“hq”hq‘hq’hq‚hq„hq`hq}
 \proof[size="18pt"]{πµ∂∑∏Ω∆∫ƒ¢$£¥€¤¶§@&◊^†‡©®*™ªº}
 
 \subsection{EXT LATIN}
 \proof[size="18pt"]{HÄHÅHÀHÃHÂHÁHÇHÉHÊHËHÈHÍHÎHÏHÌH}
 \proof[size="18pt"]{HÑHÖHÕHÓHÔHÒHŠHÜHÚHÛHÙHŸHÝHŽH}
-\proof[size="18pt"]{oáoàoâoäoãoåoçoéoèoêoëoíoìoîoïoñoóoòoôoöoõošoúoùoûoüoÿoýožo}
+\proof[size="18pt"]{oáoàoâoäoãoåoçoéoèoêoëoíoìoîoïoñoóoòoôoöoõo}
+\proof[size="18pt"]{ošoúoùoûoüoÿoýožo}
 \proof[size="18pt"]{oıoßoæoœoøoðoþoﬁoﬂoHÆHŒHØHÐHÞH}
 \proof[size="18pt"]{HˆH˜H¯H˘HˇH˝H˙H˚H¸H˛H}
 \proof[size="18pt"]{◌◌́◌̀◌̂◌̌◌̃◌̈◌̊◌̧◌}
+%%\proof[size="18pt"]{HẠHẢHẤHẦHẨHẪHẬHẮHẰHẲHẴHẶH}
+%%\proof[size="18pt"]{oạoảoấoầoẩoẫoậoắoằoẳoẵoặo}
+%%\proof[size="18pt"]{HẸHẺHẼHẾHỀHỂHỄHỆH}
+%%\proof[size="18pt"]{oẹoẻoẽoếoềoểoễoệo}
+%%\proof[size="18pt"]{HỈHỊHoỉoịo}
+%%\proof[size="18pt"]{HỌHỎHỐHỒHỔHỖHỘHỚHỜHỞHỠHỢH}
+%%\proof[size="18pt"]{oọoỏoốoồoổoỗoộoớoờoởoỡoợo}
+%%\proof[size="18pt"]{HỤHỦHỨHỪHỬHỮHỰH}
+%%\proof[size="18pt"]{oụoủoứoừoửoữoựo}
+%%\proof[size="18pt"]{HỲHỴHỶHỸHoỳoỵoỷoỹo}
+\proof[size="18pt"]{oﬁoﬂo}
+\pattern[chars="@",reps="group_latinextracaps"]{H@O}
+\pattern[chars="@",reps="group_latinextralc"]{n@o}
 
 \subsection{NUMERALS AND MATH}
 \proof[size="86pt"]{0123456789}

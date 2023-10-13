@@ -39,7 +39,7 @@
 @base_no_NA_no_low = [uni1780 uni1781 uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789 uni178A uni178B uni178C uni178D uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179B uni179C uni179D uni179E uni179F uni17A0 uni17A2 uni17A3 uni17A4 uni17A5 uni17A7 uni17A8 uni17A9 uni17AA uni17AF uni17B0 uni17B1 uni17B2 uni17B3];
 @base_no_lig = [uni1781 uni1784 uni1787 uni178A uni178C uni178E uni1790 uni1791 uni1793 uni1795 uni17A0 uni17A3 uni17A4 uni17A5 uni17A6 uni17A7 uni17A8 uni17A9 uni17AA uni17AB uni17AC uni17AD uni17AE uni17AF uni17B0 uni17B1 uni17B2 uni17B3];
 @base_not_low = [uni1780 uni1781 uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789.alt uni178A uni178B uni178C uni178D uni178E uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179B uni179C uni179D uni179E uni179F uni17A0 uni17A2 uni17A3 uni17A4 uni17A5 uni17A7 uni17A8 uni17A9 uni17AA uni17AF uni17B1 uni17B2 uni17B3];
-@base_strong = [uni1780 uni17D21780 uni1781 uni17D21781 uni1782 uni17D21782 uni1783 uni17D21783 uni1785 uni17D21785 uni1786 uni17D21786 uni1787 uni17D21787 uni1788 uni17D21788 uni178A uni17D2178A uni178D uni17D2178D uni178F uni17D2178F uni1790 uni17D21790 uni1791 uni17D21791 uni1792 uni17D21792 uni1795 uni17D21795 uni1796 uni17D21796 uni1797 uni17D21797 uni179E uni17D2179E uni17A0 uni17D217A0 uni17A2 uni17D217A2];
+@base_strong = [uni1780 uni17D21780 uni1781 uni17D21781 uni1782 uni17D21782 uni1783 uni17D21783 uni1785 uni17D21785 uni1786 uni17D21786 uni1787 uni17D21787 uni1788 uni17D21788 uni178A uni17D2178A uni178D uni17D2178D uni178F uni17D2178F uni1790 uni17D21790 uni1791 uni17D21791 uni1792 uni17D21792 uni1795 uni17D21795 uni1796 uni17D21796 uni1797 uni17D21797 uni179E uni17D2179E uni179F uni17A0 uni17D217A0 uni17A2 uni17D217A2];
 @base_triisap_shift = [uni179E uni17D2179E uni179F uni17D2179F uni17A0 uni17A2 zerowidthjoiner];
 @base_triisap_shift2 = [uni179E uni17D2179E uni179F uni17A0 uni17A2 zerowidthjoiner];
 @base_wide = [uni1783 uni1788 uni1789 uni1789.alt uni178D uni178E uni1799 uni179B uni179F uni17A0 uni17A1 uni17A6];
@@ -104,6 +104,7 @@
 @above_sym_narrow = [@above_vowels_narrow uni17CC.narrow uni17CF.narrow uni17DD.narrow];
 @base_low_all = [@base_low1 @base_low2];
 @below_all_level1 = [@below_coeng uni17BB uni17BC uni17BD uni17D2];
+@below_vowel = [uni17BB uni17BC uni17BD];
 @below_coeng_all = [@below_coeng @below_coeng_low];
 @below_coeng_level2 = [@below_coeng_low @coeng_A3_plus];
 @below_coeng_marks = [@below_coeng @below_coeng_low @below_marks uni17BB.ms.low2];
@@ -115,6 +116,23 @@
 @post_coeng_all = [@post_coeng @post_coeng_low];
 @regshift_narrow_robat = [@regshift_narrow uni17CC.narrow uni17CC.ms.narrowhigh];
 @regshift_robat = [@regshift @robat];
+@split_vowels = [uni17BE uni17BF uni17C0 uni17C4 uni17C5];
+
+def optlist(*alist) {
+    if len(alist) > 0:
+        b = alist[0]
+        if isinstance(b, (list, tuple)):
+            prefixes = [b[:i+1] for i in range(len(b))]
+        else:
+            prefixes = [[b]]
+        for r in optlist(*alist[1:]):
+            for p in prefixes:
+                yield tuple(p) + r
+            yield r
+    else:
+        yield alist
+} optlist;
+    
 
 # Mark classes
 
@@ -125,6 +143,12 @@
 lookup coeng_ro_primary {
     sub uni17D2 uni179A by uni17D2179A;
 } coeng_ro_primary;
+
+# 5. Context coeng variation
+# 5.1 lower coengs after coeng ro
+lookup belowcoeng_after_ro {
+    sub uni17D2 by dottedcircle uni17D2;
+} belowcoeng_after_ro;
 
 # 1.2 Convert coeng sequences into subjoinable glyphs
 lookup coeng_below {
@@ -195,7 +219,61 @@ lookup Muusikatoan_a {
 } Muusikatoan_a;
 
 # 3. Split vowels
-# 3.1 Break apart split vowels, right part
+
+lookup insert_dotted_circle {
+    sub @above_vowels by dottedcircle @above_vowels;
+    sub @below_vowel by dottedcircle @below_vowel;
+    sub uni17B6 by dottedcircle uni17B6;
+} insert_dotted_circle;
+
+# 3.1 Insert dotted circles for bad vowel sequences
+lookup bad_vowels {
+   # sub uni17C1 @coeng_ro? @base_cons uni17CC? @any_coeng? @any_coeng? @below_vowel? uni17B8' lookup insert_dotted_circle;
+do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"], "@below_vowel");
+    let s = " ".join(l);
+    {
+        sub uni17C1 @coeng_ro @base_cons $s uni17B8' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s uni17B8' lookup insert_dotted_circle;
+    }
+
+do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"], "@below_vowel", "@above_vowels");
+    let s = " ".join(l);
+    {
+        sub uni17C1 @coeng_ro @base_cons $s uni17B6' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s uni17B6' lookup insert_dotted_circle;
+    }
+
+   sub uni17BB @above_vowels' lookup insert_dotted_circle;
+
+   # sub uni17C1 @coeng_ro? @base_cons uni17CC? @any_coeng? @any_coeng? [uni17C9 uni17CA]? [uni17BE uni17BF uni17C0] @below_vowel? @above_vowels' lookup insert_dotted_circle;
+do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"]);
+    let s = " ".join(l);
+    {
+        sub uni17C1 @coeng_ro @base_cons $s [uni17BE uni17BF uni17C0] @above_vowels' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s [uni17BE uni17BF uni17C0] @above_vowels' lookup insert_dotted_circle;
+        sub uni17C1 @coeng_ro @base_cons $s [uni17BE uni17BF uni17C0] @below_vowel @above_vowels' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s [uni17BE uni17BF uni17C0] @below_vowel @above_vowels' lookup insert_dotted_circle;
+    }
+
+   # sub uni17C1 @coeng_ro? @base_cons uni17CC? @coeng_no_ro? @coeng_no_ro? [uni17C9 uni17CA]? [uni17BF uni17C0] @below_vowel' lookup insert_dotted_circle;
+do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"]);
+    let s = " ".join(l);
+    {
+        sub uni17C1 @coeng_ro @base_cons $s [uni17BF uni17C0] @below_vowel' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s [uni17BF uni17C0] @below_vowel' lookup insert_dotted_circle;
+    }
+
+   # sub uni17C1 @coeng_ro? @base_cons uni17CC? @coeng_no_ro? @coeng_no_ro? [uni17C9 uni17CA]? [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
+do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"]);
+    let s = " ".join(l);
+    {
+        sub uni17C1 @coeng_ro @base_cons $s [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
+    }
+
+} bad_vowels;
+
+# 3.2 Break apart split vowels, right part
 lookup Post_base_forms {
     sub uni17BF by uni17BF.rightpart1;
     sub uni17C0 by uni17C0.rightpart1;
@@ -239,7 +317,7 @@ lookup reg_shift_muusikatoan2_action {
 
 @all17C9 = [uni17C9 uni17C9.a];
 lookup reg_shift_muusikatoan2 {
-    sub @all17C9' lookup shifter_error_p1 @any_coeng;
+    sub @all17C9' lookup shifter_error_p1 @coeng_no_ro;
     sub @all17C9' lookup reg_shift_muusikatoan2_action @above_symbol_RS_shift;
     sub @all17C9' lookup reg_shift_muusikatoan2_action uni17B6 uni17C6;
     sub @base_strong @all17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
@@ -392,127 +470,61 @@ lookup uni17bb_2coeng_lig {
 } uni17bb_2coeng_lig;
 
 # 4.8 lower below vowels under coengs, if preceding: strict this is an error
+lookup action_low {
+    sub uni17BB by uni17BB.low;
+    sub uni17BC by uni17BC.low;
+    sub uni17BD by uni17BD.low;
+    sub uni17D2 by uni17D2.low;
+} action_low;
+
+@low_belows = [uni17BB uni17BC uni17BD uni17D2];
+
 lookup low_below_vowel {
-    sub uni17BB' @coeng_no_ro by uni17BB.low;
-    sub uni17BC' @coeng_no_ro by uni17BC.low;
-    sub uni17BD' @coeng_no_ro by uni17BD.low;
-    sub uni17D2' @coeng_no_ro by uni17D2.low;
-    sub @coeng_no_ro uni17BB' by uni17BB.low;
-    sub @coeng_no_ro uni17BC' by uni17BC.low;
-    sub @coeng_no_ro uni17BD' by uni17BD.low;
-    sub @coeng_no_ro uni17D2' by uni17D2.low;
-    sub @coeng_no_ro @regshift uni17BB' by uni17BB.low;
-    sub @coeng_no_ro @regshift uni17BC' by uni17BC.low;
-    sub @coeng_no_ro @regshift uni17BD' by uni17BD.low;
-    sub @coeng_no_ro @regshift uni17D2' by uni17D2.low;
-    sub uni1789 uni17BB' by uni17BB.low;
-    sub uni1789 uni17BC' by uni17BC.low;
-    sub uni1789 uni17BD' by uni17BD.low;
-    sub uni1789 uni17D2' by uni17D2.low;
-    sub uni1789 @regshift_robat uni17BB' by uni17BB.low;
-    sub uni1789 @regshift_robat uni17BC' by uni17BC.low;
-    sub uni1789 @regshift_robat uni17BD' by uni17BD.low;
-    sub uni1789 @regshift_robat uni17D2' by uni17D2.low;
-    sub uni17D2179A @base_narrow uni17BB' by uni17BB.low;
-    sub uni17D2179A @base_narrow uni17BC' by uni17BC.low;
-    sub uni17D2179A @base_narrow uni17BD' by uni17BD.low;
-    sub uni17D2179A @base_narrow uni17D2' by uni17D2.low;
-    sub uni17D2179A @base_narrow @regshift_robat uni17BB' by uni17BB.low;
-    sub uni17D2179A @base_narrow @regshift_robat uni17BC' by uni17BC.low;
-    sub uni17D2179A @base_narrow @regshift_robat uni17BD' by uni17BD.low;
-    sub uni17D2179A @base_narrow @regshift_robat uni17D2' by uni17D2.low;
-    sub @base_low1 uni17BB' by uni17BB.low;
-    sub @base_low1 uni17BC' by uni17BC.low;
-    sub @base_low1 uni17BD' by uni17BD.low;
-    sub @base_low1 uni17D2' by uni17D2.low;
-    sub @base_low1 @regshift_robat uni17BB' by uni17BB.low;
-    sub @base_low1 @regshift_robat uni17BC' by uni17BC.low;
-    sub @base_low1 @regshift_robat uni17BD' by uni17BD.low;
-    sub @base_low1 @regshift_robat uni17D2' by uni17D2.low;
-    sub @base_low2 uni17BB' by uni17BB.low;
-    sub @base_low2 uni17BC' by uni17BC.low;
-    sub @base_low2 uni17BD' by uni17BD.low;
-    sub @base_low2 uni17D2' by uni17D2.low;
-    sub @below_coeng @above_position_ALL uni17BB' by uni17BB.low;
-    sub @below_coeng @above_position_ALL uni17BC' by uni17BC.low;
-    sub @below_coeng @above_position_ALL uni17BD' by uni17BD.low;
-    sub @below_coeng @above_position_ALL uni17D2' by uni17D2.low;
+    sub @low_belows' lookup action_low @coeng_no_ro;
+    sub @coeng_no_ro @low_belows' lookup action_low;
+    sub @coeng_no_ro @regshift @low_belows' lookup action_low;
+    sub uni1789 @low_belows' lookup action_low;
+    sub uni1789 @regshift_robat @low_belows' lookup action_low;
+    sub uni17D2179A @base_narrow @low_belows' lookup action_low;
+    sub uni17D2179A @base_narrow @regshift_robat @low_belows' lookup action_low;
+    sub @base_low1 @low_belows' lookup action_low;
+    sub @base_low1 @regshift_robat @low_belows' lookup action_low;
+    sub @base_low2 @low_belows' lookup action_low;
+    sub @below_coeng @above_position_ALL @low_belows' lookup action_low;
 } low_below_vowel;
 
 # 4.7.1 lower vowels following below coengs
 lookup low_below_vowel_xro {
-    sub uni17BB' @coeng_no_ro by uni17BB.low;
-    sub uni17BC' @coeng_no_ro by uni17BC.low;
-    sub uni17BD' @coeng_no_ro by uni17BD.low;
-    sub uni17D2' @coeng_no_ro by uni17D2.low;
-    sub @coeng_no_ro uni17BB' by uni17BB.low;
-    sub @coeng_no_ro uni17BC' by uni17BC.low;
-    sub @coeng_no_ro uni17BD' by uni17BD.low;
-    sub @coeng_no_ro uni17D2' by uni17D2.low;
-    sub @coeng_no_ro @regshift uni17BB' by uni17BB.low;
-    sub @coeng_no_ro @regshift uni17BC' by uni17BC.low;
-    sub @coeng_no_ro @regshift uni17BD' by uni17BD.low;
-    sub @coeng_no_ro @regshift uni17D2' by uni17D2.low;
-    sub uni1789 uni17BB' by uni17BB.low;
-    sub uni1789 uni17BC' by uni17BC.low;
-    sub uni1789 uni17BD' by uni17BD.low;
-    sub uni1789 uni17D2' by uni17D2.low;
-    sub uni1789 @regshift_robat uni17BB' by uni17BB.low;
-    sub uni1789 @regshift_robat uni17BC' by uni17BC.low;
-    sub uni1789 @regshift_robat uni17BD' by uni17BD.low;
-    sub uni1789 @regshift_robat uni17D2' by uni17D2.low;
-    sub uni17D2179A @base_not_low uni17BB' by uni17BB.low;
-    sub uni17D2179A @base_not_low uni17BC' by uni17BC.low;
-    sub uni17D2179A @base_not_low uni17BD' by uni17BD.low;
-    sub uni17D2179A @base_not_low uni17D2' by uni17D2.low;
-    sub uni17D2179A @base_not_low @regshift_robat uni17BB' by uni17BB.low;
-    sub uni17D2179A @base_not_low @regshift_robat uni17BC' by uni17BC.low;
-    sub uni17D2179A @base_not_low @regshift_robat uni17BD' by uni17BD.low;
-    sub uni17D2179A @base_not_low @regshift_robat uni17D2' by uni17D2.low;
-    sub @base_low1 uni17BB' by uni17BB.low;
-    sub @base_low1 uni17BC' by uni17BC.low;
-    sub @base_low1 uni17BD' by uni17BD.low;
-    sub @base_low1 uni17D2' by uni17D2.low;
-    sub @base_low1 @regshift_robat uni17BB' by uni17BB.low;
-    sub @base_low1 @regshift_robat uni17BC' by uni17BC.low;
-    sub @base_low1 @regshift_robat uni17BD' by uni17BD.low;
-    sub @base_low1 @regshift_robat uni17D2' by uni17D2.low;
-    sub @base_low2 uni17BB' by uni17BB.low;
-    sub @base_low2 uni17BC' by uni17BC.low;
-    sub @base_low2 uni17BD' by uni17BD.low;
-    sub @base_low2 uni17D2' by uni17D2.low;
-    sub @below_coeng @above_position_ALL uni17BB' by uni17BB.low;
-    sub @below_coeng @above_position_ALL uni17BC' by uni17BC.low;
-    sub @below_coeng @above_position_ALL uni17BD' by uni17BD.low;
-    sub @below_coeng @above_position_ALL uni17D2' by uni17D2.low;
+    sub @low_belows' lookup action_low @coeng_no_ro;
+    sub @coeng_no_ro @low_belows' lookup action_low;
+    sub @coeng_no_ro @regshift @low_belows' lookup action_low;
+    sub uni1789 @low_belows' lookup action_low;
+    sub uni1789 @regshift_robat @low_belows' lookup action_low;
+    sub uni17D2179A @base_not_low @low_belows' lookup action_low;
+    sub uni17D2179A @base_not_low @low_belows' lookup action_low;
+    sub @base_low1 @low_belows' lookup action_low;
+    sub @base_low1 @regshift_robat @low_belows' lookup action_low;
+    sub @base_low2 @low_belows' lookup action_low;
+    sub @below_coeng @above_position_ALL @low_belows' lookup action_low;
 } low_below_vowel_xro;
 
 # 4.8 narrow below vowels and perhaps lower as well
+lookup action_below_marks_narrow {
+    sub uni17D2 by uni17D2.ms.narrow;
+    sub uni17D2.low by uni17D2.ms.narrowlow;
+    sub uni17BB by uni17BB.narrow;
+    sub uni17BB.low by uni17BB.low.narrow;
+    sub uni17BC by uni17BC.narrow;
+    sub uni17BD by uni17BD.narrow;
+} action_below_marks_narrow;
+
+@narrow_lower = [uni17D2 uni17D2.low uni17BB uni17BB.low uni17BC uni17BD];
+
 lookup below_marks_narrow {
-    sub @base_narrow uni17D2' by uni17D2.ms.narrow;
-    sub @base_narrow uni17D2.low' by uni17D2.ms.narrowlow;
-    sub @base_narrow uni17BB.low' by uni17BB.low.narrow;
-    sub @base_narrow uni17BB' by uni17BB.narrow;
-    sub @base_narrow uni17BC' by uni17BC.narrow;
-    sub @base_narrow uni17BD' by uni17BD.narrow;
-    sub @base_narrow @below_coeng uni17D2' by uni17D2.ms.narrow;
-    sub @base_narrow @below_coeng uni17D2.low' by uni17D2.ms.narrowlow;
-    sub @base_narrow @below_coeng uni17BB.low' by uni17BB.low.narrow;
-    sub @base_narrow @below_coeng uni17BB' by uni17BB.narrow;
-    sub @base_narrow @below_coeng uni17BC' by uni17BC.narrow;
-    sub @base_narrow @below_coeng uni17BD' by uni17BD.narrow;
-    sub @base_narrow @regshift_narrow uni17D2' by uni17D2.ms.narrow;
-    sub @base_narrow @regshift_narrow uni17D2.low' by uni17D2.ms.narrowlow;
-    sub @base_narrow @regshift_narrow uni17BB.low' by uni17BB.low.narrow;
-    sub @base_narrow @regshift_narrow uni17BB' by uni17BB.narrow;
-    sub @base_narrow @regshift_narrow uni17BC' by uni17BC.narrow;
-    sub @base_narrow @regshift_narrow uni17BD' by uni17BD.narrow;
-    sub @base_narrow @regshift_narrow @below_coeng uni17D2' by uni17D2.ms.narrow;
-    sub @base_narrow @regshift_narrow @below_coeng uni17D2.low' by uni17D2.ms.narrowlow;
-    sub @base_narrow @regshift_narrow @below_coeng uni17BB.low' by uni17BB.low.narrow;
-    sub @base_narrow @regshift_narrow @below_coeng uni17BB' by uni17BB.narrow;
-    sub @base_narrow @regshift_narrow @below_coeng uni17BC' by uni17BC.narrow;
-    sub @base_narrow @regshift_narrow @below_coeng uni17BD' by uni17BD.narrow;
+    sub @base_narrow @narrow_lower' lookup action_below_marks_narrow;
+    sub @base_narrow @below_coeng @narrow_lower' lookup action_below_marks_narrow;
+    sub @base_narrow @regshift_narrow @narrow_lower' lookup action_below_marks_narrow;
+    sub @base_narrow @regshift_narrow @below_coeng @narrow_lower' lookup action_below_marks_narrow;
 } below_marks_narrow;
 
 # 4.9 very low forms of split vowel rhs which loop under
@@ -541,44 +553,6 @@ lookup uni1789 {
     sub uni1789' @coeng_no_ro by uni1789.alt;
 } uni1789;
 
-# 5. Context coeng variation
-# 5.1 lower coengs after coeng ro
-lookup belowcoeng_after_ro {
-    sub uni17D21780 by uni17D21780.low;
-    sub uni17D21781 by uni17D21781.low;
-    sub uni17D21782 by uni17D21782.low;
-    sub uni17D21784 by uni17D21784.low;
-    sub uni17D21785 by uni17D21785.low;
-    sub uni17D21786 by uni17D21786.low;
-    sub uni17D21787 by uni17D21787.low;
-    sub uni17D21789 by uni17D21789.low;
-    sub uni17D2178A by uni17D2178A.low;
-    sub uni17D2178B by uni17D2178B.low;
-    sub uni17D2178C by uni17D2178C.low;
-    sub uni17D2178E by uni17D2178E.low;
-    sub uni17D2178F by uni17D2178F.low;
-    sub uni17D21790 by uni17D21790.low;
-    sub uni17D21791 by uni17D21791.low;
-    sub uni17D21792 by uni17D21792.low;
-    sub uni17D21793 by uni17D21793.low;
-    sub uni17D21795 by uni17D21795.low;
-    sub uni17D21796 by uni17D21796.low;
-    sub uni17D21797 by uni17D21797.low;
-    sub uni17D21798 by uni17D21798.low;
-    sub uni17D2179B by uni17D2179B.low;
-    sub uni17D2179C by uni17D2179C.low;
-    sub uni17D2179D by uni17D2179D.low;
-    sub uni17D217A0.alt by uni17D217A0.low.alt;
-    sub uni17D217A1.alt by uni17D217A1.altlow;
-    sub uni17D217A2.alt by uni17D217A2.low.alt;
-    sub uni17D21783.alt by uni17D21783.low.alt;
-    sub uni17D21788.alt by uni17D21788.low.alt;
-    sub uni17D2178D by uni17D2178D.low;
-    sub uni17D21794 by uni17D21794.low;
-    sub uni17D21799 by uni17D21799.low;
-    sub uni17D2179E by uni17D2179E.low;
-    sub uni17D2179F by uni17D2179F.low;
-} belowcoeng_after_ro;
 
 # 5.2 Coeng ro variants
 # 5.2.1 Low coeng ro in some cases
@@ -1392,18 +1366,20 @@ do  let o = set(feaclass("C6_1"));
     { @C62 = [ $d ]; }
     
 lookup ligatures {
-    pos ligature @C62
+    pos ligature [@L_1 @L_2 @U_1]
           # @UR1 mark @_UR
           @U_1 mark @_U
-          # @C61 mark @_C6
           @L_1 mark @_L
-      ligComponent
-          # @UR2 mark @_UR
-          @U_2 mark @_U
-          # @C62 mark @_C6
+       ligComponent
+          # @C61 mark @_C6
           @L_2 mark @_L;
+#      ligComponent
+          # @UR2 mark @_UR
+#          @U_2 mark @_U
+          # @C62 mark @_C6
+#          @L_2 mark @_L;
     
-    pos ligature @C6_3
+    pos ligature [@L_1 @L_2 @L_3 @U_1 @U_2 @U_3]
           # @UR1 mark @_UR
           @U_1 mark @_U
           # @C61 mark @_C6
@@ -2265,6 +2241,7 @@ feature ccmp {
     script khmr;
     language dflt;
     lookup precompose;
+    lookup bad_vowels;
 } ccmp;
 
 feature cfar {

@@ -2,16 +2,16 @@
 <glyph name="uni1EE3" format="2">
   <advance width="1297"/>
   <unicode hex="1EE3"/>
-  <anchor x="624" y="-447" name="LL"/>
+  <anchor x="622" y="-447" name="LL"/>
   <anchor x="624" y="1350" name="LU"/>
   <anchor x="0" y="0" name="PB"/>
-  <anchor x="1245" y="-180" name="PHB"/>
-  <anchor x="1245" y="0" name="_PB"/>
-  <anchor x="1245" y="0" name="_PHB"/>
+  <anchor x="1243" y="-180" name="PHB"/>
+  <anchor x="1243" y="0" name="_PB"/>
+  <anchor x="1243" y="0" name="_PHB"/>
   <anchor x="0" y="0" name="def"/>
   <outline>
     <component base="uni01A1"/>
-    <component base="uni0323" xOffset="1245"/>
+    <component base="uni0323" xOffset="1243"/>
   </outline>
   <lib>
     <dict>

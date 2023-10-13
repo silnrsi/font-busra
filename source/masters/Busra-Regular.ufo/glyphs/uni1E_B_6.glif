@@ -2,17 +2,17 @@
 <glyph name="uni1EB6" format="2">
   <advance width="1514"/>
   <unicode hex="1EB6"/>
-  <anchor x="734" y="-447" name="LL"/>
+  <anchor x="732" y="-447" name="LL"/>
   <anchor x="734" y="2096" name="LU"/>
   <anchor x="1354" y="595" name="PA"/>
-  <anchor x="1355" y="-180" name="PHB"/>
+  <anchor x="1353" y="-180" name="PHB"/>
   <anchor x="1354" y="395" name="_PA"/>
-  <anchor x="1355" y="0" name="_PB"/>
-  <anchor x="1355" y="0" name="_PHB"/>
+  <anchor x="1353" y="0" name="_PB"/>
+  <anchor x="1353" y="0" name="_PHB"/>
   <anchor x="1354" y="413" name="_def"/>
   <outline>
     <component base="A"/>
-    <component base="uni0323" xOffset="1355"/>
+    <component base="uni0323" xOffset="1353"/>
     <component base="uni0306" xOffset="1354" yOffset="395"/>
   </outline>
   <lib>

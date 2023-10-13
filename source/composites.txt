@@ -147,18 +147,24 @@ Zcaron = Z + caroncomb@LU | 017D
 aacute = a + acutecomb@LU | 00E1
 uni0103 = a + uni0306@LU | 0103
 uni1EAF = a + uni0306@LU + acutecomb@LU | 1EAF
-uni1EB7 = a + uni0306@LU + uni0323@LL | 1EB7
+
+uni1EB7 = a + uni0306@LU  + lowerDot@LL | 1EB7
+
 uni1EB1 = a + uni0306@LU + gravecomb@LU | 1EB1
 uni1EB3 = a + uni0306@LU + uni0309@LU | 1EB3
 uni1EB5 = a + uni0306@LU + tildecomb@LU | 1EB5
 acircumflex = a + circumflexcomb@LU | 00E2
 uni1EA5 = a + uni03020301@LU | 1EA5
-uni1EAD = a + circumflexcomb@LU + uni0323@LL | 1EAD
+
+uni1EAD = a + circumflexcomb@LU + lowerDot@LL | 1EAD
+
 uni1EA7 = a + uni03020300@LU | 1EA7
 uni1EA9 = a + circumflexcomb@LU + uni0309@LU | 1EA9
 uni1EAB = a + circumflexcomb@LU + tildecomb@LU | 1EAB
 adieresis = a + dieresiscomb@LU | 00E4
-uni1EA1 = a + uni0323@LL | 1EA1
+
+uni1EA1 = a + lowerDot@LL | 1EA1
+
 agrave = a + gravecomb@LU | 00E0
 uni1EA3 = a + uni0309@LU | 1EA3
 aring = a + ringcomb@LU | 00E5

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni178917C5.rightalt" format="2">
   <advance width="2844"/>
-  <anchor x="2116" y="0" name="L_1"/>
   <anchor x="2116" y="0" name="B6"/>
   <anchor x="2116" y="0" name="B6C6"/>
   <anchor x="2844" y="0" name="D0"/>
+  <anchor x="2116" y="0" name="L_1"/>
   <anchor x="2844" y="0" name="L_2"/>
   <outline>
     <component base="uni178917B6.alt"/>

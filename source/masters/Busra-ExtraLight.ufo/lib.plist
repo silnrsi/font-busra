@@ -51,6 +51,8 @@ heart./space rolled/space back,/space</string>
     <string>/uni03020300/uni1ED2</string>
     <string>fifl/fl i/fi i</string>
     <string>/uni1EB7/uni1EAD/uni1EA1/uni1EC7/uni1EB9/uni1ECB/uni1ED9/uni1EE5/uni1EF1/uni1EF5</string>
+    <string>/uni0323/space/lowerDot</string>
+    <string>/dotlessi</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

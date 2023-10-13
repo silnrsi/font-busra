@@ -2,17 +2,13 @@
 <glyph name="uni1EAD" format="2">
   <advance width="1293"/>
   <unicode hex="1EAD"/>
-  <anchor x="590" y="-447" name="LL"/>
   <anchor x="590" y="1761" name="LU"/>
   <anchor x="520" y="0" name="PBxxxx"/>
-  <anchor x="1211" y="-180" name="PHB"/>
-  <anchor x="1211" y="0" name="_PB"/>
-  <anchor x="1211" y="0" name="_PHB"/>
   <anchor x="530" y="0" name="def"/>
   <outline>
     <component base="a"/>
     <component base="circumflexcomb" xOffset="1216"/>
-    <component base="uni0323" xOffset="1211"/>
+    <component base="lowerDot" xOffset="909"/>
   </outline>
   <lib>
     <dict>

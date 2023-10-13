@@ -2,14 +2,14 @@
 <glyph name="uni1EF4" format="2">
   <advance width="1449"/>
   <unicode hex="1EF4"/>
-  <anchor x="727" y="-447" name="LL"/>
+  <anchor x="725" y="-447" name="LL"/>
   <anchor x="760" y="1745" name="LU"/>
-  <anchor x="1348" y="-180" name="PHB"/>
-  <anchor x="1348" y="0" name="_PB"/>
-  <anchor x="1348" y="0" name="_PHB"/>
+  <anchor x="1346" y="-180" name="PHB"/>
+  <anchor x="1346" y="0" name="_PB"/>
+  <anchor x="1346" y="0" name="_PHB"/>
   <outline>
     <component base="Y"/>
-    <component base="uni0323" xOffset="1348"/>
+    <component base="uni0323" xOffset="1346"/>
   </outline>
   <lib>
     <dict>

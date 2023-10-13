@@ -2,9 +2,9 @@
 <glyph name="uni179317B6" format="2">
   <advance width="2204"/>
   <anchor x="1476" y="0" name="B6"/>
-  <anchor x="1476" y="0" name="L_1"/>
   <anchor x="1476" y="0" name="B6C6"/>
   <anchor x="2204" y="0" name="D0"/>
+  <anchor x="1476" y="0" name="L_1"/>
   <anchor x="2204" y="0" name="L_2"/>
   <anchor x="787" y="0" name="def"/>
   <anchor x="1757" y="1236" name="zxc1"/>

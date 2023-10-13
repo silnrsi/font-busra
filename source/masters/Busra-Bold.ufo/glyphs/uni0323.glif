@@ -2,13 +2,14 @@
 <glyph name="uni0323" format="2">
   <advance width="600"/>
   <unicode hex="0323"/>
-  <anchor x="-319" y="-110" name="_LL"/>
+  <anchor x="-621" y="-447" name="LL"/>
+  <anchor x="-619" y="-110" name="_LL"/>
   <outline>
     <contour>
-      <point x="-446" y="-160" type="line"/>
-      <point x="-446" y="-429" type="line"/>
-      <point x="-196" y="-429" type="line"/>
-      <point x="-196" y="-160" type="line"/>
+      <point x="-726" y="-160" type="line"/>
+      <point x="-726" y="-429" type="line"/>
+      <point x="-476" y="-429" type="line"/>
+      <point x="-476" y="-160" type="line"/>
     </contour>
   </outline>
 </glyph>

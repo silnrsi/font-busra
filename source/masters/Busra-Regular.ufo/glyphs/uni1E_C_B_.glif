@@ -2,12 +2,13 @@
 <glyph name="uni1ECB" format="2">
   <advance width="723"/>
   <unicode hex="1ECB"/>
+  <anchor x="367" y="-447" name="LL"/>
   <anchor x="369" y="1350" name="LU"/>
   <anchor x="0" y="0" name="PB"/>
   <anchor x="0" y="0" name="def"/>
   <outline>
     <component base="dotlessi"/>
-    <component base="uni0323" xOffset="688"/>
+    <component base="uni0323" xOffset="988"/>
   </outline>
   <lib>
     <dict>

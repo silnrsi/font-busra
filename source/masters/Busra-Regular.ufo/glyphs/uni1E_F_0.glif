@@ -4,9 +4,6 @@
   <unicode hex="1EF0"/>
   <anchor x="864" y="-447" name="LL"/>
   <anchor x="866" y="1745" name="LU"/>
-  <anchor x="1485" y="-180" name="PHB"/>
-  <anchor x="1485" y="-5" name="_PB"/>
-  <anchor x="1485" y="0" name="_PHB"/>
   <outline>
     <component base="uni01AF"/>
     <component base="uni0323" xOffset="1485"/>
@@ -14,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.18,0.16,0.78,1</string>
     </dict>
   </lib>
 </glyph>

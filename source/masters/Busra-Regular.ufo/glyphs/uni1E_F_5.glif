@@ -5,9 +5,6 @@
   <anchor x="913" y="-687" name="LL"/>
   <anchor x="754" y="1350" name="LU"/>
   <anchor x="520" y="-200" name="PB"/>
-  <anchor x="1534" y="-420" name="PHB"/>
-  <anchor x="1534" y="-245" name="_PB"/>
-  <anchor x="1534" y="-240" name="_PHB"/>
   <anchor x="502" y="0" name="def"/>
   <outline>
     <component base="y"/>
@@ -16,7 +13,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.18,0.16,0.78,1</string>
     </dict>
   </lib>
 </glyph>

@@ -486,8 +486,6 @@
   <string>lineseparator.glif</string>
   <key>logicalnot</key>
   <string>logicalnot.glif</string>
-  <key>lowerDot</key>
-  <string>lowerD_ot.glif</string>
   <key>lozenge</key>
   <string>lozenge.glif</string>
   <key>m</key>
@@ -752,6 +750,8 @@
   <string>uni031B_.glif</string>
   <key>uni0323</key>
   <string>uni0323.glif</string>
+  <key>uni0323_BAD</key>
+  <string>uni0323_B_A_D_.glif</string>
   <key>uni1780</key>
   <string>uni1780.glif</string>
   <key>uni1780.alt</key>

@@ -2,19 +2,15 @@
 <glyph name="uni1ECA" format="2">
   <advance width="808"/>
   <unicode hex="1ECA"/>
-  <anchor x="397" y="-447" name="LL"/>
   <anchor x="399" y="1745" name="LU"/>
-  <anchor x="1018" y="-180" name="PHB"/>
-  <anchor x="1018" y="0" name="_PB"/>
-  <anchor x="1018" y="0" name="_PHB"/>
   <outline>
     <component base="I"/>
-    <component base="uni0323" xOffset="1018"/>
+    <component base="uni0323" xOffset="718"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

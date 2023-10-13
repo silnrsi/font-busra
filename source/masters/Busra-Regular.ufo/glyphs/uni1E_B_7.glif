@@ -11,7 +11,7 @@
   <outline>
     <component base="a"/>
     <component base="uni0306" xOffset="1210"/>
-    <component base="lowerDot" xOffset="909"/>
+    <component base="uni0323" xOffset="909"/>
   </outline>
   <lib>
     <dict>

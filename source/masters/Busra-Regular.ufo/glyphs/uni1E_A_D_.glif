@@ -8,7 +8,7 @@
   <outline>
     <component base="a"/>
     <component base="circumflexcomb" xOffset="1216"/>
-    <component base="lowerDot" xOffset="909"/>
+    <component base="uni0323" xOffset="909"/>
   </outline>
   <lib>
     <dict>

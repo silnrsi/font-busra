@@ -1,50 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ellipsis" format="2">
-  <advance width="1562"/>
+  <advance width="1866"/>
   <unicode hex="2026"/>
   <outline>
-    <contour>
-      <point x="126" y="120" type="curve" smooth="yes"/>
-      <point x="126" y="48"/>
-      <point x="184" y="-10"/>
-      <point x="256" y="-10" type="curve" smooth="yes"/>
-      <point x="328" y="-10"/>
-      <point x="386" y="48"/>
-      <point x="386" y="120" type="curve" smooth="yes"/>
-      <point x="386" y="192"/>
-      <point x="328" y="250"/>
-      <point x="256" y="250" type="curve" smooth="yes"/>
-      <point x="184" y="250"/>
-      <point x="126" y="192"/>
-    </contour>
-    <contour>
-      <point x="661" y="120" type="curve" smooth="yes"/>
-      <point x="661" y="48"/>
-      <point x="719" y="-10"/>
-      <point x="791" y="-10" type="curve" smooth="yes"/>
-      <point x="863" y="-10"/>
-      <point x="921" y="48"/>
-      <point x="921" y="120" type="curve" smooth="yes"/>
-      <point x="921" y="192"/>
-      <point x="863" y="250"/>
-      <point x="791" y="250" type="curve" smooth="yes"/>
-      <point x="719" y="250"/>
-      <point x="661" y="192"/>
-    </contour>
-    <contour>
-      <point x="1196" y="120" type="curve" smooth="yes"/>
-      <point x="1196" y="48"/>
-      <point x="1254" y="-10"/>
-      <point x="1326" y="-10" type="curve" smooth="yes"/>
-      <point x="1398" y="-10"/>
-      <point x="1456" y="48"/>
-      <point x="1456" y="120" type="curve" smooth="yes"/>
-      <point x="1456" y="192"/>
-      <point x="1398" y="250"/>
-      <point x="1326" y="250" type="curve" smooth="yes"/>
-      <point x="1254" y="250"/>
-      <point x="1196" y="192"/>
-    </contour>
+    <component base="period"/>
+    <component base="period" xOffset="622"/>
+    <component base="period" xOffset="1244"/>
   </outline>
   <lib>
     <dict>

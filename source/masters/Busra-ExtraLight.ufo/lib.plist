@@ -33,15 +33,15 @@
   <array>
     <string>abcdefghijklmhnopqrstuvwxyz</string>
     <string>ABCDEFGHIJKLMNOBPDQRSTUVWXYZ</string>
-    <string>/gravecomb/space/acutecomb/space/tildecomb/space/acutecomb/space/dieresiscomb/space/uni03020300/space/uni03020301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni0309/space/space/uni031B/space/space/uni0323/space/uni03020306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni03020309/space/uni03060300/space/uni03060301/space/uni03060303/space/uni03060309/space</string>
+    <string>/gravecomb/space/acutecomb/space/tildecomb/space/acutecomb/space/dieresiscomb/space/uni03020300/space/uni03020301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni0309/space/uni031B/space/uni0323/space/uni03020306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni03020309/space/uni03060300/space/uni03060301/space/uni03060303/space/uni03060309/space</string>
     <string>-8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8=/approxequal 8÷8/endash/figuredash 8/space 8+8/minus 8×8-88/notequal 8/infinity 8±/space/space/space</string>
     <string>2/backslash |¦d//b
 /backslash///fraction |½|¾|¼|85
 2¼/space 3½
 John/space &amp;/space Mary/space</string>
     <string>©®/trademark ªº¹²³/foursuperior/space ½¼¾</string>
-    <string>"'/quotedblleft/quotedblright/quoteleft/quoteright/quotesinglbase/quotedblbase ,,;:.
-heart./space rolled/space back,/space</string>
+    <string>"'/quotedblleft/quotedblright/quoteleft/quoteright/quoteright/quotesinglbase/quotedblbase ,,;:x./space/ellipsis ...
+&amp;G</string>
     <string>AÆD/uni0110 ÐHO/uni01A0 Ø/OE PÞU/uni01AF aæd/uni0111 ðoe/space i/dotlessi o/uni01A1 ø/oe bpþßu/uni01B0</string>
     <string>/uni01A0/space/uni031B/space/uni01AF U/uni01A1/uni01B0/space</string>
     <string>$£¥¤</string>
@@ -54,6 +54,7 @@ heart./space rolled/space back,/space</string>
     <string>/uni0323/space</string>
     <string>/dotlessi</string>
     <string>/uni0323_BAD/space/acutecomb/space/tildecomb/space/uni0323</string>
+    <string>/uni178217C5.right</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

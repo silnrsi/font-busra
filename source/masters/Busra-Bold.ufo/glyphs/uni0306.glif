@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0306" format="2">
   <unicode hex="0306"/>
-  <anchor x="-620" y="1698" name="LU"/>
+  <anchor x="-620" y="1701" name="LU"/>
   <anchor x="0" y="200" name="PA"/>
   <anchor x="-620" y="1350" name="_LU"/>
   <anchor x="0" y="0" name="_PA"/>
-  <anchor x="0" y="0" name="_def"/>
+  <anchor x="0" y="18" name="_def"/>
   <outline>
     <contour>
-      <point x="-262" y="1437" type="line"/>
-      <point x="-283" y="1382"/>
-      <point x="-377" y="1251"/>
-      <point x="-499" y="1251" type="curve"/>
-      <point x="-621" y="1251"/>
-      <point x="-715" y="1382"/>
-      <point x="-736" y="1437" type="curve"/>
-      <point x="-849" y="1437" type="line"/>
-      <point x="-829" y="1334"/>
-      <point x="-728" y="1089"/>
-      <point x="-499" y="1089" type="curve"/>
-      <point x="-269" y="1089"/>
-      <point x="-173" y="1334"/>
-      <point x="-153" y="1437" type="curve"/>
+      <point x="-343" y="1718" type="line"/>
+      <point x="-365" y="1662"/>
+      <point x="-470" y="1527"/>
+      <point x="-620" y="1527" type="curve" smooth="yes"/>
+      <point x="-769" y="1527"/>
+      <point x="-875" y="1662"/>
+      <point x="-897" y="1718" type="curve"/>
+      <point x="-935" y="1718" type="line"/>
+      <point x="-916" y="1624"/>
+      <point x="-825" y="1400"/>
+      <point x="-620" y="1400" type="curve" smooth="yes"/>
+      <point x="-414" y="1400"/>
+      <point x="-328" y="1624"/>
+      <point x="-309" y="1718" type="curve"/>
     </contour>
   </outline>
   <lib>

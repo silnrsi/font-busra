@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni00EA0306" format="2">
-  <advance width="1055"/>
+  <advance width="1201"/>
   <anchor x="631" y="-110" name="LL"/>
-  <anchor x="604" y="1698" name="LU"/>
+  <anchor x="604" y="1981" name="LU"/>
+  <anchor x="1230" y="553" name="PA"/>
   <anchor x="520" y="0" name="PB"/>
+  <anchor x="1230" y="353" name="_PA"/>
+  <anchor x="1230" y="352" name="_def"/>
   <anchor x="560" y="0" name="def"/>
   <outline>
     <component base="e"/>
-    <component base="uni03020306" xOffset="1224"/>
+    <component base="uni03020306" xOffset="1230"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

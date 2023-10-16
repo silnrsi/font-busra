@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni03020306" format="2">
-  <anchor x="-620" y="1698" name="LU"/>
-  <anchor x="-620" y="1350" name="_LU"/>
+  <anchor x="-626" y="1981" name="LU"/>
+  <anchor x="0" y="553" name="PA"/>
+  <anchor x="-626" y="1350" name="_LU"/>
+  <anchor x="0" y="353" name="_PA"/>
+  <anchor x="0" y="352" name="_def"/>
   <outline>
-    <contour>
-      <point x="-548" y="1358" type="line"/>
-      <point x="-793" y="1044" type="line"/>
-      <point x="-707" y="1044" type="line"/>
-      <point x="-443" y="1187" type="line"/>
-      <point x="-179" y="1044" type="line"/>
-      <point x="-91" y="1044" type="line"/>
-      <point x="-341" y="1358" type="line"/>
-    </contour>
-    <contour>
-      <point x="-190" y="1730" type="line"/>
-      <point x="-211" y="1676"/>
-      <point x="-308" y="1595"/>
-      <point x="-444" y="1595" type="curve"/>
-      <point x="-580" y="1595"/>
-      <point x="-678" y="1676"/>
-      <point x="-699" y="1730" type="curve"/>
-      <point x="-773" y="1730" type="line"/>
-      <point x="-751" y="1620"/>
-      <point x="-653" y="1425"/>
-      <point x="-444" y="1425" type="curve"/>
-      <point x="-235" y="1425"/>
-      <point x="-142" y="1620"/>
-      <point x="-120" y="1730" type="curve"/>
-    </contour>
+    <component base="uni0306.high" yOffset="20"/>
+    <component base="circumflexcomb" yScale="0.95" yOffset="10"/>
   </outline>
   <lib>
     <dict>

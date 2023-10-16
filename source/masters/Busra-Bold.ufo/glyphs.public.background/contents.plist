@@ -34,6 +34,10 @@
   <string>_subL_.ear.glif</string>
   <key>_swash</key>
   <string>_swash.glif</string>
+  <key>daggerdbl</key>
+  <string>daggerdbl.glif</string>
+  <key>pi</key>
+  <string>pi.glif</string>
   <key>uni1780.alt</key>
   <string>uni1780.alt.glif</string>
   <key>uni178017B6.alt</key>

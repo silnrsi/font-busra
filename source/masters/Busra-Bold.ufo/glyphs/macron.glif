@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macron" format="2">
-  <advance width="833"/>
+  <advance width="890"/>
   <unicode hex="00AF"/>
   <outline>
-    <contour>
-      <point x="743" y="1366" type="line"/>
-      <point x="743" y="1198" type="line"/>
-      <point x="90" y="1198" type="line"/>
-      <point x="90" y="1366" type="line"/>
-    </contour>
+    <component base="uni0304" xOffset="1067"/>
   </outline>
   <lib>
     <dict>

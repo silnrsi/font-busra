@@ -31,7 +31,7 @@
   <string>Black</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>abcdefgh/dotlessi ijklmhnopqrstuvwxyz</string>
+    <string>/space apbcdefghni/dotlessi cjklmnopqrstuvwxyz</string>
     <string>ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string>/gravecomb/space/acutecomb/space/tildecomb/space/dieresiscomb/space/uni03020300/space/uni03020301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni0309/space/uni031B/space/uni0323/space/uni03020306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni03020309/space/uni03060300/space/uni03060301/space/uni03060303/space/uni03060309/space</string>
     <string>-8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8=/approxequal 8÷8/endash/figuredash 8/space 8+8/minus 8×8-88/notequal 8/infinity 8±/space/space/space</string>
@@ -48,6 +48,8 @@ John/space &amp;/space Mary/space</string>
     <string>/uni1EB7/uni1EAD/uni1EA1/uni1EC7/uni1EB9/uni1ECB/uni1ED9/uni1EE5/uni1EF1/uni1EF5</string>
     <string>¢£§/bullet ¶®©/trademark ´¨¥µ/partialdiff/summation/product/pi/integral ªº/Omega µ¿¡/Euro/uni20AB/space/space</string>
     <string>/circumflex/tilde ¯/breve/dotaccent/ring ¸/hungarumlaut/ogonek/caron</string>
+    <string>aceinopr/space 
+car/space pan/space carp/space nope/space no/space cap/space app/space arc/space rap/space ran/space crap/space air/space pane/space cop/space anna/space rip/space pin/space on/space con/space cain/space pain/space pair/space par/space care/space pinecone/space cone/space cane/space ire/space nice/space pacer/space cope/space ripe/space reap/space peep/space pear/space pane/space opine/space opinion/space pica/space apace</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

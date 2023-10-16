@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotlessi" format="2">
-  <advance width="627"/>
+  <advance width="844"/>
   <unicode hex="0131"/>
-  <anchor x="369" y="-110" name="LL"/>
-  <anchor x="369" y="1350" name="LU"/>
-  <anchor x="0" y="0" name="PB"/>
-  <anchor x="0" y="0" name="def"/>
+  <anchor x="428" y="-110" name="LL"/>
+  <anchor x="428" y="1350" name="LU"/>
+  <anchor x="59" y="0" name="PB"/>
+  <anchor x="59" y="0" name="def"/>
   <outline>
     <contour>
-      <point x="275" y="1120" type="line"/>
-      <point x="275" y="120" type="line"/>
-      <point x="115" y="85" type="line"/>
-      <point x="115" y="0" type="line"/>
-      <point x="623" y="0" type="line"/>
-      <point x="623" y="85" type="line"/>
-      <point x="463" y="120" type="line"/>
-      <point x="463" y="1240" type="line"/>
-      <point x="115" y="1240" type="line"/>
-      <point x="115" y="1155" type="line"/>
+      <point x="272" y="1120" type="line"/>
+      <point x="272" y="120" type="line"/>
+      <point x="112" y="85" type="line"/>
+      <point x="112" y="0" type="line"/>
+      <point x="732" y="0" type="line"/>
+      <point x="732" y="85" type="line"/>
+      <point x="572" y="120" type="line"/>
+      <point x="572" y="1240" type="line"/>
+      <point x="112" y="1240" type="line"/>
+      <point x="112" y="1155" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -5,7 +5,7 @@
   <anchor x="590" y="-110" name="LL"/>
   <anchor x="590" y="2069" name="LU"/>
   <anchor x="1210" y="200" name="PA"/>
-  <anchor x="520" y="0" name="PBxxxx"/>
+  <anchor x="520" y="0" name="PB"/>
   <anchor x="1210" y="0" name="_PA"/>
   <anchor x="1210" y="18" name="_def"/>
   <anchor x="530" y="0" name="def"/>
@@ -17,7 +17,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

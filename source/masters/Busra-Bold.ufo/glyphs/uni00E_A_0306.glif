@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni00EA0306" format="2">
-  <advance width="1291"/>
-  <anchor x="681" y="-110" name="LL"/>
-  <anchor x="654" y="1981" name="LU"/>
-  <anchor x="1280" y="553" name="PA"/>
-  <anchor x="570" y="0" name="PB"/>
-  <anchor x="1280" y="353" name="_PA"/>
-  <anchor x="1280" y="352" name="_def"/>
-  <anchor x="610" y="0" name="def"/>
+  <advance width="1401"/>
+  <anchor x="771" y="-110" name="LL"/>
+  <anchor x="744" y="1981" name="LU"/>
+  <anchor x="1370" y="553" name="PA"/>
+  <anchor x="660" y="0" name="PB"/>
+  <anchor x="1370" y="353" name="_PA"/>
+  <anchor x="1370" y="352" name="_def"/>
+  <anchor x="700" y="0" name="def"/>
   <outline>
     <component base="e"/>
-    <component base="uni03020306" xOffset="1280"/>
+    <component base="uni03020306" xOffset="1370"/>
   </outline>
   <lib>
     <dict>

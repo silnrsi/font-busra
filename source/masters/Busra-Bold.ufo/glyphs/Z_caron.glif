@@ -1,36 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zcaron" format="2">
-  <advance width="1341"/>
+  <advance width="1296"/>
   <unicode hex="017D"/>
+  <anchor x="648" y="-110" name="LL"/>
+  <anchor x="648" y="2132" name="LU"/>
   <outline>
-    <contour>
-      <point x="178" y="1437" type="line"/>
-      <point x="142" y="1046" type="line"/>
-      <point x="257" y="1046" type="line"/>
-      <point x="290" y="1260"/>
-      <point x="350" y="1318"/>
-      <point x="525" y="1318" type="curve"/>
-      <point x="905" y="1318" type="line"/>
-      <point x="20" y="56" type="line"/>
-      <point x="20" y="0" type="line"/>
-      <point x="1239" y="0" type="line"/>
-      <point x="1311" y="407" type="line"/>
-      <point x="1198" y="407" type="line"/>
-      <point x="1141" y="243"/>
-      <point x="1026" y="120"/>
-      <point x="904" y="120" type="curve"/>
-      <point x="391" y="120" type="line"/>
-      <point x="1321" y="1437" type="line"/>
-    </contour>
-    <contour>
-      <point x="858" y="1460" type="line"/>
-      <point x="1091" y="1769" type="line"/>
-      <point x="987" y="1769" type="line"/>
-      <point x="733" y="1631" type="line"/>
-      <point x="480" y="1769" type="line"/>
-      <point x="372" y="1769" type="line"/>
-      <point x="609" y="1460" type="line"/>
-    </contour>
+    <component base="Z"/>
+    <component base="caroncomb" xOffset="1274" yOffset="395"/>
   </outline>
   <lib>
     <dict>

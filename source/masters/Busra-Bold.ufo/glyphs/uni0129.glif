@@ -1,63 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0129" format="2">
-  <advance width="627"/>
+  <advance width="844"/>
   <unicode hex="0129"/>
+  <anchor x="428" y="-110" name="LL"/>
+  <anchor x="428" y="1707" name="LU"/>
+  <anchor x="59" y="0" name="PB"/>
+  <anchor x="59" y="0" name="def"/>
   <outline>
-    <contour>
-      <point x="186" y="238" type="line"/>
-      <point x="186" y="121"/>
-      <point x="165" y="75"/>
-      <point x="40" y="75" type="curve"/>
-      <point x="40" y="0" type="line"/>
-      <point x="587" y="0" type="line"/>
-      <point x="587" y="75" type="line"/>
-      <point x="463" y="75"/>
-      <point x="437" y="121"/>
-      <point x="437" y="238" type="curve"/>
-      <point x="437" y="1004" type="line"/>
-      <point x="334" y="1004" type="line"/>
-      <point x="24" y="863" type="line"/>
-      <point x="52" y="790" type="line"/>
-      <point x="108" y="807"/>
-      <point x="153" y="819"/>
-      <point x="165" y="819" type="curve"/>
-      <point x="186" y="819"/>
-      <point x="186" y="778"/>
-      <point x="186" y="683" type="curve"/>
-    </contour>
-    <contour>
-      <point x="562" y="1470" type="line"/>
-      <point x="562" y="1392"/>
-      <point x="533" y="1328"/>
-      <point x="493" y="1328" type="curve"/>
-      <point x="465" y="1328"/>
-      <point x="413" y="1359"/>
-      <point x="357" y="1394" type="curve"/>
-      <point x="296" y="1431"/>
-      <point x="233" y="1470"/>
-      <point x="146" y="1470" type="curve"/>
-      <point x="-35" y="1470"/>
-      <point x="-100" y="1308"/>
-      <point x="-100" y="1158" type="curve"/>
-      <point x="5" y="1158" type="line"/>
-      <point x="5" y="1236"/>
-      <point x="39" y="1304"/>
-      <point x="77" y="1304" type="curve"/>
-      <point x="100" y="1304"/>
-      <point x="146" y="1275"/>
-      <point x="194" y="1244" type="curve" smooth="yes"/>
-      <point x="262" y="1200"/>
-      <point x="328" y="1158"/>
-      <point x="423" y="1158" type="curve"/>
-      <point x="607" y="1158"/>
-      <point x="667" y="1324"/>
-      <point x="667" y="1470" type="curve"/>
-    </contour>
+    <component base="dotlessi"/>
+    <component base="tildecomb" xOffset="1049"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

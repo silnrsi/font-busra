@@ -48,9 +48,6 @@ John/space &amp;/space Mary/space</string>
     <string>/uni1EB7/uni1EAD/uni1EA1/uni1EC7/uni1EB9/uni1ECB/uni1ED9/uni1EE5/uni1EF1/uni1EF5</string>
     <string>¢£§/bullet ¶®©/trademark ´¨¥µ/partialdiff/summation/product/pi/integral ªº/Omega µ¿¡/Euro/uni20AB/space/space</string>
     <string>/circumflex/tilde ¯/breve/dotaccent/ring ¸/hungarumlaut/ogonek/caron</string>
-    <string>abcdefghijklmnopqrstuvwxyz
-cars/space carp/space nope/space cap/space app/space arc/space rap/space ran/space crap/space air/space pane/space cop/space anna/space rip/space pin/space con/space cain/space pain/space pair/space par/space care/space laden/space sled/space pinecone/space cane/space ire/space nice/space paced/space cope/space ripe/space reap/space peep/space pears/space pane/space opine/space opinion/space pica/space apace/space adhesion/space spine/space despair/space stint/space retro/space trained</string>
-    <string>Á</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

@@ -1,36 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iacute" format="2">
-  <advance width="768"/>
+  <advance width="808"/>
   <unicode hex="00CD"/>
+  <anchor x="399" y="-110" name="LL"/>
+  <anchor x="399" y="2113" name="LU"/>
   <outline>
-    <contour>
-      <point x="237" y="242" type="line"/>
-      <point x="237" y="108"/>
-      <point x="186" y="75"/>
-      <point x="40" y="75" type="curve"/>
-      <point x="40" y="0" type="line"/>
-      <point x="728" y="0" type="line"/>
-      <point x="728" y="75" type="line"/>
-      <point x="586" y="75"/>
-      <point x="532" y="108"/>
-      <point x="532" y="242" type="curve"/>
-      <point x="532" y="1196" type="line"/>
-      <point x="532" y="1329"/>
-      <point x="586" y="1362"/>
-      <point x="728" y="1362" type="curve"/>
-      <point x="728" y="1437" type="line"/>
-      <point x="40" y="1437" type="line"/>
-      <point x="40" y="1362" type="line"/>
-      <point x="186" y="1362"/>
-      <point x="237" y="1329"/>
-      <point x="237" y="1196" type="curve"/>
-    </contour>
-    <contour>
-      <point x="723" y="1797" type="line"/>
-      <point x="365" y="1797" type="line"/>
-      <point x="158" y="1467" type="line"/>
-      <point x="285" y="1467" type="line"/>
-    </contour>
+    <component base="I"/>
+    <component base="acutecomb" xOffset="1019" yOffset="395"/>
   </outline>
   <lib>
     <dict>

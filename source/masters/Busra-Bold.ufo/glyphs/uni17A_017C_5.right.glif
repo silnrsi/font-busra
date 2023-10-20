@@ -2,8 +2,10 @@
 <glyph name="uni17A017C5.right" format="2">
   <advance width="2700"/>
   <anchor x="1950" y="0" name="B6"/>
+  <anchor x="1950" y="0" name="L_1"/>
   <anchor x="1950" y="0" name="B6C6"/>
   <anchor x="2678" y="0" name="D0"/>
+  <anchor x="2678" y="0" name="L_2"/>
   <outline>
     <component base="uni17A017B6"/>
     <component base="_R.ear" xOffset="2044"/>

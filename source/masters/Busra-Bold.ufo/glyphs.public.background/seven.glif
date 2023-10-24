@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven" format="2">
-  <advance width="1318"/>
-  <unicode hex="0037"/>
-  <anchor x="589" y="-110" name="LL"/>
-  <anchor x="589" y="1745" name="LU"/>
   <outline>
     <contour>
       <point x="553" y="0" type="line"/>
@@ -18,10 +14,4 @@
       <point x="397" y="0" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

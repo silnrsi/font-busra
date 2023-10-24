@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Edieresis" format="2">
-  <advance width="1334"/>
+  <advance width="1381"/>
   <unicode hex="00CB"/>
-  <anchor x="784" y="-110" name="LL"/>
-  <anchor x="784" y="2169" name="LU"/>
+  <anchor x="841" y="-110" name="LL"/>
+  <anchor x="841" y="2169" name="LU"/>
   <outline>
     <component base="E"/>
-    <component base="dieresiscomb" xOffset="1408" yOffset="395"/>
+    <component base="dieresiscomb" xOffset="1465" yOffset="395"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

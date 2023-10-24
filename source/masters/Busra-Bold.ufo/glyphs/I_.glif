@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="I" format="2">
-  <advance width="808"/>
+  <advance width="885"/>
   <unicode hex="0049"/>
-  <anchor x="399" y="-110" name="LL"/>
-  <anchor x="399" y="1745" name="LU"/>
+  <anchor x="437" y="-110" name="LL"/>
+  <anchor x="437" y="1745" name="LU"/>
   <outline>
     <contour>
-      <point x="498" y="1530" type="line"/>
-      <point x="688" y="1565" type="line"/>
-      <point x="688" y="1650" type="line"/>
-      <point x="120" y="1650" type="line"/>
-      <point x="120" y="1565" type="line"/>
-      <point x="300" y="1530" type="line"/>
-      <point x="300" y="120" type="line"/>
-      <point x="120" y="85" type="line"/>
-      <point x="120" y="0" type="line"/>
-      <point x="678" y="0" type="line"/>
-      <point x="678" y="85" type="line"/>
-      <point x="498" y="120" type="line"/>
+      <point x="595" y="1530" type="line"/>
+      <point x="785" y="1565" type="line"/>
+      <point x="785" y="1650" type="line"/>
+      <point x="100" y="1650" type="line"/>
+      <point x="100" y="1565" type="line"/>
+      <point x="280" y="1530" type="line"/>
+      <point x="280" y="120" type="line"/>
+      <point x="100" y="85" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="775" y="0" type="line"/>
+      <point x="775" y="85" type="line"/>
+      <point x="595" y="120" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ydieresis" format="2">
-  <advance width="1449"/>
+  <advance width="1530"/>
   <unicode hex="0178"/>
-  <anchor x="727" y="-110" name="LL"/>
-  <anchor x="760" y="2169" name="LU"/>
+  <anchor x="767" y="-110" name="LL"/>
+  <anchor x="850" y="2169" name="LU"/>
   <outline>
     <component base="Y"/>
-    <component base="dieresiscomb" xOffset="1384" yOffset="395"/>
+    <component base="dieresiscomb" xOffset="1474" yOffset="395"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

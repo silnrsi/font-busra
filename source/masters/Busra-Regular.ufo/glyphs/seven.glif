@@ -7,7 +7,7 @@
   <anchor x="589" y="1745" name="LU"/>
   <outline>
     <contour>
-      <point x="553" y="0" type="line"/>
+      <point x="553" y="-10" type="line"/>
       <point x="1131" y="1571" type="line"/>
       <point x="1131" y="1650" type="line"/>
       <point x="110" y="1650" type="line"/>
@@ -16,7 +16,7 @@
       <point x="230" y="1462" type="line"/>
       <point x="1014" y="1462" type="line"/>
       <point x="1002" y="1613" type="line"/>
-      <point x="397" y="0" type="line"/>
+      <point x="397" y="-10" type="line"/>
     </contour>
   </outline>
   <lib>

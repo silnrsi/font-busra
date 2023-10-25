@@ -2,24 +2,24 @@
 <glyph name="T" format="2">
   <outline>
     <contour>
-      <point x="784" y="120" type="line"/>
-      <point x="784" y="1581" type="line"/>
-      <point x="586" y="1581" type="line"/>
-      <point x="586" y="120" type="line"/>
-      <point x="416" y="85" type="line"/>
-      <point x="416" y="0" type="line"/>
-      <point x="954" y="0" type="line"/>
-      <point x="954" y="85" type="line"/>
+      <point x="774" y="120" type="line"/>
+      <point x="774" y="1581" type="line"/>
+      <point x="576" y="1581" type="line"/>
+      <point x="576" y="120" type="line"/>
+      <point x="406" y="85" type="line"/>
+      <point x="406" y="0" type="line"/>
+      <point x="944" y="0" type="line"/>
+      <point x="944" y="85" type="line"/>
     </contour>
     <contour>
-      <point x="1300" y="1650" type="line"/>
-      <point x="70" y="1650" type="line"/>
-      <point x="70" y="1344" type="line"/>
-      <point x="165" y="1344" type="line"/>
-      <point x="200" y="1534" type="line"/>
-      <point x="1170" y="1534" type="line"/>
-      <point x="1205" y="1344" type="line"/>
-      <point x="1300" y="1344" type="line"/>
+      <point x="1290" y="1650" type="line"/>
+      <point x="60" y="1650" type="line"/>
+      <point x="60" y="1344" type="line"/>
+      <point x="155" y="1344" type="line"/>
+      <point x="190" y="1534" type="line"/>
+      <point x="1160" y="1534" type="line"/>
+      <point x="1195" y="1344" type="line"/>
+      <point x="1290" y="1344" type="line"/>
     </contour>
   </outline>
 </glyph>

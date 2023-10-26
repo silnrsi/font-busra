@@ -2,6 +2,7 @@
 <glyph name="uni17D217A2.low" format="2">
   <guideline y="-1225"/>
   <guideline x="-145"/>
+  <anchor x="-599" y="-670" name="LA"/>
   <anchor x="-225" y="-1340" name="LL"/>
   <anchor x="-245" y="-670" name="_L"/>
   <anchor x="-225" y="-670" name="_LL"/>

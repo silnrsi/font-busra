@@ -990,8 +990,7 @@ lookup u_attach {
 # 1.3.1 Action lookup
 lookup below_chain {
     pos mark @LL_MarkBase mark @_LL;
-    #pos @below_coeng <0 -600 0 0>;
-#    pos uni17D2 ;
+    pos mark @LA_MarkBase mark @_LA;
 } below_chain;
 
 # 2.2 Raise above robat

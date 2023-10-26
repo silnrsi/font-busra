@@ -223,9 +223,9 @@ def abovecentre(g, a, b, adv):
     addAnchorVal(a, "_UA", u_base + 20)
     above = u_base + 20 + 280j
     if above.imag < b.ymax + 20:
-        above = above.real + 1j * b.ymax + 20j
-    addAnchorVal(a, "UA", u_base + 20 + 280j)
-    addAnchorVal(a, "UU", l_shift + 20 + 1860j)
+        above = above.real + 1j * b.ymax + 50j
+    addAnchorVal(a, "UA", above)
+    addAnchorVal(a, "UU", l_shift + 20 + max(above.imag, 1860) * 1j)
 
 @some
 def belowright(g, a, b, adv):
@@ -235,16 +235,23 @@ def belowright(g, a, b, adv):
     addAnchorVal(a, "_L", l_shift + offset)
     addAnchorVal(a, "_LL", l_shift + 20 + offset)
     addAnchorVal(a, "LL", l_shift + 20 - 670j + offset)
+    if "def" in old:
+        c = anchorVal(old["def"])
+    else:
+        c = (b.xmin + b.xmax) // 2
+    addAnchorVal(a, "LA", c - 20 - 670j)
 
 @some
 def belowcentre(g, a, b, adv):
     old = a.copy()
     a.clear()
     if "def" in old:
-        c = anchorVal(a["def"])
+        c = anchorVal(old["def"])
     else:
         c = (b.xmin + b.xmax) // 2
     addAnchorVal(a, "_LC", c)
+    addAnchorVal(a, "_LA", c - 20)
+    addAnchorVal(a, "LA", c - 20 - 670j)
     addAnchorVal(a, "LL", l_shift + 20 - 670j)
 
 bases(baseglyphs)

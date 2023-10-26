@@ -2,8 +2,8 @@
 <glyph name="uni17C6.a" format="2">
   <guideline x="-973"/>
   <guideline x="-433"/>
-  <anchor x="-695" y="1860" name="UA"/>
-  <anchor x="-225" y="1860" name="UU"/>
+  <anchor x="-695" y="2093" name="UA"/>
+  <anchor x="-225" y="2093" name="UU"/>
   <anchor x="-695" y="1580" name="_UA"/>
   <anchor x="-715" y="1580" name="_UC"/>
   <outline>

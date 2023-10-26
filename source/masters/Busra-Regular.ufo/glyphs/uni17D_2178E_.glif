@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D2178E" format="2">
+  <anchor x="-959" y="-670" name="LA"/>
   <anchor x="-225" y="-670" name="LL"/>
+  <anchor x="-959" y="0" name="_LA"/>
   <anchor x="-939" y="0" name="_LC"/>
   <outline>
     <contour>

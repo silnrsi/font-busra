@@ -212,8 +212,8 @@ def aboveright(g, a, b, adv):
     a.clear()
     addAnchorVal(a, "_U", l_shift + 1580j)
     addAnchorVal(a, "_UU", l_shift + 20 + 1580j)
-    addAnchorVal(a, "UU", l_shift + 20 + 1860j)
-    addAnchorVal(a, "UA", u_base + 20 + 280j)
+    addAnchorVal(a, "UU", l_shift + 20 + 1j * max(b.ymax + 40, l_shift.imag + 1860))
+    addAnchorVal(a, "UA", u_base.real + 20 + 1j * max(b.ymax + 40, u_base.imag + 280))
 
 @some
 def abovecentre(g, a, b, adv):
@@ -222,10 +222,8 @@ def abovecentre(g, a, b, adv):
     addAnchorVal(a, "_UC", u_base)
     addAnchorVal(a, "_UA", u_base + 20)
     above = u_base + 20 + 280j
-    if above.imag < b.ymax + 20:
-        above = above.real + 1j * b.ymax + 50j
-    addAnchorVal(a, "UA", above)
-    addAnchorVal(a, "UU", l_shift + 20 + max(above.imag, 1860) * 1j)
+    addAnchorVal(a, "UA", above.real + 1j * max(b.ymax + 40, above.imag))
+    addAnchorVal(a, "UU", l_shift + 20 + max(above.imag, 1860, b.ymax + 40) * 1j)
 
 @some
 def belowright(g, a, b, adv):

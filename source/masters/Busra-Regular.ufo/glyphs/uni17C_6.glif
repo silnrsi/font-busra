@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17C6" format="2">
   <unicode hex="17C6"/>
-  <anchor x="-695" y="2093" name="UA"/>
-  <anchor x="-225" y="2093" name="UU"/>
+  <anchor x="-695" y="2083" name="UA"/>
+  <anchor x="-225" y="2083" name="UU"/>
   <anchor x="-695" y="1580" name="_UA"/>
   <anchor x="-715" y="1580" name="_UC"/>
   <outline>

@@ -116,7 +116,7 @@ allglyphs = [g.name for g in font]
 l_shift = -245 # add this to right aligned AP positions default to advance
 # lc_pos is def or N or NC or (xmin+xmax)/2 and y=0
 baseglyphs = unilist(range(0x80, 0xB4), suffices=["alt"])
-baseglyphs += ["uni17B6", "uni17C5.rightpart"]
+baseglyphs += ["uni17B6", "uni17C5.rightpart", "dottedcircle"]
 b6ligs = [x for x in allglyphs if x.endswith("17B6") or x.endswith("17C5.right")]
 belowdias = unilist(range(0x80, 0xB4), prefix="uni17D217", suffices=["alt", "low", "low.alt"]) \
           + unilist(range(0xBB, 0xBE), suffices=["low", "narrow", "low.narrow"]) + ["uni17D2", "uni17D2.lower"]
@@ -213,6 +213,7 @@ def aboveright(g, a, b, adv):
     addAnchorVal(a, "_U", l_shift + 1580j)
     addAnchorVal(a, "_UU", l_shift + 20 + 1580j)
     addAnchorVal(a, "UU", l_shift + 20 + 1860j)
+    addAnchorVal(a, "UA", u_base + 20 + 280j)
 
 @some
 def abovecentre(g, a, b, adv):
@@ -220,7 +221,11 @@ def abovecentre(g, a, b, adv):
     a.clear()
     addAnchorVal(a, "_UC", u_base)
     addAnchorVal(a, "_UA", u_base + 20)
+    above = u_base + 20 + 280j
+    if above.imag < b.ymax + 20:
+        above = above.real + 1j * b.ymax + 20j
     addAnchorVal(a, "UA", u_base + 20 + 280j)
+    addAnchorVal(a, "UU", l_shift + 20 + 1860j)
 
 @some
 def belowright(g, a, b, adv):

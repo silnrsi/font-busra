@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17CE.avowel" format="2">
-  <anchor x="0" y="800" name="A0"/>
-  <anchor x="170" y="500" name="A1"/>
-  <anchor x="0" y="0" name="A2"/>
-  <anchor x="0" y="400" name="_A0"/>
-  <anchor x="0" y="0" name="_A1"/>
   <outline>
     <contour>
       <point x="-930" y="2268" type="line"/>

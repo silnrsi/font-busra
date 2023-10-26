@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D0.ms.high2.alt" format="2">
-  <anchor x="-2" y="1050" name="A0"/>
-  <anchor x="-2" y="675" name="A1"/>
-  <anchor x="-2" y="450" name="A2"/>
-  <anchor x="-2" y="350" name="_A0"/>
   <outline>
     <contour>
       <point x="-192" y="2110" type="curve" smooth="yes"/>

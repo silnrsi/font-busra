@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17B8" format="2">
   <unicode hex="17B8"/>
-  <anchor x="0" y="400" name="A0"/>
-  <anchor x="-700" y="0" name="_H"/>
+  <anchor x="-225" y="1860" name="UU"/>
+  <anchor x="-245" y="1580" name="_U"/>
+  <anchor x="-225" y="1580" name="_UU"/>
   <outline>
     <component base="uni17B7"/>
     <component base="_R.ear" xScale="0.85738" yScale="0.85738" xOffset="-516" yOffset="584"/>

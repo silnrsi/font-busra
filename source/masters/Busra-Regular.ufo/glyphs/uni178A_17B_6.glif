@@ -1,19 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni178A17B6" format="2">
   <advance width="2204"/>
-  <anchor x="1500" y="0" name="C6_1"/>
-  <anchor x="2340" y="20" name="C6_2"/>
-  <anchor x="1480" y="0" name="L_1"/>
-  <anchor x="2230" y="20" name="L_2"/>
-  <anchor x="1500" y="1000" name="UR_1"/>
-  <anchor x="20" y="1000" name="UR_2"/>
-  <anchor x="1500" y="1000" name="U_1"/>
-  <anchor x="1520" y="1000" name="U_2"/>
-  <anchor x="1774" y="1236" name="zxc1"/>
+  <anchor x="764" y="0" name="LC_1"/>
+  <anchor x="1259" y="0" name="LC_2"/>
+  <anchor x="1231" y="0" name="L_1"/>
+  <anchor x="1959" y="0" name="L_2"/>
+  <anchor x="761" y="2100" name="UC_1"/>
+  <anchor x="1259" y="1840" name="UC_2"/>
+  <anchor x="1231" y="1840" name="U_1"/>
+  <anchor x="1959" y="1840" name="U_2"/>
   <outline>
-    <component base="_deepArch2" xOffset="913"/>
-    <component base="_w" xOffset="195"/>
-    <component base="_stemMd" xOffset="195" yOffset="132"/>
     <contour>
       <point x="527" y="1487" type="curve" smooth="yes"/>
       <point x="384" y="1487"/>
@@ -53,6 +49,9 @@
       <point x="679" y="1424"/>
       <point x="627" y="1487"/>
     </contour>
+    <component base="_deepArch2" xOffset="913"/>
+    <component base="_w" xOffset="195"/>
+    <component base="_stemMd" xOffset="195" yOffset="132"/>
   </outline>
   <lib>
     <dict>

@@ -1,20 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D217A2.low.alt" format="2">
-  <anchor x="0" y="-525" name="B2"/>
-  <anchor x="0" y="0" name="_B1"/>
-  <anchor x="0" y="0" name="_B2"/>
-  <anchor x="-20" y="0" name="_L"/>
+  <anchor x="-225" y="-1340" name="LL"/>
+  <anchor x="-245" y="-670" name="_L"/>
+  <anchor x="-225" y="-670" name="_LL"/>
   <outline>
-    <component base="_loopInstroke" yScale="-1" xOffset="-651" yOffset="-1384"/>
-    <component base="_loopInstroke" yScale="-1" xOffset="-1113" yOffset="-1384"/>
-    <component base="_substemSm" xOffset="-1050" yOffset="-472"/>
-    <component base="_substemSm" xOffset="-589" yOffset="-472"/>
     <contour>
       <point x="-950" y="-880" type="line"/>
       <point x="-950" y="-1006" type="line"/>
       <point x="-189" y="-1006" type="line"/>
       <point x="-189" y="-880" type="line"/>
     </contour>
+    <component base="_loopInstroke" yScale="-1" xOffset="-651" yOffset="-1384"/>
+    <component base="_loopInstroke" yScale="-1" xOffset="-1113" yOffset="-1384"/>
+    <component base="_substemSm" xOffset="-1050" yOffset="-472"/>
+    <component base="_substemSm" xOffset="-589" yOffset="-472"/>
   </outline>
   <lib>
     <dict>

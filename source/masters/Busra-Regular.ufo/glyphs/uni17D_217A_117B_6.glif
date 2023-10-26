@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D217A117B6" format="2">
   <advance width="1456"/>
-  <anchor x="0" y="0" name="C6_1"/>
-  <anchor x="728" y="20" name="C6_2"/>
-  <anchor x="1476" y="20" name="C6_3"/>
-  <anchor x="-20" y="0" name="L_1"/>
-  <anchor x="730" y="20" name="L_2"/>
-  <anchor x="1680" y="-20" name="L_3"/>
-  <anchor x="0" y="1000" name="UR_1"/>
-  <anchor x="748" y="1000" name="UR_2"/>
-  <anchor x="1436" y="1000" name="UR_3"/>
-  <anchor x="0" y="1000" name="U_1"/>
-  <anchor x="748" y="1000" name="U_2"/>
-  <anchor x="708" y="1000" name="U_3"/>
-  <anchor x="1007" y="1236" name="zxc1"/>
+  <anchor x="215" y="0" name="LC_1"/>
+  <anchor x="511" y="0" name="LC_2"/>
+  <anchor x="323" y="0" name="L_1"/>
+  <anchor x="1211" y="0" name="L_2"/>
+  <anchor x="215" y="0" name="UC_1"/>
+  <anchor x="511" y="1580" name="UC_2"/>
+  <anchor x="323" y="1580" name="U_1"/>
+  <anchor x="1211" y="1580" name="U_2"/>
   <outline>
     <component base="_w" xOffset="-553" yOffset="-714"/>
     <component base="_stemSub" xOffset="195" yOffset="-100"/>

@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D2179D.low" format="2">
-  <anchor x="0" y="-525" name="B2"/>
-  <anchor x="0" y="0" name="_B1"/>
-  <anchor x="0" y="0" name="_B2"/>
-  <anchor x="-20" y="0" name="_L"/>
+  <anchor x="-225" y="-1340" name="LL"/>
+  <anchor x="-245" y="-670" name="_L"/>
+  <anchor x="-225" y="-670" name="_LL"/>
   <outline>
-    <component base="_eyelash" xScale="0.81451" yScale="0.81451" xOffset="-665" yOffset="-1620"/>
-    <component base="uni17D21780.low"/>
     <contour>
       <point x="-865" y="-1238" type="line"/>
       <point x="-845" y="-1178"/>
@@ -22,6 +19,8 @@
       <point x="-901" y="-1111"/>
       <point x="-933" y="-1204" type="curve"/>
     </contour>
+    <component base="_eyelash" xScale="0.81451" yScale="0.81451" xOffset="-665" yOffset="-1620"/>
+    <component base="uni17D21780.low"/>
   </outline>
   <lib>
     <dict>

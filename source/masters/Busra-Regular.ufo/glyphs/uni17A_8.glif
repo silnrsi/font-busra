@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17A8" format="2">
   <advance width="1358"/>
   <unicode hex="17A8"/>
-  <anchor x="1437" y="-190" name="NG"/>
-  <anchor x="730" y="0" name="def"/>
+  <anchor x="1113" y="-230" name="L"/>
+  <anchor x="671" y="-230" name="LC"/>
+  <anchor x="1113" y="1840" name="U"/>
+  <anchor x="643" y="1840" name="UC"/>
   <outline>
     <component base="uni17A7"/>
     <component base="uni17CA" xOffset="1390" yOffset="-105"/>

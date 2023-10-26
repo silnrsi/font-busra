@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17B1.alt2" format="2">
   <advance width="1358"/>
-  <anchor x="1437" y="0" name="NG"/>
   <outline>
-    <component base="_2"/>
     <contour>
       <point x="1004" y="564" type="line"/>
       <point x="1004" y="65" type="line" smooth="yes"/>
@@ -49,6 +47,7 @@
       <point x="155" y="1523"/>
       <point x="174" y="1442"/>
     </contour>
+    <component base="_2"/>
   </outline>
   <lib>
     <dict>

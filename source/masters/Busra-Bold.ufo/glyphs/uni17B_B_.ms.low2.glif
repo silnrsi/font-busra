@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17BB.ms.low2" format="2">
-  <anchor x="-20" y="0" name="_L"/>
   <outline>
     <component base="uni17BB.low.narrow" xOffset="-101" yOffset="-582"/>
   </outline>

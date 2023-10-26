@@ -1,16 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D217A6" format="2">
-  <anchor x="0" y="-500" name="B2"/>
-  <anchor x="0" y="680" name="_B1"/>
-  <anchor x="0" y="690" name="_B2"/>
-  <anchor x="0" y="0" name="_D2"/>
-  <anchor x="-20" y="0" name="_L"/>
-  <anchor x="-940" y="0" name="_N"/>
-  <anchor x="-1030" y="0" name="_NC"/>
-  <anchor x="-240" y="0" name="_NG"/>
+  <anchor x="-225" y="-670" name="LL"/>
+  <anchor x="-245" y="0" name="_L"/>
+  <anchor x="-225" y="0" name="_LL"/>
   <outline>
-    <component base="uni17D2178A" xOffset="-503" yOffset="-100"/>
-    <component base="_substemMed" xOffset="-616" yOffset="-533"/>
     <contour>
       <point x="-516" y="-723" type="line"/>
       <point x="-216" y="-723" type="line"/>
@@ -115,6 +108,8 @@
       <point x="-648" y="-1097"/>
       <point x="-691" y="-1084"/>
     </contour>
+    <component base="uni17D2178A" xOffset="-503" yOffset="-100"/>
+    <component base="_substemMed" xOffset="-616" yOffset="-533"/>
   </outline>
   <lib>
     <dict>

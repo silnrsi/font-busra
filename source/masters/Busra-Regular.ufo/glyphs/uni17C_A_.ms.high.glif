@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17CA.ms.high" format="2">
-  <anchor x="0" y="300" name="A0"/>
-  <anchor x="20" y="1000" name="_UR"/>
-  <anchor x="0" y="0" name="_def"/>
   <outline>
     <component base="uni17CA" yOffset="290"/>
   </outline>

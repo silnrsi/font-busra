@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D217A1" format="2">
   <advance width="750"/>
+  <anchor x="-225" y="-670" name="LL"/>
+  <anchor x="-245" y="0" name="_L"/>
+  <anchor x="-225" y="0" name="_LL"/>
   <outline>
     <component base="_w" xOffset="-588" yOffset="-722"/>
     <component base="_L.ear" xOffset="-7"/>

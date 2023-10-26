@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1794" format="2">
   <advance width="1500"/>
   <unicode hex="1794"/>
-  <anchor x="787" y="0" name="def"/>
+  <anchor x="1255" y="0" name="L"/>
+  <anchor x="788" y="0" name="LC"/>
+  <anchor x="1255" y="1580" name="U"/>
+  <anchor x="785" y="1580" name="UC"/>
   <outline>
     <component base="_L.ear" xOffset="-7"/>
     <component base="_curve" xOffset="162"/>

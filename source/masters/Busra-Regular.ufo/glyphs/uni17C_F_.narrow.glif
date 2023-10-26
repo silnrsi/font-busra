@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17CF.narrow" format="2">
   <guideline x="-778"/>
-  <anchor x="0" y="450" name="A0"/>
-  <anchor x="0" y="0" name="_B6"/>
-  <anchor x="-700" y="0" name="_H"/>
-  <anchor x="0" y="1000" name="_NA"/>
-  <anchor x="0" y="1000" name="_U"/>
+  <anchor x="-695" y="1860" name="UA"/>
+  <anchor x="-695" y="1580" name="_UA"/>
+  <anchor x="-715" y="1580" name="_UC"/>
   <outline>
     <component base="uni17CF" xOffset="330"/>
   </outline>

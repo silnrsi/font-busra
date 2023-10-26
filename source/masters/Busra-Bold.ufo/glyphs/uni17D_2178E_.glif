@@ -1,18 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D2178E" format="2">
-  <anchor x="0" y="0" name="B2"/>
-  <anchor x="-260" y="0" name="_L"/>
-  <anchor x="-938" y="0" name="_N"/>
-  <anchor x="-938" y="0" name="_NC"/>
-  <anchor x="0" y="0" name="_NG"/>
-  <anchor x="-938" y="0" name="_def"/>
+  <anchor x="-225" y="-670" name="LL"/>
+  <anchor x="-938" y="0" name="_LC"/>
   <outline>
-    <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="-1347" yOffset="-853"/>
-    <component base="_subarch" xOffset="-1952" yOffset="140"/>
-    <component base="_subarch" xOffset="-974" yOffset="140"/>
-    <component base="_substemMed" xOffset="-466" yOffset="-236"/>
-    <component base="_substemSm" xOffset="-1910" yOffset="-47"/>
-    <component base="_substemTiny" xOffset="-466" yOffset="73"/>
     <contour>
       <point x="-938" y="-609" type="curve" smooth="yes"/>
       <point x="-919" y="-609"/>
@@ -45,6 +35,12 @@
       <point x="-1022" y="-710"/>
       <point x="-957" y="-609"/>
     </contour>
+    <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="-1347" yOffset="-853"/>
+    <component base="_subarch" xOffset="-1952" yOffset="140"/>
+    <component base="_subarch" xOffset="-974" yOffset="140"/>
+    <component base="_substemMed" xOffset="-466" yOffset="-236"/>
+    <component base="_substemSm" xOffset="-1910" yOffset="-47"/>
+    <component base="_substemTiny" xOffset="-466" yOffset="73"/>
   </outline>
   <lib>
     <dict>

@@ -22,6 +22,7 @@
 @above_vowels_high_narrow2 = [uni17B8.ms.narrowhigh uni17B9.ms.narrowhigh uni17BA.ms.narrowhigh uni17CF.ms.narrowhigh uni17D0 uni17D0.ms.high];
 @above_vowels_narrow = [uni17B7.narrow uni17B717CD.narrow uni17B8.narrow uni17B9.narrow uni17BA.narrow];
 @above_vowels_narrow2 = [uni17B8.narrow uni17B9.narrow uni17BA.narrow uni17CF.narrow uni17D0];
+@any_coeng = [uni17D21780 uni17D21781 uni17D21782 uni17D21783 uni17D21784 uni17D21785 uni17D21786 uni17D21787 uni17D21788 uni17D21789 uni17D2178A uni17D2178B uni17D2178C uni17D2178D uni17D2178E uni17D2178F uni17D21790 uni17D21791 uni17D21792 uni17D21793 uni17D21794 uni17D21795 uni17D21796 uni17D21797 uni17D21798 uni17D21799 uni17D2179A uni17D2179B uni17D2179C uni17D2179D uni17D2179E uni17D2179F uni17D217A0 uni17D217A1];
 @base_cons = [uni1780 uni1781 uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789 uni178A uni178B uni178C uni178D uni178E uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179B uni179C uni179D uni179E uni179F uni17A0 uni17A1 uni17A2 uni17A3 uni17A4 uni17A5 uni17A6 uni17A7 uni17A8 uni17A9 uni17AA uni17AB uni17AC uni17AD uni17AE uni17AF uni17B0 uni17B1 uni17B1.alt uni17B2 uni17B3 uni17B3.alt];
 @base_high1 = [uni1784 uni1787 uni178A uni1790 uni1795 uni17A5 uni17A8 uni17AF];
 @base_high2 = [uni178B uni17A6];
@@ -38,6 +39,7 @@
 @base_no_NA_no_low = [uni1780 uni1781 uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789 uni178A uni178B uni178C uni178D uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179B uni179C uni179D uni179E uni179F uni17A0 uni17A2 uni17A3 uni17A4 uni17A5 uni17A7 uni17A8 uni17A9 uni17AA uni17AF uni17B0 uni17B1 uni17B2 uni17B3];
 @base_no_lig = [uni1781 uni1784 uni1787 uni178A uni178C uni178E uni1790 uni1791 uni1793 uni1795 uni17A0 uni17A3 uni17A4 uni17A5 uni17A6 uni17A7 uni17A8 uni17A9 uni17AA uni17AB uni17AC uni17AD uni17AE uni17AF uni17B0 uni17B1 uni17B2 uni17B3];
 @base_not_low = [uni1780 uni1781 uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789.alt uni178A uni178B uni178C uni178D uni178E uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179B uni179C uni179D uni179E uni179F uni17A0 uni17A2 uni17A3 uni17A4 uni17A5 uni17A7 uni17A8 uni17A9 uni17AA uni17AF uni17B1 uni17B2 uni17B3];
+@base_strong = [uni1780 uni17D21780 uni1781 uni17D21781 uni1782 uni17D21782 uni1783 uni17D21783 uni1785 uni17D21785 uni1786 uni17D21786 uni1787 uni17D21787 uni1788 uni17D21788 uni178A uni17D2178A uni178D uni17D2178D uni178F uni17D2178F uni1790 uni17D21790 uni1791 uni17D21791 uni1792 uni17D21792 uni1795 uni17D21795 uni1796 uni17D21796 uni1797 uni17D21797 uni179E uni17D2179E uni179F uni17A0 uni17D217A0 uni17A2 uni17D217A2];
 @base_triisap_shift = [uni179E uni17D2179E uni179F uni17D2179F uni17A0 uni17A2 zerowidthjoiner];
 @base_triisap_shift2 = [uni179E uni17D2179E uni179F uni17A0 uni17A2 zerowidthjoiner];
 @base_wide = [uni1783 uni1788 uni1789 uni1789.alt uni178D uni178E uni1799 uni179B uni179F uni17A0 uni17A1 uni17A6];
@@ -102,6 +104,7 @@
 @above_sym_narrow = [@above_vowels_narrow uni17CC.narrow uni17CF.narrow uni17DD.narrow];
 @base_low_all = [@base_low1 @base_low2];
 @below_all_level1 = [@below_coeng uni17BB uni17BC uni17BD uni17D2];
+@below_vowel = [uni17BB uni17BC uni17BD];
 @below_coeng_all = [@below_coeng @below_coeng_low];
 @below_coeng_level2 = [@below_coeng_low @coeng_A3_plus];
 @below_coeng_marks = [@below_coeng @below_coeng_low @below_marks uni17BB.ms.low2];
@@ -113,6 +116,23 @@
 @post_coeng_all = [@post_coeng @post_coeng_low];
 @regshift_narrow_robat = [@regshift_narrow uni17CC.narrow uni17CC.ms.narrowhigh];
 @regshift_robat = [@regshift @robat];
+@split_vowels = [uni17BE uni17BF uni17C0 uni17C4 uni17C5];
+
+def optlist(*alist) {
+    if len(alist) > 0:
+        b = alist[0]
+        if isinstance(b, (list, tuple)):
+            prefixes = [b[:i+1] for i in range(len(b))]
+        else:
+            prefixes = [[b]]
+        for r in optlist(*alist[1:]):
+            for p in prefixes:
+                yield tuple(p) + r
+            yield r
+    else:
+        yield alist
+} optlist;
+    
 
 # Mark classes
 
@@ -123,6 +143,12 @@
 lookup coeng_ro_primary {
     sub uni17D2 uni179A by uni17D2179A;
 } coeng_ro_primary;
+
+# 5. Context coeng variation
+# 5.1 lower coengs after coeng ro
+lookup belowcoeng_after_ro {
+    sub uni17D2 by dottedcircle uni17D2;
+} belowcoeng_after_ro;
 
 # 1.2 Convert coeng sequences into subjoinable glyphs
 lookup coeng_below {
@@ -193,7 +219,61 @@ lookup Muusikatoan_a {
 } Muusikatoan_a;
 
 # 3. Split vowels
-# 3.1 Break apart split vowels, right part
+
+lookup insert_dotted_circle {
+    sub @above_vowels by dottedcircle @above_vowels;
+    sub @below_vowel by dottedcircle @below_vowel;
+    sub uni17B6 by dottedcircle uni17B6;
+} insert_dotted_circle;
+
+# 3.1 Insert dotted circles for bad vowel sequences
+lookup bad_vowels {
+   # sub uni17C1 @coeng_ro? @base_cons uni17CC? @any_coeng? @any_coeng? @below_vowel? uni17B8' lookup insert_dotted_circle;
+do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"], "@below_vowel");
+    let s = " ".join(l);
+    {
+        sub uni17C1 @coeng_ro @base_cons $s uni17B8' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s uni17B8' lookup insert_dotted_circle;
+    }
+
+do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"], "@below_vowel", "@above_vowels");
+    let s = " ".join(l);
+    {
+        sub uni17C1 @coeng_ro @base_cons $s uni17B6' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s uni17B6' lookup insert_dotted_circle;
+    }
+
+   sub uni17BB @above_vowels' lookup insert_dotted_circle;
+
+   # sub uni17C1 @coeng_ro? @base_cons uni17CC? @any_coeng? @any_coeng? [uni17C9 uni17CA]? [uni17BE uni17BF uni17C0] @below_vowel? @above_vowels' lookup insert_dotted_circle;
+do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"]);
+    let s = " ".join(l);
+    {
+        sub uni17C1 @coeng_ro @base_cons $s [uni17BE uni17BF uni17C0] @above_vowels' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s [uni17BE uni17BF uni17C0] @above_vowels' lookup insert_dotted_circle;
+        sub uni17C1 @coeng_ro @base_cons $s [uni17BE uni17BF uni17C0] @below_vowel @above_vowels' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s [uni17BE uni17BF uni17C0] @below_vowel @above_vowels' lookup insert_dotted_circle;
+    }
+
+   # sub uni17C1 @coeng_ro? @base_cons uni17CC? @coeng_no_ro? @coeng_no_ro? [uni17C9 uni17CA]? [uni17BF uni17C0] @below_vowel' lookup insert_dotted_circle;
+do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"]);
+    let s = " ".join(l);
+    {
+        sub uni17C1 @coeng_ro @base_cons $s [uni17BF uni17C0] @below_vowel' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s [uni17BF uni17C0] @below_vowel' lookup insert_dotted_circle;
+    }
+
+   # sub uni17C1 @coeng_ro? @base_cons uni17CC? @coeng_no_ro? @coeng_no_ro? [uni17C9 uni17CA]? [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
+do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"]);
+    let s = " ".join(l);
+    {
+        sub uni17C1 @coeng_ro @base_cons $s [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
+    }
+
+} bad_vowels;
+
+# 3.2 Break apart split vowels, right part
 lookup Post_base_forms {
     sub uni17BF by uni17BF.rightpart1;
     sub uni17C0 by uni17C0.rightpart1;
@@ -220,30 +300,50 @@ lookup above_form {
 # 2.2 Downshift muusikatoan following 1784 1789, 1793-4, 1798-D, ZWJ. Need to add 178E, 17A1?
 # Also don't downshift if there is a strong in the cluster (e.g. strong base + weak coeng)
 # ZWJ is not supported now. Also check for ZWNJ.
+lookup shifter_error_p1 {
+    sub uni17C9 by dottedcircle uni17C9;
+    sub uni17C9.a by dottedcircle uni17C9;
+    sub uni17CA by dottedcircle uni17CA;
+} shifter_error_p1;
+
+lookup shifter_error_p2 {
+    sub uni17C9 zerowidthjoiner by uni17C9;
+} shifter_error_p2;
+
+lookup reg_shift_muusikatoan2_action {
+    sub uni17C9 by uni17BB;
+    sub uni17C9.a by uni17BB;
+} reg_shift_muusikatoan2_action;
+
+@all17C9 = [uni17C9 uni17C9.a];
 lookup reg_shift_muusikatoan2 {
-    sub @base_muusikatoan_shift uni17C9' @above_symbol_RS_shift by uni17BB;
-    sub @base_muusikatoan_shift uni17C9.a' @above_symbol_RS_shift by uni17BB;
-    sub @base_muusikatoan_shift uni17C9' @coeng_no_ro @above_symbol_RS_shift by uni17BB;
-    sub @base_muusikatoan_shift uni17C9.a' @coeng_no_ro @above_symbol_RS_shift by uni17BB;
-    sub @base_muusikatoan_shift uni17C9' @coeng_no_ro @coeng_no_ro @above_symbol_RS_shift by uni17BB;
-    sub @base_muusikatoan_shift uni17C9.a' @coeng_no_ro @coeng_no_ro @above_symbol_RS_shift by uni17BB;
-    sub @base_muusikatoan_shift uni17C9' uni17B6 uni17C6 by uni17BB;
-    sub @base_muusikatoan_shift uni17C9.a' uni17B6 uni17C6 by uni17BB;
-    sub @base_muusikatoan_shift uni17C9' @coeng_no_ro uni17B6 uni17C6 by uni17BB;
-    sub @base_muusikatoan_shift uni17C9.a' @coeng_no_ro uni17B6 uni17C6 by uni17BB;
-    sub @base_muusikatoan_shift uni17C9' @coeng_no_ro @coeng_no_ro uni17B6 uni17C6 by uni17BB;
-    sub @base_muusikatoan_shift uni17C9.a' @coeng_no_ro @coeng_no_ro uni17B6 uni17C6 by uni17BB;
+    sub @base_strong @all17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
+    sub @base_strong @base_muusikatoan_shift @all17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
+    sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift @all17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
+    sub @all17C9' lookup shifter_error_p1 @coeng_no_ro;
+    sub @all17C9' lookup reg_shift_muusikatoan2_action @above_symbol_RS_shift;
+    sub @all17C9' lookup reg_shift_muusikatoan2_action uni17B6 uni17C6;
 } reg_shift_muusikatoan2;
 
 # 2.3 Downshift triisap following 179E-F 17A0 17A2 ZWJ
 # This needs quite a bit of work
+lookup reg_shift_triisap2_action {
+    sub uni17CA by uni17BB;
+} reg_shift_triisap2_action;
+
 lookup reg_shift_triisap2 {
-    sub @base_triisap_shift uni17CA' @above_symbol_RS_shift by uni17BB;
-    sub @base_triisap_shift uni17CA' @coeng_no_ro @above_symbol_RS_shift by uni17BB;
-    sub @base_triisap_shift uni17CA' @coeng_no_ro @coeng_no_ro @above_symbol_RS_shift by uni17BB;
-    sub @base_triisap_shift2 uni17CA' uni17B6 uni17C6 by uni17BB;
-    sub @base_triisap_shift2 uni17CA' @coeng_no_ro uni17B6 uni17C6 by uni17BB;
-    sub @base_triisap_shift2 uni17CA' @coeng_no_ro @coeng_no_ro uni17B6 uni17C6 by uni17BB;
+    sub uni17CA' lookup shifter_error_p1 @any_coeng;
+    sub @base_strong uni17CA' lookup reg_shift_triisap2_action @above_symbol_RS_shift;
+    sub @base_strong uni17CA' lookup reg_shift_triisap2_action uni17B6 uni17C6;
+    sub @base_strong @base_muusikatoan_shift uni17CA' lookup reg_shift_triisap2_action @above_symbol_RS_shift;
+    sub @base_strong @base_muusikatoan_shift uni17CA' lookup reg_shift_triisap2_action uni17B6 uni17C6;
+    sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift uni17CA' lookup reg_shift_triisap2_action @above_symbol_RS_shift;
+    sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift uni17CA' lookup reg_shift_triisap2_action uni17B6 uni17C6;
+    ignore sub @base_strong uni17CA';
+    ignore sub @base_strong @base_muusikatoan_shift uni17CA';
+    ignore sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift uni17CA';
+    ignore sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift  @base_muusikatoan_shift uni17CA';
+    sub @base_muusikatoan_shift uni17CA' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
 } reg_shift_triisap2;
 
 # 2.4 ZWJ push down, but we don't support this.
@@ -265,13 +365,9 @@ lookup Remove_200D {
 
 # 2.6 Remove redundant ZWJ and ZWNJ. Strict add errors
 lookup remove_200CD_RS {
-    sub zerowidthnonjoiner uni17C9 by uni17C9;
-    sub zerowidthnonjoiner uni17CA by uni17CA;
-    sub zerowidthnonjoiner uni17CA.lower by uni17CA.lower;
-    sub zerowidthjoiner uni17B7 by uni17B7;
-    sub zerowidthjoiner uni17B8 by uni17B8;
-    sub zerowidthjoiner uni17B9 by uni17B9;
-    sub zerowidthjoiner uni17BA by uni17BA;
+    sub uni17C9 zerowidthnonjoiner by uni17C9;
+    sub uni17C9.a zerowidthnonjoiner by uni17C9.a;
+    sub uni17CA zerowidthnonjoiner by uni17CA;
 } remove_200CD_RS;
 
 # 4. Contextual variant marks
@@ -374,127 +470,61 @@ lookup uni17bb_2coeng_lig {
 } uni17bb_2coeng_lig;
 
 # 4.8 lower below vowels under coengs, if preceding: strict this is an error
+lookup action_low {
+    sub uni17BB by uni17BB.low;
+    sub uni17BC by uni17BC.low;
+    sub uni17BD by uni17BD.low;
+    sub uni17D2 by uni17D2.low;
+} action_low;
+
+@low_belows = [uni17BB uni17BC uni17BD uni17D2];
+
 lookup low_below_vowel {
-    sub uni17BB' @coeng_no_ro by uni17BB.low;
-    sub uni17BC' @coeng_no_ro by uni17BC.low;
-    sub uni17BD' @coeng_no_ro by uni17BD.low;
-    sub uni17D2' @coeng_no_ro by uni17D2.low;
-    sub @coeng_no_ro uni17BB' by uni17BB.low;
-    sub @coeng_no_ro uni17BC' by uni17BC.low;
-    sub @coeng_no_ro uni17BD' by uni17BD.low;
-    sub @coeng_no_ro uni17D2' by uni17D2.low;
-    sub @coeng_no_ro @regshift uni17BB' by uni17BB.low;
-    sub @coeng_no_ro @regshift uni17BC' by uni17BC.low;
-    sub @coeng_no_ro @regshift uni17BD' by uni17BD.low;
-    sub @coeng_no_ro @regshift uni17D2' by uni17D2.low;
-    sub uni1789 uni17BB' by uni17BB.low;
-    sub uni1789 uni17BC' by uni17BC.low;
-    sub uni1789 uni17BD' by uni17BD.low;
-    sub uni1789 uni17D2' by uni17D2.low;
-    sub uni1789 @regshift_robat uni17BB' by uni17BB.low;
-    sub uni1789 @regshift_robat uni17BC' by uni17BC.low;
-    sub uni1789 @regshift_robat uni17BD' by uni17BD.low;
-    sub uni1789 @regshift_robat uni17D2' by uni17D2.low;
-    sub uni17D2179A @base_narrow uni17BB' by uni17BB.low;
-    sub uni17D2179A @base_narrow uni17BC' by uni17BC.low;
-    sub uni17D2179A @base_narrow uni17BD' by uni17BD.low;
-    sub uni17D2179A @base_narrow uni17D2' by uni17D2.low;
-    sub uni17D2179A @base_narrow @regshift_robat uni17BB' by uni17BB.low;
-    sub uni17D2179A @base_narrow @regshift_robat uni17BC' by uni17BC.low;
-    sub uni17D2179A @base_narrow @regshift_robat uni17BD' by uni17BD.low;
-    sub uni17D2179A @base_narrow @regshift_robat uni17D2' by uni17D2.low;
-    sub @base_low1 uni17BB' by uni17BB.low;
-    sub @base_low1 uni17BC' by uni17BC.low;
-    sub @base_low1 uni17BD' by uni17BD.low;
-    sub @base_low1 uni17D2' by uni17D2.low;
-    sub @base_low1 @regshift_robat uni17BB' by uni17BB.low;
-    sub @base_low1 @regshift_robat uni17BC' by uni17BC.low;
-    sub @base_low1 @regshift_robat uni17BD' by uni17BD.low;
-    sub @base_low1 @regshift_robat uni17D2' by uni17D2.low;
-    sub @base_low2 uni17BB' by uni17BB.low;
-    sub @base_low2 uni17BC' by uni17BC.low;
-    sub @base_low2 uni17BD' by uni17BD.low;
-    sub @base_low2 uni17D2' by uni17D2.low;
-    sub @below_coeng @above_position_ALL uni17BB' by uni17BB.low;
-    sub @below_coeng @above_position_ALL uni17BC' by uni17BC.low;
-    sub @below_coeng @above_position_ALL uni17BD' by uni17BD.low;
-    sub @below_coeng @above_position_ALL uni17D2' by uni17D2.low;
+    sub @low_belows' lookup action_low @coeng_no_ro;
+    sub @coeng_no_ro @low_belows' lookup action_low;
+    sub @coeng_no_ro @regshift @low_belows' lookup action_low;
+    sub uni1789 @low_belows' lookup action_low;
+    sub uni1789 @regshift_robat @low_belows' lookup action_low;
+    sub uni17D2179A @base_narrow @low_belows' lookup action_low;
+    sub uni17D2179A @base_narrow @regshift_robat @low_belows' lookup action_low;
+    sub @base_low1 @low_belows' lookup action_low;
+    sub @base_low1 @regshift_robat @low_belows' lookup action_low;
+    sub @base_low2 @low_belows' lookup action_low;
+    sub @below_coeng @above_position_ALL @low_belows' lookup action_low;
 } low_below_vowel;
 
 # 4.7.1 lower vowels following below coengs
 lookup low_below_vowel_xro {
-    sub uni17BB' @coeng_no_ro by uni17BB.low;
-    sub uni17BC' @coeng_no_ro by uni17BC.low;
-    sub uni17BD' @coeng_no_ro by uni17BD.low;
-    sub uni17D2' @coeng_no_ro by uni17D2.low;
-    sub @coeng_no_ro uni17BB' by uni17BB.low;
-    sub @coeng_no_ro uni17BC' by uni17BC.low;
-    sub @coeng_no_ro uni17BD' by uni17BD.low;
-    sub @coeng_no_ro uni17D2' by uni17D2.low;
-    sub @coeng_no_ro @regshift uni17BB' by uni17BB.low;
-    sub @coeng_no_ro @regshift uni17BC' by uni17BC.low;
-    sub @coeng_no_ro @regshift uni17BD' by uni17BD.low;
-    sub @coeng_no_ro @regshift uni17D2' by uni17D2.low;
-    sub uni1789 uni17BB' by uni17BB.low;
-    sub uni1789 uni17BC' by uni17BC.low;
-    sub uni1789 uni17BD' by uni17BD.low;
-    sub uni1789 uni17D2' by uni17D2.low;
-    sub uni1789 @regshift_robat uni17BB' by uni17BB.low;
-    sub uni1789 @regshift_robat uni17BC' by uni17BC.low;
-    sub uni1789 @regshift_robat uni17BD' by uni17BD.low;
-    sub uni1789 @regshift_robat uni17D2' by uni17D2.low;
-    sub uni17D2179A @base_not_low uni17BB' by uni17BB.low;
-    sub uni17D2179A @base_not_low uni17BC' by uni17BC.low;
-    sub uni17D2179A @base_not_low uni17BD' by uni17BD.low;
-    sub uni17D2179A @base_not_low uni17D2' by uni17D2.low;
-    sub uni17D2179A @base_not_low @regshift_robat uni17BB' by uni17BB.low;
-    sub uni17D2179A @base_not_low @regshift_robat uni17BC' by uni17BC.low;
-    sub uni17D2179A @base_not_low @regshift_robat uni17BD' by uni17BD.low;
-    sub uni17D2179A @base_not_low @regshift_robat uni17D2' by uni17D2.low;
-    sub @base_low1 uni17BB' by uni17BB.low;
-    sub @base_low1 uni17BC' by uni17BC.low;
-    sub @base_low1 uni17BD' by uni17BD.low;
-    sub @base_low1 uni17D2' by uni17D2.low;
-    sub @base_low1 @regshift_robat uni17BB' by uni17BB.low;
-    sub @base_low1 @regshift_robat uni17BC' by uni17BC.low;
-    sub @base_low1 @regshift_robat uni17BD' by uni17BD.low;
-    sub @base_low1 @regshift_robat uni17D2' by uni17D2.low;
-    sub @base_low2 uni17BB' by uni17BB.low;
-    sub @base_low2 uni17BC' by uni17BC.low;
-    sub @base_low2 uni17BD' by uni17BD.low;
-    sub @base_low2 uni17D2' by uni17D2.low;
-    sub @below_coeng @above_position_ALL uni17BB' by uni17BB.low;
-    sub @below_coeng @above_position_ALL uni17BC' by uni17BC.low;
-    sub @below_coeng @above_position_ALL uni17BD' by uni17BD.low;
-    sub @below_coeng @above_position_ALL uni17D2' by uni17D2.low;
+    sub @low_belows' lookup action_low @coeng_no_ro;
+    sub @coeng_no_ro @low_belows' lookup action_low;
+    sub @coeng_no_ro @regshift @low_belows' lookup action_low;
+    sub uni1789 @low_belows' lookup action_low;
+    sub uni1789 @regshift_robat @low_belows' lookup action_low;
+    sub uni17D2179A @base_not_low @low_belows' lookup action_low;
+    sub uni17D2179A @base_not_low @low_belows' lookup action_low;
+    sub @base_low1 @low_belows' lookup action_low;
+    sub @base_low1 @regshift_robat @low_belows' lookup action_low;
+    sub @base_low2 @low_belows' lookup action_low;
+    sub @below_coeng @above_position_ALL @low_belows' lookup action_low;
 } low_below_vowel_xro;
 
 # 4.8 narrow below vowels and perhaps lower as well
+lookup action_below_marks_narrow {
+    sub uni17D2 by uni17D2.ms.narrow;
+    sub uni17D2.low by uni17D2.ms.narrowlow;
+    sub uni17BB by uni17BB.narrow;
+    sub uni17BB.low by uni17BB.low.narrow;
+    sub uni17BC by uni17BC.narrow;
+    sub uni17BD by uni17BD.narrow;
+} action_below_marks_narrow;
+
+@narrow_lower = [uni17D2 uni17D2.low uni17BB uni17BB.low uni17BC uni17BD];
+
 lookup below_marks_narrow {
-    sub @base_narrow uni17D2' by uni17D2.ms.narrow;
-    sub @base_narrow uni17D2.low' by uni17D2.ms.narrowlow;
-    sub @base_narrow uni17BB.low' by uni17BB.low.narrow;
-    sub @base_narrow uni17BB' by uni17BB.narrow;
-    sub @base_narrow uni17BC' by uni17BC.narrow;
-    sub @base_narrow uni17BD' by uni17BD.narrow;
-    sub @base_narrow @below_coeng uni17D2' by uni17D2.ms.narrow;
-    sub @base_narrow @below_coeng uni17D2.low' by uni17D2.ms.narrowlow;
-    sub @base_narrow @below_coeng uni17BB.low' by uni17BB.low.narrow;
-    sub @base_narrow @below_coeng uni17BB' by uni17BB.narrow;
-    sub @base_narrow @below_coeng uni17BC' by uni17BC.narrow;
-    sub @base_narrow @below_coeng uni17BD' by uni17BD.narrow;
-    sub @base_narrow @regshift_narrow uni17D2' by uni17D2.ms.narrow;
-    sub @base_narrow @regshift_narrow uni17D2.low' by uni17D2.ms.narrowlow;
-    sub @base_narrow @regshift_narrow uni17BB.low' by uni17BB.low.narrow;
-    sub @base_narrow @regshift_narrow uni17BB' by uni17BB.narrow;
-    sub @base_narrow @regshift_narrow uni17BC' by uni17BC.narrow;
-    sub @base_narrow @regshift_narrow uni17BD' by uni17BD.narrow;
-    sub @base_narrow @regshift_narrow @below_coeng uni17D2' by uni17D2.ms.narrow;
-    sub @base_narrow @regshift_narrow @below_coeng uni17D2.low' by uni17D2.ms.narrowlow;
-    sub @base_narrow @regshift_narrow @below_coeng uni17BB.low' by uni17BB.low.narrow;
-    sub @base_narrow @regshift_narrow @below_coeng uni17BB' by uni17BB.narrow;
-    sub @base_narrow @regshift_narrow @below_coeng uni17BC' by uni17BC.narrow;
-    sub @base_narrow @regshift_narrow @below_coeng uni17BD' by uni17BD.narrow;
+    sub @base_narrow @narrow_lower' lookup action_below_marks_narrow;
+    sub @base_narrow @below_coeng @narrow_lower' lookup action_below_marks_narrow;
+    sub @base_narrow @regshift_narrow @narrow_lower' lookup action_below_marks_narrow;
+    sub @base_narrow @regshift_narrow @below_coeng @narrow_lower' lookup action_below_marks_narrow;
 } below_marks_narrow;
 
 # 4.9 very low forms of split vowel rhs which loop under
@@ -523,44 +553,6 @@ lookup uni1789 {
     sub uni1789' @coeng_no_ro by uni1789.alt;
 } uni1789;
 
-# 5. Context coeng variation
-# 5.1 lower coengs after coeng ro
-lookup belowcoeng_after_ro {
-    sub uni17D21780 by uni17D21780.low;
-    sub uni17D21781 by uni17D21781.low;
-    sub uni17D21782 by uni17D21782.low;
-    sub uni17D21784 by uni17D21784.low;
-    sub uni17D21785 by uni17D21785.low;
-    sub uni17D21786 by uni17D21786.low;
-    sub uni17D21787 by uni17D21787.low;
-    sub uni17D21789 by uni17D21789.low;
-    sub uni17D2178A by uni17D2178A.low;
-    sub uni17D2178B by uni17D2178B.low;
-    sub uni17D2178C by uni17D2178C.low;
-    sub uni17D2178E by uni17D2178E.low;
-    sub uni17D2178F by uni17D2178F.low;
-    sub uni17D21790 by uni17D21790.low;
-    sub uni17D21791 by uni17D21791.low;
-    sub uni17D21792 by uni17D21792.low;
-    sub uni17D21793 by uni17D21793.low;
-    sub uni17D21795 by uni17D21795.low;
-    sub uni17D21796 by uni17D21796.low;
-    sub uni17D21797 by uni17D21797.low;
-    sub uni17D21798 by uni17D21798.low;
-    sub uni17D2179B by uni17D2179B.low;
-    sub uni17D2179C by uni17D2179C.low;
-    sub uni17D2179D by uni17D2179D.low;
-    sub uni17D217A0.alt by uni17D217A0.low.alt;
-    sub uni17D217A1.alt by uni17D217A1.altlow;
-    sub uni17D217A2.alt by uni17D217A2.low.alt;
-    sub uni17D21783.alt by uni17D21783.low.alt;
-    sub uni17D21788.alt by uni17D21788.low.alt;
-    sub uni17D2178D by uni17D2178D.low;
-    sub uni17D21794 by uni17D21794.low;
-    sub uni17D21799 by uni17D21799.low;
-    sub uni17D2179E by uni17D2179E.low;
-    sub uni17D2179F by uni17D2179F.low;
-} belowcoeng_after_ro;
 
 # 5.2 Coeng ro variants
 # 5.2.1 Low coeng ro in some cases
@@ -969,6 +961,7 @@ lookup punctuation1 {
 } punctuation1;
 
 # 8.3.2 following a full space
+# Invert this so that we test for any glyph and adjust then, and leave default for space context version
 lookup punctuation2 {
     sub space uni17D4' by uni17D4.alt2;
     sub space uni17D5' by uni17D5.alt2;
@@ -1238,63 +1231,133 @@ lookup CS5_17C6 {
 
 # ----- POS Lookups -----
 
-# 1. Coeng attachment
-# 1.1 N is 8E, 9A, 9C, _N is coengs
+# 2.9.2 kern ro right after marks above or below a narrow base
+lookup kern_narrow1_target {
+    pos uni179A <180 0 180 0>;
+} kern_narrow1_target;
+
+lookup kern_narrow1 {
+    pos @above_vowels_narrow2 [uni179A]' lookup kern_narrow1_target @above_sym_narrow;
+    pos @above_vowels_narrow2 space [uni179A]' lookup kern_narrow1_target @above_sym_narrow;
+    pos @above_vowels_narrow2 [uni179A]' lookup kern_narrow1_target uni17BB.narrow @above_sym_narrow;
+    pos @above_vowels_narrow2 space [uni179A]' lookup kern_narrow1_target uni17BB.narrow @above_sym_narrow;
+    pos @above_vowels_narrow2 [uni179A]' lookup kern_narrow1_target uni17BB.low.narrow @below_coeng @above_sym_narrow;
+    pos @above_vowels_narrow2 space [uni179A]' lookup kern_narrow1_target uni17BB.low.narrow @below_coeng @above_sym_narrow;
+    pos @above_vowels_narrow2 [uni179A]' lookup kern_narrow1_target @below_coeng @above_sym_narrow;
+    pos @above_vowels_narrow2 space [uni179A]' lookup kern_narrow1_target @below_coeng @above_sym_narrow;
+    pos @base_narrow @below_coeng [uni179A]' lookup kern_narrow1_target @below_coeng;
+    pos @base_narrow @below_coeng space [uni179A]' lookup kern_narrow1_target @below_coeng;
+    pos @below_coeng @above_vowels_narrow [uni179A]' lookup kern_narrow1_target @below_coeng;
+    pos @below_coeng @above_vowels_narrow space [uni179A]' lookup kern_narrow1_target @below_coeng;
+    pos @below_coeng @above_vowels_high_narrow [uni179A]' lookup kern_narrow1_target @below_coeng;
+    pos @below_coeng @above_vowels_high_narrow space [uni179A]' lookup kern_narrow1_target @below_coeng;
+    pos uni17D21798 [uni179A]' lookup kern_narrow1_target @below_vow_narrowwide;
+    pos uni17D21798 space [uni179A]' lookup kern_narrow1_target @below_vow_narrowwide;
+    pos @base_narrow @below_coeng [uni179A]' lookup kern_narrow1_target @below_vow_narrowwide;
+    pos @base_narrow @below_coeng space [uni179A]' lookup kern_narrow1_target @below_vow_narrowwide;
+} kern_narrow1;
+
+# 2.9.3 kern vo right (and va) after things it might collide with
+lookup kern_narrow2_target {
+    pos uni179C <180 0 180 0>;
+    pos uni179C17B6 <180 0 180 0>;
+} kern_narrow2_target;
+
+lookup kern_narrow2 {
+    pos uni17B717CD [uni179C uni179C17B6]' lookup kern_narrow2_target @above_sym_high_narrow;
+    pos uni17B717CD space [uni179C uni179C17B6]' lookup kern_narrow2_target @above_sym_high_narrow;
+    pos @above_vowels_narrow2 [uni179C uni179C17B6]' lookup kern_narrow2_target @above_sym_high_narrow;
+    pos @above_vowels_narrow2 space [uni179C uni179C17B6]' lookup kern_narrow2_target @above_sym_high_narrow;
+    pos @above_vowels_high_narrow2 [uni179C uni179C17B6]' lookup kern_narrow2_target @above_sym_high_narrow;
+    pos @above_vowels_high_narrow2 space [uni179C uni179C17B6]' lookup kern_narrow2_target @above_sym_high_narrow;
+    pos uni17B717CD [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.narrow @above_sym_high_narrow;
+    pos uni17B717CD space [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.narrow @above_sym_high_narrow;
+    pos @above_vowels_narrow2 [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.narrow @above_sym_high_narrow;
+    pos @above_vowels_narrow2 space [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.narrow @above_sym_high_narrow;
+    pos @above_vowels_high_narrow2 [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.narrow @above_sym_high_narrow;
+    pos @above_vowels_high_narrow2 space [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.narrow @above_sym_high_narrow;
+    pos @above_vowels_high_narrow2 [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.low.narrow @below_coeng @above_sym_high_narrow;
+    pos @above_vowels_high_narrow2 space [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.low.narrow @below_coeng @above_sym_high_narrow;
+    pos @above_vowels_high_narrow2 [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng @above_sym_high_narrow;
+    pos @above_vowels_high_narrow2 space [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng @above_sym_high_narrow;
+    pos @base_narrow @below_coeng [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng;
+    pos @base_narrow @below_coeng space [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng;
+    pos @below_coeng @above_vowels_high_narrow [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng;
+    pos @below_coeng @above_vowels_high_narrow space [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng;
+    pos @below_coeng @above_vowels_narrow [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng;
+    pos @below_coeng @above_vowels_narrow space [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng;
+    pos uni17D21798 [uni179C uni179C17B6]' lookup kern_narrow2_target @below_vow_narrowwide;
+    pos uni17D21798 space [uni179C uni179C17B6]' lookup kern_narrow2_target @below_vow_narrowwide;
+    pos @base_narrow @below_coeng [uni179C uni179C17B6]' lookup kern_narrow2_target @below_vow_narrowwide;
+    pos @base_narrow @below_coeng space [uni179C uni179C17B6]' lookup kern_narrow2_target @below_vow_narrowwide;
+} kern_narrow2;
+
+# 1. Basic Attachment
+# 1.1 Centred marks on non ligatures
 lookup mid_pos_coengs {
-    pos base @N mark @_N;
+    pos base @LC mark @_LC;
 } mid_pos_coengs;
 
-# 1.2 NG is 81 8C A7 91 A8 AA B1 B1.alt B3 B3.alt B1.alt2, _NG is coengs
+lookup uc_attach {
+    pos base @UC mark @_UC;
+} uc_attach;
+
+# 1.2 Right aligned marks on non ligatures
 lookup Narrow_gap_base {
-    pos base @NG mark @_NG;
+    pos base @L mark @_L;
 } Narrow_gap_base;
+
+lookup u_attach {
+    pos base @U mark @_U;
+} u_attach;
 
 # 1.3 lower low coengs (odd to do this here)
 # 1.3.1 Action lookup
 lookup below_coeng_low1_target {
-    pos @below_coeng <0 -600 0 0>;
+    pos mark @LL_MarkBase mark @_LL;
+    #pos @below_coeng <0 -600 0 0>;
 #    pos uni17D2 ;
 } below_coeng_low1_target;
 
 # 1.3.2 Context lookup
-lookup below_coeng_low1 {
-    pos @base_low1 [@below_coeng uni17D2]' lookup below_coeng_low1_target;
-    pos @base_low1 @regshift [@below_coeng uni17D2]' lookup below_coeng_low1_target;
-} below_coeng_low1;
+#lookup below_coeng_low1 {
+    #pos @base_low1 [@below_coeng uni17D2]' lookup below_coeng_low1_target;
+    #pos @base_low1 @regshift [@below_coeng uni17D2]' lookup below_coeng_low1_target;
+#} below_coeng_low1;
 
 # 1.4 Extra low coengs
 # 1.4.1 Action lookup
-lookup below_coeng_low2_target {
-    pos uni17D2 <0 -700 0 0>;
-    pos @coeng_no_flat <0 -700 0 0>;
-} below_coeng_low2_target;
+#lookup below_coeng_low2_target {
+#    pos uni17D2 <0 -700 0 0>;
+#    pos @coeng_no_flat <0 -700 0 0>;
+#} below_coeng_low2_target;
 
 # 1.4.2 Context lookup
-lookup below_coeng_low2 {
-    pos @base_low2 [uni17D2 @coeng_no_flat]' lookup below_coeng_low2_target;
-    pos @base_low2 @regshift_robat [uni17D2 @coeng_no_flat]' lookup below_coeng_low2_target;
-} below_coeng_low2;
+#lookup below_coeng_low2 {
+#    pos @base_low2 [uni17D2 @coeng_no_flat]' lookup below_coeng_low2_target;
+#    pos @base_low2 @regshift_robat [uni17D2 @coeng_no_flat]' lookup below_coeng_low2_target;
+#} below_coeng_low2;
 
 # 1.5. Less low marks
 # 1.5.1 Action lookup
-lookup below_coeng_low3_target {
-    pos @below_marks <0 -190 0 0>;
-} below_coeng_low3_target;
+#lookup below_coeng_low3_target {
+#    pos @below_marks <0 -190 0 0>;
+#} below_coeng_low3_target;
 
 # 1.5.2 Context lookup
-lookup below_coeng_low3 {
-    pos uni17AA [@below_marks]' lookup below_coeng_low3_target;
-    pos uni17AA @regshift [@below_marks]' lookup below_coeng_low3_target;
-    pos uni17B1 [@below_marks]' lookup below_coeng_low3_target;
-    pos uni17B1 @regshift_robat [@below_marks]' lookup below_coeng_low3_target;
-    pos uni17B3 [@below_marks]' lookup below_coeng_low3_target;
-    pos uni17B3 @regshift_robat [@below_marks]' lookup below_coeng_low3_target;
-} below_coeng_low3;
+#lookup below_coeng_low3 {
+#    pos uni17AA [@below_marks]' lookup below_coeng_low3_target;
+#    pos uni17AA @regshift [@below_marks]' lookup below_coeng_low3_target;
+#    pos uni17B1 [@below_marks]' lookup below_coeng_low3_target;
+#    pos uni17B1 @regshift_robat [@below_marks]' lookup below_coeng_low3_target;
+#    pos uni17B3 [@below_marks]' lookup below_coeng_low3_target;
+#    pos uni17B3 @regshift_robat [@below_marks]' lookup below_coeng_low3_target;
+#} below_coeng_low3;
 
 # 1.6 spacing coengs in sequence
-lookup coeng_post_ext {
-    pos base @D2 mark @_D2;
-} coeng_post_ext;
+#lookup coeng_post_ext {
+#    pos base @D2 mark @_D2;
+#} coeng_post_ext;
 
 # 2. Above marks
 # 2.1 Centering marks
@@ -1318,6 +1381,14 @@ lookup Centered_above {
 } Centered_above;
 
 # 2.2 Raise above robat
+lookup above_chain {
+    pos mark @UU_MarkBase mark @_UU;
+} above_chain;
+
+lookup above_chain_centred {
+    pos mark @UA_MarkBase mark @_UA;
+} above_chain_centred;
+
 # 2.2.1 Action lookup
 lookup Base_robat1_target {
     pos @above_symbols_high2 <0 100 0 0>;
@@ -1353,90 +1424,55 @@ lookup Base_robat2 {
 
 # 2.4 Basic attachments
 # 2.4.1 Action Default: Latin, narrow Khmer bases; diacritics (odd collection)
-lookup def_attach {
-    pos base @def mark @_def;
-} def_attach;
+#lookup def_attach {
+#    pos base @def mark @_def;
+#} def_attach;
 
 # 2.4.2 Context for Khmer narrow bases
-lookup medium_coeng_centered {
-    pos @base_medium [uni17D2178E uni17D21789.alt1 uni17D21789.alt2]' lookup def_attach;
-} medium_coeng_centered;
+#lookup medium_coeng_centered {
+#    pos @base_medium [uni17D2178E uni17D21789.alt1 uni17D21789.alt2]' lookup def_attach;
+#} medium_coeng_centered;
 
 # 2.4.3 17A9 and 17BF rightparts taking narrow marks
-lookup uni17A9 {
-    pos base @H mark @_H;
-} uni17A9;
+#lookup uni17A9 {
+#    pos base @H mark @_H;
+#} uni17A9;
 
 # 2.4.4 Ligature attachment
-do  let o = set(feaclass("C6_1"));
-    let t = set(feaclass("C6_3"));
-    let d = " ".join(sorted(o - t));
-    { @C62 = [ $d ]; }
+#do  let o = set(feaclass("C6_1"));
+#    let t = set(feaclass("C6_3"));
+#    let d = " ".join(sorted(o - t));
+#    { @C62 = [ $d ]; }
     
 lookup ligatures {
-    pos ligature @C62
-          # @UR1 mark @_UR
-          @U_1 mark @_U
-          # @C61 mark @_C6
+    pos ligature [@L_1 @L_2 @LC_1 @LC_2 @UC_1 @UC_2 @U_1 @U_2]
           @L_1 mark @_L
-      ligComponent
-          # @UR2 mark @_UR
-          @U_2 mark @_U
-          # @C62 mark @_C6
-          @L_2 mark @_L;
-    
-    pos ligature @C6_3
-          # @UR1 mark @_UR
+          @LC_1 mark @_LC
           @U_1 mark @_U
-          # @C61 mark @_C6
-          @L_1 mark @_L
-      ligComponent
-          # @UR2 mark @_UR
-          @U_2 mark @_U
-          # @C62 mark @_C6
+          @UC_1 mark @_UC
+       ligComponent
           @L_2 mark @_L
-      ligComponent
-          # @UR3 mark @_UR
-          @U_3 mark @_U
-          # @C63 mark @_C6
-          @L_3 mark @_L;
+          @LC_2 mark @_LC
+          @U_2 mark @_U
+          @UC_2 mark @_UC;
 } ligatures;
-
-# Split up ligatures_cent since _def class is too big
-lookup ligatures_cent {
-    pos ligature @NC_1
-            @NC_1 mark @_NC
-            @NBB_1 mark @_NBB
-            @C6C_1 mark @_C6C
-        ligComponent
-            @NC_2 mark @_NC
-            @NBB_2 mark @_NBB
-            @C6C_2 mark @_C6C;
-} ligatures_cent;
-
-lookup ligatures_cent_def_attach {
-    pos ligature @NC_1
-            @def_1 mark @_def
-        ligComponent
-            @def_2 mark @_def;
-} ligatures_cent_def_attach;
 
 @centdef = [uni17BB.low.narrow uni17D0 uni17D0.ms.high uni17C6 @regshift @robat];
 
 # context for def ligature attachment
-lookup ligatures_cent_def {
-    pos @NC_1' @centdef' lookup ligatures_cent_def_attach;
-} ligatures_cent_def;
+#lookup ligatures_cent_def {
+#    pos @NC_1' @centdef' lookup ligatures_cent_def_attach;
+#} ligatures_cent_def;
 
 # 2.4.5 Below attachment marks to base
-lookup below_post_coeng_low {
-    pos base @B1 mark @_B1;
-} below_post_coeng_low;
+#lookup below_post_coeng_low {
+#    pos base @B1 mark @_B1;
+#} below_post_coeng_low;
 
 # 2.4.6 Mark to mark below attachment
-lookup below_multiple {
-    pos mark @B2_MarkBase mark @_B2;
-} below_multiple;
+#lookup below_multiple {
+#    pos mark @B2_MarkBase mark @_B2;
+#} below_multiple;
 
 # 2.5 Contextual shifts
 # 2.5.1 lower vowel after coeng ro shifts down
@@ -1782,70 +1818,7 @@ lookup centred_coeng_below_vowel_RoNa {
     pos @base_narrow @regshift_narrow_robat uni17D2178E @below_coeng_level2 [uni17BB.low.narrow uni17BC.low uni17BD.low]' lookup centred_coeng_below_vowel_RoNa_target;
 } centred_coeng_below_vowel_RoNa;
 
-# 2.6 -a Attachment
-# 2.6.1 attach to -a
-lookup uni17B6 {
-    pos base uni17B6
-        <anchor 0 0> mark @_B6C6
-        <anchor 728 0> mark @_D0;
-} uni17B6;
-
-# 2.6.2 Attach to semi -a right part of split vowel
-lookup uni17C5 {
-    pos base uni17C5.rightpart
-        <anchor 728 0> mark @_B6;
-} uni17C5;
-
 # 2.7 Shifting above stuff
-# 2.7.1 shift up above tall base 17B1
-lookup uni17B1_target {
-    pos @above_marks_high <0 60 0 0>;
-} uni17B1_target;
-
-lookup uni17B1 {
-    pos uni17B1 [@above_marks_high]' lookup uni17B1_target;
-    pos uni17B1 @below_coeng [@above_marks_high]' lookup uni17B1_target;
-    pos uni17B1 @below_coeng @below_coeng_low [@above_marks_high]' lookup uni17B1_target;
-} uni17B1;
-
-# 2.7.3 shift up above tall base 17B3
-lookup uni17B3_target {
-    pos @above_marks_high <0 100 0 0>;
-} uni17B3_target;
-
-lookup uni17B3 {
-    pos uni17B3 [@above_marks_high]' lookup uni17B3_target;
-    pos uni17B3 @below_coeng [@above_marks_high]' lookup uni17B3_target;
-    pos uni17B3 @below_coeng @below_coeng_low [@above_marks_high]' lookup uni17B3_target;
-    pos uni17B3 @below_coeng @post_coeng_low [@above_marks_high]' lookup uni17B3_target;
-    pos uni17B3 @post_coeng [@above_marks_high]' lookup uni17B3_target;
-    pos uni17B3 @post_coeng @below_coeng_low [@above_marks_high]' lookup uni17B3_target;
-} uni17B3;
-
-# 2.7.4 shift up above tall 17AA
-lookup uni17AA_target {
-    pos @above_marks_high <0 260 0 0>;
-} uni17AA_target;
-
-lookup uni17AA {
-    pos @base_high4 [@above_marks_high]' lookup uni17AA_target;
-    pos @base_high4 @below_coeng [@above_marks_high]' lookup uni17AA_target;
-    pos @base_high4 @below_coeng @below_coeng_low [@above_marks_high]' lookup uni17AA_target;
-    pos @base_high4 @below_coeng @post_coeng_low [@above_marks_high]' lookup uni17AA_target;
-    pos @base_high4 @post_coeng [@above_marks_high]' lookup uni17AA_target;
-    pos @base_high4 @post_coeng @below_coeng_low [@above_marks_high]' lookup uni17AA_target;
-} uni17AA;
-
-# 2.7.5 shift up above triisap
-lookup lift_marks_after_triisap_target {
-    pos @above_marks_high <0 80 0 0>;
-} lift_marks_after_triisap_target;
-
-lookup lift_marks_after_triisap {
-    pos uni17CA.lower [@above_marks_high]' lookup lift_marks_after_triisap_target;
-    pos uni17CA.lower @below_coeng [@above_marks_high]' lookup lift_marks_after_triisap_target;
-    pos uni17CA.lower @below_coeng @below_coeng_low [@above_marks_high]' lookup lift_marks_after_triisap_target;
-} lift_marks_after_triisap;
 
 # 2.7.6 shift up high symbols even higher above -a type stuff
 lookup high_after_17B6_target {
@@ -1920,15 +1893,15 @@ lookup high_uni17CA_200C_above_stuff {
 
 # 2.8 mark to mark attachment
 # 2.8.1 stack above marks
-lookup multi_above_marks1 {
-    pos mark @A1_MarkBase mark @_A1;
-    pos mark @A2_MarkBase mark @_A2;
-} multi_above_marks1;
+#lookup multi_above_marks1 {
+#    pos mark @A1_MarkBase mark @_A1;
+#    pos mark @A2_MarkBase mark @_A2;
+#} multi_above_marks1;
 
 # 2.8.2 stack more above marks on top of those
-lookup multi_above_marks2 {
-    pos mark @A0_MarkBase mark @_A0;
-} multi_above_marks2;
+#lookup multi_above_marks2 {
+#    pos mark @A0_MarkBase mark @_A0;
+#} multi_above_marks2;
 
 # 2.9 Post attachment shifts and kerns
 # 2.9.1 shift up am (after attachment) over -a
@@ -1943,67 +1916,6 @@ lookup uni178B_179C_am {
     pos uni179C space uni17B6 [uni17C6]' lookup uni178B_179C_am_target;
     pos uni179C17B6 uni17BB.narrow [uni17C6]' lookup uni178B_179C_am_target;
 } uni178B_179C_am;
-
-# 2.9.2 kern ro right after marks above or below a narrow base
-lookup kern_narrow1_target {
-    pos uni179A <180 0 180 0>;
-} kern_narrow1_target;
-
-lookup kern_narrow1 {
-    pos @above_vowels_narrow2 [uni179A]' lookup kern_narrow1_target @above_sym_narrow;
-    pos @above_vowels_narrow2 space [uni179A]' lookup kern_narrow1_target @above_sym_narrow;
-    pos @above_vowels_narrow2 [uni179A]' lookup kern_narrow1_target uni17BB.narrow @above_sym_narrow;
-    pos @above_vowels_narrow2 space [uni179A]' lookup kern_narrow1_target uni17BB.narrow @above_sym_narrow;
-    pos @above_vowels_narrow2 [uni179A]' lookup kern_narrow1_target uni17BB.low.narrow @below_coeng @above_sym_narrow;
-    pos @above_vowels_narrow2 space [uni179A]' lookup kern_narrow1_target uni17BB.low.narrow @below_coeng @above_sym_narrow;
-    pos @above_vowels_narrow2 [uni179A]' lookup kern_narrow1_target @below_coeng @above_sym_narrow;
-    pos @above_vowels_narrow2 space [uni179A]' lookup kern_narrow1_target @below_coeng @above_sym_narrow;
-    pos @base_narrow @below_coeng [uni179A]' lookup kern_narrow1_target @below_coeng;
-    pos @base_narrow @below_coeng space [uni179A]' lookup kern_narrow1_target @below_coeng;
-    pos @below_coeng @above_vowels_narrow [uni179A]' lookup kern_narrow1_target @below_coeng;
-    pos @below_coeng @above_vowels_narrow space [uni179A]' lookup kern_narrow1_target @below_coeng;
-    pos @below_coeng @above_vowels_high_narrow [uni179A]' lookup kern_narrow1_target @below_coeng;
-    pos @below_coeng @above_vowels_high_narrow space [uni179A]' lookup kern_narrow1_target @below_coeng;
-    pos uni17D21798 [uni179A]' lookup kern_narrow1_target @below_vow_narrowwide;
-    pos uni17D21798 space [uni179A]' lookup kern_narrow1_target @below_vow_narrowwide;
-    pos @base_narrow @below_coeng [uni179A]' lookup kern_narrow1_target @below_vow_narrowwide;
-    pos @base_narrow @below_coeng space [uni179A]' lookup kern_narrow1_target @below_vow_narrowwide;
-} kern_narrow1;
-
-# 2.9.3 kern vo right (and va) after things it might collide with
-lookup kern_narrow2_target {
-    pos uni179C <180 0 180 0>;
-    pos uni179C17B6 <180 0 180 0>;
-} kern_narrow2_target;
-
-lookup kern_narrow2 {
-    pos uni17B717CD [uni179C uni179C17B6]' lookup kern_narrow2_target @above_sym_high_narrow;
-    pos uni17B717CD space [uni179C uni179C17B6]' lookup kern_narrow2_target @above_sym_high_narrow;
-    pos @above_vowels_narrow2 [uni179C uni179C17B6]' lookup kern_narrow2_target @above_sym_high_narrow;
-    pos @above_vowels_narrow2 space [uni179C uni179C17B6]' lookup kern_narrow2_target @above_sym_high_narrow;
-    pos @above_vowels_high_narrow2 [uni179C uni179C17B6]' lookup kern_narrow2_target @above_sym_high_narrow;
-    pos @above_vowels_high_narrow2 space [uni179C uni179C17B6]' lookup kern_narrow2_target @above_sym_high_narrow;
-    pos uni17B717CD [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.narrow @above_sym_high_narrow;
-    pos uni17B717CD space [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.narrow @above_sym_high_narrow;
-    pos @above_vowels_narrow2 [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.narrow @above_sym_high_narrow;
-    pos @above_vowels_narrow2 space [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.narrow @above_sym_high_narrow;
-    pos @above_vowels_high_narrow2 [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.narrow @above_sym_high_narrow;
-    pos @above_vowels_high_narrow2 space [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.narrow @above_sym_high_narrow;
-    pos @above_vowels_high_narrow2 [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.low.narrow @below_coeng @above_sym_high_narrow;
-    pos @above_vowels_high_narrow2 space [uni179C uni179C17B6]' lookup kern_narrow2_target uni17BB.low.narrow @below_coeng @above_sym_high_narrow;
-    pos @above_vowels_high_narrow2 [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng @above_sym_high_narrow;
-    pos @above_vowels_high_narrow2 space [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng @above_sym_high_narrow;
-    pos @base_narrow @below_coeng [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng;
-    pos @base_narrow @below_coeng space [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng;
-    pos @below_coeng @above_vowels_high_narrow [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng;
-    pos @below_coeng @above_vowels_high_narrow space [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng;
-    pos @below_coeng @above_vowels_narrow [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng;
-    pos @below_coeng @above_vowels_narrow space [uni179C uni179C17B6]' lookup kern_narrow2_target @below_coeng;
-    pos uni17D21798 [uni179C uni179C17B6]' lookup kern_narrow2_target @below_vow_narrowwide;
-    pos uni17D21798 space [uni179C uni179C17B6]' lookup kern_narrow2_target @below_vow_narrowwide;
-    pos @base_narrow @below_coeng [uni179C uni179C17B6]' lookup kern_narrow2_target @below_vow_narrowwide;
-    pos @base_narrow @below_coeng space [uni179C uni179C17B6]' lookup kern_narrow2_target @below_vow_narrowwide;
-} kern_narrow2;
 
 # 2.9.4 kern prevowel 17C2 right after narrow upper marks over narrow bases
 lookup kern_narrow3_target {
@@ -2061,19 +1973,19 @@ lookup below_vowel_raise {
 
 # 2.10 Phonetic characters (Latin)
 # 2.10.1 mark base attachment for marks
-lookup zPhonetic_base_marks {
-    pos base @PB mark @_PB;
-} zPhonetic_base_marks;
+#lookup zPhonetic_base_marks {
+#    pos base @PB mark @_PB;
+#} zPhonetic_base_marks;
 
 # 2.10.2 mark to base attachment based on def AP
-lookup zPhonetic_base_marks_above {
-    pos @zPhonetic_base @zPhonetic_marks_above' lookup def_attach;
-} zPhonetic_base_marks_above;
+#lookup zPhonetic_base_marks_above {
+#    pos @zPhonetic_base @zPhonetic_marks_above' lookup def_attach;
+#} zPhonetic_base_marks_above;
 
 # 2.10.3 mark to mark attachment
-lookup zPhonetic_marks_marks_b {
-    pos base @PHB_MarkBase mark @_PHB;
-} zPhonetic_marks_marks_b;
+#lookup zPhonetic_marks_marks_b {
+#    pos base @PHB_MarkBase mark @_PHB;
+#} zPhonetic_marks_marks_b;
 
 # 2.11 Shift things around 17C0 (why not 17BF as well?)
 # 2.11.1 shift diacritics far left
@@ -2119,6 +2031,14 @@ lookup coeng_after_coeng_ro {
     pos uni17D2179A @base_wide [@below_coeng_low_medium]' lookup coeng_after_coeng_ro_target;
 } coeng_after_coeng_ro;
 
+lookup a_shifter_dia {
+do  let r = MAXx("uni17CA") - MINx("uni17CA");
+    for b = [@LC_1];
+    let x = r // 2 - (APx(b, "LC_2") - APx(b, "LC_1")) + 200;
+    if x > 0;
+    { pos $b uni17CA [uni17C6 uni17CB uni17CD uni17CE uni17CF]' < $x 0 0 0 >; }
+} a_shifter_dia;
+
 # Features
 feature abvf {
     script khmr;
@@ -2129,27 +2049,24 @@ feature abvf {
 feature abvm {
     script khmr;
     language dflt;
-    lookup Centered_above;
+    #lookup Centered_above;
     lookup Base_robat1;
     lookup Base_robat2;
-    lookup uni17A9;
+    #lookup uni17A9;
     lookup ligatures;
-    lookup ligatures_cent;
-    lookup ligatures_cent_def;
-    lookup uni17B6;
-    lookup uni17C5;
-    lookup uni17B3;
-    lookup uni17AA;
-    lookup high_after_17B6;
-    lookup high2_after_17B6;
-    lookup ligature_multi_above;
-    lookup uni17C9_200C_above_stuff;
-    lookup high_uni17CA_200C_above_stuff;
-    lookup multi_above_marks1;
-    lookup multi_above_marks2;
-    lookup uni178B_179C_am;
-    lookup Center_after_17C0_1;
-    lookup Center_after_17C0_2;
+    # lookup uni17B3;
+    # lookup uni17AA;
+    # lookup high_after_17B6;
+    # lookup high2_after_17B6;
+    # lookup ligature_multi_above;
+    # lookup uni17C9_200C_above_stuff;
+    # lookup high_uni17CA_200C_above_stuff;
+    # lookup multi_above_marks1;
+    # lookup multi_above_marks2;
+    # lookup uni178B_179C_am;
+    # lookup Center_after_17C0_1;
+    # lookup Center_after_17C0_2;
+    lookup a_shifter_dia;
 } abvm;
 
 feature abvs {
@@ -2158,22 +2075,22 @@ feature abvs {
     lookup Muusikatoan_a;
     lookup reg_shift_muusikatoan2;
     lookup reg_shift_triisap2;
-    lookup reg_shift_200D;
-    lookup Remove_200D;
+#    lookup reg_shift_200D;
+#    lookup Remove_200D;
     lookup remove_200CD_RS;
     lookup coeng_post_narrow_C6_C9;
     lookup above_marks_narrow;
-    lookup uni17C5_17D0;
-    lookup uni17CE_17D0_above_vowel;
-    lookup above_marks_narrow2;
+    #lookup uni17C5_17D0;
+    #lookup uni17CE_17D0_above_vowel;
+    #lookup above_marks_narrow2;
     lookup narrow2wide;
     lookup muusikatoan_robat_200C;
-    lookup high2_marks_17D0;
-    lookup high2_marks2;
-    lookup high_marks1;
-    lookup high_marks2;
-    lookup high_marks3;
-    lookup high_marks4_post_coeng;
+    #lookup high2_marks_17D0;
+    #lookup high2_marks2;
+    #lookup high_marks1;
+    #lookup high_marks2;
+    #lookup high_marks3;
+    #lookup high_marks4_post_coeng;
     lookup a_D0;
     lookup lower_17D0_ngo;
     lookup lower_17C6;
@@ -2188,35 +2105,40 @@ feature blwf {
     script khmr;
     language dflt;
     lookup coeng_below;
-    lookup reg_shift_muusikatoan2;
-    lookup reg_shift_triisap2;
-    lookup Remove_200D;
+#    lookup reg_shift_muusikatoan2;
+#    lookup reg_shift_triisap2;
+#    lookup Remove_200D;
 } blwf;
 
 feature blwm {
     script khmr;
     language dflt;
     lookup mid_pos_coengs;
+    lookup u_attach;
+    lookup uc_attach;
     lookup Narrow_gap_base;
-    lookup below_coeng_low1;
-    lookup below_coeng_low2;
-    lookup below_coeng_low3;
-    lookup coeng_post_ext;
-    lookup medium_coeng_centered;
-    lookup uni17A9;
-    lookup ligatures;
-    lookup ligatures_cent;
-    lookup ligatures_cent_def;
-    lookup below_post_coeng_low;
-    lookup below_multiple;
+    #lookup below_coeng_low1;
+    #lookup below_coeng_low2;
+    #lookup below_coeng_low3;
+    #lookup coeng_post_ext;
+    #lookup medium_coeng_centered;
+    lookup above_chain;
+    lookup above_chain_centred;
+    #lookup uni17A9;
+    #lookup ligatures;
+    #lookup ligatures_cent;
+    #lookup ligatures_cent_def;
+    #lookup below_post_coeng_low;
+    #lookup below_multiple;
+    lookup below_coeng_low1_target;
     lookup low2_vowel_ro_coeng_ro;
-    lookup second_centered_coeng;
-    lookup centred_coeng_below_vowel_NaLa;
-    lookup centred_coeng_below_vowel_NaNa;
-    lookup centred_coeng_below_vowel_RoLa;
-    lookup centred_coeng_below_vowel_RoNa;
-    lookup below_vowel_raise;
-    lookup coeng_after_coeng_ro;
+    #lookup second_centered_coeng;
+    #lookup centred_coeng_below_vowel_NaLa;
+    #lookup centred_coeng_below_vowel_NaNa;
+    #lookup centred_coeng_below_vowel_RoLa;
+    #lookup centred_coeng_below_vowel_RoNa;
+    # lookup below_vowel_raise;
+    #lookup coeng_after_coeng_ro;
 } blwm;
 
 feature blws {
@@ -2230,23 +2152,24 @@ feature blws {
     lookup uni1789_coeng1789_alt;
     lookup low_form_post_coeng;
     lookup flat_coengs;
-    lookup RS_coeng_transposition1;
-    lookup RS_coeng_transposition1b;
-    lookup RS_coeng_transposition2;
-    lookup RS_below_vowel_transposition_17BB_1;
-    lookup RS_below_vowel_transposition_17BB_2;
-    lookup RS_below_vowel_transposition_17BC_1;
-    lookup RS_below_vowel_transposition_17BC_2;
-    lookup RS_below_vowel_transposition_17BD_1;
-    lookup RS_below_vowel_transposition_17BD_2;
-    lookup RS_below_vowel_transposition_17D2_1;
-    lookup RS_below_vowel_transposition_17D2_2;
+    #lookup RS_coeng_transposition1;
+    #lookup RS_coeng_transposition1b;
+    #lookup RS_coeng_transposition2;
+    #lookup RS_below_vowel_transposition_17BB_1;
+    #lookup RS_below_vowel_transposition_17BB_2;
+    #lookup RS_below_vowel_transposition_17BC_1;
+    #lookup RS_below_vowel_transposition_17BC_2;
+    #lookup RS_below_vowel_transposition_17BD_1;
+    #lookup RS_below_vowel_transposition_17BD_2;
+    #lookup RS_below_vowel_transposition_17D2_1;
+    #lookup RS_below_vowel_transposition_17D2_2;
 } blws;
 
 feature ccmp {
     script khmr;
     language dflt;
     lookup precompose;
+    lookup bad_vowels;
 } ccmp;
 
 feature cfar {
@@ -2396,16 +2319,16 @@ feature ss09 {
 feature mark {
     script latn;
     language dflt;
-    lookup zPhonetic_base_marks;
-    lookup zPhonetic_base_marks_above;
+    #lookup zPhonetic_base_marks;
+    #lookup zPhonetic_base_marks_above;
 } mark;
 
 feature mkmk {
     script latn;
     language dflt;
-    lookup zPhonetic_base_marks;
-    lookup zPhonetic_base_marks_above;
-    lookup zPhonetic_marks_marks_b;
+    #lookup zPhonetic_base_marks;
+    #lookup zPhonetic_base_marks_above;
+    #lookup zPhonetic_marks_marks_b;
 } mkmk;
 
 @GDEF_base = [.null space Aacute Acircumflex Adieresis Agrave Aring Atilde B C A Ccedilla D E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H I Iacute Icircumflex Idieresis Igrave J K KrungSpecial L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Ygrave Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand approxequal aring asciicircum asciitilde asterisk at atilde b backslash bar braceleft braceright bracketleft bracketright brokenbar bullet c ccedilla cedilla cent circumflex colon comma copyright currency d dagger daggerdbl degree dieresis divide dollar dotlessi e eacute ecircumflex edieresis egrave eight ellipsis emdash endash equal eth exclam exclamdown f fi five fl florin four fraction g germandbls grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hyphen i iacute icircumflex idieresis igrave infinity integral j k l less lessequal logicalnot lozenge m macron minus multiply n nine notequal ntilde numbersign o oacute ocircumflex odieresis oe ograve one onehalf onequarter ordfeminine ordmasculine oslash otilde p paragraph parenleft parenright partialdiff percent period periodcentered perthousand pi plus plusminus product q question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r radical registered s scaron section semicolon seven six slash AE sterling summation t thorn three threequarters tilde trademark two u uacute ucircumflex udieresis ugrave underscore uni00CA0306 uni00D40306 uni00EA0306 uni00F40306 uni0102 uni0103 uni0110 uni0111 uni0128 uni0129 uni0168 uni0169 uni01A00306 uni01A1 uni01A10306 uni01AF uni01AF0306 uni01B0 uni01B00306 uni1780 uni1780.alt uni1781 uni1781.pronounlig uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789 uni1789.alt uni178A uni178A17CF uni178B uni178C uni178D uni178E uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1794.lig.left uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179A.spc uni179B uni179C uni179C.spc uni179D uni179E uni179F uni17A0 uni17A1 uni17A2 uni17A3 uni17A4 uni17A5 uni17A6 uni17A7 uni17A8 uni17A9 uni17AA uni17AB uni17AC uni17AD uni17AE uni17AF uni17B0 uni17B1 uni17B1.alt uni17B1.alt2 uni17B2 uni17B3 uni17B3.alt uni17B4 uni17B5 uni17B6 uni17B6.lig.right uni17BE uni17BF uni17BF.rightpart1 uni17BF.rightpart2 uni17BF.rightpart3 uni17C0 uni17C0.rightpart1 uni17C0.rightpart2 uni17C0.rightpart3 uni17C1 uni17C2 uni17C3 uni17C4 uni17C5 uni17C5.lig.right uni17C5.rightpart uni17C6.ms.psom uni17C7 uni17C8 uni17D21783 uni17D21783.alt uni17D21783.low uni17D21783.low.alt uni17D21788 uni17D21788.alt uni17D21788.low uni17D21788.low.alt uni17D2178D uni17D2178D.low uni17D21794 uni17D21794.low uni17D21799 uni17D21799.low uni17D2179A uni17D2179A.low uni17D2179A.lowwide uni17D2179A.lowwide2 uni17D2179A.wide uni17D2179E uni17D2179E.low uni17D2179F uni17D2179F.low uni17D217A1 uni17D217A1.low uni17D4 uni17D4.alt1 uni17D4.alt2 uni17D5 uni17D5.alt1 uni17D5.alt2 uni17D6 uni17D6.alt1 uni17D6.alt2 uni17D7 uni17D8 uni17D9 uni17DA uni17DB uni17DC uni17E0 uni17E1 uni17E2 uni17E3 uni17E4 uni17E5 uni17E6 uni17E7 uni17E8 uni17E9 uni17F0 uni17F1 uni17F2 uni17F3 uni17F4 uni17F5 uni17F6 uni17F7 uni17F8 uni17F9 uni19E0 uni19E1 uni19E2 uni19E3 uni19E4 uni19E5 uni19E6 uni19E7 uni19E8 uni19E9 uni19EA uni19EB uni19EC uni19ED uni19EE uni19EF uni19F0 uni19F1 uni19F2 uni19F3 uni19F4 uni19F5 uni19F6 uni19F7 uni19F8 uni19F9 uni19FA uni19FB uni19FC uni19FD uni19FE uni19FF uni1EA0 uni1EA1 uni1EA2 uni1EA3 uni1EA4 uni1EA5 uni1EA6 uni1EA7 uni1EA8 uni1EA9 uni1EAA uni1EAB uni1EAC uni1EAD uni1EAE uni1EAF uni1EB0 uni1EB1 uni1EB2 uni1EB3 uni1EB4 uni1EB5 uni1EB6 uni1EB7 uni1EB8 uni1EB9 uni1EBA uni1EBB uni1EBC uni1EBD uni1EBE uni1EBF uni1EC0 uni1EC1 uni1EC2 uni1EC3 uni1EC4 uni1EC5 uni1EC6 uni1EC7 uni1EC8 uni1EC9 uni1ECA uni1ECB uni1ECC uni1ECD uni1ECE uni1ECF uni1ED0 uni1ED1 uni1ED2 uni1ED3 uni1ED4 uni1ED5 uni1ED6 uni1ED7 uni1ED8 uni1ED9 uni1EDA uni1EDB uni1EDC uni1EDD uni1EDE uni1EDF uni1EE0 uni1EE1 uni1EE2 uni1EE3 uni1EE4 uni1EE5 uni1EE6 uni1EE7 uni1EE8 uni1EE9 uni1EEA uni1EEB uni1EEC uni1EED uni1EEE uni1EEF uni1EF0 uni1EF1 uni1EF4 uni1EF5 uni1EF6 uni1EF7 uni1EF8 uni1EF9 zerowidthnonjoiner zerowidthjoiner uni20AB uni2308 uni2309 uniEF00 uniEF01 uniEF02 uniEF03 uniEF04 uniEF05 uniEF06 uniEF07 uniEF08 uniEF09 v w x y yacute ydieresis yen ygrave z zcaron zero];

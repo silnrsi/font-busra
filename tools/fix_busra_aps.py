@@ -125,7 +125,7 @@ belowfullheights = unilist([0x83, 0x8D, 0x99, 0x9A, 0x9E, 0x9F], prefix="uni17D2
 belowdias = set(belowdias) - set(belowcentres) - set(belowfullheights)
 baseheights = {}
 baseheights.update({x: 260j for x in unilist([0x84, 0x87, 0x8A, 0x8B, 0x90, 0x95, 0x9C, 0xA5, 0xA6, 0xA8, 0xAF, 0xB1, 0xB3])})
-baseheights.update({x: 380 for x in unilist([0xA6, 0xAA])})
+baseheights.update({x: 380j for x in unilist([0xA6, 0xAA])})
 #baseheights.update({x: 250 for x in ["uni17AA", "uni17B1.alt", "uni17B3.alt"])
 baseheights.update({x: 260j for x in unilist([0xB7, 0x95, 0xA5, 0xA8, 0xAF])})
 
@@ -154,11 +154,11 @@ def bases(g, a, b, adv):
         c = anchorVal(old['N']) + l_shift
     else:
         c = (b.xmin + b.xmax) // 2
+    if b.ymin < -100:
+        c += 1j * b.ymin
     addAnchorVal(a, 'LC', c)
     r = adv + l_shift
-    if name == "uni178E":
-        r -= 250
-    addAnchorVal(a, 'L', r)
+    addAnchorVal(a, 'L', r + (1j * b.ymin if b.ymin < -100 else 0))
     addAnchorVal(a, 'U', r + 1580j + baseheights.get(name, 0))
     if 'H' in old:
         u = anchorVal(old['H']) - 700   # all udias have _H = -700
@@ -198,13 +198,13 @@ def ligs(g, a, b, adv):
     addAnchorVal(a, "LC_2", c)
     c = getbasepos(baseg, "L", b, 2, 0)
     addAnchorVal(a, "L_1", c)
-    addAnchorVal(a, "U_1", c + 1580j)
+    addAnchorVal(a, "U_1", c + 1580j + baseheights.get(base, 0))
     addAnchorVal(a, "L_2", adv + l_shift)
-    addAnchorVal(a, "U_2", adv + l_shift + 1580j)
+    addAnchorVal(a, "U_2", adv + l_shift + 1580j + baseheights.get(base, 0))
     c = getbasepos(baseg, "UC", b, 3, 1580j)
-    addAnchorVal(a, "UC_1", c)
+    addAnchorVal(a, "UC_1", c + baseheights.get(base, 0))
     c = b.xmax - 700
-    addAnchorVal(a, "UC_2", c + 1580j)
+    addAnchorVal(a, "UC_2", c + 1580j + baseheights.get(base, 0))
 
 @some
 def aboveright(g, a, b, adv):
@@ -226,9 +226,10 @@ def abovecentre(g, a, b, adv):
 def belowright(g, a, b, adv):
     old = a.copy()
     a.clear()
-    addAnchorVal(a, "_L", l_shift)
-    addAnchorVal(a, "_LL", l_shift + 20)
-    addAnchorVal(a, "LL", l_shift + 20 - 670j)
+    offset = -670j if "low" in g.name else 0
+    addAnchorVal(a, "_L", l_shift + offset)
+    addAnchorVal(a, "_LL", l_shift + 20 + offset)
+    addAnchorVal(a, "LL", l_shift + 20 - 670j + offset)
 
 @some
 def belowcentre(g, a, b, adv):
@@ -239,7 +240,7 @@ def belowcentre(g, a, b, adv):
     else:
         c = (b.xmin + b.xmax) // 2
     addAnchorVal(a, "_LC", c)
-    addAnchorVal(a, "LL", l_shift + 20 + 670j)
+    addAnchorVal(a, "LL", l_shift + 20 - 670j)
 
 bases(baseglyphs)
 bases(belowfullheights)

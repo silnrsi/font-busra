@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17BF.rightpart3" format="2">
   <advance width="728"/>
-  <anchor x="0" y="980" name="H"/>
   <outline>
     <component base="uni17BA" xOffset="604" yOffset="220"/>
     <component base="uni17C0.rightpart3"/>

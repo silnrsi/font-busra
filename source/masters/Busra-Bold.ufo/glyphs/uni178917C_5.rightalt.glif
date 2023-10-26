@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni178917C5.rightalt" format="2">
   <advance width="2888"/>
-  <anchor x="2138" y="0" name="B6"/>
-  <anchor x="2138" y="0" name="B6C6"/>
-  <anchor x="2866" y="0" name="D0"/>
   <outline>
     <component base="uni178917B6.alt"/>
     <component base="_R.ear" xOffset="2232"/>

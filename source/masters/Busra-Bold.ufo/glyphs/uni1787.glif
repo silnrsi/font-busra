@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1787" format="2">
   <advance width="1500"/>
   <unicode hex="1787"/>
-  <anchor x="787" y="0" name="def"/>
+  <anchor x="1255" y="0" name="L"/>
+  <anchor x="726" y="0" name="LC"/>
+  <anchor x="1255" y="1840" name="U"/>
+  <anchor x="785" y="1840" name="UC"/>
   <outline>
     <component base="_squirreltail" xOffset="31"/>
     <component base="_w" xOffset="162"/>

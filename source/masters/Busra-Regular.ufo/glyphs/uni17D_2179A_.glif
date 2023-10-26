@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D2179A" format="2">
   <advance width="728"/>
+  <anchor x="483" y="-598" name="L"/>
+  <anchor x="666" y="-598" name="LC"/>
+  <anchor x="483" y="1580" name="U"/>
+  <anchor x="13" y="1580" name="UC"/>
   <outline>
     <component base="_L.ear" xOffset="22"/>
     <component base="_subcurveMed" xOffset="175" yOffset="-598"/>

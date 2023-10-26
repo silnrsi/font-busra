@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D0.ms.high" format="2">
-  <anchor x="0" y="800" name="A0"/>
-  <anchor x="0" y="-50" name="_B6"/>
-  <anchor x="0" y="1000" name="_NA"/>
-  <anchor x="-750" y="1000" name="_U"/>
-  <anchor x="0" y="0" name="_def"/>
   <outline>
     <component base="uni17D0" xOffset="-23" yOffset="220"/>
   </outline>

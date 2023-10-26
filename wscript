@@ -32,5 +32,5 @@ designspace('source/' + FAMILY + 'UprightRB.designspace',
 #        cmd='psfwoffit -m ${SRC[1]} --woff ${TGT} --woff2 ${TGT}2 ${SRC[0]}'
 #        ),
     script = 'khmr',
-    pdf = fret(params='-oi')
+    pdf = fret(params='-oi -r')
 )

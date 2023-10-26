@@ -10,99 +10,13 @@
   <anchor x="1500" y="1000" name="U_1"/>
   <anchor x="1520" y="1000" name="U_2"/>
   <outline>
-    <contour>
-      <point x="262" y="916" type="curve"/>
-      <point x="262" y="106" type="line"/>
-      <point x="292" y="19"/>
-      <point x="416" y="-3"/>
-      <point x="502" y="-3" type="curve"/>
-      <point x="701" y="34"/>
-      <point x="787" y="199"/>
-      <point x="787" y="289" type="curve" smooth="yes"/>
-      <point x="787" y="399"/>
-      <point x="671" y="452"/>
-      <point x="562" y="467" type="curve"/>
-      <point x="562" y="900" type="line" smooth="yes"/>
-      <point x="562" y="956"/>
-      <point x="694" y="994"/>
-      <point x="787" y="994" type="curve" smooth="yes"/>
-      <point x="881" y="994"/>
-      <point x="1012" y="956"/>
-      <point x="1012" y="900" type="curve" smooth="yes"/>
-      <point x="1012" y="0" type="line"/>
-      <point x="1312" y="0" type="line"/>
-      <point x="1312" y="919" type="line" smooth="yes"/>
-      <point x="1312" y="1031"/>
-      <point x="1012" y="1125"/>
-      <point x="787" y="1125" type="curve" smooth="yes"/>
-      <point x="623" y="1125"/>
-      <point x="421" y="1075"/>
-      <point x="322" y="1005" type="curve"/>
-      <point x="295" y="1025"/>
-      <point x="262" y="1064"/>
-      <point x="262" y="1099" type="curve" smooth="yes"/>
-      <point x="262" y="1222"/>
-      <point x="484" y="1234"/>
-      <point x="529" y="1234" type="curve" smooth="yes"/>
-      <point x="712" y="1234"/>
-      <point x="904" y="1189"/>
-      <point x="1012" y="1144" type="curve"/>
-      <point x="1129" y="1215"/>
-      <point x="1219" y="1252"/>
-      <point x="1372" y="1252" type="curve" smooth="yes"/>
-      <point x="1556" y="1252"/>
-      <point x="1762" y="1140"/>
-      <point x="1762" y="1091" type="curve" smooth="yes"/>
-      <point x="1762" y="0" type="line"/>
-      <point x="2062" y="0" type="line"/>
-      <point x="2062" y="1166" type="line" smooth="yes"/>
-      <point x="2062" y="1190"/>
-      <point x="2040" y="1219"/>
-      <point x="2002" y="1249" type="curve"/>
-      <point x="2067" y="1358"/>
-      <point x="2100" y="1497"/>
-      <point x="2100" y="1609" type="curve" smooth="yes"/>
-      <point x="2100" y="1695"/>
-      <point x="2077" y="1800"/>
-      <point x="1939" y="1897" type="curve"/>
-      <point x="1894" y="1924"/>
-      <point x="1845" y="1935"/>
-      <point x="1804" y="1935" type="curve" smooth="yes"/>
-      <point x="1702" y="1935"/>
-      <point x="1657" y="1909"/>
-      <point x="1657" y="1841" type="curve" smooth="yes"/>
-      <point x="1657" y="1815"/>
-      <point x="1672" y="1770"/>
-      <point x="1722" y="1730" type="curve" smooth="yes"/>
-      <point x="1774" y="1687"/>
-      <point x="1800" y="1635"/>
-      <point x="1800" y="1556" type="curve" smooth="yes"/>
-      <point x="1800" y="1504"/>
-      <point x="1780" y="1414"/>
-      <point x="1763" y="1371" type="curve"/>
-      <point x="1646" y="1411"/>
-      <point x="1508" y="1440"/>
-      <point x="1372" y="1440" type="curve" smooth="yes"/>
-      <point x="1200" y="1440"/>
-      <point x="1110" y="1406"/>
-      <point x="1012" y="1350" type="curve"/>
-      <point x="885" y="1406"/>
-      <point x="709" y="1440"/>
-      <point x="487" y="1440" type="curve" smooth="yes"/>
-      <point x="292" y="1440"/>
-      <point x="112" y="1324"/>
-      <point x="112" y="1144" type="curve" smooth="yes"/>
-      <point x="112" y="1046"/>
-      <point x="180" y="961"/>
-    </contour>
-    <contour>
-      <point x="682" y="289" type="curve" smooth="yes"/>
-      <point x="682" y="238"/>
-      <point x="615" y="162"/>
-      <point x="562" y="147" type="curve"/>
-      <point x="562" y="381" type="line"/>
-      <point x="610" y="379"/>
-      <point x="682" y="344"/>
-    </contour>
+    <component base="uni178F17B6"/>
+    <component base="_R.ear" xOffset="1598"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,45 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17B7.ms.narrowhigh2" format="2">
+  <anchor x="0" y="600" name="A1"/>
+  <anchor x="0" y="0" name="A2"/>
+  <anchor x="0" y="0" name="_A1"/>
   <outline>
-    <contour>
-      <point x="-435" y="2196" type="curve" smooth="yes"/>
-      <point x="-311" y="2196"/>
-      <point x="-221" y="2110"/>
-      <point x="-94" y="2110" type="curve"/>
-      <point x="-34" y="2110"/>
-      <point x="0" y="2151"/>
-      <point x="0" y="2196" type="curve" smooth="yes"/>
-      <point x="0" y="2219"/>
-      <point x="-4" y="2234"/>
-      <point x="-15" y="2260" type="curve" smooth="yes"/>
-      <point x="-60" y="2365"/>
-      <point x="-195" y="2616"/>
-      <point x="-443" y="2616" type="curve"/>
-      <point x="-615" y="2616"/>
-      <point x="-769" y="2519"/>
-      <point x="-769" y="2358" type="curve"/>
-      <point x="-769" y="2245"/>
-      <point x="-683" y="2185"/>
-      <point x="-574" y="2185" type="curve"/>
-      <point x="-525" y="2185"/>
-      <point x="-495" y="2196"/>
-    </contour>
-    <contour>
-      <point x="-465" y="2365" type="curve" smooth="yes"/>
-      <point x="-484" y="2365"/>
-      <point x="-506" y="2376"/>
-      <point x="-506" y="2399" type="curve" smooth="yes"/>
-      <point x="-506" y="2425"/>
-      <point x="-480" y="2448"/>
-      <point x="-443" y="2448" type="curve" smooth="yes"/>
-      <point x="-364" y="2448"/>
-      <point x="-300" y="2391"/>
-      <point x="-263" y="2331" type="curve"/>
-      <point x="-300" y="2350"/>
-      <point x="-364" y="2369"/>
-      <point x="-416" y="2369" type="curve" smooth="yes"/>
-      <point x="-431" y="2369"/>
-      <point x="-454" y="2365"/>
-    </contour>
+    <component base="uni17B7.ms.narrowhigh" yOffset="229"/>
   </outline>
 </glyph>

@@ -2,12 +2,6 @@
 <glyph name="uni17D5.alt2" format="2">
   <advance width="1891"/>
   <outline>
-    <component base="uni17D4" xOffset="-788"/>
-    <contour>
-      <point x="1074" y="1440" type="line"/>
-      <point x="1074" y="0" type="line"/>
-      <point x="1300" y="0" type="line"/>
-      <point x="1300" y="1440" type="line"/>
-    </contour>
+    <component base="uni17D5" xOffset="-786"/>
   </outline>
 </glyph>

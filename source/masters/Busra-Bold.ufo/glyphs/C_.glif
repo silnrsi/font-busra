@@ -2,6 +2,9 @@
 <glyph name="C" format="2">
   <advance width="1494"/>
   <unicode hex="0043"/>
+  <anchor x="820" y="-470" name="LH"/>
+  <anchor x="581" y="-110" name="LL"/>
+  <anchor x="581" y="1350" name="LU"/>
   <outline>
     <contour>
       <point x="1351" y="1470" type="line"/>
@@ -43,4 +46,10 @@
       <point x="1390" y="957" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

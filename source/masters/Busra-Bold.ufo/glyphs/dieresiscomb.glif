@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb" format="2">
   <unicode hex="0308"/>
+  <anchor x="-620" y="1698" name="LU"/>
+  <anchor x="-620" y="1350" name="_LU"/>
   <outline>
     <contour>
       <point x="-819" y="1356" type="curve" smooth="yes"/>
@@ -31,4 +33,10 @@
       <point x="-465" y="1421"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

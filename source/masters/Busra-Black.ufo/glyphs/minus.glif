@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minus" format="2">
-  <advance width="615"/>
+  <advance width="597"/>
   <unicode hex="2212"/>
   <outline>
     <contour>
-      <point x="41" y="581" type="line"/>
-      <point x="41" y="454" type="line"/>
-      <point x="570" y="454" type="line"/>
-      <point x="570" y="581" type="line"/>
+      <point x="40" y="603" type="line"/>
+      <point x="40" y="441" type="line"/>
+      <point x="633" y="441" type="line"/>
+      <point x="633" y="603" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

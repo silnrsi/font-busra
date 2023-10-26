@@ -2,6 +2,8 @@
 <glyph name="uni01B0" format="2">
   <advance width="1149"/>
   <unicode hex="01B0"/>
+  <anchor x="764" y="-110" name="LL"/>
+  <anchor x="764" y="1775" name="LU"/>
   <anchor x="0" y="0" name="PB"/>
   <anchor x="0" y="0" name="def"/>
   <outline>
@@ -66,4 +68,10 @@
       <point x="1219" y="914"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

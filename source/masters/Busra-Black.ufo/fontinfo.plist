@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1440</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2003-2022 SIL International</string>
+  <string>Copyright (c) 2003-2023 SIL International</string>
   <key>descender</key>
   <integer>-1240</integer>
   <key>familyName</key>
@@ -15,18 +15,50 @@
   <key>guidelines</key>
   <array>
     <dict>
-      <key>angle</key>
-      <integer>0</integer>
       <key>name</key>
       <string>m</string>
-      <key>x</key>
-      <integer>0</integer>
       <key>y</key>
       <integer>250</integer>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>f1</string>
+      <key>y</key>
+      <integer>-788</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f2</string>
+      <key>y</key>
+      <integer>-1238</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f3</string>
+      <key>y</key>
+      <integer>-150</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f4</string>
+      <key>y</key>
+      <integer>-713</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f5</string>
+      <key>x</key>
+      <integer>-188</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f6</string>
+      <key>x</key>
+      <integer>-1238</integer>
+    </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/01/24 17:35:41</string>
+  <string>2023/10/11 16:41:13</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -38,9 +70,9 @@
   <key>openTypeNameDesigner</key>
   <string>D. Kanjahn</string>
   <key>openTypeNameDesignerURL</key>
-  <string>http://scripts.sil.org/</string>
+  <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2003-2022 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
+  <string>Copyright (c) 2003-2023 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -86,19 +118,19 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>openTypeNameLicenseURL</key>
-  <string>http://scripts.sil.org/OFL</string>
+  <string>https://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>http://scripts.sil.org</string>
+  <string>https://software.sil.org/wstech/</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Busra</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Black</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Busra Black: 2022</string>
+  <string>SIL International: Busra Black: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 8.700</string>
+  <string>Version 8.700 alpha</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -182,27 +214,25 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>1240</integer>
   <key>postscriptBlueValues</key>
   <array>
-    <integer>-41</integer>
+    <integer>-33</integer>
     <integer>0</integer>
-    <integer>1042</integer>
-    <integer>1057</integer>
+    <integer>969</integer>
+    <integer>992</integer>
     <integer>1437</integer>
     <integer>1471</integer>
     <integer>1580</integer>
     <integer>1600</integer>
     <integer>1730</integer>
     <integer>1750</integer>
-    <integer>1790</integer>
-    <integer>1810</integer>
     <integer>1870</integer>
     <integer>1890</integer>
+    <integer>2060</integer>
+    <integer>2090</integer>
   </array>
   <key>postscriptFontName</key>
   <string>Busra-Black</string>
   <key>postscriptOtherBlues</key>
   <array>
-    <integer>-443</integer>
-    <integer>-420</integer>
     <integer>-800</integer>
     <integer>-780</integer>
     <integer>-730</integer>
@@ -211,6 +241,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>-125</integer>
     <integer>1730</integer>
     <integer>1750</integer>
+    <integer>1790</integer>
+    <integer>1810</integer>
   </array>
   <key>postscriptStemSnapH</key>
   <array>
@@ -275,6 +307,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <string>https://software.sil.org/</string>
   </dict>
   <key>xHeight</key>
-  <integer>1039</integer>
+  <integer>971</integer>
 </dict>
 </plist>

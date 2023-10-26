@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemotright" format="2">
-  <advance width="840"/>
+  <advance width="1276"/>
   <unicode hex="00BB"/>
   <outline>
     <contour>
-      <point x="120" y="161" type="line"/>
-      <point x="450" y="442" type="line"/>
-      <point x="450" y="521" type="line"/>
-      <point x="120" y="802" type="line"/>
-      <point x="120" y="664" type="line"/>
-      <point x="334" y="480" type="line"/>
-      <point x="120" y="304" type="line"/>
+      <point x="570" y="1182" type="line"/>
+      <point x="843" y="689" type="line"/>
+      <point x="570" y="200" type="line"/>
+      <point x="707" y="200" type="line"/>
+      <point x="1136" y="689" type="line"/>
+      <point x="707" y="1182" type="line"/>
     </contour>
     <contour>
-      <point x="371" y="161" type="line"/>
-      <point x="701" y="442" type="line"/>
-      <point x="701" y="521" type="line"/>
-      <point x="371" y="802" type="line"/>
-      <point x="371" y="664" type="line"/>
-      <point x="581" y="480" type="line"/>
-      <point x="371" y="304" type="line"/>
+      <point x="140" y="1182" type="line"/>
+      <point x="413" y="689" type="line"/>
+      <point x="140" y="200" type="line"/>
+      <point x="277" y="200" type="line"/>
+      <point x="706" y="689" type="line"/>
+      <point x="277" y="1182" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

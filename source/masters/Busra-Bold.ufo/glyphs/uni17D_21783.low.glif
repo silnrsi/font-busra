@@ -3,98 +3,12 @@
   <advance width="750"/>
   <anchor x="750" y="-530" name="B1"/>
   <outline>
-    <contour>
-      <point x="-544" y="-870" type="line"/>
-      <point x="-555" y="-806"/>
-      <point x="-675" y="-788"/>
-      <point x="-765" y="-788" type="curve"/>
-      <point x="-878" y="-810"/>
-      <point x="-954" y="-840"/>
-      <point x="-954" y="-911" type="curve" smooth="yes"/>
-      <point x="-954" y="-953"/>
-      <point x="-909" y="-1009"/>
-      <point x="-826" y="-1028" type="curve"/>
-      <point x="-826" y="-1058" type="line" smooth="yes"/>
-      <point x="-826" y="-1163"/>
-      <point x="-623" y="-1238"/>
-      <point x="-413" y="-1238" type="curve" smooth="yes"/>
-      <point x="-304" y="-1238"/>
-      <point x="-214" y="-1211"/>
-      <point x="-150" y="-1178" type="curve"/>
-      <point x="-60" y="-1211"/>
-      <point x="22" y="-1238"/>
-      <point x="131" y="-1238" type="curve" smooth="yes"/>
-      <point x="337" y="-1238"/>
-      <point x="562" y="-1151"/>
-      <point x="562" y="-1058" type="curve" smooth="yes"/>
-      <point x="562" y="870" type="line" smooth="yes"/>
-      <point x="562" y="937"/>
-      <point x="491" y="997"/>
-      <point x="375" y="1057" type="curve" smooth="yes"/>
-      <point x="322" y="1084"/>
-      <point x="221" y="1144"/>
-      <point x="221" y="1174" type="curve" smooth="yes"/>
-      <point x="221" y="1207"/>
-      <point x="244" y="1215"/>
-      <point x="289" y="1215" type="curve" smooth="yes"/>
-      <point x="379" y="1215"/>
-      <point x="461" y="1125"/>
-      <point x="540" y="1125" type="curve" smooth="yes"/>
-      <point x="656" y="1125"/>
-      <point x="720" y="1192"/>
-      <point x="731" y="1399" type="curve"/>
-      <point x="705" y="1365"/>
-      <point x="634" y="1350"/>
-      <point x="589" y="1350" type="curve" smooth="yes"/>
-      <point x="502" y="1350"/>
-      <point x="442" y="1440"/>
-      <point x="311" y="1440" type="curve" smooth="yes"/>
-      <point x="187" y="1440"/>
-      <point x="94" y="1301"/>
-      <point x="94" y="1181" type="curve" smooth="yes"/>
-      <point x="94" y="1121"/>
-      <point x="120" y="1072"/>
-      <point x="214" y="1009" type="curve" smooth="yes"/>
-      <point x="236" y="994"/>
-      <point x="262" y="964"/>
-      <point x="262" y="907" type="curve" smooth="yes"/>
-      <point x="262" y="-1031" type="line" smooth="yes"/>
-      <point x="262" y="-1076"/>
-      <point x="191" y="-1107"/>
-      <point x="131" y="-1107" type="curve" smooth="yes"/>
-      <point x="30" y="-1107"/>
-      <point x="-19" y="-1065"/>
-      <point x="-45" y="-1039" type="curve"/>
-      <point x="-94" y="-998"/>
-      <point x="-229" y="-1001"/>
-      <point x="-229" y="-956" type="curve" smooth="yes"/>
-      <point x="-229" y="-934"/>
-      <point x="-218" y="-927"/>
-      <point x="-188" y="-927" type="curve" smooth="yes"/>
-      <point x="-146" y="-927"/>
-      <point x="-124" y="-997"/>
-      <point x="-71" y="-997" type="curve" smooth="yes"/>
-      <point x="15" y="-997"/>
-      <point x="64" y="-953"/>
-      <point x="71" y="-818" type="curve"/>
-      <point x="49" y="-844"/>
-      <point x="-4" y="-851"/>
-      <point x="-38" y="-851" type="curve" smooth="yes"/>
-      <point x="-94" y="-851"/>
-      <point x="-116" y="-788"/>
-      <point x="-195" y="-788" type="curve" smooth="yes"/>
-      <point x="-289" y="-788"/>
-      <point x="-353" y="-863"/>
-      <point x="-353" y="-949" type="curve" smooth="yes"/>
-      <point x="-353" y="-1009"/>
-      <point x="-338" y="-1046"/>
-      <point x="-304" y="-1073" type="curve"/>
-      <point x="-330" y="-1091"/>
-      <point x="-371" y="-1107"/>
-      <point x="-413" y="-1107" type="curve" smooth="yes"/>
-      <point x="-473" y="-1107"/>
-      <point x="-544" y="-1076"/>
-      <point x="-544" y="-1031" type="curve" smooth="yes"/>
-    </contour>
+    <component base="_stemSub" xOffset="162" yOffset="-120"/>
+    <component base="_L.ear" xOffset="-7"/>
+    <component base="_loopInstroke" xOffset="-993" yOffset="-645"/>
+    <component base="_subcurve" xOffset="-386" yOffset="-735"/>
+    <component base="_subcurve" xOffset="-932" yOffset="-735"/>
+    <component base="_stemMd" xOffset="162" yOffset="-1060"/>
+    <component base="_subL.ear" xOffset="-423" yOffset="-594"/>
   </outline>
 </glyph>

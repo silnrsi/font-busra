@@ -1,96 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni178617B6" format="2">
-  <advance width="2350"/>
-  <anchor x="1462" y="0" name="L"/>
-  <anchor x="1462" y="1440" name="U"/>
+  <advance width="2288"/>
+  <anchor x="1538" y="0" name="C6_1"/>
+  <anchor x="2288" y="20" name="C6_2"/>
+  <anchor x="1518" y="0" name="L_1"/>
+  <anchor x="2268" y="20" name="L_2"/>
+  <anchor x="1538" y="1000" name="UR_1"/>
+  <anchor x="20" y="1000" name="UR_2"/>
+  <anchor x="1538" y="1000" name="U_1"/>
+  <anchor x="1558" y="1000" name="U_2"/>
+  <anchor x="1870" y="1236" name="zxc1"/>
   <outline>
-    <contour>
-      <point x="700" y="934" type="line"/>
-      <point x="505" y="994"/>
-      <point x="434" y="1046"/>
-      <point x="434" y="1099" type="curve" smooth="yes"/>
-      <point x="434" y="1151"/>
-      <point x="509" y="1189"/>
-      <point x="629" y="1189" type="curve" smooth="yes"/>
-      <point x="828" y="1189"/>
-      <point x="1105" y="1129"/>
-      <point x="1169" y="1065" type="curve"/>
-      <point x="1225" y="1125"/>
-      <point x="1398" y="1189"/>
-      <point x="1582" y="1189" type="curve" smooth="yes"/>
-      <point x="1702" y="1189"/>
-      <point x="1825" y="1151"/>
-      <point x="1825" y="1065" type="curve" smooth="yes"/>
-      <point x="1825" y="0" type="line"/>
-      <point x="2200" y="0" type="line"/>
-      <point x="2200" y="1129" type="line" smooth="yes"/>
-      <point x="2200" y="1226"/>
-      <point x="1960" y="1440"/>
-      <point x="1600" y="1440" type="curve" smooth="yes"/>
-      <point x="1439" y="1440"/>
-      <point x="1225" y="1357"/>
-      <point x="1154" y="1297" type="curve"/>
-      <point x="1034" y="1357"/>
-      <point x="798" y="1440"/>
-      <point x="565" y="1440" type="curve" smooth="yes"/>
-      <point x="307" y="1440"/>
-      <point x="194" y="1305"/>
-      <point x="194" y="1140" type="curve" smooth="yes"/>
-      <point x="194" y="1038"/>
-      <point x="258" y="955"/>
-      <point x="325" y="910" type="curve"/>
-      <point x="325" y="457" type="line"/>
-      <point x="194" y="431"/>
-      <point x="119" y="364"/>
-      <point x="119" y="259" type="curve" smooth="yes"/>
-      <point x="119" y="180"/>
-      <point x="190" y="41"/>
-      <point x="400" y="0" type="curve"/>
-      <point x="517" y="0"/>
-      <point x="663" y="26"/>
-      <point x="700" y="112" type="curve"/>
-      <point x="700" y="319" type="line"/>
-      <point x="813" y="292"/>
-      <point x="892" y="0"/>
-      <point x="1098" y="0" type="curve" smooth="yes"/>
-      <point x="1342" y="0"/>
-      <point x="1450" y="124"/>
-      <point x="1450" y="229" type="curve" smooth="yes"/>
-      <point x="1450" y="862" type="line"/>
-      <point x="1413" y="949"/>
-      <point x="1267" y="975"/>
-      <point x="1150" y="975" type="curve"/>
-      <point x="940" y="934"/>
-      <point x="869" y="795"/>
-      <point x="869" y="716" type="curve" smooth="yes"/>
-      <point x="869" y="611"/>
-      <point x="944" y="544"/>
-      <point x="1075" y="517" type="curve"/>
-      <point x="1075" y="232" type="line" smooth="yes"/>
-      <point x="1075" y="210"/>
-      <point x="1075" y="184"/>
-      <point x="1045" y="184" type="curve" smooth="yes"/>
-      <point x="959" y="184"/>
-      <point x="832" y="431"/>
-      <point x="700" y="450" type="curve"/>
-    </contour>
-    <contour>
-      <point x="243" y="277" type="curve" smooth="yes"/>
-      <point x="243" y="319"/>
-      <point x="295" y="356"/>
-      <point x="325" y="356" type="curve"/>
-      <point x="325" y="180" type="line"/>
-      <point x="292" y="191"/>
-      <point x="243" y="221"/>
-    </contour>
-    <contour>
-      <point x="993" y="694" type="curve" smooth="yes"/>
-      <point x="993" y="750"/>
-      <point x="1042" y="780"/>
-      <point x="1075" y="791" type="curve"/>
-      <point x="1075" y="615" type="line"/>
-      <point x="1045" y="615"/>
-      <point x="993" y="652"/>
-    </contour>
+    <component base="_mArch" xOffset="38"/>
+    <component base="_stemloop" xScale="-1" yScale="-1" xOffset="1411" yOffset="980"/>
+    <component base="_stemMd" xOffset="200" yOffset="294"/>
+    <component base="_stemloop" xScale="-1" xOffset="662" yOffset="23"/>
+    <component base="_diagonal" xOffset="439"/>
+    <component base="_stemLg" xOffset="1700"/>
   </outline>
 </glyph>

@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1440</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2003-2022 SIL International</string>
+  <string>Copyright (c) 2003-2023 SIL International</string>
   <key>descender</key>
   <integer>-1240</integer>
   <key>familyName</key>
@@ -15,10 +15,14 @@
   <key>guidelines</key>
   <array>
     <dict>
+      <key>angle</key>
+      <integer>0</integer>
       <key>name</key>
       <string>m</string>
+      <key>x</key>
+      <integer>630</integer>
       <key>y</key>
-      <integer>250</integer>
+      <integer>-790</integer>
     </dict>
     <dict>
       <key>name</key>
@@ -27,14 +31,22 @@
       <integer>-790</integer>
     </dict>
     <dict>
+      <key>angle</key>
+      <integer>0</integer>
       <key>name</key>
       <string>f2</string>
+      <key>x</key>
+      <integer>479</integer>
       <key>y</key>
-      <integer>-150</integer>
+      <integer>-529</integer>
     </dict>
     <dict>
+      <key>angle</key>
+      <integer>90</integer>
       <key>name</key>
       <string>f3</string>
+      <key>x</key>
+      <integer>0</integer>
       <key>y</key>
       <integer>-175</integer>
     </dict>
@@ -48,13 +60,7 @@
       <key>name</key>
       <string>f5</string>
       <key>y</key>
-      <integer>-574</integer>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>f6</string>
-      <key>y</key>
-      <integer>-1113</integer>
+      <integer>-570</integer>
     </dict>
     <dict>
       <key>name</key>
@@ -63,20 +69,28 @@
       <integer>-1225</integer>
     </dict>
     <dict>
+      <key>angle</key>
+      <integer>0</integer>
       <key>name</key>
       <string>f8</string>
+      <key>x</key>
+      <integer>56</integer>
       <key>y</key>
       <integer>1870</integer>
     </dict>
     <dict>
+      <key>angle</key>
+      <integer>0</integer>
       <key>name</key>
       <string>f9</string>
       <key>x</key>
       <integer>-245</integer>
+      <key>y</key>
+      <integer>0</integer>
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/05/31 15:17:22</string>
+  <string>2023/10/11 16:41:27</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -88,9 +102,9 @@
   <key>openTypeNameDesigner</key>
   <string>D. Kanjahn</string>
   <key>openTypeNameDesignerURL</key>
-  <string>http://scripts.sil.org/</string>
+  <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2003-2022 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
+  <string>Copyright (c) 2003-2023 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -136,11 +150,11 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>openTypeNameLicenseURL</key>
-  <string>http://scripts.sil.org/OFL</string>
+  <string>https://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>http://scripts.sil.org</string>
+  <string>https://software.sil.org/wstech/</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Busra</string>
   <key>openTypeNamePreferredSubfamilyName</key>
@@ -148,7 +162,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Busra Regular: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 8.700</string>
+  <string>Version 8.700 alpha</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -223,7 +237,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2VendorID</key>
   <string>SIL </string>
   <key>openTypeOS2WeightClass</key>
-  <integer>188</integer>
+  <integer>400</integer>
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
@@ -234,7 +248,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <array>
     <integer>-33</integer>
     <integer>0</integer>
-    <integer>969</integer>
+    <integer>970</integer>
     <integer>992</integer>
     <integer>1437</integer>
     <integer>1471</integer>

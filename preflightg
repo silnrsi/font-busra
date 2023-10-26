@@ -1,8 +1,10 @@
 #!/bin/sh
 # Produce individual UFOs from Glyphs files
-psfglyphs2ufo source/masters/BusraUprightRB.glyphs source/masters
+psfglyphs2ufo source/masters/BusraUprightDesign.glyphs source/masters
 
+psfremovegliflibkeys source/masters/Busra-ExtraLight.ufo com.schriftgestaltung.Glyphs.originalWidth
 psfremovegliflibkeys source/masters/Busra-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth
 psfremovegliflibkeys source/masters/Busra-Bold.ufo com.schriftgestaltung.Glyphs.originalWidth
+psfremovegliflibkeys source/masters/Busra-Black.ufo com.schriftgestaltung.Glyphs.originalWidth
 
 ./preflight

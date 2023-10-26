@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0304" format="2">
   <unicode hex="0304"/>
+  <anchor x="-621" y="1647" name="LU"/>
   <anchor x="0" y="0" name="PA"/>
-  <anchor x="0" y="0" name="_PA"/>
-  <anchor x="0" y="0" name="_def"/>
+  <anchor x="-621" y="1350" name="_LU"/>
+  <anchor x="0" y="18" name="_PA"/>
+  <anchor x="0" y="18" name="_def"/>
   <outline>
     <contour>
-      <point x="-845" y="1364" type="line"/>
-      <point x="-845" y="1231" type="line"/>
-      <point x="-155" y="1231" type="line"/>
-      <point x="-155" y="1364" type="line"/>
+      <point x="-967" y="1627" type="line"/>
+      <point x="-967" y="1494" type="line"/>
+      <point x="-277" y="1494" type="line"/>
+      <point x="-277" y="1627" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cedillacomb" format="2">
   <unicode hex="0327"/>
+  <anchor x="-578" y="-476" name="LL"/>
+  <anchor x="-580" y="44" name="_LH"/>
   <outline>
     <contour>
       <point x="-441" y="39" type="line"/>
@@ -32,4 +34,10 @@
       <point x="-313" y="39" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

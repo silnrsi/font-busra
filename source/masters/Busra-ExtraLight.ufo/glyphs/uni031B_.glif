@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni031B" format="2">
   <unicode hex="031B"/>
+  <anchor x="0" y="0" name="PA"/>
+  <anchor x="0" y="0" name="_PA"/>
+  <anchor x="0" y="0" name="_def"/>
   <outline>
     <contour>
       <point x="-370" y="916" type="line"/>
@@ -27,4 +30,10 @@
       <point x="-370" y="969" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

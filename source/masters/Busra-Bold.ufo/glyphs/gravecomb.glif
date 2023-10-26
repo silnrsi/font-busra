@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb" format="2">
   <unicode hex="0300"/>
+  <anchor x="-620" y="1698" name="LU"/>
+  <anchor x="-620" y="1350" name="_LU"/>
   <outline>
     <contour>
       <point x="-914" y="1470" type="line"/>
@@ -9,4 +11,10 @@
       <point x="-564" y="1470" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

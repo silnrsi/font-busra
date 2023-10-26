@@ -2,7 +2,9 @@
 <glyph name="uni0323" format="2">
   <advance width="2"/>
   <unicode hex="0323"/>
+  <anchor x="-621" y="-397" name="LL"/>
   <anchor x="0" y="-180" name="PHB"/>
+  <anchor x="-621" y="-110" name="_LL"/>
   <anchor x="0" y="0" name="_PB"/>
   <anchor x="0" y="0" name="_PHB"/>
   <outline>
@@ -21,4 +23,10 @@
       <point x="-620" y="-165"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

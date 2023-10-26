@@ -2,6 +2,8 @@
 <glyph name="dotlessi" format="2">
   <advance width="589"/>
   <unicode hex="0131"/>
+  <anchor x="0" y="0" name="PB"/>
+  <anchor x="0" y="0" name="def"/>
   <outline>
     <contour>
       <point x="217" y="225" type="line"/>
@@ -26,4 +28,10 @@
       <point x="217" y="682" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

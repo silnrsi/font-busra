@@ -2,26 +2,12 @@
 <glyph name="uni17B6" format="2">
   <advance width="750"/>
   <unicode hex="17B6"/>
-  <anchor x="600" y="0" name="L"/>
-  <anchor x="600" y="1440" name="U"/>
+  <anchor x="0" y="0" name="B6"/>
+  <anchor x="0" y="0" name="B6C6"/>
+  <anchor x="728" y="0" name="D0"/>
+  <anchor x="320" y="1236" name="zxc1"/>
   <outline>
-    <contour>
-      <point x="-296" y="1324" type="curve"/>
-      <point x="-241" y="1241" type="line"/>
-      <point x="-174" y="1280"/>
-      <point x="-79" y="1309"/>
-      <point x="19" y="1309" type="curve"/>
-      <point x="139" y="1309"/>
-      <point x="225" y="1234"/>
-      <point x="225" y="1147" type="curve"/>
-      <point x="225" y="0" type="line"/>
-      <point x="600" y="0" type="line"/>
-      <point x="600" y="1166" type="line"/>
-      <point x="600" y="1264"/>
-      <point x="416" y="1440"/>
-      <point x="56" y="1440" type="curve"/>
-      <point x="-104" y="1440"/>
-      <point x="-226" y="1374"/>
-    </contour>
+    <component base="_topArch" xOffset="-465"/>
+    <component base="_stemLg" xOffset="162"/>
   </outline>
 </glyph>

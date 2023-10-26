@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CE.ms.high" format="2">
-  <anchor x="-225" y="1440" name="_U"/>
+  <anchor x="0" y="550" name="A0"/>
+  <anchor x="0" y="0" name="_A0"/>
+  <anchor x="0" y="0" name="_B6"/>
+  <anchor x="0" y="1000" name="_NA"/>
+  <anchor x="0" y="1000" name="_U"/>
   <outline>
     <contour>
-      <point x="-890" y="2030" type="line"/>
-      <point x="-740" y="2030" type="line"/>
-      <point x="-740" y="1880" type="line"/>
-      <point x="-610" y="1880" type="line"/>
-      <point x="-610" y="2030" type="line"/>
-      <point x="-460" y="2030" type="line"/>
-      <point x="-460" y="2160" type="line"/>
-      <point x="-610" y="2160" type="line"/>
-      <point x="-610" y="2310" type="line"/>
-      <point x="-740" y="2310" type="line"/>
-      <point x="-740" y="2160" type="line"/>
-      <point x="-890" y="2160" type="line"/>
+      <point x="-950" y="2018" type="line"/>
+      <point x="-803" y="2018" type="line"/>
+      <point x="-803" y="1880" type="line"/>
+      <point x="-635" y="1880" type="line"/>
+      <point x="-635" y="2018" type="line"/>
+      <point x="-488" y="2018" type="line"/>
+      <point x="-488" y="2173" type="line"/>
+      <point x="-635" y="2173" type="line"/>
+      <point x="-635" y="2310" type="line"/>
+      <point x="-803" y="2310" type="line"/>
+      <point x="-803" y="2173" type="line"/>
+      <point x="-950" y="2173" type="line"/>
     </contour>
   </outline>
 </glyph>

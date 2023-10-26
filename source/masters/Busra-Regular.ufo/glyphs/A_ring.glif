@@ -1,72 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Aring" format="2">
-  <advance width="1587"/>
+  <advance width="1514"/>
   <unicode hex="00C5"/>
+  <anchor x="734" y="-110" name="LL"/>
+  <anchor x="734" y="2230" name="LU"/>
   <outline>
-    <contour>
-      <point x="962" y="1707" type="curve" smooth="yes"/>
-      <point x="962" y="1782"/>
-      <point x="906" y="1867"/>
-      <point x="790" y="1867" type="curve" smooth="yes"/>
-      <point x="655" y="1867"/>
-      <point x="599" y="1782"/>
-      <point x="599" y="1695" type="curve" smooth="yes"/>
-      <point x="599" y="1617"/>
-      <point x="663" y="1542"/>
-      <point x="778" y="1542" type="curve" smooth="yes"/>
-      <point x="894" y="1542"/>
-      <point x="962" y="1636"/>
-    </contour>
-    <contour>
-      <point x="890" y="1692" type="curve" smooth="yes"/>
-      <point x="890" y="1651"/>
-      <point x="869" y="1591"/>
-      <point x="790" y="1591" type="curve" smooth="yes"/>
-      <point x="700" y="1591"/>
-      <point x="670" y="1666"/>
-      <point x="670" y="1722" type="curve" smooth="yes"/>
-      <point x="670" y="1748"/>
-      <point x="688" y="1819"/>
-      <point x="759" y="1819" type="curve" smooth="yes"/>
-      <point x="857" y="1819"/>
-      <point x="890" y="1755"/>
-    </contour>
-    <contour>
-      <point x="753" y="1471" type="line"/>
-      <point x="217" y="225" type="line" smooth="yes"/>
-      <point x="168" y="112"/>
-      <point x="116" y="37"/>
-      <point x="11" y="37" type="curve"/>
-      <point x="11" y="0" type="line"/>
-      <point x="472" y="0" type="line"/>
-      <point x="472" y="37" type="line"/>
-      <point x="346" y="37"/>
-      <point x="305" y="76"/>
-      <point x="305" y="133" type="curve" smooth="yes"/>
-      <point x="305" y="160"/>
-      <point x="315" y="192"/>
-      <point x="329" y="225" type="curve" smooth="yes"/>
-      <point x="438" y="479" type="line"/>
-      <point x="1000" y="479" type="line"/>
-      <point x="1108" y="225" type="line" smooth="yes"/>
-      <point x="1124" y="188"/>
-      <point x="1132" y="156"/>
-      <point x="1132" y="130" type="curve" smooth="yes"/>
-      <point x="1132" y="68"/>
-      <point x="1085" y="37"/>
-      <point x="977" y="37" type="curve"/>
-      <point x="977" y="0" type="line"/>
-      <point x="1568" y="0" type="line"/>
-      <point x="1568" y="37" type="line"/>
-      <point x="1430" y="37"/>
-      <point x="1384" y="94"/>
-      <point x="1329" y="225" type="curve"/>
-      <point x="805" y="1471" type="line"/>
-    </contour>
-    <contour>
-      <point x="722" y="1138" type="line"/>
-      <point x="958" y="561" type="line"/>
-      <point x="472" y="561" type="line"/>
-    </contour>
+    <component base="A"/>
+    <component base="ringcomb" xOffset="1355" yOffset="396"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
 </glyph>

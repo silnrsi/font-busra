@@ -1,69 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CF.narrow" format="2">
-  <anchor x="-225" y="2265" name="U"/>
-  <anchor x="-225" y="1440" name="_U"/>
+  <guideline x="-778"/>
+  <anchor x="0" y="450" name="A0"/>
+  <anchor x="0" y="0" name="_B6"/>
+  <anchor x="-700" y="0" name="_H"/>
+  <anchor x="0" y="1000" name="_NA"/>
+  <anchor x="0" y="1000" name="_U"/>
   <outline>
-    <contour>
-      <point x="-710" y="1792" type="curve" smooth="yes"/>
-      <point x="-710" y="1676"/>
-      <point x="-620" y="1590"/>
-      <point x="-519" y="1590" type="curve" smooth="yes"/>
-      <point x="-440" y="1590"/>
-      <point x="-406" y="1657"/>
-      <point x="-335" y="1657" type="curve" smooth="yes"/>
-      <point x="-279" y="1657"/>
-      <point x="-249" y="1590"/>
-      <point x="-163" y="1590" type="curve" smooth="yes"/>
-      <point x="-16" y="1590"/>
-      <point x="40" y="1687"/>
-      <point x="40" y="1766" type="curve" smooth="yes"/>
-      <point x="40" y="1807"/>
-      <point x="17" y="1890"/>
-      <point x="-46" y="1890" type="curve" smooth="yes"/>
-      <point x="-95" y="1890"/>
-      <point x="-110" y="1856"/>
-      <point x="-110" y="1826" type="curve" smooth="yes"/>
-      <point x="-110" y="1815"/>
-      <point x="-90" y="1800"/>
-      <point x="-90" y="1781" type="curve" smooth="yes"/>
-      <point x="-90" y="1740"/>
-      <point x="-121" y="1720"/>
-      <point x="-178" y="1720" type="curve" smooth="yes"/>
-      <point x="-226" y="1720"/>
-      <point x="-271" y="1787"/>
-      <point x="-335" y="1787" type="curve" smooth="yes"/>
-      <point x="-395" y="1787"/>
-      <point x="-444" y="1720"/>
-      <point x="-500" y="1720" type="curve" smooth="yes"/>
-      <point x="-549" y="1720"/>
-      <point x="-580" y="1770"/>
-      <point x="-580" y="1811" type="curve" smooth="yes"/>
-      <point x="-580" y="1875"/>
-      <point x="-508" y="1910"/>
-      <point x="-451" y="1910" type="curve" smooth="yes"/>
-      <point x="-331" y="1910"/>
-      <point x="-313" y="1872"/>
-      <point x="-249" y="1872" type="curve" smooth="yes"/>
-      <point x="-103" y="1872"/>
-      <point x="-20" y="1954"/>
-      <point x="-20" y="2047" type="curve" smooth="yes"/>
-      <point x="-20" y="2137"/>
-      <point x="14" y="2186"/>
-      <point x="40" y="2216" type="curve"/>
-      <point x="21" y="2224"/>
-      <point x="-1" y="2227"/>
-      <point x="-24" y="2227" type="curve" smooth="yes"/>
-      <point x="-88" y="2227"/>
-      <point x="-140" y="2164"/>
-      <point x="-140" y="2107" type="curve" smooth="yes"/>
-      <point x="-140" y="2017"/>
-      <point x="-170" y="2002"/>
-      <point x="-260" y="2002" type="curve" smooth="yes"/>
-      <point x="-324" y="2002"/>
-      <point x="-354" y="2040"/>
-      <point x="-470" y="2040" type="curve" smooth="yes"/>
-      <point x="-594" y="2040"/>
-      <point x="-710" y="1939"/>
-    </contour>
+    <component base="uni17CF" xOffset="330"/>
   </outline>
 </glyph>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb" format="2">
   <unicode hex="0302"/>
+  <anchor x="-620" y="1698" name="LU"/>
+  <anchor x="-620" y="1350" name="_LU"/>
   <outline>
     <contour>
       <point x="-584" y="1471" type="line"/>
@@ -12,4 +14,10 @@
       <point x="-382" y="1471" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

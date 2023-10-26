@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni00D40306" format="2">
-  <advance width="1507"/>
+  <advance width="1579"/>
   <outline>
     <component base="O"/>
-    <component base="uni03020306" xOffset="1297" yOffset="430"/>
+    <contour>
+      <point x="702" y="1788" type="line"/>
+      <point x="397" y="1494" type="line"/>
+      <point x="483" y="1494" type="line"/>
+      <point x="807" y="1607" type="line"/>
+      <point x="1131" y="1494" type="line"/>
+      <point x="1219" y="1494" type="line"/>
+      <point x="912" y="1788" type="line"/>
+    </contour>
+    <contour>
+      <point x="1123" y="2130" type="line"/>
+      <point x="1102" y="2076"/>
+      <point x="943" y="2015"/>
+      <point x="807" y="2015" type="curve"/>
+      <point x="671" y="2015"/>
+      <point x="512" y="2076"/>
+      <point x="491" y="2130" type="curve"/>
+      <point x="417" y="2130" type="line"/>
+      <point x="439" y="2020"/>
+      <point x="598" y="1835"/>
+      <point x="807" y="1835" type="curve"/>
+      <point x="1016" y="1835"/>
+      <point x="1175" y="2020"/>
+      <point x="1197" y="2130" type="curve"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
 </glyph>

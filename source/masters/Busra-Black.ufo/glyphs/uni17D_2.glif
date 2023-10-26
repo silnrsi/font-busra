@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D2" format="2">
   <unicode hex="17D2"/>
-  <anchor x="-150" y="-694" name="L"/>
-  <anchor x="-150" y="0" name="_L"/>
-  <anchor x="-338" y="0" name="_M"/>
+  <anchor x="-20" y="0" name="_L"/>
+  <anchor x="-638" y="0" name="_N"/>
+  <anchor x="-637" y="0" name="_NC"/>
   <outline>
     <contour>
-      <point x="-450" y="-581" type="line"/>
-      <point x="-450" y="-788" type="line"/>
-      <point x="-225" y="-788" type="line"/>
-      <point x="-225" y="-581" type="line"/>
-      <point x="-19" y="-581" type="line"/>
-      <point x="-19" y="-356" type="line"/>
-      <point x="-225" y="-356" type="line"/>
-      <point x="-225" y="-150" type="line"/>
-      <point x="-450" y="-150" type="line"/>
-      <point x="-450" y="-356" type="line"/>
-      <point x="-656" y="-356" type="line"/>
-      <point x="-656" y="-581" type="line"/>
+      <point x="-825" y="-563" type="line"/>
+      <point x="-825" y="-750" type="line"/>
+      <point x="-600" y="-750" type="line"/>
+      <point x="-600" y="-563" type="line"/>
+      <point x="-413" y="-563" type="line"/>
+      <point x="-413" y="-338" type="line"/>
+      <point x="-600" y="-338" type="line"/>
+      <point x="-600" y="-150" type="line"/>
+      <point x="-825" y="-150" type="line"/>
+      <point x="-825" y="-338" type="line"/>
+      <point x="-1013" y="-338" type="line"/>
+      <point x="-1013" y="-563" type="line"/>
     </contour>
   </outline>
 </glyph>

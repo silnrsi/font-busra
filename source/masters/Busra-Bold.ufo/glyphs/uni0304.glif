@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0304" format="2">
   <unicode hex="0304"/>
+  <anchor x="-620" y="1698" name="LU"/>
   <anchor x="0" y="0" name="PA"/>
+  <anchor x="-620" y="1350" name="_LU"/>
   <anchor x="0" y="0" name="_PA"/>
   <anchor x="0" y="0" name="_def"/>
   <outline>
@@ -12,4 +14,10 @@
       <point x="-147" y="1366" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

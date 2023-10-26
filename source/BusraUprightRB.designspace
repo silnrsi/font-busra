@@ -36,7 +36,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Busra" filename="instances/Busra-Regular.ufo" name="Busra Regular" stylemapfamilyname="Busra" stylemapstylename="regular" stylename="Regular" postscriptfontname="Busra-Regular">
+        <instance familyname="Busra Test A" filename="instances/BusraTestA-Regular.ufo" name="Busra Test A Regular" stylemapfamilyname="Busra Test A" stylemapstylename="regular" stylename="Regular" postscriptfontname="BusraTestA-Regular">
             <location>
                 <dimension name="weight" xvalue="188.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -45,7 +45,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Busra" filename="instances/Busra-Bold.ufo" name="Busra Bold" stylemapfamilyname="Busra" stylemapstylename="bold" stylename="Bold" postscriptfontname="Busra-Bold">
+        <instance familyname="Busra Test A" filename="instances/BusraTestA-Bold.ufo" name="Busra Test A Bold" stylemapfamilyname="Busra Test A" stylemapstylename="bold" stylename="Bold" postscriptfontname="BusraTestA-Bold">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />

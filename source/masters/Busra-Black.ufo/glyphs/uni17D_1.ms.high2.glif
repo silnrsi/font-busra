@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D1.ms.high2" format="2">
+  <anchor x="0" y="300" name="A1"/>
+  <anchor x="0" y="0" name="A2"/>
+  <anchor x="0" y="0" name="_A1"/>
+  <anchor x="0" y="0" name="_B6"/>
+  <anchor x="0" y="1000" name="_U"/>
   <outline>
     <contour>
-      <point x="-1163" y="2210" type="line"/>
-      <point x="-263" y="2210" type="line"/>
-      <point x="-263" y="2397" type="line"/>
-      <point x="-1163" y="2397" type="line"/>
+      <point x="-1238" y="2110" type="line"/>
+      <point x="-188" y="2110" type="line"/>
+      <point x="-188" y="2297" type="line"/>
+      <point x="-1238" y="2297" type="line"/>
     </contour>
   </outline>
 </glyph>

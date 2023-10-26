@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17A7" format="2">
+  <outline>
+    <contour>
+      <point x="975" y="487" type="line"/>
+      <point x="975" y="0" type="line"/>
+      <point x="1275" y="0" type="line"/>
+      <point x="1275" y="487" type="line"/>
+    </contour>
+  </outline>
+</glyph>

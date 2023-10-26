@@ -2,6 +2,8 @@
 <glyph name="uni0111" format="2">
   <advance width="1078"/>
   <unicode hex="0111"/>
+  <anchor x="0" y="0" name="PB"/>
+  <anchor x="0" y="0" name="def"/>
   <outline>
     <contour>
       <point x="471" y="1226" type="line"/>
@@ -61,4 +63,10 @@
       <point x="734" y="663" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

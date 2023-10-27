@@ -11,7 +11,7 @@
   <anchor x="2451" y="1580" name="U_2"/>
   <outline>
     <component base="uni178317B6"/>
-    <component base="_R.ear" xOffset="-226" yOffset="-1236"/>
+    <component base="_R.ear" xOffset="2011"/>
   </outline>
   <lib>
     <dict>

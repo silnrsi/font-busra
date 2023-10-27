@@ -7,7 +7,7 @@
 @above_vowels_narrow2 = [uni17B8.narrow uni17B9.narrow uni17BA.narrow uni17CF.narrow uni17D0];
 @any_coeng = [uni17D21780 uni17D21781 uni17D21782 uni17D21783 uni17D21784 uni17D21785 uni17D21786 uni17D21787 uni17D21788 uni17D21789 uni17D2178A uni17D2178B uni17D2178C uni17D2178D uni17D2178E uni17D2178F uni17D21790 uni17D21791 uni17D21792 uni17D21793 uni17D21794 uni17D21795 uni17D21796 uni17D21797 uni17D21798 uni17D21799 uni17D2179A uni17D2179B uni17D2179C uni17D2179D uni17D2179E uni17D2179F uni17D217A0 uni17D217A1];
 @base_cons = [uni1780 uni1781 uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789 uni178A uni178B uni178C uni178D uni178E uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179B uni179C uni179D uni179E uni179F uni17A0 uni17A1 uni17A2 uni17A3 uni17A4 uni17A5 uni17A6 uni17A7 uni17A8 uni17A9 uni17AA uni17AB uni17AC uni17AD uni17AE uni17AF uni17B0 uni17B1 uni17B1.alt uni17B2 uni17B3 uni17B3.alt];
-@base_high1 = [uni1784 uni1787 uni178A uni1790 uni1795 uni17A5 uni17A8 uni17AF];
+@base_high_rt = [uni1787 uni178A uni178B uni1790 uni1795 uni179C uni17A5 uni17A8 uni17AA uni17B3];
 @base_high2 = [uni178B uni17A6];
 @base_high3 = [uni17AA uni17B1 uni17B1.alt uni17B3 uni17B3.alt];
 @base_high4 = [uni17AA uni17B1.alt uni17B3.alt];
@@ -39,11 +39,6 @@
 @below_marks = [uni17BB uni17BB.low uni17BB.low.narrow uni17BB.narrow uni17BC uni17BC.low uni17BD uni17BD.low uni17D2 uni17D2.low];
 @below_vow_narrowwide = [uni17BC.narrow uni17BD.narrow];
 @below_vowel_low_wide = [uni17BC.low uni17BD.low];
-@coeng-hight1 = [uni17D21780 uni17D21781 uni17D21782 uni17D21783 uni17D21784 uni17D21785 uni17D21786 uni17D21787 uni17D21788 uni17D21789 uni17D2178A uni17D2178B uni17D2178C uni17D2178D uni17D2178E uni17D2178F uni17D21790 uni17D21791 uni17D21792 uni17D21793 uni17D21794 uni17D21795 uni17D21796 uni17D21797 uni17D21798 uni17D21799 uni17D2179B uni17D2179C uni17D2179D uni17D2179E uni17D2179F uni17D217A2 uni17D217A3 uni17D217A4 uni17D217A7 uni17D217A9 uni17D21780.low uni17D21781.low uni17D21782.low uni17D21784.low uni17D21785.low uni17D21786.low uni17D21787.low uni17D21789.low uni17D2178A.low uni17D2178B.low uni17D2178C.low uni17D2178E.low uni17D2178F.low uni17D21790.low uni17D21791.low uni17D21792.low uni17D21793.low uni17D21795.low uni17D21796.low uni17D21797.low uni17D21798.low uni17D2179B.low uni17D2179C.low uni17D2179D.low uni17D217A0.low uni17D217A2.low];
-@coeng-hight2 = [uni17D217A8 uni17D217AF uni17D217B1 uni17D217B2 uni17D217B3];
-@coeng-hight3 = [uni17D217A5 uni17D217AB uni17D217AC uni17D217AD uni17D217AE];
-@coeng-hight4 = [uni17D217AA];
-@coeng-hight5 = [uni17D217A1.alt uni17D217A1.altlow uni17D217A6 uni17D217B0];
 @coeng_A3_plus = [uni17D217A3 uni17D217A4 uni17D217A5 uni17D217A6 uni17D217A7 uni17D217A8 uni17D217A9 uni17D217AA uni17D217AB uni17D217AC uni17D217AD uni17D217AE uni17D217AF uni17D217B0 uni17D217B1 uni17D217B2 uni17D217B3];
 @coeng_muusikatoan-shift = [uni17D21784 uni17D21784.low uni17D21789 uni17D21789.low uni17D21789.alt1 uni17D21794 uni17D21794.low uni17D21798 uni17D21798.low uni17D21799 uni17D21799.low uni17D2179C uni17D2179C.low uni17D2179D uni17D2179D.low];
 @coeng_no_flat = [uni17D217A1.alt uni17D217A3 uni17D217A4 uni17D217A5 uni17D217A6 uni17D217A7 uni17D217A8 uni17D217A9 uni17D217AA uni17D217AB uni17D217AC uni17D217AD uni17D217AE uni17D217AF uni17D217B0 uni17D217B1 uni17D217B2 uni17D217B3];
@@ -209,7 +204,7 @@ lookup insert_dotted_circle {
 
 # 3.1 Insert dotted circles for bad vowel sequences
 lookup bad_vowels {
-   # sub uni17C1 @coeng_ro? @base_cons uni17CC? @any_coeng? @any_coeng? @below_vowel? uni17B8' lookup insert_dotted_circle;
+   # sub uni17C1 @coeng_ro? @base_cons uni17CC? (@coeng_no_ro @coeng_no_ro?)? ([uni17C9 uni17CA] zerowidthjoiner?)? @below_vowel? uni17B8' lookup insert_dotted_circle;
 do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"], "@below_vowel");
     let s = " ".join(l);
     {
@@ -217,6 +212,7 @@ do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 u
         sub uni17C1 @base_cons $s uni17B8' lookup insert_dotted_circle;
     }
 
+    # sub uni17C1 @coeng_ro? @base_cons uni17CC? (@coeng_no_ro @coeng_no_ro?)?) ([uni17C9 uni17CA] zerowidthjoiner?)? @below_vowel? @above_vowels? uni17B6' lookup insert_dotted_circle
 do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"], "@below_vowel", "@above_vowels");
     let s = " ".join(l);
     {
@@ -226,7 +222,7 @@ do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 u
 
    sub uni17BB @above_vowels' lookup insert_dotted_circle;
 
-   # sub uni17C1 @coeng_ro? @base_cons uni17CC? @any_coeng? @any_coeng? [uni17C9 uni17CA]? [uni17BE uni17BF uni17C0] @below_vowel? @above_vowels' lookup insert_dotted_circle;
+   # sub uni17C1 @coeng_ro? @base_cons uni17CC? (@coeng_no_ro @coeng_no_ro?)?) ([uni17C9 uni17CA] zerowidthjoiner?)? [uni17BE uni17BF uni17C0] @below_vowel? @above_vowels' lookup insert_dotted_circle;
 do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"]);
     let s = " ".join(l);
     {
@@ -236,7 +232,7 @@ do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 u
         sub uni17C1 @base_cons $s [uni17BE uni17BF uni17C0] @below_vowel @above_vowels' lookup insert_dotted_circle;
     }
 
-   # sub uni17C1 @coeng_ro? @base_cons uni17CC? @coeng_no_ro? @coeng_no_ro? [uni17C9 uni17CA]? [uni17BF uni17C0] @below_vowel' lookup insert_dotted_circle;
+   # sub uni17C1 @coeng_ro? @base_cons uni17CC? (@coeng_no_ro @coeng_no_ro?)?) ([uni17C9 uni17CA] zerowidthjoiner?)? [uni17BF uni17C0] @below_vowel' lookup insert_dotted_circle;
 do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"]);
     let s = " ".join(l);
     {
@@ -244,7 +240,7 @@ do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 u
         sub uni17C1 @base_cons $s [uni17BF uni17C0] @below_vowel' lookup insert_dotted_circle;
     }
 
-   # sub uni17C1 @coeng_ro? @base_cons uni17CC? @coeng_no_ro? @coeng_no_ro? [uni17C9 uni17CA]? [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
+   # sub uni17C1 @coeng_ro? @base_cons uni17CC? (@coeng_no_ro @coeng_no_ro?)?) ([uni17C9 uni17CA] zerowidthjoiner?)? [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
 do  forlet l = optlist("uni17CC", ["@coeng_no_ro", "@coeng_no_ro"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"]);
     let s = " ".join(l);
     {
@@ -1074,6 +1070,14 @@ do  let r = (MAXx("uni17CA") - MINx("uni17CA") + MAXx("uni17C6") - MINx("uni17C6
     { pos $b uni17CA [uni17C6 uni17CB uni17CD uni17CE uni17CF]' < $x 0 0 0 >; }
 } a_shifter_dia;
 
+lookup raise_vowels_spacing_coengs {
+    pos @base_high_rt @post_coeng_all @above_vowels' <0 260 0 0>;
+} raise_vowels_spacing_coengs;
+
+lookup shift_dia_C5 {
+    pos @ligatures_c5 <NULL> uni17CF <-350 0 0 0>;
+} shift_dia_C5;
+
 # Features
 feature abvf {
     script khmr;
@@ -1086,6 +1090,8 @@ feature abvm {
     language dflt;
     lookup ligatures;
     lookup a_shifter_dia;
+    lookup raise_vowels_spacing_coengs;
+    lookup shift_dia_C5;
 } abvm;
 
 feature abvs {

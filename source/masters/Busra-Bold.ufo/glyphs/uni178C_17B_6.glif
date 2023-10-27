@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni178C17B6" format="2">
   <advance width="2175"/>
   <guideline y="1197"/>
   <anchor x="708" y="0" name="LC_1"/>
-  <anchor x="1287" y="0" name="LC_2"/>
-  <anchor x="1180" y="0" name="L_1"/>
-  <anchor x="1930" y="0" name="L_2"/>
+  <anchor x="1462" y="0" name="LC_2"/>
+  <anchor x="1236" y="0" name="L_1"/>
+  <anchor x="1986" y="0" name="L_2"/>
   <anchor x="710" y="1580" name="UC_1"/>
-  <anchor x="1287" y="1580" name="UC_2"/>
-  <anchor x="1180" y="1580" name="U_1"/>
-  <anchor x="1930" y="1580" name="U_2"/>
+  <anchor x="1462" y="1580" name="UC_2"/>
+  <anchor x="1236" y="1580" name="U_1"/>
+  <anchor x="1986" y="1580" name="U_2"/>
   <outline>
     <component base="uni178C"/>
     <component base="uni17B6" xOffset="1425"/>

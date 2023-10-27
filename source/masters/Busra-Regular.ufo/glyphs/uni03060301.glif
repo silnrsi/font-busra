@@ -1,8 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni03060301" format="2">
   <anchor x="-626" y="1911" name="LU"/>
   <anchor x="-626" y="1350" name="_LU"/>
   <outline>
+    <component base="uni0306.high" yOffset="-313"/>
     <contour>
       <point x="-747" y="1653" type="line"/>
       <point x="-637" y="1653" type="line"/>
@@ -17,7 +18,6 @@
       <point x="-487" y="1900"/>
       <point x="-554" y="1837" type="curve" smooth="yes"/>
     </contour>
-    <component base="uni0306.high" yOffset="-313"/>
   </outline>
   <lib>
     <dict>

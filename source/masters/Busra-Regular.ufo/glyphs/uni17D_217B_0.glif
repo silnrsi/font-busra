@@ -1,10 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D217B0" format="2">
-  <anchor x="-659" y="-670" name="LA"/>
-  <anchor x="-225" y="-670" name="LL"/>
+  <anchor x="-630" y="-1191" name="LA"/>
+  <anchor x="-258" y="-1191" name="LL"/>
   <anchor x="-245" y="0" name="_L"/>
   <anchor x="-225" y="0" name="_LL"/>
   <outline>
+    <component base="uni17D21796"/>
     <contour>
       <point x="-245" y="-642" type="line"/>
       <point x="-433" y="-625" type="line"/>
@@ -52,7 +53,6 @@
       <point x="-245" y="-780"/>
       <point x="-245" y="-720" type="curve" smooth="yes"/>
     </contour>
-    <component base="uni17D21796"/>
   </outline>
   <lib>
     <dict>

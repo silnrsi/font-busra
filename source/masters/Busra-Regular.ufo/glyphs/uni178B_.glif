@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni178B" format="2">
   <advance width="1516"/>
   <unicode hex="178B"/>
   <anchor x="1271" y="0" name="L"/>
-  <anchor x="772" y="0" name="LC"/>
+  <anchor x="801" y="0" name="LC"/>
   <anchor x="1271" y="1840" name="U"/>
   <anchor x="801" y="1840" name="UC"/>
   <outline>

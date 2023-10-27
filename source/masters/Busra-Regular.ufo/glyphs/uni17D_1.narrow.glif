@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D1.narrow" format="2">
   <guideline x="-778"/>
   <anchor x="-695" y="1860" name="UA"/>
@@ -7,10 +7,10 @@
   <anchor x="-715" y="1580" name="_UC"/>
   <outline>
     <contour>
-      <point x="-696" y="1630" type="line"/>
-      <point x="-74" y="1630" type="line"/>
-      <point x="-74" y="1800" type="line"/>
-      <point x="-696" y="1800" type="line"/>
+      <point x="-1016" y="1630" type="line"/>
+      <point x="-394" y="1630" type="line"/>
+      <point x="-394" y="1800" type="line"/>
+      <point x="-1016" y="1800" type="line"/>
     </contour>
   </outline>
 </glyph>

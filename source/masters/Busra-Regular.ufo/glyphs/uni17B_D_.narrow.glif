@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17BD.narrow" format="2">
-  <anchor x="-547" y="-670" name="LA"/>
-  <anchor x="-225" y="-670" name="LL"/>
+  <anchor x="-607" y="-820" name="LA"/>
+  <anchor x="-225" y="-820" name="LL"/>
   <anchor x="-245" y="0" name="_L"/>
   <anchor x="-225" y="0" name="_LL"/>
   <outline>

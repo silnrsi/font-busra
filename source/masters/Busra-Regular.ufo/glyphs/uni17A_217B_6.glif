@@ -1,12 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17A217B6" format="2">
   <advance width="2176"/>
-  <anchor x="742" y="0" name="LC_1"/>
-  <anchor x="1231" y="0" name="LC_2"/>
+  <anchor x="762" y="0" name="LC_1"/>
+  <anchor x="1473" y="0" name="LC_2"/>
   <anchor x="1203" y="0" name="L_1"/>
   <anchor x="1931" y="0" name="L_2"/>
-  <anchor x="733" y="1580" name="UC_1"/>
-  <anchor x="1231" y="1580" name="UC_2"/>
+  <anchor x="762" y="1580" name="UC_1"/>
+  <anchor x="1473" y="1580" name="UC_2"/>
   <anchor x="1203" y="1580" name="U_1"/>
   <anchor x="1931" y="1580" name="U_2"/>
   <outline>

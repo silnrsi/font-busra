@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni179C" format="2">
   <advance width="788"/>
   <unicode hex="179C"/>
-  <anchor x="543" y="0" name="L"/>
-  <anchor x="424" y="0" name="LC"/>
-  <anchor x="543" y="1840" name="U"/>
-  <anchor x="73" y="1840" name="UC"/>
+  <anchor x="600" y="0" name="L"/>
+  <anchor x="449" y="0" name="LC"/>
+  <anchor x="600" y="1840" name="U"/>
+  <anchor x="449" y="1840" name="UC"/>
   <outline>
     <component base="_stemloop" xScale="-1" xOffset="662" yOffset="22"/>
     <component base="_stemSm" xOffset="200" yOffset="408"/>

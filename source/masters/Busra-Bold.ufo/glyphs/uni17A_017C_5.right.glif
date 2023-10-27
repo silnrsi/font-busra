@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17A017C5.right" format="2">
   <advance width="2700"/>
-  <anchor x="927" y="0" name="LC_1"/>
-  <anchor x="1854" y="0" name="LC_2"/>
-  <anchor x="1705" y="0" name="L_1"/>
-  <anchor x="2455" y="0" name="L_2"/>
-  <anchor x="1284" y="1580" name="UC_1"/>
-  <anchor x="1854" y="1580" name="UC_2"/>
-  <anchor x="1705" y="1580" name="U_1"/>
-  <anchor x="2455" y="1580" name="U_2"/>
+  <anchor x="1007" y="0" name="LC_1"/>
+  <anchor x="1990" y="0" name="LC_2"/>
+  <anchor x="1762" y="0" name="L_1"/>
+  <anchor x="2512" y="0" name="L_2"/>
+  <anchor x="1304" y="1580" name="UC_1"/>
+  <anchor x="1990" y="1580" name="UC_2"/>
+  <anchor x="1762" y="1580" name="U_1"/>
+  <anchor x="2512" y="1580" name="U_2"/>
   <outline>
     <component base="uni17A017B6"/>
-    <component base="_R.ear" xOffset="2044"/>
+    <component base="_R.ear" xOffset="-226" yOffset="-1236"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

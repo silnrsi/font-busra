@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D2178D.low" format="2">
   <advance width="728"/>
   <guideline y="-1026"/>
@@ -6,7 +6,7 @@
   <guideline x="-118"/>
   <guideline x="1512"/>
   <anchor x="483" y="-1239" name="L"/>
-  <anchor x="-126" y="-1239" name="LC"/>
+  <anchor x="-216" y="-1239" name="LC"/>
   <anchor x="483" y="1580" name="U"/>
   <anchor x="13" y="1580" name="UC"/>
   <outline>

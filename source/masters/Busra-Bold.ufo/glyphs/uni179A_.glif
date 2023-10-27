@@ -4,7 +4,7 @@
   <unicode hex="179A"/>
   <anchor x="600" y="0" name="L"/>
   <anchor x="451" y="0" name="LC"/>
-  <anchor x="600" y="1580" name="U"/>
+  <anchor x="766" y="1580" name="U"/>
   <anchor x="451" y="1580" name="UC"/>
   <outline>
     <component base="_L.ear" xOffset="31"/>

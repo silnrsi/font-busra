@@ -2,9 +2,9 @@
 <glyph name="uni1791" format="2">
   <advance width="1400"/>
   <unicode hex="1791"/>
-  <anchor x="1188" y="0" name="L"/>
+  <anchor x="1088" y="0" name="L"/>
   <anchor x="734" y="0" name="LC"/>
-  <anchor x="1188" y="1580" name="U"/>
+  <anchor x="1088" y="1580" name="U"/>
   <anchor x="734" y="1580" name="UC"/>
   <outline>
     <contour>

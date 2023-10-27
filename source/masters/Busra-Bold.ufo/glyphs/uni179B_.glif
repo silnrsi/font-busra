@@ -5,7 +5,7 @@
   <anchor x="1762" y="0" name="L"/>
   <anchor x="1017" y="0" name="LC"/>
   <anchor x="1762" y="1580" name="U"/>
-  <anchor x="1294" y="1580" name="UC"/>
+  <anchor x="1240" y="1580" name="UC"/>
   <outline>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="125" yOffset="1440"/>
     <component base="_stemloop" xOffset="200" yOffset="20"/>

@@ -9,8 +9,9 @@
   <anchor x="749" y="1580" name="UC_2"/>
   <anchor x="485" y="1580" name="U_1"/>
   <anchor x="1211" y="1580" name="U_2"/>
+  <anchor x="1007" y="1236" name="zxc1"/>
   <outline>
     <component base="uni17D2179417B6"/>
     <component base="_eyelash2"/>
   </outline>
-<anchor name="zxc1" x="1007" y="1236"/></glyph>
+</glyph>

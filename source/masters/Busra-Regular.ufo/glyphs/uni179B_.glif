@@ -3,9 +3,9 @@
   <advance width="1928"/>
   <unicode hex="179B"/>
   <anchor x="1683" y="0" name="L"/>
-  <anchor x="1075" y="0" name="LC"/>
+  <anchor x="996" y="0" name="LC"/>
   <anchor x="1683" y="1580" name="U"/>
-  <anchor x="1262" y="1580" name="UC"/>
+  <anchor x="1212" y="1580" name="UC"/>
   <outline>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="195" yOffset="1440"/>
     <component base="_stemloop" xOffset="195"/>

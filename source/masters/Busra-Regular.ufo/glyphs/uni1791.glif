@@ -3,9 +3,9 @@
   <advance width="1280"/>
   <unicode hex="1791"/>
   <guideline x="649"/>
-  <anchor x="1102" y="0" name="L"/>
+  <anchor x="963" y="0" name="L"/>
   <anchor x="664" y="0" name="LC"/>
-  <anchor x="1102" y="1580" name="U"/>
+  <anchor x="963" y="1580" name="U"/>
   <anchor x="664" y="1580" name="UC"/>
   <outline>
     <contour>

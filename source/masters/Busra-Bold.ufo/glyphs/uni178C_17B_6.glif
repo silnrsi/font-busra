@@ -10,6 +10,7 @@
   <anchor x="1462" y="1580" name="UC_2"/>
   <anchor x="1236" y="1580" name="U_1"/>
   <anchor x="1986" y="1580" name="U_2"/>
+  <anchor x="1745" y="1236" name="zxc1"/>
   <outline>
     <component base="uni178C"/>
     <component base="uni17B6" xOffset="1425"/>
@@ -20,4 +21,4 @@
       <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
-<anchor name="zxc1" x="1745" y="1236"/></glyph>
+</glyph>

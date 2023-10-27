@@ -10,8 +10,9 @@
   <anchor x="-217" y="1580" name="UC_2"/>
   <anchor x="483" y="1580" name="U_1"/>
   <anchor x="483" y="1580" name="U_2"/>
+  <anchor x="281" y="1236" name="zxc1"/>
   <outline>
     <component base="_topArch" xOffset="-421"/>
     <component base="_stemLg" xOffset="195"/>
   </outline>
-<anchor name="zxc1" x="281" y="1236"/></glyph>
+</glyph>

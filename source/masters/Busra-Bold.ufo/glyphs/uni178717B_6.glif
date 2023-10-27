@@ -9,10 +9,11 @@
   <anchor x="1537" y="1840" name="UC_2"/>
   <anchor x="1312" y="1840" name="U_1"/>
   <anchor x="2062" y="1840" name="U_2"/>
+  <anchor x="1831" y="1236" name="zxc1"/>
   <outline>
     <component base="_squirreltail" xOffset="31"/>
     <component base="_w" xOffset="162"/>
     <component base="_deepArch2" xOffset="874"/>
     <component base="_stemMd" xOffset="162" yOffset="195"/>
   </outline>
-<anchor name="zxc1" x="1831" y="1236"/></glyph>
+</glyph>

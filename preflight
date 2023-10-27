@@ -18,7 +18,8 @@ psfbuildcomp -i source/composites.txt -c -n source/masters/Busra-Bold.ufo -p bac
 #psfbuildcomp -i source/composites.txt -c -n source/masters/Busra-Black.ufo -p backup=False
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters source/BusraUprightDesign.designspace 
+#psfsyncmasters source/BusraUprightDesign.designspace 
+psfsyncmasters source/BusraUprightRB.designspace 
 
 #echo "-----Updating WOFF metadata..."
 #psfmakewoffmetadata -n Busra -i "org.sil.fonts" -o source/Busra-WOFF-metadata.xml source/masters/Busra-Regular.ufo

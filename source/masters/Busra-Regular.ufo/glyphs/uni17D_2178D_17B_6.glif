@@ -9,6 +9,7 @@
   <anchor x="741" y="1580" name="UC_2"/>
   <anchor x="483" y="1580" name="U_1"/>
   <anchor x="1211" y="1580" name="U_2"/>
+  <anchor x="1007" y="1236" name="zxc1"/>
   <outline>
     <component base="_stemSub" xOffset="195" yOffset="-120"/>
     <component base="_subm" xOffset="-957"/>
@@ -18,4 +19,4 @@
     <component base="_bulgeArch" xOffset="23"/>
     <component base="_stemLg" xOffset="923"/>
   </outline>
-<anchor name="zxc1" x="1007" y="1236"/></glyph>
+</glyph>

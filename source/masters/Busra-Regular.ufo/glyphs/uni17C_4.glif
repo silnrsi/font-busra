@@ -2,9 +2,10 @@
 <glyph name="uni17C4" format="2">
   <advance width="2916"/>
   <unicode hex="17C4"/>
+  <anchor x="2471" y="1236" name="zxc1"/>
   <outline>
     <component base="uni17C1"/>
     <component base="dottedcircle" xOffset="640" yOffset="60"/>
     <component base="uni17B6" xOffset="2188"/>
   </outline>
-<anchor name="zxc1" x="2471" y="1236"/></glyph>
+</glyph>

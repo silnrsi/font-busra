@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CA.lower" format="2">
+  <anchor x="-719" y="1793" name="UA"/>
+  <anchor x="-225" y="1793" name="UU"/>
+  <anchor x="-245" y="1500" name="_U"/>
+  <anchor x="-225" y="1500" name="_UU"/>
   <outline>
     <component base="uni17CA" yOffset="-80"/>
   </outline>

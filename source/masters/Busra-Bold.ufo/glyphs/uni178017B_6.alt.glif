@@ -9,6 +9,7 @@
   <anchor x="1980" y="1580" name="UC_2"/>
   <anchor x="1762" y="1580" name="U_1"/>
   <anchor x="2511" y="1580" name="U_2"/>
+  <anchor x="2246" y="1236" name="zxc1"/>
   <outline>
     <component base="_stemloop" xOffset="200"/>
     <component base="_stemMd" xOffset="762"/>
@@ -61,4 +62,4 @@
       <string>CCCCCCCP</string>
     </dict>
   </lib>
-<anchor name="zxc1" x="2246" y="1236"/></glyph>
+</glyph>

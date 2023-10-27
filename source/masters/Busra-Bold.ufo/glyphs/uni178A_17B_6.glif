@@ -9,6 +9,7 @@
   <anchor x="1362" y="1840" name="UC_2"/>
   <anchor x="1255" y="1840" name="U_1"/>
   <anchor x="2005" y="1840" name="U_2"/>
+  <anchor x="1824" y="1236" name="zxc1"/>
   <outline>
     <component base="_deepArch2" xOffset="874"/>
     <component base="_w" xOffset="162"/>
@@ -59,4 +60,4 @@
       <string>CCCP</string>
     </dict>
   </lib>
-<anchor name="zxc1" x="1824" y="1236"/></glyph>
+</glyph>

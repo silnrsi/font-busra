@@ -1,3 +1,4 @@
 #!/bin/sh
 
 psfufo2glyphs source/BusraUprightDesign.designspace source/masters/BusraUprightDesign.glyphs
+psfufo2glyphs source/BusraUprightRB.designspace source/masters/BusraUprightRB.glyphs

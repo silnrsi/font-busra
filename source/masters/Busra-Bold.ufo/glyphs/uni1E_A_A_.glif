@@ -3,16 +3,15 @@
   <advance width="1627"/>
   <unicode hex="1EAA"/>
   <anchor x="743" y="-110" name="LL"/>
-  <anchor x="742" y="2513" name="LU"/>
+  <anchor x="742" y="2378" name="LU"/>
   <outline>
     <component base="A"/>
-    <component base="circumflexcomb" xOffset="1368" yOffset="395"/>
-    <component base="tildecomb" xOffset="1363" yOffset="806"/>
+    <component base="uni03020303" xOffset="1368" yOffset="395"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

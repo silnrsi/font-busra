@@ -2,18 +2,18 @@
 <glyph name="iacute" format="2">
   <advance width="723"/>
   <unicode hex="00ED"/>
-  <anchor x="371" y="-110" name="LL"/>
-  <anchor x="371" y="2187" name="LU"/>
-  <anchor x="520" y="0" name="PB"/>
-  <anchor x="460" y="200" name="def"/>
+  <anchor x="369" y="-110" name="LL"/>
+  <anchor x="369" y="1718" name="LU"/>
+  <anchor x="0" y="0" name="PB"/>
+  <anchor x="0" y="0" name="def"/>
   <outline>
-    <component base="i"/>
-    <component base="acutecomb" xOffset="991" yOffset="469"/>
+    <component base="dotlessi"/>
+    <component base="acutecomb" xOffset="989"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

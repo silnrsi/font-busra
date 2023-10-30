@@ -50,6 +50,11 @@ September/space 5,/space 1723</string>
     <string>/uni1EB7/uni1EAD/uni1EA1/uni1EC7/uni1EB9/uni1ECB/uni1ED9/uni1EE5/uni1EF1/uni1EF5</string>
     <string>¢£§/bullet ¶®©/trademark ´¨¥µ/partialdiff/summation/product/pi/integral ªº/Omega µ¿¡/Euro/uni20AB/space/space</string>
     <string>/circumflex/tilde ¯/breve/dotaccent/ring ¸/hungarumlaut/ogonek/caron</string>
+    <string>HÐðß/space &amp;/ellipsis .../space !"/space .,x:;</string>
+    <string>á/uni0103/uni1EAF/uni1EB7/uni1EB1/uni1EB3/uni1EB5 â/uni1EA5/uni1EAD/uni1EA7/uni1EA9/uni1EAB ä/uni1EA1 à/uni1EA3 åã</string>
+    <string>/uni03060303</string>
+    <string>/uni1EAE/uni1EB0/uni1EB2/uni1EB4/uni1EA4/uni1EA6/uni1EA8/uni1EAA/uni1EBE/uni1EC0/uni1EC2/uni1EC4/uni1ED0/uni1ED2/uni1ED4/uni1ED6 
+/uni1EAF/uni1EB1/uni1EB3/uni1EB5/uni1EA5/uni1EA7/uni1EA9/uni1EAB/uni1EBF/uni1EC1/uni1EC3/uni1EC5 í/uni1ED1/uni1ED3/uni1ED5/uni1ED7</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

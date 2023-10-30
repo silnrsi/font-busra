@@ -34,27 +34,18 @@
     <string>/space apbcdefghni/dotlessi cjklmnopqrstuvwxyz</string>
     <string>ABCDEFGHIJKLMNOPQRS
 /space TDUOCVWXYZ/space</string>
-    <string>/gravecomb/space/acutecomb/space/tildecomb/space/dieresiscomb/space/uni03020300/space/uni03020301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni0309/space/uni031B/space/uni0323/space/uni03020306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni03020309/space/uni03060300/space/uni03060301/space/uni03060303/space/uni03060309/space</string>
+    <string>?!'"/space/space/uni0309/space/gravecomb/space/acutecomb/space/tildecomb/space/dieresiscomb/space/uni03020300/space/uni03020301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni0309/space/uni031B/space/uni0323/space/uni03020306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni0309/space/uni03020309/space/space/uni03060300/space/uni03060301/space/uni03060303/space/uni03060309</string>
     <string>-8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8=/approxequal 8÷8/endash/figuredash 8/space 8+8/minus 8×8-88/notequal 8/infinity 8±/space/space/space</string>
-    <string>2/backslash |¦d//b
-/backslash///fraction |½|¾|¼|85
-2¼/space 3½
-John/space &amp;/space Mary/space</string>
     <string>©®/trademark ªº¹²³/foursuperior/space ½¼¾%/perthousand</string>
     <string>AÆD/uni0110 ÐHO/uni01A0 Ø/OE PÞU/uni01AF aæd/uni0111 ðoe/space i/dotlessi o/uni01A1 ø/oe bpþßu/uni01B0</string>
     <string>/uni01A0/space/uni031B/space/uni01AF U/uni01A1/uni01B0/space</string>
     <string>$£¥¤/partialdiff/summation/product/pi/integral</string>
-    <string>oo(nn)non[no]@/space dhnn{no}no/space</string>
     <string>|0|1|2|3|4|5|7|8|/six.001 |6|9|
 September/space 5,/space 1723</string>
-    <string>/uni1EB7/uni1EAD/uni1EA1/uni1EC7/uni1EB9/uni1ECB/uni1ED9/uni1EE5/uni1EF1/uni1EF5</string>
     <string>¢£§/bullet ¶®©/trademark ´¨¥µ/partialdiff/summation/product/pi/integral ªº/Omega µ¿¡/Euro/uni20AB/space/space</string>
-    <string>/circumflex/tilde ¯/breve/dotaccent/ring ¸/hungarumlaut/ogonek/caron</string>
-    <string>HÐðß/space &amp;/ellipsis .../space !"/space .,x:;</string>
-    <string>á/uni0103/uni1EAF/uni1EB7/uni1EB1/uni1EB3/uni1EB5 â/uni1EA5/uni1EAD/uni1EA7/uni1EA9/uni1EAB ä/uni1EA1 à/uni1EA3 åã</string>
-    <string>/uni03060303</string>
-    <string>/uni1EAE/uni1EB0/uni1EB2/uni1EB4/uni1EA4/uni1EA6/uni1EA8/uni1EAA/uni1EBE/uni1EC0/uni1EC2/uni1EC4/uni1ED0/uni1ED2/uni1ED4/uni1ED6 
-/uni1EAF/uni1EB1/uni1EB3/uni1EB5/uni1EA5/uni1EA7/uni1EA9/uni1EAB/uni1EBF/uni1EC1/uni1EC3/uni1EC5 í/uni1ED1/uni1ED3/uni1ED5/uni1ED7</string>
+    <string>HÐðßos/space &amp;/ellipsis .../space "abc!'"/space .,x/uni178D17C5.right/uni178E :;</string>
+    <string>a/uni0304 àá/uni0103/uni1EAF/uni1EB7/uni1EB1/uni1EB3/uni1EB5 àáâ
+/uni1EA5/uni1EAD/uni1EA7/uni1EA9/uni1EAB ä/uni1EA1 à/uni1EA3 åã</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

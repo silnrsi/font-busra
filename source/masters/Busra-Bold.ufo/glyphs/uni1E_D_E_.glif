@@ -3,7 +3,7 @@
   <advance width="1611"/>
   <unicode hex="1EDE"/>
   <anchor x="764" y="-110" name="LL"/>
-  <anchor x="780" y="2239" name="LU"/>
+  <anchor x="780" y="2259" name="LU"/>
   <anchor x="1385" y="425" name="PA"/>
   <anchor x="1385" y="415" name="_PA"/>
   <anchor x="1385" y="443" name="_def"/>
@@ -14,7 +14,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

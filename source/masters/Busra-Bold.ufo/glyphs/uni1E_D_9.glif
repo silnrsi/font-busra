@@ -3,19 +3,19 @@
   <advance width="1328"/>
   <unicode hex="1ED9"/>
   <anchor x="939" y="1010" name="LH"/>
-  <anchor x="662" y="-447" name="LL"/>
-  <anchor x="664" y="1761" name="LU"/>
+  <anchor x="662" y="-487" name="LL"/>
+  <anchor x="664" y="1781" name="LU"/>
   <anchor x="561" y="0" name="PB"/>
   <anchor x="621" y="0" name="def"/>
   <outline>
     <component base="o"/>
     <component base="circumflexcomb" xOffset="1290"/>
-    <component base="uni0323" xOffset="1283"/>
+    <component base="uni0323" xOffset="1283" yOffset="-20"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

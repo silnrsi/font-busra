@@ -5,47 +5,10 @@
   <anchor x="-626" y="1350" name="_LU"/>
   <outline>
     <component base="uni0306.high" yOffset="-313"/>
-    <contour>
-      <point x="-628" y="1928" type="curve" smooth="yes"/>
-      <point x="-585" y="1928"/>
-      <point x="-553" y="1911"/>
-      <point x="-553" y="1867" type="curve" smooth="yes"/>
-      <point x="-553" y="1829"/>
-      <point x="-567" y="1802"/>
-      <point x="-599" y="1767" type="curve" smooth="yes"/>
-      <point x="-637" y="1725"/>
-      <point x="-652" y="1693"/>
-      <point x="-652" y="1619" type="curve"/>
-      <point x="-605" y="1619" type="line"/>
-      <point x="-605" y="1689"/>
-      <point x="-563" y="1720"/>
-      <point x="-522" y="1751" type="curve" smooth="yes"/>
-      <point x="-482" y="1780"/>
-      <point x="-458" y="1813"/>
-      <point x="-458" y="1869" type="curve" smooth="yes"/>
-      <point x="-458" y="1951"/>
-      <point x="-536" y="1980"/>
-      <point x="-623" y="1980" type="curve" smooth="yes"/>
-      <point x="-715" y="1980"/>
-      <point x="-762" y="1924"/>
-      <point x="-762" y="1879" type="curve" smooth="yes"/>
-      <point x="-762" y="1845"/>
-      <point x="-739" y="1823"/>
-      <point x="-714" y="1823" type="curve" smooth="yes"/>
-      <point x="-687" y="1823"/>
-      <point x="-669" y="1843"/>
-      <point x="-669" y="1867" type="curve" smooth="yes"/>
-      <point x="-669" y="1884"/>
-      <point x="-687" y="1906"/>
-      <point x="-709" y="1904" type="curve"/>
-      <point x="-700" y="1916"/>
-      <point x="-673" y="1928"/>
-    </contour>
+    <component base="uni0309" xScale="0.9" yScale="0.9" xOffset="-94" yOffset="360"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CP</string>
       <key>public.markColor</key>
       <string>0.97,1,0,1</string>
     </dict>

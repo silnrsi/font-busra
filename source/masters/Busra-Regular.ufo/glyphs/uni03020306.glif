@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni03020306" format="2">
-  <anchor x="-626" y="1981" name="LU"/>
+  <anchor x="-626" y="2001" name="LU"/>
   <anchor x="0" y="553" name="PA"/>
   <anchor x="-626" y="1350" name="_LU"/>
   <anchor x="0" y="353" name="_PA"/>
   <anchor x="0" y="352" name="_def"/>
   <outline>
-    <component base="uni0306.high" yOffset="20"/>
+    <component base="uni0306.high" yOffset="40"/>
     <component base="circumflexcomb" yScale="0.95" yOffset="10"/>
   </outline>
   <lib>

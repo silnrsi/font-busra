@@ -8,10 +8,10 @@
   <anchor x="0" y="18" name="_def"/>
   <outline>
     <contour>
-      <point x="-977" y="1637" type="line"/>
-      <point x="-977" y="1474" type="line"/>
-      <point x="-267" y="1474" type="line"/>
-      <point x="-267" y="1637" type="line"/>
+      <point x="-977" y="1627" type="line"/>
+      <point x="-977" y="1484" type="line"/>
+      <point x="-267" y="1484" type="line"/>
+      <point x="-267" y="1627" type="line"/>
     </contour>
   </outline>
   <lib>

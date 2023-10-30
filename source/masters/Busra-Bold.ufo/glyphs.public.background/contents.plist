@@ -150,12 +150,24 @@
   <string>two.glif</string>
   <key>u</key>
   <string>u.glif</string>
+  <key>uni03020300</key>
+  <string>uni03020300.glif</string>
+  <key>uni03020301</key>
+  <string>uni03020301.glif</string>
   <key>uni0306</key>
   <string>uni0306.glif</string>
+  <key>uni0306.high</key>
+  <string>uni0306.high.glif</string>
+  <key>uni03060300</key>
+  <string>uni03060300.glif</string>
+  <key>uni03060301</key>
+  <string>uni03060301.glif</string>
   <key>uni0307</key>
   <string>uni0307.glif</string>
   <key>uni0309</key>
   <string>uni0309.glif</string>
+  <key>uni031B</key>
+  <string>uni031B_.glif</string>
   <key>uni0323</key>
   <string>uni0323.glif</string>
   <key>uni1780.alt</key>

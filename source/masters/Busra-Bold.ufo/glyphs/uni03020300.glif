@@ -5,18 +5,16 @@
   <outline>
     <component base="circumflexcomb" yScale="0.95" yOffset="40"/>
     <contour>
-      <point x="-835" y="1583" type="line"/>
-      <point x="-988" y="1732" type="line" smooth="yes"/>
-      <point x="-1054" y="1796"/>
-      <point x="-1094" y="1802"/>
-      <point x="-1125" y="1802" type="curve" smooth="yes"/>
-      <point x="-1156" y="1802"/>
-      <point x="-1183" y="1781"/>
-      <point x="-1183" y="1749" type="curve" smooth="yes"/>
-      <point x="-1183" y="1692"/>
-      <point x="-1141" y="1661"/>
-      <point x="-1078" y="1636" type="curve" smooth="yes"/>
-      <point x="-945" y="1583" type="line"/>
+      <point x="-1257" y="1711" type="curve"/>
+      <point x="-1245" y="1762"/>
+      <point x="-1206" y="1829"/>
+      <point x="-1154" y="1845" type="curve"/>
+      <point x="-1030" y="1765"/>
+      <point x="-976" y="1725"/>
+      <point x="-861" y="1616" type="curve"/>
+      <point x="-932" y="1551" type="line"/>
+      <point x="-1043" y="1616"/>
+      <point x="-1116" y="1652"/>
     </contour>
   </outline>
   <lib>

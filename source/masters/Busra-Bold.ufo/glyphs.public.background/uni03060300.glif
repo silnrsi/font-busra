@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni03060300" format="2">
-  <guideline x="-626" y="1350" angle="90"/>
-  <anchor x="-623" y="1961" name="LU"/>
-  <anchor x="-626" y="1350" name="_LU"/>
   <outline>
-    <component base="uni0306.high" yOffset="-313"/>
     <contour>
       <point x="-952" y="1854" type="curve"/>
       <point x="-940" y="1905"/>
@@ -18,12 +14,4 @@
       <point x="-823" y="1803"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CP</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

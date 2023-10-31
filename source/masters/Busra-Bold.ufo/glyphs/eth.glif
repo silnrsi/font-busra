@@ -8,16 +8,16 @@
   <anchor x="580" y="200" name="def"/>
   <outline>
     <contour>
-      <point x="416" y="1649" type="line"/>
-      <point x="763" y="1543"/>
+      <point x="416" y="1651" type="line"/>
+      <point x="763" y="1545"/>
       <point x="923" y="1442"/>
       <point x="923" y="618" type="curve"/>
       <point x="1122" y="708" type="line"/>
       <point x="1122" y="1502"/>
-      <point x="871" y="1681"/>
-      <point x="503" y="1801" type="curve"/>
-      <point x="253" y="1724" type="line"/>
-      <point x="253" y="1649" type="line"/>
+      <point x="871" y="1683"/>
+      <point x="503" y="1803" type="curve"/>
+      <point x="253" y="1726" type="line"/>
+      <point x="253" y="1651" type="line"/>
     </contour>
     <contour>
       <point x="624" y="-20" type="curve" smooth="yes"/>

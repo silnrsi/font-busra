@@ -31,8 +31,8 @@
   <string>Black</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/space napbcdefghni/dotlessi jklmnopqnrcstuvwxyz</string>
-    <string>ABCDEFGHIJKLMNOoPQRSTU/uni01AF VWXYZ/space</string>
+    <string>napbcdefghni/dotlessi jbklmnopqnrstuvwxyzbdfhklðþ/space</string>
+    <string>ABCDEFGHIJKLMNOPQRSTU/uni01AF VWXYZ/space</string>
     <string>/space/gravecomb/space/acutecomb/space/tildecomb/space/dieresiscomb/space/uni03020300/space/uni03020301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni0309/space/uni031B/space/uni0323/space/uni03020306/space/uni0306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni0309/space/uni03020309/space/uni03060300/space/uni03060301/space/uni03060303/space/uni03060309</string>
     <string>-8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8=/approxequal 8+÷8/endash/figuredash 8/space 8+8/minus 58×8-48/notequal 8/infinity 8±/space/space/space</string>
     <string>©®/trademark ªº¹²³/foursuperior/space ½¼¾%/perthousand</string>

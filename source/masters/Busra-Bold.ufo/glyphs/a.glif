@@ -30,8 +30,8 @@
       <point x="238" y="-20"/>
     </contour>
     <contour>
-      <point x="840" y="1" type="line"/>
-      <point x="1300" y="1" type="line"/>
+      <point x="840" y="0" type="line"/>
+      <point x="1300" y="0" type="line"/>
       <point x="1300" y="106" type="line"/>
       <point x="1140" y="141" type="line"/>
       <point x="1140" y="960" type="line" smooth="yes"/>

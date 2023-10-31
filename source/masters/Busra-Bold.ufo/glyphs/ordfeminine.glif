@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ordfeminine" format="2">
-  <advance width="794"/>
+  <advance width="844"/>
   <unicode hex="00AA"/>
   <anchor x="319" y="950" name="PB"/>
   <anchor x="325" y="950" name="def"/>
   <outline>
     <component base="a" xScale="0.55" yScale="0.55" xOffset="34" yOffset="1112"/>
     <contour>
-      <point x="131" y="885" type="line"/>
-      <point x="666" y="885" type="line"/>
-      <point x="666" y="968" type="line"/>
-      <point x="131" y="968" type="line"/>
+      <point x="131" y="875" type="line"/>
+      <point x="713" y="875" type="line"/>
+      <point x="713" y="978" type="line"/>
+      <point x="131" y="978" type="line"/>
     </contour>
   </outline>
   <lib>

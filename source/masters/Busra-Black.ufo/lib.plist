@@ -31,11 +31,11 @@
   <string>Black</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/space apbcdefghni/dotlessi cjklmnopqrstuvwxyz</string>
+    <string>/space apbcdefghni/dotlessi jklmnopqrstuvwxyz</string>
     <string>ABCDEFGHIJKLMNOPQRS
 /space TDUOCVWXYZ/space</string>
     <string>/space/gravecomb/space/acutecomb/space/tildecomb/space/dieresiscomb/space/uni03020300/space/uni03020301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni0309/space/uni031B/space/uni0323/space/uni03020306/space/uni0306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni0309/space/uni03020309/space/uni03060300/space/uni03060301/space/uni03060303/space/uni03060309</string>
-    <string>-8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8=/approxequal 8÷8/endash/figuredash 8/space 8+8/minus 8×8-88/notequal 8/infinity 8±/space/space/space</string>
+    <string>-8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8=/approxequal 8+÷8/endash/figuredash 8/space 8+8/minus 58×8-48/notequal 8/infinity 8±/space/space/space</string>
     <string>©®/trademark ªº¹²³/foursuperior/space ½¼¾%/perthousand</string>
     <string>AÆD/uni0110 ÐHO/uni01A0 Ø/OE PÞU/uni01AF aæd/uni0111 ðoe/space i/dotlessi o/uni01A1 ø/oe bpþßu/uni01B0</string>
     <string>/uni01A0/space/uni031B/space/uni01AF U/uni01A1/uni01B0/space</string>
@@ -43,10 +43,10 @@
     <string>|0|1|2|3|4|5|7|8|/six.001 |6|9|
 September/space 5,/space 1723</string>
     <string>¢£§/bullet ¶®©/trademark ´¨¥µ/partialdiff/summation/product/pi/integral ªº/Omega µ¿¡/Euro/uni20AB/space/space</string>
-    <string>HÐðßos/space &amp;/ellipsis .../space "abc!'"/space .,x/uni178D17C5.right/uni178E :;</string>
+    <string>HÐðßos/space &amp;/ellipsis .../space "what/space in/space the/space world!?'"/space .,x/uni178D17C5.right/uni178E :;/space</string>
     <string>a/uni0304 àá/uni0103/uni1EAF/uni1EB7/uni1EB1/uni1EB3/uni1EB5 àáâ
-/uni1EA5/uni1EAD/uni1EA7/uni1EA9/uni1EAB ä/uni1EA1 à/uni1EA3 åãcç</string>
-    <string>/uni01AF U/uni1EE8/uni1EF0/uni1EEA/uni1EEC/uni1EEE</string>
+/uni1EA5/uni1EAD/uni1EA7/uni1EA9/uni1EAB ä/uni1EA1 à/uni1EA3 åãç</string>
+    <string>[{(abc)}]/space {Wxyz}</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

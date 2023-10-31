@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="z" format="2">
-  <advance width="1174"/>
+  <advance width="1194"/>
   <unicode hex="007A"/>
   <anchor x="628" y="-110" name="LL"/>
   <anchor x="628" y="1350" name="LU"/>
@@ -19,10 +19,10 @@
       <point x="757" y="1201" type="line"/>
       <point x="90" y="80" type="line"/>
       <point x="90" y="0" type="line"/>
-      <point x="1084" y="0" type="line"/>
-      <point x="1084" y="328" type="line"/>
-      <point x="979" y="328" type="line"/>
-      <point x="944" y="138" type="line"/>
+      <point x="1104" y="0" type="line"/>
+      <point x="1104" y="328" type="line"/>
+      <point x="999" y="328" type="line"/>
+      <point x="964" y="138" type="line"/>
       <point x="296" y="138" type="line"/>
     </contour>
   </outline>

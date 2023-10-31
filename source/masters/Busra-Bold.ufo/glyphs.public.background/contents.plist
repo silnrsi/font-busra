@@ -84,8 +84,12 @@
   <string>a.glif</string>
   <key>acutecomb</key>
   <string>acutecomb.glif</string>
+  <key>approxequal</key>
+  <string>approxequal.glif</string>
   <key>b</key>
   <string>b.glif</string>
+  <key>braceleft</key>
+  <string>braceleft.glif</string>
   <key>c</key>
   <string>c.glif</string>
   <key>caroncomb</key>
@@ -126,6 +130,8 @@
   <string>one.glif</string>
   <key>p</key>
   <string>p.glif</string>
+  <key>parenleft</key>
+  <string>parenleft.glif</string>
   <key>pi</key>
   <string>pi.glif</string>
   <key>q</key>
@@ -142,6 +148,8 @@
   <string>six.glif</string>
   <key>six.001</key>
   <string>six.001.glif</string>
+  <key>slash</key>
+  <string>slash.glif</string>
   <key>three</key>
   <string>three.glif</string>
   <key>tildecomb</key>

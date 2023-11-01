@@ -1,0 +1,120 @@
+
+@finalv = [@above_symbol_RS_shift @below_vowel @spacing_vowels];
+@final_firstv = [uni17C2 uni17C3 uni17C9 uni17CA @finalv];
+@above_vowel = [uni17B7 uni17B8 uni17B9 uni17BA];
+do  for c = [@coeng_no_ro_base];
+    let ln = "final_" + c;
+    if opt("finalc") != "";
+    {
+    lookup $ln useExtension {
+        sub @finalv by @finalv $c;
+        sub uni17C6 by uni17C6 $c;
+    } $ln;
+    }
+
+lookup final_init useExtension {
+do  for c = [@coeng_no_ro_base];
+    if opt("finalc") != "";
+    {
+        sub $c zerowidthjoiner @final_firstv by @final_firstv;
+    }
+} final_init;
+
+lookup final_vowels useExtension {
+do  for c = [@post_coeng];
+    let ln = "final_" + c;
+    let li = "final_init_"+c;
+    if opt("finalc") != "";
+    {
+    # sub $c' lookup final_init zerowidthjoiner' (@shifter' zerowidthnonjoiner'?)? @below_vowel'? @above_symbol_RS_shift' lookup $ln;
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' zerowidthnonjoiner' lookup $ln @below_vowel' @above_symbol_RS_shift';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' lookup $ln zerowidthnonjoiner' @above_symbol_RS_shift';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' lookup $ln @below_vowel' @above_symbol_RS_shift';
+    sub $c' lookup final_init zerowidthjoiner' lookup $ln [uni17C9 uni17CA]' @above_symbol_RS_shift';
+    sub $c' lookup final_init zerowidthjoiner' lookup $ln @below_vowel' @above_symbol_RS_shift';
+    sub $c' lookup final_init lookup $ln zerowidthjoiner' @above_symbol_RS_shift';
+    }
+do  for c = [@post_coeng];
+    let ln = "final_" + c;
+    if opt("finalc") != "";
+    {
+    # sub $c' lookup final_init zerowidthjoiner' (@shifter' zerowidthnonjoiner'?)? @below_vowel' lookup $ln;
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' lookup $ln zerowidthnonjoiner' @below_vowel';
+    sub $c' lookup final_init zerowidthjoiner' lookup $ln [uni17C9 uni17CA]' @below_vowel';
+    sub $c' lookup final_init lookup $ln zerowidthjoiner' @below_vowel';
+    }
+do  for c = [@coeng_series1];
+    let ln = "final_" + c;
+    forlet l = optlist("uni17CC", ["@coeng_series2", "@coeng_series2"]);
+    let s = " ".join(l);
+    if opt("finalc") != "";
+    {
+    # sub @base_series2 uni17CC? (@coeng_series2 @coeng_series2?)? $c' lookup final_init zerowidthjoiner' uni17C9' @above_symbol_RS_shift' lookup $ln;
+    sub @base_series2 $s $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    }
+
+do  for c = [@coeng_series1];
+    let ln = "final_" + c;
+    forlet l = optlist(["@coeng_no_ro_base", "@coeng_no_ro_base"]);
+    let s = " ".join(l);
+    if opt("finalc") != "";
+    {
+    # sub uni1794 (@coeng_no_ro_base @coeng_no_ro_base?)? $c' lookup final_init zerowidthjoiner' uni17C9' @above_symbol_RS_shift' lookup $ln;
+    sub uni1794 $s $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    }
+
+do  for c = [@coeng_series1];
+    let ln = "final_" + c;
+    if opt("finalc") != "";
+    {
+    sub uni17D21799 uni1794 @coeng_no_ro_base $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    sub uni17D21799 uni1794 $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    sub uni17D21794 @coeng_no_ro_base $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    sub uni17D21794 $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    sub uni17D21799 uni17D21794 $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    }
+} final_vowels;
+
+lookup final_vowels2 useExtension {
+do  for c = [@coeng_no_ro_base];
+    let ln = "final_" + c;
+    forlet l = optlist(["[uni17C9 uni17CA]'", "zerowidthjoiner'"], "[uni17C2 uni17C3]'", "@below_vowel'", "@above_vowel'");
+    let s = " ".join(l);
+    if opt("finalc") != "";
+    {
+    # sub $c' lookup final_init zerowidthjoiner' @shifter'? [uni17C2 uni17C3]'? @below_vowel'? @above_vowel'? @spacing_vowels' lookup $ln;
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' zerowidthnonjoiner' [uni17C2 uni17C3]' @below_vowel' lookup $ln @above_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' zerowidthnonjoiner' [uni17C2 uni17C3]' lookup $ln @above_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' zerowidthnonjoiner' @below_vowel' lookup $ln @above_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' [uni17C2 uni17C3]' @below_vowel' lookup $ln @above_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' @below_vowel' lookup $ln @above_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' [uni17C2 uni17C3]' lookup $ln @above_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C2 uni17C3]' @below_vowel' lookup $ln @above_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' @below_vowel' lookup $ln @above_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C2 uni17C3]' lookup $ln @above_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' lookup $ln @above_vowel' @spacing_vowels';
+    }
+} final_vowels2;
+
+lookup final_vowels2a useExtension {
+do  for c = [@coeng_no_ro_base];
+    let ln = "final_" + c;
+    forlet l = optlist(["[uni17C9 uni17CA]'", "zerowidthjoiner'"], "[uni17C2 uni17C3]'", "@below_vowel'", "@above_vowel'");
+    let s = " ".join(l);
+    if opt("finalc") != "";
+    {
+    # sub $c' lookup final_init zerowidthjoiner' @shifter'? [uni17C2 uni17C3]'? @below_vowel'? @above_vowel'? @spacing_vowels' lookup $ln;
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' zerowidthnonjoiner' [uni17C2 uni17C3]' lookup $ln @below_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' zerowidthnonjoiner' lookup $ln @below_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' [uni17C2 uni17C3]' lookup $ln @below_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' lookup $ln @below_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C2 uni17C3]' lookup $ln @below_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' lookup $ln @below_vowel' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' zerowidthnonjoiner' lookup $ln [uni17C2 uni17C3]' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' lookup $ln [uni17C2 uni17C3]' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' lookup $ln [uni17C2 uni17C3]' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' lookup $ln zerowidthnonjoiner' @spacing_vowels';
+    sub $c' lookup final_init zerowidthjoiner' lookup $ln [uni17C9 uni17CA]' @spacing_vowels';
+    sub $c' lookup final_init lookup $ln zerowidthjoiner' @spacing_vowels';
+    }
+} final_vowels2a;

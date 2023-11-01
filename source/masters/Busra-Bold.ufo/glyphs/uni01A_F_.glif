@@ -2,8 +2,8 @@
 <glyph name="uni01AF" format="2">
   <advance width="1799"/>
   <unicode hex="01AF"/>
-  <anchor x="866" y="-110" name="LL"/>
-  <anchor x="866" y="1745" name="LU"/>
+  <anchor x="916" y="-110" name="LL"/>
+  <anchor x="936" y="1745" name="LU"/>
   <outline>
     <component base="uni031B" xOffset="1749" yOffset="380"/>
     <contour>

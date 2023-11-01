@@ -42,8 +42,8 @@
     <string>|0|1|2|3|4|5|7|8|/six.001 |6|9|
 September/space 5,/space 1723</string>
     <string>¢£§/bullet ¶®©/trademark ´¨¥µ/partialdiff/summation/product/pi/integral ªº/Omega µ¿¡/Euro/uni20AB/space/space</string>
-    <string>íîï/uni1ECB ì/dotlessi/uni1EC9/uni0129 òóô/uni1ED1/uni1ED9/uni1ED3/uni1ED5/uni1ED7 
-ö/uni1ECD ò/uni1ECF/uni01A1/uni1EDB/uni1EE3/uni1EDD/uni1EDF/uni1EE1/space cçCÇ</string>
+    <string>íî/space f/dieresiscomb ïilj/uni1ECB ì/dotlessi/uni1EC9/uni0129 òóô/uni1ED1/uni1ED9/uni1ED3/uni1ED5/uni1ED7 
+ö/uni1ECD ò/uni1ECF/uni01A1/uni1EDB o/uni01A1/uni1EE3/uni1EDD/uni1EDF/uni1EE1/space cçCÇ</string>
     <string>aâ/uni1EA5/uni1EAD/uni1EA7/uni1EA9/uni1EAB ä/uni1EA1 à/uni1EA3 åã</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>

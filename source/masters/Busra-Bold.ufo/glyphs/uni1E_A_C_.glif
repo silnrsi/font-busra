@@ -2,7 +2,7 @@
 <glyph name="uni1EAC" format="2">
   <advance width="1627"/>
   <unicode hex="1EAC"/>
-  <anchor x="741" y="-487" name="LL"/>
+  <anchor x="741" y="-507" name="LL"/>
   <anchor x="742" y="2176" name="LU"/>
   <outline>
     <component base="A"/>
@@ -12,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

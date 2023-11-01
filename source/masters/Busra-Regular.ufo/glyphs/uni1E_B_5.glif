@@ -3,17 +3,17 @@
   <advance width="1293"/>
   <unicode hex="1EB5"/>
   <anchor x="590" y="-110" name="LL"/>
-  <anchor x="589" y="2001" name="LU"/>
+  <anchor x="606" y="2001" name="LU"/>
   <anchor x="520" y="0" name="PB"/>
   <anchor x="530" y="0" name="def"/>
   <outline>
     <component base="a"/>
-    <component base="uni03060303" xOffset="1216"/>
+    <component base="uni03060303" xOffset="1233"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

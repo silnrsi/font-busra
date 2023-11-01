@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni03020300" format="2">
-  <anchor x="-626" y="1711" name="LU"/>
+  <anchor x="-626" y="1761" name="LU"/>
   <anchor x="-626" y="1350" name="_LU"/>
   <outline>
     <component base="circumflexcomb" yScale="0.95" yOffset="40"/>
     <contour>
-      <point x="-1257" y="1711" type="curve"/>
-      <point x="-1245" y="1762"/>
-      <point x="-1206" y="1829"/>
-      <point x="-1154" y="1845" type="curve"/>
-      <point x="-1030" y="1765"/>
-      <point x="-976" y="1725"/>
-      <point x="-861" y="1616" type="curve"/>
-      <point x="-932" y="1551" type="line"/>
-      <point x="-1043" y="1616"/>
-      <point x="-1116" y="1652"/>
+      <point x="-1259" y="1780" type="curve"/>
+      <point x="-1247" y="1837"/>
+      <point x="-1179" y="1921"/>
+      <point x="-1126" y="1933" type="curve"/>
+      <point x="-1008" y="1845"/>
+      <point x="-937" y="1786"/>
+      <point x="-830" y="1669" type="curve"/>
+      <point x="-924" y="1584" type="line"/>
+      <point x="-1030" y="1661"/>
+      <point x="-1120" y="1715"/>
     </contour>
   </outline>
   <lib>

@@ -2,6 +2,7 @@
 <glyph name="K" format="2">
   <advance width="1662"/>
   <unicode hex="004B"/>
+  <guideline x="1286" y="464" angle="306.1021"/>
   <anchor x="809" y="-110" name="LL"/>
   <anchor x="769" y="1745" name="LU"/>
   <outline>
@@ -20,21 +21,9 @@
       <point x="580" y="140" type="line"/>
     </contour>
     <contour>
-      <point x="1195" y="157" type="line"/>
-      <point x="922" y="105" type="line"/>
-      <point x="922" y="0" type="line"/>
-      <point x="1677" y="0" type="line"/>
-      <point x="1677" y="105" type="line"/>
-      <point x="1410" y="165" type="line"/>
-      <point x="1536" y="76" type="line"/>
-      <point x="812" y="1060" type="line"/>
-      <point x="580" y="864" type="line"/>
-      <point x="1161" y="55" type="line"/>
-    </contour>
-    <contour>
       <point x="1249" y="1486" type="line"/>
-      <point x="1551" y="1545" type="line"/>
-      <point x="1551" y="1650" type="line"/>
+      <point x="1571" y="1545" type="line"/>
+      <point x="1571" y="1650" type="line"/>
       <point x="955" y="1650" type="line"/>
       <point x="955" y="1545" type="line"/>
       <point x="1238" y="1493" type="line"/>
@@ -42,6 +31,17 @@
       <point x="368" y="725" type="line"/>
       <point x="463" y="593" type="line"/>
       <point x="1400" y="1546" type="line"/>
+    </contour>
+    <contour>
+      <point x="1292" y="163" type="line"/>
+      <point x="1002" y="105" type="line"/>
+      <point x="1002" y="0" type="line"/>
+      <point x="1677" y="0" type="line"/>
+      <point x="1677" y="105" type="line"/>
+      <point x="1517" y="147" type="line"/>
+      <point x="842" y="1072" type="line"/>
+      <point x="608" y="874" type="line"/>
+      <point x="1206" y="54" type="line"/>
     </contour>
   </outline>
   <lib>

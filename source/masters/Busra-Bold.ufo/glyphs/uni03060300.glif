@@ -5,16 +5,16 @@
   <outline>
     <component base="uni0306.high" yOffset="-313"/>
     <contour>
-      <point x="-957" y="1864" type="curve"/>
-      <point x="-945" y="1915"/>
-      <point x="-888" y="2002"/>
-      <point x="-836" y="2018" type="curve"/>
-      <point x="-722" y="1952"/>
-      <point x="-585" y="1843"/>
-      <point x="-486" y="1737" type="curve"/>
-      <point x="-575" y="1652" type="line"/>
-      <point x="-670" y="1719"/>
-      <point x="-828" y="1813"/>
+      <point x="-979" y="1875" type="curve"/>
+      <point x="-967" y="1932"/>
+      <point x="-899" y="2016"/>
+      <point x="-846" y="2028" type="curve"/>
+      <point x="-728" y="1940"/>
+      <point x="-627" y="1851"/>
+      <point x="-520" y="1734" type="curve"/>
+      <point x="-614" y="1649" type="line"/>
+      <point x="-720" y="1726"/>
+      <point x="-840" y="1810"/>
     </contour>
   </outline>
   <lib>

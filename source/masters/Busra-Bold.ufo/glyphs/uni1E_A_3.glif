@@ -3,20 +3,20 @@
   <advance width="1373"/>
   <unicode hex="1EA3"/>
   <anchor x="620" y="-110" name="LL"/>
-  <anchor x="636" y="1834" name="LU"/>
-  <anchor x="1241" y="0" name="PA"/>
+  <anchor x="633" y="1834" name="LU"/>
+  <anchor x="1238" y="0" name="PA"/>
   <anchor x="550" y="0" name="PB"/>
-  <anchor x="1241" y="-10" name="_PA"/>
-  <anchor x="1241" y="18" name="_def"/>
+  <anchor x="1238" y="-10" name="_PA"/>
+  <anchor x="1238" y="18" name="_def"/>
   <anchor x="560" y="0" name="def"/>
   <outline>
     <component base="a"/>
-    <component base="uni0309" xOffset="1241"/>
+    <component base="uni0309" xOffset="1238"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

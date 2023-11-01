@@ -22,6 +22,24 @@
       <point x="-322" y="1619"/>
       <point x="-236" y="1742" type="curve"/>
     </contour>
+    <contour>
+      <point x="-882" y="1802" type="curve"/>
+      <point x="-992" y="1721" type="line"/>
+      <point x="-907" y="1602"/>
+      <point x="-807" y="1492"/>
+      <point x="-692" y="1386" type="curve"/>
+      <point x="-560" y="1386" type="line"/>
+      <point x="-445" y="1492"/>
+      <point x="-345" y="1602"/>
+      <point x="-260" y="1721" type="curve"/>
+      <point x="-370" y="1802" type="line"/>
+      <point x="-442" y="1720"/>
+      <point x="-605" y="1576"/>
+      <point x="-745" y="1482" type="curve"/>
+      <point x="-507" y="1482" type="line"/>
+      <point x="-647" y="1576"/>
+      <point x="-810" y="1720"/>
+    </contour>
   </outline>
   <lib>
     <dict>

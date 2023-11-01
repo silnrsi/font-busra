@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1ECB" format="2">
-  <advance width="844"/>
+  <advance width="815"/>
   <unicode hex="1ECB"/>
-  <anchor x="426" y="-487" name="LL"/>
-  <anchor x="428" y="1350" name="LU"/>
-  <anchor x="59" y="0" name="PB"/>
-  <anchor x="59" y="0" name="def"/>
+  <anchor x="413" y="-487" name="LL"/>
+  <anchor x="415" y="1819" name="LU"/>
+  <anchor x="513" y="0" name="PB"/>
+  <anchor x="453" y="200" name="def"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="uni0323" xOffset="1047" yOffset="-20"/>
+    <component base="i"/>
+    <component base="uni0323" xOffset="1034" yOffset="-20"/>
   </outline>
   <lib>
     <dict>

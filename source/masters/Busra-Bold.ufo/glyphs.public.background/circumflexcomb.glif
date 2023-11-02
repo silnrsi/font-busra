@@ -4,10 +4,10 @@
     <contour>
       <point x="-890" y="1352" type="line"/>
       <point x="-822" y="1425"/>
-      <point x="-682" y="1548"/>
+      <point x="-688" y="1554"/>
       <point x="-537" y="1646" type="curve"/>
       <point x="-715" y="1646" type="line"/>
-      <point x="-570" y="1548"/>
+      <point x="-564" y="1554"/>
       <point x="-430" y="1425"/>
       <point x="-362" y="1352" type="curve"/>
       <point x="-278" y="1415" type="line"/>

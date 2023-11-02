@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb" format="2">
   <unicode hex="0301"/>
-  <anchor x="-620" y="1718" name="LU"/>
+  <guideline x="-620" y="1230" angle="270"/>
+  <anchor x="-620" y="1748" name="LU"/>
   <anchor x="-620" y="1350" name="_LU"/>
   <outline>
     <contour>

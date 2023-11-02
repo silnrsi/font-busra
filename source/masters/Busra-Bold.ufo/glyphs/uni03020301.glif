@@ -6,12 +6,12 @@
     <component base="circumflexcomb" yScale="0.95" yOffset="40"/>
     <contour>
       <point x="7" y="1797" type="curve"/>
-      <point x="-132" y="1732"/>
-      <point x="-222" y="1678"/>
-      <point x="-328" y="1601" type="curve"/>
+      <point x="-132" y="1739"/>
+      <point x="-232" y="1682"/>
+      <point x="-342" y="1612" type="curve"/>
       <point x="-422" y="1686" type="line"/>
-      <point x="-315" y="1803"/>
-      <point x="-244" y="1862"/>
+      <point x="-312" y="1803"/>
+      <point x="-244" y="1864"/>
       <point x="-126" y="1950" type="curve"/>
       <point x="-73" y="1938"/>
       <point x="-5" y="1854"/>

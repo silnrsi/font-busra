@@ -140,6 +140,7 @@ lookup insert_dotted_circle {
     sub @above_vowels by dottedcircle @above_vowels;
     sub @below_vowel by dottedcircle @below_vowel;
     sub uni17B6 by dottedcircle uni17B6;
+    sub uni17D2 by dottedcircle uni17D2;
 } insert_dotted_circle;
 
 lookup bad_vowels {
@@ -186,11 +187,11 @@ do  forlet l = optlist("uni17CC", ["uni17D2 @base_cons", "uni17D2 @base_cons"], 
         sub uni17C1 @coeng_ro @base_cons $s [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
         sub uni17C1 @base_cons $s [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
     }
-
 } bad_vowels;
 
 # 1. Coengs
 # 1.1 Convert coeng ro to the coeng ro glyph
+
 lookup coeng_ro_primary {
     sub uni17D2 uni179A by uni17D2179A;
 } coeng_ro_primary;
@@ -198,7 +199,8 @@ lookup coeng_ro_primary {
 # 5. Context coeng variation
 # 5.1 lower coengs after coeng ro
 lookup belowcoeng_after_ro {
-    sub uni17D2 by dottedcircle uni17D2;
+    ignore sub uni17D2' zerowidthjoiner';
+    sub uni17D2' lookup insert_dotted_circle;
 } belowcoeng_after_ro;
 
 # 1.2 Convert coeng sequences into subjoinable glyphs
@@ -305,16 +307,18 @@ lookup shifter_error_p1 {
     sub uni17C9 by dottedcircle uni17C9;
     sub uni17C9.a by dottedcircle uni17C9;
     sub uni17CA by dottedcircle uni17CA;
+    sub uni17CC by dottedcircle uni17CC;
 } shifter_error_p1;
 
 lookup shifter_error_p2 {
     sub uni17C9 zerowidthjoiner by uni17C9;
 } shifter_error_p2;
 
-lookup reg_shift_muusikatoan2_action {
+lookup reg_shift_action {
     sub uni17C9 by uni17BB;
     sub uni17C9.a by uni17BB;
-} reg_shift_muusikatoan2_action;
+    sub uni17CA by uni17BB;
+} reg_shift_action;
 
 @all17C9 = [uni17C9 uni17C9.a];
 lookup reg_shift_muusikatoan2 {
@@ -322,30 +326,32 @@ lookup reg_shift_muusikatoan2 {
     sub @base_strong @base_muusikatoan_shift @all17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
     sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift @all17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
     sub @all17C9' lookup shifter_error_p1 @coeng_no_ro;
-    sub @all17C9' lookup reg_shift_muusikatoan2_action @above_symbol_RS_shift;
-    sub @all17C9' lookup reg_shift_muusikatoan2_action uni17B6 uni17C6;
+    sub @all17C9' lookup reg_shift_action @above_symbol_RS_shift;
+    sub @all17C9' lookup reg_shift_action uni17B6 uni17C6;
 } reg_shift_muusikatoan2;
 
 # 2.3 Downshift triisap following 179E-F 17A0 17A2 ZWJ
 # This needs quite a bit of work
-lookup reg_shift_triisap2_action {
-    sub uni17CA by uni17BB;
-} reg_shift_triisap2_action;
-
 lookup reg_shift_triisap2 {
     sub uni17CA' lookup shifter_error_p1 @any_coeng;
-    sub @base_strong uni17CA' lookup reg_shift_triisap2_action @above_symbol_RS_shift;
-    sub @base_strong uni17CA' lookup reg_shift_triisap2_action uni17B6 uni17C6;
-    sub @base_strong @base_muusikatoan_shift uni17CA' lookup reg_shift_triisap2_action @above_symbol_RS_shift;
-    sub @base_strong @base_muusikatoan_shift uni17CA' lookup reg_shift_triisap2_action uni17B6 uni17C6;
-    sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift uni17CA' lookup reg_shift_triisap2_action @above_symbol_RS_shift;
-    sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift uni17CA' lookup reg_shift_triisap2_action uni17B6 uni17C6;
+    sub @base_strong uni17CA' lookup reg_shift_action @above_symbol_RS_shift;
+    sub @base_strong uni17CA' lookup reg_shift_action uni17B6 uni17C6;
+    sub @base_strong @base_muusikatoan_shift uni17CA' lookup reg_shift_action @above_symbol_RS_shift;
+    sub @base_strong @base_muusikatoan_shift uni17CA' lookup reg_shift_action uni17B6 uni17C6;
+    sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift uni17CA' lookup reg_shift_action @above_symbol_RS_shift;
+    sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift uni17CA' lookup reg_shift_action uni17B6 uni17C6;
     ignore sub @base_strong uni17CA';
     ignore sub @base_strong @base_muusikatoan_shift uni17CA';
     ignore sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift uni17CA';
     ignore sub @base_strong @base_muusikatoan_shift @base_muusikatoan_shift  @base_muusikatoan_shift uni17CA';
     sub @base_muusikatoan_shift uni17CA' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
 } reg_shift_triisap2;
+
+lookup reg_robat_check {
+    sub @any_coeng uni17CC' lookup shifter_error_p1;
+    ignore sub @base_cons uni17CC';
+    sub uni17CC' lookup shifter_error_p1;
+} reg_robat_check;
 
 # 2.6 Remove redundant ZWJ and ZWNJ. Strict add errors
 lookup remove_200CD_RS {
@@ -1130,6 +1136,7 @@ feature abvs {
     lookup Muusikatoan_a;
     lookup reg_shift_muusikatoan2;
     lookup reg_shift_triisap2;
+    lookup reg_robat_check;
     lookup remove_200CD_RS;
     lookup coeng_post_narrow_C6_C9;
     lookup above_marks_narrow;

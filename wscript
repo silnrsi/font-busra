@@ -11,7 +11,7 @@ DESC_SHORT = "Font family for the Khmer script"
 
 TESTDIR = ["tests"]
 
-opts = preprocess_args({'opt': '--finalc'})
+opts = preprocess_args({'opt': '--nofinalc'})
 # Get version and authorship information from Regular UFO (canonical metadata); must be first function call:
 getufoinfo('source/masters/' + FAMILY  + '-Regular.ufo')
 # BUILDLABEL = 'beta1'
@@ -20,7 +20,7 @@ getufoinfo('source/masters/' + FAMILY  + '-Regular.ufo')
 # ftmlTest('tools/ftml-smith.xsl')
 
 mparams = []
-if "--finalc" in opts:
+if "--nofinalc" not in opts:
     mparams.append("-D finalc=1")
 
 # cmds = [cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])]

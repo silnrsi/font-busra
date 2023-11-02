@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D2179B.low" format="2">
   <guideline x="-246"/>
-  <anchor x="-665" y="-670" name="LA"/>
+  <anchor x="-665" y="-1340" name="LA"/>
   <anchor x="-225" y="-1340" name="LL"/>
   <anchor x="-245" y="-670" name="_L"/>
+  <anchor x="-665" y="-670" name="_LC"/>
   <anchor x="-225" y="-670" name="_LL"/>
   <outline>
     <component base="uni17D2179B" xOffset="-2" yOffset="-640"/>

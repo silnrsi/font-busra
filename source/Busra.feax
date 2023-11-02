@@ -1000,9 +1000,9 @@ lookup kern_narrow2 {
 
 # 1. Basic Attachment
 # 1.1 Centred marks on non ligatures
-lookup mid_pos_coengs {
-    pos base @LC mark @_LC;
-} mid_pos_coengs;
+#lookup mid_pos_coengs {
+#    pos base @LC mark @_LC;
+#} mid_pos_coengs;
 
 lookup uc_attach {
     pos base @UC mark @_UC;
@@ -1013,12 +1013,38 @@ lookup Narrow_gap_base {
     pos base @L mark @_L;
 } Narrow_gap_base;
 
+lookup u178E_centred {
+do  let sx = APx("uni178E", "LC");
+    let sy = APy("uni178E", "LC");
+    {
+    pos base uni178E <anchor $sx $sy > mark @_LC;
+    }
+} u178E_centred;
+
 lookup u_attach {
     pos base @U mark @_U;
 } u_attach;
 
 # 1.3 lower low coengs (odd to do this here)
 # 1.3.1 Action lookup
+lookup ligatures {
+    pos ligature [@L_1 @L_2 @LC_1 @LC_2 @UC_1 @UC_2 @U_1 @U_2]
+          @L_1 mark @_L
+          @U_1 mark @_U
+          @UC_1 mark @_UC
+       ligComponent
+          @L_2 mark @_L
+          @U_2 mark @_U
+          @UC_2 mark @_UC;
+} ligatures;
+
+lookup ligature_centred {
+    pos ligature [uni178E17B6 uni178E17C5.right]
+            @LC_1 mark @_LC
+        ligComponent
+            @LC_2 mark @_LC;
+} ligature_centred;
+
 lookup below_chain {
     pos mark @LL_MarkBase mark @_LL;
     pos mark @LA_MarkBase mark @_LA;
@@ -1030,18 +1056,6 @@ lookup above_chain {
     pos mark @UA_MarkBase mark @_UA;
 } above_chain;
 
-lookup ligatures {
-    pos ligature [@L_1 @L_2 @LC_1 @LC_2 @UC_1 @UC_2 @U_1 @U_2]
-          @L_1 mark @_L
-          @LC_1 mark @_LC
-          @U_1 mark @_U
-          @UC_1 mark @_UC
-       ligComponent
-          @L_2 mark @_L
-          @LC_2 mark @_LC
-          @U_2 mark @_U
-          @UC_2 mark @_UC;
-} ligatures;
 
 # 2.5 Contextual shifts
 # 2.5.1 lower vowel after coeng ro shifts down
@@ -1153,12 +1167,13 @@ feature blwf {
 feature blwm {
     script khmr;
     language dflt;
-    lookup mid_pos_coengs;
     lookup u_attach;
     lookup uc_attach;
     lookup Narrow_gap_base;
     lookup above_chain;
     lookup below_chain;
+    lookup u178E_centred;
+    lookup ligature_centred;
     lookup low2_vowel_ro_coeng_ro;
 } blwm;
 

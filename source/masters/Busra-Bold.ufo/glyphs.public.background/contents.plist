@@ -38,6 +38,8 @@
   <string>S_.glif</string>
   <key>T</key>
   <string>T_.glif</string>
+  <key>Thorn</key>
+  <string>T_horn.glif</string>
   <key>U</key>
   <string>U_.glif</string>
   <key>V</key>
@@ -106,6 +108,8 @@
   <string>e.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
+  <key>eth</key>
+  <string>eth.glif</string>
   <key>f</key>
   <string>f.glif</string>
   <key>five</key>
@@ -172,8 +176,6 @@
   <string>uni03060300.glif</string>
   <key>uni03060301</key>
   <string>uni03060301.glif</string>
-  <key>uni0307</key>
-  <string>uni0307.glif</string>
   <key>uni0309</key>
   <string>uni0309.glif</string>
   <key>uni031B</key>

@@ -8,8 +8,8 @@
   <anchor x="560" y="0" name="def"/>
   <outline>
     <component base="a"/>
-    <component base="circumflexcomb" xOffset="1263"/>
-    <component base="uni0323" xOffset="1239" yOffset="-20"/>
+    <component base="circumflexcomb" xOffset="1301"/>
+    <component base="uni0323" xOffset="1282" yOffset="-20"/>
   </outline>
   <lib>
     <dict>

@@ -9,12 +9,12 @@
   <anchor x="1355" y="413" name="_def"/>
   <outline>
     <component base="Y"/>
-    <component base="uni0309" xOffset="1355" yOffset="395"/>
+    <component base="uni0309" xOffset="1384" yOffset="395"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

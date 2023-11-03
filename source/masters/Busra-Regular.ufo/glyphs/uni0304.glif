@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0304" format="2">
   <unicode hex="0304"/>
-  <anchor x="-621" y="1647" name="LU"/>
-  <anchor x="0" y="0" name="PA"/>
-  <anchor x="-621" y="1350" name="_LU"/>
-  <anchor x="0" y="18" name="_PA"/>
-  <anchor x="0" y="18" name="_def"/>
+  <anchor x="-624" y="1647" name="LU"/>
+  <anchor x="-3" y="0" name="PA"/>
+  <anchor x="-624" y="1350" name="_LU"/>
+  <anchor x="-3" y="18" name="_PA"/>
+  <anchor x="-3" y="18" name="_def"/>
   <outline>
     <contour>
-      <point x="-967" y="1607" type="line"/>
-      <point x="-967" y="1492" type="line"/>
-      <point x="-277" y="1492" type="line"/>
-      <point x="-277" y="1607" type="line"/>
+      <point x="-969" y="1607" type="line"/>
+      <point x="-969" y="1492" type="line"/>
+      <point x="-279" y="1492" type="line"/>
+      <point x="-279" y="1607" type="line"/>
     </contour>
   </outline>
   <lib>

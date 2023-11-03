@@ -6,7 +6,7 @@
   <anchor x="764" y="2229" name="LU"/>
   <outline>
     <component base="O"/>
-    <component base="dieresiscomb" xOffset="1388" yOffset="425"/>
+    <component base="dieresiscomb" xOffset="1428" yOffset="425"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eth" format="2">
-  <advance width="1246"/>
-  <unicode hex="00F0"/>
-  <anchor x="624" y="-110" name="LL"/>
-  <anchor x="625" y="1880" name="LU"/>
-  <anchor x="520" y="0" name="PB"/>
-  <anchor x="580" y="200" name="def"/>
   <outline>
     <contour>
       <point x="416" y="1651" type="line"/>
@@ -49,15 +43,9 @@
     </contour>
     <contour>
       <point x="397" y="1458" type="line"/>
-      <point x="445" y="1329" type="line"/>
-      <point x="1102" y="1593" type="line"/>
+      <point x="436" y="1355" type="line"/>
+      <point x="1093" y="1619" type="line"/>
       <point x="1054" y="1722" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

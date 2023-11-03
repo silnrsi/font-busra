@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni03060309" format="2">
-  <anchor x="-626" y="2041" name="LU"/>
+  <anchor x="-624" y="2041" name="LU"/>
   <anchor x="-100" y="417" name="PA"/>
-  <anchor x="-626" y="1350" name="_LU"/>
+  <anchor x="-624" y="1350" name="_LU"/>
   <outline>
     <component base="uni0306.high" yOffset="-313"/>
-    <component base="uni0309" xScale="0.9" yScale="0.9" xOffset="-84" yOffset="380"/>
+    <component base="uni0309" xScale="0.9" yScale="0.9" xOffset="-74" yOffset="390"/>
   </outline>
   <lib>
     <dict>

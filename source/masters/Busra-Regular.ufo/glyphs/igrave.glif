@@ -8,7 +8,7 @@
   <anchor x="0" y="0" name="def"/>
   <outline>
     <component base="dotlessi"/>
-    <component base="gravecomb" xOffset="989"/>
+    <component base="gravecomb" xOffset="993"/>
   </outline>
   <lib>
     <dict>

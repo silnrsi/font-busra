@@ -6,12 +6,12 @@
   <anchor x="841" y="1745" name="LU"/>
   <outline>
     <component base="E"/>
-    <component base="uni0323" xOffset="1460" yOffset="-20"/>
+    <component base="uni0323" xOffset="1503" yOffset="-20"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

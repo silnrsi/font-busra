@@ -4,6 +4,8 @@
 <dict>
   <key>A</key>
   <string>A_.glif</string>
+  <key>AE</key>
+  <string>A_E_.glif</string>
   <key>B</key>
   <string>B_.glif</string>
   <key>C</key>
@@ -118,6 +120,8 @@
   <string>four.glif</string>
   <key>g</key>
   <string>g.glif</string>
+  <key>germandbls</key>
+  <string>germandbls.glif</string>
   <key>gravecomb</key>
   <string>gravecomb.glif</string>
   <key>i</key>
@@ -156,6 +160,8 @@
   <string>six.001.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
+  <key>thorn</key>
+  <string>thorn.glif</string>
   <key>three</key>
   <string>three.glif</string>
   <key>tildecomb</key>
@@ -164,6 +170,8 @@
   <string>two.glif</string>
   <key>u</key>
   <string>u.glif</string>
+  <key>uni01AF</key>
+  <string>uni01A_F_.glif</string>
   <key>uni03020300</key>
   <string>uni03020300.glif</string>
   <key>uni03020301</key>

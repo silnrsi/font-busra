@@ -48,8 +48,6 @@
   <string>S_.glif</string>
   <key>T</key>
   <string>T_.glif</string>
-  <key>U</key>
-  <string>U_.glif</string>
   <key>V</key>
   <string>V_.glif</string>
   <key>W</key>
@@ -226,6 +224,8 @@
   <string>u.glif</string>
   <key>uni00B5</key>
   <string>uni00B_5.glif</string>
+  <key>uni01AF</key>
+  <string>uni01A_F_.glif</string>
   <key>uni03020300</key>
   <string>uni03020300.glif</string>
   <key>uni03020301</key>

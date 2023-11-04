@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D217A8" format="2">
   <anchor x="-679" y="-940" name="LA"/>
-  <anchor x="-225" y="-940" name="LL"/>
-  <anchor x="-245" y="0" name="_L"/>
+  <anchor x="-225" y="-940" name="LX"/>
   <anchor x="-679" y="0" name="_LC"/>
-  <anchor x="-225" y="0" name="_LL"/>
+  <anchor x="-245" y="0" name="_LR"/>
+  <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <component base="uni17D217A7" xOffset="-30" yOffset="-230"/>
     <component base="uni17CA.narrow" yScale="0.9068" xOffset="-280" yOffset="-1790"/>

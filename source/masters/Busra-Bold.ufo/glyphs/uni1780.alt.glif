@@ -1,17 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1780.alt" format="2">
   <advance width="1950"/>
-  <anchor x="1763" y="0" name="L"/>
   <anchor x="1012" y="0" name="LC"/>
-  <anchor x="1763" y="1580" name="U"/>
+  <anchor x="1763" y="0" name="LR"/>
   <anchor x="1315" y="1580" name="UC"/>
+  <anchor x="1763" y="1580" name="UR"/>
   <outline>
-    <component base="_stemloop" xOffset="200"/>
-    <component base="_stemMd" xOffset="762"/>
-    <component base="_stemMd" xOffset="1362"/>
-    <component base="_stemSm" xOffset="162" yOffset="423"/>
-    <component base="_curveShort" yScale="-1" xOffset="162" yOffset="1123"/>
-    <component base="_curveShort" yScale="-1" xOffset="762" yOffset="1119"/>
     <contour>
       <point x="276" y="910" type="curve"/>
       <point x="325" y="1004" type="line"/>
@@ -52,6 +46,12 @@
       <point x="112" y="1042"/>
       <point x="187" y="954"/>
     </contour>
+    <component base="_stemloop" xOffset="200"/>
+    <component base="_stemMd" xOffset="762"/>
+    <component base="_stemMd" xOffset="1362"/>
+    <component base="_stemSm" xOffset="162" yOffset="423"/>
+    <component base="_curveShort" yScale="-1" xOffset="162" yOffset="1123"/>
+    <component base="_curveShort" yScale="-1" xOffset="762" yOffset="1119"/>
   </outline>
   <lib>
     <dict>

@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17A5" format="2">
   <advance width="1500"/>
   <unicode hex="17A5"/>
-  <anchor x="1312" y="0" name="L"/>
   <anchor x="787" y="0" name="LC"/>
-  <anchor x="1312" y="1840" name="U"/>
+  <anchor x="1312" y="0" name="LR"/>
   <anchor x="788" y="1840" name="UC"/>
+  <anchor x="1312" y="1840" name="UR"/>
   <outline>
-    <component base="_curve" yScale="-1" xOffset="162" yOffset="1114"/>
-    <component base="_stemMd" xOffset="912"/>
-    <component base="_stemloop" xOffset="200" yOffset="20"/>
     <contour>
       <point x="473" y="951" type="curve"/>
       <point x="625" y="1027" type="line"/>
@@ -46,6 +43,9 @@
       <point x="197" y="1124"/>
       <point x="277" y="1012"/>
     </contour>
+    <component base="_curve" yScale="-1" xOffset="162" yOffset="1114"/>
+    <component base="_stemMd" xOffset="912"/>
+    <component base="_stemloop" xOffset="200" yOffset="20"/>
   </outline>
   <lib>
     <dict>

@@ -2,10 +2,10 @@
 <glyph name="uni17D21788.low" format="2">
   <advance width="728"/>
   <anchor x="-205" y="-1340" name="LA"/>
-  <anchor x="-225" y="-1340" name="LL"/>
-  <anchor x="-245" y="-670" name="_L"/>
+  <anchor x="-225" y="-1340" name="LX"/>
   <anchor x="-205" y="-670" name="_LC"/>
-  <anchor x="-225" y="-670" name="_LL"/>
+  <anchor x="-245" y="-670" name="_LR"/>
+  <anchor x="-225" y="-670" name="_LX"/>
   <outline>
     <component base="_stemSub" xOffset="195" yOffset="-120"/>
     <component base="_subcurve" xOffset="-267" yOffset="-735"/>

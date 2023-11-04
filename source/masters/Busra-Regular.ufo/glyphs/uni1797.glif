@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1797" format="2">
   <advance width="1516"/>
   <unicode hex="1797"/>
-  <anchor x="1271" y="0" name="L"/>
   <anchor x="760" y="0" name="LC"/>
-  <anchor x="1271" y="1580" name="U"/>
+  <anchor x="1271" y="0" name="LR"/>
   <anchor x="801" y="1580" name="UC"/>
+  <anchor x="1271" y="1580" name="UR"/>
   <outline>
     <component base="_smoke" xOffset="41"/>
     <component base="_curve" yScale="-1" xOffset="235" yOffset="1124"/>

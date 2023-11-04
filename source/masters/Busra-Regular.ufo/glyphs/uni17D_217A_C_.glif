@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D217AC" format="2">
   <anchor x="-603" y="-1070" name="LA"/>
-  <anchor x="-225" y="-1070" name="LL"/>
-  <anchor x="-245" y="0" name="_L"/>
+  <anchor x="-225" y="-1070" name="LX"/>
   <anchor x="-603" y="0" name="_LC"/>
-  <anchor x="-225" y="0" name="_LL"/>
+  <anchor x="-245" y="0" name="_LR"/>
+  <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <contour>
       <point x="-256" y="-938" type="curve"/>

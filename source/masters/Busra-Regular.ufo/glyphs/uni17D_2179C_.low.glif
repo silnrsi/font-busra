@@ -3,10 +3,10 @@
   <guideline y="-1202"/>
   <guideline x="-246"/>
   <anchor x="-659" y="-1340" name="LA"/>
-  <anchor x="-225" y="-1340" name="LL"/>
-  <anchor x="-245" y="-670" name="_L"/>
+  <anchor x="-225" y="-1340" name="LX"/>
   <anchor x="-659" y="-670" name="_LC"/>
-  <anchor x="-225" y="-670" name="_LL"/>
+  <anchor x="-245" y="-670" name="_LR"/>
+  <anchor x="-225" y="-670" name="_LX"/>
   <outline>
     <component base="uni17D2179C" yScale="0.9" yOffset="-696"/>
   </outline>

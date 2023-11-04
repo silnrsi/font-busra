@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1782" format="2">
   <advance width="1500"/>
   <unicode hex="1782"/>
-  <anchor x="1311" y="0" name="L"/>
   <anchor x="804" y="0" name="LC"/>
-  <anchor x="1311" y="1580" name="U"/>
+  <anchor x="1311" y="0" name="LR"/>
   <anchor x="785" y="1580" name="UC"/>
+  <anchor x="1311" y="1580" name="UR"/>
   <outline>
     <component base="uni1780" xOffset="17"/>
     <component base="_outstroke" xOffset="317"/>

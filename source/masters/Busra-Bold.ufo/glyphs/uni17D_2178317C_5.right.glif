@@ -3,12 +3,12 @@
   <advance width="1500"/>
   <anchor x="-128" y="-730" name="LC_1"/>
   <anchor x="780" y="0" name="LC_2"/>
-  <anchor x="562" y="-730" name="L_1"/>
-  <anchor x="1312" y="0" name="L_2"/>
+  <anchor x="562" y="-730" name="LR_1"/>
+  <anchor x="1312" y="0" name="LR_2"/>
   <anchor x="123" y="1580" name="UC_1"/>
   <anchor x="780" y="1580" name="UC_2"/>
-  <anchor x="562" y="1580" name="U_1"/>
-  <anchor x="1312" y="1580" name="U_2"/>
+  <anchor x="562" y="1580" name="UR_1"/>
+  <anchor x="1312" y="1580" name="UR_2"/>
   <outline>
     <component base="uni17D2178317B6"/>
     <component base="_R.ear" xOffset="842"/>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D2178D" format="2">
   <advance width="728"/>
-  <anchor x="483" y="-710" name="L"/>
   <anchor x="-206" y="-710" name="LC"/>
-  <anchor x="483" y="1580" name="U"/>
+  <anchor x="483" y="-710" name="LR"/>
   <anchor x="13" y="1580" name="UC"/>
+  <anchor x="483" y="1580" name="UR"/>
   <outline>
     <component base="_stemSub" xOffset="195" yOffset="-120"/>
     <component base="_L.ear" xOffset="22"/>

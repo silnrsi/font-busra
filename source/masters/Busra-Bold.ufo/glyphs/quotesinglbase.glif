@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotesinglbase" format="2">
-  <advance width="618"/>
+  <advance width="592"/>
   <unicode hex="201A"/>
   <outline>
-    <contour>
-      <point x="140" y="-349" type="line"/>
-      <point x="357" y="-331"/>
-      <point x="548" y="-182"/>
-      <point x="548" y="17" type="curve"/>
-      <point x="548" y="148"/>
-      <point x="445" y="255"/>
-      <point x="322" y="255" type="curve"/>
-      <point x="219" y="255"/>
-      <point x="140" y="191"/>
-      <point x="140" y="108" type="curve"/>
-      <point x="140" y="28"/>
-      <point x="205" y="-32"/>
-      <point x="281" y="-32" type="curve"/>
-      <point x="331" y="-32"/>
-      <point x="349" y="-20"/>
-      <point x="369" y="-6" type="curve"/>
-      <point x="369" y="-133"/>
-      <point x="268" y="-228"/>
-      <point x="140" y="-264" type="curve"/>
-    </contour>
+    <component base="quoteright" yOffset="-1550"/>
   </outline>
   <lib>
     <dict>

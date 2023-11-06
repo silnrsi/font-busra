@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="question" format="2">
-  <advance width="1306"/>
-  <unicode hex="003F"/>
-  <guideline x="600" y="1660" angle="270"/>
   <outline>
-    <component base="period" xOffset="268"/>
     <contour>
       <point x="324" y="1444" type="line"/>
       <point x="332" y="1490"/>
@@ -37,12 +33,4 @@
       <point x="280" y="1439" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CP</string>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

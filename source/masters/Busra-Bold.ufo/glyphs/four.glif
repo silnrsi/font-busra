@@ -6,8 +6,8 @@
   <anchor x="615" y="1745" name="LU"/>
   <outline>
     <contour>
-      <point x="214" y="562" type="line"/>
-      <point x="829" y="1458" type="line"/>
+      <point x="214" y="569" type="line"/>
+      <point x="829" y="1465" type="line"/>
       <point x="735" y="1475" type="line"/>
       <point x="735" y="140" type="line"/>
       <point x="545" y="105" type="line"/>
@@ -18,10 +18,10 @@
       <point x="1040" y="1660" type="line"/>
       <point x="762" y="1660" type="line"/>
       <point x="76" y="660" type="line"/>
-      <point x="76" y="499" type="line"/>
-      <point x="1224" y="499" type="line"/>
-      <point x="1224" y="644" type="line"/>
-      <point x="182" y="644" type="line"/>
+      <point x="76" y="494" type="line"/>
+      <point x="1224" y="494" type="line"/>
+      <point x="1224" y="629" type="line"/>
+      <point x="182" y="629" type="line"/>
     </contour>
   </outline>
   <lib>

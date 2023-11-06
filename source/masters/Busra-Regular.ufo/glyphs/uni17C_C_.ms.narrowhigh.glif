@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni17CC.ms.narrowhigh" format="2">
-  <guideline x="-778"/>
-  <outline>
-    <component base="uni17CC.narrow" yOffset="290"/>
-  </outline>
-</glyph>

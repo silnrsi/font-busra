@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>A</key>
@@ -290,60 +290,30 @@
   <string>uni17B_3.alt.glif</string>
   <key>uni17B6</key>
   <string>uni17B_6.glif</string>
-  <key>uni17B7.ms.high</key>
-  <string>uni17B_7.ms.high.glif</string>
-  <key>uni17B7.ms.high2</key>
-  <string>uni17B_7.ms.high2.glif</string>
   <key>uni17B7.ms.narrowhigh</key>
   <string>uni17B_7.ms.narrowhigh.glif</string>
-  <key>uni17B7.ms.narrowhigh2</key>
-  <string>uni17B_7.ms.narrowhigh2.glif</string>
   <key>uni17B7.narrow</key>
   <string>uni17B_7.narrow.glif</string>
   <key>uni17B717CD</key>
   <string>uni17B_717C_D_.glif</string>
-  <key>uni17B717CD.ms.high</key>
-  <string>uni17B_717C_D_.ms.high.glif</string>
-  <key>uni17B717CD.ms.high2</key>
-  <string>uni17B_717C_D_.ms.high2.glif</string>
-  <key>uni17B717CD.ms.narrowhigh</key>
-  <string>uni17B_717C_D_.ms.narrowhigh.glif</string>
-  <key>uni17B717CD.ms.narrowhigh2</key>
-  <string>uni17B_717C_D_.ms.narrowhigh2.glif</string>
   <key>uni17B717CD.narrow</key>
   <string>uni17B_717C_D_.narrow.glif</string>
   <key>uni17B8</key>
   <string>uni17B_8.glif</string>
-  <key>uni17B8.ms.high</key>
-  <string>uni17B_8.ms.high.glif</string>
-  <key>uni17B8.ms.high2</key>
-  <string>uni17B_8.ms.high2.glif</string>
   <key>uni17B9</key>
   <string>uni17B_9.glif</string>
-  <key>uni17B9.ms.high</key>
-  <string>uni17B_9.ms.high.glif</string>
-  <key>uni17B9.ms.high2</key>
-  <string>uni17B_9.ms.high2.glif</string>
   <key>uni17B9.ms.narrowhigh</key>
   <string>uni17B_9.ms.narrowhigh.glif</string>
-  <key>uni17B9.ms.narrowhigh2</key>
-  <string>uni17B_9.ms.narrowhigh2.glif</string>
   <key>uni17B9.narrow</key>
   <string>uni17B_9.narrow.glif</string>
   <key>uni17BA</key>
   <string>uni17B_A_.glif</string>
-  <key>uni17BA.ms.high</key>
-  <string>uni17B_A_.ms.high.glif</string>
-  <key>uni17BA.ms.high2</key>
-  <string>uni17B_A_.ms.high2.glif</string>
   <key>uni17BB</key>
   <string>uni17B_B_.glif</string>
   <key>uni17BB.low</key>
   <string>uni17B_B_.low.glif</string>
   <key>uni17BB.low.narrow</key>
   <string>uni17B_B_.low.narrow.glif</string>
-  <key>uni17BB.ms.low2</key>
-  <string>uni17B_B_.ms.low2.glif</string>
   <key>uni17BC</key>
   <string>uni17B_C_.glif</string>
   <key>uni17BC.low</key>
@@ -384,14 +354,6 @@
   <string>uni17C_5.lig.right.glif</string>
   <key>uni17C6.a</key>
   <string>uni17C_6.a.glif</string>
-  <key>uni17C6.ms.high</key>
-  <string>uni17C_6.ms.high.glif</string>
-  <key>uni17C6.ms.high2</key>
-  <string>uni17C_6.ms.high2.glif</string>
-  <key>uni17C6.ms.narrowhigh</key>
-  <string>uni17C_6.ms.narrowhigh.glif</string>
-  <key>uni17C6.ms.narrowhigh2</key>
-  <string>uni17C_6.ms.narrowhigh2.glif</string>
   <key>uni17C6.ms.psom</key>
   <string>uni17C_6.ms.psom.glif</string>
   <key>uni17C6.narrow</key>
@@ -402,24 +364,12 @@
   <string>uni17C_7.glif</string>
   <key>uni17CA.lower</key>
   <string>uni17C_A_.lower.glif</string>
-  <key>uni17CA.ms.high</key>
-  <string>uni17C_A_.ms.high.glif</string>
-  <key>uni17CA.ms.narrowhigh</key>
-  <string>uni17C_A_.ms.narrowhigh.glif</string>
   <key>uni17CA.narrow</key>
   <string>uni17C_A_.narrow.glif</string>
   <key>uni17CC</key>
   <string>uni17C_C_.glif</string>
   <key>uni17CC.alt</key>
   <string>uni17C_C_.alt.glif</string>
-  <key>uni17CC.ms.high</key>
-  <string>uni17C_C_.ms.high.glif</string>
-  <key>uni17CC.ms.high2</key>
-  <string>uni17C_C_.ms.high2.glif</string>
-  <key>uni17CC.ms.narrowhigh</key>
-  <string>uni17C_C_.ms.narrowhigh.glif</string>
-  <key>uni17CC.ms.narrowhigh2</key>
-  <string>uni17C_C_.ms.narrowhigh2.glif</string>
   <key>uni17CC.narrow</key>
   <string>uni17C_C_.narrow.glif</string>
   <key>uni17CD</key>
@@ -432,14 +382,6 @@
   <string>uni17C_F_.glif</string>
   <key>uni17CF.a</key>
   <string>uni17C_F_.a.glif</string>
-  <key>uni17CF.ms.high</key>
-  <string>uni17C_F_.ms.high.glif</string>
-  <key>uni17CF.ms.high2</key>
-  <string>uni17C_F_.ms.high2.glif</string>
-  <key>uni17CF.ms.narrowhigh</key>
-  <string>uni17C_F_.ms.narrowhigh.glif</string>
-  <key>uni17CF.ms.narrowhigh2</key>
-  <string>uni17C_F_.ms.narrowhigh2.glif</string>
   <key>uni17CF.narrow</key>
   <string>uni17C_F_.narrow.glif</string>
   <key>uni17D0.a</key>
@@ -448,14 +390,6 @@
   <string>uni17D_0.alt.glif</string>
   <key>uni17D0.avowel</key>
   <string>uni17D_0.avowel.glif</string>
-  <key>uni17D0.ms.high</key>
-  <string>uni17D_0.ms.high.glif</string>
-  <key>uni17D0.ms.high.alt</key>
-  <string>uni17D_0.ms.high.alt.glif</string>
-  <key>uni17D0.ms.high2</key>
-  <string>uni17D_0.ms.high2.glif</string>
-  <key>uni17D0.ms.high2.alt</key>
-  <string>uni17D_0.ms.high2.alt.glif</string>
   <key>uni17D21780.low</key>
   <string>uni17D_21780.low.glif</string>
   <key>uni17D21781</key>

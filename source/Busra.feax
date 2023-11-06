@@ -1,5 +1,5 @@
 # Glyph classes
-@above_marks_has_narrow = [uni17B7 uni17B717CD uni17B8 uni17B9 uni17BA uni17C6 uni17C9 uni17CA uni17CB uni17CC uni17CD uni17CE uni17CF uni17D1 uni17D3 uni17DD];
+@above_marks_has_narrow = [uni17B7 uni17B717CD uni17B8 uni17B9 uni17BA uni17C6 uni17C9 uni17CA uni17CB uni17CC uni17CD uni17CE uni17CF uni17D1 uni17DD];
 @above_marks_narrow = [uni17B7.narrow uni17B717CD.narrow uni17B8.narrow uni17B9.narrow uni17BA.narrow uni17C6.narrow uni17C9.narrow uni17CA.narrow uni17CB.narrow uni17CC.narrow uni17CD.narrow uni17CE.narrow uni17CF.narrow uni17D1.narrow uni17DD.narrow];
 @above_symbol_RS_shift = [uni17B7 uni17B8 uni17B9 uni17BA uni17D0];
 @above_vowels = [uni17B7 uni17B7.narrow uni17B717CD uni17B717CD.narrow uni17B8 uni17B8.narrow uni17B9 uni17B9.narrow uni17BA uni17BA.narrow];

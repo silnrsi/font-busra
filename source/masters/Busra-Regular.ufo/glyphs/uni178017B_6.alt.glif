@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni178017B6.alt" format="2">
   <advance width="2616"/>
   <anchor x="972" y="0" name="LC_1"/>
@@ -11,6 +11,13 @@
   <anchor x="2371" y="1580" name="UR_2"/>
   <anchor x="2164" y="1236" name="zxc1"/>
   <outline>
+    <component base="_stemloop" xOffset="195"/>
+    <component base="_stemMd" xOffset="775"/>
+    <component base="_stemMd" xOffset="1355"/>
+    <component base="_stemSm" xOffset="195" yOffset="423"/>
+    <component base="_curveShort" yScale="-1" xOffset="195" yOffset="1123"/>
+    <component base="_curveShort" yScale="-1" xOffset="775" yOffset="1119"/>
+    <component base="_stemLg" xOffset="2083"/>
     <contour>
       <point x="302" y="960" type="curve"/>
       <point x="360" y="1016" type="line"/>
@@ -48,13 +55,6 @@
       <point x="163" y="1077"/>
       <point x="238" y="1001"/>
     </contour>
-    <component base="_stemloop" xOffset="195"/>
-    <component base="_stemMd" xOffset="775"/>
-    <component base="_stemMd" xOffset="1355"/>
-    <component base="_stemSm" xOffset="195" yOffset="423"/>
-    <component base="_curveShort" yScale="-1" xOffset="195" yOffset="1123"/>
-    <component base="_curveShort" yScale="-1" xOffset="775" yOffset="1119"/>
-    <component base="_stemLg" xOffset="2083"/>
   </outline>
   <lib>
     <dict>

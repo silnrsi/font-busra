@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D217A4" format="2">
   <anchor x="-986" y="-710" name="LA"/>
   <anchor x="-228" y="-710" name="LX"/>
@@ -6,6 +6,7 @@
   <anchor x="-245" y="0" name="_LR"/>
   <anchor x="-225" y="0" name="_LX"/>
   <outline>
+    <component base="uni17D217A2" xOffset="-599"/>
     <contour>
       <point x="-777" y="-205" type="curve"/>
       <point x="-706" y="-268" type="line"/>
@@ -24,7 +25,6 @@
       <point x="-607" y="-160"/>
       <point x="-698" y="-176"/>
     </contour>
-    <component base="uni17D217A2" xOffset="-599"/>
   </outline>
   <lib>
     <dict>

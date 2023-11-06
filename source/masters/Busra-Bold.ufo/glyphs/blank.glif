@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blank" format="2">
-  <advance width="1718"/>
+  <advance width="1225"/>
   <unicode hex="2423"/>
   <outline>
-    <component base="underscore"/>
+    <contour>
+      <point x="1053" y="62" type="line"/>
+      <point x="172" y="62" type="line"/>
+      <point x="172" y="242" type="line"/>
+      <point x="0" y="242" type="line"/>
+      <point x="0" y="-110" type="line"/>
+      <point x="1225" y="-110" type="line"/>
+      <point x="1225" y="242" type="line"/>
+      <point x="1053" y="242" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

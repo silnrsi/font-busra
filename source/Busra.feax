@@ -1,6 +1,6 @@
 # Glyph classes
 @above_marks_has_narrow = [uni17B7 uni17B717CD uni17B8 uni17B9 uni17BA uni17C6 uni17C9 uni17CA uni17CB uni17CC uni17CD uni17CE uni17CF uni17D1 uni17D3 uni17DD];
-@above_marks_narrow = [uni17B7.narrow uni17B717CD.narrow uni17B8.narrow uni17B9.narrow uni17BA.narrow uni17C6.narrow uni17C9.narrow uni17CA.narrow uni17CB.narrow uni17CC.narrow uni17CD.narrow uni17CE.narrow uni17CF.narrow uni17D1.narrow uni17D3.ms.narrow uni17DD.narrow];
+@above_marks_narrow = [uni17B7.narrow uni17B717CD.narrow uni17B8.narrow uni17B9.narrow uni17BA.narrow uni17C6.narrow uni17C9.narrow uni17CA.narrow uni17CB.narrow uni17CC.narrow uni17CD.narrow uni17CE.narrow uni17CF.narrow uni17D1.narrow uni17DD.narrow];
 @above_symbol_RS_shift = [uni17B7 uni17B8 uni17B9 uni17BA uni17D0];
 @above_vowels = [uni17B7 uni17B7.narrow uni17B717CD uni17B717CD.narrow uni17B8 uni17B8.narrow uni17B9 uni17B9.narrow uni17BA uni17BA.narrow];
 @above_vowels_narrow = [uni17B7.narrow uni17B717CD.narrow uni17B8.narrow uni17B9.narrow uni17BA.narrow];
@@ -372,31 +372,28 @@ lookup remove_200CD_RS {
     sub uni17CA zerowidthnonjoiner by uni17CA;
 } remove_200CD_RS;
 
-lookup shift_dias_17B6a {
-do  for g = [@above_dia];
+do  for b = [uni17B6 uni17C5.rightpart uni17C0.rightpart1 uni17C0.rightpart2 uni17C0.rightpart3 uni17BF.rightpart1 uni17BF.rightpart2 uni17BF.rightpart3];
+    let ln = "shift_dias_"+b;
     {
-    sub uni17B6' $g by $g;
-    }
-} shift_dias_17B6a;
+lookup $ln {
+    sub @above_dia by $b;
+} $ln;
+}
 
-lookup shift_dias_17B6b {
-    sub @above_dia by uni17B6;
-} shift_dias_17B6b;
-
-lookup shift_dias_17C5a {
-do  for g = [@above_dia];
+lookup shift_dias_parta {
+do  for b = [uni17B6 uni17C5.rightpart uni17C0.rightpart1 uni17C0.rightpart2 uni17C0.rightpart3 uni17BF.rightpart1 uni17BF.rightpart2 uni17BF.rightpart3];
+    for g = [@above_dia];
     {
-    sub uni17C5.rightpart' $g by $g;
+    sub $b' $g by $g;
     }
-} shift_dias_17C5a;
-
-lookup shift_dias_17C5b {
-    sub @above_dia by uni17C5.rightpart;
-} shift_dias_17C5b;
+} shift_dias_parta;
 
 lookup shift_dias {
-    sub uni17B6' lookup shift_dias_17B6a @above_dia' lookup shift_dias_17B6b;
-    sub uni17C5.rightpart' lookup shift_dias_17C5a @above_dia' lookup shift_dias_17C5b;
+do  for b = [uni17B6 uni17C5.rightpart uni17C0.rightpart1 uni17C0.rightpart2 uni17C0.rightpart3 uni17BF.rightpart1 uni17BF.rightpart2 uni17BF.rightpart3];
+    let ln = "shift_dias_"+b;
+    {
+    sub $b' lookup shift_dias_parta @above_dia' lookup $ln;
+    }
 } shift_dias;
 
 # 4. Contextual variant marks

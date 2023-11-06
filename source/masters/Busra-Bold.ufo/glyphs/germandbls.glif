@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="germandbls" format="2">
-  <advance width="1527"/>
+  <advance width="1573"/>
   <unicode hex="00DF"/>
   <anchor x="875" y="-110" name="LL"/>
   <anchor x="809" y="1880" name="LU"/>

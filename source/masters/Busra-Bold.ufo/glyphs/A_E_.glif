@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="AE" format="2">
-  <advance width="2049"/>
+  <advance width="2086"/>
   <unicode hex="00C6"/>
   <anchor x="1079" y="-110" name="LL"/>
   <anchor x="1079" y="1745" name="LU"/>

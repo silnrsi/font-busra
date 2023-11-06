@@ -124,6 +124,8 @@
   <string>germandbls.glif</string>
   <key>gravecomb</key>
   <string>gravecomb.glif</string>
+  <key>guilsinglleft</key>
+  <string>guilsinglleft.glif</string>
   <key>i</key>
   <string>i.glif</string>
   <key>j</key>

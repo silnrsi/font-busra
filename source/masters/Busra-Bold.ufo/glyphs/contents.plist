@@ -1046,10 +1046,10 @@
   <string>uni17B_6.lig.right.glif</string>
   <key>uni17B7</key>
   <string>uni17B_7.glif</string>
-  <key>uni17B7.narrow</key>
-  <string>uni17B_7.narrow.glif</string>
   <key>uni17B7.ms.narrowhigh</key>
   <string>uni17B_7.ms.narrowhigh.glif</string>
+  <key>uni17B7.narrow</key>
+  <string>uni17B_7.narrow.glif</string>
   <key>uni17B717CD</key>
   <string>uni17B_717C_D_.glif</string>
   <key>uni17B717CD.narrow</key>
@@ -1060,10 +1060,10 @@
   <string>uni17B_8.narrow.glif</string>
   <key>uni17B9</key>
   <string>uni17B_9.glif</string>
-  <key>uni17B9.narrow</key>
-  <string>uni17B_9.narrow.glif</string>
   <key>uni17B9.ms.narrowhigh</key>
   <string>uni17B_9.ms.narrowhigh.glif</string>
+  <key>uni17B9.narrow</key>
+  <string>uni17B_9.narrow.glif</string>
   <key>uni17BA</key>
   <string>uni17B_A_.glif</string>
   <key>uni17BA.narrow</key>

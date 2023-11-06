@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni179417B6" format="2">
   <advance width="2204"/>
-  <anchor x="763" y="0" name="LC_1"/>
+  <anchor x="763" y="-125" name="LC_1"/>
   <anchor x="1498" y="0" name="LC_2"/>
-  <anchor x="1231" y="0" name="LR_1"/>
+  <anchor x="1231" y="-125" name="LR_1"/>
   <anchor x="1959" y="0" name="LR_2"/>
   <anchor x="761" y="1580" name="UC_1"/>
   <anchor x="1498" y="1580" name="UC_2"/>

@@ -90,7 +90,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/11/06 14:15:54</string>
+  <string>2023/11/06 09:42:19</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -261,10 +261,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>2060</integer>
     <integer>2090</integer>
   </array>
-  <key>postscriptFamilyBlues</key>
-  <array/>
-  <key>postscriptFamilyOtherBlues</key>
-  <array/>
   <key>postscriptFontName</key>
   <string>Busra-Regular</string>
   <key>postscriptOtherBlues</key>

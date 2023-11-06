@@ -6,9 +6,9 @@
   <anchor x="1349" y="0" name="LR_1"/>
   <anchor x="2100" y="0" name="LR_2"/>
   <anchor x="823" y="1840" name="UC_1"/>
-  <anchor x="1576" y="1840" name="UC_2"/>
+  <anchor x="1576" y="1580" name="UC_2"/>
   <anchor x="1349" y="1840" name="UR_1"/>
-  <anchor x="2043" y="1840" name="UR_2"/>
+  <anchor x="2043" y="1580" name="UR_2"/>
   <anchor x="1906" y="1236" name="zxc1"/>
   <outline>
     <component base="uni1784"/>

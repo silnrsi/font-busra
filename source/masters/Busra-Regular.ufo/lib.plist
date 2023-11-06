@@ -26,7 +26,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3151</string>
+  <string>3225</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/space apbcdefghni/dotlessi jbklmnopqnrstuvwxyzbdfhklðþ/space</string>
@@ -42,6 +42,9 @@
 ö/uni1ECD ò/uni1ECF/uni01A1/uni1EDB o/uni01A1/uni1EE3/uni1EDD/uni1EDF/uni1EE1/space cçCÇ</string>
     <string>aâ/uni1EA5/uni1EAD/uni1EA7/uni1EA9/uni1EAB ä/uni1EA1 à/uni1EA3 åã</string>
     <string>|0|1|2|3|4|5|6|7|8|9|/space</string>
+    <string>/uni179117B6</string>
+    <string>aâ</string>
+    <string>/uni17D0/uni178417B6/uni179A17B6/uni1791/uni179417B6/uni179417C5.right/uni1784</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -66,7 +69,7 @@
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
   <integer>100</integer>
   <key>com.schriftgestaltung.fontMasterOrder</key>
-  <integer>1</integer>
+  <integer>0</integer>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
   <key>com.schriftgestaltung.weight</key>

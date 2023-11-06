@@ -6,9 +6,9 @@
   <anchor x="1271" y="0" name="LR_1"/>
   <anchor x="1999" y="0" name="LR_2"/>
   <anchor x="801" y="1840" name="UC_1"/>
-  <anchor x="1551" y="1840" name="UC_2"/>
+  <anchor x="1551" y="1580" name="UC_2"/>
   <anchor x="1271" y="1840" name="UR_1"/>
-  <anchor x="1999" y="1840" name="UR_2"/>
+  <anchor x="1999" y="1580" name="UR_2"/>
   <outline>
     <component base="uni178417B6"/>
     <component base="_R.ear" xOffset="1588"/>
@@ -16,7 +16,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

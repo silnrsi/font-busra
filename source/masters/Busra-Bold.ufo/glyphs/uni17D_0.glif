@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D0" format="2">
   <unicode hex="17D0"/>
-  <anchor x="-695" y="2403" name="UA"/>
+  <anchor x="-695" y="2200" name="UA"/>
   <anchor x="-225" y="2403" name="UX"/>
   <anchor x="-245" y="1580" name="_UR"/>
   <anchor x="-225" y="1580" name="_UX"/>

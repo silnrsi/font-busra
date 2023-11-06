@@ -2,7 +2,6 @@
 <glyph name="uni1789" format="2">
   <advance width="2138"/>
   <unicode hex="1789"/>
-  <anchor x="1145" y="-604" name="LC"/>
   <anchor x="1951" y="-604" name="LR"/>
   <anchor x="1472" y="1580" name="UC"/>
   <anchor x="1951" y="1580" name="UR"/>

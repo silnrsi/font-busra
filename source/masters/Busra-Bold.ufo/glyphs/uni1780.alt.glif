@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1780.alt" format="2">
   <advance width="1950"/>
-  <anchor x="1012" y="0" name="LC"/>
   <anchor x="1763" y="0" name="LR"/>
   <anchor x="1315" y="1580" name="UC"/>
   <anchor x="1763" y="1580" name="UR"/>

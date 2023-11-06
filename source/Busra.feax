@@ -1052,13 +1052,9 @@ lookup lr_attach {
     pos base @LR mark @_LR;
 } lr_attach;
 
-lookup u178E_centred {
-do  let sx = APx("uni178E", "LC");
-    let sy = APy("uni178E", "LC");
-    {
-    pos base uni178E <anchor $sx $sy > mark @_LC;
-    }
-} u178E_centred;
+lookup lc_attach {
+    pos base @LC mark @_LC;
+} lc_attach;
 
 lookup u_attach {
     pos base @UR mark @_UR;
@@ -1219,9 +1215,9 @@ feature blwm {
     lookup u_attach;
     lookup uc_attach;
     lookup lr_attach;
+    lookup lc_attach;
     lookup above_chain;
     lookup below_chain;
-    lookup u178E_centred;
     lookup ligature_centred;
     lookup low2_vowel_ro_coeng_ro;
 } blwm;

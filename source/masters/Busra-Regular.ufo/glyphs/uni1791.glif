@@ -3,7 +3,6 @@
   <advance width="1280"/>
   <unicode hex="1791"/>
   <guideline x="649"/>
-  <anchor x="664" y="0" name="LC"/>
   <anchor x="963" y="0" name="LR"/>
   <anchor x="664" y="1580" name="UC"/>
   <anchor x="963" y="1580" name="UR"/>

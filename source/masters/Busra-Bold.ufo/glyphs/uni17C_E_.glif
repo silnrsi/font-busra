@@ -3,8 +3,8 @@
   <unicode hex="17CE"/>
   <anchor x="-695" y="2136" name="UA"/>
   <anchor x="-225" y="2136" name="UX"/>
-  <anchor x="-695" y="1580" name="_UA"/>
-  <anchor x="-715" y="1580" name="_UC"/>
+  <anchor x="-695" y="1560" name="_UA"/>
+  <anchor x="-715" y="1560" name="_UC"/>
   <outline>
     <contour>
       <point x="-582" y="1590" type="line"/>

@@ -2,7 +2,7 @@
 <glyph name="uni17C9.a" format="2">
   <guideline x="-938"/>
   <guideline x="-488"/>
-  <anchor x="-695" y="2024" name="UA"/>
+  <anchor x="-695" y="2034" name="UA"/>
   <anchor x="-305" y="2024" name="UX"/>
   <anchor x="-695" y="1580" name="_UA"/>
   <anchor x="-715" y="1580" name="_UC"/>

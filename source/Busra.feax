@@ -1181,7 +1181,7 @@ feature abvm {
     lookup ligatures;
     lookup a_shifter_dia;
     lookup raise_vowels_spacing_coengs;
-    lookup shift_dia_C5;
+#    lookup shift_dia_C5;
     lookup shift_dias;
 } abvm;
 

@@ -2,10 +2,10 @@
 <glyph name="a" format="2">
   <advance width="1293"/>
   <unicode hex="0061"/>
-  <guideline x="348" y="326" angle="270.3734"/>
+  <guideline x="355" y="326" angle="270.3734"/>
   <anchor x="590" y="-110" name="LL"/>
-  <anchor x="590" y="1350" name="LU"/>
-  <anchor x="520" y="0" name="PBxxxx"/>
+  <anchor x="607" y="1350" name="LU"/>
+  <anchor x="520" y="0" name="PB"/>
   <anchor x="530" y="0" name="def"/>
   <outline>
     <contour>
@@ -31,8 +31,8 @@
       <point x="288" y="-20"/>
     </contour>
     <contour>
-      <point x="862" y="1" type="line"/>
-      <point x="1200" y="1" type="line"/>
+      <point x="862" y="0" type="line"/>
+      <point x="1200" y="0" type="line"/>
       <point x="1200" y="86" type="line"/>
       <point x="1050" y="121" type="line"/>
       <point x="1050" y="960" type="line" smooth="yes"/>

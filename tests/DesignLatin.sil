@@ -29,16 +29,20 @@
 
 %%%%% TESTS
 
+\subsection{BOLD TESTS}
+\proof[size="14pt"]{adhesion air cane despair pane pinecone pain no grant opinion nip ripe laden cope ipa cap crap panel arc nice pear reap pacer cain ran nope care pica apace ricer connor pare rain ghost hire gelatin}
+\proof[size="14pt"]{adhesion air cane លក់ despair pane លើតម្លៃរបស់ pinecone pain ភាសា no និងសមភាព grant opinion កំណើត nip ripe laden ប្រជាពលរដ្ឋ cope ipa និងអង្គការ cap crap មនុស្ស pan arc nice និងសិទ្ធិមិនអាច pear reap ឡើយ pacer cain ដោយ ran nope ភេទ care ឬសង្គម pica apace បងប្អូន ricer connor និងទុគ៌តភាព pare rain ghost hire gelatin}
+
 \subsection{UDHR}
 \proof[size="14pt"]{Article 26: Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit. Education shall be directed to the full development of the human personality and to the strengthening of respect for human rights and fundamental freedoms. It shall promote understanding, tolerance and friendship among all nations, racial or religious groups, and shall further the activities of the United Nations for the maintenance of peace. Parents have a prior right to choose the kind of education that shall be given to their children.}
 
 \subsection{BASIC LATIN}
-\proof[size="86pt"]{ABCDEFGHI}
-\proof[size="86pt"]{JKLMNOPQ}
-\proof[size="86pt"]{RSTUVWXYZ}
-\proof[size="86pt"]{abcdefghij}
-\proof[size="86pt"]{klmnopq}
-\proof[size="86pt"]{rstuvwxyz}
+\proof[size="80pt"]{ABCDEFGHI}
+\proof[size="80pt"]{JKLMNOPQ}
+\proof[size="80pt"]{RSTUVWXYZ}
+\proof[size="80pt"]{abcdefghij}
+\proof[size="80pt"]{klmnopq}
+\proof[size="80pt"]{rstuvwxyz}
 \proof[size="28pt"]{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
 \proof[size="28pt"]{abcdefghijklmnopqrstuvwxyz}
 \proof[size="18pt"]{HAHBHCHDHEHFHGHHHIHJHKHLHMHNHOHPHQHRHSHTHUHVHWHXHYHZH}
@@ -49,7 +53,7 @@
 \pattern[chars="@",reps="group_latinlc",format="list"]{nnoonnonn@no@oh@o@b@o@n@o@p@non}
 
 \subsection{PUNCTUATION AND SYMBOLS}
-\proof[size="86pt"]{.,:;!?¿¡…}
+\proof[size="80pt"]{.,:;!?¿¡…}
 \pattern[chars="@",reps="group_punctuation",format="list"]{HO@OH@no@on@ space after@ next}
 \proof[size="18pt"]{n-n–n—n‐n‑n­n‒n―n•n·n‧n∙n¬n~n_n␣n}
 \proof[size="18pt"]{n n n n n n n n n n n n nn}
@@ -80,7 +84,7 @@
 \pattern[chars="@",reps="group_latinextralc"]{n@o}
 
 \subsection{NUMERALS AND MATH}
-\proof[size="86pt"]{0123456789}
+\proof[size="80pt"]{0123456789}
 \pattern[chars="@",reps="group_numerals",format="list"]{0@0@1@2@3@4@5@6@7@8@9@}
 \pi[digits=500]
 \proof[size="18pt"]{0⁄0¹0²0³0⁴0½0¼0¾0}

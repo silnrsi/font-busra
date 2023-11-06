@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb" format="2">
   <unicode hex="0301"/>
-  <anchor x="-620" y="1698" name="LU"/>
-  <anchor x="-620" y="1350" name="_LU"/>
+  <guideline x="-620" y="1220" angle="270"/>
+  <anchor x="-664" y="1798" name="LU"/>
+  <anchor x="-664" y="1350" name="_LU"/>
   <outline>
     <contour>
-      <point x="-177" y="1470" type="line"/>
-      <point x="-527" y="1470" type="line"/>
-      <point x="-648" y="1066" type="line"/>
-      <point x="-523" y="1066" type="line"/>
+      <point x="-279" y="1643" type="curve"/>
+      <point x="-419" y="1581"/>
+      <point x="-679" y="1442"/>
+      <point x="-771" y="1372" type="curve"/>
+      <point x="-855" y="1456" type="line"/>
+      <point x="-752" y="1572"/>
+      <point x="-559" y="1745"/>
+      <point x="-426" y="1829" type="curve"/>
+      <point x="-373" y="1815"/>
+      <point x="-292" y="1694"/>
     </contour>
   </outline>
   <lib>

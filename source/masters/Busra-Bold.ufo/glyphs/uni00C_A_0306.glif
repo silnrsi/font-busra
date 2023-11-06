@@ -1,38 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni00CA0306" format="2">
-  <advance width="1324"/>
+  <advance width="1381"/>
+  <anchor x="841" y="-110" name="LL"/>
+  <anchor x="841" y="2406" name="LU"/>
+  <anchor x="1505" y="948" name="PA"/>
+  <anchor x="1505" y="748" name="_PA"/>
+  <anchor x="1505" y="747" name="_def"/>
   <outline>
     <component base="E"/>
-    <contour>
-      <point x="562" y="1788" type="line"/>
-      <point x="257" y="1494" type="line"/>
-      <point x="343" y="1494" type="line"/>
-      <point x="667" y="1607" type="line"/>
-      <point x="991" y="1494" type="line"/>
-      <point x="1079" y="1494" type="line"/>
-      <point x="772" y="1788" type="line"/>
-    </contour>
-    <contour>
-      <point x="983" y="2130" type="line"/>
-      <point x="962" y="2076"/>
-      <point x="803" y="2015"/>
-      <point x="667" y="2015" type="curve"/>
-      <point x="531" y="2015"/>
-      <point x="372" y="2076"/>
-      <point x="351" y="2130" type="curve"/>
-      <point x="277" y="2130" type="line"/>
-      <point x="299" y="2020"/>
-      <point x="458" y="1835"/>
-      <point x="667" y="1835" type="curve"/>
-      <point x="876" y="1835"/>
-      <point x="1035" y="2020"/>
-      <point x="1057" y="2130" type="curve"/>
-    </contour>
+    <component base="uni03020306" xOffset="1505" yOffset="395"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CPP</string>
       <key>public.markColor</key>
       <string>0.18,0.16,0.78,1</string>
     </dict>

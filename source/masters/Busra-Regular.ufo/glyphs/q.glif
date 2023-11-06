@@ -2,6 +2,7 @@
 <glyph name="q" format="2">
   <advance width="1302"/>
   <unicode hex="0071"/>
+  <guideline x="988" y="1028" angle="194.0362"/>
   <anchor x="618" y="-690" name="LL"/>
   <anchor x="618" y="1350" name="LU"/>
   <anchor x="520" y="-200" name="PB"/>

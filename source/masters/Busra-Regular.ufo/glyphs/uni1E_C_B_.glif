@@ -3,15 +3,12 @@
   <advance width="723"/>
   <unicode hex="1ECB"/>
   <anchor x="369" y="-447" name="LL"/>
-  <anchor x="369" y="1350" name="LU"/>
-  <anchor x="0" y="0" name="PB"/>
-  <anchor x="990" y="-180" name="PHB"/>
-  <anchor x="990" y="0" name="_PB"/>
-  <anchor x="990" y="0" name="_PHB"/>
-  <anchor x="0" y="0" name="def"/>
+  <anchor x="371" y="1819" name="LU"/>
+  <anchor x="520" y="0" name="PB"/>
+  <anchor x="460" y="200" name="def"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="uni0323" xOffset="990"/>
+    <component base="i"/>
+    <component base="uni0323" xOffset="993"/>
   </outline>
   <lib>
     <dict>

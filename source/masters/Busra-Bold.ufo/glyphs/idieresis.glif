@@ -1,60 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idieresis" format="2">
-  <advance width="627"/>
+  <advance width="844"/>
   <unicode hex="00EF"/>
-  <anchor x="520" y="0" name="PB"/>
-  <anchor x="440" y="200" name="def"/>
+  <anchor x="428" y="-110" name="LL"/>
+  <anchor x="428" y="1804" name="LU"/>
+  <anchor x="59" y="0" name="PB"/>
+  <anchor x="59" y="0" name="def"/>
   <outline>
-    <contour>
-      <point x="186" y="238" type="line"/>
-      <point x="186" y="121"/>
-      <point x="165" y="75"/>
-      <point x="40" y="75" type="curve"/>
-      <point x="40" y="0" type="line"/>
-      <point x="587" y="0" type="line"/>
-      <point x="587" y="75" type="line"/>
-      <point x="463" y="75"/>
-      <point x="437" y="121"/>
-      <point x="437" y="238" type="curve"/>
-      <point x="437" y="1004" type="line"/>
-      <point x="334" y="1004" type="line"/>
-      <point x="24" y="863" type="line"/>
-      <point x="52" y="790" type="line"/>
-      <point x="108" y="807"/>
-      <point x="153" y="819"/>
-      <point x="165" y="819" type="curve"/>
-      <point x="186" y="819"/>
-      <point x="186" y="778"/>
-      <point x="186" y="683" type="curve"/>
-    </contour>
-    <contour>
-      <point x="-40" y="1340" type="curve" smooth="yes"/>
-      <point x="-40" y="1263"/>
-      <point x="23" y="1200"/>
-      <point x="100" y="1200" type="curve" smooth="yes"/>
-      <point x="177" y="1200"/>
-      <point x="240" y="1263"/>
-      <point x="240" y="1340" type="curve" smooth="yes"/>
-      <point x="240" y="1417"/>
-      <point x="177" y="1480"/>
-      <point x="100" y="1480" type="curve" smooth="yes"/>
-      <point x="23" y="1480"/>
-      <point x="-40" y="1417"/>
-    </contour>
-    <contour>
-      <point x="381" y="1340" type="curve" smooth="yes"/>
-      <point x="381" y="1263"/>
-      <point x="444" y="1200"/>
-      <point x="521" y="1200" type="curve" smooth="yes"/>
-      <point x="598" y="1200"/>
-      <point x="661" y="1263"/>
-      <point x="661" y="1340" type="curve" smooth="yes"/>
-      <point x="661" y="1417"/>
-      <point x="598" y="1480"/>
-      <point x="521" y="1480" type="curve" smooth="yes"/>
-      <point x="444" y="1480"/>
-      <point x="381" y="1417"/>
-    </contour>
+    <component base="dotlessi"/>
+    <component base="dieresiscomb" xOffset="1092"/>
   </outline>
   <lib>
     <dict>

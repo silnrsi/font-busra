@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01B00306" format="2">
-  <advance width="1149"/>
+  <advance width="1567"/>
+  <anchor x="700" y="-110" name="LL"/>
+  <anchor x="700" y="1701" name="LU"/>
+  <anchor x="1320" y="200" name="PA"/>
+  <anchor x="0" y="0" name="PB"/>
+  <anchor x="1320" y="0" name="_PA"/>
+  <anchor x="1320" y="18" name="_def"/>
+  <anchor x="0" y="0" name="def"/>
   <outline>
     <component base="uni01B0"/>
-    <contour>
-      <point x="758" y="1538" type="line"/>
-      <point x="737" y="1483"/>
-      <point x="643" y="1352"/>
-      <point x="521" y="1352" type="curve"/>
-      <point x="399" y="1352"/>
-      <point x="305" y="1483"/>
-      <point x="284" y="1538" type="curve"/>
-      <point x="171" y="1538" type="line"/>
-      <point x="191" y="1435"/>
-      <point x="292" y="1190"/>
-      <point x="521" y="1190" type="curve"/>
-      <point x="751" y="1190"/>
-      <point x="847" y="1435"/>
-      <point x="867" y="1538" type="curve"/>
-    </contour>
+    <component base="uni0306" xOffset="1364"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CP</string>
       <key>public.markColor</key>
       <string>0.18,0.16,0.78,1</string>
     </dict>

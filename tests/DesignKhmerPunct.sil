@@ -24,7 +24,9 @@
 \patterngroup[name="closingquotes"]{"'”’‚„`}
 \patterngroup[name="symbolsshared"]{&*-/•·}
 \patterngroup[name="special"]{@_\\}
-\patterngroup[name="barspairs"]{\\/|¦\{\}[]()‹›«»}
+\patterngroup[name="bars"]{\\/|¦}
+\patterngroup[name="openingbrackets"]{\{[(‹«}
+\patterngroup[name="closingbrackets"]{\}])›»}
 \patterngroup[name="sym"]{µ∂∑∏π∫Ω∆ƒ$¢£¥¤€¶§&@◊†‡©®*^™ªº_␣}
 
 
@@ -44,5 +46,9 @@
 
 \subsection{KHMER WITH DASHES}
 \pattern[chars="@",reps="group_centers",format="list"]{រេស@ឆ្នំា ឆាម@ក្រក្ដី កន់@រីក}
+
+\subsection{KHMER WITH BARS AND BRACKETS}
+\pattern[chars="@",reps="group_bars",format="list"]{@កកកាក@ @រកាកណ្ដាល@ @ដិតដាម@ @រោគ@}
+\pattern[chars="@,#",reps="group_openingbrackets,group_closingbrackets",format="list"]{@កកកាក# @រកាកណ្ដាល# @ដិតដាម# @រោគ#}
 
 \end{document}

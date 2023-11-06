@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenleft" format="2">
+  <outline>
+    <contour>
+      <point x="480" y="881" type="curve" smooth="yes"/>
+      <point x="480" y="1225"/>
+      <point x="589" y="1874"/>
+      <point x="746" y="1989" type="curve"/>
+      <point x="757" y="1995"/>
+      <point x="761" y="1999"/>
+      <point x="761" y="2003" type="curve"/>
+      <point x="761" y="2010"/>
+      <point x="753" y="2018"/>
+      <point x="742" y="2018" type="curve" smooth="yes"/>
+      <point x="734" y="2018"/>
+      <point x="725" y="2018"/>
+      <point x="714" y="2014" type="curve"/>
+      <point x="596" y="1985"/>
+      <point x="250" y="1499"/>
+      <point x="250" y="881" type="curve" smooth="yes"/>
+      <point x="250" y="263"/>
+      <point x="596" y="-223"/>
+      <point x="714" y="-254" type="curve"/>
+      <point x="725" y="-258"/>
+      <point x="734" y="-258"/>
+      <point x="742" y="-258" type="curve" smooth="yes"/>
+      <point x="753" y="-258"/>
+      <point x="761" y="-250"/>
+      <point x="761" y="-242" type="curve"/>
+      <point x="761" y="-239"/>
+      <point x="757" y="-235"/>
+      <point x="746" y="-227" type="curve"/>
+      <point x="589" y="-111"/>
+      <point x="480" y="537"/>
+    </contour>
+  </outline>
+</glyph>

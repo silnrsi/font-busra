@@ -8,7 +8,7 @@
   <anchor x="580" y="0" name="def"/>
   <outline>
     <component base="u"/>
-    <component base="circumflexcomb" xOffset="1327"/>
+    <component base="circumflexcomb" xOffset="1325"/>
   </outline>
   <lib>
     <dict>

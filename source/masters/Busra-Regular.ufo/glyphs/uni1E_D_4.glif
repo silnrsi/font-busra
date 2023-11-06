@@ -3,14 +3,10 @@
   <advance width="1528"/>
   <unicode hex="1ED4"/>
   <anchor x="764" y="-110" name="LL"/>
-  <anchor x="780" y="2650" name="LU"/>
-  <anchor x="1385" y="836" name="PA"/>
-  <anchor x="1385" y="826" name="_PA"/>
-  <anchor x="1385" y="854" name="_def"/>
+  <anchor x="764" y="2446" name="LU"/>
   <outline>
     <component base="O"/>
-    <component base="circumflexcomb" xOffset="1390" yOffset="425"/>
-    <component base="uni0309" xOffset="1385" yOffset="836"/>
+    <component base="uni03020309" xOffset="1388" yOffset="425"/>
   </outline>
   <lib>
     <dict>

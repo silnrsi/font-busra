@@ -2,13 +2,13 @@
 <glyph name="uni00D40306" format="2">
   <advance width="1528"/>
   <anchor x="764" y="-110" name="LL"/>
-  <anchor x="764" y="2406" name="LU"/>
-  <anchor x="1390" y="978" name="PA"/>
-  <anchor x="1390" y="778" name="_PA"/>
-  <anchor x="1390" y="777" name="_def"/>
+  <anchor x="764" y="2426" name="LU"/>
+  <anchor x="1388" y="978" name="PA"/>
+  <anchor x="1388" y="778" name="_PA"/>
+  <anchor x="1388" y="777" name="_def"/>
   <outline>
     <component base="O"/>
-    <component base="uni03020306" xOffset="1390" yOffset="425"/>
+    <component base="uni03020306" xOffset="1388" yOffset="425"/>
   </outline>
   <lib>
     <dict>

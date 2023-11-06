@@ -1,78 +1,78 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>ascender</key>
-    <integer>2500</integer>
-    <key>capHeight</key>
-    <integer>1440</integer>
-    <key>copyright</key>
-    <string>Copyright (c) 2003-2023 SIL International</string>
-    <key>descender</key>
-    <integer>-1240</integer>
-    <key>familyName</key>
-    <string>Busra</string>
-    <key>guidelines</key>
-    <array>
-      <dict>
-        <key>name</key>
-        <string>m</string>
-        <key>y</key>
-        <integer>250</integer>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>f1</string>
-        <key>y</key>
-        <integer>-788</integer>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>f2</string>
-        <key>y</key>
-        <integer>-1238</integer>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>f3</string>
-        <key>y</key>
-        <integer>-150</integer>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>f4</string>
-        <key>y</key>
-        <integer>-713</integer>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>f5</string>
-        <key>x</key>
-        <integer>-188</integer>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>f6</string>
-        <key>x</key>
-        <integer>-1238</integer>
-      </dict>
-    </array>
-    <key>openTypeHeadCreated</key>
-    <string>2023/10/27 10:25:41</string>
-    <key>openTypeHheaAscender</key>
-    <integer>2500</integer>
-    <key>openTypeHheaDescender</key>
-    <integer>-1240</integer>
-    <key>openTypeHheaLineGap</key>
-    <integer>0</integer>
-    <key>openTypeNameDescription</key>
-    <string>A font for the Khmer script</string>
-    <key>openTypeNameDesigner</key>
-    <string>D. Kanjahn</string>
-    <key>openTypeNameDesignerURL</key>
-    <string>https://software.sil.org/wstech/</string>
-    <key>openTypeNameLicense</key>
-    <string>Copyright (c) 2003-2023 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
+<dict>
+  <key>ascender</key>
+  <integer>2500</integer>
+  <key>capHeight</key>
+  <integer>1440</integer>
+  <key>copyright</key>
+  <string>Copyright (c) 2003-2023 SIL International</string>
+  <key>descender</key>
+  <integer>-1240</integer>
+  <key>familyName</key>
+  <string>Busra</string>
+  <key>guidelines</key>
+  <array>
+    <dict>
+      <key>name</key>
+      <string>m</string>
+      <key>y</key>
+      <integer>250</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f1</string>
+      <key>y</key>
+      <integer>-788</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f2</string>
+      <key>y</key>
+      <integer>-1238</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f3</string>
+      <key>y</key>
+      <integer>-150</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f4</string>
+      <key>y</key>
+      <integer>-713</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f5</string>
+      <key>x</key>
+      <integer>-188</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>f6</string>
+      <key>x</key>
+      <integer>-1238</integer>
+    </dict>
+  </array>
+  <key>openTypeHeadCreated</key>
+  <string>2023/11/03 18:01:42</string>
+  <key>openTypeHheaAscender</key>
+  <integer>2500</integer>
+  <key>openTypeHheaDescender</key>
+  <integer>-1240</integer>
+  <key>openTypeHheaLineGap</key>
+  <integer>0</integer>
+  <key>openTypeNameDescription</key>
+  <string>A font for the Khmer script</string>
+  <key>openTypeNameDesigner</key>
+  <string>D. Kanjahn</string>
+  <key>openTypeNameDesignerURL</key>
+  <string>https://software.sil.org/wstech/</string>
+  <key>openTypeNameLicense</key>
+  <string>Copyright (c) 2003-2023 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.

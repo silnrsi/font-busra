@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedbl" format="2">
-  <advance width="835"/>
+  <advance width="816"/>
   <unicode hex="0022"/>
   <outline>
-    <contour>
-      <point x="680" y="1156" type="line"/>
-      <point x="680" y="1440" type="line"/>
-      <point x="490" y="1440" type="line"/>
-      <point x="490" y="1156" type="line"/>
-    </contour>
-    <contour>
-      <point x="390" y="1156" type="line"/>
-      <point x="390" y="1440" type="line"/>
-      <point x="200" y="1440" type="line"/>
-      <point x="200" y="1156" type="line"/>
-    </contour>
+    <component base="quotesingle"/>
+    <component base="quotesingle" xOffset="374"/>
   </outline>
   <lib>
     <dict>

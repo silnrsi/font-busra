@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="space" format="2">
-  <advance width="1500"/>
+  <advance width="1455"/>
   <unicode hex="0020"/>
+  <anchor x="833" y="1998" name="LU"/>
   <outline/>
 </glyph>

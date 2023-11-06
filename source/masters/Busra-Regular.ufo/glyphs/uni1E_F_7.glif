@@ -3,15 +3,15 @@
   <advance width="1350"/>
   <unicode hex="1EF7"/>
   <anchor x="915" y="-350" name="LL"/>
-  <anchor x="770" y="1814" name="LU"/>
-  <anchor x="1375" y="0" name="PA"/>
+  <anchor x="754" y="1824" name="LU"/>
+  <anchor x="1349" y="0" name="PA"/>
   <anchor x="520" y="-200" name="PB"/>
-  <anchor x="1375" y="-10" name="_PA"/>
-  <anchor x="1375" y="18" name="_def"/>
+  <anchor x="1349" y="-10" name="_PA"/>
+  <anchor x="1349" y="18" name="_def"/>
   <anchor x="502" y="0" name="def"/>
   <outline>
     <component base="y"/>
-    <component base="uni0309" xOffset="1375"/>
+    <component base="uni0309" xOffset="1378"/>
   </outline>
   <lib>
     <dict>

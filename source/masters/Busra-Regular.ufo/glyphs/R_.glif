@@ -3,16 +3,18 @@
   <advance width="1519"/>
   <unicode hex="0052"/>
   <guideline x="1011" y="-110" angle="270"/>
+  <guideline x="1138" y="454" angle="303.3749"/>
+  <guideline x="1560" y="125" angle="0"/>
   <anchor x="737" y="-110" name="LL"/>
   <anchor x="737" y="1745" name="LU"/>
   <outline>
     <contour>
       <point x="1209" y="143" type="line"/>
-      <point x="969" y="90" type="line"/>
-      <point x="969" y="5" type="line"/>
-      <point x="1510" y="5" type="line"/>
-      <point x="1515" y="90" type="line"/>
-      <point x="1350" y="130" type="line"/>
+      <point x="969" y="85" type="line"/>
+      <point x="969" y="0" type="line"/>
+      <point x="1515" y="0" type="line"/>
+      <point x="1515" y="85" type="line"/>
+      <point x="1355" y="132" type="line"/>
       <point x="871" y="859" type="line"/>
       <point x="646" y="854" type="line"/>
       <point x="1173" y="54" type="line"/>

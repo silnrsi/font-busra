@@ -3,12 +3,12 @@
   <advance width="1293"/>
   <unicode hex="00E4"/>
   <anchor x="590" y="-110" name="LL"/>
-  <anchor x="590" y="1774" name="LU"/>
-  <anchor x="520" y="0" name="PBxxxx"/>
+  <anchor x="607" y="1794" name="LU"/>
+  <anchor x="520" y="0" name="PB"/>
   <anchor x="530" y="0" name="def"/>
   <outline>
     <component base="a"/>
-    <component base="dieresiscomb" xOffset="1214"/>
+    <component base="dieresiscomb" xOffset="1231"/>
   </outline>
   <lib>
     <dict>

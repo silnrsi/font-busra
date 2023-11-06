@@ -1,69 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EC9" format="2">
-  <advance width="627"/>
+  <advance width="844"/>
   <unicode hex="1EC9"/>
+  <anchor x="428" y="-110" name="LL"/>
+  <anchor x="444" y="1834" name="LU"/>
+  <anchor x="1049" y="0" name="PA"/>
+  <anchor x="59" y="0" name="PB"/>
+  <anchor x="1049" y="-10" name="_PA"/>
+  <anchor x="1049" y="18" name="_def"/>
+  <anchor x="59" y="0" name="def"/>
   <outline>
-    <contour>
-      <point x="186" y="238" type="line"/>
-      <point x="186" y="121"/>
-      <point x="165" y="75"/>
-      <point x="40" y="75" type="curve"/>
-      <point x="40" y="0" type="line"/>
-      <point x="587" y="0" type="line"/>
-      <point x="587" y="75" type="line"/>
-      <point x="463" y="75"/>
-      <point x="437" y="121"/>
-      <point x="437" y="238" type="curve"/>
-      <point x="437" y="1004" type="line"/>
-      <point x="334" y="1004" type="line"/>
-      <point x="24" y="863" type="line"/>
-      <point x="52" y="790" type="line"/>
-      <point x="108" y="807"/>
-      <point x="153" y="819"/>
-      <point x="165" y="819" type="curve"/>
-      <point x="186" y="819"/>
-      <point x="186" y="778"/>
-      <point x="186" y="683" type="curve"/>
-    </contour>
-    <contour>
-      <point x="344" y="1120" type="line"/>
-      <point x="344" y="1211"/>
-      <point x="376" y="1259"/>
-      <point x="407" y="1300" type="curve"/>
-      <point x="443" y="1348"/>
-      <point x="477" y="1395"/>
-      <point x="477" y="1454" type="curve"/>
-      <point x="477" y="1540"/>
-      <point x="403" y="1590"/>
-      <point x="300" y="1590" type="curve"/>
-      <point x="223" y="1590"/>
-      <point x="110" y="1551"/>
-      <point x="110" y="1460" type="curve"/>
-      <point x="110" y="1418"/>
-      <point x="133" y="1381"/>
-      <point x="195" y="1381" type="curve"/>
-      <point x="244" y="1381"/>
-      <point x="276" y="1411"/>
-      <point x="276" y="1440" type="curve"/>
-      <point x="276" y="1454"/>
-      <point x="266" y="1469"/>
-      <point x="250" y="1485" type="curve" smooth="yes"/>
-      <point x="246" y="1489"/>
-      <point x="243" y="1493"/>
-      <point x="243" y="1502" type="curve"/>
-      <point x="243" y="1512"/>
-      <point x="257" y="1521"/>
-      <point x="282" y="1521" type="curve"/>
-      <point x="308" y="1521"/>
-      <point x="325" y="1499"/>
-      <point x="325" y="1449" type="curve"/>
-      <point x="325" y="1392"/>
-      <point x="304" y="1350"/>
-      <point x="283" y="1312" type="curve" smooth="yes"/>
-      <point x="255" y="1261"/>
-      <point x="229" y="1185"/>
-      <point x="229" y="1120" type="curve"/>
-    </contour>
+    <component base="dotlessi"/>
+    <component base="uni0309" xOffset="1092"/>
   </outline>
   <lib>
     <dict>

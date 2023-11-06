@@ -3,13 +3,13 @@
   <advance width="1449"/>
   <unicode hex="1EF6"/>
   <anchor x="727" y="-110" name="LL"/>
-  <anchor x="776" y="2209" name="LU"/>
-  <anchor x="1381" y="395" name="PA"/>
-  <anchor x="1381" y="385" name="_PA"/>
-  <anchor x="1381" y="413" name="_def"/>
+  <anchor x="760" y="2219" name="LU"/>
+  <anchor x="1355" y="395" name="PA"/>
+  <anchor x="1355" y="385" name="_PA"/>
+  <anchor x="1355" y="413" name="_def"/>
   <outline>
     <component base="Y"/>
-    <component base="uni0309" xOffset="1381" yOffset="395"/>
+    <component base="uni0309" xOffset="1384" yOffset="395"/>
   </outline>
   <lib>
     <dict>

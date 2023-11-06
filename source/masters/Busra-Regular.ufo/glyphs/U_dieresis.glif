@@ -3,7 +3,7 @@
   <advance width="1662"/>
   <unicode hex="00DC"/>
   <anchor x="866" y="-110" name="LL"/>
-  <anchor x="866" y="2169" name="LU"/>
+  <anchor x="866" y="2189" name="LU"/>
   <outline>
     <component base="U"/>
     <component base="dieresiscomb" xOffset="1490" yOffset="395"/>

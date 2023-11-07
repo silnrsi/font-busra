@@ -58,7 +58,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/11/06 17:55:28</string>
+  <string>2023/11/07 10:50:03</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -130,7 +130,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Busra Bold: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 8.700 alpha</string>
+  <string>Version 8.800 beta</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -281,7 +281,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>8</integer>
   <key>versionMinor</key>
-  <integer>700</integer>
+  <integer>800</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

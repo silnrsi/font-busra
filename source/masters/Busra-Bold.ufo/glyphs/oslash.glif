@@ -9,10 +9,10 @@
   <outline>
     <component base="o"/>
     <contour>
-      <point x="284" y="-113" type="line"/>
-      <point x="1103" y="1293" type="line"/>
-      <point x="964" y="1348" type="line"/>
-      <point x="145" y="-58" type="line"/>
+      <point x="319" y="-124" type="line"/>
+      <point x="1138" y="1283" type="line"/>
+      <point x="1012" y="1360" type="line"/>
+      <point x="193" y="-46" type="line"/>
     </contour>
   </outline>
   <lib>

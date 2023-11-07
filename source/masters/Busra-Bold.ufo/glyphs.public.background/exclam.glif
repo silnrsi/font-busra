@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam" format="2">
+  <outline>
+    <contour>
+      <point x="367" y="428" type="curve"/>
+      <point x="477" y="428" type="line"/>
+      <point x="477" y="756"/>
+      <point x="546" y="1151"/>
+      <point x="546" y="1650" type="curve"/>
+      <point x="470" y="1680"/>
+      <point x="374" y="1680"/>
+      <point x="298" y="1650" type="curve"/>
+      <point x="298" y="1151"/>
+      <point x="367" y="756"/>
+    </contour>
+  </outline>
+</glyph>

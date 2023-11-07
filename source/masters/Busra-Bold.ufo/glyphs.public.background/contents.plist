@@ -112,10 +112,16 @@
   <string>comma.glif</string>
   <key>copyright</key>
   <string>copyright.glif</string>
+  <key>currency</key>
+  <string>currency.glif</string>
+  <key>dagger</key>
+  <string>dagger.glif</string>
   <key>daggerdbl</key>
   <string>daggerdbl.glif</string>
   <key>dieresiscomb</key>
   <string>dieresiscomb.glif</string>
+  <key>dollar</key>
+  <string>dollar.glif</string>
   <key>e</key>
   <string>e.glif</string>
   <key>eight</key>
@@ -128,6 +134,8 @@
   <string>f.glif</string>
   <key>five</key>
   <string>five.glif</string>
+  <key>florin</key>
+  <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
   <key>g</key>
@@ -140,6 +148,8 @@
   <string>guilsinglleft.glif</string>
   <key>i</key>
   <string>i.glif</string>
+  <key>integral</key>
+  <string>integral.glif</string>
   <key>j</key>
   <string>j.glif</string>
   <key>m</key>
@@ -156,6 +166,8 @@
   <string>p.glif</string>
   <key>parenleft</key>
   <string>parenleft.glif</string>
+  <key>partialdiff</key>
+  <string>partialdiff.glif</string>
   <key>percent</key>
   <string>percent.glif</string>
   <key>perthousand</key>
@@ -180,6 +192,8 @@
   <string>ringcomb.glif</string>
   <key>s</key>
   <string>s.glif</string>
+  <key>section</key>
+  <string>section.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
   <key>six</key>

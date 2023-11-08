@@ -1,7 +1,5 @@
 # Busra
 
-## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Busra/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Busra&guest=1)
-
 _Note: This project in currently in development and incomplete. Please do not base derivatives on this project until the full version 9.000 release._
 
 The Busra fonts provide Unicode support for languages and writing systems that use the Khmer script. The design is based on the Khmer Mondulkiri family of fonts (https://software.sil.org/mondulkiri/), but with significant updates to the design and rendering behavior.

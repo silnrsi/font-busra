@@ -90,7 +90,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/11/07 15:17:04</string>
+  <string>2023/11/08 11:59:04</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -100,7 +100,7 @@
   <key>openTypeNameDescription</key>
   <string>A font for the Khmer script</string>
   <key>openTypeNameDesigner</key>
-  <string>D. Kanjahn</string>
+  <string>D. Kanjahn, Martin Hosken, Becca Spalinger, Sharon Correll (Latin)</string>
   <key>openTypeNameDesignerURL</key>
   <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
@@ -308,6 +308,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>100</integer>
   <key>styleName</key>
   <string>Regular</string>
+  <key>trademark</key>
+  <string>Busra is a trademark of SIL International.</string>
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
@@ -323,6 +325,30 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <string>D. Kanjahn</string>
         <key>role</key>
         <string>Designer</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Martin Hosken</string>
+        <key>role</key>
+        <string>OpenType revisions</string>
+        <key>url</key>
+        <string>https://software.sil.org/wstech/</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Becca Spalinger</string>
+        <key>role</key>
+        <string>Design improvements</string>
+        <key>url</key>
+        <string>https://software.sil.org/wstech/</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Sharon Correll</string>
+        <key>role</key>
+        <string>Designer - Latin</string>
+        <key>url</key>
+        <string>https://software.sil.org/wstech/</string>
       </dict>
     </array>
   </dict>

@@ -1,7 +1,6 @@
 # Attachment Point Analysis
 
-This document describes each of the attachment points giving its old and new
-name.
+This document describes each of the attachment points.
 
 | AP Name | Description                                          |
 | ------- | ---------------------------------------------------- |

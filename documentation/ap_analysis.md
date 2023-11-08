@@ -28,3 +28,9 @@ This document describes each of the attachment points.
 | \_UC    | Mark attachment to base: UC, UC\_1, UC\_2            |
 | \_UA    | Mark attachment to mark: UA                          |
 | \_UX    | Mark attachment to mark: UX                          |
+| LH      | Latin cedilla alignment                              |
+| LL      | Latin below base                                     |
+| LU      | Latin above base                                     |
+| \_LH    | Mark attachment to mark: LH                          |
+| \_LL    | Mark attachment to mark: LL                          |
+| \_LU    | Mark attachment to mark: LU                          |

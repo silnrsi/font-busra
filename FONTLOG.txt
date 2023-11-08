@@ -18,6 +18,7 @@ This release includes Regular and Bold weights. Additional weights are planned f
 - Revised and improved glyph outlines
 - Rewritten OpenType support, supporting latest best practice in Khmer text encoding
 - Support removed for Graphite and AAT
+- Latin incomplete and unfinished
 
 ### 8 September 2014 (Diethelm Kanjahn) Mondulkiri Font Family version 7.100
 - Mondulkiri changes:

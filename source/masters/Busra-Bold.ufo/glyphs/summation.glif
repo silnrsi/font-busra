@@ -2,24 +2,29 @@
 <glyph name="summation" format="2">
   <advance width="1269"/>
   <unicode hex="2211"/>
+  <guideline x="818" y="1097" angle="310.7778"/>
+  <guideline x="437" y="490" angle="229.4223"/>
   <outline>
     <contour>
       <point x="114" y="0" type="line"/>
       <point x="1175" y="0" type="line"/>
-      <point x="1175" y="378" type="line"/>
-      <point x="1080" y="378" type="line"/>
-      <point x="1046" y="188" type="line"/>
-      <point x="367" y="188" type="line"/>
-      <point x="919" y="845" type="line"/>
-      <point x="328" y="1538" type="line"/>
-      <point x="1015" y="1538" type="line"/>
-      <point x="1049" y="1348" type="line"/>
-      <point x="1144" y="1348" type="line"/>
+      <point x="1175" y="510" type="line"/>
+      <point x="1060" y="510" type="line"/>
+      <point x="1026" y="300" type="line"/>
+      <point x="352" y="300" type="line"/>
+      <point x="335" y="123" type="line"/>
+      <point x="994" y="893" type="line"/>
+      <point x="379" y="1606" type="line"/>
+      <point x="243" y="1510" type="line"/>
+      <point x="995" y="1510" type="line"/>
+      <point x="1029" y="1300" type="line"/>
+      <point x="1144" y="1300" type="line"/>
       <point x="1144" y="1650" type="line"/>
       <point x="111" y="1650" type="line"/>
-      <point x="111" y="1561" type="line"/>
-      <point x="745" y="826" type="line"/>
-      <point x="114" y="89" type="line"/>
+      <point x="111" y="1457" type="line"/>
+      <point x="732" y="737" type="line"/>
+      <point x="780" y="890" type="line"/>
+      <point x="114" y="113" type="line"/>
     </contour>
   </outline>
   <lib>

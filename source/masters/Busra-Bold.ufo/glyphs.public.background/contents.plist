@@ -12,8 +12,12 @@
   <string>C_.glif</string>
   <key>D</key>
   <string>D_.glif</string>
+  <key>Delta</key>
+  <string>D_elta.glif</string>
   <key>E</key>
   <string>E_.glif</string>
+  <key>Euro</key>
+  <string>E_uro.glif</string>
   <key>F</key>
   <string>F_.glif</string>
   <key>G</key>
@@ -30,6 +34,8 @@
   <string>M_.glif</string>
   <key>N</key>
   <string>N_.glif</string>
+  <key>Omega</key>
+  <string>O_mega.glif</string>
   <key>P</key>
   <string>P_.glif</string>
   <key>Q</key>
@@ -106,6 +112,8 @@
   <string>caroncomb.glif</string>
   <key>cedillacomb</key>
   <string>cedillacomb.glif</string>
+  <key>cent</key>
+  <string>cent.glif</string>
   <key>circumflexcomb</key>
   <string>circumflexcomb.glif</string>
   <key>comma</key>
@@ -114,6 +122,8 @@
   <string>copyright.glif</string>
   <key>currency</key>
   <string>currency.glif</string>
+  <key>d</key>
+  <string>d.glif</string>
   <key>dagger</key>
   <string>dagger.glif</string>
   <key>daggerdbl</key>
@@ -174,6 +184,8 @@
   <string>perthousand.glif</string>
   <key>pi</key>
   <string>pi.glif</string>
+  <key>product</key>
+  <string>product.glif</string>
   <key>q</key>
   <string>q.glif</string>
   <key>question</key>
@@ -186,6 +198,8 @@
   <string>quotesingle.glif</string>
   <key>r</key>
   <string>r.glif</string>
+  <key>radical</key>
+  <string>radical.glif</string>
   <key>registered</key>
   <string>registered.glif</string>
   <key>ringcomb</key>
@@ -202,6 +216,10 @@
   <string>six.001.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
+  <key>sterling</key>
+  <string>sterling.glif</string>
+  <key>summation</key>
+  <string>summation.glif</string>
   <key>thorn</key>
   <string>thorn.glif</string>
   <key>three</key>
@@ -212,6 +230,8 @@
   <string>two.glif</string>
   <key>u</key>
   <string>u.glif</string>
+  <key>uni00B5</key>
+  <string>uni00B_5.glif</string>
   <key>uni01AF</key>
   <string>uni01A_F_.glif</string>
   <key>uni03020300</key>
@@ -700,12 +720,16 @@
   <string>uni17E_7.glif</string>
   <key>uni17E9</key>
   <string>uni17E_9.glif</string>
+  <key>uni20AB</key>
+  <string>uni20A_B_.glif</string>
   <key>w</key>
   <string>w.glif</string>
   <key>x</key>
   <string>x.glif</string>
   <key>y</key>
   <string>y.glif</string>
+  <key>yen</key>
+  <string>yen.glif</string>
   <key>z</key>
   <string>z.glif</string>
   <key>zero</key>

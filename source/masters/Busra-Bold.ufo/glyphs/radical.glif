@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="radical" format="2">
-  <advance width="1103"/>
+  <advance width="1147"/>
   <unicode hex="221A"/>
-  <guideline x="750" y="1064" angle="258.2286"/>
-  <guideline x="495" y="646" angle="110.7695"/>
+  <guideline x="760" y="1064" angle="258.2286"/>
+  <guideline x="505" y="646" angle="110.7695"/>
   <outline>
     <contour>
-      <point x="1157" y="1674" type="line"/>
-      <point x="1157" y="1811" type="line"/>
-      <point x="905" y="1811" type="line"/>
-      <point x="581" y="254" type="line"/>
-      <point x="668" y="258" type="line"/>
-      <point x="404" y="954" type="line"/>
-      <point x="40" y="954" type="line"/>
-      <point x="40" y="849" type="line"/>
-      <point x="221" y="809" type="line"/>
-      <point x="539" y="0" type="line"/>
-      <point x="671" y="0" type="line"/>
-      <point x="1020" y="1674" type="line"/>
+      <point x="1167" y="1674" type="line"/>
+      <point x="1167" y="1811" type="line"/>
+      <point x="915" y="1811" type="line"/>
+      <point x="591" y="254" type="line"/>
+      <point x="678" y="258" type="line"/>
+      <point x="414" y="954" type="line"/>
+      <point x="50" y="954" type="line"/>
+      <point x="50" y="849" type="line"/>
+      <point x="231" y="809" type="line"/>
+      <point x="549" y="0" type="line"/>
+      <point x="681" y="0" type="line"/>
+      <point x="1030" y="1674" type="line"/>
     </contour>
   </outline>
   <lib>

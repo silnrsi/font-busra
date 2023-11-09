@@ -81,7 +81,7 @@
 @zPhonetic_marks_above = [uni0304 uni0306 uni0307 uni0309 uni031B];
 @zPhonetic_marks_below = [uni0323];
 @above_position_ALL = [uni17C6.a uni17CB.a uni17CD.a uni17CE.a uni17CE.avowel uni17CF.a uni17D0.avowel uni17D1.a uni17DD.a];
-@above_dia = [uni17CB uni17CD uni17CE uni17CF uni17D0 uni17D1];
+@above_dia = [uni17CB uni17CD uni17CE uni17CF uni17D1];
 @above_sym_narrow = [@above_vowels_narrow uni17CC.narrow uni17CF.narrow uni17DD.narrow];
 @base_low_all = [@base_low1 @base_low2];
 @below_all_level1 = [@below_coeng uni17BB uni17BC uni17BD uni17D2];
@@ -120,6 +120,39 @@ def optlist(*alist) {
 # Mark classes
 
 # Lookups
+
+# Fix buggy harfbuzz and remove dotted circle after shifter ZWNJ
+# Harfbuzz expects zwnj before shifter not after.
+lookup fix_shifter_zwnj_action {
+    sub zerowidthnonjoiner dottedcircle by zerowidthnonjoiner;
+    sub zerowidthnonjoiner uni17C1 dottedcircle by zerowidthnonjoiner;
+    sub zerowidthnonjoiner uni17C2 dottedcircle by zerowidthnonjoiner;
+    sub zerowidthnonjoiner uni17C3 dottedcircle by zerowidthnonjoiner;
+} fix_shifter_zwnj_action;
+
+do  for v = [uni17C1 uni17C2 uni17C3];
+    let ln = "fix_shifter_zwnj_" + v;
+    {
+lookup $ln {
+    sub uni17D2179A by $v uni17D2179A;
+    sub @base_cons by $v @base_cons;
+} $ln;
+    }
+
+@shifter = [uni17C9 uni17CA];
+
+lookup fix_shifter_zwnj {
+    sub @shifter zerowidthnonjoiner' lookup fix_shifter_zwnj_action dottedcircle';
+do  for v = [uni17C1 uni17C2 uni17C3];
+    let ln = "fix_shifter_zwnj_" + v;
+    {
+    sub uni17D2179A' lookup $ln @base_cons' uni17D2' @base_cons' @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
+    sub uni17D2179A' lookup $ln @base_cons' @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
+    sub @base_cons' lookup $ln uni17D2' @base_cons' uni17D2' @base_cons' @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
+    sub @base_cons' lookup $ln uni17D2' @base_cons' @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
+    sub @base_cons' lookup $ln @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
+    }
+} fix_shifter_zwnj;
 
 lookup fix_final_coengs_action {
     sub @base_cons by @base_cons zerowidthjoiner;
@@ -1190,6 +1223,7 @@ feature abvm {
     script khmr;
     language dflt;
     lookup ligatures;
+    lookup fix_shifter_zwnj;
     lookup a_shifter_dia;
     lookup raise_vowels_spacing_coengs;
 #    lookup shift_dia_C5;

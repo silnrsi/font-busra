@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni179A17C5.right" format="2">
   <advance width="1496"/>
-  <anchor x="522" y="0" name="LC_1"/>
-  <anchor x="784" y="0" name="LC_2"/>
+  <anchor x="522" y="0" name="LN_1"/>
+  <anchor x="784" y="0" name="LN_2"/>
   <anchor x="543" y="0" name="LR_1"/>
   <anchor x="1251" y="0" name="LR_2"/>
   <anchor x="432" y="1580" name="UC_1"/>

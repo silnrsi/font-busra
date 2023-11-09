@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import argparse, re
+import argparse, re, os
 import defcon
 from collections import namedtuple
 
@@ -122,6 +122,20 @@ class Coverage:
             res.append("")
         return "\n".join(res)
 
+def fixup_plist(f):
+    lines = []
+    with open(f, encoding="utf-8") as inf:
+        for l in inf.readlines():
+            for i in range(len(l)):
+                if l[i] != " ":
+                    start = 2 if i > 1 else 0
+                    l = l[start:]
+                    break
+            lines.append(l)
+    with open(f, "w", encoding="utf-8") as outf:
+        for l in lines:
+            outf.write(l)
+
 parser = argparse.ArgumentParser()
 parser.add_argument("infile", help="Input UFO")
 parser.add_argument("outfile", nargs="?", help="Output UFO")
@@ -167,7 +181,13 @@ def process(g, a, b, w):
 process(procglyphs)
 
 if not args.dryrun:
-    font.save(args.outfile if args.outfile else args.infile)
+    outp = args.outfile if args.outfile else args.infile
+    font.save(outp)
+    for f in ("fontinfo", "lib", "layercontents", "contents"):
+        fn = f + ".plist"
+        for dp, dns, fs in os.walk(outp):
+            if fn in fs:
+                fixup_plist(os.path.join(dp, fn))
 
 if args.stats:
     print(cover.print_stats())

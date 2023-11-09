@@ -5,7 +5,8 @@ This document describes each of the attachment points.
 | AP Name | Description                                          |
 | ------- | ---------------------------------------------------- |
 | LR      | Below right aligned base                             |
-| LC      | Below centred base, only for those centring coengs   |
+| LN      | Below centred base, only for those centring coengs   |
+| LC      | Below centred base for centring wide coengs          |
 | LX      | Mark attachment right aligned. Corresponds to LR     |
 | LA      | Mark attachment centred. Corresponds to LC           |
 | UR      | Above right aligned base                             |
@@ -21,7 +22,7 @@ This document describes each of the attachment points.
 | UC\_1   | Above centred first ligature component               |
 | UC\_2   | Above centred second ligature component              |
 | \_LR    | Mark attachment to base: LR, LR\_1, LR\_2            |
-| \_LC    | Mark attachment to base: LC, LC\_1, LC\_2            |
+| \_LC    | Mark attachment to base: LC, LN, LC\_1, LC\_2        |
 | \_LA    | Mark attachment to mark: LA                          |
 | \_LX    | Mark attachment to mark: LX                          |
 | \_UR    | Mark attachment to base: UR, UR\_1, UR\_2            |

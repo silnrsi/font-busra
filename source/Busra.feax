@@ -342,6 +342,7 @@ lookup reg_muusikatoan_postB {
 lookup reg_muusikatoan_post {
     sub @post_coeng' lookup reg_muusikatoan_postA uni17C9' lookup reg_muusikatoan_postB;
 } reg_muusikatoan_post;
+
 # 2.3 Downshift triisap following 179E-F 17A0 17A2 ZWJ
 # This needs quite a bit of work
 lookup reg_shift_triisap2 {
@@ -1049,9 +1050,17 @@ lookup lr_attach {
     pos base @LR mark @_LR;
 } lr_attach;
 
+lookup ln_attach {
+    pos base @LN mark @_LC;
+} ln_attach;
+
 lookup lc_attach {
     pos base @LC mark @_LC;
 } lc_attach;
+
+lookup lc_medium {
+    pos @base_medium' uni17D2178E' lookup lc_attach;
+} lc_medium; 
 
 lookup u_attach {
     pos base @UR mark @_UR;
@@ -1062,19 +1071,21 @@ lookup u_attach {
 lookup ligatures {
     pos ligature [@LR_1 @LR_2 @LC_1 @LC_2 @UC_1 @UC_2 @UR_1 @UR_2]
           @LR_1 mark @_LR
+#          @LN_1 mark @_LC
           @UR_1 mark @_UR
           @UC_1 mark @_UC
        ligComponent
           @LR_2 mark @_LR
+#          @LN_2 mark @_LC
           @UR_2 mark @_UR
           @UC_2 mark @_UC;
 } ligatures;
 
 lookup ligature_centred {
-    pos ligature [uni178E17B6 uni178E17C5.right]
-            @LC_1 mark @_LC
+    pos ligature [@LN_1 @LN_2]
+            @LN_1 mark @_LC
         ligComponent
-            @LC_2 mark @_LC;
+            @LN_2 mark @_LC;
 } ligature_centred;
 
 do  let c=set(feaclass("LL_MarkBase")) | set(feaclass("LA_MarkBase"));
@@ -1188,7 +1199,7 @@ feature abvm {
 feature abvs {
     script khmr;
     language dflt;
-    lookup Muusikatoan_a;
+    #lookup Muusikatoan_a;
     lookup reg_shift_muusikatoan2;
     lookup reg_muusikatoan_post;
     lookup reg_shift_triisap2;
@@ -1212,7 +1223,8 @@ feature blwm {
     lookup u_attach;
     lookup uc_attach;
     lookup lr_attach;
-    lookup lc_attach;
+    lookup ln_attach;
+    lookup lc_medium;
     lookup above_chain;
     lookup below_chain;
     lookup ligature_centred;

@@ -6,7 +6,7 @@
   <anchor x="1271" y="0" name="LR"/>
   <anchor x="801" y="1840" name="UC"/>
   <anchor x="1271" y="1840" name="UR"/>
-  <anchor x="1271" y="1494" name="URD0"/>
+  <anchor x="1271" y="1610" name="URD0"/>
   <outline>
     <component base="_w" xOffset="235"/>
     <component base="_instroke" xOffset="8" yOffset="-544"/>

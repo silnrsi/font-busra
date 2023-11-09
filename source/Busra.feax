@@ -1147,6 +1147,10 @@ do  let c=set(feaclass("LL_MarkBase")) | set(feaclass("LA_MarkBase"));
 @LX_Marks = [$s];
 }
 
+lookup urd0_attach {
+    pos base @URD0 mark @_URD0;
+} urd0_attach;
+
 lookup below_chain {
     lookupflag UseMarkFilteringSet @LX_Marks;
     pos mark @LX_MarkBase mark @_LX;
@@ -1276,6 +1280,7 @@ feature blwm {
     language dflt;
     lookup u_attach;
     lookup uc_attach;
+    lookup urd0_attach;
     lookup lr_attach;
     lookup ln_attach;
     lookup lc_medium;

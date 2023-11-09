@@ -3,6 +3,7 @@
   <advance width="1425"/>
   <guideline y="2100"/>
   <guideline x="1283"/>
+  <anchor x="738" y="-230" name="LC"/>
   <anchor x="1270" y="-230" name="LR"/>
   <anchor x="738" y="2050" name="UC"/>
   <anchor x="1270" y="2240" name="UR"/>

@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>ascender</key>
@@ -90,7 +90,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/11/08 17:42:06</string>
+  <string>2023/11/09 10:53:57</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -261,10 +261,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>2060</integer>
     <integer>2090</integer>
   </array>
-  <key>postscriptFamilyBlues</key>
-  <array/>
-  <key>postscriptFamilyOtherBlues</key>
-  <array/>
   <key>postscriptFontName</key>
   <string>Busra-Regular</string>
   <key>postscriptOtherBlues</key>

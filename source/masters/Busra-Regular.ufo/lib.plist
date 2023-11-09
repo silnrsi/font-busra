@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>com.github.googlei18n.ufo2ft.featureWriters</key>
@@ -26,7 +26,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3151</string>
+  <string>3225</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/space apbcdefghni/dotlessi jbklmnopqnrstuvwxyzbdfhklðþ/space</string>
@@ -41,9 +41,10 @@ ouo/uni01A1 o/uni01B0 ooo/uni01B0 o</string>
     <string>|0|1|2|3|4|5|6|7|8|9|/space c¢£§/bullet ¶/space ®©/space/trademark ´¨¥µ/partialdiff/summation/product/pi/integral ªº/Omega µ¿¡/Euro/uni20AB/space/space</string>
     <string>/space íî/space f/dieresiscomb ïilj/uni1ECB ì/dotlessi/uni1EC9/uni0129 òóô/uni1ED1/uni1ED9/uni1ED3/uni1ED5/uni1ED7 
 ö/uni1ECD ò/uni1ECF/uni01A1/uni1EDB o/uni01A1/uni1EE3/uni1EDD/uni1EDF/uni1EE1/space cçCÇ</string>
-    <string>/uni17BB.low.narrow</string>
-    <string>/uni17BB.narrow</string>
-    <string>/_ballInstroke</string>
+    <string>/uni179A/uni1784/uni17C2/uni178A17B6/space</string>
+    <string>/uni178417B6/uni178717B6/uni178B17B6/uni179017B6/uni179517B6/uni179C17B6</string>
+    <string>/space/uni17B7.narrow/space/uni17B8.narrow/space/uni17B9.narrow/space/uni17BA.narrow</string>
+    <string>/uni17BA</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -62,7 +63,7 @@ ouo/uni01A1 o/uni01B0 ooo/uni01B0 o</string>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
-  <string></string>
+  <string/>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
   <integer>188</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>

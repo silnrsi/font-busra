@@ -3,8 +3,9 @@
   <unicode hex="17D0"/>
   <anchor x="-695" y="2148" name="UA"/>
   <anchor x="-225" y="2378" name="UX"/>
-  <anchor x="-245" y="1580" name="_UR"/>
-  <anchor x="-225" y="1580" name="_UX"/>
+  <anchor x="-129" y="1590" name="_UR"/>
+  <anchor x="-122" y="1590" name="_URD0"/>
+  <anchor x="-224" y="1590" name="_UX"/>
   <outline>
     <contour>
       <point x="-213" y="1662" type="curve" smooth="yes"/>

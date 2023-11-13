@@ -241,9 +241,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>2500</integer>
+  <integer>2706</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>1240</integer>
+  <integer>1876</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-33</integer>

@@ -26,7 +26,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3151</string>
+  <string>3227</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/space apbcdefghni/dotlessi jbklmnopqnrstuvwxyzbdfhklðþ/space</string>
@@ -45,6 +45,7 @@
     <string>/uni178417B6/uni178717B6/uni178B17B6/uni179017B6/uni179517B6/uni179C17B6</string>
     <string>/space/uni17B7.narrow/space/uni17B8.narrow/space/uni17B9.narrow/space/uni17BA.narrow</string>
     <string>/uni17BA</string>
+    <string>|/space |.|0|/nbspace |/emquad |/emspace |/narrownbspace |/punctuationspace |/sixperemspace |/threeperemspace |/enquad |/enspace |/fourperemspace |/figurespace |/thinspace |/hairspace |</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

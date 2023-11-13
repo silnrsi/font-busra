@@ -4,8 +4,8 @@
   <anchor x="-695" y="2200" name="UA"/>
   <anchor x="-225" y="2403" name="UX"/>
   <anchor x="-122" y="1580" name="_UR"/>
-  <anchor x="-225" y="1580" name="_UX"/>
   <anchor x="-122" y="1580" name="_URD0"/>
+  <anchor x="-225" y="1580" name="_UX"/>
   <outline>
     <contour>
       <point x="-203" y="1640" type="curve" smooth="yes"/>

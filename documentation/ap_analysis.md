@@ -10,6 +10,7 @@ This document describes each of the attachment points.
 | LX      | Mark attachment right aligned. Corresponds to LR     |
 | LA      | Mark attachment centred. Corresponds to LC           |
 | UR      | Above right aligned base                             |
+| URD0    | Override position for 17D0                           |
 | UC      | Above centred base                                   |
 | UX      | Mark attachment right aligned. Corresponds to UR     |
 | UA      | Mark attachment centred. Corresponds to UC           |
@@ -26,6 +27,7 @@ This document describes each of the attachment points.
 | \_LA    | Mark attachment to mark: LA                          |
 | \_LX    | Mark attachment to mark: LX                          |
 | \_UR    | Mark attachment to base: UR, UR\_1, UR\_2            |
+| \_URD0  | Mark attachment for 17D0 override                    |
 | \_UC    | Mark attachment to base: UC, UC\_1, UC\_2            |
 | \_UA    | Mark attachment to mark: UA                          |
 | \_UX    | Mark attachment to mark: UX                          |

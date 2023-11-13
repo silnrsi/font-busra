@@ -1259,7 +1259,7 @@ feature abvs {
     language dflt;
     #lookup Muusikatoan_a;
     lookup reg_shift_muusikatoan2;
-    lookup reg_muusikatoan_post;
+    #lookup reg_muusikatoan_post;
     lookup reg_shift_triisap2;
     lookup reg_robat_check;
     lookup remove_200CD_RS;

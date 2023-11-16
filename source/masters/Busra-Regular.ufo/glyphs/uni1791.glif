@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1791" format="2">
   <advance width="1280"/>
   <unicode hex="1791"/>
@@ -6,6 +6,7 @@
   <anchor x="664" y="0" name="LC"/>
   <anchor x="1045" y="-1" name="LR"/>
   <anchor x="664" y="1580" name="UC"/>
+  <anchor x="664" y="1580" name="UN"/>
   <anchor x="1045" y="1579" name="UR"/>
   <outline>
     <contour>

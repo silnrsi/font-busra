@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1785" format="2">
   <advance width="1500"/>
   <unicode hex="1785"/>
   <anchor x="785" y="0" name="LC"/>
   <anchor x="1312" y="0" name="LR"/>
   <anchor x="785" y="1580" name="UC"/>
+  <anchor x="785" y="1580" name="UN"/>
   <anchor x="1312" y="1580" name="UR"/>
   <outline>
     <component base="_stemloop" xScale="-1" yScale="-1" xOffset="1374" yOffset="942"/>

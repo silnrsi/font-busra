@@ -438,7 +438,7 @@ lookup shift_dias_parta {
 do  for b = [uni17B6 uni17C5.rightpart uni17C0.rightpart1 uni17C0.rightpart2 uni17C0.rightpart3 uni17BF.rightpart1 uni17BF.rightpart2 uni17BF.rightpart3];
     for g = [@above_dia];
     {
-    sub $b' $g by $g;
+    sub $b $g by $g;
     }
 } shift_dias_parta;
 
@@ -449,6 +449,29 @@ do  for b = [uni17B6 uni17C5.rightpart uni17C0.rightpart1 uni17C0.rightpart2 uni
     sub $b' lookup shift_dias_parta @above_dia' lookup $ln;
     }
 } shift_dias;
+
+do  for d = [uni17CB uni17CE uni17D1];
+    let ln = "shift_dias_post_" + d;
+    {
+lookup $ln {
+    sub @post_coeng by $d @post_coeng;
+} $ln;
+    }
+
+lookup shift_dias_postcoeng_part {
+do  for d = [uni17CB uni17CE uni17D1];
+    {
+    sub @post_coeng $d by @post_coeng;
+    }
+} shift_dias_postcoeng_part;
+
+lookup shift_dias_postcoeng {
+do  for d = [uni17CB uni17CE uni17D1];
+    let ln = "shift_dias_post_" + d;
+    {
+    sub @post_coeng' lookup $ln $d' lookup shift_dias_postcoeng_part;
+    }
+} shift_dias_postcoeng;
 
 # 4. Contextual variant marks
 # 4.1 Use narrow forms of shifters on final spacing coengs
@@ -1098,6 +1121,10 @@ lookup uc_attach {
     pos base @UC mark @_UC;
 } uc_attach;
 
+lookup un_attach {
+    pos base @UN mark @_UN;
+} un_attach;
+
 # 1.2 Right aligned marks on non ligatures
 lookup lr_attach {
     pos base @LR mark @_LR;
@@ -1252,6 +1279,7 @@ feature abvm {
     lookup raise_vowels_spacing_coengs;
 #    lookup shift_dia_C5;
     lookup shift_dias;
+    lookup shift_dias_postcoeng;
 } abvm;
 
 feature abvs {
@@ -1280,6 +1308,7 @@ feature blwm {
     language dflt;
     lookup u_attach;
     lookup uc_attach;
+    lookup un_attach;
     lookup urd0_attach;
     lookup lr_attach;
     lookup ln_attach;

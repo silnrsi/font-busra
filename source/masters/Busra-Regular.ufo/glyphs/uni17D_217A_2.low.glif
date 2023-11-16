@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17D217A2.low" format="2">
   <guideline y="-1225"/>
   <guideline x="-145"/>
@@ -8,8 +8,6 @@
   <anchor x="-245" y="-670" name="_LR"/>
   <anchor x="-225" y="-670" name="_LX"/>
   <outline>
-    <component base="_subL.ear" xOffset="-562" yOffset="-569"/>
-    <component base="_subL.ear" xOffset="-1025" yOffset="-569"/>
     <contour>
       <point x="-831" y="-999" type="line"/>
       <point x="-831" y="-1095" type="line"/>
@@ -60,6 +58,8 @@
       <point x="-708" y="-1026" type="line"/>
       <point x="-896" y="-976" type="line"/>
     </contour>
+    <component base="_subL.ear" xOffset="-562" yOffset="-569"/>
+    <component base="_subL.ear" xOffset="-1025" yOffset="-569"/>
   </outline>
   <lib>
     <dict>

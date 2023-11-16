@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17A117C5.right" format="2">
   <advance width="2700"/>
   <anchor x="1027" y="-722" name="LC_1"/>
@@ -7,6 +7,8 @@
   <anchor x="2512" y="0" name="LR_2"/>
   <anchor x="1235" y="1580" name="UC_1"/>
   <anchor x="1990" y="1580" name="UC_2"/>
+  <anchor x="1027" y="1580" name="UN_1"/>
+  <anchor x="1990" y="1580" name="UN_2"/>
   <anchor x="1760" y="1580" name="UR_1"/>
   <anchor x="2512" y="1580" name="UR_2"/>
   <outline>

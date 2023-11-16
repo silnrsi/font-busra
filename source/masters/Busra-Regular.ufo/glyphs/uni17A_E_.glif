@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni17AE" format="2">
   <advance width="1476"/>
   <unicode hex="17AE"/>
   <anchor x="771" y="-619" name="LC"/>
   <anchor x="1231" y="-619" name="LR"/>
   <anchor x="761" y="1580" name="UC"/>
+  <anchor x="771" y="1580" name="UN"/>
   <anchor x="1231" y="1580" name="UR"/>
   <outline>
-    <component base="uni1796"/>
-    <component base="_swash" xOffset="40"/>
     <contour>
       <point x="1168" y="-464" type="curve"/>
       <point x="1047" y="-540" type="line"/>
@@ -24,6 +23,8 @@
       <point x="1253" y="-519"/>
       <point x="1210" y="-499"/>
     </contour>
+    <component base="uni1796"/>
+    <component base="_swash" xOffset="40"/>
   </outline>
   <lib>
     <dict>

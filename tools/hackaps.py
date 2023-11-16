@@ -17,7 +17,7 @@ def anchorVal(a):
         return 0
     return a['x'] + 1j * a['y']
 
-def addAnchorVal(a, name, v):
+def addAP(a, name, v):
     if name not in a:
         a[name] = defcon.objects.anchor.Anchor(None, {'name': name, 'x': int(v.real), 'y': int(v.imag)})
 
@@ -47,7 +47,7 @@ def some(f):
                 continue
             if not len(g) and not len(g.components):
                 b = BBox(0, 0, 0, 0)
-                a = {}
+                anchors = {}
             else:
                 anchors = dict((a.name, a) for a in g.anchors)
                 b = BBox(*g.bounds)
@@ -158,6 +158,9 @@ excl = [re.compile(e) for e in args.excludes]
 procglyphs = []
 for g in allglyphs:
     res = None
+    if not len(regs):
+        procglyphs.append(g)
+        continue
     for r in regs:
         if r.search(g):
             res = g

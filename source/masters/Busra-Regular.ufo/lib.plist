@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>com.github.googlei18n.ufo2ft.featureWriters</key>
@@ -64,7 +64,7 @@
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
-  <string/>
+  <string></string>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
   <integer>188</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>

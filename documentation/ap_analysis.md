@@ -11,7 +11,8 @@ This document describes each of the attachment points.
 | LA      | Mark attachment centred. Corresponds to LC           |
 | UR      | Above right aligned base                             |
 | URD0    | Override position for 17D0                           |
-| UC      | Above centred base                                   |
+| UC      | Above centred base (between last 2 stems)            |
+| UN      | Above true centred base                              |
 | UX      | Mark attachment right aligned. Corresponds to UR     |
 | UA      | Mark attachment centred. Corresponds to UC           |
 | LR\_1   | Below right aligned first ligature component         |
@@ -20,8 +21,10 @@ This document describes each of the attachment points.
 | LC\_2   | Below centred second ligature component              |
 | UR\_1   | Above right aligned first ligature component         |
 | UR\_2   | Above right aligned second ligature component        |
-| UC\_1   | Above centred first ligature component               |
-| UC\_2   | Above centred second ligature component              |
+| UC\_1   | Above centred first ligature component between last 2 stems  |
+| UC\_2   | Above centred second ligature component between last 2 stems |
+| UN\_1   | Above true centred first ligature component          |
+| UN\_2   | Above true centred second ligature component         |
 | \_LR    | Mark attachment to base: LR, LR\_1, LR\_2            |
 | \_LC    | Mark attachment to base: LC, LN, LC\_1, LC\_2        |
 | \_LA    | Mark attachment to mark: LA                          |

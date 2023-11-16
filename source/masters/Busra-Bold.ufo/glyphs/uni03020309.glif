@@ -4,7 +4,7 @@
   <anchor x="-664" y="2021" name="LU"/>
   <anchor x="-664" y="1350" name="_LU"/>
   <outline>
-    <component base="uni0309" xScale="0.95" yScale="0.95" xOffset="270" yOffset="314"/>
+    <component base="uni0309" xScale="0.95" yScale="0.95" xOffset="250" yOffset="354"/>
     <component base="circumflexcomb"/>
   </outline>
   <lib>

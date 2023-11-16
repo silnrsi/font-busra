@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni03020309" format="2">
   <guideline x="-624" y="1280" angle="270"/>
-  <anchor x="-624" y="2021" name="LU"/>
+  <anchor x="-624" y="2061" name="LU"/>
   <anchor x="-624" y="1350" name="_LU"/>
   <outline>
-    <component base="uni0309" xScale="0.95" yScale="0.95" xOffset="220" yOffset="294"/>
-    <component base="circumflexcomb" yOffset="-40"/>
+    <component base="uni0309" xScale="0.95" yScale="0.95" xOffset="220" yOffset="334"/>
+    <component base="circumflexcomb"/>
   </outline>
   <lib>
     <dict>

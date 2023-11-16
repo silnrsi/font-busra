@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1789" format="2">
   <advance width="2116"/>
   <unicode hex="1789"/>
@@ -8,6 +8,7 @@
   <anchor x="1125" y="1580" name="UN"/>
   <anchor x="1871" y="1580" name="UR"/>
   <outline>
+    <component base="uni1789.alt"/>
     <contour>
       <point x="1563" y="-598" type="curve" smooth="yes"/>
       <point x="1749" y="-598"/>
@@ -50,7 +51,6 @@
       <point x="1202" y="-506"/>
       <point x="1359" y="-598"/>
     </contour>
-    <component base="uni1789.alt"/>
   </outline>
   <lib>
     <dict>

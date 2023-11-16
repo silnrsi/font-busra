@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D2178D.low" format="2">
   <advance width="728"/>
   <guideline y="-1026"/>
@@ -8,7 +8,7 @@
   <anchor x="-216" y="-1239" name="LC"/>
   <anchor x="483" y="-1239" name="LR"/>
   <anchor x="13" y="1580" name="UC"/>
-  <anchor x="-216" y="1580" name="UN"/>
+  <anchor x="388" y="1580" name="UN"/>
   <anchor x="483" y="1580" name="UR"/>
   <outline>
     <component base="_stemSub" xOffset="195" yOffset="-120"/>

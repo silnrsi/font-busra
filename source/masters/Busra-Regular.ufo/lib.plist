@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>com.github.googlei18n.ufo2ft.featureWriters</key>
@@ -26,7 +26,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3227</string>
+  <string>3225</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/space apbcdefghni/dotlessi jbklmnopqnrstuvwxyzbdfhklðþ/space</string>
@@ -46,6 +46,8 @@
     <string>/space/uni17B7.narrow/space/uni17B8.narrow/space/uni17B9.narrow/space/uni17BA.narrow</string>
     <string>/uni17BA</string>
     <string>|/space |.|0|/nbspace |/emquad |/emspace |/narrownbspace |/punctuationspace |/sixperemspace |/threeperemspace |/enquad |/enspace |/fourperemspace |/figurespace |/thinspace |/hairspace |</string>
+    <string>/uni17CC/space/uni17CD</string>
+    <string>/uni17D21783/space/uni17D21783.alt/space/uni17D21783.low/space/uni17D21783.low.alt/space/uni17D21788/space/uni17D21788.alt/space/uni17D21788.low/space/uni17D21788.low.alt/space/uni17D2178D/space/uni17D2178D.low/space/uni17D21794/space/uni17D21794.low/space/uni17D21799/space/uni17D21799.low/space/uni17D2179E/space/uni17D2179E.low/space/uni17D2179F/space/uni17D2179F.low/space/uni17D217A1/space/uni17D217A1.low/space/uni17B7/space/uni17B8/space/uni17B9/space/uni17BA</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -64,7 +66,7 @@
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
-  <string></string>
+  <string/>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
   <integer>188</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>

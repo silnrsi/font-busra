@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0111" format="2">
   <advance width="1392"/>
   <unicode hex="0111"/>
@@ -7,13 +7,13 @@
   <anchor x="0" y="0" name="PB"/>
   <anchor x="0" y="0" name="def"/>
   <outline>
+    <component base="d"/>
     <contour>
       <point x="595" y="1526" type="line"/>
       <point x="595" y="1389" type="line"/>
       <point x="1322" y="1389" type="line"/>
       <point x="1322" y="1526" type="line"/>
     </contour>
-    <component base="d"/>
   </outline>
   <lib>
     <dict>

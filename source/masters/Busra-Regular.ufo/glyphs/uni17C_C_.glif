@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CC" format="2">
   <unicode hex="17CC"/>
-  <anchor x="-733" y="2097" name="UA"/>
+  <anchor x="-734" y="2097" name="UA"/>
   <anchor x="-225" y="2097" name="UX"/>
-  <anchor x="-245" y="1580" name="_UR"/>
+  <anchor x="-734" y="1480" name="_UC"/>
   <anchor x="-225" y="1580" name="_UX"/>
   <outline>
     <contour>

@@ -1,8 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17B6.lig.right" format="2">
   <advance width="750"/>
   <anchor x="323" y="1236" name="zxc1"/>
   <outline>
+    <component base="_stemLg" xOffset="162"/>
     <contour>
       <point x="0" y="1417" type="curve"/>
       <point x="0" y="1272" type="line"/>
@@ -21,7 +22,6 @@
       <point x="125" y="1440"/>
       <point x="63" y="1432"/>
     </contour>
-    <component base="_stemLg" xOffset="162"/>
   </outline>
   <lib>
     <dict>

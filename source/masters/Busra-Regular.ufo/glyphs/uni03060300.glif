@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni03060300" format="2">
   <guideline x="-624" y="1210" angle="90"/>
   <anchor x="-624" y="1961" name="LU"/>
   <anchor x="-624" y="1350" name="_LU"/>
   <outline>
+    <component base="uni0306.high" xOffset="2" yOffset="-313"/>
     <contour>
       <point x="-952" y="1873" type="curve"/>
       <point x="-936" y="1923"/>
@@ -16,7 +17,6 @@
       <point x="-671" y="1728"/>
       <point x="-811" y="1816"/>
     </contour>
-    <component base="uni0306.high" xOffset="2" yOffset="-313"/>
   </outline>
   <lib>
     <dict>

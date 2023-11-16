@@ -1,8 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni03020301" format="2">
   <anchor x="-664" y="1781" name="LU"/>
   <anchor x="-664" y="1350" name="_LU"/>
   <outline>
+    <component base="circumflexcomb"/>
     <contour>
       <point x="-11" y="1800" type="curve"/>
       <point x="-150" y="1742"/>
@@ -15,7 +16,6 @@
       <point x="-91" y="1941"/>
       <point x="-23" y="1857"/>
     </contour>
-    <component base="circumflexcomb"/>
   </outline>
   <lib>
     <dict>

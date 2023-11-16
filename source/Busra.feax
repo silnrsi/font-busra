@@ -1119,6 +1119,7 @@ lookup kern_narrow2 {
 
 lookup uc_attach {
     pos base @UC mark @_UC;
+    pos base @UC mark @_UN;     # as fallback
 } uc_attach;
 
 lookup un_attach {
@@ -1154,11 +1155,13 @@ lookup ligatures {
 #          @LN_1 mark @_LC
           @UR_1 mark @_UR
           @UC_1 mark @_UC
+          @UC_1 mark @_UN
        ligComponent
           @LR_2 mark @_LR
 #          @LN_2 mark @_LC
           @UR_2 mark @_UR
-          @UC_2 mark @_UC;
+          @UC_2 mark @_UC
+          @UC_2 mark @_UN;
 } ligatures;
 
 lookup ligature_centred {

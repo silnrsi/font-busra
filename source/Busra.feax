@@ -1265,6 +1265,24 @@ lookup shift_dia_C5 {
     pos @ligatures_c5 <NULL> uni17CF <-350 0 0 0>;
 } shift_dia_C5;
 
+# Latin stuff
+
+lookup ll_attach {
+    pos base @LL mark @_LL;
+} ll_attach;
+
+lookup lu_attach {
+    pos base @LU mark @_LU;
+} lu_attach;
+
+lookup ll_mark {
+    pos mark @LL mark @_LL;
+} ll_mark;
+
+lookup lu_mark {
+    pos mark @LU mark @_LU;
+} lu_mark;
+
 # Features
 feature abvf {
     script khmr;
@@ -1283,6 +1301,11 @@ feature abvm {
 #    lookup shift_dia_C5;
     lookup shift_dias;
     lookup shift_dias_postcoeng;
+
+    script latn;
+    language dflt;
+    lookup lu_attach;
+    lookup lu_mark;
 } abvm;
 
 feature abvs {
@@ -1320,6 +1343,11 @@ feature blwm {
     lookup below_chain;
     lookup ligature_centred;
     lookup low2_vowel_ro_coeng_ro;
+
+    script latn;
+    language dflt;
+    lookup ll_attach;
+    lookup ll_mark;
 } blwm;
 
 feature blws {

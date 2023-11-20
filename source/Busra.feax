@@ -365,21 +365,26 @@ lookup reg_shift_action {
     sub uni17CA by uni17BB;
 } reg_shift_action;
 
+lookup donothing {
+    sub uni17C9 by uni17C9;
+    sub uni17CA by uni17CA;
+} donothing;
+
 lookup reg_shift_muusikatoan2 {
     sub @base_strong uni17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
     sub @base_strong @coeng_no_ro uni17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
     sub @base_strong @coeng_no_ro @coeng_no_ro uni17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
-    ignore sub uni17C9' zerowidthnonjoiner' @above_symbol_RS_shift;
-    ignore sub uni17C9' zerowidthnonjoiner' uni17B6 uni17C6;
+    sub uni17C9' lookup donothing zerowidthnonjoiner' @above_symbol_RS_shift;
+    sub uni17C9' lookup donothing zerowidthnonjoiner' uni17B6 uni17C6;
     sub uni17C9' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
     sub uni17C9' lookup shifter_error_p1 @coeng_no_ro;
 
-    ignore sub @base_strong uni17C9' @above_symbol_RS_shift;
-    ignore sub @base_strong uni17C9' uni17B6 uni17C6;
-    ignore sub @base_strong @coeng_no_ro uni17C9' @above_symbol_RS_shift;
-    ignore sub @base_strong @coeng_no_ro uni17C9' uni17B6 uni17C6;
-    ignore sub @base_strong @coeng_no_ro @coeng_no_ro uni17C9' @above_symbol_RS_shift;
-    ignore sub @base_strong @coeng_no_ro @coeng_no_ro uni17C9' uni17B6 uni17C6;
+    sub @base_strong' uni17C9' lookup donothing @above_symbol_RS_shift';
+    sub @base_strong' uni17C9' lookup donothing uni17B6' uni17C6';
+    sub @base_strong @coeng_no_ro uni17C9' lookup donothing @above_symbol_RS_shift;
+    sub @base_strong @coeng_no_ro uni17C9' lookup donothing uni17B6 uni17C6;
+    sub @base_strong @coeng_no_ro @coeng_no_ro uni17C9' lookup donothing @above_symbol_RS_shift;
+    sub @base_strong @coeng_no_ro @coeng_no_ro uni17C9' lookup donothing uni17B6 uni17C6;
     sub uni17C9' lookup reg_shift_action @above_symbol_RS_shift;
     sub uni17C9' lookup reg_shift_action uni17B6 uni17C6;
 } reg_shift_muusikatoan2;
@@ -407,9 +412,9 @@ lookup reg_shift_triisap2 {
     sub @base_strong @coeng_no_ro uni17CA' lookup reg_shift_action uni17B6 uni17C6;
     sub @base_strong @coeng_no_ro @coeng_no_ro uni17CA' lookup reg_shift_action @above_symbol_RS_shift;
     sub @base_strong @coeng_no_ro @coeng_no_ro uni17CA' lookup reg_shift_action uni17B6 uni17C6;
-    ignore sub @base_strong uni17CA';
-    ignore sub @base_strong @coeng_no_ro uni17CA';
-    ignore sub @base_strong @coeng_no_ro @coeng_no_ro uni17CA';
+    sub @base_strong uni17CA' lookup donothing;
+    sub @base_strong @coeng_no_ro uni17CA' lookup donothing;
+    sub @base_strong @coeng_no_ro @coeng_no_ro uni17CA' lookup donothing;
     sub uni17CA' lookup shifter_error_p1 zerowidthnonjoiner' lookup shifter_error_p2;
 } reg_shift_triisap2;
 

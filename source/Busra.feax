@@ -210,24 +210,19 @@ do  forlet l = optlist("uni17CC", ["uni17D2 @base_cons", "uni17D2 @base_cons"], 
     }
 
    # sub uni17C1 @coeng_ro? @base_cons uni17CC? (uni17D2 @base_cons uni17D2 @base_cons?)?) ([uni17C9 uni17CA] zerowidthjoiner?)? [uni17BF uni17C0] @below_vowel' lookup insert_dotted_circle;
-do  forlet l = optlist("uni17CC", ["uni17D2 @base_cons", "uni17D2 @base_cons"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"]);
-    let s = " ".join(l);
-    {
-        sub uni17C1 @coeng_ro @base_cons $s [uni17BF uni17C0] @below_vowel' lookup insert_dotted_circle;
-        sub uni17C1 @base_cons $s [uni17BF uni17C0] @below_vowel' lookup insert_dotted_circle;
-    }
-
    # sub uni17C1 @coeng_ro? @base_cons uni17CC? (uni17D2 @base_cons uni17D2 @base_cons?)?) ([uni17C9 uni17CA] zerowidthjoiner?)? [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
 do  forlet l = optlist("uni17CC", ["uni17D2 @base_cons", "uni17D2 @base_cons"], ["[uni17C9 uni17CA]", "zerowidthnonjoiner"]);
     let s = " ".join(l);
     {
-        sub uni17C1 @coeng_ro @base_cons $s [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
-        sub uni17C1 @base_cons $s [uni17BF uni17C0] uni17B6' lookup insert_dotted_circle;
+        sub uni17C1 @coeng_ro @base_cons $s [uni17BF uni17C0] [@below_vowel uni17B6]' lookup insert_dotted_circle;
+        sub uni17C1 @base_cons $s [uni17BF uni17C0] [@below_vowel uni17B6]' lookup insert_dotted_circle;
     }
+
     sub [@above_vowels @below_vowel uni17B6 @split_vowels] uni17D2' lookup insert_dotted_circle;
     sub [@above_dia uni17D0 uni17C6] [@above_vowels @below_vowel uni17B6 @split_vowels uni17D2]' lookup insert_dotted_circle;
     sub uni17BB [@above_vowels uni17D0]' lookup insert_dotted_circle;
-    sub [@above_dia uni17D0 uni17C6] [@above_vowels @below_vowel uni17B6 @split_vowels]' lookup insert_dotted_circle;
+    sub uni17BB uni17B6' lookup insert_dotted_circle uni17C6';
+    # sub [@above_dia uni17D0 uni17C6] [@above_vowels @below_vowel uni17B6 @split_vowels]' lookup insert_dotted_circle;
     sub uni17D2 @base_cons uni17CC' lookup insert_dotted_circle;
     ignore sub [@base_cons dottedcircle] uni17CC';
     sub uni17CC' lookup insert_dotted_circle;

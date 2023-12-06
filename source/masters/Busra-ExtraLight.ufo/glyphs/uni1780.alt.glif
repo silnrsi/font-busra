@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1780.alt" format="2">
   <advance width="1888"/>
+  <anchor x="970" y="0" name="LC"/>
+  <anchor x="1643" y="0" name="LR"/>
+  <anchor x="1273" y="1580" name="UC"/>
+  <anchor x="970" y="1580" name="UN"/>
+  <anchor x="1643" y="1580" name="UR"/>
   <outline>
     <component base="_stemloop" xOffset="195"/>
     <component base="_stemMd" xOffset="775"/>

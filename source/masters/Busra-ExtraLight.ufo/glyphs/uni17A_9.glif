@@ -2,7 +2,11 @@
 <glyph name="uni17A9" format="2">
   <advance width="1586"/>
   <unicode hex="17A9"/>
-  <anchor x="740" y="0" name="H"/>
+  <anchor x="730" y="0" name="LC"/>
+  <anchor x="1301" y="0" name="LR"/>
+  <anchor x="730" y="1580" name="UC"/>
+  <anchor x="730" y="1580" name="UN"/>
+  <anchor x="1301" y="1580" name="UR"/>
   <outline>
     <component base="_2"/>
     <contour>

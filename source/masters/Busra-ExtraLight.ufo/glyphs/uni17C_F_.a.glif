@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CF.a" format="2">
+  <anchor x="-695" y="2268" name="UA"/>
+  <anchor x="-225" y="2268" name="UX"/>
+  <anchor x="-695" y="1580" name="_UA"/>
+  <anchor x="-715" y="1580" name="_UC"/>
   <outline>
-    <component base="uni17CF" xOffset="60"/>
+    <component base="uni17CF" xOffset="12"/>
   </outline>
 </glyph>

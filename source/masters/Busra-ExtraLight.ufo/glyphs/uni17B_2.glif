@@ -2,7 +2,11 @@
 <glyph name="uni17B2" format="2">
   <advance width="1595"/>
   <unicode hex="17B2"/>
-  <anchor x="870" y="0" name="def"/>
+  <anchor x="830" y="0" name="LC"/>
+  <anchor x="1290" y="0" name="LR"/>
+  <anchor x="880" y="1580" name="UC"/>
+  <anchor x="830" y="1580" name="UN"/>
+  <anchor x="1290" y="1580" name="UR"/>
   <outline>
     <contour>
       <point x="580" y="0" type="curve" smooth="yes"/>

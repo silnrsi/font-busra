@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17B1.alt" format="2">
   <advance width="1358"/>
-  <anchor x="1437" y="-190" name="NG"/>
+  <anchor x="711" y="-230" name="LC"/>
+  <anchor x="1192" y="-230" name="LR"/>
+  <anchor x="715" y="2030" name="UC"/>
+  <anchor x="711" y="2030" name="UN"/>
+  <anchor x="1192" y="2030" name="UR"/>
   <outline>
     <component base="uni17A7"/>
     <contour>

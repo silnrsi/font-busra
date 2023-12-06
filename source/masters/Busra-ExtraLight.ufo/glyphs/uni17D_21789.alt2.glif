@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D21789.alt2" format="2">
   <guideline x="1165"/>
-  <anchor x="0" y="-60" name="B2"/>
-  <anchor x="-20" y="0" name="_L"/>
-  <anchor x="-873" y="0" name="_N"/>
-  <anchor x="-890" y="0" name="_NC"/>
-  <anchor x="0" y="0" name="_NG"/>
-  <anchor x="-873" y="0" name="_def"/>
+  <anchor x="-819" y="-860" name="LA"/>
+  <anchor x="-225" y="-860" name="LX"/>
+  <anchor x="-819" y="0" name="_LC"/>
+  <anchor x="-245" y="0" name="_LR"/>
+  <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <component base="uni17D21796.low" xOffset="-468" yOffset="640"/>
     <contour>

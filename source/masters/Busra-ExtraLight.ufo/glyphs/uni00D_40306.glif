@@ -1,60 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni00D40306" format="2">
-  <advance width="1579"/>
+  <advance width="1528"/>
+  <anchor x="764" y="-110" name="LL"/>
+  <anchor x="764" y="2466" name="LU"/>
+  <anchor x="1388" y="978" name="PA"/>
+  <anchor x="1388" y="778" name="_PA"/>
+  <anchor x="1388" y="777" name="_def"/>
   <outline>
-    <contour>
-      <point x="791" y="-34" type="curve" smooth="yes"/>
-      <point x="1196" y="-34"/>
-      <point x="1511" y="307"/>
-      <point x="1511" y="727" type="curve" smooth="yes"/>
-      <point x="1511" y="1140"/>
-      <point x="1196" y="1474"/>
-      <point x="791" y="1474" type="curve" smooth="yes"/>
-      <point x="382" y="1474"/>
-      <point x="67" y="1140"/>
-      <point x="67" y="727" type="curve" smooth="yes"/>
-      <point x="67" y="307"/>
-      <point x="382" y="-34"/>
-    </contour>
-    <contour>
-      <point x="791" y="37" type="curve" smooth="yes"/>
-      <point x="484" y="37"/>
-      <point x="326" y="330"/>
-      <point x="326" y="727" type="curve" smooth="yes"/>
-      <point x="326" y="1125"/>
-      <point x="484" y="1402"/>
-      <point x="791" y="1402" type="curve" smooth="yes"/>
-      <point x="1087" y="1402"/>
-      <point x="1252" y="1125"/>
-      <point x="1252" y="727" type="curve" smooth="yes"/>
-      <point x="1252" y="330"/>
-      <point x="1087" y="37"/>
-    </contour>
-    <contour>
-      <point x="696" y="1811" type="line"/>
-      <point x="486" y="1534" type="line"/>
-      <point x="520" y="1534" type="line"/>
-      <point x="797" y="1684" type="line"/>
-      <point x="1075" y="1534" type="line"/>
-      <point x="1112" y="1534" type="line"/>
-      <point x="898" y="1811" type="line"/>
-    </contour>
-    <contour>
-      <point x="1074" y="2168" type="line"/>
-      <point x="1052" y="2112"/>
-      <point x="947" y="2027"/>
-      <point x="797" y="2027" type="curve" smooth="yes"/>
-      <point x="648" y="2027"/>
-      <point x="542" y="2112"/>
-      <point x="520" y="2168" type="curve"/>
-      <point x="482" y="2168" type="line"/>
-      <point x="501" y="2074"/>
-      <point x="592" y="1900"/>
-      <point x="797" y="1900" type="curve" smooth="yes"/>
-      <point x="1003" y="1900"/>
-      <point x="1089" y="2074"/>
-      <point x="1108" y="2168" type="curve"/>
-    </contour>
+    <component base="O"/>
+    <component base="uni03020306" xOffset="1388" yOffset="425"/>
   </outline>
   <lib>
     <dict>

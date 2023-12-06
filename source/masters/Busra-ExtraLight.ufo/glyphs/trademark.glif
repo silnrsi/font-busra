@@ -1,75 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="trademark" format="2">
-  <advance width="2186"/>
+  <advance width="1849"/>
   <unicode hex="2122"/>
+  <guideline x="1444" y="622" angle="348.3664"/>
   <outline>
-    <contour>
-      <point x="75" y="1437" type="line"/>
-      <point x="52" y="1220" type="line"/>
-      <point x="90" y="1220" type="line"/>
-      <point x="116" y="1362"/>
-      <point x="202" y="1370"/>
-      <point x="333" y="1370" type="curve" smooth="yes"/>
-      <point x="370" y="1370" type="line"/>
-      <point x="370" y="786" type="line" smooth="yes"/>
-      <point x="370" y="674"/>
-      <point x="352" y="618"/>
-      <point x="251" y="618" type="curve"/>
-      <point x="251" y="580" type="line"/>
-      <point x="674" y="580" type="line"/>
-      <point x="674" y="618" type="line"/>
-      <point x="565" y="618"/>
-      <point x="547" y="674"/>
-      <point x="547" y="786" type="curve" smooth="yes"/>
-      <point x="547" y="1370" type="line"/>
-      <point x="591" y="1370" type="line" smooth="yes"/>
-      <point x="719" y="1370"/>
-      <point x="805" y="1358"/>
-      <point x="831" y="1220" type="curve"/>
-      <point x="869" y="1220" type="line"/>
-      <point x="846" y="1437" type="line"/>
-    </contour>
-    <contour>
-      <point x="1542" y="827" type="line"/>
-      <point x="1250" y="1437" type="line"/>
-      <point x="940" y="1437" type="line"/>
-      <point x="940" y="1400" type="line"/>
-      <point x="1044" y="1400"/>
-      <point x="1067" y="1347"/>
-      <point x="1067" y="1235" type="curve" smooth="yes"/>
-      <point x="1067" y="786" type="line" smooth="yes"/>
-      <point x="1067" y="674"/>
-      <point x="1044" y="618"/>
-      <point x="940" y="618" type="curve"/>
-      <point x="940" y="580" type="line"/>
-      <point x="1262" y="580" type="line"/>
-      <point x="1262" y="618" type="line"/>
-      <point x="1156" y="618"/>
-      <point x="1134" y="674"/>
-      <point x="1134" y="786" type="curve" smooth="yes"/>
-      <point x="1134" y="1269" type="line"/>
-      <point x="1138" y="1269" type="line"/>
-      <point x="1460" y="580" type="line"/>
-      <point x="1497" y="580" type="line"/>
-      <point x="1819" y="1280" type="line"/>
-      <point x="1823" y="1280" type="line"/>
-      <point x="1823" y="786" type="line" smooth="yes"/>
-      <point x="1823" y="674"/>
-      <point x="1804" y="618"/>
-      <point x="1695" y="618" type="curve"/>
-      <point x="1695" y="580" type="line"/>
-      <point x="2126" y="580" type="line"/>
-      <point x="2126" y="618" type="line"/>
-      <point x="2021" y="618"/>
-      <point x="1998" y="674"/>
-      <point x="1998" y="786" type="curve" smooth="yes"/>
-      <point x="1998" y="1235" type="line" smooth="yes"/>
-      <point x="1998" y="1347"/>
-      <point x="2017" y="1400"/>
-      <point x="2126" y="1400" type="curve"/>
-      <point x="2126" y="1437" type="line"/>
-      <point x="1823" y="1437" type="line"/>
-    </contour>
+    <component base="T" xScale="0.55" yScale="0.55" xOffset="56" yOffset="890"/>
+    <component base="M" xScale="0.55" yScale="0.55" xOffset="749" yOffset="890"/>
   </outline>
   <lib>
     <dict>

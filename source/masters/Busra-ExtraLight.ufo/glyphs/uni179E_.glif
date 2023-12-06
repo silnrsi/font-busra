@@ -2,7 +2,11 @@
 <glyph name="uni179E" format="2">
   <advance width="1476"/>
   <unicode hex="179E"/>
-  <anchor x="787" y="0" name="def"/>
+  <anchor x="796" y="0" name="LC"/>
+  <anchor x="1231" y="0" name="LR"/>
+  <anchor x="761" y="1580" name="UC"/>
+  <anchor x="796" y="1580" name="UN"/>
+  <anchor x="1231" y="1580" name="UR"/>
   <outline>
     <component base="uni1794"/>
     <component base="_eyelash" xOffset="713" yOffset="1"/>

@@ -1,73 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni00CA0306" format="2">
-  <advance width="1324"/>
+  <advance width="1334"/>
+  <anchor x="784" y="-110" name="LL"/>
+  <anchor x="784" y="2436" name="LU"/>
+  <anchor x="1408" y="948" name="PA"/>
+  <anchor x="1408" y="748" name="_PA"/>
+  <anchor x="1408" y="747" name="_def"/>
   <outline>
-    <contour>
-      <point x="41" y="1440" type="line"/>
-      <point x="41" y="1402" type="line"/>
-      <point x="191" y="1402"/>
-      <point x="247" y="1365"/>
-      <point x="247" y="1211" type="curve" smooth="yes"/>
-      <point x="247" y="229" type="line" smooth="yes"/>
-      <point x="247" y="75"/>
-      <point x="191" y="37"/>
-      <point x="41" y="37" type="curve"/>
-      <point x="41" y="0" type="line"/>
-      <point x="1155" y="0" type="line"/>
-      <point x="1286" y="405" type="line"/>
-      <point x="1234" y="405" type="line"/>
-      <point x="1177" y="221"/>
-      <point x="1054" y="71"/>
-      <point x="851" y="71" type="curve" smooth="yes"/>
-      <point x="551" y="71" type="line" smooth="yes"/>
-      <point x="502" y="71"/>
-      <point x="469" y="112"/>
-      <point x="465" y="161" type="curve"/>
-      <point x="465" y="750" type="line"/>
-      <point x="780" y="750" type="line" smooth="yes"/>
-      <point x="896" y="750"/>
-      <point x="994" y="694"/>
-      <point x="994" y="521" type="curve"/>
-      <point x="1031" y="521" type="line"/>
-      <point x="1031" y="1009" type="line"/>
-      <point x="994" y="1009" type="line"/>
-      <point x="994" y="870"/>
-      <point x="896" y="821"/>
-      <point x="776" y="821" type="curve" smooth="yes"/>
-      <point x="465" y="821" type="line"/>
-      <point x="465" y="1369" type="line"/>
-      <point x="829" y="1369" type="line" smooth="yes"/>
-      <point x="1020" y="1369"/>
-      <point x="1091" y="1271"/>
-      <point x="1125" y="1099" type="curve"/>
-      <point x="1166" y="1099" type="line"/>
-      <point x="1147" y="1440" type="line"/>
-    </contour>
-    <contour>
-      <point x="556" y="1811" type="line"/>
-      <point x="346" y="1534" type="line"/>
-      <point x="380" y="1534" type="line"/>
-      <point x="657" y="1684" type="line"/>
-      <point x="935" y="1534" type="line"/>
-      <point x="972" y="1534" type="line"/>
-      <point x="758" y="1811" type="line"/>
-    </contour>
-    <contour>
-      <point x="934" y="2168" type="line"/>
-      <point x="912" y="2112"/>
-      <point x="807" y="2027"/>
-      <point x="657" y="2027" type="curve" smooth="yes"/>
-      <point x="508" y="2027"/>
-      <point x="402" y="2112"/>
-      <point x="380" y="2168" type="curve"/>
-      <point x="342" y="2168" type="line"/>
-      <point x="361" y="2074"/>
-      <point x="452" y="1900"/>
-      <point x="657" y="1900" type="curve" smooth="yes"/>
-      <point x="863" y="1900"/>
-      <point x="949" y="2074"/>
-      <point x="968" y="2168" type="curve"/>
-    </contour>
+    <component base="E"/>
+    <component base="uni03020306" xOffset="1408" yOffset="395"/>
   </outline>
   <lib>
     <dict>

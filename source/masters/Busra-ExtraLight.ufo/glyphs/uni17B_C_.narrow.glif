@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17BC.narrow" format="2">
+  <anchor x="-615" y="-850" name="LA"/>
+  <anchor x="-225" y="-850" name="LX"/>
+  <anchor x="-245" y="0" name="_LR"/>
+  <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <component base="uni17BC" xOffset="68"/>
   </outline>

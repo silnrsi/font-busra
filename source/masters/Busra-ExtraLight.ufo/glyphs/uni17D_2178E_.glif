@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D2178E" format="2">
-  <anchor x="0" y="0" name="B2"/>
-  <anchor x="-260" y="0" name="_L"/>
-  <anchor x="-938" y="0" name="_N"/>
-  <anchor x="-938" y="0" name="_NC"/>
-  <anchor x="0" y="0" name="_NG"/>
-  <anchor x="-938" y="0" name="_def"/>
+  <anchor x="-939" y="-700" name="LA"/>
+  <anchor x="-244" y="-716" name="LX"/>
+  <anchor x="-959" y="0" name="_LA"/>
+  <anchor x="-939" y="0" name="_LC"/>
   <outline>
     <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="-1283" yOffset="-853"/>
     <component base="_subarch" xOffset="-1683" yOffset="140"/>

@@ -2,7 +2,10 @@
 <glyph name="uni178E" format="2">
   <advance width="2528"/>
   <unicode hex="178E"/>
-  <anchor x="1309" y="0" name="N"/>
+  <anchor x="1289" y="0" name="LN"/>
+  <anchor x="2283" y="0" name="LR"/>
+  <anchor x="1889" y="1580" name="UC"/>
+  <anchor x="2283" y="1580" name="UR"/>
   <outline>
     <component base="_stemloop" xOffset="195"/>
     <component base="_stemLg" xOffset="1995"/>

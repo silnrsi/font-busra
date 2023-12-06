@@ -2,7 +2,11 @@
 <glyph name="dottedcircle" format="2">
   <advance width="1476"/>
   <unicode hex="25CC"/>
-  <anchor x="738" y="0" name="def"/>
+  <anchor x="738" y="0" name="LC"/>
+  <anchor x="1231" y="0" name="LR"/>
+  <anchor x="761" y="1580" name="UC"/>
+  <anchor x="738" y="1580" name="UN"/>
+  <anchor x="1231" y="1580" name="UR"/>
   <outline>
     <contour>
       <point x="658" y="1300" type="curve" smooth="yes"/>

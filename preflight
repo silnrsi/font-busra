@@ -12,14 +12,14 @@ psfnormalize -p checkfix=fix source/masters/Busra-Bold.ufo
 psfnormalize -p checkfix=fix source/masters/Busra-Black.ufo
 
 #echo "-----Rebuilding composites..."
-#psfbuildcomp -i source/composites.txt -c -n source/masters/Busra-ExtraLight.ufo -p backup=False
+psfbuildcomp -i source/composites.txt -c -n source/masters/Busra-ExtraLight.ufo -p backup=False
 psfbuildcomp -i source/composites.txt -c -n source/masters/Busra-Regular.ufo -p backup=False
 psfbuildcomp -i source/composites.txt -c -n source/masters/Busra-Bold.ufo -p backup=False
 #psfbuildcomp -i source/composites.txt -c -n source/masters/Busra-Black.ufo -p backup=False
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 #psfsyncmasters source/BusraUprightDesign.designspace 
-psfsyncmasters source/BusraUprightRB.designspace 
+psfsyncmasters source/BusraUprightRBXL.designspace 
 
 #echo "-----Updating WOFF metadata..."
 #psfmakewoffmetadata -n Busra -i "org.sil.fonts" -o source/Busra-WOFF-metadata.xml source/masters/Busra-Regular.ufo

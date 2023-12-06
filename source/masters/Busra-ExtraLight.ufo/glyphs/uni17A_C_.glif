@@ -2,7 +2,11 @@
 <glyph name="uni17AC" format="2">
   <advance width="1476"/>
   <unicode hex="17AC"/>
-  <anchor x="787" y="-550" name="def"/>
+  <anchor x="763" y="-619" name="LC"/>
+  <anchor x="1231" y="-619" name="LR"/>
+  <anchor x="761" y="1580" name="UC"/>
+  <anchor x="763" y="1580" name="UN"/>
+  <anchor x="1231" y="1580" name="UR"/>
   <outline>
     <component base="_swash" xOffset="40"/>
     <component base="uni1794"/>

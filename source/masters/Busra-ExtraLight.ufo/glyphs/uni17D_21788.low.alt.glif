@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D21788.low.alt" format="2">
   <advance width="728"/>
-  <anchor x="750" y="-530" name="B1"/>
+  <anchor x="-126" y="-1238" name="LC"/>
+  <anchor x="483" y="-1238" name="LR"/>
+  <anchor x="-126" y="1580" name="UC"/>
+  <anchor x="388" y="1580" name="UN"/>
+  <anchor x="483" y="1580" name="UR"/>
   <outline>
     <component base="_stemSub" xOffset="195" yOffset="-120"/>
     <component base="_subcurve" xOffset="-267" yOffset="-735"/>

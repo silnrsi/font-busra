@@ -2,6 +2,8 @@
 <glyph name="uni17C7" format="2">
   <advance width="863"/>
   <unicode hex="17C7"/>
+  <anchor x="641" y="0" name="LR"/>
+  <anchor x="641" y="1436" name="UR"/>
   <outline>
     <component base="uni17C6" xOffset="1113" yOffset="-750"/>
     <component base="uni17C6" xOffset="1113" yOffset="-1441"/>

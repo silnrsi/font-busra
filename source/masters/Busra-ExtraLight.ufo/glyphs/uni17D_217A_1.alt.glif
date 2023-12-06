@@ -3,14 +3,11 @@
   <guideline y="-148"/>
   <guideline y="-1225"/>
   <guideline x="-739"/>
-  <anchor x="0" y="-520" name="B2"/>
-  <anchor x="-494" y="-870" name="NG"/>
-  <anchor x="0" y="0" name="_D2"/>
-  <anchor x="-20" y="0" name="_L"/>
-  <anchor x="-910" y="0" name="_N"/>
-  <anchor x="-950" y="0" name="_NC"/>
-  <anchor x="-200" y="0" name="_NG"/>
-  <anchor x="-869" y="-870" name="def"/>
+  <anchor x="-684" y="-670" name="LA"/>
+  <anchor x="-225" y="-670" name="LX"/>
+  <anchor x="-684" y="0" name="_LC"/>
+  <anchor x="-245" y="0" name="_LR"/>
+  <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <component base="_subL.ear" xOffset="-530" yOffset="45"/>
     <component base="_stemMd" xOffset="-501" yOffset="-1179"/>

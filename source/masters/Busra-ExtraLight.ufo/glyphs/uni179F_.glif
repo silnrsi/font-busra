@@ -4,6 +4,11 @@
   <unicode hex="179F"/>
   <guideline x="1683"/>
   <guideline x="295"/>
+  <anchor x="991" y="0" name="LC"/>
+  <anchor x="1683" y="0" name="LR"/>
+  <anchor x="1262" y="1580" name="UC"/>
+  <anchor x="991" y="1580" name="UN"/>
+  <anchor x="1683" y="1580" name="UR"/>
   <outline>
     <component base="_L.ear" xOffset="333"/>
     <component base="_stemloop" xOffset="195"/>

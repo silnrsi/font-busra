@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17CE" format="2">
   <unicode hex="17CE"/>
-  <anchor x="0" y="300" name="A0"/>
-  <anchor x="100" y="0" name="_B6"/>
-  <anchor x="-700" y="0" name="_H"/>
-  <anchor x="0" y="1000" name="_NA"/>
-  <anchor x="0" y="1000" name="_U"/>
+  <anchor x="-715" y="2060" name="UA"/>
+  <anchor x="-225" y="2060" name="UX"/>
+  <anchor x="-705" y="1560" name="_UA"/>
+  <anchor x="-725" y="1560" name="_UC"/>
   <outline>
     <contour>
       <point x="-950" y="1728" type="line"/>

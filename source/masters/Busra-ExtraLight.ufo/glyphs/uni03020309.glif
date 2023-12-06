@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni03020309" format="2">
+  <guideline x="-624" y="1280" angle="270"/>
+  <anchor x="-624" y="2061" name="LU"/>
+  <anchor x="-624" y="1350" name="_LU"/>
   <outline>
-    <contour>
-      <point x="-584" y="1471" type="line"/>
-      <point x="-794" y="1119" type="line"/>
-      <point x="-760" y="1119" type="line"/>
-      <point x="-483" y="1343" type="line"/>
-      <point x="-206" y="1119" type="line"/>
-      <point x="-168" y="1119" type="line"/>
-      <point x="-382" y="1471" type="line"/>
-    </contour>
+    <component base="uni0309" xScale="0.95" yScale="0.95" xOffset="220" yOffset="334"/>
+    <component base="circumflexcomb"/>
   </outline>
   <lib>
     <dict>

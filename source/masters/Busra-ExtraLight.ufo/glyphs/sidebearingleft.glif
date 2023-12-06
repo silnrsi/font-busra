@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sidebearingleft" format="2">
-  <advance width="1225"/>
+  <advance width="600"/>
   <unicode hex="F130"/>
   <outline>
-    <component base="underscore"/>
+    <contour>
+      <point x="600" y="0" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="-100" type="line"/>
+      <point x="500" y="-100" type="line"/>
+      <point x="500" y="-600" type="line"/>
+      <point x="600" y="-600" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

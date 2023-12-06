@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caron" format="2">
-  <advance width="686"/>
+  <advance width="836"/>
   <unicode hex="02C7"/>
   <outline>
-    <contour>
-      <point x="446" y="1120" type="line"/>
-      <point x="656" y="1473" type="line"/>
-      <point x="622" y="1473" type="line"/>
-      <point x="344" y="1248" type="line"/>
-      <point x="67" y="1473" type="line"/>
-      <point x="29" y="1473" type="line"/>
-      <point x="243" y="1120" type="line"/>
-    </contour>
+    <component base="caroncomb" xOffset="1047"/>
   </outline>
   <lib>
     <dict>

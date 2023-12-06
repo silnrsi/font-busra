@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni178E17B6" format="2">
   <advance width="3256"/>
-  <anchor x="2528" y="0" name="B6"/>
-  <anchor x="2528" y="0" name="B6C6"/>
-  <anchor x="3256" y="0" name="D0"/>
-  <anchor x="1309" y="0" name="N"/>
+  <anchor x="1289" y="0" name="LN_1"/>
+  <anchor x="2554" y="0" name="LN_2"/>
+  <anchor x="2283" y="0" name="LR_1"/>
+  <anchor x="3011" y="0" name="LR_2"/>
+  <anchor x="1882" y="1580" name="UC_1"/>
+  <anchor x="2554" y="1580" name="UC_2"/>
+  <anchor x="2283" y="1580" name="UR_1"/>
+  <anchor x="3011" y="1580" name="UR_2"/>
   <anchor x="2809" y="1236" name="zxc1"/>
   <outline>
     <component base="uni178E"/>

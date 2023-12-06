@@ -1,6 +1,6 @@
 # Busra
 
-## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Busra/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Busra&guest=1)
+## Project status [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_Busra/statusIcon)](https://build.palaso.org/viewType.html?buildTypeId=Fonts_Busra&guest=1)
 
 _Note: This project in currently in development and incomplete. Please do not base derivatives on this project until the full version 9.000 release._
 
@@ -8,7 +8,7 @@ The Busra fonts provide Unicode support for languages and writing systems that u
 
 The current beta test release (Busra Test B) includes Regular and Bold weights and can be downloaded from the [project releases page](https://github.com/silnrsi/font-busra/releases). Additional weights are planned for future releases.
 
-These fonts are copyright (c) 2003-2023 SIL International (https://www.sil.org/) and are released under under the [SIL Open Font License (scripts.sil.org/OFL)](https://scripts.sil.org/OFL).
+These fonts are copyright (c) 2003-2023 SIL International (https://www.sil.org/) and are released under under the [SIL Open Font License (openfontlicense.org)](https://openfontlicense.org).
 
 For a complete list of changes in this version see the [FONTLOG.txt](FONTLOG.txt).
 

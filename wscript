@@ -41,8 +41,7 @@ designspace('source/' + FAMILY + 'UprightRB.designspace',
     pdf = fret(params='-oi -r')
 )
 
-# build auxiliary 'Lolo' RIBBI family
-extralightpackage = package(appname = "BusraExtraLight", docdir = DOCDIR)
+extralightpackage = package(appname = "BusraXLTest", docdir = DOCDIR)
 
 getufoinfo('source/masters/' + FAMILY  + '-Regular.ufo', extralightpackage)
 
@@ -54,5 +53,6 @@ designspace('source/' + FAMILY + 'UprightXLonly.designspace',
         make_params = " ".join(mparams),
         params = '-m source/${DS:FILENAME_BASE}.map'),
     script = 'khmr',
-    pdf = fret(params='-oi -r')
+    pdf = fret(params='-oi -r'),
+    package = extralightpackage
 )

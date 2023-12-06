@@ -26,28 +26,23 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3151</string>
+  <string>3227</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/space apbcdefghni/dotlessi jbklmnopqnrstuvwxyzbdfhklðþ/space</string>
     <string>ABCDEFGHIJKLMNOPQRSTUO/uni01AF VWXYZ/space</string>
-    <string>/tildecomb/space/dieresiscomb/space/gravecomb/space/acutecomb/space/circumflexcomb/space/uni03020300/space/uni03020301/space/uni03060300/space/uni03060301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni031B/space/uni0306/space/uni0306.high/space/cedillacomb/space/circumflexcomb/space/uni03020306/space/uni03020303/space/uni0309/space/uni03020309/space/uni03060303/space/uni03060309</string>
+    <string>/tildecomb/space/dieresiscomb/space/gravecomb/space/acutecomb/space/uni03020300/space/uni03020301/space/uni03060300/space/uni03060301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni031B/space/circumflexcomb/space/uni03020306/space/uni0306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni0309/space/uni03020309/space/uni03060303/space/uni03060309</string>
     <string>-8&lt;8=8+8&gt;9/lessequal 8/greaterequal 8¬8=/approxequal 8+÷8/endash/figuredash 8/space 8+8/minus 58×8-48/notequal 8/infinity 8±/space/space/space</string>
-    <string>AÆED/uni0110 ÐHO/uni01A0 Ø/OE EPÞoU/uni01AF aæed/uni0111 ðoe/space i/dotlessi o/uni01A1 ø/oe ebpþßou/uni01B0 
-</string>
-    <string>$¢£¥/Euro/uni20AB ¤|/partialdiff |/summation |/product |/pi |µ|/integral |/florin |*|
-°/radical/dagger/daggerdbl §¶/lozenge &amp;/Omega/Delta/space 
-@n©n®n/trademark ªº¹²³/foursuperior/space ½¼¾/space 0.2%/perthousand/space/space</string>
-    <string>|0|1|2|3|4|5|6|7|8|9|/space c¢£§/bullet ¶/space ®©/space/trademark ¥µ/partialdiff/summation/product/pi/integral 41ª/space 54º/Omega µ¿¡/Euro/uni20AB/space/space</string>
-    <string>/space íî/space f/dieresiscomb ïilj/uni1ECB ì/dotlessi/uni1EC9/uni0129 òóô/uni1ED1/uni1ED9/uni1ED3/uni1ED5/uni1ED7 
+    <string>©®/trademark ªº¹²³/foursuperior/space ½¼¾%/perthousand</string>
+    <string>AÆED/uni0110 ÐHO/uni01A0 Ø/OE EPÞoU/uni01AF aæed/uni0111 ðoe/space i/dotlessi o/uni01A1 ø/oe ebpþßo8u/uni01B0</string>
+    <string>/uni01A0/space/uni031B/space/uni01AF U/uni01A1/uni01B0/space</string>
+    <string>$£¥¤/partialdiff/summation/product/pi/integral</string>
+    <string>¢£§/bullet ¶®©/trademark ´¨¥µ/partialdiff/summation/product/pi/integral ªº/Omega µ¿¡/Euro/uni20AB/space/space</string>
+    <string>íî/space f/dieresiscomb ïilj/uni1ECB ì/dotlessi/uni1EC9/uni0129 òóô/uni1ED1/uni1ED9/uni1ED3/uni1ED5/uni1ED7 
 ö/uni1ECD ò/uni1ECF/uni01A1/uni1EDB o/uni01A1/uni1EE3/uni1EDD/uni1EDF/uni1EE1/space cçCÇ</string>
-    <string>/uni179A/uni1784/uni17C2/uni178A17B6/space</string>
-    <string>/uni178417B6/uni178717B6/uni178B17B6/uni179017B6/uni179517B6/uni179C17B6</string>
-    <string>/space/uni17B7.narrow/space/uni17B8.narrow/space/uni17B9.narrow/space/uni17BA.narrow</string>
-    <string>/uni17BA</string>
-    <string>|/space |.|0|/nbspace |/emquad |/emspace |/narrownbspace |/punctuationspace |/sixperemspace |/threeperemspace |/enquad |/enspace |/fourperemspace |/figurespace |/thinspace |/hairspace |</string>
-    <string>/uni17CC/space/uni17CD</string>
-    <string>/uni17D21783/space/uni17D21783.alt/space/uni17D21783.low/space/uni17D21783.low.alt/space/uni17D21788/space/uni17D21788.alt/space/uni17D21788.low/space/uni17D21788.low.alt/space/uni17D2178D/space/uni17D2178D.low/space/uni17D21794/space/uni17D21794.low/space/uni17D21799/space/uni17D21799.low/space/uni17D2179E/space/uni17D2179E.low/space/uni17D2179F/space/uni17D2179F.low/space/uni17D217A1/space/uni17D217A1.low/space/uni17B7/space/uni17B8/space/uni17B9/space/uni17BA</string>
+    <string>aâ/uni1EA5/uni1EAD/uni1EA7/uni1EA9/uni1EAB ä/uni1EA1 à/uni1EA3 åã</string>
+    <string>|0|1|2|3|4|5|6|7|8|9|/space</string>
+    <string>3</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -72,7 +67,7 @@
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
   <integer>100</integer>
   <key>com.schriftgestaltung.fontMasterOrder</key>
-  <integer>1</integer>
+  <integer>2</integer>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
   <key>com.schriftgestaltung.weight</key>

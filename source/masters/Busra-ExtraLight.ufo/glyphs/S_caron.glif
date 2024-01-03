@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Scaron" format="2">
-  <advance width="1377"/>
+  <advance width="1371"/>
   <unicode hex="0160"/>
-  <anchor x="688" y="-110" name="LL"/>
-  <anchor x="688" y="2132" name="LU"/>
+  <anchor x="686" y="-110" name="LL"/>
+  <anchor x="686" y="2132" name="LU"/>
   <outline>
     <component base="S"/>
-    <component base="caroncomb" xOffset="1312" yOffset="395"/>
+    <component base="caroncomb" xOffset="1310" yOffset="395"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

@@ -2,62 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>A</key>
-  <string>A_.glif</string>
   <key>B</key>
   <string>B_.glif</string>
-  <key>C</key>
-  <string>C_.glif</string>
-  <key>D</key>
-  <string>D_.glif</string>
-  <key>E</key>
-  <string>E_.glif</string>
   <key>Euro</key>
   <string>E_uro.glif</string>
-  <key>F</key>
-  <string>F_.glif</string>
-  <key>G</key>
-  <string>G_.glif</string>
-  <key>H</key>
-  <string>H_.glif</string>
-  <key>I</key>
-  <string>I_.glif</string>
   <key>J</key>
   <string>J_.glif</string>
-  <key>K</key>
-  <string>K_.glif</string>
   <key>KrungSpecial</key>
   <string>K_rungS_pecial.glif</string>
-  <key>L</key>
-  <string>L_.glif</string>
-  <key>M</key>
-  <string>M_.glif</string>
-  <key>N</key>
-  <string>N_.glif</string>
-  <key>O</key>
-  <string>O_.glif</string>
   <key>OE</key>
   <string>O_E_.glif</string>
-  <key>P</key>
-  <string>P_.glif</string>
-  <key>Q</key>
-  <string>Q_.glif</string>
   <key>R</key>
   <string>R_.glif</string>
-  <key>S</key>
-  <string>S_.glif</string>
-  <key>T</key>
-  <string>T_.glif</string>
-  <key>V</key>
-  <string>V_.glif</string>
-  <key>W</key>
-  <string>W_.glif</string>
-  <key>X</key>
-  <string>X_.glif</string>
-  <key>Y</key>
-  <string>Y_.glif</string>
-  <key>Z</key>
-  <string>Z_.glif</string>
   <key>_2</key>
   <string>_2.glif</string>
   <key>_L.ear</key>
@@ -150,26 +106,16 @@
   <string>germandbls.glif</string>
   <key>gravecomb</key>
   <string>gravecomb.glif</string>
-  <key>h</key>
-  <string>h.glif</string>
-  <key>i</key>
-  <string>i.glif</string>
   <key>integral</key>
   <string>integral.glif</string>
-  <key>j</key>
-  <string>j.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
   <key>numbersign</key>
   <string>numbersign.glif</string>
-  <key>o</key>
-  <string>o.glif</string>
   <key>one</key>
   <string>one.glif</string>
   <key>onehalf</key>
   <string>onehalf.glif</string>
-  <key>p</key>
-  <string>p.glif</string>
   <key>parenleft</key>
   <string>parenleft.glif</string>
   <key>parenright</key>
@@ -178,8 +124,6 @@
   <string>partialdiff.glif</string>
   <key>pi</key>
   <string>pi.glif</string>
-  <key>q</key>
-  <string>q.glif</string>
   <key>question</key>
   <string>question.glif</string>
   <key>registered</key>

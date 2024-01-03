@@ -41,16 +41,6 @@
       <integer>-529</integer>
     </dict>
     <dict>
-      <key>angle</key>
-      <integer>90</integer>
-      <key>name</key>
-      <string>f3</string>
-      <key>x</key>
-      <integer>0</integer>
-      <key>y</key>
-      <integer>-175</integer>
-    </dict>
-    <dict>
       <key>name</key>
       <string>f4</string>
       <key>y</key>
@@ -90,7 +80,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2024/01/03 09:54:00</string>
+  <string>2024/01/03 17:24:21</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>

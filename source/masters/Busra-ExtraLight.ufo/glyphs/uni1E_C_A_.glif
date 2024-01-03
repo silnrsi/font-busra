@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1ECA" format="2">
-  <advance width="808"/>
+  <advance width="792"/>
   <unicode hex="1ECA"/>
-  <anchor x="397" y="-447" name="LL"/>
-  <anchor x="399" y="1745" name="LU"/>
+  <anchor x="389" y="-447" name="LL"/>
+  <anchor x="391" y="1745" name="LU"/>
   <outline>
     <component base="I"/>
-    <component base="uni0323" xOffset="1021"/>
+    <component base="uni0323" xOffset="1013"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

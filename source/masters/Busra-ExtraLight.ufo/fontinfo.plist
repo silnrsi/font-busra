@@ -64,19 +64,13 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>f8</string>
-      <key>y</key>
-      <integer>1870</integer>
-    </dict>
-    <dict>
-      <key>name</key>
       <string>f9</string>
       <key>x</key>
       <integer>-245</integer>
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2024/01/03 09:53:59</string>
+  <string>2024/01/03 17:24:36</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>

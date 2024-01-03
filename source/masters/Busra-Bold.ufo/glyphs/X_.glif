@@ -7,42 +7,50 @@
   <anchor x="801" y="1745" name="LU"/>
   <outline>
     <contour>
-      <point x="1049" y="140" type="line"/>
+      <point x="1132" y="157" type="line"/>
       <point x="879" y="105" type="line"/>
       <point x="879" y="0" type="line"/>
       <point x="1565" y="0" type="line"/>
       <point x="1565" y="105" type="line"/>
-      <point x="1405" y="145" type="line"/>
-      <point x="521" y="1510" type="line"/>
+      <point x="1323" y="166" type="line"/>
+      <point x="1451" y="74" type="line"/>
+      <point x="475" y="1581" type="line"/>
+      <point x="438" y="1492" type="line"/>
       <point x="681" y="1545" type="line"/>
       <point x="681" y="1650" type="line"/>
       <point x="0" y="1650" type="line"/>
       <point x="0" y="1545" type="line"/>
-      <point x="165" y="1505" type="line"/>
+      <point x="247" y="1485" type="line"/>
+      <point x="119" y="1576" type="line"/>
+      <point x="1095" y="69" type="line"/>
     </contour>
     <contour>
       <point x="870" y="782" type="line"/>
-      <point x="1335" y="1505" type="line"/>
+      <point x="1381" y="1576" type="line"/>
+      <point x="1253" y="1486" type="line"/>
       <point x="1505" y="1545" type="line"/>
       <point x="1505" y="1650" type="line"/>
       <point x="972" y="1650" type="line"/>
       <point x="972" y="1545" type="line"/>
-      <point x="1142" y="1505" type="line"/>
+      <point x="1224" y="1486" type="line"/>
+      <point x="1188" y="1576" type="line"/>
       <point x="750" y="898" type="line"/>
       <point x="668" y="856" type="line"/>
-      <point x="211" y="140" type="line"/>
+      <point x="165" y="69" type="line"/>
+      <point x="294" y="156" type="line"/>
       <point x="31" y="105" type="line"/>
       <point x="31" y="0" type="line"/>
       <point x="573" y="0" type="line"/>
       <point x="573" y="105" type="line"/>
-      <point x="403" y="140" type="line"/>
+      <point x="320" y="157" type="line"/>
+      <point x="357" y="69" type="line"/>
       <point x="795" y="750" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

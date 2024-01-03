@@ -4,8 +4,38 @@
 <dict>
   <key>KrungSpecial</key>
   <string>K_rungS_pecial.glif</string>
+  <key>a</key>
+  <string>a.glif</string>
+  <key>c</key>
+  <string>c.glif</string>
+  <key>d</key>
+  <string>d.glif</string>
   <key>dottedcircle</key>
   <string>dottedcircle.glif</string>
+  <key>e</key>
+  <string>e.glif</string>
+  <key>f</key>
+  <string>f.glif</string>
+  <key>g</key>
+  <string>g.glif</string>
+  <key>j</key>
+  <string>j.glif</string>
+  <key>k</key>
+  <string>k.glif</string>
+  <key>l</key>
+  <string>l.glif</string>
+  <key>m</key>
+  <string>m.glif</string>
+  <key>n</key>
+  <string>n.glif</string>
+  <key>r</key>
+  <string>r.glif</string>
+  <key>s</key>
+  <string>s.glif</string>
+  <key>t</key>
+  <string>t.glif</string>
+  <key>u</key>
+  <string>u.glif</string>
   <key>uni1780</key>
   <string>uni1780.glif</string>
   <key>uni1780.alt</key>
@@ -904,5 +934,15 @@
   <string>uniE_F_08.glif</string>
   <key>uniEF09</key>
   <string>uniE_F_09.glif</string>
+  <key>v</key>
+  <string>v.glif</string>
+  <key>w</key>
+  <string>w.glif</string>
+  <key>x</key>
+  <string>x.glif</string>
+  <key>y</key>
+  <string>y.glif</string>
+  <key>z</key>
+  <string>z.glif</string>
 </dict>
 </plist>

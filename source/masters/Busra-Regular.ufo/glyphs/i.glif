@@ -7,18 +7,7 @@
   <anchor x="520" y="0" name="PB"/>
   <anchor x="460" y="200" name="def"/>
   <outline>
-    <contour>
-      <point x="275" y="1120" type="line"/>
-      <point x="275" y="120" type="line"/>
-      <point x="115" y="85" type="line"/>
-      <point x="115" y="0" type="line"/>
-      <point x="623" y="0" type="line"/>
-      <point x="623" y="85" type="line"/>
-      <point x="463" y="120" type="line"/>
-      <point x="463" y="1240" type="line"/>
-      <point x="115" y="1240" type="line"/>
-      <point x="115" y="1155" type="line"/>
-    </contour>
+    <component base="dotlessi"/>
     <contour>
       <point x="369" y="1480" type="curve" smooth="yes"/>
       <point x="446" y="1480"/>
@@ -36,6 +25,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>public.markColor</key>
       <string>0.97,1,0,1</string>
     </dict>

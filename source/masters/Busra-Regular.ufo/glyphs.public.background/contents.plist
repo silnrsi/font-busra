@@ -106,8 +106,6 @@
   <string>_wN_arrow.glif</string>
   <key>_wWideforReg</key>
   <string>_wW_ideforR_eg.glif</string>
-  <key>a</key>
-  <string>a.glif</string>
   <key>acutecomb</key>
   <string>acutecomb.glif</string>
   <key>ampersand</key>
@@ -118,22 +116,14 @@
   <string>asterisk.glif</string>
   <key>at</key>
   <string>at.glif</string>
-  <key>b</key>
-  <string>b.glif</string>
-  <key>c</key>
-  <string>c.glif</string>
   <key>cedillacomb</key>
   <string>cedillacomb.glif</string>
   <key>cent</key>
   <string>cent.glif</string>
-  <key>d</key>
-  <string>d.glif</string>
   <key>dollar</key>
   <string>dollar.glif</string>
   <key>dottedcircle</key>
   <string>dottedcircle.glif</string>
-  <key>e</key>
-  <string>e.glif</string>
   <key>eacute</key>
   <string>eacute.glif</string>
   <key>eight</key>
@@ -168,14 +158,6 @@
   <string>integral.glif</string>
   <key>j</key>
   <string>j.glif</string>
-  <key>k</key>
-  <string>k.glif</string>
-  <key>l</key>
-  <string>l.glif</string>
-  <key>m</key>
-  <string>m.glif</string>
-  <key>n</key>
-  <string>n.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
   <key>numbersign</key>
@@ -200,12 +182,8 @@
   <string>q.glif</string>
   <key>question</key>
   <string>question.glif</string>
-  <key>r</key>
-  <string>r.glif</string>
   <key>registered</key>
   <string>registered.glif</string>
-  <key>s</key>
-  <string>s.glif</string>
   <key>section</key>
   <string>section.glif</string>
   <key>seven</key>
@@ -226,8 +204,6 @@
   <string>tildecomb.glif</string>
   <key>two</key>
   <string>two.glif</string>
-  <key>u</key>
-  <string>u.glif</string>
   <key>uni00B5</key>
   <string>uni00B_5.glif</string>
   <key>uni01AF</key>
@@ -746,18 +722,8 @@
   <string>uni17E_9.glif</string>
   <key>uni20AB</key>
   <string>uni20A_B_.glif</string>
-  <key>v</key>
-  <string>v.glif</string>
-  <key>w</key>
-  <string>w.glif</string>
-  <key>x</key>
-  <string>x.glif</string>
-  <key>y</key>
-  <string>y.glif</string>
   <key>yen</key>
   <string>yen.glif</string>
-  <key>z</key>
-  <string>z.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
 </dict>

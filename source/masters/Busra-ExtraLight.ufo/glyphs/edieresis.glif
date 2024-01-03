@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="edieresis" format="2">
-  <advance width="1201"/>
+  <advance width="1181"/>
   <unicode hex="00EB"/>
-  <anchor x="631" y="-110" name="LL"/>
-  <anchor x="604" y="1794" name="LU"/>
-  <anchor x="520" y="0" name="PB"/>
-  <anchor x="560" y="0" name="def"/>
+  <anchor x="621" y="-110" name="LL"/>
+  <anchor x="594" y="1794" name="LU"/>
+  <anchor x="510" y="0" name="PB"/>
+  <anchor x="550" y="0" name="def"/>
   <outline>
     <component base="e"/>
-    <component base="dieresiscomb" xOffset="1228"/>
+    <component base="dieresiscomb" xOffset="1218"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

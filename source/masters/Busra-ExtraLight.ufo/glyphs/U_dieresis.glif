@@ -2,11 +2,11 @@
 <glyph name="Udieresis" format="2">
   <advance width="1657"/>
   <unicode hex="00DC"/>
-  <anchor x="857" y="-110" name="LL"/>
-  <anchor x="857" y="2189" name="LU"/>
+  <anchor x="851" y="-110" name="LL"/>
+  <anchor x="851" y="2189" name="LU"/>
   <outline>
     <component base="U"/>
-    <component base="dieresiscomb" xOffset="1481" yOffset="395"/>
+    <component base="dieresiscomb" xOffset="1475" yOffset="395"/>
   </outline>
   <lib>
     <dict>

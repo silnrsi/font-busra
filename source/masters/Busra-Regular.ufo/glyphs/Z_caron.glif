@@ -2,16 +2,16 @@
 <glyph name="Zcaron" format="2">
   <advance width="1296"/>
   <unicode hex="017D"/>
-  <anchor x="648" y="-110" name="LL"/>
-  <anchor x="648" y="2132" name="LU"/>
+  <anchor x="668" y="-110" name="LL"/>
+  <anchor x="628" y="2132" name="LU"/>
   <outline>
     <component base="Z"/>
-    <component base="caroncomb" xOffset="1272" yOffset="395"/>
+    <component base="caroncomb" xOffset="1252" yOffset="395"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

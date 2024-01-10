@@ -2,7 +2,7 @@
 <glyph name="G" format="2">
   <advance width="1478"/>
   <unicode hex="0047"/>
-  <anchor x="694" y="-110" name="LL"/>
+  <anchor x="755" y="-110" name="LL"/>
   <anchor x="755" y="1745" name="LU"/>
   <outline>
     <contour>
@@ -23,11 +23,11 @@
       <point x="1247" y="1528"/>
       <point x="1089" y="1665"/>
       <point x="810" y="1665" type="curve" smooth="yes"/>
-      <point x="408" y="1665"/>
+      <point x="418" y="1665"/>
       <point x="146" y="1497"/>
       <point x="146" y="840" type="curve" smooth="yes"/>
-      <point x="146" y="213"/>
-      <point x="359" y="-20"/>
+      <point x="146" y="218"/>
+      <point x="352" y="-20"/>
       <point x="769" y="-20" type="curve" smooth="yes"/>
       <point x="944" y="-20"/>
       <point x="1215" y="81"/>
@@ -42,11 +42,11 @@
       <point x="1053" y="165"/>
       <point x="932" y="100"/>
       <point x="771" y="100" type="curve" smooth="yes"/>
-      <point x="480" y="100"/>
-      <point x="317" y="357"/>
+      <point x="460" y="100"/>
+      <point x="317" y="347"/>
       <point x="317" y="833" type="curve" smooth="yes"/>
       <point x="317" y="1332"/>
-      <point x="462" y="1545"/>
+      <point x="452" y="1545"/>
     </contour>
   </outline>
   <lib>

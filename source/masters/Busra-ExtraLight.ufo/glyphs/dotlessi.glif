@@ -2,8 +2,8 @@
 <glyph name="dotlessi" format="2">
   <advance width="705"/>
   <unicode hex="0131"/>
-  <anchor x="369" y="-110" name="LL"/>
-  <anchor x="369" y="1350" name="LU"/>
+  <anchor x="360" y="-110" name="LL"/>
+  <anchor x="360" y="1350" name="LU"/>
   <anchor x="0" y="0" name="PB"/>
   <anchor x="0" y="0" name="def"/>
   <outline>

@@ -2,8 +2,8 @@
 <glyph name="Q" format="2">
   <advance width="1545"/>
   <unicode hex="0051"/>
-  <anchor x="798" y="-110" name="LL"/>
-  <anchor x="764" y="1775" name="LU"/>
+  <anchor x="753" y="-110" name="LL"/>
+  <anchor x="753" y="1775" name="LU"/>
   <outline>
     <component base="O"/>
     <contour>

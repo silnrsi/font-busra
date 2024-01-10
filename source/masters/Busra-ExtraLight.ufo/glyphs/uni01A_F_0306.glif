@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01AF0306" format="2">
   <advance width="1795"/>
-  <anchor x="866" y="-110" name="LL"/>
-  <anchor x="866" y="2096" name="LU"/>
-  <anchor x="1486" y="595" name="PA"/>
-  <anchor x="1486" y="395" name="_PA"/>
-  <anchor x="1486" y="413" name="_def"/>
+  <anchor x="851" y="-110" name="LL"/>
+  <anchor x="851" y="2096" name="LU"/>
+  <anchor x="1471" y="595" name="PA"/>
+  <anchor x="1471" y="395" name="_PA"/>
+  <anchor x="1471" y="413" name="_def"/>
   <outline>
     <component base="uni01AF"/>
-    <component base="uni0306" xOffset="1490" yOffset="395"/>
+    <component base="uni0306" xOffset="1475" yOffset="395"/>
   </outline>
   <lib>
     <dict>

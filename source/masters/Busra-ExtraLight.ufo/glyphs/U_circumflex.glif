@@ -2,11 +2,11 @@
 <glyph name="Ucircumflex" format="2">
   <advance width="1657"/>
   <unicode hex="00DB"/>
-  <anchor x="857" y="-110" name="LL"/>
-  <anchor x="857" y="2156" name="LU"/>
+  <anchor x="851" y="-110" name="LL"/>
+  <anchor x="851" y="2156" name="LU"/>
   <outline>
     <component base="U"/>
-    <component base="circumflexcomb" xOffset="1481" yOffset="395"/>
+    <component base="circumflexcomb" xOffset="1475" yOffset="395"/>
   </outline>
   <lib>
     <dict>

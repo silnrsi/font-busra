@@ -3,8 +3,9 @@
   <advance width="1350"/>
   <unicode hex="0079"/>
   <guideline x="477" y="529" angle="290.4799"/>
+  <guideline x="750" y="1753" angle="270"/>
   <anchor x="915" y="-350" name="LL"/>
-  <anchor x="754" y="1350" name="LU"/>
+  <anchor x="752" y="1350" name="LU"/>
   <anchor x="520" y="-200" name="PB"/>
   <anchor x="502" y="0" name="def"/>
   <outline>

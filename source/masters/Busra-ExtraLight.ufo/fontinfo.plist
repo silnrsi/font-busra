@@ -18,7 +18,7 @@
       <key>name</key>
       <string>m</string>
       <key>y</key>
-      <integer>250</integer>
+      <integer>1316</integer>
     </dict>
     <dict>
       <key>name</key>
@@ -33,8 +33,12 @@
       <integer>-150</integer>
     </dict>
     <dict>
+      <key>angle</key>
+      <integer>0</integer>
       <key>name</key>
       <string>f3</string>
+      <key>x</key>
+      <integer>7</integer>
       <key>y</key>
       <integer>-175</integer>
     </dict>
@@ -70,7 +74,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2024/01/03 17:24:36</string>
+  <string>2024/01/10 14:53:18</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>

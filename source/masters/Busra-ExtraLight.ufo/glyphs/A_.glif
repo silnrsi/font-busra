@@ -2,20 +2,20 @@
 <glyph name="A" format="2">
   <advance width="1514"/>
   <unicode hex="0041"/>
-  <anchor x="734" y="-110" name="LL"/>
-  <anchor x="734" y="1745" name="LU"/>
+  <anchor x="737" y="-110" name="LL"/>
+  <anchor x="737" y="1745" name="LU"/>
   <outline>
     <contour>
-      <point x="24" y="0" type="line"/>
-      <point x="458" y="0" type="line"/>
-      <point x="458" y="75" type="line"/>
+      <point x="19" y="0" type="line"/>
+      <point x="463" y="0" type="line"/>
+      <point x="463" y="75" type="line"/>
       <point x="214" y="127" type="line"/>
-      <point x="262" y="39" type="line"/>
-      <point x="782" y="1650" type="line"/>
-      <point x="667" y="1650" type="line"/>
-      <point x="148" y="45" type="line"/>
-      <point x="246" y="137" type="line"/>
-      <point x="24" y="75" type="line"/>
+      <point x="267" y="39" type="line"/>
+      <point x="787" y="1650" type="line"/>
+      <point x="662" y="1650" type="line"/>
+      <point x="143" y="45" type="line"/>
+      <point x="251" y="137" type="line"/>
+      <point x="19" y="75" type="line"/>
     </contour>
     <contour>
       <point x="402" y="663" type="line"/>

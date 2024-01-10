@@ -2,18 +2,18 @@
 <glyph name="uni1EE5" format="2">
   <advance width="1404"/>
   <unicode hex="1EE5"/>
-  <anchor x="690" y="-447" name="LL"/>
-  <anchor x="692" y="1350" name="LU"/>
+  <anchor x="700" y="-447" name="LL"/>
+  <anchor x="702" y="1350" name="LU"/>
   <anchor x="511" y="0" name="PB"/>
   <anchor x="571" y="0" name="def"/>
   <outline>
     <component base="u"/>
-    <component base="uni0323" xOffset="1314"/>
+    <component base="uni0323" xOffset="1324"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

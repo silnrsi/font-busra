@@ -10,7 +10,7 @@
   <outline>
     <component base="_squirreltail" xOffset="63"/>
     <component base="_w" xOffset="195"/>
-    <component base="_stemloop" xScale="-1" yScale="-1" xOffset="1331" yOffset="975"/>
-    <component base="_stemMd" xOffset="195" yOffset="132"/>
+    <component base="_stemloop" xScale="-1" yScale="-1" xOffset="1300" yOffset="980"/>
+    <component base="_stemMd" xOffset="200" yOffset="132"/>
   </outline>
 </glyph>

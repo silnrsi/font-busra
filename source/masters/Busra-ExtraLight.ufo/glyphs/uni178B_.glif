@@ -9,9 +9,9 @@
   <anchor x="1271" y="1840" name="UR"/>
   <outline>
     <component base="_instroke" xOffset="8" yOffset="-250"/>
-    <component base="_curve" xOffset="235"/>
-    <component base="_stemSm" xOffset="235" yOffset="358"/>
-    <component base="_stemSm" xOffset="983" yOffset="358"/>
+    <component base="_curve" xOffset="240"/>
+    <component base="_stemSm" xOffset="240" yOffset="358"/>
+    <component base="_stemSm" xOffset="990" yOffset="358"/>
     <component base="_R.earLarge" xOffset="810"/>
   </outline>
 </glyph>

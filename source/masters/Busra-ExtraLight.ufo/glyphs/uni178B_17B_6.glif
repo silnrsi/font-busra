@@ -15,7 +15,7 @@
   <anchor x="1797" y="1236" name="zxc1"/>
   <outline>
     <component base="uni178B"/>
-    <component base="_stemLg" xOffset="1711"/>
-    <component base="_topArchshort" xOffset="1095"/>
+    <component base="_stemLg" xOffset="1665"/>
+    <component base="_topArchshort" xOffset="1049"/>
   </outline>
 </glyph>

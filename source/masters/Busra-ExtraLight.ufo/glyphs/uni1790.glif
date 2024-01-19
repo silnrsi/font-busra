@@ -8,9 +8,9 @@
   <anchor x="761" y="1840" name="UN"/>
   <anchor x="1231" y="1840" name="UR"/>
   <outline>
-    <component base="_stemloop" xScale="-1" yScale="-1" xOffset="1331" yOffset="969"/>
+    <component base="_stemloop" xScale="-1" yScale="-1" xOffset="1300" yOffset="980"/>
     <component base="_squirreltail" xOffset="63"/>
-    <component base="_curve" xOffset="195"/>
-    <component base="_stemSm" xOffset="195" yOffset="300"/>
+    <component base="_curve" xOffset="200"/>
+    <component base="_stemSm" xOffset="200" yOffset="300"/>
   </outline>
 </glyph>

@@ -12,7 +12,7 @@
   <anchor x="2809" y="1236" name="zxc1"/>
   <outline>
     <component base="uni178E"/>
-    <component base="uni17B6" xOffset="2528"/>
+    <component base="uni17B6" xOffset="2475"/>
   </outline>
   <lib>
     <dict>

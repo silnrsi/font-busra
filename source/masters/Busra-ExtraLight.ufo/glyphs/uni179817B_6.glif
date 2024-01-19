@@ -15,10 +15,10 @@
   <outline>
     <component base="_horizontal" xOffset="289" yOffset="-93"/>
     <component base="_L.ear" xOffset="22"/>
-    <component base="_curve" xOffset="195"/>
-    <component base="_stemLg" xOffset="1671"/>
-    <component base="_bulgeArch" xOffset="771"/>
-    <component base="_stemMd" xOffset="195" yOffset="199"/>
-    <component base="_stemSm" xOffset="943" yOffset="378"/>
+    <component base="_curve" xOffset="200"/>
+    <component base="_stemLg" xOffset="1625"/>
+    <component base="_bulgeArch" xOffset="773"/>
+    <component base="_stemMd" xOffset="200" yOffset="199"/>
+    <component base="_stemSm" xOffset="950" yOffset="378"/>
   </outline>
 </glyph>

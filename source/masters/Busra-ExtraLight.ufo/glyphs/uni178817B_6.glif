@@ -13,16 +13,16 @@
   <anchor x="3011" y="1580" name="UR_2"/>
   <anchor x="2797" y="1236" name="zxc1"/>
   <outline>
-    <component base="_L.ear" xOffset="1222"/>
-    <component base="_curveShort.extra" xOffset="1395"/>
+    <component base="_L.ear" xOffset="1212"/>
+    <component base="_curveShort.extra" xOffset="1390"/>
     <component base="_stemMd" xOffset="795" yOffset="329"/>
-    <component base="_stemSm" xOffset="1995" yOffset="376"/>
-    <component base="_stemMd" xOffset="195" yOffset="469"/>
-    <component base="_stemloop" xOffset="195"/>
-    <component base="_bulgeArch" xOffset="1823"/>
-    <component base="_stemLg" xOffset="2723"/>
+    <component base="_stemSm" xOffset="1990" yOffset="376"/>
+    <component base="_stemMd" xOffset="200" yOffset="469"/>
+    <component base="_stemloop" xOffset="200"/>
+    <component base="_bulgeArch" xOffset="1813"/>
+    <component base="_stemLg" xOffset="2665"/>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="195" yOffset="1440"/>
-    <component base="_curveNarrowforBold" xOffset="795"/>
-    <component base="_stemMd" xOffset="1395" yOffset="199"/>
+    <component base="_curveNarrowforBold" xOffset="790"/>
+    <component base="_stemMd" xOffset="1390" yOffset="199"/>
   </outline>
 </glyph>

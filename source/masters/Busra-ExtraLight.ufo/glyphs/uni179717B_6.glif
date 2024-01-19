@@ -13,11 +13,11 @@
   <anchor x="1999" y="1580" name="UR_2"/>
   <anchor x="1814" y="1236" name="zxc1"/>
   <outline>
-    <component base="_curve" yScale="-1" xOffset="235" yOffset="1124"/>
-    <component base="_stemMd" xOffset="983"/>
+    <component base="_curve" yScale="-1" xOffset="240" yOffset="1124"/>
+    <component base="_stemMd" xOffset="990"/>
     <component base="_instroke" yScale="-1" xOffset="8" yOffset="1440"/>
-    <component base="_stemSm" xOffset="235" yOffset="370"/>
+    <component base="_stemSm" xOffset="240" yOffset="370"/>
     <component base="_mArch" xOffset="103"/>
-    <component base="_stemLg" xOffset="1711"/>
+    <component base="_stemLg" xOffset="1665"/>
   </outline>
 </glyph>

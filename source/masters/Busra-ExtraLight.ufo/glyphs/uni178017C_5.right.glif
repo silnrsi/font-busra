@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni178017C5.right" format="2">
   <advance width="2204"/>
-  <anchor x="769" y="0" name="LC_1"/>
-  <anchor x="1503" y="0" name="LC_2"/>
-  <anchor x="1231" y="0" name="LR_1"/>
-  <anchor x="1959" y="0" name="LR_2"/>
+  <anchor x="739" y="0" name="LC_1"/>
+  <anchor x="1466" y="0" name="LC_2"/>
+  <anchor x="1200" y="0" name="LR_1"/>
+  <anchor x="1875" y="0" name="LR_2"/>
   <anchor x="761" y="1580" name="UC_1"/>
   <anchor x="1503" y="1580" name="UC_2"/>
   <anchor x="769" y="1580" name="UN_1"/>
@@ -13,12 +13,12 @@
   <anchor x="1959" y="1580" name="UR_2"/>
   <outline>
     <component base="uni178017B6"/>
-    <component base="_R.ear" xOffset="1548"/>
+    <component base="_R.ear" xOffset="1508" yOffset="-60"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

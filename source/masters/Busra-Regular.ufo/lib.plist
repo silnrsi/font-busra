@@ -42,6 +42,10 @@
     <string>aâ/uni1EA5/uni1EAD/uni1EA7/uni1EA9/uni1EAB ä/uni1EA1 à/uni1EA3 åã</string>
     <string>|0|1|2|3|4|5|6|7|8|9|/space</string>
     <string>abcdefghi/dotlessi jklmnopqrstuvwxyz</string>
+    <string>&amp;</string>
+    <string>/uni178017B6.space</string>
+    <string>/_stemMd/_curve/_smoke/_curveShort/_stemSm/_stemloop/_stemLg/_mArch/_topArch/uni17B6/_horizontal/_R.ear/_outstroke/_curveShort.extra/_L.ear/_instroke/_bulgeArch/_w/_deepArch/_smoke/uni1780/_mArch/_diagonal 
+/_squirreltail/_deepArch2/_curveNarrowforBold/_m/space/uni17CF/uni17CF/uni17CF/_R.earLarge/_topArchshort/uni17B6/uni178017B6.dash/uni178017B6.dotted/uni178017B6.space/_swash/_diagonalSharp/_w/_wNarrow/_horizontal/uni1799</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

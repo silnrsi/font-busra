@@ -15,6 +15,6 @@
   <anchor x="1764" y="1236" name="zxc1"/>
   <outline>
     <component base="uni1795"/>
-    <component base="_deepArch" xOffset="1045"/>
+    <component base="_deepArch" xOffset="999"/>
   </outline>
 </glyph>

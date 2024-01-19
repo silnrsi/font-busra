@@ -14,7 +14,7 @@
   <anchor x="1639" y="1236" name="zxc1"/>
   <outline>
     <component base="uni1781"/>
-    <component base="uni17B6" xOffset="1358"/>
+    <component base="uni17B6" xOffset="1315"/>
   </outline>
   <lib>
     <dict>

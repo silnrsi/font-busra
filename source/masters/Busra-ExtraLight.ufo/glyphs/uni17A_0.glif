@@ -8,11 +8,11 @@
   <anchor x="983" y="1580" name="UN"/>
   <anchor x="1683" y="1580" name="UR"/>
   <outline>
-    <component base="_curveNarrowforBold" yScale="-1" xOffset="795" yOffset="1440"/>
+    <component base="_curveNarrowforBold" yScale="-1" xOffset="790" yOffset="1440"/>
     <component base="_curveNarrowforBold" xOffset="195"/>
     <component base="_L.ear" xOffset="22"/>
     <component base="_stemMd" xOffset="795" yOffset="350"/>
-    <component base="_stemMd" xOffset="195" yOffset="210"/>
-    <component base="_stemLg" xOffset="1395"/>
+    <component base="_stemMd" xOffset="200" yOffset="210"/>
+    <component base="_stemLg" xOffset="1390"/>
   </outline>
 </glyph>

@@ -15,9 +15,9 @@
   <outline>
     <component base="_subcurveMed" xOffset="-553" yOffset="-598"/>
     <component base="_ballInstroke" xScale="-1" xOffset="-83"/>
-    <component base="_stemLg" xOffset="195" yOffset="-79"/>
-    <component base="_stemSm" xOffset="195" yOffset="-400"/>
+    <component base="_stemLg" xOffset="200" yOffset="-79"/>
+    <component base="_stemSm" xOffset="200" yOffset="-400"/>
     <component base="_bulgeArch" xOffset="23"/>
-    <component base="_stemLg" xOffset="923"/>
+    <component base="_stemLg" xOffset="875"/>
   </outline>
 </glyph>

@@ -8,14 +8,14 @@
   <anchor x="1159" y="1960" name="UN"/>
   <anchor x="1763" y="1960" name="UR"/>
   <outline>
-    <component base="_stemloop" xOffset="195"/>
-    <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="833" yOffset="-862"/>
-    <component base="_stemLg" xOffset="943"/>
-    <component base="_R.earLarge" xOffset="1302"/>
-    <component base="_stemSub" xOffset="1475" yOffset="-157"/>
-    <component base="_curve" yScale="-1" xOffset="195" yOffset="1440"/>
+    <component base="_stemloop" xOffset="200"/>
+    <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="860" yOffset="-862"/>
+    <component base="_stemLg" xOffset="950"/>
+    <component base="_R.earLarge" xOffset="1295"/>
+    <component base="_stemSub" xOffset="1455" yOffset="-157"/>
+    <component base="_curve" yScale="-1" xOffset="200" yOffset="1440"/>
     <component base="_subcurve" xOffset="1013" yOffset="-209"/>
-    <component base="_curveShort" xScale="-1" yScale="-1" xOffset="1351" yOffset="-150"/>
-    <component base="_stemSm" xOffset="195" yOffset="609"/>
+    <component base="_curveShort" xScale="-1" yScale="-1" xOffset="1300" yOffset="-150"/>
+    <component base="_stemSm" xOffset="200" yOffset="609"/>
   </outline>
 </glyph>

@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D2.ms.narrowlow" format="2">
   <outline>
-    <contour>
-      <point x="-430" y="-1215" type="line"/>
-      <point x="-430" y="-1401" type="line"/>
-      <point x="-242" y="-1401" type="line"/>
-      <point x="-242" y="-1215" type="line"/>
-      <point x="-54" y="-1215" type="line"/>
-      <point x="-54" y="-1027" type="line"/>
-      <point x="-242" y="-1027" type="line"/>
-      <point x="-242" y="-860" type="line"/>
-      <point x="-430" y="-860" type="line"/>
-      <point x="-430" y="-1027" type="line"/>
-      <point x="-617" y="-1027" type="line"/>
-      <point x="-617" y="-1215" type="line"/>
-    </contour>
+    <component base="uni17D2" xOffset="191" yOffset="-710"/>
   </outline>
 </glyph>

@@ -7,10 +7,10 @@
   <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <component base="_swash" xScale="0.73509" yScale="0.73509" xOffset="-1060" yOffset="-603"/>
-    <component base="_subL.ear" xOffset="-1039" yOffset="41"/>
-    <component base="_subL.ear" xOffset="-527" yOffset="43"/>
+    <component base="_subL.ear" xOffset="-1048" yOffset="38"/>
+    <component base="_subL.ear" xOffset="-523" yOffset="38"/>
     <component base="_subcurve" xOffset="-960" yOffset="-206"/>
-    <component base="_substemTiny" xOffset="-1010" yOffset="-27"/>
+    <component base="_substemTiny" xOffset="-1023" yOffset="-30"/>
     <component base="_substemTiny" xOffset="-498" yOffset="-7"/>
     <component base="_substemTiny" xOffset="-498" yOffset="-56"/>
   </outline>

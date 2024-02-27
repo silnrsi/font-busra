@@ -24,9 +24,43 @@
     </dict>
   </array>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
-  <dict/>
+  <dict>
+    <key>co.uk.corvelsoftware.Dotter</key>
+    <dict>
+      <key>alternateLayerName</key>
+      <string>&lt;null&gt;</string>
+      <key>dotSize</key>
+      <integer>15</integer>
+      <key>dotSpacing</key>
+      <integer>15</integer>
+      <key>endCap</key>
+      <string>round</string>
+      <key>joinType</key>
+      <string>round</string>
+      <key>preventOverlaps</key>
+      <integer>1</integer>
+      <key>removeExternal</key>
+      <integer>0</integer>
+      <key>removeInternal</key>
+      <integer>0</integer>
+      <key>segmentWise</key>
+      <integer>0</integer>
+      <key>splitPaths</key>
+      <integer>0</integer>
+      <key>startCap</key>
+      <string>round</string>
+      <key>strokerAngle</key>
+      <integer>0</integer>
+      <key>strokerHeight</key>
+      <integer>50</integer>
+      <key>strokerHeightLock</key>
+      <integer>1</integer>
+      <key>strokerWidth</key>
+      <integer>50</integer>
+    </dict>
+  </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3151</string>
+  <string>3237</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>ABCDEFGHIJKLMNOPQRSTU/uni01AF VWXYZ/space</string>
@@ -43,9 +77,7 @@
     <string>|0|1|2|3|4|5|6|7|8|9|/space</string>
     <string>abcdefghi/dotlessi jklmnopqrstuvwxyz</string>
     <string>&amp;</string>
-    <string>/uni178017B6.space</string>
-    <string>/_stemMd/_curve/_smoke/_curveShort/_stemSm/_stemloop/_stemLg/_mArch/_topArch/uni17B6/_horizontal/_R.ear/_outstroke/_curveShort.extra/_L.ear/_instroke/_bulgeArch/_w/_deepArch/_smoke/uni1780/_mArch/_diagonal 
-/_squirreltail/_deepArch2/_curveNarrowforBold/_m/space/uni17CF/uni17CF/uni17CF/_R.earLarge/_topArchshort/uni17B6/uni178017B6.dash/uni178017B6.dotted/uni178017B6.space/_swash/_diagonalSharp/_w/_wNarrow/_horizontal/uni1799</string>
+    <string>&amp;</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

@@ -5,10 +5,10 @@
   <outline>
     <component base="uni17D4" xOffset="-2"/>
     <contour>
+      <point x="1894" y="1440" type="line"/>
       <point x="1894" y="0" type="line"/>
       <point x="2231" y="0" type="line"/>
       <point x="2231" y="1440" type="line"/>
-      <point x="1894" y="1440" type="line"/>
     </contour>
   </outline>
   <lib>

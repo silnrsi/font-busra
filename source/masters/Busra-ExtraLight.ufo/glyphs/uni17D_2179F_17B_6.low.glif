@@ -14,11 +14,11 @@
   <anchor x="1007" y="1236" name="zxc1"/>
   <outline>
     <component base="_subcurveMed" xOffset="-553" yOffset="-1225"/>
-    <component base="_loopInstroke" xOffset="-595" yOffset="-626"/>
-    <component base="_stemMd" xOffset="195" yOffset="-1023"/>
-    <component base="_stemSub" xOffset="195" yOffset="-100"/>
-    <component base="_eyelash2"/>
+    <component base="_loopInstroke" xOffset="-633" yOffset="-626"/>
+    <component base="_stemMd" xOffset="200" yOffset="-1023"/>
+    <component base="_stemSub" xOffset="180" yOffset="-100"/>
+    <component base="_eyelash2" xOffset="-10"/>
     <component base="_bulgeArch" xOffset="23"/>
-    <component base="_stemLg" xOffset="923"/>
+    <component base="_stemLg" xOffset="875"/>
   </outline>
 </glyph>

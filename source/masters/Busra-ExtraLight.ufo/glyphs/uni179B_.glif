@@ -9,11 +9,11 @@
   <anchor x="1683" y="1580" name="UR"/>
   <outline>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="195" yOffset="1440"/>
-    <component base="_stemloop" xOffset="195"/>
-    <component base="_L.ear" xOffset="1222"/>
-    <component base="_stemSm" xOffset="195" yOffset="648"/>
-    <component base="_curveNarrowforBold" xOffset="795"/>
+    <component base="_stemloop" xOffset="200"/>
+    <component base="_L.ear" xOffset="1212"/>
+    <component base="_stemSm" xOffset="200" yOffset="648"/>
+    <component base="_curveNarrowforBold" xOffset="790"/>
     <component base="_stemMd" xOffset="795" yOffset="385"/>
-    <component base="_stemMd" xOffset="1395" yOffset="185"/>
+    <component base="_stemMd" xOffset="1390" yOffset="185"/>
   </outline>
 </glyph>

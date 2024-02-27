@@ -8,10 +8,10 @@
   <anchor x="483" y="1580" name="UR"/>
   <outline>
     <component base="_L.ear" xOffset="22"/>
-    <component base="_subcurveMed" xOffset="175" yOffset="-1225"/>
-    <component base="_substemSm" xOffset="923" yOffset="-464"/>
-    <component base="_substemTiny" xOffset="923" yOffset="-506"/>
-    <component base="_stemSub" xOffset="195" yOffset="-100"/>
-    <component base="_stemMd" xOffset="195" yOffset="-1013"/>
+    <component base="_subcurveMed" xOffset="180" yOffset="-1225"/>
+    <component base="_substemSm" xOffset="914" yOffset="-464"/>
+    <component base="_substemTiny" xOffset="933" yOffset="-506"/>
+    <component base="_stemSub" xOffset="180" yOffset="-100"/>
+    <component base="_stemMd" xOffset="200" yOffset="-1013"/>
   </outline>
 </glyph>

@@ -8,7 +8,7 @@
   <outline>
     <component base="_subm" xOffset="-1083"/>
     <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="-683" yOffset="-860"/>
-    <component base="_substemSm" xOffset="-533" yOffset="-225"/>
-    <component base="_substemSm" xOffset="-533" yOffset="-85"/>
+    <component base="_substemSm" xOffset="-558" yOffset="-225"/>
+    <component base="_substemSm" xOffset="-558" yOffset="-85"/>
   </outline>
 </glyph>

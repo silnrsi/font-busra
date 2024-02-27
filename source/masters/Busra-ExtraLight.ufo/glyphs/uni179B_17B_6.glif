@@ -14,12 +14,12 @@
   <anchor x="2194" y="1236" name="zxc1"/>
   <outline>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="195" yOffset="1440"/>
-    <component base="_stemloop" xOffset="195"/>
-    <component base="_stemSm" xOffset="195" yOffset="648"/>
-    <component base="_curveNarrowforBold" xOffset="795"/>
+    <component base="_stemloop" xOffset="200"/>
+    <component base="_stemSm" xOffset="200" yOffset="648"/>
+    <component base="_curveNarrowforBold" xOffset="790"/>
     <component base="_stemMd" xOffset="795" yOffset="385"/>
-    <component base="_stemSm" xOffset="1395" yOffset="398"/>
-    <component base="_bulgeArch" xOffset="1223"/>
-    <component base="_stemLg" xOffset="2123"/>
+    <component base="_stemSm" xOffset="1390" yOffset="398"/>
+    <component base="_bulgeArch" xOffset="1213"/>
+    <component base="_stemLg" xOffset="2065"/>
   </outline>
 </glyph>

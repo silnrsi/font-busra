@@ -12,8 +12,8 @@
   <anchor x="1251" y="1840" name="UR_2"/>
   <anchor x="1034" y="1236" name="zxc1"/>
   <outline>
-    <component base="_stemLg" xOffset="963"/>
-    <component base="_topArchshort" xOffset="347"/>
+    <component base="_stemLg" xOffset="915"/>
+    <component base="_topArchshort" xOffset="299"/>
     <component base="uni179C"/>
   </outline>
 </glyph>

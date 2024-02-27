@@ -11,9 +11,9 @@
   <anchor x="1251" y="1580" name="UR_2"/>
   <anchor x="1044" y="1236" name="zxc1"/>
   <outline>
-    <component base="_stemLg" xOffset="963"/>
+    <component base="_stemLg" xOffset="915"/>
     <component base="_bulgeArch" xOffset="63"/>
-    <component base="_stemloop" xScale="-1" xOffset="623"/>
-    <component base="_stemSm" xOffset="235" yOffset="480"/>
+    <component base="_stemloop" xScale="-1" xOffset="590"/>
+    <component base="_stemSm" xOffset="240" yOffset="480"/>
   </outline>
 </glyph>

@@ -10,10 +10,10 @@
   <outline>
     <component base="_2"/>
     <contour>
-      <point x="1300" y="0" type="line"/>
-      <point x="1488" y="0" type="line"/>
-      <point x="1488" y="564" type="line"/>
-      <point x="1300" y="564" type="line"/>
+      <point x="1262" y="564" type="line"/>
+      <point x="1262" y="0" type="line"/>
+      <point x="1412" y="0" type="line"/>
+      <point x="1412" y="564" type="line"/>
     </contour>
     <contour>
       <point x="1004" y="564" type="line"/>
@@ -21,11 +21,11 @@
       <point x="1004" y="21"/>
       <point x="1007" y="0"/>
       <point x="1063" y="0" type="curve" smooth="yes"/>
-      <point x="1224" y="0" type="line"/>
-      <point x="1199" y="15"/>
-      <point x="1192" y="26"/>
-      <point x="1192" y="80" type="curve" smooth="yes"/>
-      <point x="1192" y="564" type="line"/>
+      <point x="1186" y="0" type="line"/>
+      <point x="1161" y="15"/>
+      <point x="1154" y="26"/>
+      <point x="1154" y="80" type="curve" smooth="yes"/>
+      <point x="1154" y="564" type="line"/>
     </contour>
   </outline>
   <lib>

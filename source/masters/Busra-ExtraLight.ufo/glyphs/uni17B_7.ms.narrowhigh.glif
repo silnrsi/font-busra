@@ -22,22 +22,22 @@
       <point x="-534" y="1968"/>
     </contour>
     <contour>
-      <point x="-438" y="2099" type="curve" smooth="yes"/>
-      <point x="-485" y="2099"/>
-      <point x="-516" y="2090"/>
-      <point x="-542" y="2090" type="curve" smooth="yes"/>
-      <point x="-570" y="2090"/>
-      <point x="-587" y="2113"/>
-      <point x="-587" y="2140" type="curve" smooth="yes"/>
-      <point x="-587" y="2177"/>
-      <point x="-555" y="2221"/>
-      <point x="-475" y="2221" type="curve" smooth="yes"/>
-      <point x="-396" y="2221"/>
-      <point x="-278" y="2163"/>
-      <point x="-194" y="1999" type="curve"/>
-      <point x="-176" y="2015" type="line"/>
-      <point x="-285" y="2083"/>
-      <point x="-372" y="2099"/>
+      <point x="-437" y="2087" type="curve" smooth="yes"/>
+      <point x="-492" y="2087"/>
+      <point x="-528" y="2077"/>
+      <point x="-559" y="2077" type="curve" smooth="yes"/>
+      <point x="-591" y="2077"/>
+      <point x="-611" y="2103"/>
+      <point x="-611" y="2135" type="curve" smooth="yes"/>
+      <point x="-611" y="2178"/>
+      <point x="-574" y="2229"/>
+      <point x="-481" y="2229" type="curve" smooth="yes"/>
+      <point x="-388" y="2229"/>
+      <point x="-251" y="2162"/>
+      <point x="-153" y="1971" type="curve"/>
+      <point x="-132" y="1989" type="line"/>
+      <point x="-259" y="2069"/>
+      <point x="-360" y="2087"/>
     </contour>
   </outline>
 </glyph>

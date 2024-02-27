@@ -7,6 +7,6 @@
   <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <component base="uni17D21780"/>
-    <component base="_outstroke" xScale="0.77378" yScale="0.77378" xOffset="-987" yOffset="-710"/>
+    <component base="_outstroke" xScale="0.77378" yScale="0.77378" xOffset="-999" yOffset="-710"/>
   </outline>
 </glyph>

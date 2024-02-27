@@ -10,8 +10,8 @@
     <component base="_stemSub" xOffset="162" yOffset="-120"/>
     <component base="_L.ear" xOffset="-7"/>
     <component base="_loopInstroke" xOffset="-993" yOffset="1"/>
-    <component base="_subcurve" xOffset="-386" yOffset="-207"/>
-    <component base="_subcurve" xOffset="-932" yOffset="-207"/>
+    <component base="_subcurve" xOffset="-386" yOffset="-210"/>
+    <component base="_subcurve" xOffset="-932" yOffset="-210"/>
     <component base="_subL.ear" xOffset="-423" yOffset="49"/>
     <component base="_substemSm" xOffset="-384" yOffset="-107"/>
     <component base="_substemSm" xOffset="-930" yOffset="-50"/>

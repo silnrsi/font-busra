@@ -11,19 +11,19 @@
     <component base="_swash" xOffset="40"/>
     <component base="uni1794"/>
     <contour>
-      <point x="1158" y="-464" type="curve"/>
+      <point x="1144" y="-480" type="curve"/>
       <point x="1037" y="-540" type="line"/>
       <point x="1087" y="-585"/>
       <point x="1166" y="-619"/>
       <point x="1237" y="-619" type="curve" smooth="yes"/>
-      <point x="1309" y="-619"/>
-      <point x="1372" y="-584"/>
-      <point x="1392" y="-490" type="curve"/>
-      <point x="1356" y="-510"/>
-      <point x="1323" y="-519"/>
-      <point x="1291" y="-519" type="curve" smooth="yes"/>
-      <point x="1243" y="-519"/>
-      <point x="1200" y="-499"/>
+      <point x="1299" y="-619"/>
+      <point x="1358" y="-590"/>
+      <point x="1378" y="-506" type="curve"/>
+      <point x="1342" y="-526"/>
+      <point x="1309" y="-535"/>
+      <point x="1277" y="-535" type="curve" smooth="yes"/>
+      <point x="1229" y="-535"/>
+      <point x="1186" y="-515"/>
     </contour>
   </outline>
   <lib>

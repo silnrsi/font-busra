@@ -3,28 +3,28 @@
   <advance width="728"/>
   <outline>
     <component base="_L.ear" xOffset="22"/>
-    <component base="_stemSub" xOffset="195" yOffset="-100"/>
-    <component base="_stemMd" xOffset="195" yOffset="-1013"/>
-    <component base="_substemSm" xOffset="1051" yOffset="-534"/>
+    <component base="_stemSub" xOffset="180" yOffset="-100"/>
+    <component base="_stemMd" xOffset="200" yOffset="-1013"/>
+    <component base="_substemSm" xOffset="1021" yOffset="-534"/>
     <contour>
-      <point x="295" y="-1049" type="line" smooth="yes"/>
-      <point x="295" y="-1166"/>
-      <point x="556" y="-1225"/>
-      <point x="817" y="-1225" type="curve" smooth="yes"/>
-      <point x="1078" y="-1225"/>
-      <point x="1339" y="-1166"/>
-      <point x="1339" y="-1049" type="curve" smooth="yes"/>
-      <point x="1339" y="-979" type="line"/>
-      <point x="1151" y="-979" type="line"/>
-      <point x="1151" y="-1031" type="line" smooth="yes"/>
-      <point x="1151" y="-1089"/>
-      <point x="984" y="-1119"/>
-      <point x="817" y="-1119" type="curve" smooth="yes"/>
-      <point x="650" y="-1119"/>
-      <point x="483" y="-1089"/>
-      <point x="483" y="-1031" type="curve" smooth="yes"/>
-      <point x="483" y="-979" type="line"/>
-      <point x="295" y="-979" type="line"/>
+      <point x="300" y="-1049" type="line" smooth="yes"/>
+      <point x="300" y="-1166"/>
+      <point x="548" y="-1225"/>
+      <point x="795" y="-1225" type="curve" smooth="yes"/>
+      <point x="1043" y="-1225"/>
+      <point x="1290" y="-1166"/>
+      <point x="1290" y="-1049" type="curve" smooth="yes"/>
+      <point x="1290" y="-979" type="line"/>
+      <point x="1140" y="-979" type="line"/>
+      <point x="1140" y="-1043" type="line" smooth="yes"/>
+      <point x="1140" y="-1105"/>
+      <point x="968" y="-1132"/>
+      <point x="795" y="-1132" type="curve" smooth="yes"/>
+      <point x="623" y="-1132"/>
+      <point x="450" y="-1105"/>
+      <point x="450" y="-1043" type="curve" smooth="yes"/>
+      <point x="450" y="-979" type="line"/>
+      <point x="300" y="-979" type="line"/>
     </contour>
   </outline>
   <lib>

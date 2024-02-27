@@ -13,8 +13,8 @@
   <anchor x="1763" y="1580" name="UR_2"/>
   <anchor x="1561" y="1236" name="zxc1"/>
   <outline>
-    <component base="uni1791"/>
-    <component base="uni17B6" xOffset="1280"/>
+    <component base="uni1791" xOffset="40"/>
+    <component base="uni17B6" xOffset="1315"/>
   </outline>
   <lib>
     <dict>

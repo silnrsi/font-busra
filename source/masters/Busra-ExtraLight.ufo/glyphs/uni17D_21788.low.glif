@@ -7,14 +7,14 @@
   <anchor x="388" y="1580" name="UN"/>
   <anchor x="483" y="1580" name="UR"/>
   <outline>
-    <component base="_stemSub" xOffset="195" yOffset="-120"/>
-    <component base="_subcurve" xOffset="-267" yOffset="-735"/>
-    <component base="_stemMd" xOffset="195" yOffset="-1069"/>
-    <component base="_subL.ear" xOffset="-346" yOffset="-588"/>
+    <component base="_stemSub" xOffset="180" yOffset="-120"/>
+    <component base="_subcurve" xOffset="-262" yOffset="-735"/>
+    <component base="_stemMd" xOffset="200" yOffset="-1069"/>
+    <component base="_subL.ear" xOffset="-350" yOffset="-588"/>
     <component base="_L.ear" xOffset="22"/>
-    <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="-675" yOffset="-1389"/>
-    <component base="_subarch" xOffset="-1075" yOffset="-493"/>
-    <component base="_subarch" yScale="-1" xOffset="-671" yOffset="-1527"/>
-    <component base="_substemTiny" xOffset="-721" yOffset="-553"/>
+    <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="-759" yOffset="-1389"/>
+    <component base="_subarch" xOffset="-1159" yOffset="-493"/>
+    <component base="_subarch" yScale="-1" xOffset="-717" yOffset="-1527"/>
+    <component base="_substemTiny" xOffset="-767" yOffset="-553"/>
   </outline>
 </glyph>

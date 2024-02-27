@@ -14,12 +14,12 @@
   <anchor x="1721" y="1236" name="zxc1"/>
   <outline>
     <component base="_L.ear" xOffset="62"/>
-    <component base="_stemloop" xScale="-1" xOffset="623"/>
-    <component base="_stemloop" xScale="-1" xOffset="1303"/>
+    <component base="_stemloop" xScale="-1" xOffset="590"/>
+    <component base="_stemloop" xScale="-1" xOffset="1265"/>
     <component base="_horizontal" xOffset="300" yOffset="40"/>
-    <component base="_stemSm" xOffset="235" yOffset="500"/>
+    <component base="_stemSm" xOffset="240" yOffset="500"/>
     <component base="_stemSm" xOffset="915" yOffset="500"/>
-    <component base="_stemLg" xOffset="1643"/>
-    <component base="_bulgeArch" xOffset="743"/>
+    <component base="_stemLg" xOffset="1590"/>
+    <component base="_bulgeArch" xOffset="738"/>
   </outline>
 </glyph>

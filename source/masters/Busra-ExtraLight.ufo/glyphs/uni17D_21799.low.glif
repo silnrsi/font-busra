@@ -10,7 +10,7 @@
     <component base="_L.ear" xOffset="22"/>
     <component base="_subcurveMed" xOffset="-553" yOffset="-1224"/>
     <component base="_ballInstroke" xScale="-1" xOffset="-83" yOffset="-626"/>
-    <component base="_stemSub" xOffset="195" yOffset="-110"/>
-    <component base="_stemMd" xOffset="195" yOffset="-1034"/>
+    <component base="_stemSub" xOffset="180" yOffset="-110"/>
+    <component base="_stemMd" xOffset="200" yOffset="-1034"/>
   </outline>
 </glyph>

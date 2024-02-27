@@ -8,18 +8,18 @@
   <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <contour>
-      <point x="-621" y="-505" type="line"/>
-      <point x="-621" y="-691" type="line"/>
-      <point x="-433" y="-691" type="line"/>
-      <point x="-433" y="-505" type="line"/>
-      <point x="-245" y="-505" type="line"/>
-      <point x="-245" y="-317" type="line"/>
-      <point x="-433" y="-317" type="line"/>
-      <point x="-433" y="-150" type="line"/>
-      <point x="-621" y="-150" type="line"/>
-      <point x="-621" y="-317" type="line"/>
-      <point x="-808" y="-317" type="line"/>
-      <point x="-808" y="-505" type="line"/>
+      <point x="-601" y="-485" type="line"/>
+      <point x="-601" y="-681" type="line"/>
+      <point x="-453" y="-681" type="line"/>
+      <point x="-453" y="-485" type="line"/>
+      <point x="-255" y="-485" type="line"/>
+      <point x="-255" y="-337" type="line"/>
+      <point x="-453" y="-337" type="line"/>
+      <point x="-453" y="-160" type="line"/>
+      <point x="-601" y="-160" type="line"/>
+      <point x="-601" y="-337" type="line"/>
+      <point x="-798" y="-337" type="line"/>
+      <point x="-798" y="-485" type="line"/>
     </contour>
   </outline>
 </glyph>

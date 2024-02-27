@@ -15,7 +15,7 @@
   <outline>
     <component base="_stemSub" xOffset="162" yOffset="-120"/>
     <component base="_loopInstroke" xOffset="-993" yOffset="-645"/>
-    <component base="_subcurve" xOffset="-386" yOffset="-735"/>
+    <component base="_subcurve" xScale="-1" xOffset="664" yOffset="-735"/>
     <component base="_subcurve" xOffset="-932" yOffset="-735"/>
     <component base="_stemMd" xOffset="162" yOffset="-1060"/>
     <component base="_subL.ear" xOffset="-423" yOffset="-594"/>

@@ -14,6 +14,6 @@
   <anchor x="1750" y="1236" name="zxc1"/>
   <outline>
     <component base="uni178217B6"/>
-    <component base="_eyelash" xOffset="713" yOffset="-188"/>
+    <component base="_eyelash" xOffset="713" yOffset="-208"/>
   </outline>
 </glyph>

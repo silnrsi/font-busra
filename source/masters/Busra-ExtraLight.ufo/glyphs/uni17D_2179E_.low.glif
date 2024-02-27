@@ -8,6 +8,6 @@
   <anchor x="483" y="1580" name="UR"/>
   <outline>
     <component base="uni17D21794.low"/>
-    <component base="_eyelash2"/>
+    <component base="_eyelash2" xOffset="-10"/>
   </outline>
 </glyph>

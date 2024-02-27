@@ -5,7 +5,7 @@
   <anchor x="641" y="0" name="LR"/>
   <anchor x="641" y="1436" name="UR"/>
   <outline>
-    <component base="uni17C6" xOffset="1113" yOffset="-750"/>
-    <component base="uni17C6" xOffset="1113" yOffset="-1441"/>
+    <component base="uni17C6" xOffset="1113" yOffset="-739"/>
+    <component base="uni17C6" xOffset="1113" yOffset="-1522"/>
   </outline>
 </glyph>

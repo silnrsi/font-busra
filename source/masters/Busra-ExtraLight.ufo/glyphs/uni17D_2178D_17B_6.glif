@@ -13,12 +13,12 @@
   <anchor x="1211" y="1580" name="UR_2"/>
   <anchor x="1007" y="1236" name="zxc1"/>
   <outline>
-    <component base="_stemSub" xOffset="195" yOffset="-120"/>
+    <component base="_stemSub" xOffset="180" yOffset="-120"/>
     <component base="_subm" xOffset="-957"/>
-    <component base="_subdiagonal" xOffset="-238" yOffset="-120"/>
-    <component base="_loopInstroke" yScale="-1" xOffset="-469" yOffset="-861"/>
+    <component base="_subdiagonal" xOffset="-271" yOffset="-120"/>
+    <component base="_loopInstroke" yScale="-1" xOffset="-513" yOffset="-861"/>
     <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="-557" yOffset="-861"/>
     <component base="_bulgeArch" xOffset="23"/>
-    <component base="_stemLg" xOffset="923"/>
+    <component base="_stemLg" xOffset="875"/>
   </outline>
 </glyph>

@@ -9,14 +9,14 @@
   <anchor x="-225" y="-670" name="_LX"/>
   <outline>
     <component base="_loopInstroke" yScale="-1" xOffset="-595" yOffset="-1376"/>
-    <component base="_loopInstroke" yScale="-1" xOffset="-1093" yOffset="-1376"/>
-    <component base="_substemSm" xOffset="-1031" yOffset="-464"/>
-    <component base="_substemSm" xOffset="-533" yOffset="-464"/>
+    <component base="_loopInstroke" yScale="-1" xOffset="-1073" yOffset="-1376"/>
+    <component base="_substemSm" xOffset="-992" yOffset="-464"/>
+    <component base="_substemSm" xOffset="-514" yOffset="-464"/>
     <contour>
-      <point x="-931" y="-900" type="line"/>
-      <point x="-931" y="-996" type="line"/>
-      <point x="-245" y="-996" type="line"/>
-      <point x="-245" y="-900" type="line"/>
+      <point x="-873" y="-905" type="line"/>
+      <point x="-873" y="-986" type="line"/>
+      <point x="-245" y="-986" type="line"/>
+      <point x="-245" y="-905" type="line"/>
     </contour>
   </outline>
   <lib>

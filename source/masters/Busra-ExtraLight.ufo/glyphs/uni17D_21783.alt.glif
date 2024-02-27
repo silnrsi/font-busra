@@ -7,13 +7,13 @@
   <anchor x="388" y="1580" name="UN"/>
   <anchor x="483" y="1580" name="UR"/>
   <outline>
-    <component base="_stemSm" xOffset="-317" yOffset="-604"/>
-    <component base="_stemSub" xOffset="195" yOffset="-111"/>
+    <component base="_stemSm" xOffset="-325" yOffset="-604"/>
+    <component base="_stemSub" xOffset="180" yOffset="-111"/>
     <component base="_L.ear" xOffset="22"/>
-    <component base="_loopInstroke" xOffset="-891" yOffset="1"/>
-    <component base="_subcurve" xOffset="-267" yOffset="-207"/>
-    <component base="_subcurve" xOffset="-779" yOffset="-207"/>
-    <component base="_substemSm" xOffset="-829" yOffset="-70"/>
-    <component base="_substemSm" xOffset="195" yOffset="-69"/>
+    <component base="_loopInstroke" xOffset="-950" yOffset="1"/>
+    <component base="_subcurve" xOffset="-262" yOffset="-207"/>
+    <component base="_subcurve" xOffset="-787" yOffset="-207"/>
+    <component base="_substemSm" xOffset="-869" yOffset="-50"/>
+    <component base="_substemSm" xOffset="181" yOffset="-69"/>
   </outline>
 </glyph>

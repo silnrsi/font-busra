@@ -11,12 +11,12 @@
   <anchor x="388" y="1580" name="UN"/>
   <anchor x="483" y="1580" name="UR"/>
   <outline>
-    <component base="_stemSub" xOffset="195" yOffset="-120"/>
+    <component base="_stemSub" xOffset="180" yOffset="-120"/>
     <component base="_L.ear" xOffset="22"/>
-    <component base="_subm" xOffset="-957" yOffset="-641"/>
-    <component base="_subdiagonal" xOffset="-238" yOffset="-649"/>
-    <component base="_loopInstroke" yScale="-1" xOffset="-469" yOffset="-1390"/>
-    <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="-557" yOffset="-1390"/>
-    <component base="_stemMd" xOffset="195" yOffset="-989"/>
+    <component base="_subm" xOffset="-989" yOffset="-641"/>
+    <component base="_subdiagonal" xOffset="-271" yOffset="-649"/>
+    <component base="_loopInstroke" yScale="-1" xOffset="-545" yOffset="-1390"/>
+    <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="-589" yOffset="-1390"/>
+    <component base="_stemMd" xOffset="200" yOffset="-989"/>
   </outline>
 </glyph>

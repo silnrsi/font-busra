@@ -22,4 +22,4 @@ echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters source/BusraUpright.designspace 
 
 #echo "-----Updating WOFF metadata..."
-#psfmakewoffmetadata -n Busra -i "org.sil.fonts" -o source/Busra-WOFF-metadata.xml source/masters/Busra-Regular.ufo
+psfmakewoffmetadata -n busra -i "org.sil.fonts" -o source/busra-WOFF-metadata.xml source/masters/Busra-Regular.ufo

@@ -33,10 +33,8 @@ designspace('source/' + FAMILY + 'Upright.designspace',
         master = 'source/Busra.feax',
         make_params = " ".join(mparams),
         params = '-m source/${DS:FILENAME_BASE}.map'),
-#    woff = woff('web/${DS:FILENAME_BASE}.woff',
-#        metadata=f'../source/{FAMILY}-WOFF-metadata.xml',
-#        cmd='psfwoffit -m ${SRC[1]} --woff ${TGT} --woff2 ${TGT}2 ${SRC[0]}'
-#        ),
+    woff = woff('web/${DS:FILENAME_BASE}.woff',
+        metadata=f'../source/busra-WOFF-metadata.xml'),
     script = 'khmr',
     pdf = fret(params='-oi -r')
 )

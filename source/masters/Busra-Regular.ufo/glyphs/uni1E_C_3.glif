@@ -2,7 +2,7 @@
 <glyph name="uni1EC3" format="2">
   <advance width="1201"/>
   <unicode hex="1EC3"/>
-  <guideline x="494"/>
+  <guideline x="494" y="0" angle="0"/>
   <anchor x="631" y="-110" name="LL"/>
   <anchor x="604" y="2061" name="LU"/>
   <anchor x="520" y="0" name="PB"/>

@@ -3,9 +3,11 @@
     <axes>
         <axis default="400.0" maximum="900.0" minimum="200.0" name="weight" tag="wght">
             <map input="200.0" output="150.0" />
+            <map input="300.0" output="168.0" />
             <map input="400.0" output="188.0" />
+            <map input="500.0" output="225.0" />
+            <map input="600.0" output="260.0" />
             <map input="700.0" output="300.0" />
-            <map input="900.0" output="375.0" />
             <labelname xml:lang="en">Weight</labelname>
         </axis>
         <axis default="100.0" maximum="100.0" minimum="100.0" name="width" tag="wdth">
@@ -43,18 +45,20 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Busra" filename="masters/Busra-Black.ufo" name="Busra Black" stylename="Black">
-            <location>
-                <dimension name="weight" xvalue="375.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
-            </location>
-        </source>
     </sources>
     <instances>
         <instance familyname="Busra" filename="instances/Busra-ExtraLight.ufo" name="Busra ExtraLight" stylemapfamilyname="Busra ExtraLight" stylemapstylename="regular" stylename="ExtraLight" postscriptfontname="Busra-ExtraLight">
             <location>
                 <dimension name="weight" xvalue="150.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Busra" filename="instances/Busra-Light.ufo" name="Busra Light" stylemapfamilyname="Busra Light" stylemapstylename="regular" stylename="Light" postscriptfontname="Busra-Light">
+            <location>
+                <dimension name="weight" xvalue="168.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
@@ -70,18 +74,27 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Busra" filename="instances/Busra-Bold.ufo" name="Busra Bold" stylemapfamilyname="Busra" stylemapstylename="bold" stylename="Bold" postscriptfontname="Busra-Bold">
+        <instance familyname="Busra" filename="instances/Busra-Medium.ufo" name="Busra Medium" stylemapfamilyname="Busra Medium" stylemapstylename="regular" stylename="Medium" postscriptfontname="Busra-Medium">
             <location>
-                <dimension name="weight" xvalue="300.000000" />
+                <dimension name="weight" xvalue="225.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
             <info />
             <kerning />
         </instance>
-        <instance familyname="Busra" filename="instances/Busra-Black.ufo" name="Busra Black" stylemapfamilyname="Busra Black" stylemapstylename="regular" stylename="Black" postscriptfontname="Busra-Black">
+        <instance familyname="Busra" filename="instances/Busra-SemiBold.ufo" name="Busra SemiBold" stylemapfamilyname="Busra SemiBold" stylemapstylename="regular" stylename="SemiBold" postscriptfontname="Busra-SemiBold">
             <location>
-                <dimension name="weight" xvalue="375.000000" />
+                <dimension name="weight" xvalue="260.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Busra" filename="instances/Busra-Bold.ufo" name="Busra Bold" stylemapfamilyname="Busra" stylemapstylename="bold" stylename="Bold" postscriptfontname="Busra-Bold">
+            <location>
+                <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>

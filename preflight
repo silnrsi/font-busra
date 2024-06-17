@@ -9,7 +9,7 @@ psfsetglyphorder --header sort_design -i source/glyph_data.csv source/masters/Bu
 echo "-----Normalizing other weights..."
 psfnormalize -p checkfix=fix source/masters/Busra-ExtraLight.ufo
 psfnormalize -p checkfix=fix source/masters/Busra-Bold.ufo
-psfnormalize -p checkfix=fix source/masters/Busra-Black.ufo
+#psfnormalize -p checkfix=fix source/masters/Busra-Black.ufo
 
 #echo "-----Rebuilding composites..."
 psfbuildcomp -i source/composites.txt -c -n source/masters/Busra-ExtraLight.ufo -p backup=False
@@ -19,7 +19,7 @@ psfbuildcomp -i source/composites.txt -c -n source/masters/Busra-Bold.ufo -p bac
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
 #psfsyncmasters source/BusraUprightDesign.designspace 
-psfsyncmasters source/BusraUprightRBXL.designspace 
+psfsyncmasters source/BusraUpright.designspace 
 
 #echo "-----Updating WOFF metadata..."
 #psfmakewoffmetadata -n Busra -i "org.sil.fonts" -o source/Busra-WOFF-metadata.xml source/masters/Busra-Regular.ufo

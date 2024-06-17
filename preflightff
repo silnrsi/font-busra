@@ -1,4 +1,5 @@
 #!/bin/sh
 
+psffixffglifs source/masters/Busra-ExtraLight.ufo -p checkfix=fix
 psffixffglifs source/masters/Busra-Regular.ufo -p checkfix=fix
 psffixffglifs source/masters/Busra-Bold.ufo -p checkfix=fix

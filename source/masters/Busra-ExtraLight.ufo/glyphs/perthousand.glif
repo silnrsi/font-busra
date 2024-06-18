@@ -7,30 +7,30 @@
     <contour>
       <point x="1757" y="25" type="curve" smooth="yes"/>
       <point x="1899" y="25"/>
-      <point x="2006" y="106"/>
-      <point x="2006" y="364" type="curve" smooth="yes"/>
-      <point x="2006" y="622"/>
+      <point x="1996" y="106"/>
+      <point x="1996" y="364" type="curve" smooth="yes"/>
+      <point x="1996" y="622"/>
       <point x="1929" y="703"/>
       <point x="1757" y="703" type="curve" smooth="yes"/>
       <point x="1615" y="703"/>
-      <point x="1508" y="622"/>
-      <point x="1508" y="364" type="curve" smooth="yes"/>
-      <point x="1508" y="106"/>
+      <point x="1518" y="622"/>
+      <point x="1518" y="364" type="curve" smooth="yes"/>
+      <point x="1518" y="106"/>
       <point x="1615" y="25"/>
     </contour>
     <contour>
-      <point x="1757" y="105" type="curve" smooth="yes"/>
-      <point x="1699" y="105"/>
-      <point x="1637" y="194"/>
-      <point x="1637" y="364" type="curve" smooth="yes"/>
-      <point x="1637" y="535"/>
-      <point x="1699" y="613"/>
-      <point x="1757" y="613" type="curve" smooth="yes"/>
-      <point x="1815" y="613"/>
-      <point x="1877" y="534"/>
-      <point x="1877" y="364" type="curve" smooth="yes"/>
-      <point x="1877" y="194"/>
-      <point x="1815" y="105"/>
+      <point x="1757" y="85" type="curve" smooth="yes"/>
+      <point x="1684" y="85"/>
+      <point x="1627" y="184"/>
+      <point x="1627" y="364" type="curve" smooth="yes"/>
+      <point x="1627" y="545"/>
+      <point x="1684" y="633"/>
+      <point x="1757" y="633" type="curve" smooth="yes"/>
+      <point x="1830" y="633"/>
+      <point x="1887" y="544"/>
+      <point x="1887" y="364" type="curve" smooth="yes"/>
+      <point x="1887" y="184"/>
+      <point x="1830" y="85"/>
     </contour>
   </outline>
   <lib>
@@ -38,7 +38,7 @@
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CPP</string>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

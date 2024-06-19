@@ -5,28 +5,28 @@
   <anchor x="-624" y="1350" name="_LU"/>
   <outline>
     <contour>
-      <point x="-888" y="1352" type="line"/>
-      <point x="-820" y="1425"/>
-      <point x="-686" y="1554"/>
-      <point x="-535" y="1646" type="curve"/>
-      <point x="-713" y="1646" type="line"/>
-      <point x="-562" y="1554"/>
-      <point x="-428" y="1425"/>
-      <point x="-360" y="1352" type="curve"/>
-      <point x="-276" y="1415" type="line"/>
-      <point x="-365" y="1538"/>
-      <point x="-459" y="1638"/>
-      <point x="-578" y="1742" type="curve"/>
-      <point x="-670" y="1742" type="line"/>
-      <point x="-789" y="1638"/>
-      <point x="-883" y="1538"/>
-      <point x="-972" y="1415" type="curve"/>
+      <point x="-892" y="1356" type="line"/>
+      <point x="-824" y="1429"/>
+      <point x="-690" y="1558"/>
+      <point x="-539" y="1650" type="curve"/>
+      <point x="-709" y="1650" type="line"/>
+      <point x="-558" y="1558"/>
+      <point x="-424" y="1429"/>
+      <point x="-356" y="1356" type="curve"/>
+      <point x="-286" y="1405" type="line"/>
+      <point x="-375" y="1528"/>
+      <point x="-469" y="1628"/>
+      <point x="-588" y="1732" type="curve"/>
+      <point x="-660" y="1732" type="line"/>
+      <point x="-779" y="1628"/>
+      <point x="-873" y="1528"/>
+      <point x="-962" y="1405" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

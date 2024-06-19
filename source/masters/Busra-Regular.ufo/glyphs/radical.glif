@@ -3,9 +3,10 @@
   <advance width="1107"/>
   <unicode hex="221A"/>
   <guideline x="477" y="640" angle="110.7256"/>
+  <guideline x="817" y="841" angle="78.01"/>
   <outline>
     <contour>
-      <point x="1127" y="1681" type="line"/>
+      <point x="1127" y="1675" type="line"/>
       <point x="1127" y="1791" type="line"/>
       <point x="895" y="1791" type="line"/>
       <point x="575" y="254" type="line"/>
@@ -15,14 +16,14 @@
       <point x="60" y="869" type="line"/>
       <point x="221" y="829" type="line"/>
       <point x="539" y="0" type="line"/>
-      <point x="636" y="0" type="line"/>
-      <point x="993" y="1681" type="line"/>
+      <point x="635" y="0" type="line"/>
+      <point x="994" y="1675" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

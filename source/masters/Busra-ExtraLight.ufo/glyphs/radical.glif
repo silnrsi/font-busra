@@ -2,27 +2,28 @@
 <glyph name="radical" format="2">
   <advance width="1107"/>
   <unicode hex="221A"/>
-  <guideline x="477" y="640" angle="110.7256"/>
+  <guideline x="465" y="640" angle="110.7256"/>
+  <guideline x="852" y="1004" angle="258.2392"/>
   <outline>
     <contour>
-      <point x="1127" y="1681" type="line"/>
+      <point x="1127" y="1691" type="line"/>
       <point x="1127" y="1791" type="line"/>
-      <point x="895" y="1791" type="line"/>
-      <point x="575" y="254" type="line"/>
-      <point x="622" y="258" type="line"/>
-      <point x="358" y="954" type="line"/>
+      <point x="925" y="1791" type="line"/>
+      <point x="590" y="184" type="line"/>
+      <point x="642" y="173" type="line"/>
+      <point x="346" y="954" type="line"/>
       <point x="60" y="954" type="line"/>
-      <point x="60" y="869" type="line"/>
-      <point x="221" y="829" type="line"/>
+      <point x="60" y="879" type="line"/>
+      <point x="221" y="839" type="line"/>
       <point x="539" y="0" type="line"/>
-      <point x="636" y="0" type="line"/>
-      <point x="993" y="1681" type="line"/>
+      <point x="644" y="0" type="line"/>
+      <point x="995" y="1691" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -7,10 +7,10 @@
   <outline>
     <component base="a" xScale="0.55" yScale="0.55" xOffset="34" yOffset="1112"/>
     <contour>
-      <point x="131" y="885" type="line"/>
-      <point x="663" y="885" type="line"/>
-      <point x="663" y="968" type="line"/>
-      <point x="131" y="968" type="line"/>
+      <point x="131" y="895" type="line"/>
+      <point x="663" y="895" type="line"/>
+      <point x="663" y="958" type="line"/>
+      <point x="131" y="958" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -18,7 +18,7 @@
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CP</string>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

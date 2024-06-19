@@ -30,7 +30,7 @@
       <key>name</key>
       <string>f2</string>
       <key>y</key>
-      <integer>-150</integer>
+      <integer>-151</integer>
     </dict>
     <dict>
       <key>angle</key>
@@ -74,7 +74,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2024/06/18 16:53:49</string>
+  <string>2024/06/19 13:21:05</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>

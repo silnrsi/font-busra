@@ -6,16 +6,16 @@
   <outline>
     <component base="uni0306.high" xOffset="2" yOffset="-313"/>
     <contour>
-      <point x="-952" y="1873" type="curve"/>
-      <point x="-936" y="1923"/>
-      <point x="-897" y="1976"/>
-      <point x="-844" y="1988" type="curve"/>
-      <point x="-726" y="1914"/>
-      <point x="-605" y="1822"/>
-      <point x="-498" y="1705" type="curve"/>
-      <point x="-569" y="1644" type="line"/>
-      <point x="-671" y="1728"/>
-      <point x="-811" y="1816"/>
+      <point x="-942" y="1875" type="curve"/>
+      <point x="-926" y="1925"/>
+      <point x="-902" y="1970"/>
+      <point x="-849" y="1982" type="curve"/>
+      <point x="-731" y="1908"/>
+      <point x="-614" y="1814"/>
+      <point x="-507" y="1697" type="curve"/>
+      <point x="-562" y="1650" type="line"/>
+      <point x="-664" y="1734"/>
+      <point x="-801" y="1818"/>
     </contour>
   </outline>
   <lib>
@@ -23,7 +23,7 @@
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CP</string>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -5,16 +5,16 @@
   <outline>
     <component base="circumflexcomb"/>
     <contour>
-      <point x="-46" y="1819" type="curve"/>
-      <point x="-183" y="1750"/>
-      <point x="-257" y="1708"/>
-      <point x="-359" y="1624" type="curve"/>
-      <point x="-430" y="1685" type="line"/>
-      <point x="-323" y="1802"/>
-      <point x="-272" y="1846"/>
-      <point x="-154" y="1934" type="curve"/>
-      <point x="-101" y="1922"/>
-      <point x="-62" y="1869"/>
+      <point x="-58" y="1820" type="curve"/>
+      <point x="-195" y="1751"/>
+      <point x="-264" y="1716"/>
+      <point x="-366" y="1632" type="curve"/>
+      <point x="-418" y="1682" type="line"/>
+      <point x="-311" y="1799"/>
+      <point x="-265" y="1836"/>
+      <point x="-147" y="1924" type="curve"/>
+      <point x="-94" y="1912"/>
+      <point x="-74" y="1870"/>
     </contour>
   </outline>
   <lib>
@@ -22,7 +22,7 @@
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CP</string>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

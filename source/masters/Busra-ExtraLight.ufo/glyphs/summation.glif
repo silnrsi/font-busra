@@ -2,23 +2,23 @@
 <glyph name="summation" format="2">
   <advance width="1269"/>
   <unicode hex="2211"/>
-  <guideline x="687" y="1139" angle="310.7576"/>
-  <guideline x="627" y="490" angle="229.4223"/>
+  <guideline x="620" y="1139" angle="310.7576"/>
+  <guideline x="681" y="601" angle="229.4223"/>
   <outline>
     <contour>
       <point x="89" y="0" type="line"/>
       <point x="1150" y="0" type="line"/>
-      <point x="1150" y="378" type="line"/>
-      <point x="1055" y="378" type="line"/>
-      <point x="1021" y="188" type="line"/>
-      <point x="257" y="188" type="line"/>
-      <point x="288" y="123" type="line"/>
-      <point x="911" y="851" type="line"/>
-      <point x="263" y="1602" type="line"/>
-      <point x="218" y="1538" type="line"/>
-      <point x="990" y="1538" type="line"/>
-      <point x="1024" y="1348" type="line"/>
-      <point x="1119" y="1348" type="line"/>
+      <point x="1150" y="348" type="line"/>
+      <point x="1075" y="348" type="line"/>
+      <point x="1041" y="158" type="line"/>
+      <point x="217" y="158" type="line"/>
+      <point x="271" y="122" type="line"/>
+      <point x="882" y="835" type="line"/>
+      <point x="221" y="1602" type="line"/>
+      <point x="218" y="1548" type="line"/>
+      <point x="1010" y="1548" type="line"/>
+      <point x="1044" y="1358" type="line"/>
+      <point x="1119" y="1358" type="line"/>
       <point x="1119" y="1650" type="line"/>
       <point x="86" y="1650" type="line"/>
       <point x="86" y="1515" type="line"/>
@@ -30,7 +30,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

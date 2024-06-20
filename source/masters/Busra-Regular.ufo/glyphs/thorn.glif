@@ -4,8 +4,6 @@
   <unicode hex="00FE"/>
   <anchor x="670" y="-690" name="LL"/>
   <anchor x="670" y="1880" name="LU"/>
-  <anchor x="520" y="-200" name="PB"/>
-  <anchor x="580" y="200" name="def"/>
   <outline>
     <contour>
       <point x="70" y="-600" type="line"/>
@@ -51,7 +49,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

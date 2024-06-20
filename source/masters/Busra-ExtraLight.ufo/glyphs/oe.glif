@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oe" format="2">
-  <advance width="2002"/>
+  <advance width="1982"/>
   <unicode hex="0153"/>
   <anchor x="1021" y="-110" name="LL"/>
   <anchor x="1021" y="1350" name="LU"/>
@@ -13,7 +13,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.65,0.48,0.2,1</string>
     </dict>
   </lib>
 </glyph>

@@ -18,19 +18,20 @@
       <point x="615" y="105" type="line"/>
     </contour>
     <contour>
-      <point x="1432" y="1510" type="line"/>
-      <point x="1602" y="1545" type="line"/>
-      <point x="1602" y="1650" type="line"/>
-      <point x="1102" y="1650" type="line"/>
-      <point x="1102" y="1545" type="line"/>
-      <point x="1272" y="1510" type="line"/>
-      <point x="1272" y="0" type="line"/>
-      <point x="1432" y="0" type="line"/>
+      <point x="1397" y="1510" type="line"/>
+      <point x="1567" y="1545" type="line"/>
+      <point x="1567" y="1650" type="line"/>
+      <point x="1067" y="1650" type="line"/>
+      <point x="1067" y="1545" type="line"/>
+      <point x="1237" y="1510" type="line"/>
+      <point x="1237" y="0" type="line"/>
+      <point x="1397" y="0" type="line"/>
     </contour>
     <contour>
       <point x="211" y="1650" type="line"/>
       <point x="1067" y="0" type="line"/>
-      <point x="1411" y="0" type="line"/>
+      <point x="1336" y="0" type="line"/>
+      <point x="1336" y="144" type="line"/>
       <point x="555" y="1650" type="line"/>
     </contour>
   </outline>

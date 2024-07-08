@@ -16,23 +16,23 @@
       <point x="326" y="1409"/>
       <point x="466" y="1559"/>
       <point x="739" y="1559" type="curve" smooth="yes"/>
-      <point x="906" y="1559"/>
+      <point x="918" y="1559"/>
       <point x="1039" y="1493"/>
       <point x="1061" y="1420" type="curve"/>
-      <point x="1095" y="1433" type="line"/>
-      <point x="1074" y="1447"/>
-      <point x="1055" y="1452"/>
-      <point x="1036" y="1452" type="curve" smooth="yes"/>
-      <point x="978" y="1452"/>
-      <point x="937" y="1392"/>
-      <point x="937" y="1345" type="curve" smooth="yes"/>
-      <point x="937" y="1290"/>
-      <point x="979" y="1231"/>
-      <point x="1053" y="1231" type="curve" smooth="yes"/>
-      <point x="1123" y="1231"/>
-      <point x="1188" y="1288"/>
-      <point x="1188" y="1386" type="curve" smooth="yes"/>
-      <point x="1188" y="1528"/>
+      <point x="1083" y="1433" type="line"/>
+      <point x="1062" y="1447"/>
+      <point x="1043" y="1452"/>
+      <point x="1024" y="1452" type="curve" smooth="yes"/>
+      <point x="966" y="1452"/>
+      <point x="925" y="1392"/>
+      <point x="925" y="1345" type="curve" smooth="yes"/>
+      <point x="925" y="1290"/>
+      <point x="967" y="1231"/>
+      <point x="1041" y="1231" type="curve" smooth="yes"/>
+      <point x="1111" y="1231"/>
+      <point x="1176" y="1288"/>
+      <point x="1176" y="1386" type="curve" smooth="yes"/>
+      <point x="1176" y="1528"/>
       <point x="1030" y="1665"/>
       <point x="751" y="1665" type="curve" smooth="yes"/>
       <point x="394" y="1665"/>
@@ -44,9 +44,9 @@
       <point x="1086" y="250"/>
       <point x="944" y="86"/>
       <point x="641" y="86" type="curve" smooth="yes"/>
-      <point x="444" y="86"/>
-      <point x="262" y="176"/>
-      <point x="262" y="235" type="curve"/>
+      <point x="450" y="86"/>
+      <point x="268" y="167"/>
+      <point x="268" y="235" type="curve"/>
       <point x="223" y="222" type="line"/>
       <point x="248" y="206"/>
       <point x="261" y="203"/>

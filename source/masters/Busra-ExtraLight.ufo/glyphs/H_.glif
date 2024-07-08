@@ -6,10 +6,10 @@
   <anchor x="805" y="1745" name="LU"/>
   <outline>
     <contour>
-      <point x="343" y="819" type="line"/>
-      <point x="1269" y="819" type="line"/>
-      <point x="1269" y="921" type="line"/>
-      <point x="343" y="921" type="line"/>
+      <point x="343" y="814" type="line"/>
+      <point x="1269" y="814" type="line"/>
+      <point x="1269" y="924" type="line"/>
+      <point x="343" y="924" type="line"/>
     </contour>
     <contour>
       <point x="437" y="1540" type="line"/>

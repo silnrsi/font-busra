@@ -34,22 +34,22 @@
     </contour>
     <contour>
       <point x="317" y="823" type="line"/>
-      <point x="638" y="823" type="line" smooth="yes"/>
+      <point x="658" y="823" type="line" smooth="yes"/>
       <point x="968" y="823"/>
-      <point x="1263" y="945"/>
+      <point x="1263" y="925"/>
       <point x="1263" y="1245" type="curve" smooth="yes"/>
-      <point x="1263" y="1545"/>
+      <point x="1263" y="1565"/>
       <point x="1008" y="1650"/>
-      <point x="658" y="1650" type="curve" smooth="yes"/>
+      <point x="648" y="1650" type="curve" smooth="yes"/>
       <point x="377" y="1650" type="line"/>
       <point x="377" y="1544" type="line"/>
-      <point x="620" y="1544" type="line" smooth="yes"/>
+      <point x="680" y="1544" type="line" smooth="yes"/>
       <point x="951" y="1544"/>
-      <point x="1092" y="1465"/>
+      <point x="1092" y="1485"/>
       <point x="1092" y="1238" type="curve" smooth="yes"/>
-      <point x="1092" y="1025"/>
+      <point x="1092" y="1005"/>
       <point x="916" y="929"/>
-      <point x="610" y="929" type="curve" smooth="yes"/>
+      <point x="700" y="929" type="curve" smooth="yes"/>
       <point x="317" y="929" type="line"/>
     </contour>
   </outline>

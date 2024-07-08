@@ -8,22 +8,22 @@
   <anchor x="440" y="160" name="def"/>
   <outline>
     <contour>
-      <point x="562" y="-20" type="curve" smooth="yes"/>
-      <point x="634" y="-20"/>
-      <point x="693" y="-11"/>
+      <point x="558" y="-18" type="curve" smooth="yes"/>
+      <point x="624" y="-18"/>
+      <point x="690" y="-4"/>
       <point x="747" y="18" type="curve"/>
       <point x="708" y="115" type="line"/>
-      <point x="686" y="103"/>
-      <point x="664" y="96"/>
-      <point x="610" y="96" type="curve" smooth="yes"/>
-      <point x="512" y="96"/>
-      <point x="435" y="175"/>
-      <point x="435" y="297" type="curve" smooth="yes"/>
+      <point x="676" y="102"/>
+      <point x="640" y="95"/>
+      <point x="606" y="95" type="curve" smooth="yes"/>
+      <point x="517" y="95"/>
+      <point x="435" y="146"/>
+      <point x="435" y="287" type="curve" smooth="yes"/>
       <point x="435" y="1460" type="line"/>
       <point x="247" y="1460" type="line"/>
-      <point x="247" y="277" type="line" smooth="yes"/>
-      <point x="247" y="116"/>
-      <point x="365" y="-20"/>
+      <point x="247" y="267" type="line" smooth="yes"/>
+      <point x="247" y="59"/>
+      <point x="400" y="-18"/>
     </contour>
     <contour>
       <point x="110" y="1120" type="line"/>

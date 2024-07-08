@@ -3,12 +3,13 @@
   <advance width="1250"/>
   <unicode hex="0037"/>
   <guideline x="948" y="1145" angle="90"/>
+  <guideline x="740" y="837" angle="69.2689"/>
   <anchor x="589" y="-110" name="LL"/>
   <anchor x="589" y="1745" name="LU"/>
   <outline>
     <contour>
-      <point x="606" y="-10" type="line"/>
-      <point x="606" y="102" type="line"/>
+      <point x="601" y="0" type="line"/>
+      <point x="601" y="90" type="line"/>
       <point x="1162" y="1571" type="line"/>
       <point x="1162" y="1650" type="line"/>
       <point x="121" y="1650" type="line"/>
@@ -17,7 +18,7 @@
       <point x="231" y="1492" type="line"/>
       <point x="1045" y="1492" type="line"/>
       <point x="1048" y="1613" type="line"/>
-      <point x="423" y="-10" type="line"/>
+      <point x="423" y="0" type="line"/>
     </contour>
   </outline>
   <lib>

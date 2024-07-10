@@ -2,7 +2,23 @@
 <glyph name="uni17BF.rightpart2" format="2">
   <advance width="750"/>
   <outline>
-    <component base="uni17BA" xOffset="604" yOffset="220"/>
-    <component base="uni17C0.rightpart2"/>
+    <component base="_curve" xOffset="-588" yOffset="-1235"/>
+    <component base="_stemMd" xOffset="162" yOffset="-830"/>
+    <component base="uni17BA" xOffset="688" yOffset="-50"/>
+    <contour>
+      <point x="262" y="-160" type="line"/>
+      <point x="562" y="-160" type="line"/>
+      <point x="562" y="1474" type="line" smooth="yes"/>
+      <point x="562" y="1615"/>
+      <point x="531" y="1649"/>
+      <point x="503" y="1687" type="curve"/>
+      <point x="262" y="1574" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCCP</string>
+    </dict>
+  </lib>
 </glyph>

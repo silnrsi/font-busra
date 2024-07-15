@@ -71,15 +71,12 @@
     <string>/uni01A0/space/uni031B/space/uni01AF U/uni01A1/uni01B0/space</string>
     <string>$£¥¤/partialdiff/summation/product/pi/integral</string>
     <string>¢£§/bullet ¶®©/trademark ´¨¥µ/partialdiff/summation/product/pi/integral ªº/Omega µ¿¡/Euro/uni20AB/space/space</string>
-    <string>íî/space f/dieresiscomb ïilj/uni1ECB ì/dotlessi/uni1EC9/uni0129 òóô/uni1ED1/uni1ED9/uni1ED3/uni1ED5/uni1ED7 
-ö/uni1ECD ò/uni1ECF/uni01A1/uni1EDB o/uni01A1/uni1EE3/uni1EDD/uni1EDF/uni1EE1/space cçCÇ</string>
-    <string>aâ/uni1EA5/uni1EAD/uni1EA7/uni1EA9/uni1EAB ä/uni1EA1 à/uni1EA3 åã</string>
     <string>/space |0|1|2|3|4|5|6|7|8|9|/space</string>
-    <string>ab/uni1780 cdcefghi/dotlessi ajclmnopqrstuvwxyz</string>
+    <string>ab/uni1780 cdcefghi/dotlessi jklmnopqrstuvwxyz</string>
     <string>AvHnNoOp
 aoce/space hmnru/quoteright/quoteleft/quotedblleft c/space ,./space/space/space/space/space/space/space b./space dpq;./space/space fgs/space et/space kvwxyz/space ijl/space 
 The/space Quick/space Brown/space Fox/space Jumps/space Over/space the/space Lazy/space Dog/space/_stemMd/uni178717B6/_w/uni178717B6/_deepArch2/uni178717B6/uni178717C5.right/uni1793/uni179317B6/_2/uni17A9</string>
-    <string>c</string>
+    <string>S$cC¢£§/integral/florin ?¿©/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

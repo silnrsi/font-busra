@@ -2,12 +2,12 @@
 <glyph name="nine" format="2">
   <advance width="1250"/>
   <unicode hex="0039"/>
-  <guideline x="864" y="1145" angle="90"/>
-  <guideline x="359" y="1105" angle="270"/>
-  <anchor x="644" y="-110" name="LL"/>
-  <anchor x="589" y="1745" name="LU"/>
+  <guideline x="849" y="1145" angle="90"/>
+  <guideline x="344" y="1105" angle="270"/>
+  <anchor x="629" y="-110" name="LL"/>
+  <anchor x="574" y="1745" name="LU"/>
   <outline>
-    <component base="six" xScale="-1" yScale="-1" xOffset="1265" yOffset="1624"/>
+    <component base="six" xScale="-1" yScale="-1" xOffset="1250" yOffset="1624"/>
   </outline>
   <lib>
     <dict>

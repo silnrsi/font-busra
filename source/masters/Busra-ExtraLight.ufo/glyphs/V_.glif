@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="V" format="2">
-  <advance width="1500"/>
+  <advance width="1506"/>
   <unicode hex="0056"/>
   <guideline x="771" y="2085" angle="270"/>
   <anchor x="771" y="-110" name="LL"/>

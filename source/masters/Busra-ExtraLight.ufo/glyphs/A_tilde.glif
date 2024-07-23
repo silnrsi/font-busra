@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Atilde" format="2">
-  <advance width="1514"/>
+  <advance width="1511"/>
   <unicode hex="00C3"/>
-  <anchor x="737" y="-110" name="LL"/>
-  <anchor x="737" y="2102" name="LU"/>
+  <anchor x="742" y="-110" name="LL"/>
+  <anchor x="742" y="2102" name="LU"/>
   <outline>
     <component base="A"/>
-    <component base="tildecomb" xOffset="1361" yOffset="395"/>
+    <component base="tildecomb" xOffset="1366" yOffset="395"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

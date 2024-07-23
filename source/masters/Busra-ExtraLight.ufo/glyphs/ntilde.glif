@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ntilde" format="2">
-  <advance width="1425"/>
+  <advance width="1432"/>
   <unicode hex="00F1"/>
-  <anchor x="692" y="-110" name="LL"/>
-  <anchor x="692" y="1707" name="LU"/>
-  <anchor x="482" y="0" name="PB"/>
-  <anchor x="542" y="0" name="def"/>
+  <anchor x="694" y="-110" name="LL"/>
+  <anchor x="694" y="1707" name="LU"/>
+  <anchor x="484" y="0" name="PB"/>
+  <anchor x="544" y="0" name="def"/>
   <outline>
     <component base="n"/>
-    <component base="tildecomb" xOffset="1316"/>
+    <component base="tildecomb" xOffset="1318"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

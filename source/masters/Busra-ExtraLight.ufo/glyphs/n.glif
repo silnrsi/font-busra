@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="n" format="2">
-  <advance width="1425"/>
+  <advance width="1432"/>
   <unicode hex="006E"/>
-  <anchor x="692" y="-110" name="LL"/>
-  <anchor x="692" y="1350" name="LU"/>
-  <anchor x="482" y="0" name="PB"/>
-  <anchor x="542" y="0" name="def"/>
+  <anchor x="694" y="-110" name="LL"/>
+  <anchor x="694" y="1350" name="LU"/>
+  <anchor x="484" y="0" name="PB"/>
+  <anchor x="544" y="0" name="def"/>
   <outline>
     <contour>
       <point x="422" y="110" type="line"/>

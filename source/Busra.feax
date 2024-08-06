@@ -314,6 +314,13 @@ lookup coeng_post {
     sub uni17D2 uni179F by uni17D2179F;
 } coeng_post;
 
+# 4.10 1789 loses its under bit in some contexts
+lookup uni1789 {
+    lookupflag MarkAttachmentType @below_coeng;
+    ignore sub uni1789' @coeng_no_ro zerowidthjoiner;
+    sub uni1789' @coeng_no_ro by uni1789.alt;
+} uni1789;
+
 include (../source/Busra_Finals.feax)
 
 # 2. Shifters
@@ -632,13 +639,6 @@ lookup postsubst {
     sub uni17D2179A @base_narrow @postsubst' by @postsubst_low;
 } postsubst;
 
-# 4.10 1789 loses its under bit in some contexts
-lookup uni1789 {
-    lookupflag MarkAttachmentType @below_coeng;
-    sub uni1789' @coeng_no_ro by uni1789.alt;
-} uni1789;
-
-
 # 5.2 Coeng ro variants
 # 5.2.1 Low coeng ro in some cases
 lookup coeng_ro_to {
@@ -911,7 +911,7 @@ lookup punctuation2 {
     sub space uni17D6' by uni17D6.alt1;
 } punctuation2;
 
-lookup mark_errors{
+lookup mark_errors {
     sub zerowidthjoiner by dottedcircle;
     sub zerowidthnonjoiner by dottedcircle;
 } mark_errors;

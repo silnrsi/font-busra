@@ -8,7 +8,6 @@ do  for c = [@coeng_no_ro_base];
     {
     lookup $ln useExtension {
         sub @finalv by @finalv $c;
-        sub uni17C6 by uni17C6 $c;
     } $ln;
     }
 
@@ -17,8 +16,17 @@ do  for c = [@coeng_no_ro_base];
     if opt("finalc") != "";
     {
         sub $c zerowidthjoiner @final_firstv by @final_firstv;
+        sub $c zerowidthjoiner uni17C6 by uni17C6;
     }
 } final_init;
+
+lookup final_pass useExtension {
+do  for c = [@coeng_no_ro];
+    if opt("finalc") != "";
+    {
+        sub $c zerowidthjoiner by $c;
+    }
+} final_pass;
 
 lookup final_vowels useExtension {
 do  for c = [@post_coeng];
@@ -78,6 +86,12 @@ do  for c = [@coeng_series1];
     sub uni17D21794 $c' lookup final_init zerowidthjoiner' uni17C9' lookup $ln zerowidthnonjoiner' @above_symbol_RS_shift';
     sub uni17D21799 uni17D21794 $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
     sub uni17D21799 uni17D21794 $c' lookup final_init zerowidthjoiner' uni17C9' lookup $ln zerowidthnonjoiner' @above_symbol_RS_shift';
+    }
+
+do for c = [@coeng_no_ro];
+    if opt("finalc") != "";
+    {
+    sub uni1789 $c' lookup final_pass zerowidthjoiner';
     }
 } final_vowels;
 

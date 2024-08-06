@@ -160,15 +160,26 @@ lookup fix_final_coengs_action {
 } fix_final_coengs_action;
 
 lookup fix_final_coengs_action2 {
-    sub zerowidthjoiner @base_cons by @base_cons;
+    sub zerowidthjoiner dottedcircle uni17D2 by uni17D2;
+    sub zerowidthjoiner uni17D2 by uni17D2;
 } fix_final_coengs_action2;
 
+lookup fix_final_coengs_action3 {
+    sub zerowidthjoiner by dottedcircle;
+} fix_final_coengs_action3;
+
+lookup fix_final_coengs1 {
+    sub uni17D2 @base_cons zerowidthjoiner' lookup fix_final_coengs_action3;
+} fix_final_coengs1;
+
 lookup fix_final_coengs {
-    sub zerowidthjoiner @base_cons' lookup fix_final_coengs_action;
+    sub zerowidthjoiner dottedcircle uni17D2 @base_cons' lookup fix_final_coengs_action;
+    sub zerowidthjoiner uni17D2 @base_cons' lookup fix_final_coengs_action;
 } fix_final_coengs;
 
 lookup fix_final_coengs2 {
-    sub zerowidthjoiner' lookup fix_final_coengs_action2 @base_cons' zerowidthjoiner;
+    sub zerowidthjoiner' lookup fix_final_coengs_action2 dottedcircle' uni17D2' @base_cons zerowidthjoiner;
+    sub zerowidthjoiner' lookup fix_final_coengs_action2 uni17D2' @base_cons zerowidthjoiner;
 } fix_final_coengs2;
 
 lookup insert_dotted_circle {
@@ -238,7 +249,7 @@ lookup coeng_ro_primary {
 # 5. Context coeng variation
 # 5.1 lower coengs after coeng ro
 lookup belowcoeng_after_ro {
-    ignore sub uni17D2' zerowidthjoiner';   # final coeng
+    ignore sub zerowidthjoiner' uni17D2';   # final coeng
     ignore sub dottedcircle' uni17D2';       # already marked an erroneous final coeng
     sub uni17D2' lookup insert_dotted_circle;
 } belowcoeng_after_ro;
@@ -1354,6 +1365,7 @@ feature blws {
     script khmr;
     language dflt;
     #lookup uni17bb_2coeng_lig;
+    lookup fix_final_coengs1;
     lookup fix_final_coengs;
     lookup fix_final_coengs2;
     lookup coeng_below;

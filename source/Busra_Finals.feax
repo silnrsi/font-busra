@@ -23,7 +23,6 @@ do  for c = [@coeng_no_ro_base];
 lookup final_vowels useExtension {
 do  for c = [@post_coeng];
     let ln = "final_" + c;
-    let li = "final_init_"+c;
     if opt("finalc") != "";
     {
     # sub $c' lookup final_init zerowidthjoiner' (@shifter' zerowidthnonjoiner'?)? @below_vowel'? @above_symbol_RS_shift' lookup $ln;
@@ -49,8 +48,9 @@ do  for c = [@coeng_series1];
     let s = " ".join(l);
     if opt("finalc") != "";
     {
-    # sub @base_series2 uni17CC? (@coeng_series2 @coeng_series2?)? $c' lookup final_init zerowidthjoiner' uni17C9' @above_symbol_RS_shift' lookup $ln;
+    # sub @base_series2 uni17CC? (@coeng_series2 @coeng_series2?)? $c' lookup final_init zerowidthjoiner' uni17C9' zwnj? @above_symbol_RS_shift' lookup $ln;
     sub @base_series2 $s $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    sub @base_series2 $s $c' lookup final_init zerowidthjoiner' uni17C9' lookup $ln zerowidthnonjoiner' @above_symbol_RS_shift';
     }
 
 do  for c = [@coeng_series1];
@@ -59,8 +59,9 @@ do  for c = [@coeng_series1];
     let s = " ".join(l);
     if opt("finalc") != "";
     {
-    # sub uni1794 (@coeng_no_ro_base @coeng_no_ro_base?)? $c' lookup final_init zerowidthjoiner' uni17C9' @above_symbol_RS_shift' lookup $ln;
+    # sub uni1794 (@coeng_no_ro_base @coeng_no_ro_base?)? $c' lookup final_init zerowidthjoiner' uni17C9' zwnj? @above_symbol_RS_shift' lookup $ln;
     sub uni1794 $s $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    sub uni1794 $s $c' lookup final_init zerowidthjoiner' uni17C9' lookup $ln zerowidthjoiner' @above_symbol_RS_shift';
     }
 
 do  for c = [@coeng_series1];
@@ -68,18 +69,23 @@ do  for c = [@coeng_series1];
     if opt("finalc") != "";
     {
     sub uni17D21799 uni1794 @coeng_no_ro_base $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    sub uni17D21799 uni1794 @coeng_no_ro_base $c' lookup final_init zerowidthjoiner' uni17C9' lookup $ln zerowidthnonjoiner' @above_symbol_RS_shift';
     sub uni17D21799 uni1794 $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    sub uni17D21799 uni1794 $c' lookup final_init zerowidthjoiner' uni17C9' lookup $ln zerowidthnonjoiner' @above_symbol_RS_shift';
     sub uni17D21794 @coeng_no_ro_base $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    sub uni17D21794 @coeng_no_ro_base $c' lookup final_init zerowidthjoiner' uni17C9' lookup $ln zerowidthnonjoiner' @above_symbol_RS_shift';
     sub uni17D21794 $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    sub uni17D21794 $c' lookup final_init zerowidthjoiner' uni17C9' lookup $ln zerowidthnonjoiner' @above_symbol_RS_shift';
     sub uni17D21799 uni17D21794 $c' lookup final_init zerowidthjoiner' lookup $ln uni17C9' @above_symbol_RS_shift';
+    sub uni17D21799 uni17D21794 $c' lookup final_init zerowidthjoiner' uni17C9' lookup $ln zerowidthnonjoiner' @above_symbol_RS_shift';
     }
 } final_vowels;
 
 lookup final_vowels2 useExtension {
 do  for c = [@coeng_no_ro_base];
     let ln = "final_" + c;
-    forlet l = optlist(["[uni17C9 uni17CA]'", "zerowidthjoiner'"], "[uni17C2 uni17C3]'", "@below_vowel'", "@above_vowel'");
-    let s = " ".join(l);
+#    forlet l = optlist(["[uni17C9 uni17CA]'", "zerowidthjoiner'"], "[uni17C2 uni17C3]'", "@below_vowel'", "@above_vowel'");
+#    let s = " ".join(l);
     if opt("finalc") != "";
     {
     # sub $c' lookup final_init zerowidthjoiner' @shifter'? [uni17C2 uni17C3]'? @below_vowel'? @above_vowel'? @spacing_vowels' lookup $ln;
@@ -99,8 +105,8 @@ do  for c = [@coeng_no_ro_base];
 lookup final_vowels2a useExtension {
 do  for c = [@coeng_no_ro_base];
     let ln = "final_" + c;
-    forlet l = optlist(["[uni17C9 uni17CA]'", "zerowidthjoiner'"], "[uni17C2 uni17C3]'", "@below_vowel'", "@above_vowel'");
-    let s = " ".join(l);
+#    forlet l = optlist(["[uni17C9 uni17CA]'", "zerowidthjoiner'"], "[uni17C2 uni17C3]'", "@below_vowel'", "@above_vowel'");
+#    let s = " ".join(l);
     if opt("finalc") != "";
     {
     # sub $c' lookup final_init zerowidthjoiner' @shifter'? [uni17C2 uni17C3]'? @below_vowel'? @above_vowel'? @spacing_vowels' lookup $ln;

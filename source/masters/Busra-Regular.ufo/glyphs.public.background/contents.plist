@@ -334,12 +334,20 @@
   <string>uni17B_F_.rightpart3.glif</string>
   <key>uni17C0</key>
   <string>uni17C_0.glif</string>
+  <key>uni17C0.SS01</key>
+  <string>uni17C_0.S_S_01.glif</string>
   <key>uni17C0.rightpart1</key>
   <string>uni17C_0.rightpart1.glif</string>
+  <key>uni17C0.rightpart1.SS01</key>
+  <string>uni17C_0.rightpart1.S_S_01.glif</string>
   <key>uni17C0.rightpart2</key>
   <string>uni17C_0.rightpart2.glif</string>
+  <key>uni17C0.rightpart2.SS01</key>
+  <string>uni17C_0.rightpart2.S_S_01.glif</string>
   <key>uni17C0.rightpart3</key>
   <string>uni17C_0.rightpart3.glif</string>
+  <key>uni17C0.rightpart3.SS01</key>
+  <string>uni17C_0.rightpart3.S_S_01.glif</string>
   <key>uni17C1</key>
   <string>uni17C_1.glif</string>
   <key>uni17C2</key>
@@ -368,8 +376,6 @@
   <string>uni17C_A_.lower.glif</string>
   <key>uni17CA.narrow</key>
   <string>uni17C_A_.narrow.glif</string>
-  <key>uni17CC</key>
-  <string>uni17C_C_.glif</string>
   <key>uni17CC.narrow</key>
   <string>uni17C_C_.narrow.glif</string>
   <key>uni17CD</key>

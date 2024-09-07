@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni17C0.rightpart2.SS01" format="2">
+  <advance width="728"/>
+  <outline>
+    <component base="_curve" xOffset="-550" yOffset="-1236"/>
+    <component base="_stemLg" xOffset="200" yOffset="-140"/>
+    <component base="_stemMd" xOffset="200" yOffset="-900"/>
+    <contour>
+      <point x="300" y="852" type="line"/>
+      <point x="450" y="852" type="line"/>
+      <point x="450" y="1793" type="line" smooth="yes"/>
+      <point x="450" y="1913"/>
+      <point x="352" y="2000"/>
+      <point x="186" y="2000" type="curve" smooth="yes"/>
+      <point x="2" y="2000"/>
+      <point x="-169" y="1887"/>
+      <point x="-254" y="1887" type="curve" smooth="yes"/>
+      <point x="-279" y="1887"/>
+      <point x="-290" y="1899"/>
+      <point x="-290" y="1927" type="curve" smooth="yes"/>
+      <point x="-290" y="1973"/>
+      <point x="-249" y="2082"/>
+      <point x="-249" y="2167" type="curve" smooth="yes"/>
+      <point x="-249" y="2269"/>
+      <point x="-335" y="2303"/>
+      <point x="-393" y="2303" type="curve" smooth="yes"/>
+      <point x="-438" y="2303"/>
+      <point x="-484" y="2291"/>
+      <point x="-513" y="2274" type="curve"/>
+      <point x="-422" y="2257"/>
+      <point x="-396" y="2219"/>
+      <point x="-396" y="2167" type="curve" smooth="yes"/>
+      <point x="-396" y="2096"/>
+      <point x="-445" y="1999"/>
+      <point x="-445" y="1897" type="curve" smooth="yes"/>
+      <point x="-445" y="1838"/>
+      <point x="-405" y="1777"/>
+      <point x="-289" y="1777" type="curve" smooth="yes"/>
+      <point x="-119" y="1777"/>
+      <point x="0" y="1892"/>
+      <point x="154" y="1892" type="curve" smooth="yes"/>
+      <point x="250" y="1892"/>
+      <point x="300" y="1850"/>
+      <point x="300" y="1756" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCCP</string>
+    </dict>
+  </lib>
+</glyph>

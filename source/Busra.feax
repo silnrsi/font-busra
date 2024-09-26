@@ -905,6 +905,10 @@ lookup mark_errors{
     sub zerowidthnonjoiner by dottedcircle;
 } mark_errors;
 
+lookup alt_ssa {
+    sub 179E17B6 by 179E17B6.alt;
+} alt_ssa;
+
 # 8.4 -u coeng transposition: strictly an error. Was allowed because downshifter shifter can precede coeng
 # Not sure why these don't all merge into a single lookup
 # 9 Variants
@@ -1519,6 +1523,12 @@ feature ss09 {
     language dflt;
     lookup low_below_vowel_xro;
 } ss09;
+
+feature ss10 {
+    script khmr;
+    language dflt;
+    lookup alt_ssa;
+} ss10;
 
 feature mark {
     script latn;

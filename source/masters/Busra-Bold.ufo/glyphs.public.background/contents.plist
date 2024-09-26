@@ -138,6 +138,8 @@
   <string>e.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
+  <key>eight.lrg</key>
+  <string>eight.lrg.glif</string>
   <key>eth</key>
   <string>eth.glif</string>
   <key>exclam</key>
@@ -146,10 +148,12 @@
   <string>f.glif</string>
   <key>five</key>
   <string>five.glif</string>
+  <key>five.lrg</key>
+  <string>five.lrg.glif</string>
   <key>florin</key>
   <string>florin.glif</string>
-  <key>four</key>
-  <string>four.glif</string>
+  <key>four.lrg</key>
+  <string>four.lrg.glif</string>
   <key>g</key>
   <string>g.glif</string>
   <key>germandbls</key>
@@ -170,10 +174,14 @@
   <string>n.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
+  <key>nine.lrg</key>
+  <string>nine.lrg.glif</string>
   <key>o</key>
   <string>o.glif</string>
   <key>one</key>
   <string>one.glif</string>
+  <key>one.lrg</key>
+  <string>one.lrg.glif</string>
   <key>p</key>
   <string>p.glif</string>
   <key>parenleft</key>
@@ -212,10 +220,14 @@
   <string>section.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
+  <key>seven.lrg</key>
+  <string>seven.lrg.glif</string>
   <key>six</key>
   <string>six.glif</string>
   <key>six.001</key>
   <string>six.001.glif</string>
+  <key>six.lrg</key>
+  <string>six.lrg.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
   <key>sterling</key>
@@ -228,10 +240,14 @@
   <string>thorn.glif</string>
   <key>three</key>
   <string>three.glif</string>
+  <key>three.lrg</key>
+  <string>three.lrg.glif</string>
   <key>tildecomb</key>
   <string>tildecomb.glif</string>
   <key>two</key>
   <string>two.glif</string>
+  <key>two.lrg</key>
+  <string>two.lrg.glif</string>
   <key>u</key>
   <string>u.glif</string>
   <key>uni00B5</key>
@@ -312,6 +328,8 @@
   <string>uni179917B_6.glif</string>
   <key>uni179E17B6</key>
   <string>uni179E_17B_6.glif</string>
+  <key>uni179E17B6.alt</key>
+  <string>uni179E_17B_6.alt.glif</string>
   <key>uni179F</key>
   <string>uni179F_.glif</string>
   <key>uni17A017B6</key>
@@ -744,5 +762,7 @@
   <string>z.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
+  <key>zero.lrg</key>
+  <string>zero.lrg.glif</string>
 </dict>
 </plist>

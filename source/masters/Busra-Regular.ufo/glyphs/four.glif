@@ -8,22 +8,22 @@
   <anchor x="615" y="1745" name="LU"/>
   <outline>
     <contour>
-      <point x="188" y="562" type="line"/>
-      <point x="803" y="1458" type="line"/>
-      <point x="777" y="1475" type="line"/>
+      <point x="206" y="467" type="line"/>
+      <point x="803" y="1253" type="line"/>
+      <point x="777" y="1270" type="line"/>
       <point x="777" y="120" type="line"/>
       <point x="607" y="85" type="line"/>
       <point x="607" y="0" type="line"/>
       <point x="1135" y="0" type="line"/>
       <point x="1135" y="85" type="line"/>
       <point x="975" y="120" type="line"/>
-      <point x="975" y="1660" type="line"/>
-      <point x="777" y="1660" type="line"/>
-      <point x="91" y="660" type="line"/>
-      <point x="91" y="514" type="line"/>
-      <point x="1139" y="514" type="line"/>
-      <point x="1139" y="630" type="line"/>
-      <point x="177" y="630" type="line"/>
+      <point x="975" y="1455" type="line"/>
+      <point x="777" y="1455" type="line"/>
+      <point x="101" y="565" type="line"/>
+      <point x="101" y="419" type="line"/>
+      <point x="1139" y="419" type="line"/>
+      <point x="1139" y="535" type="line"/>
+      <point x="187" y="535" type="line"/>
     </contour>
   </outline>
   <lib>

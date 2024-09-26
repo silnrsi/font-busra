@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.lrg" format="2">
+  <advance width="1250"/>
+  <guideline x="634" y="970" angle="234.5125"/>
+  <guideline x="244" y="1105" angle="270"/>
+  <guideline x="496" y="1245" angle="55.5349"/>
+  <anchor x="615" y="-110" name="LL"/>
+  <anchor x="615" y="1745" name="LU"/>
+  <outline>
+    <contour>
+      <point x="188" y="582" type="line"/>
+      <point x="803" y="1478" type="line"/>
+      <point x="797" y="1525" type="line"/>
+      <point x="797" y="110" type="line"/>
+      <point x="607" y="75" type="line"/>
+      <point x="607" y="0" type="line"/>
+      <point x="1135" y="0" type="line"/>
+      <point x="1135" y="75" type="line"/>
+      <point x="955" y="110" type="line"/>
+      <point x="955" y="1660" type="line"/>
+      <point x="781" y="1660" type="line"/>
+      <point x="91" y="655" type="line"/>
+      <point x="91" y="519" type="line"/>
+      <point x="1139" y="519" type="line"/>
+      <point x="1139" y="625" type="line"/>
+      <point x="177" y="625" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

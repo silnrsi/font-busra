@@ -86,6 +86,8 @@
   <string>eacute.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
+  <key>eight.lrg</key>
+  <string>eight.lrg.glif</string>
   <key>eth</key>
   <string>eth.glif</string>
   <key>exclam</key>
@@ -96,12 +98,16 @@
   <string>fi.glif</string>
   <key>five</key>
   <string>five.glif</string>
+  <key>five.lrg</key>
+  <string>five.lrg.glif</string>
   <key>fl</key>
   <string>fl.glif</string>
   <key>florin</key>
   <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
+  <key>four.lrg</key>
+  <string>four.lrg.glif</string>
   <key>g</key>
   <string>g.glif</string>
   <key>germandbls</key>
@@ -112,10 +118,14 @@
   <string>integral.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
+  <key>nine.lrg</key>
+  <string>nine.lrg.glif</string>
   <key>numbersign</key>
   <string>numbersign.glif</string>
   <key>one</key>
   <string>one.glif</string>
+  <key>one.lrg</key>
+  <string>one.lrg.glif</string>
   <key>onehalf</key>
   <string>onehalf.glif</string>
   <key>parenleft</key>
@@ -134,22 +144,30 @@
   <string>section.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
+  <key>seven.lrg</key>
+  <string>seven.lrg.glif</string>
   <key>six</key>
   <string>six.glif</string>
   <key>six.001</key>
   <string>six.001.glif</string>
+  <key>six.lrg</key>
+  <string>six.lrg.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
   <key>t</key>
   <string>t.glif</string>
   <key>three</key>
   <string>three.glif</string>
+  <key>three.lrg</key>
+  <string>three.lrg.glif</string>
   <key>tilde</key>
   <string>tilde.glif</string>
   <key>tildecomb</key>
   <string>tildecomb.glif</string>
   <key>two</key>
   <string>two.glif</string>
+  <key>two.lrg</key>
+  <string>two.lrg.glif</string>
   <key>uni00B5</key>
   <string>uni00B_5.glif</string>
   <key>uni01AF</key>
@@ -678,5 +696,7 @@
   <string>yen.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
+  <key>zero.lrg</key>
+  <string>zero.lrg.glif</string>
 </dict>
 </plist>

@@ -378,6 +378,8 @@
   <string>egrave.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
+  <key>eight.lrg</key>
+  <string>eight.lrg.glif</string>
   <key>ellipsis</key>
   <string>ellipsis.glif</string>
   <key>emdash</key>
@@ -410,12 +412,16 @@
   <string>figurespace.glif</string>
   <key>five</key>
   <string>five.glif</string>
+  <key>five.lrg</key>
+  <string>five.lrg.glif</string>
   <key>fl</key>
   <string>fl.glif</string>
   <key>florin</key>
   <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
+  <key>four.lrg</key>
+  <string>four.lrg.glif</string>
   <key>fourperemspace</key>
   <string>fourperemspace.glif</string>
   <key>foursuperior</key>
@@ -504,6 +510,8 @@
   <string>nbspace.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
+  <key>nine.lrg</key>
+  <string>nine.lrg.glif</string>
   <key>nonbreakinghyphen</key>
   <string>nonbreakinghyphen.glif</string>
   <key>nonmarkingreturn</key>
@@ -532,6 +540,8 @@
   <string>ograve.glif</string>
   <key>one</key>
   <string>one.glif</string>
+  <key>one.lrg</key>
+  <string>one.lrg.glif</string>
   <key>onehalf</key>
   <string>onehalf.glif</string>
   <key>onequarter</key>
@@ -620,6 +630,8 @@
   <string>semicolon.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
+  <key>seven.lrg</key>
+  <string>seven.lrg.glif</string>
   <key>sidebearingleft</key>
   <string>sidebearingleft.glif</string>
   <key>sidebearingright</key>
@@ -628,6 +640,8 @@
   <string>six.glif</string>
   <key>six.001</key>
   <string>six.001.glif</string>
+  <key>six.lrg</key>
+  <string>six.lrg.glif</string>
   <key>sixperemspace</key>
   <string>sixperemspace.glif</string>
   <key>slash</key>
@@ -648,6 +662,8 @@
   <string>thorn.glif</string>
   <key>three</key>
   <string>three.glif</string>
+  <key>three.lrg</key>
+  <string>three.lrg.glif</string>
   <key>threeperemspace</key>
   <string>threeperemspace.glif</string>
   <key>threequarters</key>
@@ -662,6 +678,8 @@
   <string>trademark.glif</string>
   <key>two</key>
   <string>two.glif</string>
+  <key>two.lrg</key>
+  <string>two.lrg.glif</string>
   <key>twosuperior</key>
   <string>twosuperior.glif</string>
   <key>u</key>
@@ -970,6 +988,8 @@
   <string>uni179E_.glif</string>
   <key>uni179E17B6</key>
   <string>uni179E_17B_6.glif</string>
+  <key>uni179E17B6.alt</key>
+  <string>uni179E_17B_6.alt.glif</string>
   <key>uni179E17C5.right</key>
   <string>uni179E_17C_5.right.glif</string>
   <key>uni179F</key>
@@ -1876,6 +1896,8 @@
   <string>zcaron.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
+  <key>zero.lrg</key>
+  <string>zero.lrg.glif</string>
   <key>zeroWidthNoBreakSpace</key>
   <string>zeroW_idthN_oB_reakS_pace.glif</string>
   <key>zerowidthjoiner</key>

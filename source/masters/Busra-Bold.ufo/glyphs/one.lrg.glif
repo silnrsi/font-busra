@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.lrg" format="2">
+  <advance width="1318"/>
+  <anchor x="685" y="-110" name="LL"/>
+  <anchor x="685" y="1745" name="LU"/>
+  <outline>
+    <contour>
+      <point x="568" y="1481" type="line"/>
+      <point x="568" y="170" type="line"/>
+      <point x="241" y="105" type="line"/>
+      <point x="241" y="0" type="line"/>
+      <point x="1210" y="0" type="line"/>
+      <point x="1210" y="105" type="line"/>
+      <point x="883" y="170" type="line"/>
+      <point x="883" y="1660" type="line"/>
+      <point x="635" y="1660" type="line"/>
+      <point x="181" y="1288" type="line"/>
+      <point x="181" y="1151" type="line"/>
+      <point x="639" y="1441" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

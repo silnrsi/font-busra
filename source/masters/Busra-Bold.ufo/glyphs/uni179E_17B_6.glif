@@ -13,12 +13,7 @@
   <anchor x="2062" y="1580" name="UR_2"/>
   <anchor x="1818" y="1236" name="zxc1"/>
   <outline>
-    <component base="_L.ear" xOffset="-7"/>
-    <component base="_curve" xOffset="162"/>
-    <component base="_stemSm" xOffset="912" yOffset="376"/>
     <component base="_eyelash" xOffset="670" yOffset="-3"/>
-    <component base="_stemLg" xOffset="1662"/>
-    <component base="_bulgeArch" xOffset="743"/>
-    <component base="_stemMd" xOffset="162" yOffset="206"/>
+    <component base="uni179417B6"/>
   </outline>
 </glyph>

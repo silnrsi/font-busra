@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nine.lrg" format="2">
+  <advance width="1318"/>
+  <anchor x="620" y="-110" name="LL"/>
+  <anchor x="565" y="1745" name="LU"/>
+  <outline>
+    <component base="six" xScale="-1" yScale="-1" xOffset="1318" yOffset="1624"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

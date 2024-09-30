@@ -6,22 +6,22 @@
   <anchor x="615" y="1745" name="LU"/>
   <outline>
     <contour>
-      <point x="240" y="487" type="line"/>
-      <point x="820" y="1263" type="line"/>
-      <point x="735" y="1270" type="line"/>
-      <point x="735" y="140" type="line"/>
-      <point x="545" y="105" type="line"/>
-      <point x="545" y="0" type="line"/>
-      <point x="1220" y="0" type="line"/>
-      <point x="1220" y="105" type="line"/>
-      <point x="1040" y="140" type="line"/>
-      <point x="1040" y="1455" type="line"/>
-      <point x="760" y="1455" type="line"/>
-      <point x="106" y="578" type="line"/>
-      <point x="106" y="409" type="line"/>
-      <point x="1224" y="409" type="line"/>
-      <point x="1224" y="544" type="line"/>
-      <point x="212" y="544" type="line"/>
+      <point x="229" y="487" type="line"/>
+      <point x="809" y="1263" type="line"/>
+      <point x="724" y="1270" type="line"/>
+      <point x="724" y="140" type="line"/>
+      <point x="534" y="105" type="line"/>
+      <point x="534" y="0" type="line"/>
+      <point x="1209" y="0" type="line"/>
+      <point x="1209" y="105" type="line"/>
+      <point x="1029" y="140" type="line"/>
+      <point x="1029" y="1455" type="line"/>
+      <point x="749" y="1455" type="line"/>
+      <point x="95" y="578" type="line"/>
+      <point x="95" y="409" type="line"/>
+      <point x="1213" y="409" type="line"/>
+      <point x="1213" y="544" type="line"/>
+      <point x="201" y="544" type="line"/>
     </contour>
   </outline>
   <lib>

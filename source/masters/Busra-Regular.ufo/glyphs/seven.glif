@@ -7,17 +7,17 @@
   <anchor x="589" y="1745" name="LU"/>
   <outline>
     <contour>
-      <point x="666" y="0" type="line"/>
-      <point x="666" y="102" type="line"/>
-      <point x="1072" y="1361" type="line"/>
-      <point x="1072" y="1440" type="line"/>
-      <point x="151" y="1440" type="line"/>
-      <point x="151" y="1052" type="line"/>
-      <point x="236" y="1052" type="line"/>
-      <point x="271" y="1252" type="line"/>
-      <point x="955" y="1252" type="line"/>
-      <point x="938" y="1403" type="line"/>
-      <point x="463" y="0" type="line"/>
+      <point x="676" y="0" type="line"/>
+      <point x="676" y="102" type="line"/>
+      <point x="1102" y="1357" type="line"/>
+      <point x="1102" y="1440" type="line"/>
+      <point x="141" y="1440" type="line"/>
+      <point x="141" y="1052" type="line"/>
+      <point x="226" y="1052" type="line"/>
+      <point x="261" y="1252" type="line"/>
+      <point x="985" y="1252" type="line"/>
+      <point x="972" y="1403" type="line"/>
+      <point x="477" y="0" type="line"/>
     </contour>
   </outline>
   <lib>

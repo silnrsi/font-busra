@@ -60,7 +60,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3316</string>
+  <string>3260</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -75,6 +75,9 @@
 
 </string>
     <string>latin/uni17E0/uni17E1 0/uni17E2 12345/uni17E3 678/uni17E4 9/uni17E5 78/uni17E6/uni17E7/uni17E8 9/uni17E9/uni17E0/uni17E1/uni17E2/uni17E3/uni17E4/uni17E5/uni17E6/uni17E7/uni17E8/uni17E9/uni1780/uni1781/uni1785/uni1795</string>
+    <string>0123456789
+0407010/space 5757/space 
+/zero.lrg/four.lrg/zero.lrg/seven.lrg/zero.lrg/one.lrg/zero.lrg</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -1047,6 +1050,16 @@
     <string>.notdef</string>
     <string>.null</string>
     <string>nonmarkingreturn</string>
+    <string>zero.lrg</string>
+    <string>one.lrg</string>
+    <string>two.lrg</string>
+    <string>three.lrg</string>
+    <string>four.lrg</string>
+    <string>five.lrg</string>
+    <string>six.lrg</string>
+    <string>seven.lrg</string>
+    <string>eight.lrg</string>
+    <string>nine.lrg</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>

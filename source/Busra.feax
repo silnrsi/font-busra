@@ -900,13 +900,13 @@ lookup punctuation2 {
     sub space uni17D6' by uni17D6.alt1;
 } punctuation2;
 
-lookup mark_errors{
+lookup mark_errors {
     sub zerowidthjoiner by dottedcircle;
     sub zerowidthnonjoiner by dottedcircle;
 } mark_errors;
 
 lookup alt_ssa {
-    sub 179E17B6 by 179E17B6.alt;
+    sub uni179E17B6 by uni179E17B6.alt;
 } alt_ssa;
 
 # 8.4 -u coeng transposition: strictly an error. Was allowed because downshifter shifter can precede coeng

@@ -1376,6 +1376,7 @@ feature blws {
     lookup uni1789_coeng1789_alt;
     lookup low_form_post_coeng;
     lookup final_coengs;
+#    lookup final_coengs_test;      # we want to allow vowels after final coengs
     lookup final_coengs_error;
     lookup final_coengs_error_dc;
 } blws;

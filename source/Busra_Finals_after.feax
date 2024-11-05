@@ -1,3 +1,12 @@
+@finalv = [@above_symbol_RS_shift @below_vowel @spacing_vowels];
+lookup final_coengs_error_action {
+    sub zerowidthjoiner  dottedcircle by dottedcircle;
+} final_coengs_error_action;
+
+lookup final_coengs_test {
+    sub zerowidthjoiner' lookup final_coengs_error_action dottedcircle' @coeng_no_ro_base @finalv;
+} final_coengs_test;
+
 
 # remove ZWJ
 lookup final_pass useExtension {
@@ -81,7 +90,7 @@ lookup final_coengs_error_dc {
     sub zerowidthjoiner dottedcircle by dottedcircle;
 } final_coengs_error_dc;
 
-
 lookup final_coengs_error {
     sub zerowidthjoiner by dottedcircle;
 } final_coengs_error;
+

@@ -2,6 +2,8 @@
 @finalv = [@above_symbol_RS_shift @below_vowel @spacing_vowels];
 @final_firstv = [uni17C2 uni17C3 uni17C9 uni17CA @finalv];
 @above_vowel = [uni17B7 uni17B8 uni17B9 uni17BA];
+
+# place coeng after vowel
 do  for c = [@coeng_no_ro_base];
     let ln = "final_" + c;
     if opt("finalc") != "";
@@ -11,6 +13,7 @@ do  for c = [@coeng_no_ro_base];
     } $ln;
     }
 
+# remove final coeng before vowel
 lookup final_init useExtension {
 do  for c = [@coeng_no_ro_base];
     if opt("finalc") != "";
@@ -20,6 +23,7 @@ do  for c = [@coeng_no_ro_base];
     }
 } final_init;
 
+# remove following ZWNJ
 lookup final_pass useExtension {
 do  for c = [@coeng_no_ro];
     if opt("finalc") != "";
@@ -28,7 +32,9 @@ do  for c = [@coeng_no_ro];
     }
 } final_pass;
 
+# contextually move final coengs
 lookup final_vowels useExtension {
+# move from before a vowel
 do  for c = [@post_coeng];
     let ln = "final_" + c;
     if opt("finalc") != "";
@@ -41,6 +47,7 @@ do  for c = [@post_coeng];
     sub $c' lookup final_init zerowidthjoiner' lookup $ln @below_vowel' @above_symbol_RS_shift';
     sub $c' lookup final_init lookup $ln zerowidthjoiner' @above_symbol_RS_shift';
     }
+# move from before a shifter
 do  for c = [@post_coeng];
     let ln = "final_" + c;
     if opt("finalc") != "";
@@ -50,6 +57,7 @@ do  for c = [@post_coeng];
     sub $c' lookup final_init zerowidthjoiner' lookup $ln [uni17C9 uni17CA]' @below_vowel';
     sub $c' lookup final_init lookup $ln zerowidthjoiner' @below_vowel';
     }
+# move from before a possibly held up shifter
 do  for c = [@coeng_series1];
     let ln = "final_" + c;
     forlet l = optlist("uni17CC", ["@coeng_series2", "@coeng_series2"]);
@@ -61,6 +69,7 @@ do  for c = [@coeng_series1];
     sub @base_series2 $s $c' lookup final_init zerowidthjoiner' uni17C9' lookup $ln zerowidthnonjoiner' @above_symbol_RS_shift';
     }
 
+# move from before a possibly down shifted shifter after ba
 do  for c = [@coeng_series1];
     let ln = "final_" + c;
     forlet l = optlist(["@coeng_no_ro_base", "@coeng_no_ro_base"]);
@@ -72,6 +81,7 @@ do  for c = [@coeng_series1];
     sub uni1794 $s $c' lookup final_init zerowidthjoiner' uni17C9' lookup $ln zerowidthjoiner' @above_symbol_RS_shift';
     }
 
+# move from before a possibly down shifted shifter with coeng ba
 do  for c = [@coeng_series1];
     let ln = "final_" + c;
     if opt("finalc") != "";
@@ -88,6 +98,7 @@ do  for c = [@coeng_series1];
     sub uni17D21799 uni17D21794 $c' lookup final_init zerowidthjoiner' uni17C9' lookup $ln zerowidthnonjoiner' @above_symbol_RS_shift';
     }
 
+# middle khmer move special final coeng following 1789
 do for c = [@coeng_no_ro];
     if opt("finalc") != "";
     {
@@ -95,6 +106,7 @@ do for c = [@coeng_no_ro];
     }
 } final_vowels;
 
+# final coengs afer spacing vowel with above vowel
 lookup final_vowels2 useExtension {
 do  for c = [@coeng_no_ro_base];
     let ln = "final_" + c;
@@ -102,7 +114,7 @@ do  for c = [@coeng_no_ro_base];
 #    let s = " ".join(l);
     if opt("finalc") != "";
     {
-    # sub $c' lookup final_init zerowidthjoiner' @shifter'? [uni17C2 uni17C3]'? @below_vowel'? @above_vowel'? @spacing_vowels' lookup $ln;
+    # sub $c' lookup final_init zerowidthjoiner' @shifter'? [uni17C2 uni17C3]'? @below_vowel'? @above_vowel' @spacing_vowels' lookup $ln;
     sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' zerowidthnonjoiner' [uni17C2 uni17C3]' @below_vowel' lookup $ln @above_vowel' @spacing_vowels';
     sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' zerowidthnonjoiner' [uni17C2 uni17C3]' lookup $ln @above_vowel' @spacing_vowels';
     sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' zerowidthnonjoiner' @below_vowel' lookup $ln @above_vowel' @spacing_vowels';
@@ -116,6 +128,7 @@ do  for c = [@coeng_no_ro_base];
     }
 } final_vowels2;
 
+# final vowels after spacing vowel without above vowel
 lookup final_vowels2a useExtension {
 do  for c = [@coeng_no_ro_base];
     let ln = "final_" + c;
@@ -123,7 +136,7 @@ do  for c = [@coeng_no_ro_base];
 #    let s = " ".join(l);
     if opt("finalc") != "";
     {
-    # sub $c' lookup final_init zerowidthjoiner' @shifter'? [uni17C2 uni17C3]'? @below_vowel'? @above_vowel'? @spacing_vowels' lookup $ln;
+    # sub $c' lookup final_init zerowidthjoiner' @shifter'? [uni17C2 uni17C3]'? @below_vowel'? @spacing_vowels' lookup $ln;
     sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' zerowidthnonjoiner' [uni17C2 uni17C3]' lookup $ln @below_vowel' @spacing_vowels';
     sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' zerowidthnonjoiner' lookup $ln @below_vowel' @spacing_vowels';
     sub $c' lookup final_init zerowidthjoiner' [uni17C9 uni17CA]' [uni17C2 uni17C3]' lookup $ln @below_vowel' @spacing_vowels';

@@ -1,0 +1,87 @@
+
+# remove ZWJ
+lookup final_pass useExtension {
+    sub zerowidthjoiner @coeng_no_ro by @coeng_no_ro;
+    sub zerowidthjoiner dottedcircle @coeng_no_ro by @coeng_no_ro;
+} final_pass;
+
+lookup final_coengs useExtension {
+    sub @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @post_coeng';
+    sub @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @post_coeng';
+    sub @below_vowel zerowidthjoiner' lookup final_pass @post_coeng';
+    sub @below_vowel zerowidthjoiner' lookup final_pass dottedcircle' @post_coeng';
+    sub @spacing_vowels zerowidthjoiner' lookup final_pass @coeng_no_ro';
+    sub @spacing_vowels zerowidthjoiner' lookup final_pass dottedcircle' @coeng_no_ro';
+# allowed because contrasts cluster
+
+# sub @base_series2 uni17CC? (@coeng_series2 @coeng_series2?)? uni17C9 zerowidthnonjoiner? @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle'? @coeng_series1';
+    sub @base_series2 uni17CC @coeng_series2 @coeng_series2 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub @base_series2 uni17CC @coeng_series2 @coeng_series2 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub @base_series2 uni17CC @coeng_series2 @coeng_series2 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub @base_series2 uni17CC @coeng_series2 @coeng_series2 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub @base_series2 uni17CC @coeng_series2 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub @base_series2 uni17CC @coeng_series2 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub @base_series2 uni17CC uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub @base_series2 uni17CC uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub @base_series2 uni17CC @coeng_series2 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub @base_series2 uni17CC @coeng_series2 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub @base_series2 uni17CC uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub @base_series2 uni17CC uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub @base_series2 @coeng_series2 @coeng_series2 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub @base_series2 @coeng_series2 @coeng_series2 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub @base_series2 @coeng_series2 @coeng_series2 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub @base_series2 @coeng_series2 @coeng_series2 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub @base_series2 @coeng_series2 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub @base_series2 @coeng_series2 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub @base_series2 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub @base_series2 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub @base_series2 @coeng_series2 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub @base_series2 @coeng_series2 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub @base_series2 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub @base_series2 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+
+# sub uni1794 (@coeng_no_ro_base @coeng_no_ro_base?)? uni17C9 zerowidthnonjoiner? @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle'? @coeng_series1';
+    sub uni1794 @coeng_no_ro_base @coeng_no_ro_base uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni1794 @coeng_no_ro_base @coeng_no_ro_base uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni1794 @coeng_no_ro_base @coeng_no_ro_base uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni1794 @coeng_no_ro_base @coeng_no_ro_base uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni1794 @coeng_no_ro_base uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni1794 @coeng_no_ro_base uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni1794 @coeng_no_ro_base uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni1794 @coeng_no_ro_base uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni1794 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni1794 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni1794 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni1794 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+
+    sub uni17D21799 uni1794 @coeng_no_ro_base uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni17D21799 uni1794 @coeng_no_ro_base uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni17D21799 uni1794 @coeng_no_ro_base uni17C9 zerowidthnonjoiner @above_symbol_RS_shift' zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni17D21799 uni1794 @coeng_no_ro_base uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni17D21799 uni1794 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni17D21799 uni1794 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni17D21799 uni1794 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni17D21799 uni1794 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni17D21794 uni17C9 @above_symbol_RS_shift @coeng_no_ro_base zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni17D21794 uni17C9 @above_symbol_RS_shift @coeng_no_ro_base zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni17D21794 @coeng_no_ro_base uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni17D21794 @coeng_no_ro_base uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni17D21794 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni17D21794 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni17D21794 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni17D21794 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni17D21799 uni17D21794 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni17D21799 uni17D21794 uni17C9 @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+    sub uni17D21799 uni17D21794 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass dottedcircle' @coeng_series1';
+    sub uni17D21799 uni17D21794 uni17C9 zerowidthnonjoiner @above_symbol_RS_shift zerowidthjoiner' lookup final_pass @coeng_series1';
+
+} final_coengs;
+
+lookup final_coengs_error_dc {
+    sub zerowidthjoiner dottedcircle by dottedcircle;
+} final_coengs_error_dc;
+
+
+lookup final_coengs_error {
+    sub zerowidthjoiner by dottedcircle;
+} final_coengs_error;

@@ -321,7 +321,7 @@ lookup uni1789 {
     sub uni1789' @coeng_no_ro by uni1789.alt;
 } uni1789;
 
-include (../source/Busra_Finals.feax)
+include (../source/Busra_Finals_after.feax)
 
 # 2. Shifters
 # 2.1 Contextual alternate shape for 17C9
@@ -1365,9 +1365,9 @@ feature blws {
     script khmr;
     language dflt;
     #lookup uni17bb_2coeng_lig;
-    lookup fix_final_coengs1;
-    lookup fix_final_coengs;
-    lookup fix_final_coengs2;
+#    lookup fix_final_coengs1;
+#    lookup fix_final_coengs;
+#    lookup fix_final_coengs2;
     lookup coeng_below;
     lookup low_below_vowel;
     lookup below_marks_narrow;
@@ -1375,10 +1375,9 @@ feature blws {
     lookup uni1789_coeng1789;
     lookup uni1789_coeng1789_alt;
     lookup low_form_post_coeng;
-    lookup flat_coengs;
-    lookup final_vowels;
-    lookup final_vowels2;
-    lookup final_vowels2a;
+    lookup final_coengs;
+    lookup final_coengs_error;
+    lookup final_coengs_error_dc;
 } blws;
 
 feature ccmp {

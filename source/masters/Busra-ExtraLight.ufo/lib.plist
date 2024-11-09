@@ -60,7 +60,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3260</string>
+  <string>3316</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -77,6 +77,13 @@
     <string>ab/uni1780 cdcefghi/dotlessi jklmnopqrstuvwxyz</string>
     <string>S$cC¢£§/integral/florin ?¿©/space</string>
     <string>0123456789</string>
+    <string>ab/uni1780 cdcefghi/dotlessi ajclmnopqrstuvwxyz</string>
+    <string>AvHnNoOp
+aoce/space hmnru/quoteright/quoteleft/quotedblleft c/space ,./space/space/space/space/space/space/space b./space dpq;./space/space fgs/space et/space kvwxyz/space ijl/space 
+The/space Quick/space Brown/space Fox/space Jumps/space Over/space the/space Lazy/space Dog/space/_stemMd/uni178717B6/_w/uni178717B6/_deepArch2/uni178717B6/uni178717C5.right/uni1793/uni179317B6/_2/uni17A9</string>
+    <string>/uni17BF/space/uni17BF.rightpart1/space/uni17BF.rightpart2/space/uni17BF.rightpart3/space/uni1780 
+/uni17C0/space/uni1787/space/space/uni17C0.rightpart1/uni17C0.rightpart1.SS01/space/space/space/space/uni17C0.rightpart2/uni17C0.rightpart2.SS01/space/space/space/uni17C0.rightpart3/uni17C0.rightpart3.SS01 
+/uni17B717CD/space/uni17A7/uni17CC/uni17A7/uni17CF</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

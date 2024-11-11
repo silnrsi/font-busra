@@ -2,25 +2,25 @@
 <glyph name="summation" format="2">
   <outline>
     <contour>
-      <point x="79" y="0" type="line"/>
+      <point x="80" y="0" type="line"/>
       <point x="1140" y="0" type="line"/>
       <point x="1140" y="378" type="line"/>
       <point x="1045" y="378" type="line"/>
-      <point x="1011" y="188" type="line"/>
-      <point x="247" y="188" type="line"/>
-      <point x="278" y="123" type="line"/>
-      <point x="901" y="851" type="line"/>
-      <point x="253" y="1602" type="line"/>
-      <point x="208" y="1538" type="line"/>
-      <point x="980" y="1538" type="line"/>
-      <point x="1014" y="1348" type="line"/>
-      <point x="1109" y="1348" type="line"/>
-      <point x="1109" y="1650" type="line"/>
-      <point x="76" y="1650" type="line"/>
-      <point x="76" y="1515" type="line"/>
-      <point x="725" y="762" type="line"/>
+      <point x="1010" y="188" type="line"/>
+      <point x="248" y="188" type="line"/>
+      <point x="277" y="123" type="line"/>
+      <point x="912" y="868" type="line"/>
+      <point x="280" y="1602" type="line"/>
+      <point x="227" y="1534" type="line"/>
+      <point x="980" y="1534" type="line"/>
+      <point x="1015" y="1344" type="line"/>
+      <point x="1110" y="1344" type="line"/>
+      <point x="1110" y="1650" type="line"/>
+      <point x="95" y="1650" type="line"/>
+      <point x="95" y="1525" type="line"/>
+      <point x="745" y="772" type="line"/>
       <point x="765" y="890" type="line"/>
-      <point x="79" y="89" type="line"/>
+      <point x="80" y="89" type="line"/>
     </contour>
   </outline>
 </glyph>

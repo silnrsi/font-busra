@@ -4,9 +4,11 @@
   <unicode hex="25CC"/>
   <anchor x="738" y="0" name="LC"/>
   <anchor x="1231" y="0" name="LR"/>
+  <anchor x="1477" y="0" name="PA"/>
   <anchor x="761" y="1580" name="UC"/>
   <anchor x="738" y="1580" name="UN"/>
   <anchor x="1231" y="1580" name="UR"/>
+  <anchor x="1476" y="18" name="def"/>
   <outline>
     <contour>
       <point x="666" y="1305" type="curve" smooth="yes"/>

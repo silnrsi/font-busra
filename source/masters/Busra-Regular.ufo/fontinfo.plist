@@ -12,75 +12,8 @@
   <integer>-1240</integer>
   <key>familyName</key>
   <string>Busra</string>
-  <key>guidelines</key>
-  <array>
-    <dict>
-      <key>angle</key>
-      <integer>0</integer>
-      <key>name</key>
-      <string>m</string>
-      <key>x</key>
-      <integer>630</integer>
-      <key>y</key>
-      <integer>-790</integer>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>f1</string>
-      <key>y</key>
-      <integer>-790</integer>
-    </dict>
-    <dict>
-      <key>angle</key>
-      <integer>0</integer>
-      <key>name</key>
-      <string>f2</string>
-      <key>x</key>
-      <integer>479</integer>
-      <key>y</key>
-      <integer>-529</integer>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>f4</string>
-      <key>y</key>
-      <integer>-710</integer>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>f5</string>
-      <key>y</key>
-      <integer>-570</integer>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>f7</string>
-      <key>y</key>
-      <integer>-1225</integer>
-    </dict>
-    <dict>
-      <key>angle</key>
-      <integer>0</integer>
-      <key>name</key>
-      <string>f8</string>
-      <key>x</key>
-      <integer>56</integer>
-      <key>y</key>
-      <integer>1870</integer>
-    </dict>
-    <dict>
-      <key>angle</key>
-      <integer>0</integer>
-      <key>name</key>
-      <string>f9</string>
-      <key>x</key>
-      <integer>-245</integer>
-      <key>y</key>
-      <integer>0</integer>
-    </dict>
-  </array>
   <key>openTypeHeadCreated</key>
-  <string>2024/11/12 13:23:11</string>
+  <string>2024/11/13 16:23:47</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>

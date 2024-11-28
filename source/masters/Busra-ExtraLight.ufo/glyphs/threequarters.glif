@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threequarters" format="2">
-  <advance width="1875"/>
+  <advance width="1825"/>
   <unicode hex="00BE"/>
   <guideline x="419" y="1437" angle="221.2643"/>
   <outline>
-    <component base="four" xScale="0.55" yScale="0.55" xOffset="1109"/>
-    <component base="three" xScale="0.55" yScale="0.55" xOffset="164" yOffset="890"/>
+    <component base="four" xScale="0.55" yScale="0.55" xOffset="1059"/>
+    <component base="three" xScale="0.55" yScale="0.55" xOffset="164" yOffset="770"/>
     <component base="fraction" xOffset="310"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.65,0.48,0.2,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

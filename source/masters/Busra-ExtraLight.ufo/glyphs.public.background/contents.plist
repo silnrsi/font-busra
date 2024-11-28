@@ -12,6 +12,8 @@
   <string>D_.glif</string>
   <key>E</key>
   <string>E_.glif</string>
+  <key>Euro</key>
+  <string>E_uro.glif</string>
   <key>F</key>
   <string>F_.glif</string>
   <key>G</key>
@@ -60,20 +62,40 @@
   <string>b.glif</string>
   <key>c</key>
   <string>c.glif</string>
+  <key>cent</key>
+  <string>cent.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
+  <key>currency</key>
+  <string>currency.glif</string>
   <key>d</key>
   <string>d.glif</string>
+  <key>dollar</key>
+  <string>dollar.glif</string>
   <key>dottedcircle</key>
   <string>dottedcircle.glif</string>
   <key>e</key>
   <string>e.glif</string>
+  <key>eight</key>
+  <string>eight.glif</string>
+  <key>equal</key>
+  <string>equal.glif</string>
   <key>f</key>
   <string>f.glif</string>
+  <key>five</key>
+  <string>five.glif</string>
+  <key>florin</key>
+  <string>florin.glif</string>
+  <key>four</key>
+  <string>four.glif</string>
+  <key>fraction</key>
+  <string>fraction.glif</string>
   <key>g</key>
   <string>g.glif</string>
   <key>h</key>
   <string>h.glif</string>
+  <key>integral</key>
+  <string>integral.glif</string>
   <key>j</key>
   <string>j.glif</string>
   <key>k</key>
@@ -86,18 +108,40 @@
   <string>n.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
+  <key>numbersign</key>
+  <string>numbersign.glif</string>
   <key>o</key>
   <string>o.glif</string>
+  <key>one</key>
+  <string>one.glif</string>
   <key>p</key>
   <string>p.glif</string>
+  <key>partialdiff</key>
+  <string>partialdiff.glif</string>
+  <key>product</key>
+  <string>product.glif</string>
   <key>q</key>
   <string>q.glif</string>
   <key>r</key>
   <string>r.glif</string>
+  <key>radical</key>
+  <string>radical.glif</string>
   <key>s</key>
   <string>s.glif</string>
+  <key>seven</key>
+  <string>seven.glif</string>
+  <key>six</key>
+  <string>six.glif</string>
+  <key>sterling</key>
+  <string>sterling.glif</string>
+  <key>summation</key>
+  <string>summation.glif</string>
   <key>t</key>
   <string>t.glif</string>
+  <key>three</key>
+  <string>three.glif</string>
+  <key>two</key>
+  <string>two.glif</string>
   <key>u</key>
   <string>u.glif</string>
   <key>uni1780</key>
@@ -976,6 +1020,8 @@
   <string>uni19F_E_.glif</string>
   <key>uni19FF</key>
   <string>uni19F_F_.glif</string>
+  <key>uni20AB</key>
+  <string>uni20A_B_.glif</string>
   <key>uniEF00</key>
   <string>uniE_F_00.glif</string>
   <key>uniEF01</key>
@@ -1004,7 +1050,11 @@
   <string>x.glif</string>
   <key>y</key>
   <string>y.glif</string>
+  <key>yen</key>
+  <string>yen.glif</string>
   <key>z</key>
   <string>z.glif</string>
+  <key>zero</key>
+  <string>zero.glif</string>
 </dict>
 </plist>

@@ -78,6 +78,8 @@
   <string>cent.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
+  <key>currency</key>
+  <string>currency.glif</string>
   <key>dollar</key>
   <string>dollar.glif</string>
   <key>dottedcircle</key>
@@ -102,6 +104,8 @@
   <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
+  <key>fraction</key>
+  <string>fraction.glif</string>
   <key>g</key>
   <string>g.glif</string>
   <key>germandbls</key>
@@ -124,8 +128,12 @@
   <string>parenright.glif</string>
   <key>partialdiff</key>
   <string>partialdiff.glif</string>
+  <key>product</key>
+  <string>product.glif</string>
   <key>question</key>
   <string>question.glif</string>
+  <key>radical</key>
+  <string>radical.glif</string>
   <key>registered</key>
   <string>registered.glif</string>
   <key>section</key>
@@ -136,6 +144,8 @@
   <string>six.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
+  <key>summation</key>
+  <string>summation.glif</string>
   <key>t</key>
   <string>t.glif</string>
   <key>three</key>

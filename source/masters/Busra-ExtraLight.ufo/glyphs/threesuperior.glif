@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threesuperior" format="2">
-  <advance width="816"/>
+  <advance width="761"/>
   <unicode hex="00B3"/>
-  <guideline x="446" y="1558" angle="45.1929"/>
+  <guideline x="389" y="1558" angle="45.1929"/>
   <outline>
-    <component base="three" xScale="0.55" yScale="0.55" xOffset="111" yOffset="890"/>
+    <component base="three" xScale="0.55" yScale="0.55" xOffset="54" yOffset="1040"/>
   </outline>
   <lib>
     <dict>

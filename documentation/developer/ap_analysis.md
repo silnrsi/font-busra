@@ -10,9 +10,7 @@ This document describes each of the attachment points.
 | LX      | Mark attachment right aligned. Corresponds to LR     |
 | LA      | Mark attachment centred. Corresponds to LC           |
 | UR      | Above right aligned base                             |
-| URD0    | Override position for 17D0                           |
-| UC      | Above centred base (between last 2 stems)            |
-| UN      | Above true centred base                              |
+| UC      | Above centred base                                   |
 | UX      | Mark attachment right aligned. Corresponds to UR     |
 | UA      | Mark attachment centred. Corresponds to UC           |
 | LR\_1   | Below right aligned first ligature component         |
@@ -21,16 +19,13 @@ This document describes each of the attachment points.
 | LC\_2   | Below centred second ligature component              |
 | UR\_1   | Above right aligned first ligature component         |
 | UR\_2   | Above right aligned second ligature component        |
-| UC\_1   | Above centred first ligature component between last 2 stems  |
-| UC\_2   | Above centred second ligature component between last 2 stems |
-| UN\_1   | Above true centred first ligature component          |
-| UN\_2   | Above true centred second ligature component         |
+| UC\_1   | Above centred first ligature component               |
+| UC\_2   | Above centred second ligature component              |
 | \_LR    | Mark attachment to base: LR, LR\_1, LR\_2            |
 | \_LC    | Mark attachment to base: LC, LN, LC\_1, LC\_2        |
 | \_LA    | Mark attachment to mark: LA                          |
 | \_LX    | Mark attachment to mark: LX                          |
 | \_UR    | Mark attachment to base: UR, UR\_1, UR\_2            |
-| \_URD0  | Mark attachment for 17D0 override                    |
 | \_UC    | Mark attachment to base: UC, UC\_1, UC\_2            |
 | \_UA    | Mark attachment to mark: UA                          |
 | \_UX    | Mark attachment to mark: UX                          |

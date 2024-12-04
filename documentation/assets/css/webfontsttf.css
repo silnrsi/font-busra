@@ -27,9 +27,9 @@ released under the MIT license (https://opensource.org/licenses/MIT).
     font-family: Busra-B;
     src: url("../../../results/Busra-Bold.ttf") format("truetype");
 }
-.busra-EL { font-family: Busra-EL }
-.busra-L  { font-family: Busra-L }
-.busra-R  { font-family: Busra-R }
-.busra-M  { font-family: Busra-M }
-.busra-SB { font-family: Busra-SB }
-.busra-B  { font-family: Busra-B }
+.busra-EL { font-family: Busra-EL; font-size: 125%; }
+.busra-L  { font-family: Busra-L;  font-size: 125%; }
+.busra-R  { font-family: Busra-R;  font-size: 125%; }
+.busra-M  { font-family: Busra-M;  font-size: 125%; }
+.busra-SB { font-family: Busra-SB; font-size: 125%; }
+.busra-B  { font-family: Busra-B;  font-size: 125%; }

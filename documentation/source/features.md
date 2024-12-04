@@ -106,6 +106,6 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss18" 1'
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x17D0;</span>| `ss09=0`
+Standard | <span class='busra-R normal'>&#x17D0;</span>| `ss19=0`
 Alternate | <span class='busra-R normal' style='font-feature-settings: "ss19" 1'>&#x17D0;</span>| `ss19=1`
 

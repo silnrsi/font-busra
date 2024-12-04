@@ -25,6 +25,7 @@ Below can be seen the Khmer characters from the Busra font.
 <p></p><span class='busra-R' normal'>។ ៕ ៖ ៗ ៘ ៙ ៚ ៛ ៜ ៝   ៰៱៲៳៴៵៶៸៹</span></p>
 	
 The following shows the six weights:
+
 ![Busra Weights](../assets/images/sample_weights.png)
 
 An example of some text using Busra is shown below.

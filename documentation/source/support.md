@@ -15,7 +15,7 @@ For person-to-person support visit the [SIL Language Software Community](https:/
 
 ## Reporting bugs and feature requests
 
-If you have a bug to report or a suggestion for how we could improve the fonts please create an issue in the [Github Charis SIL project](https://github.com/silnrsi/font-busra/issues) or contact us directly.
+If you have a bug to report or a suggestion for how we could improve the fonts please create an issue in the [Github Busra project](https://github.com/silnrsi/font-busra/issues) or contact us directly.
 
 ## Contact form
 

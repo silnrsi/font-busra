@@ -5,11 +5,11 @@ released under the MIT license (https://opensource.org/licenses/MIT).
 */
 @font-face {
     font-family: Busra-EL;
-    src: url("../../../web/Busra-ExtraLight.ttf") format("truetype");
+    src: url("../../../results/Busra-ExtraLight.ttf") format("truetype");
 }
 @font-face {
     font-family: Busra-L;
-    src: url("../../../web/Busra-Light.ttf") format("truetype");
+    src: url("../../../results/Busra-Light.ttf") format("truetype");
 }
 @font-face {
     font-family: Busra-R;
@@ -17,11 +17,11 @@ released under the MIT license (https://opensource.org/licenses/MIT).
 }
 @font-face {
     font-family: Busra-M;
-    src: url("../../../web/Busra-Medium.ttf") format("truetype");
+    src: url("../../../results/Busra-Medium.ttf") format("truetype");
 }
 @font-face {
     font-family: Busra-SB;
-    src: url("../../../web/Busra-SemiBold.ttf") format("truetype");
+    src: url("../../../results/Busra-SemiBold.ttf") format("truetype");
 }
 @font-face {
     font-family: Busra-B;

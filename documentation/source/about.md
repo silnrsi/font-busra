@@ -21,7 +21,7 @@ The highest priorities for future additions and enhancements are mainly driven b
 - Requests from language communities using the fonts
 - Needs of the linguistic and academic community
 
-Please send us your requests using the [form on the font website](https://software.sil.org/charis/about/contact/). If you are interested in helping us make the fonts better see the [Developer](developer.md) page.
+Please send us your requests using the [form on the font website](https://software.sil.org/busra/about/contact/). If you are interested in helping us make the fonts better see the [Developer](developer.md) page.
 
 ## Announcement list
 

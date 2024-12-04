@@ -16,13 +16,13 @@ Six fonts for this typeface family are included in the *Busra* release:
 
 Below can be seen the Khmer characters from the Busra font.
 
-<p></p><span class='busra-R' normal'>កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអឣឤឥឦឧឨឩឪឫឬឭឮឯឰឱឲ</span></p>
+<p><span class='busra-R' normal'>កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអឣឤឥឦឧឨឩឪឫឬឭឮឯឰឱឲ</span></p>
 	
-<p></p><span class='busra-R' normal'>ា ិ ី ឹ ឺ ុ ូ ួ ើ ឿ ៀ េ ែ ៃ ោ ៅ ំ ះ ៈ ៉   ៊ ់ ៌ ៍ ៎ ៏ ័ ៑ ្ ៓</span></p>
+<p><span class='busra-R' normal'>ា ិ ី ឹ ឺ ុ ូ ួ ើ ឿ ៀ េ ែ ៃ ោ ៅ ំ ះ ៈ ៉   ៊ ់ ៌ ៍ ៎ ៏ ័ ៑ ្ ៓</span></p>
 
-<p></p><span class='busra-R' normal'>០១២៣៤៥៦៧៨៩</span></p>
+<p><span class='busra-R' normal'>០១២៣៤៥៦៧៨៩</span></p>
 	
-<p></p><span class='busra-R' normal'>។ ៕ ៖ ៗ ៘ ៙ ៚ ៛ ៜ ៝   ៰៱៲៳៴៵៶៸៹</span></p>
+<p><span class='busra-R' normal'>។ ៕ ៖ ៗ ៘ ៙ ៚ ៛ ៜ ៝   ៰៱៲៳៴៵៶៸៹</span></p>
 	
 The following shows the six weights:
 

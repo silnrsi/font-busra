@@ -7,9 +7,9 @@ fontversion: 9.000
 
 The Busra font supports the Khmer script of Cambodia. It is named after the Bou Sra waterfall in Mondulkiri Province.
 
-Busra is based on a font that was part of a larger package of Khmer script fonts called Mondulkiri; it was originally called "Khmer Mondulkiri book." The weight of Busra has been found to be the most generally appropriate for normal text, compared to other fonts in the older package. Several significant changes exist between the earlier forms of the font in the Mondulkiri package and this Busra font.
+Busra is based on a font that was part of a larger package of Khmer script fonts called Mondulkiri; previous names were “Khmer Mondulkiri book” and “Khmer Busra”. The weight of Busra has been found to be the most generally appropriate for normal text, compared to other fonts in the older package. Several significant changes exist between the earlier forms of the font in the Mondulkiri package and this Busra font.
 
-One major change involves the encoding. The Busra font supports an encoding that has been modified to ensure that there any given visual form has only one encoding. See the [Khmer Encoding Structure](../assets/pdfs/KhmerEncodingStructure.pdf) document for more details.
+One major change involves the encoding. The Busra font supports an encoding that has been modified to prevent ambiguity and ensure that any given visual form has only one encoding. See the [Khmer Encoding Structure](../assets/pdfs/KhmerEncodingStructure.pdf) document for more details.
 
 ## Future plans
 
@@ -37,16 +37,16 @@ Our font announcements are also available through X (formerly Twitter) [\@silfon
 
 ## Supporting the project
 
-These fonts are provided at no cost; however, they are expensive to produce and maintain. Please consider donating to SIL�s font development efforts to support future development. Go to [SIL�s Give Direct page](https://give.sil.org/give/485238). **Thank you!** 
+These fonts are provided at no cost; however, they are expensive to produce and maintain. Please consider donating to SIL’s font development efforts to support future development. Go to [SIL’s Give Direct page](https://give.sil.org/give/485238). **Thank you!** 
 
 ## About SIL Global
 
 [SIL Global](https://www.sil.org/) is a global, faith-based nonprofit that works with local communities around the world to develop language solutions that expand possibilities for a better life. 
 
-We are involved in approximately 1,350 active language projects in 104 countries. These projects impact more than 1.1 billion people within 1,600 local communities. SIL�s work brings together more than 4,300 staff from 89 countries who work alongside thousands more local partners and community volunteers worldwide. Our services are available without regard to religious belief, political ideology, gender, race or ethnic background.
+We are involved in approximately 1,350 active language projects in 104 countries. These projects impact more than 1.1 billion people within 1,600 local communities. SIL’s work brings together more than 4,300 staff from 89 countries who work alongside thousands more local partners and community volunteers worldwide. Our services are available without regard to religious belief, political ideology, gender, race or ethnic background.
 
 Our Vision: We long to see people flourishing in community using the languages they value most. 
 
-Our Mission: Inspired by God�s love, we advocate, build capacity, and work with local communities to apply language expertise that advances meaningful development, education, and engagement with Scripture.
+Our Mission: Inspired by God’s love, we advocate, build capacity, and work with local communities to apply language expertise that advances meaningful development, education, and engagement with Scripture.
 
 [SIL Language Technology](https://software.sil.org/) supports these activities by developing [software](https://software.sil.org/products/), [fonts](https://software.sil.org/fonts/), and [keyboard technologies](https://keyman.com/).

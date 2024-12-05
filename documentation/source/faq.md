@@ -20,12 +20,15 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
     
 #### Where does the name Busra come from?
 
-A popular tourist attraction, the Bou Sra waterfall is located in Bousra Eco Park in Mondulkiri Province, Cambodia. The name is also spelled Bu Sra, Bousra or Busra. It is famous for its triple tiers.
+A popular tourist attraction, the Bou Sra waterfall is located in Bousra Eco Park in Mondulkiri Province, Cambodia. The name is also spelled Bu Sra, Bousra or Busra. It is famous for its triple-tier cascade.
 
-#### How is this font different from the Busra font available as part of the older Mondulkiri font package?
+#### How is this font different from the Khmer Busra font available as part of the older Mondulkiri font package?
 
 There are significant differences between this Busra font and the previous version (7.100). A few of these are:
 
+- The name of the font has changed from “Khmer Busra” to “Busra”. This allows both versions of the font to be installed simultaneously.
 - The font supports a new Khmer encoding structure; see [Khmer Encoding Structure](../assets/pdfs/KhmerEncodingStructure.pdf).
 - There is no longer support for Apple's AAT technology.
 - The Latin has been completely redesigned.
+
+

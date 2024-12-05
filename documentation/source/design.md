@@ -14,7 +14,7 @@ Six fonts for this typeface family are included in the *Busra* release:
 
 ## Type Samples
 
-Below can be seen the Khmer characters from the Busra font.
+The Busra font supports the following Khmer characters:
 
 <p><span class='busra-R' normal'>កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអឣឤឥឦឧឨឩឪឫឬឭឮឯឰឱឲ</span></p>
 	

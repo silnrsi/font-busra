@@ -3,15 +3,13 @@ title: Busra - Font Features
 fontversion: 9.000
 ---
 
-Busra is an OpenType-enabled font family that supports the Khmer script. It includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerate the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features.
+Busra is an OpenType-enabled font family that supports the Khmer script. It includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below list the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features.
 
 See [Using Font Features](https://software.sil.org/fonts/features/). That page provides a comprehensive list of applications that make full use of the OpenType font technology.
 
-This page uses web fonts (WOFF) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Kanchenjunga as a web font see *Kanchenjunga-webfont-example.html* in the font package web folder. 
+This page uses web fonts (WOFF) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Busra as a web font see *Busra-webfont-example.html* in the font package web folder. 
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
-
-**CUSTOMIZING WITH TYPE TUNER???**
 
 ## User-selected feature list
 
@@ -24,7 +22,8 @@ This page uses web fonts (WOFF) to demonstrate font features and should display 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span class='busra-R normal'>&#x17B1; &#x17B3; &#x1780;&#x17CC; &#x1780;&#x17D0;</span>| `ss01=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss01" 1'>&#x17B1; &#x17B3; &#x1780;&#x17CC; &#x1780;&#x17D0;</span>| `ss01=1`
+Standard | <span class='busra-R normal'>ឱ ឳ ក ៌ ក័</span>| `ss01=0`
+Alternate | <span class='busra-R normal' style='font-feature-settings: "ss01" 1'>ឱ ឳ ក ៌ ក័</span>| `ss01=1`
 
 #### Hooked coengs
 
@@ -32,8 +31,8 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss01" 1'
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#17D2;&#x1783; &#x17D2;&#x1788; &#x17D2;&#x1788;&#x17C5;</span>| `ss02=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss02" 1'>&#17D2;&#x1783; &#x17D2;&#x1788; &#x17D2;&#x1788;&#x17C5;</span>| `ss02=1`
+Standard | <span class='busra-R normal'>&#x1780;&#17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=0`
+Alternate | <span class='busra-R normal' style='font-feature-settings: "ss02" 1'>&#x1780;&#17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=1`
 
 #### Alternate ka
 
@@ -50,7 +49,7 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss03" 1'
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1780;&#x017B6;&#x17C9; &#x17D2;&#x1788;&#x17B6;&#x17C9;</span>| `ss07=0`
+Standard | <span class='busra-R normal'>&#x1780;&#x17B6;&#x17C9; &#x17D2;&#x1788;&#x17B6;&#x17C9;</span>| `ss07=0`
 Alternate | <span class='busra-R normal' style='font-feature-settings: "ss07" 1'>&#x1780;&#x017B6;&#x17C9; &#x17D2;&#x1788;&#x17B6;&#x17C9;</span>| `ss07=1`
 
 #### Alternate coeng-Nho
@@ -59,8 +58,8 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss07" 1'
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x17D2;&#x1789;</span>| `ss08=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss08" 1'>&#x17D2;&#x1789;</span>| `ss08=1`
+Standard | <span class='busra-R normal'>&#x1780;&#x17D2;&#x1789;</span>| `ss08=0`
+Alternate | <span class='busra-R normal' style='font-feature-settings: "ss08" 1'>&#x1780;&#x17D2;&#x1789;</span>| `ss08=1`
 
 #### Lower vowels following below coengs
 

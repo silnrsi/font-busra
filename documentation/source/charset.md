@@ -38,7 +38,7 @@ Specials|U+FFFC, U+FFFD
 
 ## Private-use (PUA) characters
 
-There is a small number of private-use characters that are supported in this font. These conform to [SIL Global’s corporate registry](https://github.com/silnrsi/unicode-resources/tree/main/sil-pua) for usage of the Unicode private-use areas. Characters which are not yet in Unicode are shown below. 
+There is a small number of private-use characters that are supported in this font. These conform to [SIL Globalâ€™s corporate registry](https://github.com/silnrsi/unicode-resources/tree/main/sil-pua) for usage of the Unicode private-use areas. Characters which are not yet in Unicode are shown below. 
 
 ### Khmer Ornaments
 

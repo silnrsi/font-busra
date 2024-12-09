@@ -43,9 +43,9 @@
       <point x="258" y="1292"/>
       <point x="236" y="1284"/>
       <point x="213" y="1268" type="curve"/>
-      <point x="255" y="1290" type="line"/>
-      <point x="258" y="1354"/>
-      <point x="368" y="1419"/>
+      <point x="249" y="1262" type="line"/>
+      <point x="255" y="1344"/>
+      <point x="331" y="1419"/>
     </contour>
   </outline>
   <lib>

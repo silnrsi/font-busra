@@ -1,0 +1,60 @@
+<html>
+<!--
+This file is from the Busra project (https://software.sil.org/busra/).
+Copyright (c) 2003-2022 SIL International (http://www.sil.org/) with Reserved
+Font Names "Busra" and "SIL". This Font Software is licensed under the SIL
+Open Font License, Version 1.1 (https://openfontlicense.org/).
+-->
+<head>
+	<link rel="stylesheet" href="Busra-webfont-example.css" type="text/css">
+</head>
+<body>
+<div style="font-size: 150%;">
+	
+<h1>Using Busra webfonts</h1>
+
+<p>The page demonstrates how to use the WOFF2 version of Busra for web pages, using a local copy of the .woff2 file in this archive. For more information on this technique - and how to use the normal TrueType version as a web font - see <a href="https://software.sil.org/fonts/webfonts/">Using SIL Fonts on Web Pages</a>.</p>
+
+<p>The body of this document is styled using an external stylesheet, with Busra set as the default font, and loaded directly as a WOFF2 file using the @font-face rule. If you're seeing a sans-serif font here then it is working. Otherwise the text will be in a serif or your browser default. This technique is supported in all modern browsers.</p>
+	
+<p>To see specifically how these techniques are specified in the CSS and HTML view the source to this page and the accompanying CSS file.</p>
+
+<h2>Test General behavior of Khmer script in webfonts</h2>
+
+<p>Khmer sample text (taken from <a href='https://www.ohchr.org/sites/default/files/UDHR/Documents/UDHR_Translations/khm.pdf'>Universal Declaration of Human Rights - Khmer</a>):</p>
+<p>ដោយយល់ឃើញថា ការទទួលស្គាល់សេចក្ដីថ្លៃថ្នូរជាប់ពីកំណើត និងសិទ្ធិស្មើភាពគ្នា និងសិទ្ធិមិនអាច លក់ ដូរ ផ្ទេរ ឬដកហូតបានរបស់សមាជិកទាំងអស់នៃគ្រួសារមនុស្ស គឺជាគ្រឹះនៃសេរីភាព យុត្ដិធម៌ និងសន្ដិភាពក្នុងពិភពលោក។</p>
+
+<h2>Busra user-selectable features</h2>
+
+<p>The Busra font includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The examples below show the results of applying these features. Whether these features are available to users will depend on both the application and the rendering technology being used. The OpenType features are used in other browsers. Further documentation of these features is available in the documentation folder of the font download.</p>
+
+<p>To see specifically how these techniques are specified in the CSS and HTML, view the source to this page and the accompanying CSS file.</p>
+
+<p><b>Character Variant 1 (Variant forms)</b><br>
+Standard - feature cv01=0<br>
+ឱ ឳ ក៌ ក័<br>
+Alternate - feature cv01=1<br>
+<span class="cv01">ឱ ឳ ក៌ ក័</span></p>
+
+<p><b>Character Variant 2 (Hooked coengs)</b><br>
+Standard - feature cv02=0<br>
+ក្ឃ  ក្ឈ  ក្ឈៅ<br>
+Alternate - feature cv02=1<br>
+<span class="cv02">ក្ឃ  ក្ឈ  ក្ឈៅ</span></p>
+
+<p><b>Character Variant 3 (Alternate ka)</b><br>
+Standard - feature cv03=0<br>
+ក កា កៅ<br>
+Alternate - feature cv03=1<br>
+<span class="cv03">ក កា កៅ</span></p>
+
+<p><b>Character Variant 8 (Alternate coeng-Nho)</b><br>
+Standard - feature cv08=0<br>
+ក្ញ<br>
+Alternate - feature cv08=1<br>
+<span class="cv08">ក្ញ</span></p>
+
+<p style="font-size: 75%;"> &copy; 2024 SIL Global </p>
+    
+</body>
+</html>

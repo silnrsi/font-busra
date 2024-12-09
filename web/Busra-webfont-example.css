@@ -22,7 +22,7 @@ Open Font License, Version 1.1 (https://openfontlicense.org/).
   }
 
   /* enable stylistic set 1 */
-  .cv01 {
+  .ss01 {
     font-feature-settings: "ss01" 1;
     -moz-font-feature-settings: "ss01" 1;
     -ms-font-feature-settings: "ss01" 1;
@@ -30,7 +30,7 @@ Open Font License, Version 1.1 (https://openfontlicense.org/).
   }
   
   /* enable stylistic set 2 */
-  .cv02 {
+  .ss02 {
     font-feature-settings: "ss02" 1;
     -moz-font-feature-settings: "ss02" 1;
     -ms-font-feature-settings: "ss02" 1;
@@ -38,7 +38,7 @@ Open Font License, Version 1.1 (https://openfontlicense.org/).
   }
   
   /* enable stylistic set 3 */
-  .cv03 {
+  .ss03 {
     font-feature-settings: "ss03" 1;
     -moz-font-feature-settings: "ss03" 1;
     -ms-font-feature-settings: "ss03" 1;
@@ -46,7 +46,7 @@ Open Font License, Version 1.1 (https://openfontlicense.org/).
   }
 
   /* enable stylistic set 7 */
-  .cv07 {
+  .ss07 {
     font-feature-settings: "ss07" 1;
     -moz-font-feature-settings: "ss07" 1;
     -ms-font-feature-settings: "ss07" 1;
@@ -54,7 +54,7 @@ Open Font License, Version 1.1 (https://openfontlicense.org/).
   }
     
   /* enable stylistic set 8 */
-  .cv08 {
+  .ss08 {
     font-feature-settings: "ss08" 1;
     -moz-font-feature-settings: "ss08" 1;
     -ms-font-feature-settings: "ss08" 1;
@@ -62,7 +62,7 @@ Open Font License, Version 1.1 (https://openfontlicense.org/).
   }
     
   /* enable stylistic set 9 */
-  .cv09 {
+  .ss09 {
     font-feature-settings: "ss09" 1;
     -moz-font-feature-settings: "ss09" 1;
     -ms-font-feature-settings: "ss09" 1;
@@ -70,7 +70,7 @@ Open Font License, Version 1.1 (https://openfontlicense.org/).
   }
     
   /* enable stylistic set 18 */
-  .cv18 {
+  .ss18 {
     font-feature-settings: "ss18" 1;
     -moz-font-feature-settings: "ss18" 1;
     -ms-font-feature-settings: "ss18" 1;

@@ -18,8 +18,7 @@ This page uses web fonts (WOFF) to demonstrate font features and should display 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span class='busra-R normal'>&#x17B1; &#x17B3; &#x1780;&#x17CC; &#x1780;&#x17D0;</span>| `ss01=0`
-Standard | <span class='busra-R normal'>ឱ ឳ ក ៌ ក័</span>| `ss01=0`
-Alternate | <span class='busra-ss01-1-R normal'>ឱ ឳ ក ៌ ក័</span>| `ss01=1`
+Alternate | <span class='busra-ss01-1-R normal'>&#x17B1; &#x17B3; &#x1780;&#x17CC; &#x1780;&#x17D0;</span>| `ss01=1`
 
 #### Hooked coengs
 
@@ -66,24 +65,6 @@ Feature        | Sample | Feature setting
 Standard | <span class='busra-R normal'>&#x1789;&#x17BB; &#x17AB;&#x17D2;</span>| `ss09=0`
 Alternate | <span class='busra-ss09-1-R normal'>&#x1789;&#x17BB; &#x17AB;&#x17D2;</span>| `ss09=1`
 
-#### Hyphen after ka
-
-<span class='affects'>Affects: U+1780</span>
-
-Feature        | Sample | Feature setting
-:------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=0`
-Alternate | <span class='busra-ss05-1-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=1`
-
-#### Space after ka
-
-<span class='affects'>Affects: U+1780</span>
-
-Feature        | Sample | Feature setting
-:------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=0`
-Alternate | <span class='busra-ss06-1-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=1`
-
 #### Alternate samyok sannya before -i
 
 This feature supports the Tampuan language.
@@ -94,6 +75,28 @@ Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span class='busra-R normal'>&#x17C6; &#x17D0;&#x17C7;</span>| `ss18=0`
 Alternate | <span class='busra-ss18-1-R normal'>&#x17C6; &#x17D0;&#x17C7;</span>| `ss18=1`
+
+#### Hyphen after ka
+
+This feature is included for demonstration purposes.
+
+<span class='affects'>Affects: U+1780</span>
+
+Feature        | Sample | Feature setting
+:------------- | :--------------- | :------------- 
+Standard | <span class='busra-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=0`
+Alternate | <span class='busra-ss05-1-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=1`
+
+#### Space after ka
+
+This feature is included for demonstration purposes.
+
+<span class='affects'>Affects: U+1780</span>
+
+Feature        | Sample | Feature setting
+:------------- | :--------------- | :------------- 
+Standard | <span class='busra-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=0`
+Alternate | <span class='busra-ss06-1-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=1`
 
 #### CS5 bug fix - muusikatoan downshift
 

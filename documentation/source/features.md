@@ -22,8 +22,7 @@ This page uses web fonts (WOFF) to demonstrate font features and should display 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span class='busra-R normal'>&#x17B1; &#x17B3; &#x1780;&#x17CC; &#x1780;&#x17D0;</span>| `ss01=0`
-Standard | <span class='busra-R normal'>ឱ ឳ ក ៌ ក័</span>| `ss01=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss01" 1'>ឱ ឳ ក ៌ ក័</span>| `ss01=1`
+Alternate | <span class='busra-ss01-1-R normal'>&#x17B1; &#x17B3; &#x1780;&#x17CC; &#x1780;&#x17D0;</span>| `ss01=1`
 
 #### Hooked coengs
 
@@ -32,7 +31,7 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss01" 1'
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span class='busra-R normal'>&#x1780;&#x17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss02" 1'>&#x1780;&#x17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=1`
+Alternate | <span class='busra-ss02-1-R normal'>&#x1780;&#x17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=1`
 
 #### Alternate ka
 
@@ -41,7 +40,7 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss02" 1'
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span class='busra-R normal'>&#x1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss03" 1'>&#x1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=1`
+Alternate | <span class='busra-ss03-1-R normal'>&#x1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=1`
 
 #### Alternate muusikatoan placement after -aa
 
@@ -50,7 +49,7 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss03" 1'
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span class='busra-R normal'>&#x1780;&#x17B6;&#x17C9; &#x17D2;&#x1788;&#x17B6;&#x17C9;</span>| `ss07=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss07" 1'>&#x1780;&#x017B6;&#x17C9; &#x17D2;&#x1788;&#x17B6;&#x17C9;</span>| `ss07=1`
+Alternate | <span class='busra-ss07-1-R normal'>&#x1780;&#x017B6;&#x17C9; &#x17D2;&#x1788;&#x17B6;&#x17C9;</span>| `ss07=1`
 
 #### Alternate coeng-Nho
 
@@ -59,7 +58,7 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss07" 1'
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span class='busra-R normal'>&#x1780;&#x17D2;&#x1789;</span>| `ss08=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss08" 1'>&#x1780;&#x17D2;&#x1789;</span>| `ss08=1`
+Alternate | <span class='busra-ss08-1-R normal'>&#x1780;&#x17D2;&#x1789;</span>| `ss08=1`
 
 #### Lower vowels following below coengs
 
@@ -68,25 +67,7 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss08" 1'
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span class='busra-R normal'>&#x1789;&#x17BB; &#x17AB;&#x17D2;</span>| `ss09=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss09" 1'>&#x1789;&#x17BB; &#x17AB;&#x17D2;</span>| `ss09=1`
-
-#### Hyphen after ka
-
-<span class='affects'>Affects: U+1780</span>
-
-Feature        | Sample | Feature setting
-:------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss05" 1'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=1`
-
-#### Space after ka
-
-<span class='affects'>Affects: U+1780</span>
-
-Feature        | Sample | Feature setting
-:------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss06" 1'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=1`
+Alternate | <span class='busra-ss09-1-R normal'>&#x1789;&#x17BB; &#x17AB;&#x17D2;</span>| `ss09=1`
 
 #### Alternate samyok sannya before -i
 
@@ -97,7 +78,29 @@ This feature supports the Tampuan language.
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span class='busra-R normal'>&#x17C6; &#x17D0;&#x17C7;</span>| `ss18=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss18" 1'>&#x17C6; &#x17D0;&#x17C7;</span>| `ss18=1`
+Alternate | <span class='busra-ss18-1-R normal'>&#x17C6; &#x17D0;&#x17C7;</span>| `ss18=1`
+
+#### Hyphen after ka
+
+This feature is included for demonstration purposes.
+
+<span class='affects'>Affects: U+1780</span>
+
+Feature        | Sample | Feature setting
+:------------- | :--------------- | :------------- 
+Standard | <span class='busra-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=0`
+Alternate | <span class='busra-ss05-1-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=1`
+
+#### Space after ka
+
+This feature is included for demonstration purposes.
+
+<span class='affects'>Affects: U+1780</span>
+
+Feature        | Sample | Feature setting
+:------------- | :--------------- | :------------- 
+Standard | <span class='busra-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=0`
+Alternate | <span class='busra-ss06-1-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=1`
 
 #### CS5 bug fix - muusikatoan downshift
 
@@ -106,7 +109,7 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss18" 1'
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span class='busra-R normal'>&#x17D0;</span>| `ss19=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss19" 1'>&#x17D0;</span>| `ss19=1`
+Alternate | <span class='busra-ss19-1-R normal'>&#x17D0;</span>| `ss19=1`
 
 <!-- PRODUCT SITE ONLY
 [font id='busra' face='Busra-Regular' size='150%']

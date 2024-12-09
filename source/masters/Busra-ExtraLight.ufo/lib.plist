@@ -60,7 +60,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3260</string>
+  <string>3316</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -76,13 +76,12 @@ Roosevelt/space said/space that/space December/space 7,
 -4%5/perthousand 6°F+=&lt;&gt;/notequal/infinity ±/lessequal/greaterequal/approxequal 9÷8/minus ×¬
 #0/partialdiff/summation/product/integral 8/radical 5/space/space 6+4/space 5&gt;2
 ¤/Euro 2.5¢/uni20AB £¥/florin $</string>
+    <string>/nbspace/space/uni0323</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
-  <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
-  <string>SIL International: Busra ExtraLight: 2023</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>

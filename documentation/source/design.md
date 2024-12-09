@@ -16,13 +16,13 @@ Six fonts for this typeface family are included in the *Busra* release:
 
 The Busra font supports the following Khmer characters:
 
-<p><span class='busra-R' normal'>កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអឣឤឥឦឧឨឩឪឫឬឭឮឯឰឱឲ</span></p>
+<p class='busra-R' normal'>កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអឣឤឥឦឧឨឩឪឫឬឭឮឯឰឱឲ</p>
 	
-<p><span class='busra-R' normal'>ា ិ ី ឹ ឺ ុ ូ ួ ើ ឿ ៀ េ ែ ៃ ោ ៅ ំ ះ ៈ ៉   ៊ ់ ៌ ៍ ៎ ៏ ័ ៑ ្ ៓</span></p>
+<p class='busra-R' normal'>ា ិ ី ឹ ឺ ុ ូ ួ ើ ឿ ៀ េ ែ ៃ ោ ៅ ំ ះ ៈ ៉   ៊ ់ ៌ ៍ ៎ ៏ ័ ៑ ្ ៓</p>
 
-<p><span class='busra-R' normal'>០១២៣៤៥៦៧៨៩</span></p>
+<p class='busra-R' normal'>០១២៣៤៥៦៧៨៩</p>
 	
-<p><span class='busra-R' normal'>។ ៕ ៖ ៗ ៘ ៙ ៚ ៛ ៜ ៝   ៰៱៲៳៴៵៶៸៹</span></p>
+<p class='busra-R' normal'>។ ៕ ៖ ៗ ៘ ៙ ៚ ៛ ៜ ៝   ៰៱៲៳៴៵៶៸៹</p>
 	
 The following shows the six weights:
 
@@ -40,3 +40,7 @@ For a complete list of characters included in Busra, see [Character Set Support]
 ## Font Features
 
 Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document.
+
+<!-- PRODUCT SITE ONLY
+[font id='busra' face='Busra-Regular' size='150%']
+-->

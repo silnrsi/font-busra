@@ -31,8 +31,8 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss01" 1'
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1780;&#17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss02" 1'>&#x1780;&#17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=1`
+Standard | <span class='busra-R normal'>&#x1780;&#x17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=0`
+Alternate | <span class='busra-R normal' style='font-feature-settings: "ss02" 1'>&#x1780;&#x17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=1`
 
 #### Alternate ka
 
@@ -40,8 +40,8 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss02" 1'
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss03" 1'>&#1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=1`
+Standard | <span class='busra-R normal'>&#x1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=0`
+Alternate | <span class='busra-R normal' style='font-feature-settings: "ss03" 1'>&#x1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=1`
 
 #### Alternate muusikatoan placement after -aa
 
@@ -108,3 +108,6 @@ Feature        | Sample | Feature setting
 Standard | <span class='busra-R normal'>&#x17D0;</span>| `ss19=0`
 Alternate | <span class='busra-R normal' style='font-feature-settings: "ss19" 1'>&#x17D0;</span>| `ss19=1`
 
+<!-- PRODUCT SITE ONLY
+[font id='busra' face='Busra-Regular' size='150%']
+-->

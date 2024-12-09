@@ -21,58 +21,58 @@ Open Font License, Version 1.1 (https://openfontlicense.org/).
     font-weight: normal;
   }
 
-  /* enable character variant 1 */
+  /* enable stylistic set 1 */
   .cv01 {
-    font-feature-settings: "cv01" 1;
-    -moz-font-feature-settings: "cv01" 1;
-    -ms-font-feature-settings: "cv01" 1;
-    -webkit-font-feature-settings: "cv01" 1;
+    font-feature-settings: "ss01" 1;
+    -moz-font-feature-settings: "ss01" 1;
+    -ms-font-feature-settings: "ss01" 1;
+    -webkit-font-feature-settings: "ss01" 1;
   }
   
-  /* enable character variant 2 */
+  /* enable stylistic set 2 */
   .cv02 {
-    font-feature-settings: "cv02" 1;
-    -moz-font-feature-settings: "cv02" 1;
-    -ms-font-feature-settings: "cv02" 1;
-    -webkit-font-feature-settings: "cv02" 1;
+    font-feature-settings: "ss02" 1;
+    -moz-font-feature-settings: "ss02" 1;
+    -ms-font-feature-settings: "ss02" 1;
+    -webkit-font-feature-settings: "ss02" 1;
   }
   
-  /* enable character variant 3 */
+  /* enable stylistic set 3 */
   .cv03 {
-    font-feature-settings: "cv03" 1;
-    -moz-font-feature-settings: "cv03" 1;
-    -ms-font-feature-settings: "cv03" 1;
-    -webkit-font-feature-settings: "cv03" 1;
+    font-feature-settings: "ss03" 1;
+    -moz-font-feature-settings: "ss03" 1;
+    -ms-font-feature-settings: "ss03" 1;
+    -webkit-font-feature-settings: "ss03" 1;
   }
 
-  /* enable character variant 7 */
+  /* enable stylistic set 7 */
   .cv07 {
-    font-feature-settings: "cv07" 1;
-    -moz-font-feature-settings: "cv07" 1;
-    -ms-font-feature-settings: "cv07" 1;
-    -webkit-font-feature-settings: "cv07" 1;
+    font-feature-settings: "ss07" 1;
+    -moz-font-feature-settings: "ss07" 1;
+    -ms-font-feature-settings: "ss07" 1;
+    -webkit-font-feature-settings: "ss07" 1;
   }
     
-  /* enable character variant 8 */
+  /* enable stylistic set 8 */
   .cv08 {
-    font-feature-settings: "cv08" 1;
-    -moz-font-feature-settings: "cv08" 1;
-    -ms-font-feature-settings: "cv08" 1;
-    -webkit-font-feature-settings: "cv08" 1;
+    font-feature-settings: "ss08" 1;
+    -moz-font-feature-settings: "ss08" 1;
+    -ms-font-feature-settings: "ss08" 1;
+    -webkit-font-feature-settings: "ss08" 1;
   }
     
-  /* enable character variant 9 */
+  /* enable stylistic set 9 */
   .cv09 {
-    font-feature-settings: "cv09" 1;
-    -moz-font-feature-settings: "cv09" 1;
-    -ms-font-feature-settings: "cv09" 1;
-    -webkit-font-feature-settings: "cv09" 1;
+    font-feature-settings: "ss09" 1;
+    -moz-font-feature-settings: "ss09" 1;
+    -ms-font-feature-settings: "ss09" 1;
+    -webkit-font-feature-settings: "ss09" 1;
   }
     
-  /* enable character variant 18 */
+  /* enable stylistic set 18 */
   .cv18 {
-    font-feature-settings: "cv18" 1;
-    -moz-font-feature-settings: "cv18" 1;
-    -ms-font-feature-settings: "cv18" 1;
-    -webkit-font-feature-settings: "cv18" 1;
+    font-feature-settings: "ss18" 1;
+    -moz-font-feature-settings: "ss18" 1;
+    -ms-font-feature-settings: "ss18" 1;
+    -webkit-font-feature-settings: "ss18" 1;
   }

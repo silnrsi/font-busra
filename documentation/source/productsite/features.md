@@ -108,13 +108,3 @@ Standard | <span class='busra-R normal'>&#x17D0;</span>| `ss19=0`
 Alternate | <span class='busra-ss19-1-R normal'>&#x17D0;</span>| `ss19=1`
 
 [font id='busra' face='Busra-Regular' size='150%']
-[font id='busra-ss01-1' face='Busra-Regular' size='150%' feats='ss01 1']
-[font id='busra-ss02-1' face='Busra-Regular' size='150%' feats='ss02 1']
-[font id='busra-ss03-1' face='Busra-Regular' size='150%' feats='ss03 1']
-[font id='busra-ss07-1' face='Busra-Regular' size='150%' feats='ss07 1']
-[font id='busra-ss08-1' face='Busra-Regular' size='150%' feats='ss08 1']
-[font id='busra-ss09-1' face='Busra-Regular' size='150%' feats='ss09 1']
-[font id='busra-ss05-1' face='Busra-Regular' size='150%' feats='ss05 1']
-[font id='busra-ss06-1' face='Busra-Regular' size='150%' feats='ss06 1']
-[font id='busra-ss18-1' face='Busra-Regular' size='150%' feats='ss18 1']
-[font id='busra-ss19-1' face='Busra-Regular' size='150%' feats='ss19 1']

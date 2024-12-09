@@ -27,7 +27,7 @@ A popular tourist attraction, the Bou Sra waterfall is located in Bousra Eco Par
 There are significant differences between this Busra font and the previous version (7.100). A few of these are:
 
 - The name of the font has changed from “Khmer Busra” to “Busra”. This allows both versions of the font to be installed simultaneously.
-- The font supports a new Khmer encoding structure; see [Khmer Encoding Structure](../assets/pdfs/KhmerEncodingStructure.pdf).
+- The font supports a new Khmer encoding structure; see [UTN #61: Khmer Encoding Structure]( https://www.unicode.org/notes/tn61-draft).
 - There is no longer support for Apple's AAT technology.
 - The Latin has been completely redesigned.
 

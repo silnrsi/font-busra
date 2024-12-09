@@ -2,7 +2,7 @@
 Busra is based on an earlier font that is part of a larger package of Khmer script fonts called Mondulkiri. Earlier forms of Busra were called “Khmer Mondulkiri book” and “Khmer Busra”. Significant changes exist between the earlier versions and this Busra release; a few of these are:
 
 - The name of the font has changed from “Khmer Busra” to “Busra”. This allows both versions of the font to be installed simultaneously.
-- The font supports a new Khmer encoding structure; see [Khmer Encoding Structure](../assets/pdfs/KhmerEncodingStructure.pdf).
+- The font supports a new Khmer encoding structure; see [UTN #61: Khmer Encoding Structure]( https://www.unicode.org/notes/tn61-draft).
 - There is no longer support for Graphite or Apple's AAT technology.
 - The Latin has been completely redesigned.
 

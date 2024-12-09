@@ -17,7 +17,7 @@ This page uses web fonts (WOFF) to demonstrate font features and should display 
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x17B1; &#x17B3; &#x1780;&#x17CC; &#x1780;&#x17D0;</span>| `ss01=0`
+Standard | <span class='busra-R normal'        >&#x17B1; &#x17B3; &#x1780;&#x17CC; &#x1780;&#x17D0;</span>| `ss01=0`
 Alternate | <span class='busra-ss01-1-R normal'>&#x17B1; &#x17B3; &#x1780;&#x17CC; &#x1780;&#x17D0;</span>| `ss01=1`
 
 #### Hooked coengs
@@ -26,7 +26,7 @@ Alternate | <span class='busra-ss01-1-R normal'>&#x17B1; &#x17B3; &#x1780;&#x17C
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1780;&#x17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=0`
+Standard | <span class='busra-R normal'        >&#x1780;&#x17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=0`
 Alternate | <span class='busra-ss02-1-R normal'>&#x1780;&#x17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=1`
 
 #### Alternate ka
@@ -35,25 +35,27 @@ Alternate | <span class='busra-ss02-1-R normal'>&#x1780;&#x17D2;&#x1783; &#x1780
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=0`
+Standard | <span class='busra-R normal'        >&#x1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=0`
 Alternate | <span class='busra-ss03-1-R normal'>&#x1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=1`
 
-#### Alternate muusikatoan placement after -aa
+#### Alternate muusikatoan placement after -aa and -oo
 
 <span class='affects'>Affects: U+17C9</span>
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1780;&#x17B6;&#x17C9; &#x17D2;&#x1788;&#x17B6;&#x17C9;</span>| `ss07=0`
-Alternate | <span class='busra-ss07-1-R normal'>&#x1780;&#x017B6;&#x17C9; &#x17D2;&#x1788;&#x17B6;&#x17C9;</span>| `ss07=1`
+Standard | <span class='busra-R normal'        >&#x1780;&#x17B6;&#x17C9; &#x1780;&#x17C4;&#x17C9; &#x1782;&#x17B6;&#x17C9; &#x1782;&#x17D2;&#x1783;&#x17C4;&#x17C9;</span>| `ss07=0`
+Alternate | <span class='busra-ss07-1-R normal'>&#x1780;&#x17B6;&#x17C9; &#x1780;&#x17C4;&#x17C9; &#x1782;&#x17B6;&#x17C9; &#x1782;&#x17D2;&#x1783;&#x17C4;&#x17C9;</span>| `ss07=1`
 
-#### Alternate coeng-Nho
+#### Alternate coeng-Nho 
+
+This feature is provided to accommodate historical texts.
 
 <span class='affects'>Affects: U+17D2 U+1789</span>
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1780;&#x17D2;&#x1789;</span>| `ss08=0`
+Standard | <span class='busra-R normal'        >&#x1780;&#x17D2;&#x1789;</span>| `ss08=0`
 Alternate | <span class='busra-ss08-1-R normal'>&#x1780;&#x17D2;&#x1789;</span>| `ss08=1`
 
 #### Lower vowels following below coengs
@@ -62,10 +64,10 @@ Alternate | <span class='busra-ss08-1-R normal'>&#x1780;&#x17D2;&#x1789;</span>|
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1789;&#x17BB; &#x17AB;&#x17D2;</span>| `ss09=0`
+Standard | <span class='busra-R normal'        >&#x1789;&#x17BB; &#x17AB;&#x17D2;</span>| `ss09=0`
 Alternate | <span class='busra-ss09-1-R normal'>&#x1789;&#x17BB; &#x17AB;&#x17D2;</span>| `ss09=1`
 
-#### Alternate samyok sannya before -i
+#### Alternate samyok sannya and nikahit before -i
 
 This feature supports the Tampuan language.
 
@@ -73,8 +75,8 @@ This feature supports the Tampuan language.
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x17C6; &#x17D0;&#x17C7;</span>| `ss18=0`
-Alternate | <span class='busra-ss18-1-R normal'>&#x17C6; &#x17D0;&#x17C7;</span>| `ss18=1`
+Standard | <span class='busra-R normal'        >&#x1780;&#x17D0;&#x17C7; &#x1780;&#x17CA;&#x17B6;&#x17C6;</span>| `ss18=0`
+Alternate | <span class='busra-ss18-1-R normal'>&#x1780;&#x17D0;&#x17C7; &#x1780;&#x17CA;&#x17B6;&#x17C6;</span>| `ss18=1`
 
 #### Hyphen after ka
 
@@ -84,7 +86,7 @@ This feature is included for demonstration purposes.
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=0`
+Standard | <span class='busra-R normal'        >&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=0`
 Alternate | <span class='busra-ss05-1-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=1`
 
 #### Space after ka
@@ -95,7 +97,7 @@ This feature is included for demonstration purposes.
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=0`
+Standard | <span class='busra-R normal'        >&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=0`
 Alternate | <span class='busra-ss06-1-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=1`
 
 #### CS5 bug fix - muusikatoan downshift
@@ -104,7 +106,17 @@ Alternate | <span class='busra-ss06-1-R normal'>&#x1780;&#x17B6; &#x1780;&#x17C5
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'>&#x17D0;</span>| `ss19=0`
-Alternate | <span class='busra-ss19-1-R normal'>&#x17D0;</span>| `ss19=1`
+Standard | <span class='busra-R normal'        >&#x1789;&#x17B6;&#x17C9; &#x1784;&#x17B6;&#x17C9; &#x1798;&#x17B6;&#x17C9;</span>| `ss19=0`
+Alternate | <span class='busra-ss19-1-R normal'>&#x1789;&#x17B6;&#x17C9; &#x1784;&#x17B6;&#x17C9; &#x1798;&#x17B6;&#x17C9;</span>| `ss19=1`
 
 [font id='busra' face='Busra-Regular' size='150%']
+[font id='busra-ss01-1' face='Busra-Regular' size='150%' feats='ss01 1']
+[font id='busra-ss02-1' face='Busra-Regular' size='150%' feats='ss02 1']
+[font id='busra-ss03-1' face='Busra-Regular' size='150%' feats='ss03 1']
+[font id='busra-ss07-1' face='Busra-Regular' size='150%' feats='ss07 1']
+[font id='busra-ss08-1' face='Busra-Regular' size='150%' feats='ss08 1']
+[font id='busra-ss09-1' face='Busra-Regular' size='150%' feats='ss09 1']
+[font id='busra-ss18-1' face='Busra-Regular' size='150%' feats='ss18 1']
+[font id='busra-ss05-1' face='Busra-Regular' size='150%' feats='ss05 1']
+[font id='busra-ss06-1' face='Busra-Regular' size='150%' feats='ss06 1']
+[font id='busra-ss19-1' face='Busra-Regular' size='150%' feats='ss19 1']

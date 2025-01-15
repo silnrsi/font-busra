@@ -1457,7 +1457,8 @@ feature liga {
     lookup StandardLigs;
 } liga;
 
-feature ss01 {
+feature ss01 {  # Stylistic Set 1
+    featureNames { name 3 1 0x409 "Variant forms" ; };
     script khmr;
     language dflt;
     lookup Variants1;
@@ -1466,7 +1467,8 @@ feature ss01 {
     lookup Variants1;
 } ss01;
 
-feature ss18 {
+feature ss18 {  # Stylistic Set 18
+    featureNames { name 3 1 0x409 "Alternate samyok sannya and nikahit before -i" ; };
     script khmr;
     language dflt;
     lookup CS5_17C6;
@@ -1476,57 +1478,66 @@ feature ss18 {
     lookup Tampuan_17D0;
 } ss18;
 
-feature ss19 {
+feature ss19 {  # Stylistic Set 19
+    featureNames { name 3 1 0x409 "CS5 bug fix - muusikatoan downshift" ; };
     script khmr;
     language dflt;
     lookup CS5bug_Muus2;
     lookup CS5bug_Muus1;
 } ss19;
 
-feature ss02 {
+feature ss02 {  # Stylistic Set 2
+    featureNames { name 3 1 0x409 "Hooked coengs" ; };
     script khmr;
     language dflt;
     lookup hooked_coengs;
 } ss02;
 
-feature ss20 {
+feature ss20 {  # Stylistic Set 20
+    featureNames { name 3 1 0x409 "No idea" ; };
     script khmr;
     language dflt;
     script latn;
     language dflt;
 } ss20;
 
-feature ss03 {
+feature ss03 {  # Stylistic Set 3
+    featureNames { name 3 1 0x409 "Alternate ka" ; };
     script khmr;
     language dflt;
     lookup alt_ka;
 } ss03;
 
-feature ss05 {
+feature ss05 {  # Stylistic Set 5
+    featureNames { name 3 1 0x409 "Hyphen after ka" ; };
     script khmr;
     language dflt;
     lookup demo_hyphen;
 } ss05;
 
-feature ss06 {
+feature ss06 {  # Stylistic Set 6
+    featureNames { name 3 1 0x409 "Space after ka" ; };
     script khmr;
     language dflt;
     lookup demo_space;
 } ss06;
 
-feature ss07 {
+feature ss07 {  # Stylistic Set 7
+    featureNames { name 3 1 0x409 "Alternate muusikatoan placement after -aa and -oo" ; };
     script khmr;
     language dflt;
     lookup alt_Muus;
 } ss07;
 
-feature ss08 {
+feature ss08 {  # Stylistic Set 8
+    featureNames { name 3 1 0x409 "Alternate coeng-Nho" ; };
     script khmr;
     language dflt;
     lookup alt_coeng_nho;
 } ss08;
 
-feature ss09 {
+feature ss09 {  # Stylistic Set 9
+    featureNames { name 3 1 0x409 "Lower vowels following below coengs" ; };
     script khmr;
     language dflt;
     lookup low_below_vowel_xro;

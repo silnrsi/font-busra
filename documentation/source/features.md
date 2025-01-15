@@ -84,7 +84,7 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss18" 1'
 
 #### Hyphen after ka
 
-This feature is included for demonstration purposes.
+This feature turns U+1780 into a hyphen for demonstration purposes.
 
 <span class='affects'>Affects: U+1780</span>
 
@@ -95,7 +95,7 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss05" 1'
 
 #### Space after ka
 
-This feature is included for demonstration purposes.
+This feature turns U+1780 into a space for demonstration purposes.
 
 <span class='affects'>Affects: U+1780</span>
 

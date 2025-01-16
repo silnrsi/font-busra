@@ -48,8 +48,8 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss03" 1'
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'        >&#x1780;&#x17B6;&#x17C9; &#x1780;&#x17C4;&#x17C9; &#x1782;&#x17B6;&#x17C9; &#x1782;&#x17D2;&#x1783;&#x17C4;&#x17C9;</span>| `ss07=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss07" 1'>&#x1780;&#x17B6;&#x17C9; &#x1780;&#x17C4;&#x17C9; &#x1782;&#x17B6;&#x17C9; &#x1782;&#x17D2;&#x1783;&#x17C4;&#x17C9;</span>| `ss07=1`
+Standard | <span class='busra-R normal'        >&#x1780;&#x17C9;&#x17B6; &#x1780;&#x17C9;&#x17C4; &#x1782;&#x17C9;&#x17B6; &#x1782;&#x17D2;&#x1783;&#x17C9;&#x17C4;</span>| `ss07=0`
+Alternate | <span class='busra-R normal' style='font-feature-settings: "ss07" 1'>&#x1780;&#x17C9;&#x17B6; &#x1780;&#x17C9;&#x17C4; &#x1782;&#x17C9;&#x17B6; &#x1782;&#x17D2;&#x1783;&#x17C9;&#x17C4;</span>| `ss07=1`
 
 #### Alternate coeng-Nho 
 
@@ -68,8 +68,8 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss08" 1'
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'        >&#x1789;&#x17BB; &#x17AB;&#x17D2;</span>| `ss09=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss09" 1'>&#x1789;&#x17BB; &#x17AB;&#x17D2;</span>| `ss09=1`
+Standard | <span class='busra-R normal'        >&#x1789;&#x17BB; &#x17AB;&#x17D2; &#x179f;&#x17d2;&#x17a0;&#x17ca;&#x17b8;</span>| `ss09=0`
+Alternate | <span class='busra-R normal' style='font-feature-settings: "ss09" 1'>&#x1789;&#x17BB; &#x17AB;&#x17D2; &#x179f;&#x17d2;&#x17a0;&#x17ca;&#x17b8;</span>| `ss09=1`
 
 #### Alternate samyok sannya and nikahit before -i
 
@@ -104,14 +104,14 @@ Feature        | Sample | Feature setting
 Standard | <span class='busra-R normal'        >&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=0`
 Alternate | <span class='busra-R normal' style='font-feature-settings: "ss06" 1'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=1`
 
-#### CS5 bug fix - muusikatoan downshift
+#### muusikatoan downshift
 
 <span class='affects'>Affects: U+17C9</span>
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'        >&#x1789;&#x17B6;&#x17C9; &#x1784;&#x17B6;&#x17C9; &#x1798;&#x17B6;&#x17C9;</span>| `ss19=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss19" 1'>&#x1789;&#x17B6;&#x17C9; &#x1784;&#x17B6;&#x17C9; &#x1798;&#x17B6;&#x17C9;</span>| `ss19=1`
+Standard | <span class='busra-R normal'        >&#x1789;&#x17C9;&#x17B6; &#x1784;&#x17C9;&#x17B6; &#x1798;&#x17C9;&#x17B6;</span>| `ss19=0`
+Alternate | <span class='busra-R normal' style='font-feature-settings: "ss19" 1'>&#x1789;&#x17C9;&#x17B6; &#x1784;&#x17C9;&#x17B6; &#x1798;&#x17C9;&#x17B6;</span>| `ss19=1`
 
 <!-- PRODUCT SITE ONLY
 [font id='busra' face='Busra-Regular' size='150%']

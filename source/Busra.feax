@@ -1479,7 +1479,7 @@ feature ss18 {  # Stylistic Set 18
 } ss18;
 
 feature ss19 {  # Stylistic Set 19
-    featureNames { name 3 1 0x409 "CS5 bug fix - muusikatoan downshift" ; };
+    featureNames { name 3 1 0x409 "muusikatoan downshift" ; };
     script khmr;
     language dflt;
     lookup CS5bug_Muus2;

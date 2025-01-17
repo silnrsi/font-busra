@@ -464,7 +464,7 @@ lookup shift_dias {
 do  for b = [uni17B6 uni17C5.rightpart uni17C0.rightpart1 uni17C0.rightpart2 uni17C0.rightpart3 uni17BF.rightpart1 uni17BF.rightpart2 uni17BF.rightpart3];
     let ln = "shift_dias_"+b;
     {
-    sub $b' lookup shift_dias_parta @above_dia' lookup $ln;
+    sub $b' lookup $ln @above_dia' lookup shift_dias_parta;
     }
 } shift_dias;
 
@@ -892,6 +892,45 @@ lookup a_ligatures {
     sub uni17D2179F.low uni17C5.rightpart by uni17D2179F17C5.rightlow;
 } a_ligatures;
 
+@ligatures_coeng = [@ligatures_coeng];
+
+lookup alig_shifter_insert_C9 {
+    sub @ligatures_coeng by uni17C9 @ligatures_coeng;
+} alig_shifter_insert_C9;
+
+lookup alig_shifter_insert_C9a {
+    sub @ligatures_coeng by uni17C9.a @ligatures_coeng;
+} alig_shifter_insert_C9a;
+
+lookup alig_shifter_insert_C9narr {
+    sub @ligatures_coeng by uni17C9.narrow @ligatures_coeng;
+} alig_shifter_insert_C9narr;
+
+lookup alig_shifter_insert_CA {
+    sub @ligatures_coeng by uni17CA @ligatures_coeng;
+} alig_shifter_insert_CA;
+
+lookup alig_shifter_insert_CAnarr {
+    sub @ligatures_coeng by uni17CA.narrow @ligatures_coeng;
+} alig_shifter_insert_CAnarr;
+
+lookup alig_shifter_delete {
+    sub @ligatures_coeng uni17C9 by @ligatures_coeng;
+    sub @ligatures_coeng uni17C9.a by @ligatures_coeng;
+    sub @ligatures_coeng uni17C9.narrow by @ligatures_coeng;
+    sub @ligatures_coeng uni17CA by @ligatures_coeng;
+    sub @ligatures_coeng uni17CA.narrow by @ligatures_coeng;
+} alig_shifter_delete;
+
+lookup alig_shifter {
+    sub @ligatures_coeng' lookup alig_shifter_insert_C9 uni17C9' lookup alig_shifter_delete;
+    sub @ligatures_coeng' lookup alig_shifter_insert_C9a uni17C9.a' lookup alig_shifter_delete;
+    sub @ligatures_coeng' lookup alig_shifter_insert_C9narr uni17C9.narrow' lookup alig_shifter_delete;
+    sub @ligatures_coeng' lookup alig_shifter_insert_CA uni17CA' lookup alig_shifter_delete;
+    sub @ligatures_coeng' lookup alig_shifter_insert_CAnarr uni17CA.narrow' lookup alig_shifter_delete;
+} alig_shifter;
+
+
 # 8.2 etc. ligature
 lookup Laq {
     sub uni17D4 uni179B uni17D4' by uni17D4.alt1;
@@ -1312,6 +1351,7 @@ feature abvm {
 #    lookup shift_dia_C5;
     lookup shift_dias;
     lookup shift_dias_postcoeng;
+    lookup above_chain;
 
     script latn;
     language dflt;
@@ -1350,7 +1390,6 @@ feature blwm {
     lookup lr_attach;
     lookup ln_attach;
     lookup lc_medium;
-    lookup above_chain;
     lookup below_chain;
     lookup ligature_centred;
     lookup low2_vowel_ro_coeng_ro;
@@ -1399,6 +1438,7 @@ feature clig {
     lookup Khnhom;
     lookup PHSOM_triisap_am;
     lookup a_ligatures;
+    lookup alig_shifter;
     lookup Laq;
     lookup punctuation1;
     lookup punctuation2;
@@ -1450,6 +1490,7 @@ feature liga {
     script khmr;
     language dflt;
     lookup a_ligatures;
+    lookup alig_shifter;
     script latn;
     language dflt;
     lookup lt_vietnam_ligs1;

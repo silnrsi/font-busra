@@ -3,8 +3,6 @@ title: Busra - Resources
 fontversion: 9.000
 ---
 
-**SEE STUFF BELOW**
-
 ## Requirements
 
 This font is supported by all major desktop operating systems (macOS, Windows, and Linux-based). However, it will have limited support on mobile devices such as iOS and Android. The extent of that support depends on the individual OS and application.

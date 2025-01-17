@@ -51,7 +51,7 @@ This feature is provided to accommodate historical texts.
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span class='busra-R normal'        >&#x1780;&#x17D2;&#x1789;</span>| `ss04=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss08" 1'>&#x1780;&#x17D2;&#x1789;</span>| `ss04=1`
+Alternate | <span class='busra-R normal' style='font-feature-settings: "ss04" 1'>&#x1780;&#x17D2;&#x1789;</span>| `ss04=1`
 
 
 <!-- PRODUCT SITE ONLY

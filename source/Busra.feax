@@ -1467,39 +1467,12 @@ feature ss01 {  # Stylistic Set 1
     lookup Variants1;
 } ss01;
 
-feature ss18 {  # Stylistic Set 18
-    featureNames { name 3 1 0x409 "Alternate samyok sannya and nikahit before -i" ; };
-    script khmr;
-    language dflt;
-    lookup CS5_17C6;
-    script latn;
-    language dflt;
-    lookup Tampuan_space;
-    lookup Tampuan_17D0;
-} ss18;
-
-feature ss19 {  # Stylistic Set 19
-    featureNames { name 3 1 0x409 "muusikatoan downshift" ; };
-    script khmr;
-    language dflt;
-    lookup CS5bug_Muus2;
-    lookup CS5bug_Muus1;
-} ss19;
-
 feature ss02 {  # Stylistic Set 2
     featureNames { name 3 1 0x409 "Hooked coengs" ; };
     script khmr;
     language dflt;
     lookup hooked_coengs;
 } ss02;
-
-feature ss20 {  # Stylistic Set 20
-    featureNames { name 3 1 0x409 "No idea" ; };
-    script khmr;
-    language dflt;
-    script latn;
-    language dflt;
-} ss20;
 
 feature ss03 {  # Stylistic Set 3
     featureNames { name 3 1 0x409 "Alternate ka" ; };

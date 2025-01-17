@@ -1430,7 +1430,7 @@ feature ss03 {  # Stylistic Set 3
     lookup alt_ka;
 } ss03;
 
-feature ss04 {  # Stylistic Set 8
+feature ss04 {  # Stylistic Set 4
     featureNames { name 3 1 0x409 "Alternate coeng-Nho" ; };
     script khmr;
     language dflt;

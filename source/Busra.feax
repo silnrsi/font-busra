@@ -16,7 +16,7 @@
 @base_low2 = [uni17A1 uni17A6 uni17B0];
 @base_medium = [uni1780 uni1781 uni1782 uni1784 uni1785 uni1786 uni1787 uni178A uni178B uni178C uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1795 uni1796 uni1797 uni1798 uni179D uni179E uni17A2 uni17A3 uni17A5 uni17A7 uni17A8 uni17AA uni17AB uni17AC uni17AD uni17AE uni17AF uni17B0 uni17B1 uni17B2 uni17B3];
 @base_mid-wide = [uni1783 uni1799 uni179B uni179F uni17A0];
-@base_muusikatoan_shift = [uni1784 uni17D21784 uni1789 uni17D21789 uni178E uni17D2178E uni1793 uni17D21793 uni1794 uni17D21794 uni1798 uni17D21798 uni1799 uni17D21799 uni179A uni17D2179A uni179B uni17D2179B uni179C uni17D2179C uni179D uni17D2179D uni17A1 uni17D217A1]; # zerowidthjoiner];
+@base_muusikatoan_shift = [uni1784 uni17D21784 uni1789 uni17D21789 uni178E uni17D2178E uni1793 uni17D21793 uni1794 uni17D21794 uni1798 uni17D21798 uni1799 uni17D21799 uni179A uni17D2179A uni179B uni17D2179B uni179C uni17D2179C uni179D uni17D2179D uni17A1 uni17D217A1];
 @base_narrow = [uni179A uni179C];
 @base_no_BA = [uni1780 uni1781 uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789 uni178A uni178B uni178C uni178D uni178E uni178F uni1790 uni1791 uni1792 uni1793 uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179B uni179C uni179D uni179E uni179F uni17A0 uni17A1 uni17A2 uni17A3 uni17A4 uni17A5 uni17A6 uni17A7 uni17A8 uni17A9 uni17AA uni17AB uni17AC uni17AD uni17AE uni17AF uni17B0 uni17B1 uni17B2 uni17B3];
 @base_no_NA_no_low = [uni1780 uni1781 uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789 uni178A uni178B uni178C uni178D uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179B uni179C uni179D uni179E uni179F uni17A0 uni17A2 uni17A3 uni17A4 uni17A5 uni17A7 uni17A8 uni17A9 uni17AA uni17AF uni17B0 uni17B1 uni17B2 uni17B3];
@@ -69,9 +69,9 @@
 @postsubst = [uni17BF.rightpart1 uni17C0.rightpart1];
 @postsubst_low = [uni17BF.rightpart2 uni17C0.rightpart2];
 @postsubst_low2 = [uni17BF.rightpart3 uni17C0.rightpart3];
-@regshift = [uni17C9 uni17C9.a uni17C9.narrow uni17CA uni17CA.narrow];
-@regshift_m = [uni17C9 uni17C9.a uni17C9.narrow];
-@regshift_narrow = [uni17C9.narrow uni17C9.a uni17CA.narrow];
+@regshift = [uni17C9 uni17C9.narrow uni17CA uni17CA.narrow];
+@regshift_m = [uni17C9 uni17C9.narrow];
+@regshift_narrow = [uni17C9.narrow uni17CA.narrow];
 @regshift_t = [uni17CA uni17CA.narrow];
 @robat = [uni17CC uni17CC.alt uni17CC.narrow];
 @uni17A7_et_al = [uni17A7 uni17A8 uni17AA uni17B1 uni17B1.alt2 uni17B1.alt uni17B3 uni17B3.alt];
@@ -325,12 +325,6 @@ include (../source/Busra_Finals_after.feax)
 
 # 2. Shifters
 # 2.1 Contextual alternate shape for 17C9
-lookup Muusikatoan_a {
-    sub uni179A uni17C9' uni17B6 by uni17C9.a;
-    sub @post_coeng uni17C9' uni17B6 by uni17C9.a;
-    sub @post_coeng uni17C9' uni17C4 by uni17C9.a;
-} Muusikatoan_a;
-
 # 3. Split vowels
 
 # 3.1 Insert dotted circles for bad vowel sequences
@@ -363,7 +357,6 @@ lookup above_form {
 # ZWJ is not supported now. Also check for ZWNJ.
 lookup shifter_error_p1 {
     sub uni17C9 by dottedcircle uni17C9;
-    sub uni17C9.a by dottedcircle uni17C9;
     sub uni17CA by dottedcircle uni17CA;
     sub uni17CC by dottedcircle uni17CC;
 } shifter_error_p1;
@@ -374,7 +367,6 @@ lookup shifter_error_p2 {
 
 lookup reg_shift_action {
     sub uni17C9 by uni17BB;
-    sub uni17C9.a by uni17BB;
     sub uni17CA by uni17BB;
 } reg_shift_action;
 
@@ -440,7 +432,6 @@ lookup reg_robat_check {
 # 2.6 Remove redundant ZWJ and ZWNJ. Strict add errors
 lookup remove_200CD_RS {
     sub uni17C9 zerowidthnonjoiner by uni17C9;
-    sub uni17C9.a zerowidthnonjoiner by uni17C9.a;
     sub uni17CA zerowidthnonjoiner by uni17CA;
 } remove_200CD_RS;
 
@@ -883,10 +874,6 @@ lookup alig_shifter_insert_C9 {
     sub @ligatures_coeng by uni17C9 @ligatures_coeng;
 } alig_shifter_insert_C9;
 
-lookup alig_shifter_insert_C9a {
-    sub @ligatures_coeng by uni17C9.a @ligatures_coeng;
-} alig_shifter_insert_C9a;
-
 lookup alig_shifter_insert_C9narr {
     sub @ligatures_coeng by uni17C9.narrow @ligatures_coeng;
 } alig_shifter_insert_C9narr;
@@ -901,7 +888,6 @@ lookup alig_shifter_insert_CAnarr {
 
 lookup alig_shifter_delete {
     sub @ligatures_coeng uni17C9 by @ligatures_coeng;
-    sub @ligatures_coeng uni17C9.a by @ligatures_coeng;
     sub @ligatures_coeng uni17C9.narrow by @ligatures_coeng;
     sub @ligatures_coeng uni17CA by @ligatures_coeng;
     sub @ligatures_coeng uni17CA.narrow by @ligatures_coeng;
@@ -909,7 +895,6 @@ lookup alig_shifter_delete {
 
 lookup alig_shifter {
     sub @ligatures_coeng' lookup alig_shifter_insert_C9 uni17C9' lookup alig_shifter_delete;
-    sub @ligatures_coeng' lookup alig_shifter_insert_C9a uni17C9.a' lookup alig_shifter_delete;
     sub @ligatures_coeng' lookup alig_shifter_insert_C9narr uni17C9.narrow' lookup alig_shifter_delete;
     sub @ligatures_coeng' lookup alig_shifter_insert_CA uni17CA' lookup alig_shifter_delete;
     sub @ligatures_coeng' lookup alig_shifter_insert_CAnarr uni17CA.narrow' lookup alig_shifter_delete;
@@ -1017,14 +1002,6 @@ lookup alt_ka {
     sub uni178017B6 by uni178017B6.alt;
     sub uni178017C5.right by uni178017C5.right.alt;
 } alt_ka;
-
-# 9.9 alternate muusikatoan after -a if you like that kind of thing
-lookup alt_Muus {
-    sub @ligatures_b6 uni17C9' by uni17C9.a;
-    sub @ligatures_b6 uni17C9.narrow' by uni17C9.a;
-    sub @ligatures_coeng_b6 uni17C9' by uni17C9.a;
-    sub @ligatures_coeng_b6 uni17C9.narrow' by uni17C9.a;
-} alt_Muus;
 
 # 9.10 In Tampuan make the space sane
 lookup Tampuan_space {
@@ -1471,7 +1448,7 @@ feature mkmk {
 } mkmk;
 
 @GDEF_base = [.null space Aacute Acircumflex Adieresis Agrave Aring Atilde B C A Ccedilla D E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H I Iacute Icircumflex Idieresis Igrave J K KrungSpecial L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Ygrave Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand approxequal aring asciicircum asciitilde asterisk at atilde b backslash bar braceleft braceright bracketleft bracketright brokenbar bullet c ccedilla cedilla cent circumflex colon comma copyright currency d dagger daggerdbl degree dieresis divide dollar dotlessi e eacute ecircumflex edieresis egrave eight ellipsis emdash endash equal eth exclam exclamdown f fi five fl florin four fraction g germandbls grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hyphen i iacute icircumflex idieresis igrave infinity integral j k l less lessequal logicalnot lozenge m macron minus multiply n nine notequal ntilde numbersign o oacute ocircumflex odieresis oe ograve one onehalf onequarter ordfeminine ordmasculine oslash otilde p paragraph parenleft parenright partialdiff percent period periodcentered perthousand pi plus plusminus product q question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r radical registered s scaron section semicolon seven six slash AE sterling summation t thorn three threequarters tilde trademark two u uacute ucircumflex udieresis ugrave underscore uni00CA0306 uni00D40306 uni00EA0306 uni00F40306 uni0102 uni0103 uni0110 uni0111 uni0128 uni0129 uni0168 uni0169 uni01A00306 uni01A1 uni01A10306 uni01AF uni01AF0306 uni01B0 uni01B00306 uni1780 uni1780.alt uni1781 uni1781.pronounlig uni1782 uni1783 uni1784 uni1785 uni1786 uni1787 uni1788 uni1789 uni1789.alt uni178A uni178A17CF uni178B uni178C uni178D uni178E uni178F uni1790 uni1791 uni1792 uni1793 uni1794 uni1794.lig.left uni1795 uni1796 uni1797 uni1798 uni1799 uni179A uni179A.spc uni179B uni179C uni179C.spc uni179D uni179E uni179F uni17A0 uni17A1 uni17A2 uni17A3 uni17A4 uni17A5 uni17A6 uni17A7 uni17A8 uni17A9 uni17AA uni17AB uni17AC uni17AD uni17AE uni17AF uni17B0 uni17B1 uni17B1.alt uni17B1.alt2 uni17B2 uni17B3 uni17B3.alt uni17B4 uni17B5 uni17B6 uni17B6.lig.right uni17BE uni17BF uni17BF.rightpart1 uni17BF.rightpart2 uni17BF.rightpart3 uni17C0 uni17C0.rightpart1 uni17C0.rightpart2 uni17C0.rightpart3 uni17C1 uni17C2 uni17C3 uni17C4 uni17C5 uni17C5.lig.right uni17C5.rightpart uni17C6.ms.psom uni17C7 uni17C8 uni17D21783 uni17D21783.alt uni17D21783.low uni17D21783.low.alt uni17D21788 uni17D21788.alt uni17D21788.low uni17D21788.low.alt uni17D2178D uni17D2178D.low uni17D21794 uni17D21794.low uni17D21799 uni17D21799.low uni17D2179A uni17D2179A.low uni17D2179A.lowwide uni17D2179A.lowwide2 uni17D2179A.wide uni17D2179E uni17D2179E.low uni17D2179F uni17D2179F.low uni17D217A1 uni17D217A1.low uni17D4 uni17D4.alt1 uni17D4.alt2 uni17D5 uni17D5.alt1 uni17D5.alt2 uni17D6 uni17D6.alt1 uni17D6.alt2 uni17D7 uni17D8 uni17D9 uni17DA uni17DB uni17DC uni17E0 uni17E1 uni17E2 uni17E3 uni17E4 uni17E5 uni17E6 uni17E7 uni17E8 uni17E9 uni17F0 uni17F1 uni17F2 uni17F3 uni17F4 uni17F5 uni17F6 uni17F7 uni17F8 uni17F9 uni19E0 uni19E1 uni19E2 uni19E3 uni19E4 uni19E5 uni19E6 uni19E7 uni19E8 uni19E9 uni19EA uni19EB uni19EC uni19ED uni19EE uni19EF uni19F0 uni19F1 uni19F2 uni19F3 uni19F4 uni19F5 uni19F6 uni19F7 uni19F8 uni19F9 uni19FA uni19FB uni19FC uni19FD uni19FE uni19FF uni1EA0 uni1EA1 uni1EA2 uni1EA3 uni1EA4 uni1EA5 uni1EA6 uni1EA7 uni1EA8 uni1EA9 uni1EAA uni1EAB uni1EAC uni1EAD uni1EAE uni1EAF uni1EB0 uni1EB1 uni1EB2 uni1EB3 uni1EB4 uni1EB5 uni1EB6 uni1EB7 uni1EB8 uni1EB9 uni1EBA uni1EBB uni1EBC uni1EBD uni1EBE uni1EBF uni1EC0 uni1EC1 uni1EC2 uni1EC3 uni1EC4 uni1EC5 uni1EC6 uni1EC7 uni1EC8 uni1EC9 uni1ECA uni1ECB uni1ECC uni1ECD uni1ECE uni1ECF uni1ED0 uni1ED1 uni1ED2 uni1ED3 uni1ED4 uni1ED5 uni1ED6 uni1ED7 uni1ED8 uni1ED9 uni1EDA uni1EDB uni1EDC uni1EDD uni1EDE uni1EDF uni1EE0 uni1EE1 uni1EE2 uni1EE3 uni1EE4 uni1EE5 uni1EE6 uni1EE7 uni1EE8 uni1EE9 uni1EEA uni1EEB uni1EEC uni1EED uni1EEE uni1EEF uni1EF0 uni1EF1 uni1EF4 uni1EF5 uni1EF6 uni1EF7 uni1EF8 uni1EF9 zerowidthnonjoiner zerowidthjoiner uni20AB uni2308 uni2309 uniEF00 uniEF01 uniEF02 uniEF03 uniEF04 uniEF05 uniEF06 uniEF07 uniEF08 uniEF09 v w x y yacute ydieresis yen ygrave z zcaron zero];
-@GDEF_mark = [uni03020306 uni0304 uni0306 uni0306.high uni0307 uni0309 uni0323 uni17B7 uni17B7.narrow uni17B717CD uni17B717CD.narrow uni17B8 uni17B8.narrow uni17B9 uni17B9.narrow uni17BA uni17BA.narrow uni17BB uni17BB.low uni17BB.low.narrow uni17BB.narrow uni17BC uni17BC.low uni17BC.narrow uni17BD uni17BD.low uni17BD.narrow uni17C6 uni17C6.a uni17C6.narrow uni17C6.x uni17C9 uni17C9.a uni17C9.narrow uni17CA uni17CA.lower uni17CA.narrow uni17CB uni17CB.a uni17CB.narrow uni17CC uni17CC.alt uni17CC.narrow uni17CD uni17CD.a uni17CD.narrow uni17CE uni17CE.a uni17CE.avowel uni17CE.narrow uni17CF uni17CF.a uni17CF.narrow uni17D0 uni17D0.a uni17D0.alt uni17D0.avowel uni17D1 uni17D1.a uni17D1.narrow uni17D2 uni17D2.low uni17D21780 uni17D21780.low uni17D21781 uni17D21781.low uni17D21782 uni17D21782.low uni17D21784 uni17D21784.low uni17D21785 uni17D21785.low uni17D21786 uni17D21786.low uni17D21787 uni17D21787.low uni17D21789 uni17D21789.alt1 uni17D21789.alt2 uni17D21789.low uni17D2178A uni17D2178A.low uni17D2178B uni17D2178B.low uni17D2178C uni17D2178C.low uni17D2178E uni17D2178E.low uni17D2178F uni17D2178F.low uni17D21790 uni17D21790.low uni17D21791 uni17D21791.low uni17D21792 uni17D21792.low uni17D21793 uni17D21793.low uni17D21795 uni17D21795.low uni17D21796 uni17D21796.low uni17D21797 uni17D21797.low uni17D21798 uni17D21798.low uni17D2179B uni17D2179B.low uni17D2179C uni17D2179C.low uni17D2179D uni17D2179D.low uni17D217A0 uni17D217A0.alt uni17D217A0.low uni17D217A0.low.alt uni17D217A1.alt uni17D217A1.altlow uni17D217A2 uni17D217A2.alt uni17D217A2.low uni17D217A2.low.alt uni17D217A3 uni17D217A4 uni17D217A5 uni17D217A6 uni17D217A7 uni17D217A8 uni17D217A9 uni17D217AA uni17D217AB uni17D217AC uni17D217AD uni17D217AE uni17D217AF uni17D217B0 uni17D217B1 uni17D217B2 uni17D217B3 uni17D3 uni17DD uni17DD.a uni17DD.narrow uni17DD.wide1 uni17DD.wide2 uni17DD.wide3 uni17DD.wide4];
+@GDEF_mark = [uni03020306 uni0304 uni0306 uni0306.high uni0307 uni0309 uni0323 uni17B7 uni17B7.narrow uni17B717CD uni17B717CD.narrow uni17B8 uni17B8.narrow uni17B9 uni17B9.narrow uni17BA uni17BA.narrow uni17BB uni17BB.low uni17BB.low.narrow uni17BB.narrow uni17BC uni17BC.low uni17BC.narrow uni17BD uni17BD.low uni17BD.narrow uni17C6 uni17C6.a uni17C6.narrow uni17C6.x uni17C9 uni17C9.narrow uni17CA uni17CA.lower uni17CA.narrow uni17CB uni17CB.a uni17CB.narrow uni17CC uni17CC.alt uni17CC.narrow uni17CD uni17CD.a uni17CD.narrow uni17CE uni17CE.a uni17CE.avowel uni17CE.narrow uni17CF uni17CF.a uni17CF.narrow uni17D0 uni17D0.a uni17D0.alt uni17D0.avowel uni17D1 uni17D1.a uni17D1.narrow uni17D2 uni17D2.low uni17D21780 uni17D21780.low uni17D21781 uni17D21781.low uni17D21782 uni17D21782.low uni17D21784 uni17D21784.low uni17D21785 uni17D21785.low uni17D21786 uni17D21786.low uni17D21787 uni17D21787.low uni17D21789 uni17D21789.alt1 uni17D21789.alt2 uni17D21789.low uni17D2178A uni17D2178A.low uni17D2178B uni17D2178B.low uni17D2178C uni17D2178C.low uni17D2178E uni17D2178E.low uni17D2178F uni17D2178F.low uni17D21790 uni17D21790.low uni17D21791 uni17D21791.low uni17D21792 uni17D21792.low uni17D21793 uni17D21793.low uni17D21795 uni17D21795.low uni17D21796 uni17D21796.low uni17D21797 uni17D21797.low uni17D21798 uni17D21798.low uni17D2179B uni17D2179B.low uni17D2179C uni17D2179C.low uni17D2179D uni17D2179D.low uni17D217A0 uni17D217A0.alt uni17D217A0.low uni17D217A0.low.alt uni17D217A1.alt uni17D217A1.altlow uni17D217A2 uni17D217A2.alt uni17D217A2.low uni17D217A2.low.alt uni17D217A3 uni17D217A4 uni17D217A5 uni17D217A6 uni17D217A7 uni17D217A8 uni17D217A9 uni17D217AA uni17D217AB uni17D217AC uni17D217AD uni17D217AE uni17D217AF uni17D217B0 uni17D217B1 uni17D217B2 uni17D217B3 uni17D3 uni17DD uni17DD.a uni17DD.narrow uni17DD.wide1 uni17DD.wide2 uni17DD.wide3 uni17DD.wide4];
 @GDEF_ligature = [uni178017B6 uni178017B6.alt uni178017B6.dash uni178017B6.dotted uni178017B6.space uni178017C5.dash.right uni178017C5.dotted.right uni178017C5.right uni178017C5.right.alt uni178017C5.space.right uni178117B6 uni178117C5.right uni178217B6 uni178217C5.right uni178317B6 uni178317C5.right uni178417B6 uni178417C5.right uni178517B6 uni178517C5.right uni178617B6 uni178617C5.right uni178717B6 uni178717C5.right uni178817B6 uni178817C5.right uni178917B6 uni178917B6.alt uni178917C5.right uni178917C5.rightalt uni178A17B6 uni178A17C5.right uni178B17B6 uni178B17C5.right uni178C17B6 uni178C17C5.right uni178D17B6 uni178D17C5.right uni178E17B6 uni178E17C5.right uni178F17B6 uni178F17C5.right uni179017B6 uni179017C5.right uni179117B6 uni179117C5.right uni179217B6 uni179217C5.right uni179317B6 uni179317C5.right uni179417B6 uni179417C5.right uni179517B6 uni179517C5.right uni179617B6 uni179617C5.right uni179717B6 uni179717C5.right uni179817B6 uni179817C5.right uni179917B6 uni179917C5.right uni179A17B6 uni179A17C5.right uni179B17B6 uni179B17C5.right uni179C17B6 uni179C17C5.right uni179D17B6 uni179D17C5.right uni179E17B6 uni179E17C5.right uni179F17B6 uni179F17C5.right uni17A017B6 uni17A017C5.right uni17A117B6 uni17A117C5.right uni17A217B6 uni17A217C5.right uni17D2178317B6 uni17D2178317B6.alt uni17D2178317B6.low uni17D2178317B6.low.alt uni17D2178317C5.right uni17D2178317C5.right.alt uni17D2178317C5.rightlow uni17D2178317C5.rightlow.alt uni17D2178817B6 uni17D2178817B6.alt uni17D2178817B6.low uni17D2178817B6.low.alt uni17D2178817C5.right uni17D2178817C5.right.alt uni17D2178817C5.rightlow uni17D2178817C5.rightlow.alt uni17D2178D17B6 uni17D2178D17B6.low uni17D2178D17C5.right uni17D2178D17C5.rightlow uni17D2179417B6 uni17D2179417B6.low uni17D2179417C5.right uni17D2179417C5.rightlow uni17D2179917B6 uni17D2179917B6.low uni17D2179917C5.right uni17D2179917C5.rightlow uni17D2179E17B6 uni17D2179E17B6.low uni17D2179E17C5.right uni17D2179E17C5.rightlow uni17D2179F17B6 uni17D2179F17B6.low uni17D2179F17C5.right uni17D2179F17C5.rightlow uni17D217A117B6 uni17D217A117B6.low uni17D217A117C5.right uni17D217A117C5.rightlow];
 table GDEF {
     GlyphClassDef @GDEF_base, @GDEF_ligature, @GDEF_mark, ;

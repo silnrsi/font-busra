@@ -464,7 +464,7 @@ lookup shift_dias {
 do  for b = [uni17B6 uni17C5.rightpart uni17C0.rightpart1 uni17C0.rightpart2 uni17C0.rightpart3 uni17BF.rightpart1 uni17BF.rightpart2 uni17BF.rightpart3];
     let ln = "shift_dias_"+b;
     {
-    sub $b' lookup shift_dias_parta @above_dia' lookup $ln;
+    sub $b' lookup $ln @above_dia' lookup shift_dias_parta;
     }
 } shift_dias;
 
@@ -584,21 +584,6 @@ lookup low_below_vowel {
     sub @base_low2 @low_belows' lookup action_low;
     sub @below_coeng @above_position_ALL @low_belows' lookup action_low;
 } low_below_vowel;
-
-# 4.7.1 lower vowels following below coengs
-lookup low_below_vowel_xro {
-    sub @low_belows' lookup action_low @coeng_no_ro;
-    sub @coeng_no_ro @low_belows' lookup action_low;
-    sub @coeng_no_ro @regshift @low_belows' lookup action_low;
-    sub uni1789 @low_belows' lookup action_low;
-    sub uni1789 @regshift_robat @low_belows' lookup action_low;
-    sub uni17D2179A @base_not_low @low_belows' lookup action_low;
-    sub uni17D2179A @base_not_low @low_belows' lookup action_low;
-    sub @base_low1 @low_belows' lookup action_low;
-    sub @base_low1 @regshift_robat @low_belows' lookup action_low;
-    sub @base_low2 @low_belows' lookup action_low;
-    sub @below_coeng @above_position_ALL @low_belows' lookup action_low;
-} low_below_vowel_xro;
 
 # 4.8 narrow below vowels and perhaps lower as well
 lookup action_below_marks_narrow {
@@ -892,6 +877,45 @@ lookup a_ligatures {
     sub uni17D2179F.low uni17C5.rightpart by uni17D2179F17C5.rightlow;
 } a_ligatures;
 
+@ligatures_coeng = [@ligatures_coeng];
+
+lookup alig_shifter_insert_C9 {
+    sub @ligatures_coeng by uni17C9 @ligatures_coeng;
+} alig_shifter_insert_C9;
+
+lookup alig_shifter_insert_C9a {
+    sub @ligatures_coeng by uni17C9.a @ligatures_coeng;
+} alig_shifter_insert_C9a;
+
+lookup alig_shifter_insert_C9narr {
+    sub @ligatures_coeng by uni17C9.narrow @ligatures_coeng;
+} alig_shifter_insert_C9narr;
+
+lookup alig_shifter_insert_CA {
+    sub @ligatures_coeng by uni17CA @ligatures_coeng;
+} alig_shifter_insert_CA;
+
+lookup alig_shifter_insert_CAnarr {
+    sub @ligatures_coeng by uni17CA.narrow @ligatures_coeng;
+} alig_shifter_insert_CAnarr;
+
+lookup alig_shifter_delete {
+    sub @ligatures_coeng uni17C9 by @ligatures_coeng;
+    sub @ligatures_coeng uni17C9.a by @ligatures_coeng;
+    sub @ligatures_coeng uni17C9.narrow by @ligatures_coeng;
+    sub @ligatures_coeng uni17CA by @ligatures_coeng;
+    sub @ligatures_coeng uni17CA.narrow by @ligatures_coeng;
+} alig_shifter_delete;
+
+lookup alig_shifter {
+    sub @ligatures_coeng' lookup alig_shifter_insert_C9 uni17C9' lookup alig_shifter_delete;
+    sub @ligatures_coeng' lookup alig_shifter_insert_C9a uni17C9.a' lookup alig_shifter_delete;
+    sub @ligatures_coeng' lookup alig_shifter_insert_C9narr uni17C9.narrow' lookup alig_shifter_delete;
+    sub @ligatures_coeng' lookup alig_shifter_insert_CA uni17CA' lookup alig_shifter_delete;
+    sub @ligatures_coeng' lookup alig_shifter_insert_CAnarr uni17CA.narrow' lookup alig_shifter_delete;
+} alig_shifter;
+
+
 # 8.2 etc. ligature
 lookup Laq {
     sub uni17D4 uni179B uni17D4' by uni17D4.alt1;
@@ -994,55 +1018,6 @@ lookup alt_ka {
     sub uni178017C5.right by uni178017C5.right.alt;
 } alt_ka;
 
-# 9.6 demo variants
-# 9.6.1 space after ka
-lookup demo_space {
-    sub uni178017B6 by uni178017B6.space;
-    sub uni178017C5.right by uni178017C5.space.right;
-} demo_space;
-
-# 9.6.2 hyphen after ka
-lookup demo_hyphen {
-    sub uni178017B6 by uni178017B6.dash;
-    sub uni178017C5.right by uni178017C5.dash.right;
-} demo_hyphen;
-
-# 9.8 CS5 support
-# 9.8.1 downshift muusikatoan after nya
-lookup CS5bug_Muus2 {
-    sub uni178917B6 uni17C9' by uni17BB.low;
-    sub uni178917B6 uni17C9.a' by uni17BB.low;
-    sub uni178917B6.alt uni17C9' by uni17BB.low;
-    sub uni178917B6.alt uni17C9.a' by uni17BB.low;
-    sub uni179817B6 uni17C9' @coeng_all by uni17BB.low;
-    sub uni179817B6 uni17C9.a' @coeng_all by uni17BB.low;
-} CS5bug_Muus2;
-
-# 9.8.2 downshift muusikatoan after -a!
-lookup CS5bug_Muus1 {
-    sub uni178417B6 uni17C9' by uni17BB;
-    sub uni178417B6 uni17C9.a' by uni17BB;
-    sub uni178417B6 uni17C9.narrow' by uni17BB;
-    sub uni179417B6 uni17C9' by uni17BB;
-    sub uni179417B6 uni17C9.a' by uni17BB;
-    sub uni179417B6 uni17C9.narrow' by uni17BB;
-    sub uni179817B6 uni17C9' by uni17BB;
-    sub uni179817B6 uni17C9.a' by uni17BB;
-    sub uni179817B6 uni17C9.narrow' by uni17BB;
-    sub uni179917B6 uni17C9' by uni17BB;
-    sub uni179917B6 uni17C9.a' by uni17BB;
-    sub uni179917B6 uni17C9.narrow' by uni17BB;
-    sub uni179A17B6 uni17C9' by uni17BB;
-    sub uni179A17B6 uni17C9.a' by uni17BB;
-    sub uni179A17B6 uni17C9.narrow' by uni17BB;
-    sub uni179C17B6 uni17C9' by uni17BB;
-    sub uni179C17B6 uni17C9.a' by uni17BB;
-    sub uni179C17B6 uni17C9.narrow' by uni17BB;
-    sub uni179D17B6 uni17C9' by uni17BB;
-    sub uni179D17B6 uni17C9.a' by uni17BB;
-    sub uni179D17B6 uni17C9.narrow' by uni17BB;
-} CS5bug_Muus1;
-
 # 9.9 alternate muusikatoan after -a if you like that kind of thing
 lookup alt_Muus {
     sub @ligatures_b6 uni17C9' by uni17C9.a;
@@ -1073,11 +1048,6 @@ lookup uni17B1alt2 {
     sub uni17B1' @below_coeng by uni17B1.alt2;
     sub uni17B1' @post_coeng by uni17B1.alt2;
 } uni17B1alt2;
-
-# 9.14 Use alternate am for CS5
-lookup CS5_17C6 {
-    sub uni17C6 by uni17C6.a;
-} CS5_17C6;
 
 # ----- POS Lookups -----
 
@@ -1312,6 +1282,7 @@ feature abvm {
 #    lookup shift_dia_C5;
     lookup shift_dias;
     lookup shift_dias_postcoeng;
+    lookup above_chain;
 
     script latn;
     language dflt;
@@ -1350,7 +1321,6 @@ feature blwm {
     lookup lr_attach;
     lookup ln_attach;
     lookup lc_medium;
-    lookup above_chain;
     lookup below_chain;
     lookup ligature_centred;
     lookup low2_vowel_ro_coeng_ro;
@@ -1399,6 +1369,7 @@ feature clig {
     lookup Khnhom;
     lookup PHSOM_triisap_am;
     lookup a_ligatures;
+    lookup alig_shifter;
     lookup Laq;
     lookup punctuation1;
     lookup punctuation2;
@@ -1450,6 +1421,7 @@ feature liga {
     script khmr;
     language dflt;
     lookup a_ligatures;
+    lookup alig_shifter;
     script latn;
     language dflt;
     lookup lt_vietnam_ligs1;
@@ -1457,7 +1429,8 @@ feature liga {
     lookup StandardLigs;
 } liga;
 
-feature ss01 {
+feature ss01 {  # Stylistic Set 1
+    featureNames { name 3 1 0x409 "Variant forms" ; };
     script khmr;
     language dflt;
     lookup Variants1;
@@ -1466,71 +1439,26 @@ feature ss01 {
     lookup Variants1;
 } ss01;
 
-feature ss18 {
-    script khmr;
-    language dflt;
-    lookup CS5_17C6;
-    script latn;
-    language dflt;
-    lookup Tampuan_space;
-    lookup Tampuan_17D0;
-} ss18;
-
-feature ss19 {
-    script khmr;
-    language dflt;
-    lookup CS5bug_Muus2;
-    lookup CS5bug_Muus1;
-} ss19;
-
-feature ss02 {
+feature ss02 {  # Stylistic Set 2
+    featureNames { name 3 1 0x409 "Hooked coengs" ; };
     script khmr;
     language dflt;
     lookup hooked_coengs;
 } ss02;
 
-feature ss20 {
-    script khmr;
-    language dflt;
-    script latn;
-    language dflt;
-} ss20;
-
-feature ss03 {
+feature ss03 {  # Stylistic Set 3
+    featureNames { name 3 1 0x409 "Alternate ka" ; };
     script khmr;
     language dflt;
     lookup alt_ka;
 } ss03;
 
-feature ss05 {
-    script khmr;
-    language dflt;
-    lookup demo_hyphen;
-} ss05;
-
-feature ss06 {
-    script khmr;
-    language dflt;
-    lookup demo_space;
-} ss06;
-
-feature ss07 {
-    script khmr;
-    language dflt;
-    lookup alt_Muus;
-} ss07;
-
-feature ss08 {
+feature ss04 {  # Stylistic Set 8
+    featureNames { name 3 1 0x409 "Alternate coeng-Nho" ; };
     script khmr;
     language dflt;
     lookup alt_coeng_nho;
-} ss08;
-
-feature ss09 {
-    script khmr;
-    language dflt;
-    lookup low_below_vowel_xro;
-} ss09;
+} ss04;
 
 feature mark {
     script latn;

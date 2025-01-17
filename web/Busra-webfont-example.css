@@ -44,35 +44,12 @@ Open Font License, Version 1.1 (https://openfontlicense.org/).
     -ms-font-feature-settings: "ss03" 1;
     -webkit-font-feature-settings: "ss03" 1;
   }
-
-  /* enable stylistic set 7 */
-  .ss07 {
-    font-feature-settings: "ss07" 1;
-    -moz-font-feature-settings: "ss07" 1;
-    -ms-font-feature-settings: "ss07" 1;
-    -webkit-font-feature-settings: "ss07" 1;
-  }
     
-  /* enable stylistic set 8 */
-  .ss08 {
-    font-feature-settings: "ss08" 1;
-    -moz-font-feature-settings: "ss08" 1;
-    -ms-font-feature-settings: "ss08" 1;
-    -webkit-font-feature-settings: "ss08" 1;
+  /* enable stylistic set 4 */
+  .ss084 {
+    font-feature-settings: "ss04" 1;
+    -moz-font-feature-settings: "ss04" 1;
+    -ms-font-feature-settings: "ss04" 1;
+    -webkit-font-feature-settings: "ss04" 1;
   }
-    
-  /* enable stylistic set 9 */
-  .ss09 {
-    font-feature-settings: "ss09" 1;
-    -moz-font-feature-settings: "ss09" 1;
-    -ms-font-feature-settings: "ss09" 1;
-    -webkit-font-feature-settings: "ss09" 1;
-  }
-    
-  /* enable stylistic set 18 */
-  .ss18 {
-    font-feature-settings: "ss18" 1;
-    -moz-font-feature-settings: "ss18" 1;
-    -ms-font-feature-settings: "ss18" 1;
-    -webkit-font-feature-settings: "ss18" 1;
-  }
+   

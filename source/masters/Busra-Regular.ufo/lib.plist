@@ -60,7 +60,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3316</string>
+  <string>3337</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/tildecomb/space/dieresiscomb/space/gravecomb/space/acutecomb/space/uni03020300/space/uni03020301/space/uni03060300/space/uni03060301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni031B/space/circumflexcomb/space/uni03020306/space/uni0306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni0309/space/uni03020309/space/uni03060303/space/uni03060309</string>
@@ -74,12 +74,15 @@ Roosevelt/space said/space that/space December/space 7,
 -4%5/perthousand 6°F+=&lt;&gt;/notequal/infinity ±/lessequal/greaterequal/approxequal 9÷8/minus ×¬
 #0/partialdiff/summation/product/integral 8/radical 5/space/space 6+4/space 5&gt;2
 ¤/Euro 2.5¢/uni20AB £¥/florin $</string>
-    <string>/nbspace/space/uni0323</string>
+    <string>/dottedcircle</string>
+    <string>/uni0323</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
+  <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
+  <string>SIL International: Busra ExtraLight: 2025</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>

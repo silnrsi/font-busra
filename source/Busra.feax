@@ -585,21 +585,6 @@ lookup low_below_vowel {
     sub @below_coeng @above_position_ALL @low_belows' lookup action_low;
 } low_below_vowel;
 
-# 4.7.1 lower vowels following below coengs
-lookup low_below_vowel_xro {
-    sub @low_belows' lookup action_low @coeng_no_ro;
-    sub @coeng_no_ro @low_belows' lookup action_low;
-    sub @coeng_no_ro @regshift @low_belows' lookup action_low;
-    sub uni1789 @low_belows' lookup action_low;
-    sub uni1789 @regshift_robat @low_belows' lookup action_low;
-    sub uni17D2179A @base_not_low @low_belows' lookup action_low;
-    sub uni17D2179A @base_not_low @low_belows' lookup action_low;
-    sub @base_low1 @low_belows' lookup action_low;
-    sub @base_low1 @regshift_robat @low_belows' lookup action_low;
-    sub @base_low2 @low_belows' lookup action_low;
-    sub @below_coeng @above_position_ALL @low_belows' lookup action_low;
-} low_below_vowel_xro;
-
 # 4.8 narrow below vowels and perhaps lower as well
 lookup action_below_marks_narrow {
     sub uni17D2 by uni17D2.ms.narrow;
@@ -1033,55 +1018,6 @@ lookup alt_ka {
     sub uni178017C5.right by uni178017C5.right.alt;
 } alt_ka;
 
-# 9.6 demo variants
-# 9.6.1 space after ka
-lookup demo_space {
-    sub uni178017B6 by uni178017B6.space;
-    sub uni178017C5.right by uni178017C5.space.right;
-} demo_space;
-
-# 9.6.2 hyphen after ka
-lookup demo_hyphen {
-    sub uni178017B6 by uni178017B6.dash;
-    sub uni178017C5.right by uni178017C5.dash.right;
-} demo_hyphen;
-
-# 9.8 CS5 support
-# 9.8.1 downshift muusikatoan after nya
-lookup CS5bug_Muus2 {
-    sub uni178917B6 uni17C9' by uni17BB.low;
-    sub uni178917B6 uni17C9.a' by uni17BB.low;
-    sub uni178917B6.alt uni17C9' by uni17BB.low;
-    sub uni178917B6.alt uni17C9.a' by uni17BB.low;
-    sub uni179817B6 uni17C9' @coeng_all by uni17BB.low;
-    sub uni179817B6 uni17C9.a' @coeng_all by uni17BB.low;
-} CS5bug_Muus2;
-
-# 9.8.2 downshift muusikatoan after -a!
-lookup CS5bug_Muus1 {
-    sub uni178417B6 uni17C9' by uni17BB;
-    sub uni178417B6 uni17C9.a' by uni17BB;
-    sub uni178417B6 uni17C9.narrow' by uni17BB;
-    sub uni179417B6 uni17C9' by uni17BB;
-    sub uni179417B6 uni17C9.a' by uni17BB;
-    sub uni179417B6 uni17C9.narrow' by uni17BB;
-    sub uni179817B6 uni17C9' by uni17BB;
-    sub uni179817B6 uni17C9.a' by uni17BB;
-    sub uni179817B6 uni17C9.narrow' by uni17BB;
-    sub uni179917B6 uni17C9' by uni17BB;
-    sub uni179917B6 uni17C9.a' by uni17BB;
-    sub uni179917B6 uni17C9.narrow' by uni17BB;
-    sub uni179A17B6 uni17C9' by uni17BB;
-    sub uni179A17B6 uni17C9.a' by uni17BB;
-    sub uni179A17B6 uni17C9.narrow' by uni17BB;
-    sub uni179C17B6 uni17C9' by uni17BB;
-    sub uni179C17B6 uni17C9.a' by uni17BB;
-    sub uni179C17B6 uni17C9.narrow' by uni17BB;
-    sub uni179D17B6 uni17C9' by uni17BB;
-    sub uni179D17B6 uni17C9.a' by uni17BB;
-    sub uni179D17B6 uni17C9.narrow' by uni17BB;
-} CS5bug_Muus1;
-
 # 9.9 alternate muusikatoan after -a if you like that kind of thing
 lookup alt_Muus {
     sub @ligatures_b6 uni17C9' by uni17C9.a;
@@ -1112,11 +1048,6 @@ lookup uni17B1alt2 {
     sub uni17B1' @below_coeng by uni17B1.alt2;
     sub uni17B1' @post_coeng by uni17B1.alt2;
 } uni17B1alt2;
-
-# 9.14 Use alternate am for CS5
-lookup CS5_17C6 {
-    sub uni17C6 by uni17C6.a;
-} CS5_17C6;
 
 # ----- POS Lookups -----
 
@@ -1522,40 +1453,12 @@ feature ss03 {  # Stylistic Set 3
     lookup alt_ka;
 } ss03;
 
-feature ss05 {  # Stylistic Set 5
-    featureNames { name 3 1 0x409 "Hyphen after ka" ; };
-    script khmr;
-    language dflt;
-    lookup demo_hyphen;
-} ss05;
-
-feature ss06 {  # Stylistic Set 6
-    featureNames { name 3 1 0x409 "Space after ka" ; };
-    script khmr;
-    language dflt;
-    lookup demo_space;
-} ss06;
-
-feature ss07 {  # Stylistic Set 7
-    featureNames { name 3 1 0x409 "Alternate muusikatoan placement after -aa and -oo" ; };
-    script khmr;
-    language dflt;
-    lookup alt_Muus;
-} ss07;
-
-feature ss08 {  # Stylistic Set 8
+feature ss04 {  # Stylistic Set 8
     featureNames { name 3 1 0x409 "Alternate coeng-Nho" ; };
     script khmr;
     language dflt;
     lookup alt_coeng_nho;
-} ss08;
-
-feature ss09 {  # Stylistic Set 9
-    featureNames { name 3 1 0x409 "Lower vowels following below coengs" ; };
-    script khmr;
-    language dflt;
-    lookup low_below_vowel_xro;
-} ss09;
+} ss04;
 
 feature mark {
     script latn;

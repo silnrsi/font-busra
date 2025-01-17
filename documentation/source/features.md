@@ -42,15 +42,6 @@ Feature        | Sample | Feature setting
 Standard | <span class='busra-R normal'        >&#x1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=0`
 Alternate | <span class='busra-R normal' style='font-feature-settings: "ss03" 1'>&#x1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=1`
 
-#### Alternate muusikatoan placement after -aa and -oo
-
-<span class='affects'>Affects: U+17C9</span>
-
-Feature        | Sample | Feature setting
-:------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'        >&#x1780;&#x17B6;&#x17C9; &#x1780;&#x17C4;&#x17C9; &#x1782;&#x17B6;&#x17C9; &#x1782;&#x17D2;&#x1783;&#x17C4;&#x17C9;</span>| `ss07=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss07" 1'>&#x1780;&#x17B6;&#x17C9; &#x1780;&#x17C4;&#x17C9; &#x1782;&#x17B6;&#x17C9; &#x1782;&#x17D2;&#x1783;&#x17C4;&#x17C9;</span>| `ss07=1`
-
 #### Alternate coeng-Nho 
 
 This feature is provided to accommodate historical texts.
@@ -59,59 +50,9 @@ This feature is provided to accommodate historical texts.
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'        >&#x1780;&#x17D2;&#x1789;</span>| `ss08=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss08" 1'>&#x1780;&#x17D2;&#x1789;</span>| `ss08=1`
+Standard | <span class='busra-R normal'        >&#x1780;&#x17D2;&#x1789;</span>| `ss04=0`
+Alternate | <span class='busra-R normal' style='font-feature-settings: "ss08" 1'>&#x1780;&#x17D2;&#x1789;</span>| `ss04=1`
 
-#### Lower vowels following below coengs
-
-<span class='affects'>Affects: U+17BB, U+17BC, U+17BD, U+17D2</span>
-
-Feature        | Sample | Feature setting
-:------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'        >&#x1789;&#x17BB; &#x17AB;&#x17D2;</span>| `ss09=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss09" 1'>&#x1789;&#x17BB; &#x17AB;&#x17D2;</span>| `ss09=1`
-
-#### Alternate samyok sannya and nikahit before -i
-
-This feature supports the Tampuan language.
-
-<span class='affects'>Affects: U+17C6, U+17D0</span>
-
-Feature        | Sample | Feature setting
-:------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'        >&#x1780;&#x17D0;&#x17C7; &#x1780;&#x17CA;&#x17B6;&#x17C6;</span>| `ss18=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss18" 1'>&#x1780;&#x17D0;&#x17C7; &#x1780;&#x17CA;&#x17B6;&#x17C6;</span>| `ss18=1`
-
-#### Hyphen after ka
-
-This feature is included for demonstration purposes.
-
-<span class='affects'>Affects: U+1780</span>
-
-Feature        | Sample | Feature setting
-:------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'        >&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss05" 1'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss05=1`
-
-#### Space after ka
-
-This feature is included for demonstration purposes.
-
-<span class='affects'>Affects: U+1780</span>
-
-Feature        | Sample | Feature setting
-:------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'        >&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss06" 1'>&#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss06=1`
-
-#### CS5 bug fix - muusikatoan downshift
-
-<span class='affects'>Affects: U+17C9</span>
-
-Feature        | Sample | Feature setting
-:------------- | :--------------- | :------------- 
-Standard | <span class='busra-R normal'        >&#x1789;&#x17B6;&#x17C9; &#x1784;&#x17B6;&#x17C9; &#x1798;&#x17B6;&#x17C9;</span>| `ss19=0`
-Alternate | <span class='busra-R normal' style='font-feature-settings: "ss19" 1'>&#x1789;&#x17B6;&#x17C9; &#x1784;&#x17B6;&#x17C9; &#x1798;&#x17B6;&#x17C9;</span>| `ss19=1`
 
 <!-- PRODUCT SITE ONLY
 [font id='busra' face='Busra-Regular' size='150%']

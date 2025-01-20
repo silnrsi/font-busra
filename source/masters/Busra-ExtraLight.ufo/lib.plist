@@ -83,8 +83,6 @@ Roosevelt/space said/space that/space December/space 7,
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
-  <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
-  <string>SIL International: Busra ExtraLight: 2025</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>

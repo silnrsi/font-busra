@@ -80,7 +80,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2025/01/17 15:53:47</string>
+  <string>2025/01/20 09:09:31</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -237,7 +237,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WinAscent</key>
   <integer>2706</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>1876</integer>
+  <integer>1908</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-33</integer>

@@ -89,7 +89,7 @@ E: https://software.sil.org/about/contact/
 W: https://software.sil.org/wstech/
 D: SIL designers and font engineers
 
-The Busra project is maintained by SIL International, a global, faith-based nonprofit that works with local communities around the world to develop language solutions that expand possibilities for a better life.
+The Busra project is maintained by SIL Global, a global, faith-based nonprofit that works with local communities around the world to develop language solutions that expand possibilities for a better life.
 
 For more information or support please visit the project site:
 https://github.com/silnrsi/font-busra

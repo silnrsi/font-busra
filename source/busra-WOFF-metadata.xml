@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
   <uniqueid id="org.sil.fonts.busra.8.950" />
-  <vendor name="SIL International" url="https://software.sil.org/wstech/" />
+  <vendor name="SIL Global" url="https://software.sil.org/wstech/" />
   <credits>
     <credit
       name="D. Kanjahn"
@@ -30,7 +30,7 @@
   </description>
   <license url="https://openfontlicense.org" id="org.openfontlicense.1.1">
     <text lang="en">
-      Copyright (c) 2003-2024 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
+      Copyright (c) 2003-2025 SIL Global with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
       
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -79,10 +79,10 @@
   </license>
   <copyright>
     <text lang="en">
-      Copyright (c) 2003-2024 SIL International
+      Copyright (c) 2003-2025 SIL Global
     </text>
   </copyright>
   <trademark>
-    <text lang="en">Busra is a trademark of SIL International.</text>
+    <text lang="en">Busra is a trademark of SIL Global.</text>
   </trademark>
 </metadata>

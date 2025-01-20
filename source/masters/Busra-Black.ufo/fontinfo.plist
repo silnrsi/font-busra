@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1440</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2003-2024 SIL International</string>
+  <string>Copyright (c) 2003-2025 SIL Global</string>
   <key>descender</key>
   <integer>-1240</integer>
   <key>familyName</key>
@@ -58,7 +58,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2024/01/03 09:53:57</string>
+  <string>2025/01/03 09:53:57</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -72,7 +72,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2003-2024 SIL International with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
+  <string>Copyright (c) 2003-2025 SIL Global with Reserved Font Names "Mondulkiri", "Busra", "Oureang", "Ratanakiri", and "Dakdam".
 
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -120,7 +120,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameLicenseURL</key>
   <string>https://openfontlicense.org</string>
   <key>openTypeNameManufacturer</key>
-  <string>SIL International</string>
+  <string>SIL Global</string>
   <key>openTypeNameManufacturerURL</key>
   <string>https://software.sil.org/wstech/</string>
   <key>openTypeNamePreferredFamilyName</key>
@@ -128,7 +128,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Black</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Busra Black: 2024</string>
+  <string>SIL Global: Busra Black: 2025</string>
   <key>openTypeNameVersion</key>
   <string>Version 8.700 alpha</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -277,7 +277,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>styleName</key>
   <string>Black</string>
   <key>trademark</key>
-  <string>Busra is a trademark of SIL International.</string>
+  <string>Busra is a trademark of SIL Global.</string>
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>

@@ -6,7 +6,7 @@ The Busra fonts provide Unicode support for languages and writing systems that u
 
 The current beta test release (Busra Test B) includes Regular and Bold weights and can be downloaded from the [project releases page](https://github.com/silnrsi/font-busra/releases). Additional weights are planned for future releases.
 
-These fonts are copyright (c) 2003-2024 SIL International (https://www.sil.org/) and are released under under the [SIL Open Font License (openfontlicense.org)](https://openfontlicense.org).
+These fonts are copyright (c) 2003-2025 SIL Global (https://www.sil.org/) and are released under under the [SIL Open Font License (openfontlicense.org)](https://openfontlicense.org).
 
 For a complete list of changes in this version see the [FONTLOG.txt](FONTLOG.txt).
 

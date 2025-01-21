@@ -40,19 +40,3 @@ designspace('source/' + FAMILY + 'Upright.designspace',
     script = 'khmr',
     pdf = fret(params='-oi -r')
 )
-
-#extralightpackage = package(appname = "BusraXLTest", docdir = DOCDIR)
-
-#getufoinfo('source/masters/' + FAMILY  + '-Regular.ufo', extralightpackage)
-
-#designspace('source/' + FAMILY + 'UprightXLonly.designspace',
-#    target = "${DS:FILENAME_BASE}.ttf",
-#    params = "--decomposeComponents --removeOverlap",
-#    opentype = fea('source/${DS:FILENAME_BASE}.fea',
-#        master = 'source/Busra.feax',
-#        make_params = " ".join(mparams),
-#        params = '-m source/${DS:FILENAME_BASE}.map'),
-#    script = 'khmr',
-#    pdf = fret(params='-oi -r'),
-#    package = extralightpackage
-#)

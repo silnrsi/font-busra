@@ -5,6 +5,5 @@ psfglyphs2ufo source/masters/BusraUpright.glyphs source/masters
 psfremovegliflibkeys source/masters/Busra-ExtraLight.ufo com.schriftgestaltung.Glyphs.originalWidth
 psfremovegliflibkeys source/masters/Busra-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth
 psfremovegliflibkeys source/masters/Busra-Bold.ufo com.schriftgestaltung.Glyphs.originalWidth
-#psfremovegliflibkeys source/masters/Busra-Black.ufo com.schriftgestaltung.Glyphs.originalWidth
 
 ./preflight

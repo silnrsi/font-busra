@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni17B9.narrow" format="2">
-  <anchor x="0" y="350" name="A0"/>
-  <anchor x="-700" y="0" name="_H"/>
-  <outline>
-    <component base="uni17B9.ms.narrowhigh" yOffset="-291"/>
-  </outline>
-</glyph>

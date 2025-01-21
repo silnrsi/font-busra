@@ -19,7 +19,9 @@ getufoinfo('source/masters/' + FAMILY  + '-Regular.ufo')
 # Set up the FTML tests
 # ftmlTest('tools/ftml-smith.xsl')
 
-mparams = []
+compreg = r"^(_|uni(?:200B|17C0.*?SS01|17B[79]\.ms|0302030[0139]|03060)|six\.001|nonmarkingreturn)"
+
+mparams = ["--ignoreglyphs", "'"+compreg+"'"]
 if "--nofinalc" not in opts:
     mparams.append("-D finalc=1")
 
@@ -28,7 +30,7 @@ if "--nofinalc" not in opts:
 designspace('source/' + FAMILY + 'Upright.designspace',
     target = "${DS:FILENAME_BASE}.ttf",
 #    target = process("${DS:FILENAME_BASE}.ttf", *cmds),
-    params = "--decomposeComponents --removeOverlap",
+    params = f"--decomposeComponents --removeOverlap -c '{compreg}'",
     opentype = fea('source/${DS:FILENAME_BASE}.fea',
         master = 'source/Busra.feax',
         make_params = " ".join(mparams),

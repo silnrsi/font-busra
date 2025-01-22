@@ -20,9 +20,10 @@ getufoinfo('source/masters/' + FAMILY  + '-Regular.ufo')
 # ftmlTest('tools/ftml-smith.xsl')
 
 # compreg = r"^(_|uni(?:200B|17C0.*?SS01|17B[79]\.ms|0302030[0139]|03060)|six\.001|nonmarkingreturn)"
-compreg = r"^(_|uni(?:200B|17DD\.(wide|a)|17D6\.alt2|17D217A(1\.[^a]|1\.altlow|1$)|17D1\.a|17C[FEDB]\.a|17CA\.lower|17(C5|B6|94)\.l|17C0.*?SS01|17B[79]\.ms|179[AC]\.spc|178A17CF|030[26].|01A0.)|six\.001|nonmarkingreturn)"
+# compreg = r"^(_|uni(?:200B|17DD\.(wide|a)|17D6\.alt2|17D217A(1\.[^a]|1\.altlow|1$)|17D1\.a|17C[FEDB]\.a|17CA\.lower|17(C5|B6|94)\.l|17C0.*?SS01|17B[79]\.ms|179[AC]\.spc|178A17CF|030[26].|01A0.)|six\.001|nonmarkingreturn)"
+#compreg = r"^(_|uni(?:|17D1\.a|17C0.rightpart..SS01|17B[79]\.ms|179[AC]\.spc|178A17CF|030[26].)|nonmarkingreturn)"
 
-mparams = ["--ignoreglyphs", "'"+compreg+"'"]
+mparams = [] # "--ignoreglyphs", "'"+compreg+"'"]
 if "--nofinalc" not in opts:
     mparams.append("-D finalc=1")
 
@@ -31,7 +32,7 @@ if "--nofinalc" not in opts:
 designspace('source/' + FAMILY + 'Upright.designspace',
     target = "${DS:FILENAME_BASE}.ttf",
 #    target = process("${DS:FILENAME_BASE}.ttf", *cmds),
-    params = f"--decomposeComponents --removeOverlap -c '{compreg}'",
+    params = f"--decomposeComponents --removeOverlap", # -c '{compreg}'",
     opentype = fea('source/${DS:FILENAME_BASE}.fea',
         master = 'source/Busra.feax',
         make_params = " ".join(mparams),

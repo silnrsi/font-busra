@@ -85,7 +85,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL Global: Busra Regular: 2025</string>
   <key>openTypeNameVersion</key>
-  <string>Version 8.950 beta</string>
+  <string>Version 9.000</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -240,9 +240,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
-  <integer>8</integer>
+  <integer>9</integer>
   <key>versionMinor</key>
-  <integer>950</integer>
+  <integer>0</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>
@@ -289,7 +289,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
       </dict>
     </array>
     <key>url</key>
-    <string>https://software.sil.org/</string>
+    <string>https://software.sil.org/busra</string>
   </dict>
   <key>xHeight</key>
   <integer>970</integer>

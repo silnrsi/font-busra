@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.busra.8.950" />
+  <uniqueid id="org.sil.fonts.busra.9.000" />
   <vendor name="SIL Global" url="https://software.sil.org/wstech/" />
   <credits>
     <credit
@@ -23,7 +23,7 @@
       role="Designer - Latin"
     />
   </credits>
-  <description url="https://software.sil.org/">
+  <description url="https://software.sil.org/busra">
     <text lang="en">
       Busra is a Unicode typeface family that supports languages that use the Khmer script.
     </text>

@@ -38,6 +38,5 @@ designspace('source/' + FAMILY + 'Upright.designspace',
     woff = woff('web/${DS:FILENAME_BASE}.woff',
         metadata=f'../source/busra-WOFF-metadata.xml'),
     script = 'khmr',
-    shortcircuit = False,
     pdf = fret(params='-oi -r')
 )

@@ -26,6 +26,7 @@ There are significant differences between this Busra font and the previous versi
 - The font supports a new Khmer encoding structure; see [UTN #61: Khmer Encoding Structure]( https://www.unicode.org/notes/tn61-draft).
 - There is no longer support for Apple's AAT technology.
 - The Latin has been completely redesigned.
+- Oblique (italic) weights are not included. These will be provided in a later version.
 
 ### Problems with Bold weights
 

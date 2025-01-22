@@ -8,13 +8,13 @@ Busra is based on an earlier font that is part of a larger package of Khmer scri
 
 ## Change history
 
-### 20 November 2023 (SIL WSTech Team) Busra Test B version 8.800
-*This release is a beta test release with known issues and should not be used to create derivative versions.*
-- First test released based on a major revision of Khmer Mondulkiri Regular and Bold
+### XX February 2025 (SIL WSTech Team) Busra version 9.000
+- New version released based on a major revision of Khmer Mondulkiri Regular and Bold
+- Now includes six weights
 - Revised and improved glyph outlines
 - Rewritten OpenType support, supporting latest best practice in Khmer text encoding
 - Support removed for Graphite and AAT
-- New style for Latin glyphs (still incomplete and unfinished)
+- New style for Latin glyphs
 - Line spacing updated to best practice (could affect older Windows apps)
 
 ### 8 September 2014 (Diethelm Kanjahn) Mondulkiri Font Family version 7.100

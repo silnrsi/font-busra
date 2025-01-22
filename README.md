@@ -2,11 +2,9 @@
 
 ## Project status [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_Busra/statusIcon)](https://build.palaso.org/viewType.html?buildTypeId=Fonts_Busra&guest=1)
 
-_Note: This project in currently in development and incomplete. Please do not base derivatives on this project until the full version 9.000 release._
-
 The Busra fonts provide Unicode support for languages and writing systems that use the Khmer script. The design is based on the Khmer Mondulkiri family of fonts (https://software.sil.org/mondulkiri/), but with significant updates to the design and rendering behavior.
 
-The current beta test release (Busra Test B) includes Regular and Bold weights and can be downloaded from the [project releases page](https://github.com/silnrsi/font-busra/releases). Additional weights are planned for future releases.
+The current version is 9.000 contains six weights and can be downloaded from the [project releases page](https://github.com/silnrsi/font-busra/releases). We anticipate adding a oblique style in the future.
 
 These fonts are copyright (c) 2003-2025 SIL Global (https://www.sil.org/) and are released under under the [SIL Open Font License (openfontlicense.org)](https://openfontlicense.org).
 

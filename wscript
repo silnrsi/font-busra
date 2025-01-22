@@ -7,14 +7,12 @@ DOCDIR = ["documentation", "web"]
 # set the font name and description
 APPNAME = 'Busra'
 FAMILY = APPNAME
-DESC_SHORT = "Font family for the Khmer script"
 
 TESTDIR = ["tests"]
 
 opts = preprocess_args({'opt': '--nofinalc'})
 # Get version and authorship information from Regular UFO (canonical metadata); must be first function call:
 getufoinfo('source/masters/' + FAMILY  + '-Regular.ufo')
-# BUILDLABEL = 'beta1'
 
 # Set up the FTML tests
 # ftmlTest('tools/ftml-smith.xsl')
@@ -40,5 +38,6 @@ designspace('source/' + FAMILY + 'Upright.designspace',
     woff = woff('web/${DS:FILENAME_BASE}.woff',
         metadata=f'../source/busra-WOFF-metadata.xml'),
     script = 'khmr',
+    shortcircuit = False,
     pdf = fret(params='-oi -r')
 )

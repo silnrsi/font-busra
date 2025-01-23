@@ -424,6 +424,7 @@ lookup reg_shift_triisap2 {
 lookup reg_robat_check {
     sub @any_coeng uni17CC' lookup shifter_error_p1;
     ignore sub @base_cons uni17CC';
+    ignore sub dottedcircle uni17CC';
     sub uni17CC' lookup shifter_error_p1;
 } reg_robat_check;
 

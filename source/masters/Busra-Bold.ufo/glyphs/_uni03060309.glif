@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_uni03060309" format="2">
+  <anchor x="-664" y="2051" name="LU"/>
+  <anchor x="-100" y="417" name="PA"/>
+  <anchor x="-664" y="1350" name="_LU"/>
+  <outline>
+    <component base="_uni0306.high" yOffset="-313"/>
+    <component base="uni0309" xScale="0.9" yScale="0.9" xOffset="-94" yOffset="400"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

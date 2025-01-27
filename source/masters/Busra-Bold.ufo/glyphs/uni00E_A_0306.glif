@@ -10,7 +10,7 @@
   <anchor x="610" y="0" name="def"/>
   <outline>
     <component base="e"/>
-    <component base="uni03020306" xOffset="1348"/>
+    <component base="_uni03020306" xOffset="1348"/>
   </outline>
   <lib>
     <dict>

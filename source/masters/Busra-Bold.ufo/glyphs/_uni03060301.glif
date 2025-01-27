@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_uni03060301" format="2">
+  <anchor x="-664" y="2011" name="LU"/>
+  <anchor x="-664" y="1350" name="_LU"/>
+  <outline>
+    <component base="_uni0306.high" xOffset="-38" yOffset="-313"/>
+    <contour>
+      <point x="-311" y="1875" type="curve"/>
+      <point x="-450" y="1810"/>
+      <point x="-578" y="1734"/>
+      <point x="-684" y="1657" type="curve"/>
+      <point x="-770" y="1734" type="line"/>
+      <point x="-663" y="1851"/>
+      <point x="-562" y="1940"/>
+      <point x="-444" y="2028" type="curve"/>
+      <point x="-391" y="2016"/>
+      <point x="-323" y="1932"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -86,6 +86,20 @@
   <string>_subL_.ear.glif</string>
   <key>_swash</key>
   <string>_swash.glif</string>
+  <key>_uni03020300</key>
+  <string>_uni03020300.glif</string>
+  <key>_uni03020301</key>
+  <string>_uni03020301.glif</string>
+  <key>_uni0306.high</key>
+  <string>_uni0306.high.glif</string>
+  <key>_uni03060300</key>
+  <string>_uni03060300.glif</string>
+  <key>_uni03060301</key>
+  <string>_uni03060301.glif</string>
+  <key>_uni17B7.ms.narrowhigh</key>
+  <string>_uni17B_7.ms.narrowhigh.glif</string>
+  <key>_uni17B9.ms.narrowhigh</key>
+  <string>_uni17B_9.ms.narrowhigh.glif</string>
   <key>a</key>
   <string>a.glif</string>
   <key>acutecomb</key>
@@ -232,18 +246,8 @@
   <string>u.glif</string>
   <key>uni01AF</key>
   <string>uni01A_F_.glif</string>
-  <key>uni03020300</key>
-  <string>uni03020300.glif</string>
-  <key>uni03020301</key>
-  <string>uni03020301.glif</string>
   <key>uni0306</key>
   <string>uni0306.glif</string>
-  <key>uni0306.high</key>
-  <string>uni0306.high.glif</string>
-  <key>uni03060300</key>
-  <string>uni03060300.glif</string>
-  <key>uni03060301</key>
-  <string>uni03060301.glif</string>
   <key>uni0309</key>
   <string>uni0309.glif</string>
   <key>uni031B</key>
@@ -350,8 +354,6 @@
   <string>uni17B_3.alt.glif</string>
   <key>uni17B6</key>
   <string>uni17B_6.glif</string>
-  <key>uni17B7.ms.narrowhigh</key>
-  <string>uni17B_7.ms.narrowhigh.glif</string>
   <key>uni17B7.narrow</key>
   <string>uni17B_7.narrow.glif</string>
   <key>uni17B717CD</key>
@@ -362,8 +364,6 @@
   <string>uni17B_8.glif</string>
   <key>uni17B9</key>
   <string>uni17B_9.glif</string>
-  <key>uni17B9.ms.narrowhigh</key>
-  <string>uni17B_9.ms.narrowhigh.glif</string>
   <key>uni17B9.narrow</key>
   <string>uni17B_9.narrow.glif</string>
   <key>uni17BA</key>

@@ -5,6 +5,6 @@
   <anchor x="-245" y="1580" name="_UR"/>
   <anchor x="-225" y="1580" name="_UX"/>
   <outline>
-    <component base="uni17B7.ms.narrowhigh" xOffset="-230" yOffset="-291"/>
+    <component base="_uni17B7.ms.narrowhigh" xOffset="-230" yOffset="-291"/>
   </outline>
 </glyph>

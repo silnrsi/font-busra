@@ -56,6 +56,10 @@
   <string>Y_.glif</string>
   <key>Z</key>
   <string>Z_.glif</string>
+  <key>_uni17B7.ms.narrowhigh</key>
+  <string>_uni17B_7.ms.narrowhigh.glif</string>
+  <key>_uni17B9.ms.narrowhigh</key>
+  <string>_uni17B_9.ms.narrowhigh.glif</string>
   <key>a</key>
   <string>a.glif</string>
   <key>b</key>
@@ -434,8 +438,6 @@
   <string>uni17B_6.lig.right.glif</string>
   <key>uni17B7</key>
   <string>uni17B_7.glif</string>
-  <key>uni17B7.ms.narrowhigh</key>
-  <string>uni17B_7.ms.narrowhigh.glif</string>
   <key>uni17B7.narrow</key>
   <string>uni17B_7.narrow.glif</string>
   <key>uni17B717CD</key>
@@ -448,8 +450,6 @@
   <string>uni17B_8.narrow.glif</string>
   <key>uni17B9</key>
   <string>uni17B_9.glif</string>
-  <key>uni17B9.ms.narrowhigh</key>
-  <string>uni17B_9.ms.narrowhigh.glif</string>
   <key>uni17B9.narrow</key>
   <string>uni17B_9.narrow.glif</string>
   <key>uni17BA</key>

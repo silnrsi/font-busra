@@ -5,10 +5,8 @@ softhyphen = hyphen | 00AD
 divisionslash = slash | 2215
 hyphenationpoint = periodcentered | 2027
 
-uni178017C5.dash.right = uni178017B6.dash + _R.ear@zxc1
 uni178017C5.right = uni178017B6 + _R.ear@zxc1
 uni178017C5.right.alt = uni178017B6.alt + _R.ear@zxc1
-uni178017C5.space.right = uni178017B6.space + _R.ear@zxc1
 uni178117C5.right = uni178117B6 + _R.ear@zxc1
 uni178217C5.right = uni178217B6 + _R.ear@zxc1
 uni178317C5.right = uni178317B6 + _R.ear@zxc1
@@ -44,7 +42,6 @@ uni17A017C5.right = uni17A017B6 + _R.ear@zxc1
 uni17A117C5.right = uni17A117B6 + _R.ear@zxc1
 uni17A217C5.right = uni17A217B6 + _R.ear@zxc1
 uni17C5 = uni17C4 + _R.ear@zxc1
-uni17C5.lig.right = uni17B6.lig.right + _R.ear@zxc1
 uni17C5.rightpart = uni17B6 + _R.ear@zxc1
 uni17D2178317C5.right = uni17D2178317B6 + _R.ear@zxc1
 uni17D2178317C5.right.alt = uni17D2178317B6.alt + _R.ear@zxc1
@@ -64,8 +61,6 @@ uni17D2179E17C5.right = uni17D2179E17B6 + _R.ear@zxc1
 uni17D2179E17C5.rightlow = uni17D2179E17B6.low + _R.ear@zxc1
 uni17D2179F17C5.right = uni17D2179F17B6 + _R.ear@zxc1
 uni17D2179F17C5.rightlow = uni17D2179F17B6.low + _R.ear@zxc1
-uni17D217A117C5.right = uni17D217A117B6 + _R.ear@zxc1
-uni17D217A117C5.rightlow = uni17D217A117B6.low + _R.ear@zxc1
 
 Aacute = A + acutecomb@LU | 00C1
 uni0102 = A + uni0306@LU | 0102

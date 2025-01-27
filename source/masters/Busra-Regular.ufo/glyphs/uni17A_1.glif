@@ -9,6 +9,10 @@
   <anchor x="1585" y="1580" name="UR"/>
   <outline>
     <component base="uni1791"/>
-    <component base="uni17D217A1" xOffset="1102"/>
+    <component base="_w" xOffset="549" yOffset="-722"/>
+    <component base="_L.ear" xOffset="1124"/>
+    <component base="_stemSub" xOffset="1297" yOffset="-100"/>
+    <component base="_ballInstroke" xOffset="487"/>
+    <component base="_substemSm" xOffset="549" yOffset="-50"/>
   </outline>
 </glyph>

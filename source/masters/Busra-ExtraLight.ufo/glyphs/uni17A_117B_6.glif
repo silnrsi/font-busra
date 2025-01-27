@@ -14,6 +14,11 @@
   <anchor x="2113" y="1236" name="zxc1"/>
   <outline>
     <component base="uni1791"/>
-    <component base="uni17D217A117B6" xOffset="1102"/>
+    <component base="_w" xOffset="547" yOffset="-714"/>
+    <component base="_stemSub" xOffset="1282" yOffset="-100"/>
+    <component base="_ballInstroke" xOffset="452" yOffset="2"/>
+    <component base="_bulgeArch" xOffset="1125"/>
+    <component base="_stemLg" xOffset="1977"/>
+    <component base="_substemSm" xOffset="533" yOffset="-50"/>
   </outline>
 </glyph>

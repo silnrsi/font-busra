@@ -30,7 +30,7 @@ cmds = [cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}')]
 designspace('source/' + FAMILY + 'Upright.designspace',
 #    target = "${DS:FILENAME_BASE}.ttf",
     target = process("${DS:FILENAME_BASE}.ttf", *cmds),
-    params = f"--decomposeComponents --removeOverlap --compregex ^_",
+    params = f"--removeOverlap --compregex ^_",
     opentype = fea('source/${DS:FILENAME_BASE}.fea',
         master = 'source/Busra.feax',
         make_params = " ".join(mparams),

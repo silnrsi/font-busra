@@ -25,11 +25,11 @@ mparams = ["--ignoreglyphs"] # , "'"+compreg+"'"]
 if "--nofinalc" not in opts:
     mparams.append("-D finalc=1")
 
-# cmds = [cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])]
+cmds = [cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}')]
 
 designspace('source/' + FAMILY + 'Upright.designspace',
-    target = "${DS:FILENAME_BASE}.ttf",
-#    target = process("${DS:FILENAME_BASE}.ttf", *cmds),
+#    target = "${DS:FILENAME_BASE}.ttf",
+    target = process("${DS:FILENAME_BASE}.ttf", *cmds),
     params = f"--decomposeComponents --removeOverlap --compregex ^_",
     opentype = fea('source/${DS:FILENAME_BASE}.fea',
         master = 'source/Busra.feax',

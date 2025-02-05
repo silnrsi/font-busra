@@ -1,21 +1,18 @@
 
-Busra is based on an earlier font that is part of a larger package of Khmer script fonts called Mondulkiri. Earlier forms of Busra were called “Khmer Mondulkiri book” and “Khmer Busra”. Significant changes exist between the earlier versions and this Busra release; a few of these are:
-
-- The name of the font has changed from “Khmer Busra” to “Busra”. This allows both versions of the font to be installed simultaneously.
-- The font supports a new Khmer encoding structure; see [UTN #61: Khmer Encoding Structure]( https://www.unicode.org/notes/tn61-draft).
-- There is no longer support for Graphite or Apple's AAT technology.
-- The Latin has been completely redesigned.
+Busra is based on an earlier font that is part of a larger package of Khmer script fonts called Mondulkiri. Earlier forms of Busra were called “Khmer Mondulkiri book” and “Khmer Busra”. Significant changes exist between the earlier versions and this Busra release:
 
 ## Change history
 
 ### XX February 2025 (SIL WSTech Team) Busra version 9.000
-- New version released based on a major revision of Khmer Mondulkiri Regular and Bold
-- Now includes six weights
-- Revised and improved glyph outlines
-- Rewritten OpenType support, supporting latest best practice in Khmer text encoding
-- Support removed for Graphite and AAT
-- New style for Latin glyphs
-- Line spacing updated to best practice (could affect older Windows apps)
+- The font family is now called "Busra" so it and the old "Khmer Busra" can be installed at the same time.
+- There are six weights: ExtraLight, Light, Regular, Medium, SemiBold, and Bold. This also replaces the older Khmer Mondulkiri family.
+- Oblique (italic) styles are not included but will be provided in a later release.
+- Glyph outlines have been revised and improved.
+- OpenType support has been rewritten, supporting latest best practice in Khmer text encoding; see [UTN #61: Khmer Encoding Structure]( https://www.unicode.org/notes/tn61-draft).
+- Support for Graphite and AAT rendering has been removed.
+- Latin glyphs have been replaced with ones specifically designed to work well with the Khmer glyphs. 
+- Default line spacing has updated to best practice. This could affect older Windows apps.
+- Three font formats are provided: OpenType (.ttf) for desktop use and WOFF/WOFF2 for the web.
 
 ### 8 September 2014 (Diethelm Kanjahn) Mondulkiri Font Family version 7.100
 - Mondulkiri changes:

@@ -1,11 +1,11 @@
 
 ## About this project
 
-The Busra font supports the Khmer script of Cambodia. It is named after the Bou Sra waterfall in Mondulkiri Province.
+The Busra font family supports the Khmer script of Cambodia. It is named after the Bou Sra waterfall in Mondulkiri Province.
 
-Busra is based on a font that was part of a larger package of Khmer script fonts called Mondulkiri; previous names were “Khmer Mondulkiri book” and “Khmer Busra”. The weight of Busra has been found to be the most generally appropriate for normal text, compared to other fonts in the older package. Several significant changes exist between the earlier forms of the font in the Mondulkiri package and this Busra font.
+Busra is based on a font that was part of a larger package of Khmer script fonts called Mondulkiri; previous names were “Khmer Mondulkiri book” and “Khmer Busra”. The weight of the original Busra was found to be the most generally appropriate for normal text, compared to other fonts in the older package, and serves as the basis for this Busra Regular font. Several significant changes exist between the earlier forms of the font in the Mondulkiri package and this Busra font.
 
-One major change involves the encoding. The Busra font requires that text be encoded according to the latest [UTN #61: Khmer Encoding Structure]( https://www.unicode.org/notes/tn61-draft) specification. This encoding has been improved to prevent ambiguity and ensure that any given visual form has only one encoding.
+One major change involves the encoding. The Busra font requires that text be encoded according to the latest [UTN #61: Khmer Encoding Structure](https://www.unicode.org/notes/tn61-draft) specification. This encoding has been improved to prevent ambiguity and ensure that any given visual form has only one encoding.
 
 ## Future plans
 

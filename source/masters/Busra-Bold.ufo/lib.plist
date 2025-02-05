@@ -64,10 +64,10 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3316</string>
+  <string>3337</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/tildecomb/space/dieresiscomb/space/gravecomb/space/acutecomb/space/uni03020300/space/uni03020301/space/uni03060300/space/uni03060301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni031B/space/circumflexcomb/space/uni03020306/space/uni0306/space/uni0306.high/space/cedillacomb/space/uni03020303/space/uni0309/space/uni03020309/space/uni03060303/space/uni03060309</string>
+    <string>/tildecomb/space/dieresiscomb/space/gravecomb/space/acutecomb/space/_uni03020300/space/_uni03020301/space/_uni03060300/space/_uni03060301/space/circumflexcomb/space/caroncomb/space/ringcomb/space/uni0304/space/uni0306/space/tildecomb/space/uni0307/space/uni031B/space/circumflexcomb/space/_uni03020306/space/uni0306/space/_uni0306.high/space/cedillacomb/space/_uni03020303/space/uni0309/space/_uni03020309/space/_uni03060303/space/_uni03060309</string>
     <string>©®/trademark ªº¹²³/foursuperior/space ½¼¾%/perthousand</string>
     <string>/uni01A0/space/uni031B/space/uni01AF U/uni01A1/uni01B0/space</string>
     <string>¢£§/bullet ¶®©/trademark ´¨¥µ/partialdiff/summation/product/pi/integral ªº/Omega µ¿¡/Euro/uni20AB/space/space</string>
@@ -78,7 +78,7 @@ Roosevelt/space said/space that/space December/space 7,
 -4%5/perthousand 6°F+=&lt;&gt;/notequal/infinity ±/lessequal/greaterequal/approxequal 9÷8/minus ×¬
 #0/partialdiff/summation/product/integral 8/radical 5/space/space 6+4/space 5&gt;2
 ¤/Euro 2.5¢/uni20AB £¥/florin $</string>
-    <string>/uni179417B6/uni179417C5.right/uni179E17B6/uni179E17C5.right</string>
+    <string>/.notdef</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -118,14 +118,8 @@ Roosevelt/space said/space that/space December/space 7,
     <string>uni1780.alt</string>
     <string>uni178017B6</string>
     <string>uni178017B6.alt</string>
-    <string>uni178017B6.dash</string>
-    <string>uni178017B6.dotted</string>
-    <string>uni178017B6.space</string>
-    <string>uni178017C5.dash.right</string>
-    <string>uni178017C5.dotted.right</string>
     <string>uni178017C5.right</string>
     <string>uni178017C5.right.alt</string>
-    <string>uni178017C5.space.right</string>
     <string>uni1781</string>
     <string>uni1781.pronounlig</string>
     <string>uni178117B6</string>
@@ -160,7 +154,6 @@ Roosevelt/space said/space that/space December/space 7,
     <string>uni178A</string>
     <string>uni178A17B6</string>
     <string>uni178A17C5.right</string>
-    <string>uni178A17CF</string>
     <string>uni178B</string>
     <string>uni178B17B6</string>
     <string>uni178B17C5.right</string>
@@ -191,7 +184,6 @@ Roosevelt/space said/space that/space December/space 7,
     <string>uni1794</string>
     <string>uni179417B6</string>
     <string>uni179417C5.right</string>
-    <string>uni1794.lig.left</string>
     <string>uni1795</string>
     <string>uni179517B6</string>
     <string>uni179517C5.right</string>
@@ -210,14 +202,12 @@ Roosevelt/space said/space that/space December/space 7,
     <string>uni179A</string>
     <string>uni179A17B6</string>
     <string>uni179A17C5.right</string>
-    <string>uni179A.spc</string>
     <string>uni179B</string>
     <string>uni179B17B6</string>
     <string>uni179B17C5.right</string>
     <string>uni179C</string>
     <string>uni179C17B6</string>
     <string>uni179C17C5.right</string>
-    <string>uni179C.spc</string>
     <string>uni179D</string>
     <string>uni179D17B6</string>
     <string>uni179D17C5.right</string>
@@ -259,16 +249,15 @@ Roosevelt/space said/space that/space December/space 7,
     <string>uni17B4</string>
     <string>uni17B5</string>
     <string>uni17B6</string>
-    <string>uni17B6.lig.right</string>
     <string>uni17B7</string>
     <string>uni17B717CD</string>
     <string>uni17B717CD.narrow</string>
     <string>uni17B8</string>
-    <string>uni17B7.ms.narrowhigh</string>
+    <string>_uni17B7.ms.narrowhigh</string>
     <string>uni17B7.narrow</string>
     <string>uni17B8.narrow</string>
     <string>uni17B9</string>
-    <string>uni17B9.ms.narrowhigh</string>
+    <string>_uni17B9.ms.narrowhigh</string>
     <string>uni17B9.narrow</string>
     <string>uni17BA</string>
     <string>uni17BA.narrow</string>
@@ -296,43 +285,32 @@ Roosevelt/space said/space that/space December/space 7,
     <string>uni17C3</string>
     <string>uni17C4</string>
     <string>uni17C5</string>
-    <string>uni17C5.lig.right</string>
     <string>uni17C5.rightpart</string>
     <string>uni17C6</string>
-    <string>uni17C6.a</string>
     <string>uni17C6.ms.psom</string>
     <string>uni17C6.narrow</string>
     <string>uni17C6.x</string>
     <string>uni17C7</string>
-    <string>uni17C9.a</string>
     <string>uni17C8</string>
     <string>uni17C9</string>
     <string>uni17C9.narrow</string>
     <string>uni17CA</string>
-    <string>uni17CA.lower</string>
     <string>uni17CA.narrow</string>
     <string>uni17CB</string>
-    <string>uni17CB.a</string>
     <string>uni17CB.narrow</string>
     <string>uni17CC</string>
     <string>uni17CC.alt</string>
     <string>uni17CC.narrow</string>
     <string>uni17CD</string>
-    <string>uni17CD.a</string>
     <string>uni17CD.narrow</string>
     <string>uni17CE</string>
-    <string>uni17CE.a</string>
-    <string>uni17CE.avowel</string>
     <string>uni17CE.narrow</string>
     <string>uni17CF</string>
-    <string>uni17CF.a</string>
     <string>uni17CF.narrow</string>
     <string>uni17D0</string>
     <string>uni17D0.a</string>
-    <string>uni17D0.avowel</string>
     <string>uni17D0.alt</string>
     <string>uni17D1</string>
-    <string>uni17D1.a</string>
     <string>uni17D1.narrow</string>
     <string>uni17D2</string>
     <string>uni17D2.low</string>
@@ -427,7 +405,6 @@ Roosevelt/space said/space that/space December/space 7,
     <string>uni17D2179A</string>
     <string>uni17D2179A.low</string>
     <string>uni17D2179A.lowwide</string>
-    <string>uni17D2179A.lowwide2</string>
     <string>uni17D2179A.wide</string>
     <string>uni17D2179B</string>
     <string>uni17D2179B.low</string>
@@ -451,14 +428,7 @@ Roosevelt/space said/space that/space December/space 7,
     <string>uni17D217A0.alt</string>
     <string>uni17D217A0.low</string>
     <string>uni17D217A0.low.alt</string>
-    <string>uni17D217A1</string>
     <string>uni17D217A1.alt</string>
-    <string>uni17D217A1.altlow</string>
-    <string>uni17D217A1.low</string>
-    <string>uni17D217A117B6</string>
-    <string>uni17D217A117B6.low</string>
-    <string>uni17D217A117C5.right</string>
-    <string>uni17D217A117C5.rightlow</string>
     <string>uni17D217A2</string>
     <string>uni17D217A2.alt</string>
     <string>uni17D217A2.low</string>
@@ -489,7 +459,6 @@ Roosevelt/space said/space that/space December/space 7,
     <string>uni17D5.alt2</string>
     <string>uni17D6</string>
     <string>uni17D6.alt1</string>
-    <string>uni17D6.alt2</string>
     <string>uni17D7</string>
     <string>uni17D8</string>
     <string>uni17D9</string>
@@ -497,12 +466,7 @@ Roosevelt/space said/space that/space December/space 7,
     <string>uni17DB</string>
     <string>uni17DC</string>
     <string>uni17DD</string>
-    <string>uni17DD.a</string>
     <string>uni17DD.narrow</string>
-    <string>uni17DD.wide1</string>
-    <string>uni17DD.wide2</string>
-    <string>uni17DD.wide3</string>
-    <string>uni17DD.wide4</string>
     <string>uni17F0</string>
     <string>uni17F1</string>
     <string>uni17F2</string>
@@ -565,7 +529,6 @@ Roosevelt/space said/space that/space December/space 7,
     <string>uniEF07</string>
     <string>uniEF08</string>
     <string>uniEF09</string>
-    <string>KrungSpecial</string>
     <string>_stemLg</string>
     <string>_stemMd</string>
     <string>_stemSm</string>
@@ -963,16 +926,16 @@ Roosevelt/space said/space that/space December/space 7,
     <string>uni031B</string>
     <string>uni0323</string>
     <string>cedillacomb</string>
-    <string>uni03020300</string>
-    <string>uni03020301</string>
-    <string>uni03020303</string>
-    <string>uni03020309</string>
-    <string>uni03020306</string>
-    <string>uni0306.high</string>
-    <string>uni03060300</string>
-    <string>uni03060301</string>
-    <string>uni03060303</string>
-    <string>uni03060309</string>
+    <string>_uni03020300</string>
+    <string>_uni03020301</string>
+    <string>_uni03020303</string>
+    <string>_uni03020309</string>
+    <string>_uni03020306</string>
+    <string>_uni0306.high</string>
+    <string>_uni03060300</string>
+    <string>_uni03060301</string>
+    <string>_uni03060303</string>
+    <string>_uni03060309</string>
     <string>uni00CA0306</string>
     <string>uni00D40306</string>
     <string>uni00EA0306</string>
@@ -1022,10 +985,6 @@ Roosevelt/space said/space that/space December/space 7,
     <string>zeroWidthNoBreakSpace</string>
     <string>zerowidthnonjoiner</string>
     <string>zerowidthspace</string>
-    <string>uni200B.aaattmpt</string>
-    <string>uni200B.aattmpt</string>
-    <string>uni200B.narrowattmpt</string>
-    <string>uni200B.narrowattmptlow</string>
     <string>lineseparator</string>
     <string>objectReplacementCharacter</string>
     <string>paragraphseparator</string>

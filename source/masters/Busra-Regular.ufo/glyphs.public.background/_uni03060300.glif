@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_uni03060300" format="2">
+  <outline>
+    <contour>
+      <point x="-884" y="1839" type="curve"/>
+      <point x="-868" y="1889"/>
+      <point x="-829" y="1942"/>
+      <point x="-776" y="1954" type="curve"/>
+      <point x="-658" y="1866"/>
+      <point x="-607" y="1822"/>
+      <point x="-500" y="1705" type="curve"/>
+      <point x="-571" y="1644" type="line"/>
+      <point x="-673" y="1728"/>
+      <point x="-747" y="1770"/>
+    </contour>
+  </outline>
+</glyph>

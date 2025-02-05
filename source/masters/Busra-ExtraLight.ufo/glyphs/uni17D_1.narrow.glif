@@ -6,6 +6,11 @@
   <anchor x="-695" y="1580" name="_UA"/>
   <anchor x="-715" y="1580" name="_UC"/>
   <outline>
-    <component base="uni17D1.a"/>
+    <contour>
+      <point x="-1006" y="1640" type="line"/>
+      <point x="-413" y="1640" type="line"/>
+      <point x="-413" y="1790" type="line"/>
+      <point x="-1006" y="1790" type="line"/>
+    </contour>
   </outline>
 </glyph>

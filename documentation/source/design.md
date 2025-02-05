@@ -16,14 +16,22 @@ Six fonts for this typeface family are included in the *Busra* release:
 
 The Busra font supports the following Khmer characters:
 
-<p class='busra-R' normal'>កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអឣឤឥឦឧឨឩឪឫឬឭឮឯឰឱឲ</p>
+<p class='busra-R' normal'>កខគឃងចឆជឈញដឋឌឍណតថ</p>
 	
-<p class='busra-R' normal'>ា ិ ី ឹ ឺ ុ ូ ួ ើ ឿ ៀ េ ែ ៃ ោ ៅ ំ ះ ៈ ៉   ៊ ់ ៌ ៍ ៎ ៏ ័ ៑ ្ ៓</p>
+<p class='busra-R' normal'>ទធនបផពភមយរលវឝឞសហ</p>
+	
+<p class='busra-R' normal'>ឡអឣឤឥឦឧឨឩឪឫឬឭឮឯឰឱឲ</p>
+	
+<p class='busra-R' normal'>ា ិ ី ឹ ឺ ុ ូ ួ ើ ឿ ៀ េ ែ ៃ ោ ៅ</p>
+
+<p class='busra-R' normal'> ំ ះ ៈ ៉   ៊ ់ ៌ ៍ ៎ ៏ ័ ៑ ្ ៓</p>
 
 <p class='busra-R' normal'>០១២៣៤៥៦៧៨៩</p>
 	
-<p class='busra-R' normal'>។ ៕ ៖ ៗ ៘ ៙ ៚ ៛ ៜ ៝   ៰៱៲៳៴៵៶៸៹</p>
+<p class='busra-R' normal'>។ ៕ ៖ ៗ ៘ ៙ ៚ ៛ ៜ ៝   </p>
 	
+<p class='busra-R' normal'>៰៱៲៳៴៵៶៸៹</p>
+		
 The following shows the six weights:
 
 ![Busra Weights](../assets/images/sample_weights.png)

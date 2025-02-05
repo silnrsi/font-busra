@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_uni17B9.ms.narrowhigh" format="2">
+  <outline>
+    <component base="_uni17B7.ms.narrowhigh" xOffset="-4" yOffset="-1"/>
+    <component base="uni17C6" xScale="0.77378" yScale="0.77378" xOffset="500" yOffset="803"/>
+  </outline>
+</glyph>

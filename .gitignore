@@ -15,12 +15,14 @@ source/backups/*
 # temporary fontdocs files
 documentation/source/pdftemp/
 
+# diffenator2 local test results
+tests/diff/
+
 # general backup files
 *~
 *.swp
 *.autosave
 *(Autosaved)*
-
 
 # OS X
 *.DS_STORE
@@ -46,7 +48,6 @@ $RECYCLE.BIN/
 Thumbs.db
 ehthumbs.db
 *.lnk
-
 
 # AFDKO
 current.fpr

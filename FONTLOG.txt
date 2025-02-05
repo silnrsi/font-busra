@@ -8,18 +8,18 @@ This file provides detailed information on the Busra family of fonts. This infor
 
 The Busra fonts provide Unicode support for languages and writing systems that use the Khmer script. The design is based on the Khmer Mondulkiri family of fonts (https://software.sil.org/mondulkiri/), but with significant updates to the design and rendering behavior.
 
-This release includes Regular and Bold weights. Additional weights are planned for future releases.
-
 ## ChangeLog
 
-### XX February 2025 (SIL WSTech Team) Busra version 9.900
-- New version released based on a major revision of Khmer Mondulkiri Regular and Bold
-- Now includes six weights
-- Revised and improved glyph outlines
-- Rewritten OpenType support, supporting latest best practice in Khmer text encoding
-- Support removed for Graphite and AAT
-- New style for Latin glyphs
-- Line spacing updated to best practice (could affect older Windows apps)
+### XX February 2025 (SIL WSTech Team) Busra version 9.000
+- The font family is now called "Busra" so it and the old "Khmer Busra" can be installed at the same time.
+- There are six weights: ExtraLight, Light, Regular, Medium, SemiBold, and Bold. This also replaces the older Khmer Mondulkiri family.
+- Oblique (italic) styles are not included but will be provided in a later release.
+- Glyph outlines have been revised and improved.
+- OpenType support has been rewritten, supporting latest best practice in Khmer text encoding; see [UTN #61: Khmer Encoding Structure]( https://www.unicode.org/notes/tn61-draft).
+- Support for Graphite and AAT rendering has been removed.
+- Latin glyphs have been replaced with ones specifically designed to work well with the Khmer glyphs. 
+- Default line spacing has updated to best practice. This could affect older Windows apps.
+- Three font formats are provided: OpenType (.ttf) for desktop use and WOFF/WOFF2 for the web.
 
 ### 8 September 2014 (Diethelm Kanjahn) Mondulkiri Font Family version 7.100
 - Mondulkiri changes:

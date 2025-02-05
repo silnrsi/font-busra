@@ -30,11 +30,11 @@ The Busra font supports the following Khmer characters:
 		
 The following shows the six weights:
 
-![Busra Weights](../assets/images/sample_weights.png)
+<img class='fullsize' alt='Busra Weights' src='https://software.sil.org/busra/wp-content/uploads/sites/75/2025/02/sample_weights.png' />
 
 An example of some text using Busra is shown below.
 
-![Busra UDHR](../assets/images/udhr.png)
+<img class='fullsize' alt='Busra UDHR' src='https://software.sil.org/busra/wp-content/uploads/sites/75/2025/02/udhr.png' />
 [caption]<em>Busra sample - Universal Declaration of Human Rights</em>[/caption]
 
 ## Character Set

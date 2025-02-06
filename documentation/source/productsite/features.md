@@ -11,7 +11,7 @@ This page uses web fonts (WOFF) to demonstrate font features and should display 
 
 ### Stylistic alternates
 
-#### Variant forms
+#### Variant forms <a id="ss01"></a>
 
 <span class='affects'>Affects: U+17B1, U+17B3, U+17CC, U+17D0</span>
 
@@ -20,7 +20,7 @@ Feature        | Sample | Feature setting
 Standard | <span class='busra-R normal'        >&#x17B1; &#x17B3; &#x1780;&#x17CC; &#x1780;&#x17D0;</span>| `ss01=0`
 Alternate | <span class='busra-ss01-1-R normal'>&#x17B1; &#x17B3; &#x1780;&#x17CC; &#x1780;&#x17D0;</span>| `ss01=1`
 
-#### Hooked coengs
+#### Hooked coengs <a id="ss02"></a>
 
 <span class='affects'>Affects: U+17D2</span>
 
@@ -29,7 +29,7 @@ Feature        | Sample | Feature setting
 Standard | <span class='busra-R normal'        >&#x1780;&#x17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=0`
 Alternate | <span class='busra-ss02-1-R normal'>&#x1780;&#x17D2;&#x1783; &#x1780;&#x17D2;&#x1788; &#x1780;&#x17D2;&#x1788;&#x17C5;</span>| `ss02=1`
 
-#### Alternate ka
+#### Alternate ka <a id="ss03"></a>
 
 <span class='affects'>Affects: U+1780</span>
 
@@ -38,7 +38,7 @@ Feature        | Sample | Feature setting
 Standard | <span class='busra-R normal'        >&#x1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=0`
 Alternate | <span class='busra-ss03-1-R normal'>&#x1780; &#x1780;&#x17B6; &#x1780;&#x17C5;</span>| `ss03=1`
 
-#### Alternate coeng-Nho 
+#### Alternate coeng-Nho <a id="ss04"></a>
 
 This feature is provided to accommodate historical texts.
 

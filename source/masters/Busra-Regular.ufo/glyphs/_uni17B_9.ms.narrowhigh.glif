@@ -4,4 +4,10 @@
     <component base="_uni17B7.ms.narrowhigh" xOffset="-4" yOffset="-1"/>
     <component base="uni17C6" xScale="0.77378" yScale="0.77378" xOffset="482" yOffset="800"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

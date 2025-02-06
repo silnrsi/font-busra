@@ -1,6 +1,5 @@
 bulletoperator = periodcentered | 2219
 hyphentwo = hyphen | 2010
-nonbreakinghyphen = hyphen | 2011
 softhyphen = hyphen | 00AD
 divisionslash = slash | 2215
 hyphenationpoint = periodcentered | 2027

@@ -16,10 +16,4 @@
     <component base="uni1791"/>
     <component base="uni17B6" xOffset="1280"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,5 +1,5 @@
 (Release of Busra v9.000 (Khmer script fonts))
-(Busra Release 9.000)
+(Release 9.000)
 
 Dear friends,
 

@@ -3,7 +3,7 @@ Busra is based on an earlier font that is part of a larger package of Khmer scri
 
 ## Change history
 
-### XX February 2025 (SIL WSTech Team) Busra version 9.000
+### 7 February 2025 (SIL WSTech Team) Busra version 9.000
 - The font family is now called "Busra" so it and the old "Khmer Busra" can be installed at the same time.
 - There are six weights: ExtraLight, Light, Regular, Medium, SemiBold, and Bold. This also replaces the older Khmer Mondulkiri family.
 - Oblique (italic) styles are not included but will be provided in a later release.

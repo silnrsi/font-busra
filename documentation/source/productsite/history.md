@@ -8,7 +8,7 @@ Busra is based on an earlier font that is part of a larger package of Khmer scri
 - There are six weights: ExtraLight, Light, Regular, Medium, SemiBold, and Bold. This also replaces the older Khmer Mondulkiri family.
 - Oblique (italic) styles are not included but will be provided in a later release.
 - Glyph outlines have been revised and improved.
-- OpenType support has been rewritten, supporting latest best practice in Khmer text encoding; see [UTN #61: Khmer Encoding Structure]( https://www.unicode.org/notes/tn61-draft).
+- OpenType support has been rewritten, supporting latest best practice in Khmer text encoding; see [UTN #61: Khmer Encoding Structure]( https://www.unicode.org/notes/tn61).
 - Support for Graphite and AAT rendering has been removed.
 - Latin glyphs have been replaced with ones specifically designed to work well with the Khmer glyphs. 
 - Default line spacing has updated to best practice. This could affect older Windows apps.

@@ -21,7 +21,7 @@ mparams = ["--ignoreglyphs"]
 if "--nofinalc" not in opts:
     mparams.append("-D finalc=1")
 
-cmds = [cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}')]
+cmds = [] #cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}')]
 
 designspace('source/' + FAMILY + 'Upright.designspace',
 #    target = "${DS:FILENAME_BASE}.ttf",

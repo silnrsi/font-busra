@@ -1,0 +1,10 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[size="18pt"]
+
+\patterngroup[name="KhmerConsonants"]{កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ}
+
+%%%% TESTS %%%%
+\pattern[chars="@",reps="KhmerConsonants",format="list"]{@េដោ@ា@ែដែ@ៃដៃ@ោដោ@ោដះ@ះ@ើដើ@ើ}
+
+\end{document}

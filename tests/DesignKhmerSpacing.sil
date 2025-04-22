@@ -9,6 +9,7 @@
 \pattern[chars="@",reps="group_KhmerConsonants",format="list"]{@េដោ@ា@ែដែ@ៃដៃ@ោដោ@ោដះ@ះ@ើដើ@ើ}
 
 \subsection{KHMER WITH CONSONANTS}
-\pattern[chars="@",reps="group_KhmerConsonants",format="list"]{យ@យក@កត@តឡ@ឡល@លព@បម@មភ@នន@ទង@ងវ@វញ@ពហ@ហទ@ភខ@ខប@ថ@ចណ@ណធ@រ@រដ@ថច@ធ}
+\pattern[chars="@",reps="group_KhmerConsonants",format="list"]{យ@យក@កត@តឡ@ឡល@លព@បម@មភ@នន@ទង@ង}
+\pattern[chars="@",reps="group_KhmerConsonants",format="list"]{វ@វញ@ពហ@ហទ@ភខ@ខប@ថ@ចណ@ណធ@រ@រដ@ថច@ធ}
 
 \end{document}

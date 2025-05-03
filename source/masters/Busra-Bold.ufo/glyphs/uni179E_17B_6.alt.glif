@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni179E17B6.alt" format="2">
+  <advance width="2250"/>
+  <anchor x="793" y="0" name="LC_1"/>
+  <anchor x="1534" y="0" name="LC_2"/>
+  <anchor x="1312" y="0" name="LR_1"/>
+  <anchor x="2062" y="0" name="LR_2"/>
+  <anchor x="793" y="1580" name="UC_1"/>
+  <anchor x="1534" y="1580" name="UC_2"/>
+  <anchor x="793" y="1580" name="UN_1"/>
+  <anchor x="1534" y="1580" name="UN_2"/>
+  <anchor x="1312" y="1580" name="UR_1"/>
+  <anchor x="2062" y="1580" name="UR_2"/>
+  <anchor x="1818" y="1236" name="zxc1"/>
+  <outline>
+    <component base="_L.ear" xOffset="-7"/>
+    <component base="_curve" xOffset="162"/>
+    <component base="_stemSm" xOffset="912" yOffset="376"/>
+    <component base="_eyelash" xOffset="670" yOffset="-3"/>
+    <component base="_stemLg" xOffset="1662"/>
+    <component base="_bulgeArch" xOffset="743"/>
+    <component base="_stemMd" xOffset="162" yOffset="206"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

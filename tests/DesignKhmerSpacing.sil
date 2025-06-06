@@ -21,4 +21,6 @@
 \pattern[chars="x",reps="group_KhmerConsonants",format="list"]{ឈឿxវវxឈឿនឹxនឹឧxឩឦxលសៅxសៅចxចឯxឯបូxបូបxឳឩxឳx}
 \pattern[chars="x",reps="group_KhmerConsonants",format="list"]{ឋំxឋំឆxឆលxស៉ពxណឬxឝឝxឬxxមមាxឦxឌអxចះឍឋxឍ}
 \pattern[chars="x",reps="group_KhmerConsonants",format="list"]{ហxហ៊ឞxឞព័xព័ពxឨឱxឨឆxឆឥxយ៉xឌឰxឱហ៊xxឮxឍឌxអ}
+\pattern[chars="x",reps="group_KhmerConsonants",format="list"]{ខុxខាខិxជៀច៊xដឹទxទួព៏xពេះអ្នxហរេបxស៉សីxឨញាំx}
+\pattern[chars="x",reps="group_KhmerConsonants",format="list"]{រៅxxឋ៍xឋំយះxយ:ន់xនើxឈឿឌូxឍិងxxថ្ងៃxវីxវ័}
 \end{document}

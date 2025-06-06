@@ -7,6 +7,8 @@
 %%%% TESTS %%%%
 \subsection{KHMER WITH VOWELS}
 \pattern[chars="@",reps="group_KhmerConsonants",format="list"]{@េដោ@ា@ែដែ@ៃដៃ@ោដោ@ោដះ@ះ@ើដើ@ើ}
+\pattern[chars="x",reps="group_KhmerConsonants",format="list"]{ខុxខាខិxជៀច៊xដឹទxទួព៏xពេះអ្នxហរេបxស៉សីxឨញាំx}
+\pattern[chars="x",reps="group_KhmerConsonants",format="list"]{រៅxxឋ៍xឋំយះxយ:ន់xនើxឈឿឌូxឍិងxxថ្ងៃxវីxវ័}
 
 \subsection{KHMER WITH CONSONANTS}
 \pattern[chars="@",reps="group_KhmerConsonants",format="list"]{យ@យក@កត@តឡ@ឡល@លព@បម@មភ@នន@ទង@ង}
@@ -21,6 +23,4 @@
 \pattern[chars="x",reps="group_KhmerConsonants",format="list"]{ឈឿxវវxឈឿនឹxនឹឧxឩឦxលសៅxសៅចxចឯxឯបូxបូបxឳឩxឳx}
 \pattern[chars="x",reps="group_KhmerConsonants",format="list"]{ឋំxឋំឆxឆលxស៉ពxណឬxឝឝxឬxxមមាxឦxឌអxចះឍឋxឍ}
 \pattern[chars="x",reps="group_KhmerConsonants",format="list"]{ហxហ៊ឞxឞព័xព័ពxឨឱxឨឆxឆឥxយ៉xឌឰxឱហ៊xxឮxឍឌxអ}
-\pattern[chars="x",reps="group_KhmerConsonants",format="list"]{ខុxខាខិxជៀច៊xដឹទxទួព៏xពេះអ្នxហរេបxស៉សីxឨញាំx}
-\pattern[chars="x",reps="group_KhmerConsonants",format="list"]{រៅxxឋ៍xឋំយះxយ:ន់xនើxឈឿឌូxឍិងxxថ្ងៃxវីxវ័}
 \end{document}

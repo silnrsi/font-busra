@@ -116,69 +116,7 @@ def optlist(*alist) {
 } optlist;
     
 
-# Mark classes
-
-# Lookups
-
-# Fix buggy harfbuzz and remove dotted circle after shifter ZWNJ
-# Harfbuzz expects zwnj before shifter not after.
-lookup fix_shifter_zwnj_action {
-    sub zerowidthnonjoiner dottedcircle by zerowidthnonjoiner;
-    sub zerowidthnonjoiner uni17C1 dottedcircle by zerowidthnonjoiner;
-    sub zerowidthnonjoiner uni17C2 dottedcircle by zerowidthnonjoiner;
-    sub zerowidthnonjoiner uni17C3 dottedcircle by zerowidthnonjoiner;
-} fix_shifter_zwnj_action;
-
-do  for v = [uni17C1 uni17C2 uni17C3];
-    let ln = "fix_shifter_zwnj_" + v;
-    {
-lookup $ln {
-    sub uni17D2179A by $v uni17D2179A;
-    sub @base_cons by $v @base_cons;
-} $ln;
-    }
-
-@shifter = [uni17C9 uni17CA];
-
-lookup fix_shifter_zwnj {
-    sub @shifter zerowidthnonjoiner' lookup fix_shifter_zwnj_action dottedcircle';
-do  for v = [uni17C1 uni17C2 uni17C3];
-    let ln = "fix_shifter_zwnj_" + v;
-    {
-    sub uni17D2179A' lookup $ln @base_cons' uni17D2' @base_cons' @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
-    sub uni17D2179A' lookup $ln @base_cons' @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
-    sub @base_cons' lookup $ln uni17D2' @base_cons' uni17D2' @base_cons' @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
-    sub @base_cons' lookup $ln uni17D2' @base_cons' @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
-    sub @base_cons' lookup $ln @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
-    }
-} fix_shifter_zwnj;
-
-#lookup fix_final_coengs_action {
-#    sub @base_cons by @base_cons zerowidthjoiner;
-#} fix_final_coengs_action;
-
-#lookup fix_final_coengs_action2 {
-#    sub zerowidthjoiner dottedcircle uni17D2 by uni17D2;
-#    sub zerowidthjoiner uni17D2 by uni17D2;
-#} fix_final_coengs_action2;
-
-#lookup fix_final_coengs_action3 {
-#    sub zerowidthjoiner by dottedcircle;
-#} fix_final_coengs_action3;
-
-#lookup fix_final_coengs1 {
-#    sub uni17D2 @base_cons zerowidthjoiner' lookup fix_final_coengs_action3;
-#} fix_final_coengs1;
-
-#lookup fix_final_coengs {
-#    sub zerowidthjoiner dottedcircle uni17D2 @base_cons' lookup fix_final_coengs_action;
-#    sub zerowidthjoiner uni17D2 @base_cons' lookup fix_final_coengs_action;
-#} fix_final_coengs;
-
-#lookup fix_final_coengs2 {
-#    sub zerowidthjoiner' lookup fix_final_coengs_action2 dottedcircle' uni17D2' @base_cons zerowidthjoiner;
-#    sub zerowidthjoiner' lookup fix_final_coengs_action2 uni17D2' @base_cons zerowidthjoiner;
-#} fix_final_coengs2;
+# Lookups Language based forms
 
 lookup insert_dotted_circle {
     sub @above_vowels by dottedcircle @above_vowels;
@@ -188,7 +126,28 @@ lookup insert_dotted_circle {
     sub uni17D2 by dottedcircle uni17D2;
     sub uni17CC by dottedcircle uni17CC;
     sub uni17D0 by dottedcircle uni17D0;
+    sub uni17D2179A by dottedcircle uni17D2179A;
 } insert_dotted_circle;
+
+# feature: pref
+
+# 1. Coengs
+# 1.1 Convert coeng ro to the coeng ro glyph
+
+lookup coeng_ro_primary {
+    sub uni17D2 uni179A by uni17D2179A;
+} coeng_ro_primary;
+
+# 5. Context coeng variation
+# 5.1 lower coengs after coeng ro
+# Uses some cleverness in harfbuzz but breaks windows and mac
+lookup belowcoeng_after_ro {
+    ignore sub zerowidthjoiner' uni17D2';   # final coeng
+    ignore sub dottedcircle' uni17D2';       # already marked an erroneous final coeng
+    sub uni17D2' lookup insert_dotted_circle;
+} belowcoeng_after_ro;
+
+# feature: abvf
 
 lookup bad_vowels {
    # sub uni17C1 @coeng_ro? @base_cons uni17CC? (uni17D2 @base_cons uni17D2 @base_cons?)? ([uni17C9 uni17CA] zerowidthjoiner?)? @below_vowel? uni17B8' lookup insert_dotted_circle;
@@ -237,20 +196,50 @@ do  forlet l = optlist("uni17CC", ["uni17D2 @base_cons", "uni17D2 @base_cons"], 
     sub uni17CC' lookup insert_dotted_circle;
 } bad_vowels;
 
-# 1. Coengs
-# 1.1 Convert coeng ro to the coeng ro glyph
+# 3.2 Break split vowels, upper component
+lookup above_form {
+    sub uni17BE by uni17B8;
+} above_form;
 
-lookup coeng_ro_primary {
-    sub uni17D2 uni179A by uni17D2179A;
-} coeng_ro_primary;
+# 6.2 17B7 17CD
+lookup precompose {
+    sub uni17B7 uni17CD by uni17B717CD;
+    sub uni17B7.narrow uni17CD.narrow by uni17B717CD.narrow; # never used
+} precompose;
 
-# 5. Context coeng variation
-# 5.1 lower coengs after coeng ro
-lookup belowcoeng_after_ro {
-    ignore sub zerowidthjoiner' uni17D2';   # final coeng
-    ignore sub dottedcircle' uni17D2';       # already marked an erroneous final coeng
-    sub uni17D2' lookup insert_dotted_circle;
-} belowcoeng_after_ro;
+# Conjuncts & typographical forms
+
+# feature: pres
+# 5.2 Coeng ro variants
+# 5.2.1 Low coeng ro in some cases
+lookup coeng_ro_to {
+    sub uni17D2179A' uni1791 @below_coeng @below_vowel_low_wide by uni17D2179A.low;
+} coeng_ro_to;
+
+# 5.2.2 other cases of low coeng ro
+lookup coeng_ro_BOLD {
+    sub uni17D2179A' @base_medium @below_coeng @below_vowel_low_wide by uni17D2179A.low;
+    sub uni17D2179A' @base_medium @regshift @below_coeng @below_vowel_low_wide by uni17D2179A.low;
+    sub uni17D2179A' @base_medium @below_coeng @regshift @below_vowel_low_wide by uni17D2179A.low;
+} coeng_ro_BOLD;
+
+# 5.2.3 low wide coeng ro
+lookup coeng_ro_long {
+    lookupflag MarkAttachmentType @below_coeng;
+    sub uni17D2179A' uni1789 by uni17D2179A.lowwide;
+    sub uni17D2179A' @base_medium @below_coeng by uni17D2179A.lowwide;
+    sub uni17D2179A' @base_narrow @below_coeng by uni17D2179A.lowwide;
+    sub uni17D2179A' @base_medium @post_coeng_wide by uni17D2179A.lowwide;
+    sub uni17D2179A' @base_narrow @post_coeng by uni17D2179A.lowwide;
+    sub uni17D2179A' @base_wide uni17D2178E by uni17D2179A.lowwide;
+} coeng_ro_long;
+
+# 5.2.4 wide coeng ro
+lookup coeng_ro_widefront {
+    sub uni17D2179A' @base_widefront by uni17D2179A.wide;
+} coeng_ro_widefront;
+
+# feature: blws
 
 # 1.2 Convert coeng sequences into subjoinable glyphs
 lookup coeng_below {
@@ -301,17 +290,6 @@ lookup coeng_below {
     sub uni17D2 uni17B3 by uni17D217B3;
 } coeng_below;
 
-# 1.3 Convert post base coeng sequences to glyphs
-lookup coeng_post {
-    sub uni17D2 uni1783 by uni17D21783.alt;
-    sub uni17D2 uni1788 by uni17D21788.alt;
-    sub uni17D2 uni178D by uni17D2178D;
-    sub uni17D2 uni1794 by uni17D21794;
-    sub uni17D2 uni1799 by uni17D21799;
-    sub uni17D2 uni179E by uni17D2179E;
-    sub uni17D2 uni179F by uni17D2179F;
-} coeng_post;
-
 # 4.10 1789 loses its under bit in some contexts
 lookup uni1789 {
     lookupflag MarkAttachmentType @below_coeng;
@@ -319,36 +297,98 @@ lookup uni1789 {
     sub uni1789' @coeng_no_ro by uni1789.alt;
 } uni1789;
 
+# 4.8 lower below vowels under coengs, if preceding: strict this is an error
+lookup action_low {
+    sub uni17BB by uni17BB.low;
+    sub uni17BC by uni17BC.low;
+    sub uni17BD by uni17BD.low;
+    sub uni17D2 by uni17D2.low;
+} action_low;
+
+@low_belows = [uni17BB uni17BC uni17BD uni17D2];
+
+lookup low_below_vowel {
+    sub @low_belows' lookup action_low @coeng_no_ro;
+    sub @coeng_no_ro @low_belows' lookup action_low;
+    sub @coeng_no_ro @regshift @low_belows' lookup action_low;
+    sub uni1789 @low_belows' lookup action_low;
+    sub uni1789 @regshift_robat @low_belows' lookup action_low;
+    sub uni17D2179A @base_narrow @low_belows' lookup action_low;
+    sub uni17D2179A @base_narrow @regshift_robat @low_belows' lookup action_low;
+    sub @base_low1 @low_belows' lookup action_low;
+    sub @base_low1 @regshift_robat @low_belows' lookup action_low;
+    sub @base_low2 @low_belows' lookup action_low;
+} low_below_vowel;
+
+# 4.8 narrow below vowels and perhaps lower as well
+lookup action_below_marks_narrow {
+    sub uni17D2 by uni17D2.ms.narrow;
+    sub uni17D2.low by uni17D2.ms.narrowlow;
+    sub uni17BB by uni17BB.narrow;
+    sub uni17BB.low by uni17BB.low.narrow;
+    sub uni17BC by uni17BC.narrow;
+    sub uni17BD by uni17BD.narrow;
+} action_below_marks_narrow;
+
+@narrow_lower = [uni17D2 uni17D2.low uni17BB uni17BB.low uni17BC uni17BD];
+
+lookup below_marks_narrow {
+    sub @base_narrow @narrow_lower' lookup action_below_marks_narrow;
+    sub @base_narrow @below_coeng @narrow_lower' lookup action_below_marks_narrow;
+    sub @base_narrow @regshift_narrow @narrow_lower' lookup action_below_marks_narrow;
+    sub @base_narrow @regshift_narrow @below_coeng @narrow_lower' lookup action_below_marks_narrow;
+} below_marks_narrow;
+
+# 5.3.1 coeng nho changes under 1789
+lookup uni1789_coeng1789 {
+    sub uni1789.alt uni17D21789' by uni17D21789.alt1;
+} uni1789_coeng1789;
+
+# 5.3.2 Another coeng nho shape
+lookup uni1789_coeng1789_alt {
+    sub uni17D21789.alt1' @below_marks by uni17D21789.alt2;
+    sub uni17D21789.alt1' @regshift @below_marks by uni17D21789.alt2;
+    sub uni17D21789.alt1' @postsubst_low by uni17D21789.alt2;
+    sub uni17D21789.alt1' @coeng_no_ro by uni17D21789.alt2;
+} uni1789_coeng1789_alt;
+
+
+# feature: abvs
+
+# Fix buggy harfbuzz and remove dotted circle after shifter ZWNJ
+# Harfbuzz expects zwnj before shifter not after.
+lookup fix_shifter_zwnj_action {
+    sub zerowidthnonjoiner dottedcircle by zerowidthnonjoiner;
+    sub zerowidthnonjoiner uni17C1 dottedcircle by zerowidthnonjoiner;
+    sub zerowidthnonjoiner uni17C2 dottedcircle by zerowidthnonjoiner;
+    sub zerowidthnonjoiner uni17C3 dottedcircle by zerowidthnonjoiner;
+} fix_shifter_zwnj_action;
+
+do  for v = [uni17C1 uni17C2 uni17C3];
+    let ln = "fix_shifter_zwnj_" + v;
+    {
+lookup $ln {
+    sub uni17D2179A by $v uni17D2179A;
+    sub @base_cons by $v @base_cons;
+} $ln;
+    }
+
+@shifter = [uni17C9 uni17CA];
+
+lookup fix_shifter_zwnj {
+    sub @shifter zerowidthnonjoiner' lookup fix_shifter_zwnj_action dottedcircle';
+do  for v = [uni17C1 uni17C2 uni17C3];
+    let ln = "fix_shifter_zwnj_" + v;
+    {
+    sub uni17D2179A' lookup $ln @base_cons' uni17D2' @base_cons' @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
+    sub uni17D2179A' lookup $ln @base_cons' @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
+    sub @base_cons' lookup $ln uni17D2' @base_cons' uni17D2' @base_cons' @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
+    sub @base_cons' lookup $ln uni17D2' @base_cons' @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
+    sub @base_cons' lookup $ln @shifter' zerowidthnonjoiner' $v' lookup fix_shifter_zwnj_action dottedcircle';
+    }
+} fix_shifter_zwnj;
+
 include (../source/Busra_Finals_after.feax)
-
-# 2. Shifters
-# 2.1 Contextual alternate shape for 17C9
-# 3. Split vowels
-
-# 3.1 Insert dotted circles for bad vowel sequences
-# 3.2 Break apart split vowels, right part
-lookup Post_base_forms {
-    sub uni17BF by uni17BF.rightpart1;
-    sub uni17C0 by uni17C0.rightpart1;
-    sub uni17C4 by uni17B6;
-    sub uni17C5 by uni17C5.rightpart;
-} Post_base_forms;
-
-# Special khnhom ligature
-lookup Khnhom {
-    sub uni1781 uni17D21789 uni17BB uni17C6 by uni1781.pronounlig;
-} Khnhom;
-
-# Special phsom ligatures
-lookup PHSOM_triisap_am {
-    sub uni1795 uni17D2179F uni17CA uni17B6 uni17C6 by uni17C6.ms.psom;
-    sub uni1795 uni17D2179F zerowidthnonjoiner uni17CA uni17B6 uni17C6 by uni17C6.ms.psom;
-} PHSOM_triisap_am;
-
-# 3.2 Break split vowels, upper component
-lookup above_form {
-    sub uni17BE by uni17B8;
-} above_form;
 
 # 2.2 Downshift muusikatoan following 1784 1789, 1793-4, 1798-D, ZWJ. Need to add 178E, 17A1?
 # Also don't downshift if there is a strong in the cluster (e.g. strong base + weak coeng)
@@ -391,19 +431,6 @@ lookup reg_shift_muusikatoan2 {
     sub uni17C9' lookup reg_shift_action @above_symbol_RS_shift;
     sub uni17C9' lookup reg_shift_action uni17B6 uni17C6;
 } reg_shift_muusikatoan2;
-
-#lookup reg_muusikatoan_postA {
-#    sub @post_coeng by uni17C9 @post_coeng;
-#} reg_muusikatoan_postA;
-
-#lookup reg_muusikatoan_postB {
-#    sub @post_coeng uni17C9 by @post_coeng;
-#} reg_muusikatoan_postB;
-
-#lookup reg_muusikatoan_post {
-#    ignore sub @post_coeng' uni17C9' @above_vowels;
-#    sub @post_coeng' lookup reg_muusikatoan_postA uni17C9' lookup reg_muusikatoan_postB;
-#} reg_muusikatoan_post;
 
 # 2.3 Downshift triisap following 179E-F 17A0 17A2 ZWJ
 # This needs quite a bit of work
@@ -545,53 +572,40 @@ lookup narrow2wide {
     sub uni17D2179A @base_narrow uni17BA.narrow' by uni17BA;
 } narrow2wide;
 
-# 4.7 lower 17BB -u under double or tall coeng
-#lookup uni17bb_2coeng_lig {
-#    sub uni17BB' @coeng_all @coeng_all by uni17BB.ms.low2;
-#    sub uni17BB' @coeng_tall by uni17BB.ms.low2;
-#} uni17bb_2coeng_lig;
+# 7.5.3 both together changes the 17C6
+lookup uni17CA_C6 {
+    sub uni17CA uni17B6 uni17C6' by uni17C6.x;
+    sub uni17CA @below_coeng uni17B6 uni17C6' by uni17C6.x;
+    sub uni17CA @below_coeng_low uni17B6 uni17C6' by uni17C6.x;
+} uni17CA_C6;
 
-# 4.8 lower below vowels under coengs, if preceding: strict this is an error
-lookup action_low {
-    sub uni17BB by uni17BB.low;
-    sub uni17BC by uni17BC.low;
-    sub uni17BD by uni17BD.low;
-    sub uni17D2 by uni17D2.low;
-} action_low;
+# 9.11 Alternate 17D0 before -i vowel
+lookup Tampuan_17D0 {
+    sub uni17D0' uni17C7 by uni17D0.a;
+} Tampuan_17D0;
 
-@low_belows = [uni17BB uni17BC uni17BD uni17D2];
 
-lookup low_below_vowel {
-    sub @low_belows' lookup action_low @coeng_no_ro;
-    sub @coeng_no_ro @low_belows' lookup action_low;
-    sub @coeng_no_ro @regshift @low_belows' lookup action_low;
-    sub uni1789 @low_belows' lookup action_low;
-    sub uni1789 @regshift_robat @low_belows' lookup action_low;
-    sub uni17D2179A @base_narrow @low_belows' lookup action_low;
-    sub uni17D2179A @base_narrow @regshift_robat @low_belows' lookup action_low;
-    sub @base_low1 @low_belows' lookup action_low;
-    sub @base_low1 @regshift_robat @low_belows' lookup action_low;
-    sub @base_low2 @low_belows' lookup action_low;
-} low_below_vowel;
+# feature: psts
 
-# 4.8 narrow below vowels and perhaps lower as well
-lookup action_below_marks_narrow {
-    sub uni17D2 by uni17D2.ms.narrow;
-    sub uni17D2.low by uni17D2.ms.narrowlow;
-    sub uni17BB by uni17BB.narrow;
-    sub uni17BB.low by uni17BB.low.narrow;
-    sub uni17BC by uni17BC.narrow;
-    sub uni17BD by uni17BD.narrow;
-} action_below_marks_narrow;
+# 1.3 Convert post base coeng sequences to glyphs
+lookup coeng_post {
+    sub uni17D2 uni1783 by uni17D21783.alt;
+    sub uni17D2 uni1788 by uni17D21788.alt;
+    sub uni17D2 uni178D by uni17D2178D;
+    sub uni17D2 uni1794 by uni17D21794;
+    sub uni17D2 uni1799 by uni17D21799;
+    sub uni17D2 uni179E by uni17D2179E;
+    sub uni17D2 uni179F by uni17D2179F;
+} coeng_post;
 
-@narrow_lower = [uni17D2 uni17D2.low uni17BB uni17BB.low uni17BC uni17BD];
-
-lookup below_marks_narrow {
-    sub @base_narrow @narrow_lower' lookup action_below_marks_narrow;
-    sub @base_narrow @below_coeng @narrow_lower' lookup action_below_marks_narrow;
-    sub @base_narrow @regshift_narrow @narrow_lower' lookup action_below_marks_narrow;
-    sub @base_narrow @regshift_narrow @below_coeng @narrow_lower' lookup action_below_marks_narrow;
-} below_marks_narrow;
+# 3.1 Insert dotted circles for bad vowel sequences
+# 3.2 Break apart split vowels, right part
+lookup Post_base_forms {
+    sub uni17BF by uni17BF.rightpart1;
+    sub uni17C0 by uni17C0.rightpart1;
+    sub uni17C4 by uni17B6;
+    sub uni17C5 by uni17C5.rightpart;
+} Post_base_forms;
 
 # 4.9 very low forms of split vowel rhs which loop under
 lookup postsubst2 {
@@ -613,65 +627,6 @@ lookup postsubst {
     sub uni17D2179A @base_narrow @postsubst' by @postsubst_low;
 } postsubst;
 
-# 5.2 Coeng ro variants
-# 5.2.1 Low coeng ro in some cases
-lookup coeng_ro_to {
-    sub uni17D2179A' uni1791 @below_coeng @below_vowel_low_wide by uni17D2179A.low;
-} coeng_ro_to;
-
-# 5.2.2 other cases of low coeng ro
-lookup coeng_ro_BOLD {
-    sub uni17D2179A' @base_medium @below_coeng @below_vowel_low_wide by uni17D2179A.low;
-    sub uni17D2179A' @base_medium @regshift @below_coeng @below_vowel_low_wide by uni17D2179A.low;
-    sub uni17D2179A' @base_medium @below_coeng @regshift @below_vowel_low_wide by uni17D2179A.low;
-} coeng_ro_BOLD;
-
-# 5.2.3 low wide coeng ro
-lookup coeng_ro_long {
-    lookupflag MarkAttachmentType @below_coeng;
-    sub uni17D2179A' uni1789 by uni17D2179A.lowwide;
-    sub uni17D2179A' @base_medium @below_coeng by uni17D2179A.lowwide;
-    sub uni17D2179A' @base_narrow @below_coeng by uni17D2179A.lowwide;
-    sub uni17D2179A' @base_medium @post_coeng_wide by uni17D2179A.lowwide;
-    sub uni17D2179A' @base_narrow @post_coeng by uni17D2179A.lowwide;
-    sub uni17D2179A' @base_wide uni17D2178E by uni17D2179A.lowwide;
-} coeng_ro_long;
-
-# 5.2.4 wide coeng ro
-lookup coeng_ro_widefront {
-    sub uni17D2179A' @base_widefront by uni17D2179A.wide;
-} coeng_ro_widefront;
-
-# 5.3 coeng nho always changes
-lookup alt_coeng_nho {
-    sub uni17D21789 by uni17D21789.alt1;
-} alt_coeng_nho;
-
-# 5.3.1 coeng nho changes under 1789
-lookup uni1789_coeng1789 {
-    sub uni1789.alt uni17D21789' by uni17D21789.alt1;
-} uni1789_coeng1789;
-
-# 5.3.2 Another coeng nho shape
-lookup uni1789_coeng1789_alt {
-    sub uni17D21789.alt1' @below_marks by uni17D21789.alt2;
-    sub uni17D21789.alt1' @regshift @below_marks by uni17D21789.alt2;
-    sub uni17D21789.alt1' @postsubst_low by uni17D21789.alt2;
-    sub uni17D21789.alt1' @coeng_no_ro by uni17D21789.alt2;
-} uni1789_coeng1789_alt;
-
-# 6. Diacritic variants and contexts
-
-# 6.2 17B7 17CD
-lookup precompose {
-    sub uni17B7 uni17CD by uni17B717CD;
-    sub uni17B7.narrow uni17CD.narrow by uni17B717CD.narrow;
-} precompose;
-
-# 7. Miscellaneous contextual forms (positions mostly)
-# 7.2 Relax D0
-
-# 7.2.3 after post_coeng (also 17C6 relaxes a bit)
 # 7.3 low form of post coeng
 lookup low_form_post_coeng {
     lookupflag MarkAttachmentType @below_coeng;
@@ -680,77 +635,29 @@ lookup low_form_post_coeng {
     sub @base_low2 @post_coeng' by @post_coeng_low;
 } low_form_post_coeng;
 
-# 7.4 low below coengs under low bases or other coengs
-#lookup flat_coengs {
-#    lookupflag MarkAttachmentType @below_coeng;
-#    sub @base_low2 uni17D21780' by uni17D21780.low;
-#    sub @base_low2 uni17D21781' by uni17D21781.low;
-#    sub @base_low2 uni17D21782' by uni17D21782.low;
-#    sub @base_low2 uni17D21784' by uni17D21784.low;
-#    sub @base_low2 uni17D21785' by uni17D21785.low;
-#    sub @base_low2 uni17D21786' by uni17D21786.low;
-#    sub @base_low2 uni17D21787' by uni17D21787.low;
-#    sub @base_low2 uni17D21789' by uni17D21789.low;
-#    sub @base_low2 uni17D2178A' by uni17D2178A.low;
-#    sub @base_low2 uni17D2178B' by uni17D2178B.low;
-#    sub @base_low2 uni17D2178C' by uni17D2178C.low;
-#    sub @base_low2 uni17D2178E' by uni17D2178E.low;
-#    sub @base_low2 uni17D2178F' by uni17D2178F.low;
-#    sub @base_low2 uni17D21790' by uni17D21790.low;
-#    sub @base_low2 uni17D21791' by uni17D21791.low;
-#    sub @base_low2 uni17D21792' by uni17D21792.low;
-#    sub @base_low2 uni17D21793' by uni17D21793.low;
-#    sub @base_low2 uni17D21795' by uni17D21795.low;
-#    sub @base_low2 uni17D21796' by uni17D21796.low;
-#    sub @base_low2 uni17D21797' by uni17D21797.low;
-#    sub @base_low2 uni17D21798' by uni17D21798.low;
-#    sub @base_low2 uni17D2179B' by uni17D2179B.low;
-#    sub @base_low2 uni17D2179C' by uni17D2179C.low;
-#    sub @base_low2 uni17D2179D' by uni17D2179D.low;
-#    sub @base_low2 uni17D217A0' by uni17D217A0.low;
-#    sub @base_low2 uni17D217A0.alt' by uni17D217A0.low.alt;
-#    sub @base_low2 uni17D217A1.alt' by uni17D217A1.altlow;
-#    sub @base_low2 uni17D217A2' by uni17D217A2.low;
-#    sub @base_low2 uni17D217A2.alt' by uni17D217A2.low.alt;
-#    sub @coeng_all uni17D21780' by uni17D21780.low;
-#    sub @coeng_all uni17D21781' by uni17D21781.low;
-#    sub @coeng_all uni17D21782' by uni17D21782.low;
-#    sub @coeng_all uni17D21784' by uni17D21784.low;
-#    sub @coeng_all uni17D21785' by uni17D21785.low;
-#    sub @coeng_all uni17D21786' by uni17D21786.low;
-#    sub @coeng_all uni17D21787' by uni17D21787.low;
-#    sub @coeng_all uni17D21789' by uni17D21789.low;
-#    sub @coeng_all uni17D2178A' by uni17D2178A.low;
-#    sub @coeng_all uni17D2178B' by uni17D2178B.low;
-#    sub @coeng_all uni17D2178C' by uni17D2178C.low;
-#    sub @coeng_all uni17D2178E' by uni17D2178E.low;
-#    sub @coeng_all uni17D2178F' by uni17D2178F.low;
-#    sub @coeng_all uni17D21790' by uni17D21790.low;
-#    sub @coeng_all uni17D21791' by uni17D21791.low;
-#    sub @coeng_all uni17D21792' by uni17D21792.low;
-#    sub @coeng_all uni17D21793' by uni17D21793.low;
-#    sub @coeng_all uni17D21795' by uni17D21795.low;
-#    sub @coeng_all uni17D21796' by uni17D21796.low;
-#    sub @coeng_all uni17D21797' by uni17D21797.low;
-#    sub @coeng_all uni17D21798' by uni17D21798.low;
-#    sub @coeng_all uni17D2179B' by uni17D2179B.low;
-#    sub @coeng_all uni17D2179C' by uni17D2179C.low;
-#    sub @coeng_all uni17D2179D' by uni17D2179D.low;
-#    sub @coeng_all uni17D217A0' by uni17D217A0.low;
-#    sub @coeng_all uni17D217A0.alt' by uni17D217A0.low.alt;
-#    sub @coeng_all uni17D217A1.alt' by uni17D217A1.altlow;
-#    sub @coeng_all uni17D217A2' by uni17D217A2.low;
-#    sub @coeng_all uni17D217A2.alt' by uni17D217A2.low.alt;
-#} flat_coengs;
+# feature: clig
 
-# 7.5 17C6 (am) and 17CA (triisap) contexts
+# Special khnhom ligature
+lookup Khnhom {
+    sub uni1781 uni17D21789 uni17BB uni17C6 by uni1781.pronounlig;
+} Khnhom;
 
-# 7.5.3 both together changes the 17C6
-lookup uni17CA_C6 {
-    sub uni17CA uni17B6 uni17C6' by uni17C6.x;
-    sub uni17CA @below_coeng uni17B6 uni17C6' by uni17C6.x;
-    sub uni17CA @below_coeng_low uni17B6 uni17C6' by uni17C6.x;
-} uni17CA_C6;
+# Special phsom ligatures
+lookup PHSOM_triisap_am {
+    sub uni1795 uni17D2179F uni17CA uni17B6 uni17C6 by uni17C6.ms.psom;
+    sub uni1795 uni17D2179F zerowidthnonjoiner uni17CA uni17B6 uni17C6 by uni17C6.ms.psom;
+} PHSOM_triisap_am;
+
+# 4.7 lower 17BB -u under double or tall coeng
+#lookup uni17bb_2coeng_lig {
+#    sub uni17BB' @coeng_all @coeng_all by uni17BB.ms.low2;
+#    sub uni17BB' @coeng_tall by uni17BB.ms.low2;
+#} uni17bb_2coeng_lig;
+
+# 5.3 coeng nho always changes
+lookup alt_coeng_nho {
+    sub uni17D21789 by uni17D21789.alt1;
+} alt_coeng_nho;
 
 # 8. Ligatures
 # 8.1 base + -a ligatures
@@ -961,26 +868,6 @@ lookup lt_vietnam_ligs2 {
 } lt_vietnam_ligs2;
 
 # 9.4 hooked coengs
-# 9.4.1 hook them
-#lookup no_hook_coengs {
-#    sub uni17D21783 by uni17D21783.alt;
-#    sub uni17D21783.low by uni17D21783.low.alt;
-#    sub uni17D2178317B6 by uni17D2178317B6.alt;
-#    sub uni17D2178317B6.low by uni17D2178317B6.low.alt;
-#    sub uni17D2178317C5.right by uni17D2178317C5.right.alt;
-#    sub uni17D2178317C5.rightlow by uni17D2178317C5.rightlow.alt;
-#    sub uni17D21788 by uni17D21788.alt;
-#    sub uni17D21788.low by uni17D21788.low.alt;
-#    sub uni17D2178817B6 by uni17D2178817B6.alt;
-#    sub uni17D2178817B6.low by uni17D2178817B6.low.alt;
-#    sub uni17D2178817C5.right by uni17D2178817C5.right.alt;
-#    sub uni17D2178817C5.rightlow by uni17D2178817C5.rightlow.alt;
-#    sub uni17D217A0 by uni17D217A0.alt;
-#    sub uni17D217A0.low by uni17D217A0.low.alt;
-#    sub uni17D217A2 by uni17D217A2.alt;
-#    sub uni17D217A2.low by uni17D217A2.low.alt;
-#} no_hook_coengs;
-
 # 9.4.2 unhook them
 lookup hooked_coengs {
     sub uni17D21783.alt by uni17D21783;
@@ -1012,11 +899,6 @@ lookup alt_ka {
 #lookup Tampuan_space {
 #    sub space by threeperemspace;
 #} Tampuan_space;
-
-# 9.11 Alternate 17D0 before -i vowel
-lookup Tampuan_17D0 {
-    sub uni17D0' uni17C7 by uni17D0.a;
-} Tampuan_17D0;
 
 # 9.12 standard latin ligatures
 lookup StandardLigs {
@@ -1246,71 +1128,29 @@ lookup lu_mark {
 } lu_mark;
 
 # Features
+feature pref {
+    script khmr;
+    language dflt;
+    lookup coeng_ro_primary;
+    # lookup belowcoeng_after_ro; # only works in harfbuzz and breaks windows/mac
+} pref;
+
 feature abvf {
     script khmr;
     language dflt;
     lookup above_form;
     lookup bad_vowels;
+    lookup precompose;
 } abvf;
 
-feature abvm {
+feature pres {
     script khmr;
     language dflt;
-    lookup ligatures;
-    lookup fix_shifter_zwnj;
-    lookup a_shifter_dia;
-    lookup raise_vowels_spacing_coengs;
-#    lookup shift_dia_C5;
-    lookup shift_dias;
-    lookup shift_dias_postcoeng;
-    lookup above_chain;
-
-    script latn;
-    language dflt;
-    lookup lu_attach;
-    lookup lu_mark;
-} abvm;
-
-feature abvs {
-    script khmr;
-    language dflt;
-    #lookup Muusikatoan_a;
-    lookup reg_shift_muusikatoan2;
-    #lookup reg_muusikatoan_post;
-    lookup reg_shift_triisap2;
-    lookup reg_robat_check;
-    lookup remove_200CD_RS;
-    lookup coeng_post_narrow_C6_C9;
-    lookup above_marks_narrow;
-    lookup narrow2wide;
-    lookup uni17CA_C6;
-    lookup Tampuan_17D0;
-} abvs;
-
-feature blwf {
-    script khmr;
-    language dflt;
-} blwf;
-
-feature blwm {
-    script khmr;
-    language dflt;
-    lookup u_attach;
-    lookup uc_attach;
-    lookup un_attach;
-    lookup urd0_attach;
-    lookup lr_attach;
-    lookup ln_attach;
-    lookup lc_medium;
-    lookup below_chain;
-    lookup ligature_centred;
-    lookup low2_vowel_ro_coeng_ro;
-
-    script latn;
-    language dflt;
-    lookup ll_attach;
-    lookup ll_mark;
-} blwm;
+    lookup coeng_ro_to;
+    lookup coeng_ro_BOLD;
+    lookup coeng_ro_long;
+    lookup coeng_ro_widefront;
+} pres;
 
 feature blws {
     script khmr;
@@ -1326,23 +1166,40 @@ feature blws {
     lookup uni1789_coeng1789;
     lookup uni1789_coeng1789_alt;
     lookup low_form_post_coeng;
+} blws;
+
+feature abvs {
+    script khmr;
+    language dflt;
+    lookup fix_shifter_zwnj;
     lookup final_coengs;
 #    lookup final_coengs_test;      # we want to allow vowels after final coengs
     lookup final_coengs_error;
     lookup final_coengs_error_dc;
-} blws;
+    #lookup Muusikatoan_a;
+    lookup reg_shift_muusikatoan2;
+    #lookup reg_muusikatoan_post;
+    lookup reg_shift_triisap2;
+    lookup reg_robat_check;
+    lookup remove_200CD_RS;
+    lookup shift_dias;
+    lookup shift_dias_postcoeng;
+    lookup coeng_post_narrow_C6_C9;
+    lookup above_marks_narrow;
+    lookup narrow2wide;
+    lookup uni17CA_C6;
+    lookup Tampuan_17D0;
+} abvs;
 
-feature ccmp {
+feature psts {
     script khmr;
     language dflt;
-    lookup precompose;
-} ccmp;
-
-feature cfar {
-    script khmr;
-    language dflt;
-    lookup belowcoeng_after_ro;
-} cfar;
+    lookup coeng_post;
+    lookup Post_base_forms;
+    lookup postsubst2;
+    lookup postsubst;
+    lookup low_form_post_coeng;
+} psts;
 
 feature clig {
     script khmr;
@@ -1358,46 +1215,6 @@ feature clig {
     lookup mark_errors;
 } clig;
 
-feature dist {
-    script khmr;
-    language dflt;
-    lookup kern_narrow1;
-    lookup kern_narrow2;
-    lookup kern_narrow3;
-    lookup kern_roto;
-    lookup kern_punctuation;
-} dist;
-
-feature pstf {
-    script khmr;
-    language dflt;
-} pstf;
-
-feature psts {
-    script khmr;
-    language dflt;
-    lookup coeng_post;
-    lookup Post_base_forms;
-    lookup postsubst2;
-    lookup postsubst;
-    lookup low_form_post_coeng;
-} psts;
-
-feature pref {
-    script khmr;
-    language dflt;
-    lookup coeng_ro_primary;
-} pref;
-
-feature pres {
-    script khmr;
-    language dflt;
-    lookup coeng_ro_to;
-    lookup coeng_ro_BOLD;
-    lookup coeng_ro_long;
-    lookup coeng_ro_widefront;
-} pres;
-
 feature liga {
     script khmr;
     language dflt;
@@ -1409,6 +1226,16 @@ feature liga {
     lookup lt_vietnam_ligs2;
     lookup StandardLigs;
 } liga;
+
+feature dist {
+    script khmr;
+    language dflt;
+    lookup kern_narrow1;
+    lookup kern_narrow2;
+    lookup kern_narrow3;
+    lookup kern_roto;
+    lookup kern_punctuation;
+} dist;
 
 feature ss01 {  # Stylistic Set 1
     featureNames { name 3 1 0x409 "Variant forms" ; };
@@ -1447,6 +1274,41 @@ feature ss05 {
     language dflt;
     lookup alt_ssa;
 } ss05;
+
+feature blwm {
+    script khmr;
+    language dflt;
+    lookup u_attach;
+    lookup uc_attach;
+    lookup un_attach;
+    lookup urd0_attach;
+    lookup lr_attach;
+    lookup ln_attach;
+    lookup lc_medium;
+    lookup below_chain;
+    lookup ligature_centred;
+    lookup low2_vowel_ro_coeng_ro;
+
+    script latn;
+    language dflt;
+    lookup ll_attach;
+    lookup ll_mark;
+} blwm;
+
+feature abvm {
+    script khmr;
+    language dflt;
+    lookup ligatures;
+    lookup a_shifter_dia;
+    lookup raise_vowels_spacing_coengs;
+#    lookup shift_dia_C5;
+    lookup above_chain;
+
+    script latn;
+    language dflt;
+    lookup lu_attach;
+    lookup lu_mark;
+} abvm;
 
 feature mark {
     script latn;

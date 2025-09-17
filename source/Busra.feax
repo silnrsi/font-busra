@@ -32,6 +32,7 @@
 @base_wide = [uni1783 uni1788 uni1789 uni1789.alt uni178D uni178E uni1799 uni179B uni179F uni17A0 uni17A1 uni17A6];
 @base_widefront = [uni1784 uni1786 uni178B uni1797 uni179A uni179C uni17A2 uni17A3 uni17A4 uni17AF];
 @below_coeng = [uni17D21780 uni17D21781 uni17D21782 uni17D21784 uni17D21785 uni17D21786 uni17D21787 uni17D21789 uni17D21789.alt1 uni17D21789.alt2 uni17D2178A uni17D2178B uni17D2178C uni17D2178E uni17D2178F uni17D21790 uni17D21791 uni17D21792 uni17D21793 uni17D21795 uni17D21796 uni17D21797 uni17D21798 uni17D2179B uni17D2179C uni17D2179D uni17D217A0 uni17D217A0.alt uni17D217A1.alt uni17D217A2 uni17D217A2.alt uni17D217A3 uni17D217A4 uni17D217A5 uni17D217A6 uni17D217A7 uni17D217A8 uni17D217A9 uni17D217AA uni17D217AB uni17D217AC uni17D217AD uni17D217AE uni17D217AF uni17D217B0 uni17D217B1 uni17D217B2 uni17D217B3];
+@below_coeng_nlow = [uni17D21780 uni17D21781 uni17D21782 uni17D21784 uni17D21785 uni17D21786 uni17D21787 uni17D21789 uni17D21789.alt1 uni17D21789.alt2 uni17D2178A uni17D2178B uni17D2178C uni17D2178E uni17D2178F uni17D21790 uni17D21791 uni17D21792 uni17D21793 uni17D21795 uni17D21796 uni17D21797 uni17D21798 uni17D2179B uni17D2179C uni17D2179D uni17D217A0 uni17D217A0.alt uni17D217A2 uni17D217A2.alt];
 @below_coeng_low = [uni17D21780.low uni17D21781.low uni17D21782.low uni17D21784.low uni17D21785.low uni17D21786.low uni17D21787.low uni17D21789.low uni17D21789.low uni17D21789.low uni17D2178A.low uni17D2178B.low uni17D2178C.low uni17D2178E.low uni17D2178F.low uni17D21790.low uni17D21791.low uni17D21792.low uni17D21793.low uni17D21795.low uni17D21796.low uni17D21797.low uni17D21798.low uni17D2179B.low uni17D2179C.low uni17D2179D.low uni17D217A0.low uni17D217A0.low.alt uni17D217A2.low uni17D217A2.low.alt];
 @below_coeng_low_medium = [uni17D21780.low uni17D21781.low uni17D21782.low uni17D21784.low uni17D21785.low uni17D21786.low uni17D21787.low uni17D2178A.low uni17D2178B.low uni17D2178C.low uni17D2178F.low uni17D21791.low uni17D21792.low uni17D21795.low uni17D21796.low uni17D21797.low uni17D21798.low uni17D2179B.low uni17D2179C.low uni17D2179D.low uni17D217A5 uni17D217A7 uni17D217A8 uni17D217AA uni17D217AB uni17D217AC uni17D217AD uni17D217AE uni17D217AF uni17D217B0 uni17D217B1 uni17D217B3];
 @below_coeng_medium = [uni17D21780 uni17D21781 uni17D21782 uni17D21784 uni17D21785 uni17D21786 uni17D21787 uni17D2178A uni17D2178B uni17D2178C uni17D2178F uni17D21791 uni17D21792 uni17D21795 uni17D21796 uni17D21797 uni17D21798 uni17D2179B uni17D2179C uni17D2179D uni17D217A5 uni17D217A7 uni17D217A8 uni17D217AA uni17D217AB uni17D217AC uni17D217AD uni17D217AE uni17D217AF uni17D217B0 uni17D217B1 uni17D217B3];
@@ -303,9 +304,10 @@ lookup action_low {
     sub uni17BC by uni17BC.low;
     sub uni17BD by uni17BD.low;
     sub uni17D2 by uni17D2.low;
+    sub @below_coeng_nlow by @below_coeng_low;
 } action_low;
 
-@low_belows = [uni17BB uni17BC uni17BD uni17D2];
+@low_belows = [uni17BB uni17BC uni17BD uni17D2 @below_coeng_nlow];
 
 lookup low_below_vowel {
     sub @low_belows' lookup action_low @coeng_no_ro;
@@ -318,6 +320,7 @@ lookup low_below_vowel {
     sub @base_low1 @low_belows' lookup action_low;
     sub @base_low1 @regshift_robat @low_belows' lookup action_low;
     sub @base_low2 @low_belows' lookup action_low;
+    sub @low_belows' lookup action_low uni17C0;
 } low_below_vowel;
 
 # 4.8 narrow below vowels and perhaps lower as well
@@ -1205,9 +1208,9 @@ feature clig {
     script khmr;
     language dflt;
     lookup Khnhom;
-    lookup PHSOM_triisap_am;
+    # lookup PHSOM_triisap_am;
     lookup a_ligatures;
-    lookup alig_shifter;
+    # lookup alig_shifter;
     lookup Laq;
     lookup punctuation1;
     lookup punctuation2;
@@ -1219,7 +1222,7 @@ feature liga {
     script khmr;
     language dflt;
     lookup a_ligatures;
-    lookup alig_shifter;
+    # lookup alig_shifter;
     script latn;
     language dflt;
     lookup lt_vietnam_ligs1;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17D21790" format="2">
-  <anchor x="-729" y="-630" name="LA"/>
-  <anchor x="-225" y="-630" name="LX"/>
+  <anchor x="-729" y="-710" name="LA"/>
+  <anchor x="-225" y="-710" name="LX"/>
   <anchor x="-729" y="0" name="_LC"/>
   <anchor x="-245" y="0" name="_LR"/>
   <anchor x="-225" y="0" name="_LX"/>

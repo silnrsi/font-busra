@@ -27,42 +27,6 @@
       <string>CursFeatureWriter</string>
     </dict>
   </array>
-  <key>com.schriftgestaltung.Glyphs.fontUserData</key>
-  <dict>
-    <key>co.uk.corvelsoftware.Dotter</key>
-    <dict>
-      <key>alternateLayerName</key>
-      <string>&lt;null&gt;</string>
-      <key>dotSize</key>
-      <integer>15</integer>
-      <key>dotSpacing</key>
-      <integer>15</integer>
-      <key>endCap</key>
-      <string>round</string>
-      <key>joinType</key>
-      <string>round</string>
-      <key>preventOverlaps</key>
-      <integer>1</integer>
-      <key>removeExternal</key>
-      <integer>0</integer>
-      <key>removeInternal</key>
-      <integer>0</integer>
-      <key>segmentWise</key>
-      <integer>0</integer>
-      <key>splitPaths</key>
-      <integer>0</integer>
-      <key>startCap</key>
-      <string>round</string>
-      <key>strokerAngle</key>
-      <integer>0</integer>
-      <key>strokerHeight</key>
-      <integer>50</integer>
-      <key>strokerHeightLock</key>
-      <integer>1</integer>
-      <key>strokerWidth</key>
-      <integer>50</integer>
-    </dict>
-  </dict>
   <key>com.schriftgestaltung.appVersion</key>
   <string>3337</string>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>

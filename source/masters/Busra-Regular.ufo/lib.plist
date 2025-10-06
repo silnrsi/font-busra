@@ -23,6 +23,8 @@
       <string>CursFeatureWriter</string>
     </dict>
   </array>
+  <key>com.schriftgestaltung.Glyphs.fontUserData</key>
+  <dict/>
   <key>com.schriftgestaltung.appVersion</key>
   <string>3337</string>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -951,8 +953,6 @@
     <string>sidebearingleft</string>
     <string>sidebearingright</string>
     <string>.notdef</string>
-    <string>.null</string>
-    <string>nonmarkingreturn</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>

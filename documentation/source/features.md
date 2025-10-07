@@ -57,12 +57,12 @@ Alternate | <span class='busra-R normal' style='font-feature-settings: "ss04" 1'
 
 This feature gives an alternate form of ssa+aa ligature used in minority languages.
 
-<span class='affects'>Affects: U+179E 17B6,  U+179E 17C5</span>
+<span class='affects'>Affects: U+179E U+17B6,  U+179E U+17C5</span>
 
 Feature        | Sample | Feature setting
 :------------- | :--------------- | :-------------
-Standard | <span class="busra-R normal">&#179E;&#x17B6; &#x179E;&#x17C5;</span>| `ssf=0`
-Alternate | <span class="busra-R normal" style='font-feature-settings: "ss05" 1'>&#179E;&#x17B6; &#x179E;&#x17C5;</span>| `ss05=1`
+Standard | <span class="busra-R normal">&#x179E;&#x17B6; &#x179E;&#x17C5;</span>| `ss05=0`
+Alternate | <span class="busra-R normal" style='font-feature-settings: "ss05" 1'>&#x179E;&#x17B6; &#x179E;&#x17C5;</span>| `ss05=1`
 
 <!-- PRODUCT SITE ONLY
 [font id='busra' face='Busra-Regular' size='150%']

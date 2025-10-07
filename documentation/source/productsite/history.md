@@ -7,6 +7,7 @@ Busra is based on an earlier font that is part of a larger package of Khmer scri
 - OpenType fixes for particular character sequences
 - Improved diacritic positioning
 - Redesigned Coeng CHA
+- New `ss05` feature for alternate form of ssa+aa ligature
 
 ### 7 February 2025 (SIL WSTech Team) Busra version 9.000
 - The font family is now called "Busra" so it and the old "Khmer Busra" can be installed at the same time.

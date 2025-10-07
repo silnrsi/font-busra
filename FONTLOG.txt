@@ -10,7 +10,7 @@ The Busra fonts (https://software.sil.org/busra/) provide Unicode support for la
 
 ## ChangeLog
 
-### 8 October 2025 (SIL WSTech Team) Busra version 9.100
+### 7 October 2025 (SIL WSTech Team) Busra version 9.100
 - OpenType fixes for particular character sequences
 - Improved diacritic positioning
 - Redesigned Coeng CHA

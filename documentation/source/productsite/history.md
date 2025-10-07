@@ -3,7 +3,7 @@ Busra is based on an earlier font that is part of a larger package of Khmer scri
 
 ## Change history
 
-### 8 October 2025 (SIL WSTech Team) Busra version 9.100
+### 7 October 2025 (SIL WSTech Team) Busra version 9.100
 - OpenType fixes for particular character sequences
 - Improved diacritic positioning
 - Redesigned Coeng CHA

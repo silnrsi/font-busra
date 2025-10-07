@@ -8,6 +8,7 @@ We're pleased to announce the release of Busra version 9.100—an updated versio
 - OpenType fixes for particular character sequences
 - Improved diacritic positioning
 - Redesigned Coeng CHA
+- New `ss05` feature for alternate form of ssa+aa ligature
 
 Busra is available from the Busra Download Page  (https://software.sil.org/busra/download/)
 

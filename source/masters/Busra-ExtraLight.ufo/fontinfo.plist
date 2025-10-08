@@ -152,7 +152,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL Global: Busra ExtraLight: 2025</string>
   <key>openTypeNameVersion</key>
-  <string>Version 9.100</string>
+  <string>Version 9.180</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -308,7 +308,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>9</integer>
   <key>versionMinor</key>
-  <integer>100</integer>
+  <integer>180</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

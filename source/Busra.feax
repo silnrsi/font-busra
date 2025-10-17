@@ -291,6 +291,17 @@ lookup coeng_below {
     sub uni17D2 uni17B3 by uni17D217B3;
 } coeng_below;
 
+# 1.3 Convert post base coeng sequences to glyphs
+lookup coeng_post {
+    sub uni17D2 uni1783 by uni17D21783.alt;
+    sub uni17D2 uni1788 by uni17D21788.alt;
+    sub uni17D2 uni178D by uni17D2178D;
+    sub uni17D2 uni1794 by uni17D21794;
+    sub uni17D2 uni1799 by uni17D21799;
+    sub uni17D2 uni179E by uni17D2179E;
+    sub uni17D2 uni179F by uni17D2179F;
+} coeng_post;
+
 # 4.10 1789 loses its under bit in some contexts
 lookup uni1789 {
     lookupflag MarkAttachmentType @below_coeng;
@@ -589,17 +600,6 @@ lookup Tampuan_17D0 {
 
 
 # feature: psts
-
-# 1.3 Convert post base coeng sequences to glyphs
-lookup coeng_post {
-    sub uni17D2 uni1783 by uni17D21783.alt;
-    sub uni17D2 uni1788 by uni17D21788.alt;
-    sub uni17D2 uni178D by uni17D2178D;
-    sub uni17D2 uni1794 by uni17D21794;
-    sub uni17D2 uni1799 by uni17D21799;
-    sub uni17D2 uni179E by uni17D2179E;
-    sub uni17D2 uni179F by uni17D2179F;
-} coeng_post;
 
 # 3.1 Insert dotted circles for bad vowel sequences
 # 3.2 Break apart split vowels, right part
@@ -1163,6 +1163,7 @@ feature blws {
 #    lookup fix_final_coengs;
 #    lookup fix_final_coengs2;
     lookup coeng_below;
+    lookup coeng_post;
     lookup low_below_vowel;
     lookup below_marks_narrow;
     lookup uni1789;
@@ -1197,7 +1198,6 @@ feature abvs {
 feature psts {
     script khmr;
     language dflt;
-    lookup coeng_post;
     lookup Post_base_forms;
     lookup postsubst2;
     lookup postsubst;

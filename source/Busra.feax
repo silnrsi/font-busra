@@ -32,6 +32,7 @@
 @base_wide = [uni1783 uni1788 uni1789 uni1789.alt uni178D uni178E uni1799 uni179B uni179F uni17A0 uni17A1 uni17A6];
 @base_widefront = [uni1784 uni1786 uni178B uni1797 uni179A uni179C uni17A2 uni17A3 uni17A4 uni17AF];
 @below_coeng = [uni17D21780 uni17D21781 uni17D21782 uni17D21784 uni17D21785 uni17D21786 uni17D21787 uni17D21789 uni17D21789.alt1 uni17D21789.alt2 uni17D2178A uni17D2178B uni17D2178C uni17D2178E uni17D2178F uni17D21790 uni17D21791 uni17D21792 uni17D21793 uni17D21795 uni17D21796 uni17D21797 uni17D21798 uni17D2179B uni17D2179C uni17D2179D uni17D217A0 uni17D217A0.alt uni17D217A1.alt uni17D217A2 uni17D217A2.alt uni17D217A3 uni17D217A4 uni17D217A5 uni17D217A6 uni17D217A7 uni17D217A8 uni17D217A9 uni17D217AA uni17D217AB uni17D217AC uni17D217AD uni17D217AE uni17D217AF uni17D217B0 uni17D217B1 uni17D217B2 uni17D217B3];
+@base_below_coeng = [uni1780 uni1781 uni1782 uni1784 uni1785 uni1786 uni1787 uni1789 uni178A uni178B uni178C uni178E uni178F uni1790 uni1791 uni1792 uni1793 uni1795 uni1796 uni1797 uni1798 uni179B uni179C uni179D uni17A0 uni17A1 uni17A2 uni17A3 uni17A4 uni17A5 uni17A6 uni17A7 uni17A8 uni17A9 uni17AA uni17AB uni17AC uni17AD uni17AE uni17AF uni17B0 uni17B1 uni17B2 uni17B3];
 @below_coeng_nlow = [uni17D21780 uni17D21781 uni17D21782 uni17D21784 uni17D21785 uni17D21786 uni17D21787 uni17D21789 uni17D21789.alt1 uni17D21789.alt2 uni17D2178A uni17D2178B uni17D2178C uni17D2178E uni17D2178F uni17D21790 uni17D21791 uni17D21792 uni17D21793 uni17D21795 uni17D21796 uni17D21797 uni17D21798 uni17D2179B uni17D2179C uni17D2179D uni17D217A0 uni17D217A0.alt uni17D217A2 uni17D217A2.alt];
 @below_coeng_low = [uni17D21780.low uni17D21781.low uni17D21782.low uni17D21784.low uni17D21785.low uni17D21786.low uni17D21787.low uni17D21789.low uni17D21789.low uni17D21789.low uni17D2178A.low uni17D2178B.low uni17D2178C.low uni17D2178E.low uni17D2178F.low uni17D21790.low uni17D21791.low uni17D21792.low uni17D21793.low uni17D21795.low uni17D21796.low uni17D21797.low uni17D21798.low uni17D2179B.low uni17D2179C.low uni17D2179D.low uni17D217A0.low uni17D217A0.low.alt uni17D217A2.low uni17D217A2.low.alt];
 @below_coeng_low_medium = [uni17D21780.low uni17D21781.low uni17D21782.low uni17D21784.low uni17D21785.low uni17D21786.low uni17D21787.low uni17D2178A.low uni17D2178B.low uni17D2178C.low uni17D2178F.low uni17D21791.low uni17D21792.low uni17D21795.low uni17D21796.low uni17D21797.low uni17D21798.low uni17D2179B.low uni17D2179C.low uni17D2179D.low uni17D217A5 uni17D217A7 uni17D217A8 uni17D217AA uni17D217AB uni17D217AC uni17D217AD uni17D217AE uni17D217AF uni17D217B0 uni17D217B1 uni17D217B3];
@@ -219,9 +220,10 @@ lookup coeng_ro_to {
 
 # 5.2.2 other cases of low coeng ro
 lookup coeng_ro_BOLD {
-    sub uni17D2179A' @base_medium @below_coeng @below_vowel_low_wide by uni17D2179A.low;
-    sub uni17D2179A' @base_medium @regshift @below_coeng @below_vowel_low_wide by uni17D2179A.low;
-    sub uni17D2179A' @base_medium @below_coeng @regshift @below_vowel_low_wide by uni17D2179A.low;
+    sub uni17D2179A' [@base_medium @base_narrow] uni17D2 @base_below_coeng by uni17D2179A.low;
+    sub uni17D2179A' [@base_medium @base_narrow] uni17D2 @base_below_coeng @below_vowel_low_wide by uni17D2179A.low;
+    sub uni17D2179A' [@base_medium @base_narrow] @regshift uni17D2 @base_below_coeng @below_vowel_low_wide by uni17D2179A.low;
+    sub uni17D2179A' [@base_medium @base_narrow] uni17D2 @base_below_coeng @regshift @below_vowel_low_wide by uni17D2179A.low;
 } coeng_ro_BOLD;
 
 # 5.2.3 low wide coeng ro
@@ -321,8 +323,8 @@ lookup action_low {
 @low_belows = [uni17BB uni17BC uni17BD uni17D2 @below_coeng_nlow];
 
 lookup low_below_vowel {
-    sub @low_belows' lookup action_low @coeng_no_ro;
-    sub @coeng_no_ro @low_belows' lookup action_low;
+#    sub @low_belows' lookup action_low @coeng_no_ro;
+#    sub @coeng_no_ro @low_belows' lookup action_low;
     sub @coeng_no_ro @regshift @low_belows' lookup action_low;
     sub uni1789 @low_belows' lookup action_low;
     sub uni1789 @regshift_robat @low_belows' lookup action_low;

@@ -4,9 +4,9 @@
   <guideline x="-145"/>
   <anchor x="-604" y="-1216" name="LA"/>
   <anchor x="-225" y="-1216" name="LX"/>
-  <anchor x="-604" y="-670" name="_LC"/>
-  <anchor x="-245" y="-670" name="_LR"/>
-  <anchor x="-225" y="-670" name="_LX"/>
+  <anchor x="-604" y="0" name="_LC"/>
+  <anchor x="-245" y="0" name="_LR"/>
+  <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <component base="_loopInstroke" yScale="-1" xOffset="-595" yOffset="-1376"/>
     <component base="_loopInstroke" yScale="-1" xOffset="-1073" yOffset="-1376"/>

@@ -4,9 +4,9 @@
   <guideline x="-246"/>
   <anchor x="-600" y="-1220" name="LA"/>
   <anchor x="-225" y="-1220" name="LX"/>
-  <anchor x="-600" y="-670" name="_LC"/>
-  <anchor x="-245" y="-670" name="_LR"/>
-  <anchor x="-225" y="-670" name="_LX"/>
+  <anchor x="-600" y="0" name="_LC"/>
+  <anchor x="-245" y="0" name="_LR"/>
+  <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <contour>
       <point x="-637" y="-898" type="line"/>

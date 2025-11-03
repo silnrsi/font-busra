@@ -2,9 +2,9 @@
 <glyph name="uni17D217A2.low.alt" format="2">
   <anchor x="-623" y="-1240" name="LA"/>
   <anchor x="-193" y="-1240" name="LX"/>
-  <anchor x="-623" y="-670" name="_LC"/>
-  <anchor x="-245" y="-670" name="_LR"/>
-  <anchor x="-225" y="-670" name="_LX"/>
+  <anchor x="-623" y="0" name="_LC"/>
+  <anchor x="-245" y="0" name="_LR"/>
+  <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <component base="_loopInstroke" yScale="-1" xOffset="-651" yOffset="-1384"/>
     <component base="_loopInstroke" yScale="-1" xOffset="-1113" yOffset="-1384"/>

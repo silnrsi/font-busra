@@ -2,9 +2,9 @@
 <glyph name="uni17D217A0.low" format="2">
   <anchor x="-758" y="-1239" name="LA"/>
   <anchor x="-188" y="-1239" name="LX"/>
-  <anchor x="-758" y="-670" name="_LC"/>
-  <anchor x="-245" y="-670" name="_LR"/>
-  <anchor x="-225" y="-670" name="_LX"/>
+  <anchor x="-758" y="0" name="_LC"/>
+  <anchor x="-245" y="0" name="_LR"/>
+  <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <contour>
       <point x="-1294" y="-1027" type="curve" smooth="yes"/>

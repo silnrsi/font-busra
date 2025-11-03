@@ -2,9 +2,9 @@
 <glyph name="uni17D217A2.low" format="2">
   <anchor x="-639" y="-1240" name="LA"/>
   <anchor x="-183" y="-1240" name="LX"/>
-  <anchor x="-639" y="-670" name="_LC"/>
-  <anchor x="-245" y="-670" name="_LR"/>
-  <anchor x="-225" y="-670" name="_LX"/>
+  <anchor x="-639" y="0" name="_LC"/>
+  <anchor x="-245" y="0" name="_LR"/>
+  <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <component base="_subL.ear" xOffset="-623" yOffset="-569"/>
     <component base="_subL.ear" xOffset="-1116" yOffset="-569"/>

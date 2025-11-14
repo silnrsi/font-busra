@@ -330,10 +330,9 @@ lookup low_below_vowel {
     sub uni1789 @regshift_robat @low_belows' lookup action_low;
     sub uni17D2179A @base_narrow @low_belows' lookup action_low;
     sub uni17D2179A @base_narrow @regshift_robat @low_belows' lookup action_low;
-    sub @base_low1 @low_belows' lookup action_low;
-    sub @base_low1 @regshift_robat @low_belows' lookup action_low;
-    sub @base_low2 @low_belows' lookup action_low;
-    sub @low_belows' lookup action_low uni17C0;
+#    sub @base_low1 @low_belows' lookup action_low;
+#    sub @base_low1 @regshift_robat @low_belows' lookup action_low;
+#    sub @base_low2 @low_belows' lookup action_low;
 } low_below_vowel;
 
 # 4.8 narrow below vowels and perhaps lower as well
@@ -620,16 +619,19 @@ lookup postsubst2 {
     sub @base_low1 @coeng_no_ro @postsubst' by @postsubst_low2;
     sub uni17D2179A @base_narrow @coeng_no_ro @postsubst' by @postsubst_low2;
     sub @base_no_NA_no_low @coeng_tall @postsubst' by @postsubst_low2;
+    sub @below_coeng_low @postsubst' by @postsubst_low2;
 } postsubst2;
 
 # 4.9.1 low forms of split vowel rhs
 lookup postsubst {
     lookupflag MarkAttachmentType @below_coeng;
+    ignore sub uni178E @below_coeng @postsubst';
     sub uni1789 @postsubst' by @postsubst_low;
     sub @base_low1 @postsubst' by @postsubst_low;
     sub @base_low2 @postsubst' by @postsubst_low;
     sub @base_no_NA_no_low @coeng_no_ro @postsubst' by @postsubst_low;
     sub uni17D2179A @base_narrow @postsubst' by @postsubst_low;
+    sub @below_coeng @postsubst' by @postsubst_low;
 } postsubst;
 
 # 7.3 low form of post coeng

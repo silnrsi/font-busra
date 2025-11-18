@@ -128,7 +128,7 @@ lookup insert_dotted_circle {
     sub uni17D2 by dottedcircle uni17D2;
     sub uni17CC by dottedcircle uni17CC;
     sub uni17D0 by dottedcircle uni17D0;
-    sub uni17D2179A by dottedcircle uni17D2179A;
+    sub uni17D2 by dottedcircle uni17D2;
 } insert_dotted_circle;
 
 # feature: pref
@@ -196,6 +196,7 @@ do  forlet l = optlist("uni17CC", ["uni17D2 @base_cons", "uni17D2 @base_cons"], 
     sub uni17D2 @base_cons uni17CC' lookup insert_dotted_circle;
     ignore sub [@base_cons dottedcircle] uni17CC';
     sub uni17CC' lookup insert_dotted_circle;
+    sub uni1791 uni17D2' lookup insert_dotted_circle uni1794';
 } bad_vowels;
 
 # 3.2 Break split vowels, upper component

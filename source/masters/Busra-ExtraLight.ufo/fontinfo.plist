@@ -80,7 +80,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2025/11/03 14:53:41</string>
+  <string>2025/11/24 14:37:22</string>
   <key>openTypeHheaAscender</key>
   <integer>2500</integer>
   <key>openTypeHheaDescender</key>
@@ -152,7 +152,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL Global: Busra ExtraLight: 2025</string>
   <key>openTypeNameVersion</key>
-  <string>Version 9.180</string>
+  <string>Version 9.200</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -308,7 +308,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>9</integer>
   <key>versionMinor</key>
-  <integer>180</integer>
+  <integer>200</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

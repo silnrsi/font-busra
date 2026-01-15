@@ -1,6 +1,6 @@
 ---
 title: Busra - Version History
-fontversion: 9.200
+fontversion: 9.280
 ---
 
 Busra is based on an earlier font that is part of a larger package of Khmer script fonts called Mondulkiri. Earlier forms of Busra were called “Khmer Mondulkiri book” and “Khmer Busra”. Significant changes exist between the earlier versions and this Busra release:

@@ -8,7 +8,7 @@
   <anchor x="693" y="1580" name="UR"/>
   <outline>
     <component base="_L.ear" xOffset="62"/>
-    <component base="_stemloop" xScale="-1" xOffset="590"/>
     <component base="_stemSm" xOffset="240" yOffset="480"/>
+    <component base="_stemloopDownReversed" xOffset="5"/>
   </outline>
 </glyph>

@@ -14,11 +14,11 @@
   <anchor x="2338" y="1236" name="zxc1"/>
   <outline>
     <component base="_m" xOffset="198"/>
-    <component base="_stemloop" xOffset="200"/>
-    <component base="_stemloop" xScale="-1" xOffset="1298"/>
+    <component base="_stemloopDown" xOffset="200"/>
     <component base="_stemSm" xOffset="1550" yOffset="414"/>
     <component base="_diagonalSharp" xOffset="1091"/>
     <component base="_bulgeArch" xOffset="1373"/>
     <component base="_stemLg" xOffset="2225"/>
+    <component base="_stemloopDownReversed" xOffset="713"/>
   </outline>
 </glyph>

@@ -10,7 +10,7 @@
   <outline>
     <component base="_curve" yScale="-1" xOffset="195" yOffset="1114"/>
     <component base="_stemMd" xOffset="943"/>
-    <component base="_stemloop" xOffset="195"/>
+    <component base="_stemloopDown" xOffset="195"/>
     <contour>
       <point x="451" y="982" type="curve"/>
       <point x="501" y="1052" type="line"/>

@@ -13,7 +13,7 @@
     <component base="_stemMd" xOffset="1390" yOffset="199"/>
     <component base="_stemMd" xOffset="200" yOffset="469"/>
     <component base="_L.ear" xOffset="1812"/>
-    <component base="_stemloop" xOffset="200"/>
+    <component base="_stemloopDown" xOffset="200"/>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="195" yOffset="1440"/>
     <component base="_curveNarrowforBold" xOffset="790"/>
     <component base="_stemMd" xOffset="795" yOffset="329"/>

@@ -14,7 +14,7 @@
   <anchor x="2194" y="1236" name="zxc1"/>
   <outline>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="195" yOffset="1440"/>
-    <component base="_stemloop" xOffset="200"/>
+    <component base="_stemloopDown" xOffset="200"/>
     <component base="_stemSm" xOffset="200" yOffset="648"/>
     <component base="_curveNarrowforBold" xOffset="790"/>
     <component base="_stemMd" xOffset="795" yOffset="385"/>

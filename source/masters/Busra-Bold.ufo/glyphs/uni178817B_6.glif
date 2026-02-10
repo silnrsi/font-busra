@@ -18,7 +18,7 @@
     <component base="_stemMd" xOffset="762" yOffset="329"/>
     <component base="_stemSm" xOffset="2037" yOffset="376"/>
     <component base="_stemMd" xOffset="162" yOffset="469"/>
-    <component base="_stemloop" xOffset="200" yOffset="20"/>
+    <component base="_stemloopDown" xOffset="200"/>
     <component base="_bulgeArch" xOffset="1868"/>
     <component base="_stemLg" xOffset="2787"/>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="125" yOffset="1440"/>

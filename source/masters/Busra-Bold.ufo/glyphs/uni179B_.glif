@@ -9,7 +9,7 @@
   <anchor x="1762" y="1580" name="UR"/>
   <outline>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="125" yOffset="1440"/>
-    <component base="_stemloop" xOffset="200" yOffset="20"/>
+    <component base="_stemloopDown" xOffset="200"/>
     <component base="_L.ear" xOffset="1193"/>
     <component base="_stemSm" xOffset="162" yOffset="648"/>
     <component base="_curveNarrowforBold" xOffset="725"/>

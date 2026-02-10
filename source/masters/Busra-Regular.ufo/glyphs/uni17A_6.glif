@@ -8,7 +8,7 @@
   <anchor x="1159" y="1960" name="UN"/>
   <anchor x="1763" y="1960" name="UR"/>
   <outline>
-    <component base="_stemloop" xOffset="195"/>
+    <component base="_stemloopDown" xOffset="195"/>
     <component base="_loopInstroke" xScale="-1" yScale="-1" xOffset="833" yOffset="-862"/>
     <component base="_stemLg" xOffset="943"/>
     <component base="_R.earLarge" xOffset="1302"/>

@@ -8,7 +8,7 @@
   <anchor x="1950" y="1580" name="UR"/>
   <outline>
     <component base="_m" xOffset="160"/>
-    <component base="_stemloop" xOffset="200"/>
+    <component base="_stemloopDown" xOffset="200"/>
     <component base="_stemMd" xOffset="912"/>
     <component base="uni17B6" xOffset="1388"/>
   </outline>

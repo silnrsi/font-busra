@@ -4,7 +4,7 @@
   <unicode hex="17C1"/>
   <outline>
     <component base="_L.ear" xOffset="22"/>
-    <component base="_stemloop" xOffset="200"/>
+    <component base="_stemloopDown" xOffset="200"/>
     <component base="_stemSm" xOffset="200" yOffset="480"/>
   </outline>
 </glyph>

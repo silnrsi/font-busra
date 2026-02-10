@@ -13,7 +13,7 @@
   <anchor x="2511" y="1580" name="UR_2"/>
   <anchor x="2246" y="1236" name="zxc1"/>
   <outline>
-    <component base="_stemloop" xOffset="200"/>
+    <component base="_stemloopDown" xOffset="200"/>
     <component base="_stemMd" xOffset="762"/>
     <component base="_stemMd" xOffset="1362"/>
     <component base="_stemSm" xOffset="162" yOffset="423"/>

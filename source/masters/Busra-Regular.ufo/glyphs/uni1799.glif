@@ -8,13 +8,13 @@
   <anchor x="1115" y="1580" name="UN"/>
   <anchor x="1763" y="1580" name="UR"/>
   <outline>
-    <component base="_stemloop" yScale="-1" xOffset="195" yOffset="1440"/>
     <component base="_L.ear" xOffset="702"/>
     <component base="_L.ear" xOffset="1302"/>
     <component base="_curveShort.extra" xOffset="875"/>
     <component base="_stemSm" xOffset="195" yOffset="321"/>
-    <component base="_stemMd" xOffset="1475" yOffset="212"/>
-    <component base="_stemMd" xOffset="875" yOffset="212"/>
+    <component base="_stemMd" xOffset="1475" yOffset="192"/>
+    <component base="_stemMd" xOffset="875" yOffset="192"/>
+    <component base="_stemloopUpReversed" xOffset="195"/>
     <contour>
       <point x="729" y="0" type="curve" smooth="yes"/>
       <point x="946" y="0"/>

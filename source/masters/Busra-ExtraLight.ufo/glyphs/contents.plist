@@ -224,8 +224,14 @@
   <string>_stemS_m.glif</string>
   <key>_stemSub</key>
   <string>_stemS_ub.glif</string>
-  <key>_stemloop</key>
-  <string>_stemloop.glif</string>
+  <key>_stemloopDown</key>
+  <string>_stemloopD_own.glif</string>
+  <key>_stemloopDownReversed</key>
+  <string>_stemloopD_ownR_eversed.glif</string>
+  <key>_stemloopUp</key>
+  <string>_stemloopU_p.glif</string>
+  <key>_stemloopUpReversed</key>
+  <string>_stemloopU_pR_eversed.glif</string>
   <key>_subL.ear</key>
   <string>_subL_.ear.glif</string>
   <key>_subarch</key>

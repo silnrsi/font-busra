@@ -7,8 +7,8 @@
   <anchor x="427" y="1840" name="UC"/>
   <anchor x="696" y="1840" name="UR"/>
   <outline>
-    <component base="_stemloop" xScale="-1" xOffset="590"/>
     <component base="_stemSm" xOffset="240" yOffset="470"/>
     <component base="_R.earLarge" xOffset="60"/>
+    <component base="_stemloopDownReversed" xOffset="5"/>
   </outline>
 </glyph>

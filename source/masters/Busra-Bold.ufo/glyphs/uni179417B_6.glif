@@ -16,7 +16,7 @@
     <component base="_curve" xOffset="162"/>
     <component base="_stemSm" xOffset="912" yOffset="-150"/>
     <component base="_stemMd" xOffset="162" yOffset="294"/>
-    <component base="_stemMd" xOffset="912" yOffset="202"/>
+    <component base="_stemMd" xOffset="912" yOffset="259"/>
     <component base="_mArch"/>
     <component base="_stemLg" xOffset="1662"/>
   </outline>

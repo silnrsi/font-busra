@@ -9,7 +9,7 @@
   <anchor x="1312" y="1580" name="UR"/>
   <outline>
     <component base="_m" xOffset="160"/>
-    <component base="_stemloop" xOffset="200" yOffset="20"/>
+    <component base="_stemloopDown" xOffset="200"/>
     <component base="_stemMd" xOffset="912"/>
   </outline>
 </glyph>

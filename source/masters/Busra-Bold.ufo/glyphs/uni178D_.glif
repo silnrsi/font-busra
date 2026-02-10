@@ -10,9 +10,9 @@
   <outline>
     <component base="_m" xOffset="160"/>
     <component base="_L.ear" xOffset="1493"/>
-    <component base="_stemloop" xOffset="200" yOffset="19"/>
-    <component base="_stemloop" xScale="-1" xOffset="1375" yOffset="24"/>
+    <component base="_stemloopDown" xOffset="200" yOffset="-1"/>
     <component base="_stemSm" xOffset="1662" yOffset="384"/>
     <component base="_diagonalSharp" xOffset="1151"/>
+    <component base="_stemloopDownReversed" xOffset="727"/>
   </outline>
 </glyph>

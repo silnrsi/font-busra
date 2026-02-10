@@ -15,7 +15,7 @@
   <outline>
     <component base="_curve" yScale="-1" xOffset="162" yOffset="1114"/>
     <component base="_stemMd" xOffset="912"/>
-    <component base="_stemloop" xOffset="200"/>
+    <component base="_stemloopDown" xOffset="200"/>
     <component base="_mArch"/>
     <component base="_stemLg" xOffset="1662"/>
   </outline>

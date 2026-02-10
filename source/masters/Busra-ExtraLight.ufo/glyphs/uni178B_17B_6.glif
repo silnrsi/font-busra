@@ -16,6 +16,6 @@
   <outline>
     <component base="uni178B"/>
     <component base="_stemLg" xOffset="1665"/>
-    <component base="_topArchshort" xOffset="1049"/>
+    <component base="_topArchshort" xOffset="1049" yOffset="5"/>
   </outline>
 </glyph>

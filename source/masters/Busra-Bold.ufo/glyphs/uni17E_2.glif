@@ -4,7 +4,7 @@
   <unicode hex="17E2"/>
   <outline>
     <component base="_m" xOffset="535"/>
-    <component base="_stemloop" xOffset="575" yOffset="506"/>
+    <component base="_stemloopDown" xOffset="575" yOffset="506"/>
     <contour>
       <point x="1687" y="732" type="line"/>
       <point x="1387" y="725" type="line"/>

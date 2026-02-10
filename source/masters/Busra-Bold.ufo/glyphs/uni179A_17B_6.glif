@@ -13,7 +13,7 @@
   <outline>
     <component base="_stemLg" xOffset="950"/>
     <component base="_bulgeArch" xOffset="31"/>
-    <component base="_stemloop" xScale="-1" xOffset="662" yOffset="23"/>
     <component base="_stemSm" xOffset="200" yOffset="440"/>
+    <component base="_stemloopDownReversed" xOffset="15"/>
   </outline>
 </glyph>

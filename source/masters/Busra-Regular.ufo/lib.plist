@@ -26,7 +26,14 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3337</string>
+  <string>3436</string>
+  <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+  <array>
+    <string>/_mArch/uni178017B6/uni178517B6/uni178617B6/uni178F17B6/uni179217B6/uni179417B6/uni179717B6/uni178617C5.right 
+/_smoke/uni1780/uni1785/uni1786/uni178F/uni1792/uni1797/_smoke2</string>
+    <string>/uni1780/_stemloopDown/_stemloopUp/uni1780.alt/uni178017B6/uni178017B6.alt/uni178017C5.right/uni178017C5.right.alt/uni1782/uni178217B6/uni178217C5.right/_smoke/uni1785/_mArch/uni178517B6/uni178517C5.right/uni1786/uni178617B6/uni178617C5.right/_squirreltail/uni1787/uni178717B6/uni178717C5.right/uni178F/uni178F17B6/uni178F17C5.right/uni1790/uni179017B6/uni179017C5.right/uni1792/uni179217B6/uni179217C5.right/uni179417B6/uni179417C5.right/uni179F/uni1795/uni179517B6/uni179517C5.right/uni1797/uni179717B6/uni179717C5.right/uni179D/uni179D17B6/uni179D17C5.right/uni179E17B6/uni179E17C5.right/uni179F/uni179F17B6/uni179F17C5.right/uni17A5</string>
+    <string>/_stemloopDown/_stemloopDownReversed/_stemloopUp/_stemloopUpReversed/uni1780.alt/uni178017B6.alt/uni1785/uni178517B6/uni1786/uni178617B6/uni1788/uni178817B6/uni1789.alt/uni178D/uni178D17B6/uni178E/uni178F/uni178F17B6/uni1790/uni179F/uni1792/_stemMd/uni179217B6/uni1795/uni1796/uni1799/uni179917B6/uni179A/uni179A17B6/uni179B/uni179B17B6/uni179C/uni179F/uni179F17B6/uni17A2/uni17A217B6/uni17A5/uni17A6/uni17C1/uni17E2/uni17E3/uni17E7</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>

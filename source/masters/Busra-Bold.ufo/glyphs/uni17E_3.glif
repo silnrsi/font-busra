@@ -3,7 +3,7 @@
   <advance width="1950"/>
   <unicode hex="17E3"/>
   <outline>
-    <component base="_stemloop" xOffset="88"/>
+    <component base="_stemloopDown" xOffset="88"/>
     <component base="_curveShort.extra" yScale="-1" xOffset="50" yOffset="1440"/>
     <component base="_curveShort.extra" yScale="-1" xOffset="725" yOffset="1440"/>
     <component base="_stemLg" xOffset="725"/>

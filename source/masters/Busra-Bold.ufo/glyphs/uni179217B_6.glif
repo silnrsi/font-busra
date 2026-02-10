@@ -14,9 +14,9 @@
   <anchor x="1818" y="1236" name="zxc1"/>
   <outline>
     <component base="_w" xOffset="162"/>
-    <component base="_stemloop" xScale="-1" yScale="-1" xOffset="1374" yOffset="957"/>
     <component base="_stemMd" xOffset="162" yOffset="294"/>
     <component base="_mArch"/>
     <component base="_stemLg" xOffset="1661"/>
+    <component base="_stemloopUp" xOffset="707"/>
   </outline>
 </glyph>

@@ -11,7 +11,7 @@
   <outline>
     <component base="_w" xOffset="200"/>
     <component base="_instroke" xOffset="-25" yOffset="-526"/>
-    <component base="_stemSm" xOffset="950" yOffset="378"/>
+    <component base="_stemSm" xOffset="950" yOffset="348"/>
     <component base="_stemSm" xOffset="200" yOffset="201"/>
     <contour>
       <point x="782" y="890" type="curve" smooth="yes"/>

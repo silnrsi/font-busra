@@ -11,8 +11,8 @@
     <component base="_stemMd" xOffset="762"/>
     <component base="_stemMd" xOffset="1362"/>
     <component base="_stemSm" xOffset="162" yOffset="423"/>
-    <component base="_curveShort" yScale="-1" xOffset="162" yOffset="1123"/>
-    <component base="_curveShort" yScale="-1" xOffset="762" yOffset="1119"/>
+    <component base="_curveShort" yScale="-1" xOffset="162" yOffset="1114"/>
+    <component base="_curveShort" yScale="-1" xOffset="762" yOffset="1110"/>
     <contour>
       <point x="276" y="910" type="curve"/>
       <point x="325" y="1004" type="line"/>

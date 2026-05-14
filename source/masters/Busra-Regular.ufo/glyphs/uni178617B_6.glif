@@ -14,7 +14,7 @@
   <anchor x="1784" y="1236" name="zxc1"/>
   <outline>
     <component base="_mArch" xOffset="103"/>
-    <component base="_stemMd" xOffset="235" yOffset="241"/>
+    <component base="_stemMd" xOffset="235" yOffset="222"/>
     <component base="_diagonal" xOffset="305"/>
     <component base="_stemLg" xOffset="1711"/>
     <component base="_stemloopUp" xOffset="756"/>

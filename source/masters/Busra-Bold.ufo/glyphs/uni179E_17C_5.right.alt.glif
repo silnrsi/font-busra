@@ -13,7 +13,7 @@
   <anchor x="2062" y="1580" name="UR_2"/>
   <outline>
     <component base="uni179E17B6.alt"/>
-    <component base="_R.ear" xOffset="1592"/>
+    <component base="_R.ear" xOffset="1582"/>
   </outline>
   <lib>
     <dict>

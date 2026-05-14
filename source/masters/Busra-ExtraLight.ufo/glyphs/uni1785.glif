@@ -10,7 +10,7 @@
   <outline>
     <component base="_curve" xOffset="200"/>
     <component base="_smoke" xOffset="-13"/>
-    <component base="_stemMd" xOffset="200" yOffset="241"/>
+    <component base="_stemMd" xOffset="200" yOffset="231"/>
     <component base="_stemloopUp" xOffset="700"/>
   </outline>
 </glyph>

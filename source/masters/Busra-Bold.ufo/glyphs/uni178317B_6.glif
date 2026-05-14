@@ -21,6 +21,6 @@
     <component base="_stemSm" xOffset="1550" yOffset="376"/>
     <component base="_stemLg" xOffset="2300"/>
     <component base="_bulgeArch" xOffset="1381"/>
-    <component base="_stemMd" xOffset="875" yOffset="210"/>
+    <component base="_stemMd" xOffset="875" yOffset="208"/>
   </outline>
 </glyph>

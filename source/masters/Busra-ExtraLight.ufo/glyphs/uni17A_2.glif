@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni17A2" format="2">
-  <advance width="1448"/>
+  <advance width="1409"/>
   <unicode hex="17A2"/>
   <anchor x="762" y="0" name="LC"/>
-  <anchor x="1203" y="0" name="LR"/>
+  <anchor x="1165" y="0" name="LR"/>
   <anchor x="762" y="1580" name="UC"/>
   <anchor x="762" y="1580" name="UN"/>
   <anchor x="1203" y="1580" name="UR"/>
   <outline>
     <component base="_L.ear" xOffset="62"/>
-    <component base="_L.ear" xOffset="742"/>
+    <component base="_L.ear" xOffset="737"/>
     <component base="_horizontal" xOffset="300" yOffset="40"/>
     <component base="_stemSm" xOffset="240" yOffset="500"/>
-    <component base="_stemSm" xOffset="920" yOffset="500"/>
+    <component base="_stemSm" xOffset="915" yOffset="500"/>
     <component base="_stemloopDownReversed" xOffset="5"/>
-    <component base="_stemloopDownReversed" xOffset="685"/>
+    <component base="_stemloopDownReversed" xOffset="680"/>
   </outline>
 </glyph>

@@ -15,7 +15,7 @@
   <outline>
     <component base="_L.ear" xOffset="702"/>
     <component base="_curveShort.extra" xOffset="875"/>
-    <component base="_stemSm" xOffset="195" yOffset="321"/>
+    <component base="_stemSm" xOffset="195" yOffset="371"/>
     <component base="_stemMd" xOffset="1475" yOffset="202"/>
     <component base="_stemMd" xOffset="875" yOffset="192"/>
     <component base="_bulgeArch" xOffset="1303"/>

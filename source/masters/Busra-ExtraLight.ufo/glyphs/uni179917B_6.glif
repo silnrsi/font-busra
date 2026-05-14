@@ -15,31 +15,31 @@
   <outline>
     <component base="_L.ear" xOffset="697"/>
     <component base="_curveShort.extra" xOffset="875"/>
-    <component base="_stemSm" xOffset="195" yOffset="321"/>
+    <component base="_stemSm" xOffset="200" yOffset="321"/>
     <component base="_stemMd" xOffset="1475" yOffset="212"/>
     <component base="_stemMd" xOffset="875" yOffset="202"/>
     <component base="_bulgeArch" xOffset="1298"/>
     <component base="_stemLg" xOffset="2150"/>
-    <component base="_stemloopUpReversed" xOffset="180"/>
+    <component base="_stemloopUpReversed" xOffset="185"/>
     <contour>
-      <point x="710" y="0" type="curve" smooth="yes"/>
-      <point x="918" y="0"/>
+      <point x="713" y="0" type="curve" smooth="yes"/>
+      <point x="919" y="0"/>
       <point x="1125" y="59"/>
       <point x="1125" y="176" type="curve" smooth="yes"/>
       <point x="1125" y="446" type="line"/>
       <point x="975" y="446" type="line"/>
       <point x="975" y="180" type="line" smooth="yes"/>
       <point x="975" y="122"/>
-      <point x="843" y="92"/>
-      <point x="710" y="92" type="curve" smooth="yes"/>
-      <point x="578" y="92"/>
-      <point x="445" y="122"/>
-      <point x="445" y="180" type="curve" smooth="yes"/>
-      <point x="445" y="446" type="line"/>
-      <point x="295" y="446" type="line"/>
-      <point x="295" y="176" type="line" smooth="yes"/>
-      <point x="295" y="59"/>
-      <point x="503" y="0"/>
+      <point x="844" y="92"/>
+      <point x="713" y="92" type="curve" smooth="yes"/>
+      <point x="581" y="92"/>
+      <point x="450" y="122"/>
+      <point x="450" y="180" type="curve" smooth="yes"/>
+      <point x="450" y="446" type="line"/>
+      <point x="300" y="446" type="line"/>
+      <point x="300" y="176" type="line" smooth="yes"/>
+      <point x="300" y="59"/>
+      <point x="506" y="0"/>
     </contour>
   </outline>
   <lib>

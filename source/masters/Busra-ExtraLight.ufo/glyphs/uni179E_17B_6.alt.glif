@@ -19,7 +19,7 @@
     <component base="_eyelash" xOffset="733" yOffset="1"/>
     <component base="_stemLg" xOffset="1625"/>
     <component base="_bulgeArch" xOffset="773"/>
-    <component base="_stemMd" xOffset="200" yOffset="210"/>
+    <component base="_stemMd" xOffset="200" yOffset="200"/>
   </outline>
   <lib>
     <dict>

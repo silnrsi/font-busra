@@ -13,9 +13,9 @@
   <anchor x="2100" y="1580" name="UR_2"/>
   <anchor x="1863" y="1236" name="zxc1"/>
   <outline>
-    <component base="_curve" yScale="-1" xOffset="200" yOffset="1124"/>
+    <component base="_curve" yScale="-1" xOffset="200" yOffset="1114"/>
     <component base="_stemMd" xOffset="950"/>
-    <component base="_instroke" yScale="-1" xOffset="-27" yOffset="1440"/>
+    <component base="_instroke" yScale="-1" xOffset="-25" yOffset="1440"/>
     <component base="_stemSm" xOffset="200" yOffset="370"/>
     <component base="_mArch" xOffset="38"/>
     <component base="_stemLg" xOffset="1700"/>

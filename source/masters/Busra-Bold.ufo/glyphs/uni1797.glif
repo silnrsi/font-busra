@@ -9,7 +9,7 @@
   <anchor x="1349" y="1580" name="UR"/>
   <outline>
     <component base="_smoke" xOffset="35"/>
-    <component base="_curve" yScale="-1" xOffset="200" yOffset="1124"/>
+    <component base="_curve" yScale="-1" xOffset="200" yOffset="1114"/>
     <component base="_stemMd" xOffset="950"/>
     <component base="_instroke" yScale="-1" xOffset="-27" yOffset="1440"/>
     <component base="_stemSm" xOffset="200" yOffset="370"/>

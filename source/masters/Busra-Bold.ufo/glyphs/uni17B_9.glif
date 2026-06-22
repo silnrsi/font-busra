@@ -7,6 +7,6 @@
   <anchor x="-225" y="1580" name="_UX"/>
   <outline>
     <component base="uni17B7"/>
-    <component base="uni17C6" xScale="0.77378" yScale="0.77378" xOffset="310" yOffset="496"/>
+    <component base="uni17C6" xScale="0.77378" yScale="0.77378" xOffset="322" yOffset="496"/>
   </outline>
 </glyph>

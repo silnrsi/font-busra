@@ -7,47 +7,30 @@
   <anchor x="-225" y="1580" name="_UX"/>
   <outline>
     <component base="uni17B7"/>
+    <component base="_R.ear" xScale="0.8233" xyScale="-0.07203" yxScale="0.07203" yScale="0.8233" xOffset="-536" yOffset="619"/>
     <contour>
-      <point x="-298" y="1694" type="curve"/>
-      <point x="-229" y="1605" type="line"/>
-      <point x="-126" y="1703"/>
-      <point x="-49" y="1826"/>
-      <point x="-49" y="1965" type="curve" smooth="yes"/>
-      <point x="-49" y="2073"/>
-      <point x="-96" y="2185"/>
-      <point x="-187" y="2185" type="curve" smooth="yes"/>
-      <point x="-233" y="2185"/>
-      <point x="-275" y="2149"/>
-      <point x="-275" y="2097" type="curve" smooth="yes"/>
-      <point x="-275" y="2014"/>
-      <point x="-208" y="2019"/>
-      <point x="-208" y="1904" type="curve" smooth="yes"/>
-      <point x="-208" y="1812"/>
-      <point x="-253" y="1754"/>
-    </contour>
-    <contour>
-      <point x="-502" y="1934" type="curve"/>
-      <point x="-396" y="1845" type="line"/>
-      <point x="-359" y="1909"/>
-      <point x="-336" y="1980"/>
-      <point x="-336" y="2055" type="curve" smooth="yes"/>
-      <point x="-336" y="2163"/>
-      <point x="-383" y="2275"/>
-      <point x="-474" y="2275" type="curve" smooth="yes"/>
-      <point x="-520" y="2275"/>
-      <point x="-562" y="2239"/>
-      <point x="-562" y="2187" type="curve" smooth="yes"/>
-      <point x="-562" y="2104"/>
-      <point x="-495" y="2109"/>
-      <point x="-495" y="1994" type="curve" smooth="yes"/>
-      <point x="-495" y="1972"/>
-      <point x="-498" y="1952"/>
+      <point x="-512" y="1912" type="curve"/>
+      <point x="-426" y="1845" type="line"/>
+      <point x="-389" y="1909"/>
+      <point x="-366" y="1980"/>
+      <point x="-366" y="2055" type="curve" smooth="yes"/>
+      <point x="-366" y="2163"/>
+      <point x="-443" y="2275"/>
+      <point x="-534" y="2275" type="curve" smooth="yes"/>
+      <point x="-580" y="2275"/>
+      <point x="-618" y="2249"/>
+      <point x="-618" y="2197" type="curve" smooth="yes"/>
+      <point x="-618" y="2114"/>
+      <point x="-491" y="2089"/>
+      <point x="-491" y="2004" type="curve" smooth="yes"/>
+      <point x="-491" y="1961"/>
+      <point x="-504" y="1930"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CPP</string>
+      <string>CCP</string>
     </dict>
   </lib>
 </glyph>

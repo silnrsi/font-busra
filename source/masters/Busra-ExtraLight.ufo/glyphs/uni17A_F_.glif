@@ -8,7 +8,7 @@
   <anchor x="801" y="1840" name="UN"/>
   <anchor x="1271" y="1840" name="UR"/>
   <outline>
-    <component base="_instroke" xOffset="8" yOffset="-544"/>
+    <component base="_instroke" xOffset="8" yOffset="-454"/>
     <component base="_w" xOffset="235"/>
     <component base="_stemSm" xOffset="990" yOffset="433"/>
     <component base="_stemSm" xOffset="240" yOffset="180"/>

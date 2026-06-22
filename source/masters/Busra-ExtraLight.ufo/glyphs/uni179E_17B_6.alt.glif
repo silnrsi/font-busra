@@ -16,7 +16,7 @@
     <component base="_L.ear" xOffset="22"/>
     <component base="_curve" xOffset="200"/>
     <component base="_stemSm" xOffset="950" yOffset="396"/>
-    <component base="_eyelash" xOffset="733" yOffset="1"/>
+    <component base="_eyelash" xOffset="733" yOffset="-52"/>
     <component base="_stemLg" xOffset="1625"/>
     <component base="_bulgeArch" xOffset="773"/>
     <component base="_stemMd" xOffset="200" yOffset="200"/>

@@ -2,7 +2,7 @@
 <glyph name="_uni17B9.ms.narrowhigh" format="2">
   <outline>
     <component base="_uni17B7.ms.narrowhigh" xOffset="-4" yOffset="-1"/>
-    <component base="uni17C6" xScale="0.77378" yScale="0.77378" xOffset="482" yOffset="800"/>
+    <component base="uni17C6" xScale="0.77378" yScale="0.77378" xOffset="485" yOffset="800"/>
   </outline>
   <lib>
     <dict>

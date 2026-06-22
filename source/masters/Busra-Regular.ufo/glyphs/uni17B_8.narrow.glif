@@ -6,32 +6,6 @@
   <anchor x="-225" y="1580" name="_UX"/>
   <outline>
     <component base="uni17B7.narrow"/>
-    <contour>
-      <point x="-337" y="1748" type="curve"/>
-      <point x="-248" y="1628" type="line"/>
-      <point x="-220" y="1655"/>
-      <point x="-150" y="1833"/>
-      <point x="-150" y="1971" type="curve" smooth="yes"/>
-      <point x="-150" y="2089"/>
-      <point x="-212" y="2191"/>
-      <point x="-310" y="2191" type="curve" smooth="yes"/>
-      <point x="-363" y="2191"/>
-      <point x="-400" y="2151"/>
-      <point x="-400" y="2102" type="curve" smooth="yes"/>
-      <point x="-400" y="2074"/>
-      <point x="-387" y="2043"/>
-      <point x="-358" y="2016" type="curve" smooth="yes"/>
-      <point x="-325" y="1985"/>
-      <point x="-310" y="1960"/>
-      <point x="-310" y="1883" type="curve" smooth="yes"/>
-      <point x="-310" y="1844"/>
-      <point x="-315" y="1796"/>
-    </contour>
+    <component base="_R.ear" xScale="0.82645" yScale="0.82645" xOffset="-482" yOffset="603"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CP</string>
-    </dict>
-  </lib>
 </glyph>

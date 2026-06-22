@@ -7,7 +7,7 @@
   <anchor x="-225" y="0" name="_LX"/>
   <outline>
     <component base="uni17D21780"/>
-    <component base="_eyelash" xScale="0.81451" yScale="0.81451" xOffset="-667" yOffset="-1060"/>
+    <component base="_eyelash" xScale="0.81451" yScale="0.81451" xOffset="-706" yOffset="-1080"/>
     <contour>
       <point x="-883" y="-710" type="line"/>
       <point x="-848" y="-580"/>

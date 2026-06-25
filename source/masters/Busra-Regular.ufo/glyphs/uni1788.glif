@@ -10,13 +10,13 @@
   <outline>
     <component base="_L.ear" xOffset="1222"/>
     <component base="_curveShort.extra" xOffset="1395"/>
-    <component base="_stemMd" xOffset="1395" yOffset="199"/>
+    <component base="_stemMd" xOffset="1395" yOffset="196"/>
     <component base="_stemMd" xOffset="195" yOffset="469"/>
     <component base="_L.ear" xOffset="1822"/>
     <component base="_stemloopDown" xOffset="195"/>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="195" yOffset="1440"/>
     <component base="_curveNarrowforBold" xOffset="795"/>
     <component base="_stemMd" xOffset="795" yOffset="329"/>
-    <component base="_stemMd" xOffset="1995" yOffset="199"/>
+    <component base="_stemMd" xOffset="1995" yOffset="196"/>
   </outline>
 </glyph>

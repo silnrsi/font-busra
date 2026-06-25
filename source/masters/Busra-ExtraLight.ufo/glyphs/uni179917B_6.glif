@@ -16,7 +16,7 @@
     <component base="_L.ear" xOffset="697"/>
     <component base="_curveShort.extra" xOffset="875"/>
     <component base="_stemSm" xOffset="200" yOffset="321"/>
-    <component base="_stemMd" xOffset="1475" yOffset="212"/>
+    <component base="_stemMd" xOffset="1475" yOffset="201"/>
     <component base="_stemMd" xOffset="875" yOffset="202"/>
     <component base="_bulgeArch" xOffset="1298"/>
     <component base="_stemLg" xOffset="2150"/>

@@ -23,6 +23,6 @@
     <component base="_stemLg" xOffset="2723"/>
     <component base="_curveNarrowforBold" yScale="-1" xOffset="195" yOffset="1440"/>
     <component base="_curveNarrowforBold" xOffset="795"/>
-    <component base="_stemMd" xOffset="1395" yOffset="199"/>
+    <component base="_stemMd" xOffset="1395" yOffset="196"/>
   </outline>
 </glyph>

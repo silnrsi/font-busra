@@ -12,7 +12,7 @@
     <component base="_curveNarrowforBold" xOffset="195"/>
     <component base="_L.ear" xOffset="22"/>
     <component base="_stemMd" xOffset="795" yOffset="350"/>
-    <component base="_stemMd" xOffset="200" yOffset="210"/>
+    <component base="_stemMd" xOffset="200" yOffset="201"/>
     <component base="_stemLg" xOffset="1390"/>
   </outline>
 </glyph>

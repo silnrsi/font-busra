@@ -17,6 +17,6 @@
     <component base="_curveNarrowforBold" yScale="-1" xOffset="125" yOffset="1440"/>
     <component base="_curveNarrowforBold" xOffset="725"/>
     <component base="_stemMd" xOffset="762" yOffset="359"/>
-    <component base="_stemMd" xOffset="2037" yOffset="210"/>
+    <component base="_stemMd" xOffset="2037" yOffset="209"/>
   </outline>
 </glyph>

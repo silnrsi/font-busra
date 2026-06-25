@@ -11,7 +11,7 @@
     <component base="_L.ear" xOffset="22"/>
     <component base="_curve" xOffset="195"/>
     <component base="_L.ear" xOffset="770"/>
-    <component base="_stemMd" xOffset="195" yOffset="199"/>
-    <component base="_stemMd" xOffset="943" yOffset="199"/>
+    <component base="_stemMd" xOffset="195" yOffset="197"/>
+    <component base="_stemMd" xOffset="943" yOffset="197"/>
   </outline>
 </glyph>

@@ -10,6 +10,6 @@
   <anchor x="1270" y="2240" name="UR"/>
   <outline>
     <component base="uni17B1.alt"/>
-    <component base="_R.ear" xScale="0.70107" yScale="0.78697" xOffset="925" yOffset="690"/>
+    <component base="_R.ear" xScale="0.70107" yScale="0.78697" xOffset="937" yOffset="702"/>
   </outline>
 </glyph>

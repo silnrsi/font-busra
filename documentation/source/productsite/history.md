@@ -3,6 +3,9 @@ Busra is based on an earlier font that is part of a larger package of Khmer scri
 
 ## Change history
 
+### 4 July 2026 (SIL WSTech Team) Busra version 9.300
+- Minor improvements to glyph shapes
+
 ### 24 November 2025 (SIL WSTech Team) Busra version 9.200
 - OpenType fixes for particular character sequences
 

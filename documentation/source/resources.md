@@ -1,6 +1,6 @@
 ---
 title: Busra - Resources
-fontversion: 9.280
+fontversion: 9.300
 ---
 
 ## Requirements

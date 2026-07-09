@@ -47,7 +47,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="BusraNew" filename="instances/BusraNew-ExtraLight.ufo" name="BusraNew ExtraLight" stylemapfamilyname="BusraNew ExtraLight" stylemapstylename="regular" stylename="ExtraLight" postscriptfontname="BusraNew-ExtraLight">
+        <instance familyname="Busra New Test A" filename="instances/BusraNewTestA-ExtraLight.ufo" name="Busra New Test A ExtraLight" stylemapfamilyname="Busra New Test A ExtraLight" stylemapstylename="regular" stylename="ExtraLight" postscriptfontname="BusraNewTestA-ExtraLight">
             <location>
                 <dimension name="weight" xvalue="150.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -56,7 +56,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="BusraNew" filename="instances/BusraNew-Light.ufo" name="BusraNew Light" stylemapfamilyname="BusraNew Light" stylemapstylename="regular" stylename="Light" postscriptfontname="BusraNew-Light">
+        <instance familyname="Busra New Test A" filename="instances/BusraNewTestA-Light.ufo" name="Busra New Test A Light" stylemapfamilyname="Busra New Test A Light" stylemapstylename="regular" stylename="Light" postscriptfontname="BusraNewTestA-Light">
             <location>
                 <dimension name="weight" xvalue="168.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -65,7 +65,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="BusraNew" filename="instances/BusraNew-Regular.ufo" name="BusraNew Regular" stylemapfamilyname="BusraNew Regular" stylemapstylename="regular" stylename="Regular" postscriptfontname="BusraNew-Regular">
+        <instance familyname="Busra New Test A" filename="instances/BusraNewTestA-Regular.ufo" name="Busra New Test A Regular" stylemapfamilyname="Busra New Test A Regular" stylemapstylename="regular" stylename="Regular" postscriptfontname="BusraNewTestA-Regular">
             <location>
                 <dimension name="weight" xvalue="188.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -74,7 +74,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="BusraNew" filename="instances/BusraNew-Medium.ufo" name="BusraNew Medium" stylemapfamilyname="BusraNew Medium" stylemapstylename="regular" stylename="Medium" postscriptfontname="BusraNew-Medium">
+        <instance familyname="Busra New Test A" filename="instances/BusraNewTestA-Medium.ufo" name="Busra New Test A Medium" stylemapfamilyname="Busra New Test A Medium" stylemapstylename="regular" stylename="Medium" postscriptfontname="BusraNewTestA-Medium">
             <location>
                 <dimension name="weight" xvalue="225.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -83,7 +83,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="BusraNew" filename="instances/BusraNew-SemiBold.ufo" name="BusraNew SemiBold" stylemapfamilyname="BusraNew SemiBold" stylemapstylename="regular" stylename="SemiBold" postscriptfontname="BusraNew-SemiBold">
+        <instance familyname="Busra New Test A" filename="instances/BusraNewTestA-SemiBold.ufo" name="Busra New Test A SemiBold" stylemapfamilyname="Busra New Test A SemiBold" stylemapstylename="regular" stylename="SemiBold" postscriptfontname="BusraNewTestA-SemiBold">
             <location>
                 <dimension name="weight" xvalue="260.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -92,7 +92,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="BusraNew" filename="instances/BusraNew-Bold.ufo" name="BusraNew Bold" stylemapfamilyname="BusraNew" stylemapstylename="bold" stylename="Bold" postscriptfontname="BusraNew-Bold">
+        <instance familyname="Busra New Test A" filename="instances/BusraNewTestA-Bold.ufo" name="Busra New Test A Bold" stylemapfamilyname="Busra New Test A" stylemapstylename="bold" stylename="Bold" postscriptfontname="BusraNewTestA-Bold">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />

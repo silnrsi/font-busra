@@ -7,7 +7,8 @@ Busra is based on an earlier font that is part of a larger package of Khmer scri
 
 ## Change history
 
-### 4 July 2026 (SIL WSTech Team) Busra version 9.300
+### 9 July 2026 (SIL WSTech Team) Busra version 9.300
+_This release remembers and honors the work of Busra's original designer, Didi Kanjahn, who worked tirelessly for decades to improve the lives of those who use the Khmer and related scripts, and who recently passed away._
 - Minor improvements to glyph shapes
 
 ### 24 November 2025 (SIL WSTech Team) Busra version 9.200
